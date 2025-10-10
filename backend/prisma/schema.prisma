@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  Int                   @id @default(autoincrement())
+  email               String                @unique
+  password            String
+  name                String
+  createdAt           DateTime              @default(now())
+  attempts            Attempt[]
+  failedQuestions     UserFailedQuestion[]
+}
+
+model Question {
+  id              Int                   @id @default(autoincrement())
+  subjectCode     String
+  subjectName     String
+  topicNumber     Int
+  topicTitle      String
+  text            String
+  options         Json
+  correctAnswer   String
+  explanation     String
+  failedCount     Int                   @default(0)
+  failedBy        UserFailedQuestion[]
+}
+
+model Attempt {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  subjectCode String
+  topicNumber Int?
+  score       Int
+  answeredAt  DateTime @default(now())
+  answers     Json
+  user        User     @relation(fields: [userId], references: [id])
+}
+
+model UserFailedQuestion {
+  userId     Int
+  questionId Int
+  user       User     @relation(fields: [userId], references: [id])
+  question   Question @relation(fields: [questionId], references: [id])
+
+  @@id([userId, questionId])
+}

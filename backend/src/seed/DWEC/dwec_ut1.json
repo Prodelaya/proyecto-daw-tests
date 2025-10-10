@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Introducción al Desarrollo Web en Entorno Cliente",
+          "questions": [
+            {
+              "text": "En una tienda online de Barcelona, los picos del viernes por la tarde saturan el servicio. ¿Qué decisión mejora la capacidad para atender más usuarios sin rehacer la app?",
+              "options": [
+                "Añadir más servidores detrás de un balanceador para escalar",
+                "Quitar imágenes de la home para aligerar",
+                "Activar el modo mantenimiento hasta que pase el pico",
+                "Migrar todo a un único servidor más potente"
+              ],
+              "correctAnswer": "Añadir más servidores detrás de un balanceador para escalar",
+              "explanation": "Escalado horizontal: añades instancias y un balanceador reparte peticiones. Soporta picos sin tocar código ni crear un único punto débil."
+            },
+            {
+              "text": "¿Qué describe mejor el modelo cliente-servidor en la web?",
+              "options": [
+                "El cliente realiza una solicitud y el servidor responde",
+                "La comunicación se basa siempre en conexiones punto a punto sin protocolo",
+                "Ambos ejecutan exactamente el mismo código",
+                "El servidor envía datos solo cuando el cliente está inactivo"
+              ],
+              "correctAnswer": "El cliente realiza una solicitud y el servidor responde",
+              "explanation": "Patrón request–response: el cliente pide recursos/servicios mediante HTTP y el servidor procesa y responde."
+            },
+            {
+              "text": "Un portal educativo tiene estudiantes en México y España con quejas de lentitud. ¿Qué opción reduce la latencia percibida?",
+              "options": [
+                "Desactivar la caché del navegador",
+                "Distribuir servidores o puntos de presencia en regiones cercanas a los usuarios",
+                "Aumentar el tamaño de las imágenes a calidad máxima",
+                "Forzar a todos a conectarse al servidor de Madrid"
+              ],
+              "correctAnswer": "Distribuir servidores o puntos de presencia en regiones cercanas a los usuarios",
+              "explanation": "Acercar el contenido al usuario (CDN/edge/regions) reduce RTT y mejora tiempos de carga."
+            },
+            {
+              "text": "Un medio digital sufre una caída total al fallar su servidor principal. ¿Qué debió considerarse para evitar el “punto único de fallo”?",
+              "options": [
+                "Usar contraseñas más largas",
+                "Cambiar el dominio por uno más corto",
+                "Pasar de HTTP a FTP",
+                "Redundancia y conmutación por error entre varios servidores"
+              ],
+              "correctAnswer": "Redundancia y conmutación por error entre varios servidores",
+              "explanation": "Alta disponibilidad: varias réplicas y failover automático evitan que una caída tumbe el servicio."
+            },
+            {
+              "text": "¿Qué protocolo estandarizado se usa típicamente en la comunicación web entre cliente y servidor?",
+              "options": [
+                "SFTP",
+                "SMTP",
+                "SSH",
+                "HTTP"
+              ],
+              "correctAnswer": "HTTP",
+              "explanation": "HTTP/HTTPS es el protocolo de aplicación de la web para transportar solicitudes y respuestas."
+            },
+            {
+              "text": "Un portal de administración electrónica recibe muchas operaciones simultáneas de registro. ¿Cómo repartirías el trabajo para mantener tiempos de respuesta?",
+              "options": [
+                "Cerrar el portal en horario de máxima demanda",
+                "Un único servidor con CPU al 100%",
+                "Almacenar formularios en cada dispositivo del ciudadano",
+                "Distribuir carga entre varios servidores y procesos"
+              ],
+              "correctAnswer": "Distribuir carga entre varios servidores y procesos",
+              "explanation": "Balanceo + múltiples workers/instancias mantiene la latencia estable bajo concurrencia."
+            },
+            {
+              "text": "¿Qué ventaja aporta la centralización de recursos en el servidor?",
+              "options": [
+                "Permitir que el navegador ejecute la lógica de negocio crítica",
+                "Eliminar la necesidad de autenticación",
+                "Facilitar mantenimiento y reducir redundancias en clientes",
+                "Evitar cualquier latencia de red"
+              ],
+              "correctAnswer": "Facilitar mantenimiento y reducir redundancias en clientes",
+              "explanation": "Gestionar lógica y datos en el servidor evita replicar cambios en miles de clientes."
+            },
+            {
+              "text": "Si el servidor no está disponible, ¿qué consecuencia directa sufre el modelo cliente-servidor?",
+              "options": [
+                "El navegador asume automáticamente la lógica del servidor",
+                "Los clientes no acceden a recursos ni servicios alojados",
+                "El cliente puede seguir operando con todos los recursos",
+                "El DNS genera respuestas en su lugar"
+              ],
+              "correctAnswer": "Los clientes no acceden a recursos ni servicios alojados",
+              "explanation": "Sin backend disponible no hay procesamiento ni datos centrales; el servicio se interrumpe."
+            },
+            {
+              "text": "Una startup con presupuesto ajustado evalúa su infraestructura. ¿Qué riesgo operativo debe vigilar si concentra todo en un único servidor?",
+              "options": [
+                "Duplicidad de sesiones",
+                "Exceso de almacenamiento en caché del cliente",
+                "Cuellos de botella y punto único de fallo",
+                "Usuarios con diferentes navegadores"
+              ],
+              "correctAnswer": "Cuellos de botella y punto único de fallo",
+              "explanation": "Un solo nodo limita capacidad y si cae, para todo. Es un SPOF clásico."
+            },
+            {
+              "text": "¿Qué característica facilita que los usuarios tengan siempre mejoras y parches sin tocar cada dispositivo?",
+              "options": [
+                "Actualizaciones aplicadas centralmente en el servidor",
+                "Guardado local en el navegador",
+                "Compresión GZIP en el cliente",
+                "Autocompletado en formularios"
+              ],
+              "correctAnswer": "Actualizaciones aplicadas centralmente en el servidor",
+              "explanation": "Desplegar en servidor hace que todos los clientes obtengan la versión actual al cargar."
+            },
+            {
+              "text": "Un ecommerce prevé el “Black Friday”. ¿Qué medida de capacidad es coherente con el modelo?",
+              "options": [
+                "Forzar recargas completas del DOM en cada clic",
+                "Desactivar pagos en tarjeta en horas punta",
+                "Aumentar instancias de servidor y balancear solicitudes",
+                "Bajar la resolución de todas las fotos a 200 px"
+              ],
+              "correctAnswer": "Aumentar instancias de servidor y balancear solicitudes",
+              "explanation": "Escalado horizontal + balanceo absorbe picos de tráfico manteniendo la disponibilidad."
+            },
+            {
+              "text": "En el ciclo solicitud-respuesta, ¿qué ocurre tras recibir el servidor una solicitud válida?",
+              "options": [
+                "Se almacena la solicitud en el navegador por defecto",
+                "El cliente ejecuta la lógica de negocio",
+                "La red entrega directamente el archivo al usuario",
+                "El servidor la procesa y genera una respuesta"
+              ],
+              "correctAnswer": "El servidor la procesa y genera una respuesta",
+              "explanation": "El backend interpreta la petición, ejecuta lógica/accede a datos y devuelve la respuesta."
+            },
+            {
+              "text": "Una app municipal quiere disponibilidad continua. ¿Qué práctica se alinea con la arquitectura?",
+              "options": [
+                "Cerrar el servicio por la noche",
+                "Balanceo y réplica entre centros de datos",
+                "Un único servidor con discos locales",
+                "Sustituir HTTPS por HTTP para acelerar"
+              ],
+              "correctAnswer": "Balanceo y réplica entre centros de datos",
+              "explanation": "Multizona/multicentro con réplicas y balanceo mejora resiliencia y continuidad."
+            },
+            {
+              "text": "Una empresa con usuarios en Asia reporta lentitud desde Madrid. ¿Qué cambio es más eficaz?",
+              "options": [
+                "Forzar caché a 0 en los navegadores",
+                "Mover todo a un portátil potente",
+                "Desplegar servidores o CDN cercanos a Asia",
+                "Aumentar el número de peticiones por segundo del cliente"
+              ],
+              "correctAnswer": "Desplegar servidores o CDN cercanos a Asia",
+              "explanation": "Reducir distancia física disminuye latencia de red y mejora tiempos de respuesta."
+            },
+            {
+              "text": "¿Qué desventaja es inherente a la comunicación en red del modelo?",
+              "options": [
+                "Imposibilidad de autenticar usuarios",
+                "Dificultad para versionar código",
+                "Falta de escalabilidad horizontal",
+                "Latencia por envío y recepción a través de la red"
+              ],
+              "correctAnswer": "Latencia por envío y recepción a través de la red",
+              "explanation": "Siempre hay RTT y ancho de banda finito; no se puede eliminar la latencia, solo mitigar."
+            },
+            {
+              "text": "Un proveedor de API quiere controlar quién accede a sus recursos. ¿Dónde implementar autenticación y autorización?",
+              "options": [
+                "En el servidor antes de procesar las solicitudes",
+                "Solo en el navegador",
+                "En el DNS del dominio",
+                "En el router del usuario"
+              ],
+              "correctAnswer": "En el servidor antes de procesar las solicitudes",
+              "explanation": "El backend valida credenciales y permisos antes de ejecutar lógica o tocar datos."
+            },
+            {
+              "text": "“Distribuir el trabajo entre varios servidores para mejorar respuesta”. ¿A qué concepto se refiere?",
+              "options": [
+                "Minificación de código",
+                "Distribución de carga",
+                "Persistencia local",
+                "Prefetch de recursos"
+              ],
+              "correctAnswer": "Distribución de carga",
+              "explanation": "Load balancing reparte peticiones entre instancias para evitar saturaciones."
+            },
+            {
+              "text": "Para minimizar impacto de fallos de hardware, ¿qué combinación encaja?",
+              "options": [
+                "Aumentar tamaño de las cookies",
+                "Cifrado en el cliente y logs locales",
+                "Desactivar TLS en horas valle",
+                "Redundancia + recuperación ante desastres"
+              ],
+              "correctAnswer": "Redundancia + recuperación ante desastres",
+              "explanation": "HA + DR: réplicas, copias y planes de recuperación reducen tiempo e impacto de caídas."
+            },
+            {
+              "text": "Una consultora quiere compartir archivos entre sedes sin depender de un único equipo de un empleado. ¿Qué planteamiento cuadra?",
+              "options": [
+                "Almacenarlos en un portátil y enviarlos por email",
+                "Subirlos al navegador de cada usuario",
+                "Pegarlos en un chat corporativo sin control",
+                "Servirlos desde un servidor accesible por los clientes autorizados"
+              ],
+              "correctAnswer": "Servirlos desde un servidor accesible por los clientes autorizados",
+              "explanation": "Centralizar en servidor con control de acceso garantiza disponibilidad y seguridad."
+            },
+            {
+              "text": "¿Qué propósito clave del modelo justifica centralizar servicios en el servidor?",
+              "options": [
+                "Evitar el uso de protocolos",
+                "Obligar a usar un único navegador",
+                "Gestionar eficientemente recursos y optimizarlos",
+                "Aumentar el consumo en dispositivos cliente"
+              ],
+              "correctAnswer": "Gestionar eficientemente recursos y optimizarlos",
+              "explanation": "El servidor concentra cómputo, datos y control para eficiencia y consistencia."
+            },
+            {
+              "text": "En una clínica de Sevilla, el formulario de cita registra errores por datos mal introducidos. ¿Qué debe hacer el cliente antes de enviar?",
+              "options": [
+                "Validar entradas y guiar al usuario, sin sustituir la validación del servidor",
+                "Enviar siempre y que el servidor corrija",
+                "Deshabilitar cualquier control para no molestar",
+                "Guardar los datos en texto plano"
+              ],
+              "correctAnswer": "Validar entradas y guiar al usuario, sin sustituir la validación del servidor",
+              "explanation": "Validación en cliente mejora UX, pero la validación definitiva debe estar en el servidor."
+            },
+            {
+              "text": "¿Qué responsabilidad es típica del cliente?",
+              "options": [
+                "Emitir facturas desde el servidor",
+                "Ejecutar la lógica de negocio completa",
+                "Mantener la base de datos central",
+                "Presentar la interfaz y permitir interacción"
+              ],
+              "correctAnswer": "Presentar la interfaz y permitir interacción",
+              "explanation": "El cliente renderiza UI y capta eventos; el servidor gestiona datos y reglas críticas."
+            },
+            {
+              "text": "En un portal interno, se necesita recordar preferencia de idioma del usuario. ¿Qué describe bien la gestión en el cliente?",
+              "options": [
+                "Enviar el idioma en cada tecla pulsada",
+                "Mantener estado de interacción de forma eficiente y segura",
+                "Escribir el idioma en la URL de inicio del servidor",
+                "Desactivar cualquier caché para forzar recarga"
+              ],
+              "correctAnswer": "Mantener estado de interacción de forma eficiente y segura",
+              "explanation": "Guardar preferencias (localStorage/cookies seguras) agiliza UX sin requerir al servidor cada vez."
+            },
+            {
+              "text": "Un banco detecta intentos de inyección de scripts en el área de clientes. ¿Qué medida en el cliente ayuda frente a XSS?",
+              "options": [
+                "Sustituir HTTPS por HTTP",
+                "Mostrar cualquier HTML recibido tal cual",
+                "Validar/sanear entradas y evitar inyectar código no confiable en el DOM",
+                "Desactivar los mensajes de error"
+              ],
+              "correctAnswer": "Validar/sanear entradas y evitar inyectar código no confiable en el DOM",
+              "explanation": "No interpolar contenido sin sanear; usar escapes, CSP y librerías seguras contra XSS."
+            },
+            {
+              "text": "Para proteger datos en tránsito, ¿qué conviene usar entre cliente y servidor?",
+              "options": [
+                "SNMP",
+                "IMAP",
+                "HTTPS",
+                "Telnet"
+              ],
+              "correctAnswer": "HTTPS",
+              "explanation": "HTTPS cifra la comunicación (TLS), garantiza confidencialidad e integridad."
+            },
+            {
+              "text": "Un servicio técnico en Bilbao reporta que, al fallar un pago, la web muestra un error incomprensible. ¿Qué debería hacer el cliente?",
+              "options": [
+                "Ocultar el error y no informar",
+                "Mostrar un mensaje claro y permitir reintento o alternativa",
+                "Borrar el carrito automáticamente",
+                "Recargar toda la página sin explicación"
+              ],
+              "correctAnswer": "Mostrar un mensaje claro y permitir reintento o alternativa",
+              "explanation": "Buenas prácticas de UX: feedback útil, opciones de reintento y rutas alternativas."
+            },
+            {
+              "text": "¿Con qué protocolo “habla” el cliente con el servidor en la web?",
+              "options": [
+                "HTTP",
+                "NTP",
+                "SMB",
+                "POP3"
+              ],
+              "correctAnswer": "HTTP",
+              "explanation": "El intercambio de peticiones y respuestas en la web se basa en HTTP/HTTPS."
+            },
+            {
+              "text": "Tras recibir JSON con datos de pedidos, ¿qué se espera del cliente?",
+              "options": [
+                "Procesar la respuesta y actualizar la interfaz",
+                "Cerrar la sesión por seguridad",
+                "Recompilar el servidor",
+                "Almacenar los datos en la base de datos del servidor"
+              ],
+              "correctAnswer": "Procesar la respuesta y actualizar la interfaz",
+              "explanation": "El cliente parsea JSON y refresca la UI; el almacenamiento en servidor lo gestiona el backend."
+            },
+            {
+              "text": "Una app de reparto funciona en redes móviles inestables. ¿Qué técnica mejora la experiencia sin cargar todo de golpe?",
+              "options": [
+                "Cargar imágenes a máxima resolución desde el inicio",
+                "Desactivar cualquier caché",
+                "Forzar recargas completas tras cada scroll",
+                "Carga diferida de recursos y optimización por ancho de banda"
+              ],
+              "correctAnswer": "Carga diferida de recursos y optimización por ancho de banda",
+              "explanation": "Lazy loading y técnicas adaptativas reducen descargas innecesarias y mejoran rendimiento."
+            },
+            {
+              "text": "¿Qué tarea corresponde al servidor?",
+              "options": [
+                "Cambiar el color de los botones en el DOM",
+                "Recordar el último scroll del navegador",
+                "Decidir el tamaño de pantalla del usuario",
+                "Gestionar recursos/servicios y acceso a datos"
+              ],
+              "correctAnswer": "Gestionar recursos/servicios y acceso a datos",
+              "explanation": "El servidor centraliza reglas de negocio, acceso a BD y servicios compartidos."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
