@@ -1,24 +1,45 @@
-// backend/src/schemas/auth.schemas.ts
+// ============================================
+// SCHEMAS ZOD PARA VALIDACIÓN DE AUTENTICACIÓN
+// ============================================
 
-import { z } from 'zod'; // Librería para validación y tipado
+import { z } from 'zod';
 
-// Schema para registro de usuario
+/**
+ * Schema de validación para registro de nuevo usuario
+ * 
+ * Reglas aplicadas:
+ * - Email: formato válido según RFC 5322
+ * - Password: mínimo 6 caracteres (balance seguridad/usabilidad para proyecto educativo)
+ * - Name: mínimo 2 caracteres (evitar inputs tipo "a" o espacios vacíos)
+ * 
+ * @remarks
+ * El hash bcrypt tolerará cualquier longitud, pero validamos mínimo
+ * para evitar contraseñas débiles tipo "123"
+ */
 export const registerSchema = z.object({
-  email: z // Validar que el email es correcto
-    .string() // Tipo string
-    .email('Formato de email inválido') // Formato email
-    .min(1, 'El email es requerido'), // No vacío
+  email: z
+    .string()
+    .email('Formato de email inválido')
+    .min(1, 'El email es requerido'),
   
-  password: z // Validar que la contraseña tiene al menos 6 caracteres
+  password: z
     .string()
     .min(6, 'La contraseña debe tener al menos 6 caracteres'),
   
-  name: z // Validar que el nombre tiene al menos 2 caracteres
+  name: z
     .string()
     .min(2, 'El nombre debe tener al menos 2 caracteres')
 });
 
-// Schema para login
+/**
+ * Schema de validación para login de usuario existente
+ * 
+ * @remarks
+ * Nota importante: NO validamos longitud mínima de password aquí
+ * porque el usuario ya está registrado en BD. Solo verificamos
+ * que envíe algo (no vacío). La comparación con bcrypt se hace
+ * en el controller.
+ */
 export const loginSchema = z.object({
   email: z
     .string()
@@ -30,6 +51,14 @@ export const loginSchema = z.object({
     .min(1, 'La contraseña es requerida')
 });
 
-// Exportar tipos inferidos (TypeScript automático)
+/**
+ * Tipos TypeScript inferidos automáticamente por Zod
+ * 
+ * Equivalente a escribir manualmente:
+ * type RegisterInput = { email: string; password: string; name: string }
+ * type LoginInput = { email: string; password: string }
+ * 
+ * Ventaja: Si cambias el schema, los tipos se actualizan automáticamente
+ */
 export type RegisterInput = z.infer<typeof registerSchema>;
 export type LoginInput = z.infer<typeof loginSchema>;

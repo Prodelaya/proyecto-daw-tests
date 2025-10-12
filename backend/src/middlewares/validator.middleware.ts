@@ -1,30 +1,57 @@
-// backend/src/middlewares/validator.middleware.ts
+// ============================================
+// MIDDLEWARE GENÉRICO DE VALIDACIÓN CON ZOD
+// ============================================
 
-import { Request, Response, NextFunction } from 'express'; // Tipos de Express
-import { ZodSchema } from 'zod'; // Tipo de schema de Zod sirve para cualquier schema
+import { Request, Response, NextFunction } from 'express';
+import { ZodSchema } from 'zod';
 
 /**
- * Middleware genérico de validación con Zod
- * @param schema - Schema de Zod para validar
- * @returns Middleware de Express
+ * Middleware factory para validar req.body con schemas Zod
+ * 
+ * Patrón Higher-Order Function: validate(schema) devuelve un middleware
+ * que captura el schema en su closure, permitiendo reutilización.
+ * 
+ * @param schema - Schema de Zod a aplicar (registerSchema, loginSchema, etc.)
+ * @returns Middleware de Express que valida req.body y responde 400 si falla
+ * 
+ * @example
+ * // En auth.routes.ts:
+ * router.post('/register', validate(registerSchema), registerController);
+ * router.post('/login', validate(loginSchema), loginController);
+ * 
+ * @remarks
+ * Ventajas de este patrón:
+ * - DRY: Un solo middleware para todas las validaciones
+ * - Type-safe: TypeScript infiere tipos del schema
+ * - Errores consistentes: Mismo formato en toda la API
+ * - Separation of Concerns: Validación separada de lógica de negocio
+ * 
+ * Flujo de ejecución:
+ * 1. Cliente envía POST con JSON body
+ * 2. Middleware valida con schema.safeParse(req.body)
+ * 3. Si válido → next() → controller procesa
+ * 4. Si inválido → res.status(400) → cliente recibe errores
  */
-export const validate = (schema: ZodSchema) => { 
+export const validate = (schema: ZodSchema) => {
   return (req: Request, res: Response, next: NextFunction) => {
-    // Validar req.body con el schema
+    // safeParse() no lanza errores - devuelve { success: boolean, data/error }
+    // Preferimos esto sobre parse() que lanza excepciones
     const result = schema.safeParse(req.body);
     
     if (!result.success) {
-      // Si la validación falla, devolver errores
+      // Formateamos errores Zod para que sean legibles por el frontend
+      // Cada error tiene: path (campo), message (descripción)
       return res.status(400).json({
         error: 'Datos de entrada inválidos',
         details: result.error.issues.map(err => ({
-          field: err.path.join('.'),
-          message: err.message
+          field: err.path.join('.'),  // "email", "password", "user.name", etc.
+          message: err.message         // Mensaje definido en el schema
         }))
       });
     }
     
-    // Si la validación pasa, continuar al siguiente middleware/controller
+    // Validación exitosa - continuar al siguiente middleware o controller
+    // IMPORTANTE: No olvidar llamar next(), o la petición quedará colgada
     next();
   };
-};
+}
