@@ -14,6 +14,9 @@ import helmet from 'helmet';
 // Rutas de autenticación
 import authRoutes from './routes/auth.routes';
 
+// Middleware de autenticación
+import { authMiddleware } from './middlewares/auth.middleware';
+
 // Prisma Client (para cerrar conexión al apagar servidor)
 import { PrismaClient } from '@prisma/client';
 
@@ -95,6 +98,16 @@ app.use((req: Request, res: Response, next: NextFunction) => {
  */
 app.use('/api/auth', authRoutes);
 
+
+// Ruta protegida de prueba (TEMPORAL - borrar después)
+app.get('/api/protected', authMiddleware, (req: Request, res: Response) => {
+  res.json({
+    message: 'Acceso autorizado',
+    userId: req.userId,
+    info: 'Esta ruta requiere token JWT válido'
+  });
+});
+
 /**
  * Ruta de health check (verificar que el servidor está vivo)
  * 
@@ -124,6 +137,7 @@ app.get('/', (req: Request, res: Response) => {
     }
   });
 });
+
 
 // BLOQUE 4: Manejo de Errores Global
 
