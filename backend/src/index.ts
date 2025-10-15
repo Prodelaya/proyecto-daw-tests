@@ -14,7 +14,7 @@ import helmet from 'helmet';
 // Rutas de autenticación
 import authRoutes from './routes/auth.routes';
 import questionRoutes from './routes/questions.routes';
-
+import attemptRoutes from './routes/attempts.routes';
 
 // Middleware de autenticación
 import { authMiddleware } from './middlewares/auth.middleware';
@@ -91,15 +91,35 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 
 /**
  * Rutas de Autenticación
- * 
  * Prefijo: /api/auth
- * 
  * Endpoints disponibles:
- * - POST /api/auth/register → Crear nuevo usuario
- * - POST /api/auth/login → Autenticar usuario existente
+ * - POST /api/auth/register → Registrar nuevo usuario
+ * - POST /api/auth/login → Login de usuario
+ * 
+ * NOTA: Las rutas que requieren autenticación usan el middleware authMiddleware
  */
 app.use('/api/auth', authRoutes);
+
+/**
+ * Rutas de Preguntas
+ * Prefijo: /api/questions
+ * Endpoints disponibles:
+ * - GET /api/questions → Obtener todas las preguntas
+ * - POST /api/questions → Crear nueva pregunta
+ * - GET /api/questions/:id → Obtener pregunta por ID
+ * - PUT /api/questions/:id → Actualizar pregunta por ID
+ * - DELETE /api/questions/:id → Eliminar pregunta por ID
+ */
 app.use('/api/questions', questionRoutes);
+
+/**
+ * Rutas de Attempts (Intentos)
+ * Prefijo: /api/attempts
+ * Endpoints disponibles:
+ * - POST /api/attempts → Enviar intento de test
+ * - GET /api/attempts/stats → Obtener estadísticas del usuario
+ */
+app.use('/api/attempts', attemptRoutes);
 
 
 /**
