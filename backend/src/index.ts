@@ -13,6 +13,8 @@ import helmet from 'helmet';
 
 // Rutas de autenticación
 import authRoutes from './routes/auth.routes';
+import questionRoutes from './routes/questions.routes';
+
 
 // Middleware de autenticación
 import { authMiddleware } from './middlewares/auth.middleware';
@@ -97,16 +99,8 @@ app.use((req: Request, res: Response, next: NextFunction) => {
  * - POST /api/auth/login → Autenticar usuario existente
  */
 app.use('/api/auth', authRoutes);
+app.use('/api/questions', questionRoutes);
 
-
-// Ruta protegida de prueba (TEMPORAL - borrar después)
-app.get('/api/protected', authMiddleware, (req: Request, res: Response) => {
-  res.json({
-    message: 'Acceso autorizado',
-    userId: req.userId,
-    info: 'Esta ruta requiere token JWT válido'
-  });
-});
 
 /**
  * Ruta de health check (verificar que el servidor está vivo)
