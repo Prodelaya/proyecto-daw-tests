@@ -32,7 +32,7 @@ const prisma = new PrismaClient();
 // ============================================
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = Number(process.env.PORT) || 3001;
 
 // ============================================
 // MIDDLEWARES GLOBALES (se aplican a TODAS las rutas)
@@ -204,11 +204,12 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
  * 
  * Callback se ejecuta cuando el servidor está listo para aceptar conexiones
  */
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log('='.repeat(50));
   console.log('🚀 Servidor Express iniciado correctamente');
   console.log('='.repeat(50));
   console.log(`📡 Escuchando en: http://localhost:${PORT}`);
+  console.log(`🌐 Accesible desde red: http://192.168.1.130:${PORT}`);
   console.log(`📝 Health check: http://localhost:${PORT}/api/health`);
   console.log(`🔐 Auth register: POST http://localhost:${PORT}/api/auth/register`);
   console.log(`🔑 Auth login: POST http://localhost:${PORT}/api/auth/login`);

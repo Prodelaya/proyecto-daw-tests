@@ -19,16 +19,15 @@ import {
 /**
  * Cliente axios configurado con baseURL del backend
  * 
- * En desarrollo: http://localhost:3001/api
+ * En desarrollo: http://192.168.1.130:3001/api
  * En producción: Cambiar por URL del servidor Ubuntu
  */
 const apiClient = axios.create({
-  baseURL: 'http://localhost:3001/api',
+  baseURL: 'http://192.168.1.130:3001/api',  // ← Tu IP
   headers: {
     'Content-Type': 'application/json'
   }
 });
-
 
 // BLOQUE 3: Interceptor JWT
 

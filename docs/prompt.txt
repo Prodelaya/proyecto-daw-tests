@@ -7,7 +7,7 @@ Archivos del proyecto que tienes disponibles:
 - guia-desarrollo.md: Guía paso a paso completa del proyecto
 - proyecto-daw-resumen.md: Arquitectura y decisiones técnicas
 - funcionalidad_ranking.md: Ejemplo de cómo añadir features
-- dos_primeras_sesiones.md: Explicación de las sesiones y estado del proyecto tras esas sesiones.
+- session_1_&_2.md: Explicación de las sesiones y estado del proyecto tras esas sesiones.
 - Puede haber algún archivo más de sesiónX.md: explicando nuevas sesiones. 
 - DWEC_UT1.json: Estructura de datos de preguntas
 
