@@ -23,7 +23,7 @@ import {
  * En producción: Cambiar por URL del servidor Ubuntu
  */
 const apiClient = axios.create({
-  baseURL: 'http://192.168.1.130:3001/api',  // ← Tu IP
+  baseURL: 'http://192.168.1.131:3001/api',  // ← Tu IP
   headers: {
     'Content-Type': 'application/json'
   }
@@ -176,5 +176,37 @@ export const submitAttempt = async (attemptData: {
  */
 export const getStats = async (): Promise<Stats> => {
   const { data } = await apiClient.get('/attempts/stats');
+  return data;
+};
+
+
+// BLOQUE 7: Funciones de Subjects (Asignaturas)
+
+/**
+ * Obtener lista de asignaturas con contador de preguntas
+ * 
+ * @returns Array de asignaturas únicas con subjectCode, subjectName y questionCount
+ */
+export const getSubjects = async (): Promise<{
+  subjectCode: string;
+  subjectName: string;
+  questionCount: number;
+}[]> => {
+  const { data } = await apiClient.get('/subjects');
+  return data;
+};
+
+/**
+ * Obtener temas de una asignatura con contador de preguntas
+ * 
+ * @param subjectCode - Código de asignatura (ej: "DWEC")
+ * @returns Array de temas con topicNumber, topicTitle y questionCount
+ */
+export const getTopicsBySubject = async (subjectCode: string): Promise<{
+  topicNumber: number;
+  topicTitle: string;
+  questionCount: number;
+}[]> => {
+  const { data } = await apiClient.get(`/subjects/${subjectCode}/topics`);
   return data;
 };

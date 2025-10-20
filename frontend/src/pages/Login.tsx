@@ -6,7 +6,7 @@
 
 import { useState, FormEvent } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { Navigate } from 'react-router-dom'; 
+import { useNavigate, Navigate } from 'react-router-dom';
 
 // BLOQUE 2: Componente Login
 
@@ -27,6 +27,7 @@ export default function Login() {
   
   // Acceder a funciones del AuthContext
   const { user, loginUser, registerUser } = useAuth();
+  const navigate = useNavigate();
 
   // BLOQUE 3: Funciones
   
@@ -75,16 +76,13 @@ export default function Login() {
     
     try {
       if (isLogin) {
-        // Modo Login
         await loginUser(email, password);
       } else {
-        // Modo Registro (hace auto-login después)
         await registerUser(email, password, name);
       }
       
-      // Si llega aquí, fue exitoso
-      // El redirect lo haremos después con React Router
-      // Por ahora, el usuario verá el cambio de estado automáticamente
+      // Redirigir a dashboard tras login exitoso
+      navigate('/dashboard');
       
     } catch (err: unknown) {
       // Capturar error del backend

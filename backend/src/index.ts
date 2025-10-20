@@ -15,6 +15,7 @@ import helmet from 'helmet';
 import authRoutes from './routes/auth.routes';
 import questionRoutes from './routes/questions.routes';
 import attemptRoutes from './routes/attempts.routes';
+import subjectRoutes from './routes/subjects.routes';
 
 // Middleware de autenticación
 import { authMiddleware } from './middlewares/auth.middleware';
@@ -120,6 +121,16 @@ app.use('/api/questions', questionRoutes);
  * - GET /api/attempts/stats → Obtener estadísticas del usuario
  */
 app.use('/api/attempts', attemptRoutes);
+
+
+/**
+ * Rutas de Subjects (Asignaturas)
+ * Prefijo: /api/subjects
+ * Endpoints disponibles:
+ * - GET /api/subjects → Obtener lista de asignaturas con contador de preguntas
+ */
+app.use('/api/subjects', subjectRoutes);
+
 
 
 /**

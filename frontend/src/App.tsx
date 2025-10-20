@@ -2,36 +2,28 @@
 // APP PRINCIPAL - CONFIGURACIÓN DE RUTAS
 // ============================================
 
-// BLOQUE 1: Imports
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
 import PrivateRoute from './components/PrivateRoute';
 
+// Páginas
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard'; 
+import SubjectDetail from './pages/SubjectDetail';  
+// import TestConfig from './pages/TestConfig';        // Crearemos después
+// import TestView from './pages/TestView';            // Crearemos después
+// import Results from './pages/Results';              // Crearemos después
+// import Stats from './pages/Stats';                  // Crearemos después
 
-// BLOQUE 2: Componente App
-
-/**
- * Componente raíz de la aplicación
- * 
- * Arquitectura:
- * - AuthProvider: Proporciona contexto de autenticación a toda la app
- * - BrowserRouter: Habilita navegación con URLs limpias
- * - Routes: Contenedor de rutas
- * - Route: Define cada ruta individual
- * - PrivateRoute: Protege rutas que requieren autenticación
- */
 function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          {/* Ruta pública: Login */}
+          {/* Ruta Pública */}
           <Route path="/" element={<Login />} />
 
-          {/* Ruta protegida: Dashboard */}
+          {/* Rutas Protegidas */}
           <Route
             path="/dashboard"
             element={
@@ -40,6 +32,57 @@ function App() {
               </PrivateRoute>
             }
           />
+
+          {
+          <Route
+            path="/subject/:subjectCode"
+            element={
+              <PrivateRoute>
+                <SubjectDetail />
+              </PrivateRoute>
+            }
+          />
+
+          /* TODO: Descomentar cuando creemos las páginas
+          <Route
+            path="/test/config"
+            element={
+              <PrivateRoute>
+                <TestConfig />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/test"
+            element={
+              <PrivateRoute>
+                <TestView />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/results"
+            element={
+              <PrivateRoute>
+                <Results />
+              </PrivateRoute>
+            }
+          />
+
+          <Route
+            path="/stats"
+            element={
+              <PrivateRoute>
+                <Stats />
+              </PrivateRoute>
+            }
+          />
+          */}
+
+          {/* Ruta 404 - Cualquier URL no definida */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
