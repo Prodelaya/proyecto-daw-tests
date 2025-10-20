@@ -13,15 +13,19 @@ const seedDir = __dirname; // Directorio actual (src/seed)
 async function main() {
     console.log('--- Iniciando proceso de seed ---');
 
-    // Paso 1: Limpiar tabla Question (para evitar duplicados)
+    // Paso 1: Limpiar tabla UserFailedQuestion (referencias primero)
+    await prisma.userFailedQuestion.deleteMany({});
+    console.log('Tabla UserFailedQuestion limpiada.');
+
+    // Paso 2: Limpiar tabla Question (ahora sin referencias)
     await prisma.question.deleteMany({});
     console.log('Tabla Question limpiada.');
 
-    // Paso 2: Leer carpetas dentro de seed/
+    // Paso 3: Leer carpetas dentro de seed/
     const carpetas = fs.readdirSync(seedDir);
     console.log(`Carpetas encontradas en seed/: ${carpetas.join(', ')}`);
 
-    // Paso 3: Ignorar archivos que no son carpetas
+    // Paso 4: Ignorar archivos que no son carpetas
     const carpetasAsignaturas = carpetas.filter((nombre) => {
         const itemPath = path.join(seedDir, nombre);
         return fs.lstatSync(itemPath).isDirectory();
@@ -29,7 +33,7 @@ async function main() {
     
     console.log(`Carpetas válidas (excluyendo archivos): ${carpetasAsignaturas.join(', ')}`);
 
-    // Paso 4: Procesar cada carpeta
+    // Paso 5: Procesar cada carpeta
     for (const carpeta of carpetasAsignaturas) {
         console.log(`\nProcesando carpeta: ${carpeta}`);
 
@@ -37,11 +41,11 @@ async function main() {
         const rutaCarpeta = path.join(seedDir, carpeta);
         const archivos = fs.readdirSync(rutaCarpeta);
 
-        // Paso 5: Filtrar solo archivos .json
+        // Paso 6: Filtrar solo archivos .json
         const archivosJson = archivos.filter((archivo) => archivo.endsWith('.json'));
         console.log(`Archivos JSON encontrados: ${archivosJson.join(', ')}`);
 
-    // Paso 6: Procesar cada archivo JSON
+    // Paso 7: Procesar cada archivo JSON
     for (const archivoJson of archivosJson) {
         console.log(`\nInsertando datos del archivo: ${archivoJson}`);
 
@@ -54,21 +58,21 @@ async function main() {
             continue; // Saltar este archivo y continuar con el siguiente
         }
 
-        // Paso 7: Recorrer subjetcts
+        // Paso 8: Recorrer subjetcts
         for (const subject of data.subjects) {
             const subjectCode = subject.code; // Código de la asignatura
             const subjectName = subject.name; // Nombre de la asignatura
 
             console.log(`    📚 Asignatura: ${subjectCode} - ${subjectName}`);
 
-            // Paso 8: Recorrer topics (temas) dentro de cada subject
+            // Paso 9: Recorrer topics (temas) dentro de cada subject
             for (const topic of subject.topics) {
                 const topicNumber = topic.number; // Número del tema
                 const topicTitle = topic.title; // Nombre del tema
 
                 console.log(`  Tema ${topicNumber}: ${topicTitle}`);
 
-                // Paso 9: Recorrer questions (preguntas) dentro de cada topic
+                // Paso 10: Recorrer questions (preguntas) dentro de cada topic
                 for (const question of topic.questions) {
                     // Paso 10: Insertar pregunta en PostgreSQL
                         await prisma.question.create({
