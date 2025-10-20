@@ -1,0 +1,27 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 8,
+          "title": "TEST FINAL DWEC",
+          "questions": [
+            {
+              "text": "Pregunta de prueba?",
+              "options": [
+                "Opción 1",
+                "Opción 2",
+                "Opción 3",
+                "Opción 4"
+              ],
+              "correctAnswer": "Opción 3",
+              "explanation": "ELa opción 3 es correcta porque sí."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
