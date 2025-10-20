@@ -10,7 +10,7 @@ import PrivateRoute from './components/PrivateRoute';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard'; 
 import SubjectDetail from './pages/SubjectDetail';  
-// import TestConfig from './pages/TestConfig';        // Crearemos después
+import TestConfig from './pages/TestConfig';       
 // import TestView from './pages/TestView';            // Crearemos después
 // import Results from './pages/Results';              // Crearemos después
 // import Stats from './pages/Stats';                  // Crearemos después
@@ -33,7 +33,6 @@ function App() {
             }
           />
 
-          {
           <Route
             path="/subject/:subjectCode"
             element={
@@ -42,8 +41,7 @@ function App() {
               </PrivateRoute>
             }
           />
-
-          /* TODO: Descomentar cuando creemos las páginas
+          
           <Route
             path="/test/config"
             element={
@@ -53,6 +51,7 @@ function App() {
             }
           />
 
+          {/* TODO: Descomentar cuando creemos las páginas }
           <Route
             path="/test"
             element={
