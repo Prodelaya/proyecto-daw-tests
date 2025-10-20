@@ -24,7 +24,8 @@
 import { Router } from 'express';
 
 // Controllers (lógica de negocio)
-import { getQuestions, getQuestionsCount } from '../controllers/questions.controller';
+import { getQuestions, getQuestionsCount, getPracticeQuestions } from '../controllers/questions.controller';
+
 
 // Middlewares
 import { validateQuery } from '../middlewares/validator.middleware';
@@ -38,6 +39,22 @@ import { getQuestionsSchema, countQuestionsSchema } from '../schemas/questions.s
 const router = Router();
 
 // BLOQUE 3: Definición de Rutas
+
+/**
+ * GET /api/questions/practice
+ * 
+ * Obtener preguntas para Modo Práctica (incluye correctAnswer)
+ * 
+ * Query params:
+ * - subjectCode: string (obligatorio)
+ * - topicNumber: number (opcional)
+ * - type: "tema" | "final" | "failed" (opcional)
+ * - limit: number (opcional, default 20)
+ * 
+ * DIFERENCIA: NO elimina correctAnswer
+ * USO: Cuando practiceMode === true
+ */
+router.get('/practice', validateQuery(getQuestionsSchema), authMiddleware, getPracticeQuestions);
 
 /**
  * GET /api/questions/count

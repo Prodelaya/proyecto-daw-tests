@@ -11,8 +11,8 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard'; 
 import SubjectDetail from './pages/SubjectDetail';  
 import TestConfig from './pages/TestConfig';       
-// import TestView from './pages/TestView';            // Crearemos después
-// import Results from './pages/Results';              // Crearemos después
+import TestView from './pages/TestView';            
+import Results from './pages/Results';              
 // import Stats from './pages/Stats';                  // Crearemos después
 
 function App() {
@@ -51,7 +51,6 @@ function App() {
             }
           />
 
-          {/* TODO: Descomentar cuando creemos las páginas }
           <Route
             path="/test"
             element={
@@ -70,6 +69,7 @@ function App() {
             }
           />
 
+          {/* TODO: Descomentar cuando creemos las páginas }
           <Route
             path="/stats"
             element={
@@ -78,7 +78,9 @@ function App() {
               </PrivateRoute>
             }
           />
-          */}
+         */}    
+            
+
 
           {/* Ruta 404 - Cualquier URL no definida */}
           <Route path="*" element={<Navigate to="/" replace />} />

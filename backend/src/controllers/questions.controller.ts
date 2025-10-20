@@ -233,3 +233,92 @@ export const getQuestionsCount = async (req: Request, res: Response) => {
     });
   }
 };
+
+// ============================================
+// CONTROLLER: getPracticeQuestions
+// ============================================
+
+/**
+ * CONTROLADOR: Obtener preguntas para Modo Práctica
+ * 
+ * DIFERENCIA CON getQuestions:
+ * - NO elimina correctAnswer
+ * - Incluye toda la información para feedback inmediato
+ * 
+ * Query params (validados por Zod):
+ * - subjectCode: string (obligatorio)
+ * - topicNumber: number (opcional)
+ * - type: "tema" | "final" | "failed" (opcional)
+ * - limit: number (opcional, default 20)
+ * 
+ * USO: Modo Práctica donde el usuario ve feedback inmediato
+ * 
+ * @route GET /api/questions/practice
+ * @access Privado (requiere authMiddleware)
+ */
+export const getPracticeQuestions = async (req: Request, res: Response) => {
+  try {
+    // Reutilizar toda la lógica de getQuestions
+    const { subjectCode, topicNumber, type, limit } = req.validatedQuery;
+    const userId = req.userId!;
+    
+    // Construir filtros (igual que getQuestions)
+    const filters: any = {
+      subjectCode: subjectCode
+    };
+    
+    if (type === 'tema') {
+      if (!topicNumber) {
+        return res.status(400).json({
+          error: 'El tipo "tema" requiere especificar topicNumber'
+        });
+      }
+      filters.topicNumber = topicNumber;
+      
+    } else if (type === 'final') {
+      // No filtrar por topicNumber
+      
+    } else if (type === 'failed') {
+      // Filtraremos después con join
+    }
+    
+    // Consultar BD
+    let questions;
+    
+    if (type === 'failed') {
+      questions = await prisma.question.findMany({
+        where: {
+          ...filters,
+          failedBy: {
+            some: {
+              userId: userId
+            }
+          }
+        }
+      });
+    } else {
+      questions = await prisma.question.findMany({
+        where: filters
+      });
+    }
+    
+    // Aleatorizar (Fisher-Yates)
+    for (let i = questions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
+    
+    // Limitar cantidad
+    const limitedQuestions = questions.slice(0, limit);
+    
+    // 🟢 CRÍTICO: NO eliminar correctAnswer (esto es para modo práctica)
+    // Devolver preguntas completas con toda la información
+    res.status(200).json(limitedQuestions);
+    
+  } catch (error) {
+    console.error('Error en getPracticeQuestions:', error);
+    res.status(500).json({
+      error: 'Error interno del servidor al obtener preguntas de práctica'
+    });
+  }
+};
