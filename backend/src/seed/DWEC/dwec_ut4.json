@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 4,
+          "title": "Introducción a AJAX",
+          "questions": [
+            {
+              "text": "En una tienda online de Madrid quieren actualizar el listado sin perder la interacción del usuario. ¿Qué enfoque propone el equipo de front?",
+              "options": [
+                "Usar AJAX para actualizar solo una parte de la página",
+                "Mover todo a una hoja de estilos",
+                "Desactivar los filtros",
+                "Recargar la página en cada filtro"
+              ],
+              "correctAnswer": "Usar AJAX para actualizar solo una parte de la página",
+              "explanation": "AJAX permite pedir datos al servidor y refrescar zonas concretas sin recargar toda la vista, manteniendo la interacción."
+            },
+            {
+              "text": "¿Qué idea resume mejor qué es AJAX en el desarrollo web?",
+              "options": [
+                "Una hoja de estilos avanzada",
+                "Un formato de imagen",
+                "Un servidor de base de datos",
+                "Comunicación asíncrona entre navegador y servidor para actualizar zonas sin recargar"
+              ],
+              "correctAnswer": "Comunicación asíncrona entre navegador y servidor para actualizar zonas sin recargar",
+              "explanation": "AJAX describe técnicas para solicitar/recibir datos en segundo plano y actualizar la UI sin recarga completa."
+            },
+            {
+              "text": "En una intranet, el responsable pide realizar consultas al servidor sin bloquear la interfaz. ¿Qué objeto histórico del navegador permite esto?",
+              "options": [
+                "Almacenamiento en caché",
+                "XMLHttpRequest",
+                "Motor de plantillas",
+                "Lector de archivos locales"
+              ],
+              "correctAnswer": "XMLHttpRequest",
+              "explanation": "XMLHttpRequest (XHR) fue la API original para hacer peticiones HTTP desde el navegador de forma asíncrona."
+            },
+            {
+              "text": "El equipo quiere saber qué significa que una solicitud sea asíncrona. ¿Cuál es la mejor explicación?",
+              "options": [
+                "Se realiza en segundo plano sin detener la interacción del usuario",
+                "Solo funciona sin conexión",
+                "Aumenta el tamaño de las imágenes",
+                "Se ejecuta una sola vez al día"
+              ],
+              "correctAnswer": "Se realiza en segundo plano sin detener la interacción del usuario",
+              "explanation": "Asíncrono implica que la petición no bloquea el hilo principal: la UI sigue respondiendo mientras llega la respuesta."
+            },
+            {
+              "text": "En un panel de Zaragoza aparece un indicador de “cargando”. Para reaccionar a los cambios de estado de una solicitud clásica, ¿qué se debe vigilar?",
+              "options": [
+                "El tamaño de pantalla",
+                "La memoria de la tarjeta gráfica",
+                "El idioma del navegador",
+                "El cambio de estado de la solicitud y el resultado del servidor"
+              ],
+              "correctAnswer": "El cambio de estado de la solicitud y el resultado del servidor",
+              "explanation": "En XHR se comprueba readyState y status para saber cuándo terminó y si la respuesta fue correcta."
+            },
+            {
+              "text": "¿Qué estado indica que la respuesta del servidor se ha completado y puede procesarse?",
+              "options": [
+                "Preparación inicial",
+                "Conexión abierta",
+                "Respuesta completada",
+                "Envío en curso"
+              ],
+              "correctAnswer": "Respuesta completada",
+              "explanation": "En XHR, readyState = 4 (DONE) significa que la operación finalizó y la respuesta está lista para procesar."
+            },
+            {
+              "text": "En un catálogo pequeño quieren enviar pocos datos como filtros en la dirección del recurso. ¿Qué método encaja?",
+              "options": [
+                "Actualización total",
+                "Borrado",
+                "Envío de archivos pesados",
+                "Consulta con parámetros visibles en la dirección"
+              ],
+              "correctAnswer": "Consulta con parámetros visibles en la dirección",
+              "explanation": "Un GET con query string permite enviar filtros en la URL de forma sencilla y cacheable."
+            },
+            {
+              "text": "Para un formulario con datos personales, el cliente exige que no se muestren en la dirección del navegador. ¿Qué método conviene?",
+              "options": [
+                "Consulta con parámetros en la dirección",
+                "Lectura de archivos locales",
+                "Descarga de una imagen",
+                "Envío de datos en el cuerpo de la solicitud"
+              ],
+              "correctAnswer": "Envío de datos en el cuerpo de la solicitud",
+              "explanation": "Un POST envía los datos en el cuerpo, evitando exponerlos en la URL (aunque siempre deben cifrarse con HTTPS)."
+            },
+            {
+              "text": "¿Qué limitación práctica tiene enviar datos en la dirección del recurso?",
+              "options": [
+                "No permite más de un parámetro",
+                "La información queda visible y puede tener límite de longitud",
+                "Requiere cambiar de navegador",
+                "No funciona con conexiones seguras"
+              ],
+              "correctAnswer": "La información queda visible y puede tener límite de longitud",
+              "explanation": "Las URLs se registran en historial/logs y tienen límites de longitud según navegador/servidor."
+            },
+            {
+              "text": "El servidor responde con datos estructurados en formato texto con etiquetas. ¿Qué formato es?",
+              "options": [
+                "Audio",
+                "Imagen vectorial",
+                "XML",
+                "Hoja de estilos"
+              ],
+              "correctAnswer": "XML",
+              "explanation": "XML representa datos con etiquetas jerárquicas (<nodo>...), habitual en servicios clásicos."
+            },
+            {
+              "text": "El servidor responde con datos estructurados en formato de objetos y listas. ¿Qué formato es?",
+              "options": [
+                "JSON",
+                "Vídeo",
+                "Hoja de cálculo",
+                "Tipografía"
+              ],
+              "correctAnswer": "JSON",
+              "explanation": "JSON (JavaScript Object Notation) expresa datos como objetos/arrays, ideal para aplicaciones web."
+            },
+            {
+              "text": "En un panel de pedidos, antes de procesar la respuesta, el equipo quiere confirmar que todo fue bien. ¿Qué comprobación mínima harías?",
+              "options": [
+                "Que la batería del portátil está cargada",
+                "Que la página tiene estilos",
+                "Solo que hay conexión a internet",
+                "Que la solicitud terminó y el servidor devolvió un resultado correcto"
+              ],
+              "correctAnswer": "Que la solicitud terminó y el servidor devolvió un resultado correcto",
+              "explanation": "Verifica que la petición finalizó y el código de estado indica éxito (por ejemplo, 200–299)."
+            },
+            {
+              "text": "El responsable pide la “receta básica” para hacer una solicitud clásica: crear, configurar y enviar. ¿Qué pasos debe incluir la guía?",
+              "options": [
+                "Crear la solicitud, preparar la reacción a sus estados, indicar destino y enviar",
+                "Vaciar la memoria del navegador",
+                "Cambiar la fuente del texto",
+                "Abrir y cerrar la página"
+              ],
+              "correctAnswer": "Crear la solicitud, preparar la reacción a sus estados, indicar destino y enviar",
+              "explanation": "Con XHR: new XMLHttpRequest(), onreadystatechange/handlers, open(método, URL, async) y send(datos)."
+            },
+            {
+              "text": "En una importación pesada quieren permitir cancelar una descarga larga desde la interfaz. ¿Qué acción debe contemplar la aplicación?",
+              "options": [
+                "Abortar la solicitud en curso",
+                "Subir el brillo de la pantalla",
+                "Reiniciar el ordenador",
+                "Desactivar los estilos"
+              ],
+              "correctAnswer": "Abortar la solicitud en curso",
+              "explanation": "XHR expone abort() y en Fetch se usa AbortController para cancelar peticiones en curso."
+            },
+            {
+              "text": "¿Qué diferencia clara hay entre preparar la solicitud y enviarla?",
+              "options": [
+                "Preparar consume más ancho de banda",
+                "Preparar define cómo y a dónde; enviar inicia la transmisión",
+                "Enviar solo funciona una vez al mes",
+                "Preparar borra la caché del navegador"
+              ],
+              "correctAnswer": "Preparar define cómo y a dónde; enviar inicia la transmisión",
+              "explanation": "Configuras método/URL/headers antes; al enviar se realiza la conexión y transmisión de datos."
+            },
+            {
+              "text": "En producción, algunas solicitudes tardan y devuelven error del servidor. ¿Cómo separarías el éxito del fallo en la lógica de interfaz?",
+              "options": [
+                "Forzar un texto genérico",
+                "Reiniciar la página al final",
+                "Comprobar el resultado del servidor al finalizar y actuar según sea correcto o no",
+                "Mostrar siempre éxito"
+              ],
+              "correctAnswer": "Comprobar el resultado del servidor al finalizar y actuar según sea correcto o no",
+              "explanation": "Al terminar, evalúa el código de estado (p. ej., 2xx éxito/4xx-5xx error) y muestra UI acorde."
+            },
+            {
+              "text": "¿Qué dos elementos básicos permiten saber en qué punto está una solicitud clásica y si fue correcta?",
+              "options": [
+                "Estado de la solicitud y código de resultado del servidor",
+                "Idioma y zona horaria",
+                "Largo y ancho de pantalla",
+                "Velocidad de la red y batería"
+              ],
+              "correctAnswer": "Estado de la solicitud y código de resultado del servidor",
+              "explanation": "readyState indica el progreso; status devuelve el código HTTP que indica éxito o error."
+            },
+            {
+              "text": "Un portal formativo quiere adoptar una alternativa moderna basada en promesas para las solicitudes de red. ¿Qué interfaz del navegador recomiendas?",
+              "options": [
+                "Fetch",
+                "Almacenamiento local",
+                "Fuentes web",
+                "Animaciones"
+              ],
+              "correctAnswer": "Fetch",
+              "explanation": "La API Fetch reemplaza patrones XHR con una interfaz basada en promesas y objetos Request/Response."
+            },
+            {
+              "text": "¿Qué idea diferencia Fetch de la técnica clásica en cuanto al manejo de resultados?",
+              "options": [
+                "Obliga a usar un único tipo de contenido",
+                "No permite personalización",
+                "Solo funciona sin conexión",
+                "Se basa en promesas y ofrece un objeto de respuesta con métodos para tratar el contenido"
+              ],
+              "correctAnswer": "Se basa en promesas y ofrece un objeto de respuesta con métodos para tratar el contenido",
+              "explanation": "fetch() devuelve una Promise<Response> con métodos como .json(), .text(), .blob() para decodificar datos."
+            },
+            {
+              "text": "En una fintech de Valencia deben enviar datos de pago al servidor con un envío moderno. ¿Qué requisito práctico suelen incluir para indicar que es contenido en formato de objetos?",
+              "options": [
+                "Indicar en la solicitud el tipo de contenido con un encabezado adecuado",
+                "Apagar la caché del navegador",
+                "Cambiar el idioma del navegador",
+                "Usar solo conexiones sin cifrado"
+              ],
+              "correctAnswer": "Indicar en la solicitud el tipo de contenido con un encabezado adecuado",
+              "explanation": "Se fija Content-Type: application/json y se envía JSON.stringify(datos) en el cuerpo."
+            },
+            {
+              "text": "El equipo quiere personalizar un envío moderno más allá de la dirección. ¿Qué posibilita esta personalización?",
+              "options": [
+                "El color del tema del sistema",
+                "Un archivo de imagen",
+                "Un conjunto de opciones como método, encabezados y contenido",
+                "La resolución de pantalla"
+              ],
+              "correctAnswer": "Un conjunto de opciones como método, encabezados y contenido",
+              "explanation": "fetch(url, { method, headers, body, signal, ... }) permite adaptar la petición a la necesidad."
+            },
+            {
+              "text": "Recibes una respuesta moderna con contenido en formato de objetos. ¿Qué patrón sencillo aplicarías para obtener los datos listos para usar?",
+              "options": [
+                "Abrir una nueva ventana",
+                "Pedir al objeto de respuesta que convierta su contenido en objetos de forma directa",
+                "Forzar una recarga de la página",
+                "Descargar un archivo comprimido"
+              ],
+              "correctAnswer": "Pedir al objeto de respuesta que convierta su contenido en objetos de forma directa",
+              "explanation": "Usa await response.json() (o .then(res => res.json())) para parsear el cuerpo a objetos JS."
+            },
+            {
+              "text": "En un visor de documentos se descargan archivos binarios como imágenes o informes. Con la alternativa moderna, ¿qué tipo de tratamiento de respuesta facilita trabajar con archivos?",
+              "options": [
+                "Solo números enteros",
+                "Texto enriquecido",
+                "Contenido binario preparado para archivos",
+                "Solo listas de cadenas"
+              ],
+              "correctAnswer": "Contenido binario preparado para archivos",
+              "explanation": "response.blob() (o arrayBuffer()) permite manejar binarios y crear URLs de objeto para descarga/visualización."
+            },
+            {
+              "text": "Una aplicación con navegación por vistas necesita poder cancelar una solicitud moderna al cambiar de pantalla. ¿Qué solución propone la especificación actual?",
+              "options": [
+                "Desactivar las hojas de estilo",
+                "Vaciar la caché del sistema",
+                "Usar un controlador de cancelación y pasar su señal a la solicitud",
+                "Cerrar el navegador"
+              ],
+              "correctAnswer": "Usar un controlador de cancelación y pasar su señal a la solicitud",
+              "explanation": "AbortController/AbortSignal integran cancelación en fetch: controller.abort() cancela la petición."
+            },
+            {
+              "text": "¿Cuál es el objetivo principal al usar AJAX en aplicaciones web?",
+              "options": [
+                "Mejorar la experiencia del usuario con actualizaciones parciales y rápidas",
+                "Hacer la página más pesada",
+                "Desactivar la interacción",
+                "Reducir la tipografía"
+              ],
+              "correctAnswer": "Mejorar la experiencia del usuario con actualizaciones parciales y rápidas",
+              "explanation": "Se busca fluidez: menos recargas, menor latencia percibida y UI más reactiva."
+            },
+            {
+              "text": "¿Qué ventaja práctica aporta dividir la información en varias solicitudes pequeñas en lugar de una muy grande?",
+              "options": [
+                "Evita la seguridad",
+                "Dificulta la caché",
+                "Mejora la percepción de velocidad y reduce bloqueos",
+                "Aumenta el consumo de datos"
+              ],
+              "correctAnswer": "Mejora la percepción de velocidad y reduce bloqueos",
+              "explanation": "Chunking/paginación entregan contenido antes y evitan tiempos muertos o fallos por respuestas enormes."
+            },
+            {
+              "text": "En un formulario de atención al cliente hay que enviar datos sensibles al servidor. ¿Qué medida general conviene, además del método adecuado?",
+              "options": [
+                "Publicar los datos en un tablón",
+                "Usar colores llamativos",
+                "Desactivar las copias de seguridad",
+                "Transmitir por una conexión segura y validar en el servidor"
+              ],
+              "correctAnswer": "Transmitir por una conexión segura y validar en el servidor",
+              "explanation": "Usa HTTPS para cifrar en tránsito y valida/limpia los datos en backend para seguridad e integridad."
+            },
+            {
+              "text": "Un panel recibe datos en formato de objetos con listas. ¿Por qué este formato resulta cómodo en aplicaciones web?",
+              "options": [
+                "Porque no necesita servidor",
+                "Porque es ligero y se adapta bien a la estructura de las aplicaciones del navegador",
+                "Porque sustituye a las hojas de estilo",
+                "Porque es un archivo de imagen"
+              ],
+              "correctAnswer": "Porque es ligero y se adapta bien a la estructura de las aplicaciones del navegador",
+              "explanation": "JSON es compacto, legible y mapea naturalmente a objetos/arrays de JavaScript."
+            },
+            {
+              "text": "En una tabla de informes se quieren mostrar resultados a medida que llegan, sin bloquear al usuario. ¿Qué enfoque operativo aplica mejor?",
+              "options": [
+                "Solo trabajo sin conexión",
+                "Peticiones asíncronas que no interrumpen la interacción",
+                "Actualizaciones solo al final del día",
+                "Recargas completas"
+              ],
+              "correctAnswer": "Peticiones asíncronas que no interrumpen la interacción",
+              "explanation": "Operar en asíncrono evita bloquear el hilo principal y permite pintar resultados progresivamente."
+            },
+            {
+              "text": "¿Qué comprobación mínima realizarías antes de actualizar la interfaz con los datos recibidos?",
+              "options": [
+                "Que la solicitud terminó y el servidor respondió con éxito",
+                "El brillo de la pantalla",
+                "La ubicación del usuario",
+                "El idioma del teclado"
+              ],
+              "correctAnswer": "Que la solicitud terminó y el servidor respondió con éxito",
+              "explanation": "Solo debe actualizarse la UI cuando la petición ha finalizado y el código de estado indica éxito."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

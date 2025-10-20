@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Manejo de la sintaxis de JavaScript",
+          "questions": [
+            {
+              "text": "En una web de reservas de Madrid, queréis que el contenido se muestre cuanto antes. ¿Dónde conviene colocar el archivo de scripts para mejorar la percepción de carga?",
+              "options": [
+                "En una carpeta de imágenes",
+                "Al final del cuerpo de la página, antes del cierre",
+                "Incrustado en mitad del contenido",
+                "En la cabecera con ejecución inmediata"
+              ],
+              "correctAnswer": "Al final del cuerpo de la página, antes del cierre",
+              "explanation": "Cargar los scripts al final evita bloquear el renderizado inicial del HTML, mejorando la percepción de rapidez."
+            },
+            {
+              "text": "En una landing de Barcelona, debéis incluir un archivo con instrucciones para el navegador. ¿Cómo se llama la etiqueta HTML usada para enlazar un script?",
+              "options": [
+                "meta",
+                "script",
+                "link",
+                "style"
+              ],
+              "correctAnswer": "script",
+              "explanation": "La etiqueta <script> es la estándar para referenciar y ejecutar código JavaScript."
+            },
+            {
+              "text": "Marta declara una variable dentro de una función y después intenta leerla desde fuera. ¿Qué sucede normalmente con su alcance?",
+              "options": [
+                "No es accesible fuera de la función",
+                "Pasa a ser visible en toda la aplicación",
+                "Se convierte en constante",
+                "Cambia de tipo automáticamente"
+              ],
+              "correctAnswer": "No es accesible fuera de la función",
+              "explanation": "Las variables locales tienen alcance de función: solo existen dentro de la función donde se declaran."
+            },
+            {
+              "text": "En un módulo de tickets, el equipo compara dos formas de declarar variables. ¿Qué aporta la declaración moderna con alcance de bloque?",
+              "options": [
+                "Obliga a iniciar siempre en cero",
+                "Crea variables globales por defecto",
+                "Permite redeclarar en el mismo bloque",
+                "Evita redeclaraciones accidentales y respeta el bloque"
+              ],
+              "correctAnswer": "Evita redeclaraciones accidentales y respeta el bloque",
+              "explanation": "let/const respetan el alcance de bloque y no permiten redeclaraciones en el mismo bloque, reduciendo errores."
+            },
+            {
+              "text": "En un dashboard unimos un número con un texto para mostrarlo. ¿Qué pasa con el tipo del resultado al realizar esa unión?",
+              "options": [
+                "Queda sin definir",
+                "Permanece como número",
+                "Se convierte en lógico",
+                "Se convierte en texto"
+              ],
+              "correctAnswer": "Se convierte en texto",
+              "explanation": "La concatenación con cadenas fuerza la conversión a string del resultado."
+            },
+            {
+              "text": "En un informe, consultan el tipo de un valor nulo. ¿Qué etiqueta de tipo devuelve normalmente el motor de JavaScript para un nulo?",
+              "options": [
+                "valor",
+                "objeto",
+                "nulo",
+                "indefinido"
+              ],
+              "correctAnswer": "objeto",
+              "explanation": "typeof null devuelve 'object' por razones históricas del lenguaje."
+            },
+            {
+              "text": "Llega la cadena “4 2” desde una API y hay que operar con ella. ¿Qué acción clara propones?",
+              "options": [
+                "Convertir la cadena en número de forma explícita",
+                "Obtener códigos de caracteres",
+                "Convertirla en fecha",
+                "Convertirla en lógico"
+              ],
+              "correctAnswer": "Convertir la cadena en número de forma explícita",
+              "explanation": "Antes de operar, convierte la cadena a número (Number, parseInt/parseFloat) para evitar resultados erróneos."
+            },
+            {
+              "text": "El sistema necesita mostrar un número dentro de una frase. ¿Qué haces con el valor numérico?",
+              "options": [
+                "Convertirlo a texto y concatenarlo en el mensaje",
+                "Convertirlo en lógico y mostrarlo",
+                "Guardarlo en un archivo aparte",
+                "Restarle uno y mostrarlo"
+              ],
+              "correctAnswer": "Convertirlo a texto y concatenarlo en el mensaje",
+              "explanation": "Transformar a string (p. ej., con interpolación) permite integrarlo correctamente en el texto."
+            },
+            {
+              "text": "El equipo quiere redactar mensajes con variables insertadas de forma legible. ¿Qué comillas permiten escribir plantillas con interpolación de valores?",
+              "options": [
+                "Simples",
+                "Comillas invertidas o de plantilla",
+                "Dobles",
+                "Ninguna, no es posible"
+              ],
+              "correctAnswer": "Comillas invertidas o de plantilla",
+              "explanation": "Las template literals (``) permiten interpolación con ${...} y saltos de línea."
+            },
+            {
+              "text": "En un formulario, buscan una herramienta para comprobar que un correo tiene formato válido según un patrón. ¿Qué técnica usarías?",
+              "options": [
+                "Expresiones regulares",
+                "Plantillas de diseño",
+                "Comentarios en el código",
+                "Hojas de estilo"
+              ],
+              "correctAnswer": "Expresiones regulares",
+              "explanation": "Las regex permiten validar cadenas contra patrones definidos, como el formato de email."
+            },
+            {
+              "text": "En un contador de intentos, queréis sumar uno y reasignar el resultado en la misma operación. ¿Qué tipo de operación aplica?",
+              "options": [
+                "Asignación compuesta de suma",
+                "Comparación",
+                "Asignación simple",
+                "Desigualdad"
+              ],
+              "correctAnswer": "Asignación compuesta de suma",
+              "explanation": "El operador += incrementa y reasigna en una sola expresión (contador += 1)."
+            },
+            {
+              "text": "Partiendo del valor diez, se multiplica por dos y luego se resta cinco. ¿Cuál es el resultado final?",
+              "options": [
+                "Quince",
+                "Diez",
+                "Cinco",
+                "Veinticinco"
+              ],
+              "correctAnswer": "Quince",
+              "explanation": "10 * 2 = 20; 20 - 5 = 15."
+            },
+            {
+              "text": "Para evitar sorpresas al comparar el número cinco con el texto “cinco”, ¿qué comparación recomiendas?",
+              "options": [
+                "Orden alfabético",
+                "Igualdad estricta que compara tipo y valor",
+                "Igualdad que convierte tipos automáticamente",
+                "Desigualdad simple"
+              ],
+              "correctAnswer": "Igualdad estricta que compara tipo y valor",
+              "explanation": "=== compara valor y tipo, evitando conversiones implícitas que pueden dar resultados engañosos."
+            },
+            {
+              "text": "En una validación con varias condiciones, ¿qué operador lógico devuelve verdadero si al menos una condición es cierta?",
+              "options": [
+                "Negación",
+                "Fusión nula",
+                "Disyunción",
+                "Conjunción"
+              ],
+              "correctAnswer": "Disyunción",
+              "explanation": "El operador lógico OR (||) es verdadero si cualquiera de sus operandos es verdadero."
+            },
+            {
+              "text": "En un cálculo aparece una parte entre paréntesis: cinco más tres y, después, por dos. ¿Qué representa esa parte entre paréntesis?",
+              "options": [
+                "Un objeto",
+                "Una asignación",
+                "Un valor lógico",
+                "Una subexpresión que se evalúa primero"
+              ],
+              "correctAnswer": "Una subexpresión que se evalúa primero",
+              "explanation": "Los paréntesis alteran la precedencia: lo que encierran se evalúa antes que el resto."
+            },
+            {
+              "text": "Un junior mezcla varias operaciones y efectos en una sola línea y resulta difícil de mantener. ¿Qué práctica mejora la claridad?",
+              "options": [
+                "Escribir todo en una sola instrucción",
+                "Evitar cualquier comentario",
+                "Quitar todos los paréntesis",
+                "Separar en pasos con variables intermedias"
+              ],
+              "correctAnswer": "Separar en pasos con variables intermedias",
+              "explanation": "Dividir en pasos hace el código más legible, depurable y expresivo."
+            },
+            {
+              "text": "Dos personas editan el mismo módulo; una deja notas del porqué de una decisión sin afectar a la ejecución. ¿Qué está usando?",
+              "options": [
+                "Eventos personalizados",
+                "Comentarios",
+                "Plantillas de cadena",
+                "Desestructuración"
+              ],
+              "correctAnswer": "Comentarios",
+              "explanation": "Los comentarios documentan el código y no afectan a su ejecución."
+            },
+            {
+              "text": "¿Cómo se denomina el bloque de texto que permite escribir notas en varias líneas que el navegador ignora?",
+              "options": [
+                "Encabezado de documento",
+                "Etiqueta semántica",
+                "Hoja de estilo",
+                "Comentario de varias líneas"
+              ],
+              "correctAnswer": "Comentario de varias líneas",
+              "explanation": "El comentario /* ... */ permite anotar en varias líneas sin ejecutarse."
+            },
+            {
+              "text": "En el código, las instrucciones que el motor ejecuta de arriba a abajo se llaman…",
+              "options": [
+                "Anclas",
+                "Comentarios",
+                "Sentencias",
+                "Literales"
+              ],
+              "correctAnswer": "Sentencias",
+              "explanation": "Una sentencia es una instrucción completa que el intérprete ejecuta."
+            },
+            {
+              "text": "En una zona propensa a fallos, ¿qué estructura permite intentar un bloque y capturar el error si ocurre?",
+              "options": [
+                "Estructura de intento y captura de errores",
+                "Bloque estático",
+                "Declaración de estilo",
+                "Lista de parámetros"
+              ],
+              "correctAnswer": "Estructura de intento y captura de errores",
+              "explanation": "try...catch permite manejar excepciones sin romper el flujo de la aplicación."
+            },
+            {
+              "text": "En un condicional con varias instrucciones, ¿cómo agrupas lo que debe ejecutarse junto si se cumple la condición?",
+              "options": [
+                "Corchetes",
+                "Paréntesis",
+                "Comillas simples",
+                "Llaves para formar un bloque"
+              ],
+              "correctAnswer": "Llaves para formar un bloque",
+              "explanation": "Las llaves { } agrupan múltiples sentencias en un solo bloque de control."
+            },
+            {
+              "text": "Un sistema de pedidos debe ejecutar un bloque u otro según una comparación de cantidades. ¿Qué hace un “si… en caso contrario”?",
+              "options": [
+                "Elige entre dos bloques de instrucciones",
+                "Declara una clase",
+                "Abre un comentario",
+                "Define un estilo visual"
+              ],
+              "correctAnswer": "Elige entre dos bloques de instrucciones",
+              "explanation": "if...else ejecuta un bloque si la condición es verdadera y otro si es falsa."
+            },
+            {
+              "text": "En una tarea repetitiva, queréis ejecutar un número de vueltas conocido y detener cuando se alcance una condición. ¿Qué estructura encaja mejor con una interrupción controlada?",
+              "options": [
+                "Bucle infinito sin control",
+                "Recorrido de propiedades de un objeto",
+                "Bucle con contador y condición de parada",
+                "Recorrido de elementos sin condición"
+              ],
+              "correctAnswer": "Bucle con contador y condición de parada",
+              "explanation": "for/while con condición permiten iterar un número conocido de veces y romper cuando proceda."
+            },
+            {
+              "text": "En un bucle, necesitáis saltar la vuelta actual y continuar con la siguiente. ¿Qué instrucción describe esta idea?",
+              "options": [
+                "Detener programa",
+                "Pausar el sistema",
+                "Reiniciar la página",
+                "Continuar con la siguiente iteración"
+              ],
+              "correctAnswer": "Continuar con la siguiente iteración",
+              "explanation": "La sentencia continue salta al siguiente ciclo del bucle sin terminar el actual."
+            },
+            {
+              "text": "Varias funciones deben reaccionar al hacer clic en el mismo botón sin pisarse entre sí. ¿Qué mecanismo del navegador lo permite?",
+              "options": [
+                "Mensajes en pantalla con escritura de documento",
+                "Sistema de suscripción que admite varios manejadores por evento",
+                "Un único manejador global para toda la web",
+                "Asignación directa que reemplaza el manejador anterior"
+              ],
+              "correctAnswer": "Sistema de suscripción que admite varios manejadores por evento",
+              "explanation": "addEventListener permite registrar múltiples listeners para el mismo evento sin sobrescribir."
+            },
+            {
+              "text": "En un listado de pedidos, ¿qué afirmación es correcta sobre la posición del primer elemento de una lista indexada?",
+              "options": [
+                "Empieza en uno",
+                "Depende del idioma del navegador",
+                "Empieza en cero",
+                "No tiene posición"
+              ],
+              "correctAnswer": "Empieza en cero",
+              "explanation": "Los arrays en JavaScript son de índice base cero: el primer elemento está en posición 0."
+            },
+            {
+              "text": "¿Cómo se denomina la propiedad que indica cuántos elementos contiene una lista?",
+              "options": [
+                "Capacidad del dispositivo",
+                "Tamaño visual",
+                "Longitud de la lista",
+                "Contador manual"
+              ],
+              "correctAnswer": "Longitud de la lista",
+              "explanation": "La propiedad length de los arrays indica el número de elementos almacenados."
+            },
+            {
+              "text": "Tu equipo quiere volver de una función “moderna” a la forma clásica por claridad. ¿Qué característica identifica a la forma clásica?",
+              "options": [
+                "Se declara con la palabra reservada de función tradicional",
+                "Se escribe siempre en una sola línea",
+                "No admite parámetros",
+                "No puede devolver resultados"
+              ],
+              "correctAnswer": "Se declara con la palabra reservada de función tradicional",
+              "explanation": "Las function declarations usan la palabra clave function y un nombre opcional."
+            },
+            {
+              "text": "¿Qué aportan las funciones en un proyecto grande?",
+              "options": [
+                "Encapsulan y reutilizan lógica, organizando el código",
+                "Sustituyen la documentación",
+                "Garantizan el mismo rendimiento en todos los navegadores",
+                "Eliminan todas las variables"
+              ],
+              "correctAnswer": "Encapsulan y reutilizan lógica, organizando el código",
+              "explanation": "Las funciones dividen el programa en piezas reutilizables y mantenibles."
+            },
+            {
+              "text": "Debéis ejecutar una acción tres segundos después de cargar la página. ¿Qué opción describe correctamente el mecanismo a emplear?",
+              "options": [
+                "Iniciar un temporizador que ejecute la acción pasado el tiempo indicado",
+                "Abrir una nueva pestaña y cerrarla",
+                "Forzar una recarga periódica",
+                "Lanzar un bucle que espere tres segundos bloqueando"
+              ],
+              "correctAnswer": "Iniciar un temporizador que ejecute la acción pasado el tiempo indicado",
+              "explanation": "setTimeout programa la ejecución de una función tras un retardo, sin bloquear el hilo."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

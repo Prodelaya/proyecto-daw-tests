@@ -1,0 +1,362 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 7,
+          "title": "Interfaces en aplicaciones web",
+          "questions": [
+            {
+              "text": "En móviles, para pulsar mejor un botón importante conviene:",
+              "options": [
+                "Cambiarlo a rojo",
+                "Desactivar en pantallas pequeñas",
+                "Aumentar tamaño/área y acercarlo al pulgar (ley de Fitts)",
+                "Usar solo un icono"
+              ],
+              "correctAnswer": "Aumentar tamaño/área y acercarlo al pulgar (ley de Fitts)",
+              "explanation": "La ley de Fitts establece que cuanto más grande y cercano esté un objetivo, más rápido se puede alcanzar."
+            },
+            {
+              "text": "La ley de Hick-Hyman dice que:",
+              "options": [
+                "Más opciones ⇒ más tiempo de decisión",
+                "El tamaño no importa",
+                "Decidir no depende de cuántas opciones hay",
+                "La posición no influye"
+              ],
+              "correctAnswer": "Más opciones ⇒ más tiempo de decisión",
+              "explanation": "Esta ley explica que el tiempo de decisión aumenta a medida que se incrementan las alternativas disponibles."
+            },
+            {
+              "text": "Menú con muchas opciones: para reducir fricción inicial…",
+              "options": [
+                "Acordeón siempre abierto",
+                "Agrupar y dejar visibles las más usadas; el resto en “Más”",
+                "Subir el tamaño de letra",
+                "Orden alfabético"
+              ],
+              "correctAnswer": "Agrupar y dejar visibles las más usadas; el resto en “Más”",
+              "explanation": "Agrupar opciones reduce la carga cognitiva y mejora la usabilidad."
+            },
+            {
+              "text": "Tras enviar un formulario que tarda, lo correcto es:",
+              "options": [
+                "Mostrar carga y confirmación de éxito/error",
+                "Quitar validaciones",
+                "Ocultar el botón",
+                "Recargar toda la página"
+              ],
+              "correctAnswer": "Mostrar carga y confirmación de éxito/error",
+              "explanation": "El feedback visual y los mensajes de confirmación aumentan la confianza del usuario."
+            },
+            {
+              "text": "“Jerarquía visual” es…",
+              "options": [
+                "Títulos en mayúsculas",
+                "Guiar atención con tamaño, color y posición",
+                "Centrar todos los textos",
+                "Todo igual de grande"
+              ],
+              "correctAnswer": "Guiar atención con tamaño, color y posición",
+              "explanation": "La jerarquía visual dirige la atención del usuario a los elementos más importantes."
+            },
+            {
+              "text": "Ante estilos distintos entre módulos, lo mejor es:",
+              "options": [
+                "Mover botones al azar",
+                "Cada equipo su estilo",
+                "Unificar patrones y estados (consistencia)",
+                "Quitar etiquetas"
+              ],
+              "correctAnswer": "Unificar patrones y estados (consistencia)",
+              "explanation": "La consistencia facilita el aprendizaje y reduce errores en la interacción."
+            },
+            {
+              "text": "Para menos errores en formularios críticos:",
+              "options": [
+                "Más decoraciones",
+                "Tres tipografías",
+                "Restricciones y validaciones claras (prevenir errores)",
+                "Más pasos"
+              ],
+              "correctAnswer": "Restricciones y validaciones claras (prevenir errores)",
+              "explanation": "Las validaciones ayudan a detectar y prevenir errores antes de enviar los datos."
+            },
+            {
+              "text": "Acción “Eliminar proyecto”:",
+              "options": [
+                "Color amarillo",
+                "Un clic sin deshacer",
+                "Confirmación contextual + opción de deshacer + separación visual",
+                "Botón centrado"
+              ],
+              "correctAnswer": "Confirmación contextual + opción de deshacer + separación visual",
+              "explanation": "Las acciones destructivas deben confirmarse y ofrecer posibilidad de revertir."
+            },
+            {
+              "text": "Si hay ruido visual y baja la conversión:",
+              "options": [
+                "Cambiar a tipografía manuscrita",
+                "Pedir datos por correo",
+                "Quitar lo no esencial y enfatizar el flujo principal",
+                "Aumentar todo un 20%"
+              ],
+              "correctAnswer": "Quitar lo no esencial y enfatizar el flujo principal",
+              "explanation": "Reducir el ruido visual mejora el enfoque en las acciones clave del usuario."
+            },
+            {
+              "text": "Diseño centrado en el usuario significa:",
+              "options": [
+                "Decidir por consenso interno",
+                "Copiar a la competencia",
+                "Entender necesidades reales y validar con usuarios",
+                "Priorizar solo SEO"
+              ],
+              "correctAnswer": "Entender necesidades reales y validar con usuarios",
+              "explanation": "El diseño centrado en el usuario busca soluciones basadas en investigación y pruebas reales."
+            },
+            {
+              "text": "Si los alumnos no encuentran “Mis cursos”, falla la:",
+              "options": [
+                "Facilidad de aprendizaje/recuerdo",
+                "Estética",
+                "Gamificación",
+                "Accesibilidad auditiva"
+              ],
+              "correctAnswer": "Facilidad de aprendizaje/recuerdo",
+              "explanation": "La facilidad de aprendizaje mide lo fácil que resulta recordar cómo usar la interfaz."
+            },
+            {
+              "text": "Usabilidad vs UX:",
+              "options": [
+                "Usabilidad",
+                "eficacia/eficiencia; UX",
+                "experiencia completa",
+                "Son iguales",
+                "UX es solo color",
+                "Usabilidad solo en móviles"
+              ],
+              "correctAnswer": [
+                "Usabilidad",
+                "eficacia/eficiencia; UX",
+                "experiencia completa"
+              ],
+              "explanation": "La usabilidad busca eficacia y eficiencia; la UX abarca también la satisfacción y emociones del usuario."
+            },
+            {
+              "text": "Métrica de eficiencia adecuada:",
+              "options": [
+                "Visitas a la home",
+                "Páginas por sesión",
+                "Tiempo medio por tarea completada",
+                "Opinión sobre colores"
+              ],
+              "correctAnswer": "Tiempo medio por tarea completada",
+              "explanation": "Mide la eficiencia del usuario al completar una tarea con éxito."
+            },
+            {
+              "text": "Para elegir entre dos diseños válidos:",
+              "options": [
+                "Encuestar solo al equipo",
+                "Lanzar ambos a la vez",
+                "Prueba A/B con objetivos y muestra adecuados",
+                "El más “bonito”"
+              ],
+              "correctAnswer": "Prueba A/B con objetivos y muestra adecuados",
+              "explanation": "Las pruebas A/B permiten comparar de forma objetiva dos versiones y medir resultados."
+            },
+            {
+              "text": "En accesibilidad, un objetivo clave es:",
+              "options": [
+                "Tipografías decorativas",
+                "Usable por personas con distintas capacidades/dispositivos",
+                "Bajar contraste",
+                "Forzar un navegador"
+              ],
+              "correctAnswer": "Usable por personas con distintas capacidades/dispositivos",
+              "explanation": "El diseño accesible permite la interacción sin barreras físicas o tecnológicas."
+            },
+            {
+              "text": "Antes de rediseñar una app sanitaria para mayores:",
+              "options": [
+                "Cambiar el logo",
+                "Investigar con usuarios (entrevistas y tests)",
+                "Añadir chatbot sin guion",
+                "Quitar pantallas sin analizar"
+              ],
+              "correctAnswer": "Investigar con usuarios (entrevistas y tests)",
+              "explanation": "La investigación con usuarios garantiza que el rediseño se base en sus necesidades reales."
+            },
+            {
+              "text": "“Efectividad” en usabilidad es:",
+              "options": [
+                "Gamificación",
+                "Velocidad de red",
+                "Completar tareas con precisión",
+                "Solo estética"
+              ],
+              "correctAnswer": "Completar tareas con precisión",
+              "explanation": "La efectividad evalúa si el usuario logra completar correctamente sus objetivos."
+            },
+            {
+              "text": "Para detectar problemas temprano con un prototipo:",
+              "options": [
+                "Test de carga",
+                "Pruebas de usabilidad con “think aloud”",
+                "Estrellas al final del sprint",
+                "Revisar solo código"
+              ],
+              "correctAnswer": "Pruebas de usabilidad con “think aloud”",
+              "explanation": "El método 'think aloud' permite observar cómo los usuarios interactúan y qué dificultades encuentran."
+            },
+            {
+              "text": "Evaluar con checklist de heurísticas es:",
+              "options": [
+                "Test unitario",
+                "Evaluación heurística",
+                "Regresión visual",
+                "Test de humo"
+              ],
+              "correctAnswer": "Evaluación heurística",
+              "explanation": "La evaluación heurística revisa el diseño según principios de usabilidad reconocidos."
+            },
+            {
+              "text": "Además de usabilidad, la UX abarca:",
+              "options": [
+                "Solo tamaño de imágenes",
+                "Utilidad y respuesta emocional",
+                "Solo rendimiento del servidor",
+                "Complejidad algorítmica"
+              ],
+              "correctAnswer": "Utilidad y respuesta emocional",
+              "explanation": "La UX considera la utilidad y las emociones que provoca el uso de la aplicación."
+            },
+            {
+              "text": "Si “Compartir” es difícil de encontrar, mejora:",
+              "options": [
+                "Añadirlo a navegación global y mantenerlo en local",
+                "Color verde lima",
+                "Quitar en páginas internas",
+                "Esconderlo en contextual"
+              ],
+              "correctAnswer": "Añadirlo a navegación global y mantenerlo en local",
+              "explanation": "Mantener accesible una acción clave mejora la consistencia y la facilidad de uso."
+            },
+            {
+              "text": "Rutas de navegación claras significan:",
+              "options": [
+                "Enlaces crípticos",
+                "Acceso fácil a secciones clave y opciones de retorno",
+                "Sin forma de volver",
+                "Menús sin etiquetas"
+              ],
+              "correctAnswer": "Acceso fácil a secciones clave y opciones de retorno",
+              "explanation": "Una navegación clara evita que el usuario se pierda y mejora la orientación dentro del sitio."
+            },
+            {
+              "text": "Menú con 18 entradas:",
+              "options": [
+                "Orden por fecha",
+                "Todo en mayúsculas",
+                "Iconos aleatorios",
+                "Agrupar por categorías y crear niveles global/local con etiquetas claras"
+              ],
+              "correctAnswer": "Agrupar por categorías y crear niveles global/local con etiquetas claras",
+              "explanation": "Una estructura jerárquica facilita encontrar información rápidamente."
+            },
+            {
+              "text": "Búsqueda de “zapatillas rojas 42”:",
+              "options": [
+                "Quitar buscador",
+                "Mover carrito abajo",
+                "Forzar navegar por categorías",
+                "Añadir búsqueda con filtros (talla/color) y lista clara"
+              ],
+              "correctAnswer": "Añadir búsqueda con filtros (talla/color) y lista clara",
+              "explanation": "Los filtros facilitan la búsqueda precisa y mejoran la conversión."
+            },
+            {
+              "text": "Texto de enlace claro y consistente:",
+              "options": [
+                "“Aquí”",
+                "Verbos/descripciones precisas (“Ver detalles”, “Descargar factura”)",
+                "Mezclar idiomas",
+                "Códigos internos"
+              ],
+              "correctAnswer": "Verbos/descripciones precisas (“Ver detalles”, “Descargar factura”)",
+              "explanation": "Los textos claros indican la acción que se realizará al hacer clic."
+            },
+            {
+              "text": "Al guardar un registro, para percibir el estado:",
+              "options": [
+                "Mensajes en consola",
+                "Recarga sin aviso",
+                "Botón con estados (cargando/éxito), mensaje y lista actualizada",
+                "Botones sin estados"
+              ],
+              "correctAnswer": "Botón con estados (cargando/éxito), mensaje y lista actualizada",
+              "explanation": "El feedback visual informa al usuario del progreso y resultado de la acción."
+            },
+            {
+              "text": "Diseño responsivo se basa en:",
+              "options": [
+                "Cuadrículas fluidas, imágenes flexibles y media queries",
+                "Plantillas fijas por dispositivo",
+                "Framework obligatorio",
+                "Solo SVG"
+              ],
+              "correctAnswer": "Cuadrículas fluidas, imágenes flexibles y media queries",
+              "explanation": "Estos tres principios permiten adaptar el diseño a cualquier tamaño de pantalla."
+            },
+            {
+              "text": "Estilos específicos para ≤768 px:",
+              "options": [
+                "max-width: 768px",
+                "@media (resolution: 2x)",
+                "@media screen",
+                "min-width: 768px"
+              ],
+              "correctAnswer": "max-width: 768px",
+              "explanation": "El uso de media queries con max-width permite aplicar estilos a pantallas pequeñas."
+            },
+            {
+              "text": "Para interacción táctil en móviles:",
+              "options": [
+                "Convertir botones en enlaces de texto",
+                "Reducir padding",
+                "Aumentar tamaño y espaciado de objetivos",
+                "Desactivar zoom"
+              ],
+              "correctAnswer": "Aumentar tamaño y espaciado de objetivos",
+              "explanation": "En pantallas táctiles, los elementos deben tener suficiente tamaño para ser tocados cómodamente."
+            },
+            {
+              "text": "Metadato que ayuda a adaptar en móviles:",
+              "options": [
+                "viewport con width",
+                "device-width, initial-scale",
+                "1.0",
+                "mobile”",
+                "phone”",
+                "meta “device",
+                "meta “theme",
+                "viewport con escala inicial 2"
+              ],
+              "correctAnswer": [
+                "viewport con width",
+                "device-width, initial-scale",
+                "1.0",
+                "mobile”",
+                "phone”"
+              ],
+              "explanation": "La metaetiqueta viewport con width=device-width e initial-scale=1.0 ajusta el contenido a pantallas móviles."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

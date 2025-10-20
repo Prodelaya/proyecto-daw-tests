@@ -6,6 +6,7 @@
 
 import { useState, FormEvent } from 'react';
 import { useAuth } from '../context/AuthContext';
+import { Navigate } from 'react-router-dom'; 
 
 // BLOQUE 2: Componente Login
 
@@ -110,24 +111,9 @@ export default function Login() {
 
   // BLOQUE 4: JSX
   
-  // Si ya hay usuario logueado, mostrar mensaje temporal
-  // (Después esto será un redirect a /dashboard con React Router)
+  // Si ya hay usuario logueado, redirigir a dashboard
   if (user) {
-    return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="bg-white p-8 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold text-green-600 mb-4">
-            ✅ Sesión iniciada
-          </h2>
-          <p className="text-gray-700">
-            Bienvenido, <strong>{user.name}</strong>
-          </p>
-          <p className="text-gray-500 text-sm mt-2">
-            (Dashboard próximamente...)
-          </p>
-        </div>
-      </div>
-    );
+    return <Navigate to="/dashboard" replace />;
   }
 
   // Renderizar formulario Login/Registro

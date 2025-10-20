@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 6,
+          "title": "Estándares y lenguajes de marcas en desarrollo web",
+          "questions": [
+            {
+              "text": "¿Qué formato suele pesar menos para datos web ligeros?",
+              "options": [
+                "JSON",
+                "HTML",
+                "CSV",
+                "XML"
+              ],
+              "correctAnswer": "JSON",
+              "explanation": "JSON tiene una estructura ligera y menos verbosa que XML, ideal para intercambio de datos."
+            },
+            {
+              "text": "¿Qué estructura caracteriza a JSON?",
+              "options": [
+                "Solo texto plano",
+                "Solo atributos",
+                "Pares clave–valor y listas",
+                "Solo tablas"
+              ],
+              "correctAnswer": "Pares clave–valor y listas",
+              "explanation": "JSON usa pares clave–valor y arreglos, lo que facilita su uso en JavaScript."
+            },
+            {
+              "text": "¿Para representar datos muy jerárquicos, XML destaca por…",
+              "options": [
+                "Usar comentarios",
+                "Elementos anidados y espacios de nombres",
+                "Forzar arrays",
+                "Evitar etiquetas"
+              ],
+              "correctAnswer": "Elementos anidados y espacios de nombres",
+              "explanation": "XML permite definir jerarquías mediante etiquetas anidadas y nombres únicos por espacio de nombres."
+            },
+            {
+              "text": "¿Cuál es una desventaja típica de XML frente a JSON?",
+              "options": [
+                "No funciona en móviles",
+                "No es estándar",
+                "Mayor verbosidad/tamaño",
+                "No es legible"
+              ],
+              "correctAnswer": "Mayor verbosidad/tamaño",
+              "explanation": "XML usa más etiquetas y texto que JSON, por eso suele ser más pesado."
+            },
+            {
+              "text": "En XAMPP, ¿dónde debe ir el proyecto por defecto?",
+              "options": [
+                "C:\\xampp\\apps",
+                "Escritorio",
+                "C:\\xampp\\htdocs",
+                "C:\\xampp\\bin"
+              ],
+              "correctAnswer": "C:\\xampp\\htdocs",
+              "explanation": "htdocs es la carpeta raíz del servidor Apache donde se alojan los proyectos web."
+            },
+            {
+              "text": "MySQL en XAMPP (por defecto) usa como credenciales:",
+              "options": [
+                "admin/admin",
+                "root / contraseña vacía",
+                "mysql/mysql",
+                "sa/sa"
+              ],
+              "correctAnswer": "root / contraseña vacía",
+              "explanation": "Por defecto, MySQL en XAMPP usa el usuario root sin contraseña para entornos locales."
+            },
+            {
+              "text": "Para indicar que devuelves datos en JSON desde el servidor, el tipo de contenido correcto es:",
+              "options": [
+                "application/json",
+                "text/html",
+                "multipart/form-data",
+                "text/plain"
+              ],
+              "correctAnswer": "application/json",
+              "explanation": "El encabezado Content-Type: application/json indica que el cuerpo es JSON."
+            },
+            {
+              "text": "Para recuperar datos sin modificarlos, el método HTTP es:",
+              "options": [
+                "DELETE",
+                "POST",
+                "PUT",
+                "GET"
+              ],
+              "correctAnswer": "GET",
+              "explanation": "GET solicita información del servidor sin alterar el recurso."
+            },
+            {
+              "text": "Si el recurso solicitado no existe, la respuesta adecuada es:",
+              "options": [
+                "200",
+                "404",
+                "201",
+                "500"
+              ],
+              "correctAnswer": "404",
+              "explanation": "El código 404 Not Found indica que el recurso solicitado no existe."
+            },
+            {
+              "text": "Si el método enviado no está permitido por el endpoint, lo correcto es:",
+              "options": [
+                "206",
+                "400",
+                "301",
+                "204"
+              ],
+              "correctAnswer": "400",
+              "explanation": "El código 400 Bad Request indica una solicitud malformada o método no permitido."
+            },
+            {
+              "text": "¿Qué paso clave del flujo “cliente-servidor” con peticiones asíncronas es correcto?",
+              "options": [
+                "Recargar siempre la página",
+                "Solicitar, comprobar estado OK y procesar los datos",
+                "Insertar HTML manual",
+                "Usar iframes"
+              ],
+              "correctAnswer": "Solicitar, comprobar estado OK y procesar los datos",
+              "explanation": "Una petición asíncrona consulta datos, comprueba el estado 200 y procesa la respuesta sin recargar."
+            },
+            {
+              "text": "¿Qué organización define estándares para la Web?",
+              "options": [
+                "ISO",
+                "IETF",
+                "IEEE",
+                "W3C"
+              ],
+              "correctAnswer": "W3C",
+              "explanation": "El W3C define los estándares abiertos para HTML, CSS y accesibilidad web."
+            },
+            {
+              "text": "¿Quién define la base estándar de JavaScript?",
+              "options": [
+                "W3C",
+                "ECMA (ECMAScript)",
+                "IANA",
+                "ISO"
+              ],
+              "correctAnswer": "ECMA (ECMAScript)",
+              "explanation": "ECMAScript es el estándar que define el comportamiento de JavaScript."
+            },
+            {
+              "text": "¿Qué herramienta valida marcado HTML?",
+              "options": [
+                "FTP",
+                "Validador HTML del W3C",
+                "cURL",
+                "PageSpeed"
+              ],
+              "correctAnswer": "Validador HTML del W3C",
+              "explanation": "El W3C ofrece un validador oficial para comprobar la sintaxis HTML."
+            },
+            {
+              "text": "¿Qué herramienta valida hojas de estilo?",
+              "options": [
+                "Postman",
+                "NTP",
+                "ping",
+                "Validador CSS del W3C"
+              ],
+              "correctAnswer": "Validador CSS del W3C",
+              "explanation": "El validador CSS del W3C analiza errores y propiedades no estándar."
+            },
+            {
+              "text": "¿Qué herramienta audita rendimiento, SEO básico y accesibilidad en el navegador?",
+              "options": [
+                "Traceroute",
+                "Lighthouse (DevTools)",
+                "Wireshark",
+                "nslookup"
+              ],
+              "correctAnswer": "Lighthouse (DevTools)",
+              "explanation": "Lighthouse evalúa rendimiento, SEO y accesibilidad desde Chrome DevTools."
+            },
+            {
+              "text": "¿Qué aportan las WCAG?",
+              "options": [
+                "Diseño visual fijo",
+                "Cachés obligatorias",
+                "Normas de compresión",
+                "Directrices de accesibilidad (contraste, teclado, etc.)"
+              ],
+              "correctAnswer": "Directrices de accesibilidad (contraste, teclado, etc.)",
+              "explanation": "Las WCAG establecen recomendaciones para crear contenidos accesibles."
+            },
+            {
+              "text": "¿Qué aporta WAI-ARIA?",
+              "options": [
+                "Minificación",
+                "Gestión de DNS",
+                "Mejora accesibilidad de componentes dinámicos",
+                "Carga diferida de imágenes"
+              ],
+              "correctAnswer": "Mejora accesibilidad de componentes dinámicos",
+              "explanation": "WAI-ARIA añade roles y atributos para mejorar la accesibilidad en interfaces dinámicas."
+            },
+            {
+              "text": "¿Qué práctica mejora la accesibilidad en imágenes?",
+              "options": [
+                "Bordes de color",
+                "Texto alternativo (alt) descriptivo",
+                "Quitar títulos",
+                "Fijar ancho en px"
+              ],
+              "correctAnswer": "Texto alternativo (alt) descriptivo",
+              "explanation": "El atributo alt proporciona descripciones que los lectores de pantalla pueden interpretar."
+            },
+            {
+              "text": "¿Qué aporta una estructura semántica (header, nav, main…)?",
+              "options": [
+                "Bloquea atajos",
+                "Más peso sin utilidad",
+                "Sustituye CSS",
+                "Claridad para usuarios y tecnologías de asistencia"
+              ],
+              "correctAnswer": "Claridad para usuarios y tecnologías de asistencia",
+              "explanation": "Las etiquetas semánticas facilitan la comprensión y navegación por parte de los usuarios y lectores de pantalla."
+            },
+            {
+              "text": "Para formularios accesibles, lo correcto es:",
+              "options": [
+                "Placeholder sin más",
+                "Solo iconos",
+                "Títulos en mayúsculas",
+                "Asociar label y control (for/id)"
+              ],
+              "correctAnswer": "Asociar label y control (for/id)",
+              "explanation": "La asociación label-for mejora la accesibilidad al vincular texto con su campo."
+            },
+            {
+              "text": "Para navegación solo con teclado, es clave:",
+              "options": [
+                "Desactivar foco",
+                "Aumentar tamaño del cursor",
+                "Quitar enlaces",
+                "Que todo sea alcanzable y con orden lógico de tabulación"
+              ],
+              "correctAnswer": "Que todo sea alcanzable y con orden lógico de tabulación",
+              "explanation": "Un orden lógico de tabulación permite navegar sin ratón."
+            },
+            {
+              "text": "Indicador importante para quien navega con teclado:",
+              "options": [
+                "Animaciones",
+                "Foco visible en enlaces y botones",
+                "Hover obligatorio",
+                "Scroll infinito"
+              ],
+              "correctAnswer": "Foco visible en enlaces y botones",
+              "explanation": "El foco visible permite al usuario saber qué elemento está seleccionado en cada momento."
+            },
+            {
+              "text": "Beneficio de seguir estándares y validar:",
+              "options": [
+                "Sin JavaScript",
+                "Menos HTML",
+                "Mejor compatibilidad, estabilidad y accesibilidad",
+                "Menos pruebas"
+              ],
+              "correctAnswer": "Mejor compatibilidad, estabilidad y accesibilidad",
+              "explanation": "Validar asegura que el código funcione en distintos navegadores y sea accesible."
+            },
+            {
+              "text": "¿Qué formato suele ser preferido hoy para intercambiar datos en clientes web por su simplicidad?",
+              "options": [
+                "CSV",
+                "PDF",
+                "RDF",
+                "JSON"
+              ],
+              "correctAnswer": "JSON",
+              "explanation": "JSON es el formato más utilizado en APIs web por su facilidad de uso y ligereza."
+            },
+            {
+              "text": "¿Cuándo elegir XML hoy?",
+              "options": [
+                "Nunca",
+                "Cuando se requiere estructura compleja o compatibilidad heredada",
+                "Solo en móviles",
+                "Siempre"
+              ],
+              "correctAnswer": "Cuando se requiere estructura compleja o compatibilidad heredada",
+              "explanation": "XML sigue siendo útil en sistemas antiguos o con estructuras jerárquicas profundas."
+            },
+            {
+              "text": "En el entorno local de XAMPP, para ver tu sitio usas:",
+              "options": [
+                "http://localhost/tu_carpeta",
+                "127.0.0.2",
+                "ftp://localhost",
+                "https://w3c.org"
+              ],
+              "correctAnswer": "http://localhost/tu_carpeta",
+              "explanation": "localhost apunta al servidor Apache local donde se aloja el proyecto."
+            },
+            {
+              "text": "¿Qué ventaja general aporta validar CSS?",
+              "options": [
+                "Cambia el diseño automáticamente",
+                "Obligar a usar prefijos",
+                "Detectar propiedades inválidas y errores de sintaxis",
+                "Aumentar el peso"
+              ],
+              "correctAnswer": "Detectar propiedades inválidas y errores de sintaxis",
+              "explanation": "El validador CSS detecta errores que podrían causar fallos de diseño."
+            },
+            {
+              "text": "Para “pedir exactamente los datos necesarios” en algunas APIs, se usa:",
+              "options": [
+                "RSS",
+                "IMAP",
+                "SOAP",
+                "GraphQL"
+              ],
+              "correctAnswer": "GraphQL",
+              "explanation": "GraphQL permite al cliente especificar exactamente qué datos quiere recibir."
+            },
+            {
+              "text": "Seguir WCAG y buenas prácticas de contraste ayuda a:",
+              "options": [
+                "Mejorar legibilidad y acceso para más personas",
+                "Desactivar el zoom",
+                "Bajar el SEO",
+                "Romper estilos"
+              ],
+              "correctAnswer": "Mejorar legibilidad y acceso para más personas",
+              "explanation": "Un buen contraste mejora la visibilidad del contenido y la accesibilidad general."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

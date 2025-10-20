@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 5,
+          "title": "Acceso a bases de datos en aplicaciones web",
+          "questions": [
+            {
+              "text": "¿Qué significan las siglas CRUD?",
+              "options": [
+                "Copiar, revertir, subir, descargar",
+                "Cachear, replicar, unificar, diferir",
+                "Conectar, ejecutar, deshacer, soltar",
+                "Crear, leer, actualizar y borrar"
+              ],
+              "correctAnswer": "Crear, leer, actualizar y borrar",
+              "explanation": "CRUD resume las operaciones básicas de una base de datos: Create, Read, Update, Delete."
+            },
+            {
+              "text": "¿Qué describe mejor a un SGBD en una aplicación web?",
+              "options": [
+                "El sistema que gestiona almacenamiento, consultas y seguridad de datos",
+                "Un protocolo de red",
+                "Una librería de estilos",
+                "Un archivo de texto"
+              ],
+              "correctAnswer": "El sistema que gestiona almacenamiento, consultas y seguridad de datos",
+              "explanation": "El SGBD administra la persistencia, seguridad y manipulación de la información almacenada."
+            },
+            {
+              "text": "¿Qué lenguaje se usa de forma estándar en bases relacionales?",
+              "options": [
+                "XQuery",
+                "SQL",
+                "Cypher",
+                "Gremlin"
+              ],
+              "correctAnswer": "SQL",
+              "explanation": "SQL es el lenguaje estándar para consultar y administrar bases de datos relacionales."
+            },
+            {
+              "text": "¿Cuál es una propiedad de ACID?",
+              "options": [
+                "Aleatoriedad",
+                "Durabilidad",
+                "Difusión",
+                "Disponibilidad eventual"
+              ],
+              "correctAnswer": "Durabilidad",
+              "explanation": "Las propiedades ACID garantizan fiabilidad en transacciones: Atomicidad, Consistencia, Aislamiento, Durabilidad."
+            },
+            {
+              "text": "Para reducir accesos no autorizados, ¿qué conviene?",
+              "options": [
+                "Un único usuario administrador",
+                "Desactivar registros",
+                "Conexiones anónimas",
+                "Usuario de aplicación con permisos mínimos necesarios"
+              ],
+              "correctAnswer": "Usuario de aplicación con permisos mínimos necesarios",
+              "explanation": "Cada aplicación debe usar un usuario con privilegios limitados para reducir riesgos de seguridad."
+            },
+            {
+              "text": "¿Qué práctica evita directamente la inyección en consultas?",
+              "options": [
+                "Solo usar HTTPS",
+                "Comprimir respuestas",
+                "Consultas parametrizadas (valores separados de la consulta)",
+                "Bloquear palabras"
+              ],
+              "correctAnswer": "Consultas parametrizadas (valores separados de la consulta)",
+              "explanation": "Separar los valores del SQL evita que el usuario inyecte código malicioso."
+            },
+            {
+              "text": "¿Qué enfoque favorece mantenimiento y escalabilidad?",
+              "options": [
+                "Separar acceso a datos (capa/DAO u ORM) de la lógica de negocio",
+                "Mezclar negocio y acceso a datos",
+                "SQL incrustado en cada vista",
+                "Duplicar consultas"
+              ],
+              "correctAnswer": "Separar acceso a datos (capa/DAO u ORM) de la lógica de negocio",
+              "explanation": "La separación en capas facilita mantenimiento, escalabilidad y pruebas independientes."
+            },
+            {
+              "text": "¿Qué ventaja clave tienen las bases relacionales?",
+              "options": [
+                "Caché del navegador",
+                "Uniones y transacciones con propiedades ACID",
+                "Claves binarias obligatorias",
+                "Solo almacenan en memoria"
+              ],
+              "correctAnswer": "Uniones y transacciones con propiedades ACID",
+              "explanation": "Las bases relacionales garantizan consistencia y relaciones complejas entre tablas."
+            },
+            {
+              "text": "¿Qué diferencia general distingue a SQL de NoSQL?",
+              "options": [
+                "SQL no tiene índices",
+                "NoSQL no permite consultas",
+                "SQL usa esquemas tabulares rígidos; NoSQL ofrece esquemas flexibles",
+                "NoSQL solo almacena texto"
+              ],
+              "correctAnswer": "SQL usa esquemas tabulares rígidos; NoSQL ofrece esquemas flexibles",
+              "explanation": "SQL sigue esquemas fijos; NoSQL permite estructuras dinámicas para adaptarse a datos cambiantes."
+            },
+            {
+              "text": "¿Qué tipo de base conviene para sesiones y contadores de alto tráfico?",
+              "options": [
+                "Columnas anchas",
+                "Clave–valor",
+                "Documentos",
+                "Grafos"
+              ],
+              "correctAnswer": "Clave–valor",
+              "explanation": "Los sistemas clave–valor (como Redis) son ideales para operaciones rápidas con pares simples."
+            },
+            {
+              "text": "En NoSQL, ¿qué es típico respecto a la escalabilidad?",
+              "options": [
+                "Solo escalado vertical",
+                "Sin replicación",
+                "Escalado horizontal más sencillo",
+                "Sin índices"
+              ],
+              "correctAnswer": "Escalado horizontal más sencillo",
+              "explanation": "Las bases NoSQL suelen distribuirse fácilmente entre servidores, facilitando el escalado horizontal."
+            },
+            {
+              "text": "¿Qué ayuda a evitar depender en exceso de un SGBD concreto?",
+              "options": [
+                "Duplicar lógica en cada módulo",
+                "SQL en todo el frontend",
+                "Usar siempre root",
+                "Encapsular el acceso a datos en una capa dedicada"
+              ],
+              "correctAnswer": "Encapsular el acceso a datos en una capa dedicada",
+              "explanation": "Encapsular permite cambiar de motor o tecnología sin modificar la lógica de negocio."
+            },
+            {
+              "text": "¿Qué principio aplica cuando piden “permisos de escritura para todos”?",
+              "options": [
+                "Vale si hay copias",
+                "Permisos por IP",
+                "Mínimo privilegio por rol",
+                "Abrir puertos del firewall"
+              ],
+              "correctAnswer": "Mínimo privilegio por rol",
+              "explanation": "El principio de mínimo privilegio evita otorgar más permisos de los necesarios a cada usuario o rol."
+            },
+            {
+              "text": "En una compra, cobrar y actualizar stock en la misma operación exige…",
+              "options": [
+                "Hoja compartida",
+                "Documento sin transacciones",
+                "Soporte ACID (base relacional)",
+                "Archivo plano"
+              ],
+              "correctAnswer": "Soporte ACID (base relacional)",
+              "explanation": "Las transacciones ACID aseguran que ambas acciones se realicen juntas o se cancelen."
+            },
+            {
+              "text": "¿Qué base elegirías para “usuarios—amigos—intereses” (relaciones)?",
+              "options": [
+                "Grafos",
+                "CSV",
+                "Clave–valor",
+                "Caché del navegador"
+              ],
+              "correctAnswer": "Grafos",
+              "explanation": "Las bases de grafos modelan relaciones y conexiones entre entidades de forma eficiente."
+            },
+            {
+              "text": "Para fichas variables con muchos campos opcionales y lectura global…",
+              "options": [
+                "Documentos (flexibilidad + escalado horizontal)",
+                "Relacional con muchas columnas nulas",
+                "Hoja con macros",
+                "XML en CDN"
+              ],
+              "correctAnswer": "Documentos (flexibilidad + escalado horizontal)",
+              "explanation": "Las bases de documentos como MongoDB son ideales para estructuras flexibles y escalables."
+            },
+            {
+              "text": "En un servicio orientado a recursos, las operaciones se hacen con…",
+              "options": [
+                "Sockets sin protocolo",
+                "Métodos estándar sobre recursos identificados por direcciones",
+                "Mensajes sin método",
+                "Ficheros compartidos"
+              ],
+              "correctAnswer": "Métodos estándar sobre recursos identificados por direcciones",
+              "explanation": "REST utiliza métodos HTTP (GET, POST, PUT, DELETE) aplicados a recursos accesibles por URL."
+            },
+            {
+              "text": "¿Qué ventaja práctica aporta GraphQL en algunas APIs?",
+              "options": [
+                "Solo funciona con XML",
+                "No admite cambios",
+                "Varios puntos de acceso obligatorios",
+                "Pedir exactamente los datos necesarios (evita sobre/infra–petición)"
+              ],
+              "correctAnswer": "Pedir exactamente los datos necesarios (evita sobre/infra–petición)",
+              "explanation": "GraphQL permite consultar solo los campos requeridos, optimizando el tráfico y la eficiencia."
+            },
+            {
+              "text": "¿Qué estado indica “recurso creado”?",
+              "options": [
+                "201",
+                "200",
+                "204",
+                "206"
+              ],
+              "correctAnswer": "201",
+              "explanation": "El código HTTP 201 Created confirma que un nuevo recurso fue generado correctamente."
+            },
+            {
+              "text": "¿Qué formato es habitual como respuesta de servicios de datos en la web?",
+              "options": [
+                "JSON",
+                "DOC",
+                "BMP",
+                "TTF"
+              ],
+              "correctAnswer": "JSON",
+              "explanation": "El formato JSON es el estándar actual por su ligereza y compatibilidad con JavaScript."
+            },
+            {
+              "text": "¿Qué método se usa normalmente para leer un recurso sin modificar?",
+              "options": [
+                "PUT",
+                "GET",
+                "DELETE",
+                "POST"
+              ],
+              "correctAnswer": "GET",
+              "explanation": "El método GET recupera información sin alterar el recurso en el servidor."
+            },
+            {
+              "text": "¿Qué método se usa habitualmente para crear un recurso?",
+              "options": [
+                "POST",
+                "GET",
+                "DELETE",
+                "TRACE"
+              ],
+              "correctAnswer": "POST",
+              "explanation": "POST envía datos al servidor para crear un nuevo registro o recurso."
+            },
+            {
+              "text": "¿Qué método se emplea a menudo para reemplazar o actualizar un recurso?",
+              "options": [
+                "HEAD",
+                "OPTIONS",
+                "PUT",
+                "GET"
+              ],
+              "correctAnswer": "PUT",
+              "explanation": "PUT sustituye el recurso completo con los datos enviados en la solicitud."
+            },
+            {
+              "text": "¿Qué base elegirías para “muchas lecturas rápidas con clave conocida”?",
+              "options": [
+                "Columnas anchas para todo",
+                "Grafos",
+                "Relacional sin índices",
+                "Clave–valor"
+              ],
+              "correctAnswer": "Clave–valor",
+              "explanation": "Los almacenes clave–valor ofrecen lecturas ultrarrápidas por clave exacta."
+            },
+            {
+              "text": "¿Qué afirma correctamente sobre NoSQL frente a SQL?",
+              "options": [
+                "Siempre cumple ACID de igual forma",
+                "Nunca escala",
+                "Suele tener menos soporte de transacciones completas",
+                "No sirve para datos reales"
+              ],
+              "correctAnswer": "Suele tener menos soporte de transacciones completas",
+              "explanation": "NoSQL prioriza rendimiento y disponibilidad frente a consistencia transaccional total."
+            },
+            {
+              "text": "¿Qué describe mejor a un ORM?",
+              "options": [
+                "Un servidor de caché",
+                "Mapeo objeto–relacional para trabajar con objetos en vez de consultas directas",
+                "Un protocolo de red",
+                "Un visor de logs"
+              ],
+              "correctAnswer": "Mapeo objeto–relacional para trabajar con objetos en vez de consultas directas",
+              "explanation": "Un ORM traduce objetos del código a tablas SQL, simplificando la persistencia de datos."
+            },
+            {
+              "text": "¿Qué ventaja aporta usar una capa DAO/ORM bien definida?",
+              "options": [
+                "Mayor acoplamiento",
+                "Rompe transacciones",
+                "Impide pruebas",
+                "Menos dependencia del motor y código más mantenible"
+              ],
+              "correctAnswer": "Menos dependencia del motor y código más mantenible",
+              "explanation": "DAO/ORM centraliza el acceso a datos, permitiendo mantenimiento y portabilidad."
+            },
+            {
+              "text": "¿Qué ventaja práctica de REST se menciona respecto a la caché?",
+              "options": [
+                "Se puede cachear de forma sencilla",
+                "Solo en intranets",
+                "Requiere plugins del navegador",
+                "No se puede cachear"
+              ],
+              "correctAnswer": "Se puede cachear de forma sencilla",
+              "explanation": "Las respuestas REST pueden almacenarse en caché HTTP, mejorando el rendimiento."
+            },
+            {
+              "text": "¿Qué tipo NoSQL facilita análisis a gran escala por columnas?",
+              "options": [
+                "Columnas anchas",
+                "Grafos",
+                "Clave–valor",
+                "Documentos"
+              ],
+              "correctAnswer": "Columnas anchas",
+              "explanation": "Las bases de columnas anchas, como Cassandra, optimizan análisis en grandes volúmenes de datos."
+            },
+            {
+              "text": "¿Qué opción encaja mejor para inventarios con integridad fuerte y uniones?",
+              "options": [
+                "Relacional (SQL) con transacciones",
+                "Grafos",
+                "Documentos",
+                "Clave–valor"
+              ],
+              "correctAnswer": "Relacional (SQL) con transacciones",
+              "explanation": "Las bases SQL aseguran consistencia e integridad referencial para datos relacionados."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
