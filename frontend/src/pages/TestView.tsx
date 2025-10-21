@@ -8,7 +8,6 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Question } from '../types';
-import axios from 'axios';
 import { apiClient } from '../services/api';
 
 // Tipo para feedback inmediato (modo práctica)
@@ -215,17 +214,7 @@ export default function TestView() {
       };
 
       // Enviar al backend
-      const token = localStorage.getItem('token');
-      const { data } = await axios.post(
-        'http://192.168.1.131:3001/api/attempts',
-        payload,
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-            'Content-Type': 'application/json'
-          }
-        }
-      );
+      const { data } = await apiClient.post('/attempts', payload);
 
       // Navegar a Results con los datos
       navigate('/results', { 

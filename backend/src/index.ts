@@ -49,7 +49,15 @@ const PORT = Number(process.env.PORT) || 3001;
  * Configuración actual: acepta peticiones desde cualquier origen
  * Producción: restringir a dominios específicos
  */
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://tests-daw.prodelaya.dev'
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 /**
  * Helmet
