@@ -9,6 +9,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Question } from '../types';
 import axios from 'axios';
+import { apiClient } from '../services/api';
 
 // Tipo para feedback inmediato (modo práctica)
 interface InstantFeedback {
@@ -97,15 +98,8 @@ export default function TestView() {
           ? '/questions/practice'  // ✅ Incluye correctAnswer
           : '/questions';          // ❌ NO incluye correctAnswer
 
-        const { data } = await axios.get(
-          `http://192.168.1.131:3001/api${endpoint}`,
-          {
-            params,
-            headers: {
-              Authorization: `Bearer ${token}`
-            }
-          }
-        );
+        const { data } = await apiClient.get(endpoint, { params });
+
 
         setQuestions(data);
         
