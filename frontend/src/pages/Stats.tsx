@@ -1,0 +1,481 @@
+// ============================================
+// STATS - PÁGINA DE ESTADÍSTICAS
+// ============================================
+
+// BLOQUE 1: Imports
+
+import { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
+import { getStats } from '../services/api';
+import { Stats as StatsType, SubjectStats } from '../types';
+
+
+// BLOQUE 2: Interfaces Locales
+
+// Interfaz para stats agrupadas por asignatura
+interface GroupedStats {
+  subjectCode: string;
+  subjectName: string;
+  totalAttempts: number;
+  avgScore: number;
+  topics: {
+    topicNumber: number | null;
+    topicTitle: string;
+    attempts: number;
+    avgScore: number;
+  }[];
+}
+
+
+// BLOQUE 3: Componente Stats
+
+export default function Stats() {
+  // ============================================
+  // HOOKS Y ESTADOS
+  // ============================================
+  
+  const { user, logoutUser } = useAuth();
+  const navigate = useNavigate();
+
+  // Estados
+  const [stats, setStats] = useState<StatsType | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string>('');
+
+
+  // ============================================
+  // BLOQUE 4: useEffect - FETCH DATOS
+  // ============================================
+
+  useEffect(() => {
+    const fetchStats = async () => {
+      try {
+        const data = await getStats();
+        setStats(data);
+      } catch (err) {
+        console.error('Error al cargar estadísticas:', err);
+        setError('Error al cargar las estadísticas');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchStats();
+  }, []);
+
+
+  // ============================================
+  // BLOQUE 5: FUNCIONES AUXILIARES
+  // ============================================
+
+  // Obtener nombre completo de asignatura
+  const getSubjectName = (code: string): string => {
+    const names: Record<string, string> = {
+      'DWEC': 'Desarrollo Web Entorno Cliente',
+      'DWES': 'Desarrollo Web Entorno Servidor',
+      'DAW': 'Despliegue Aplicaciones Web',
+      'DIW': 'Diseño Interfaces Web',
+      'DASP': 'Desarrollo Aplicaciones Seguras y Privadas',
+      'IPE': 'Itinerario Personal para la Empleabilidad',
+      'CIBER': 'Ciberseguridad',
+      'SASP': 'Servicios Administración Sistemas Planificación'
+    };
+    return names[code] || code;
+  };
+
+  // Obtener título de tema
+  const getTopicTitle = (topicNumber: number | null): string => {
+    if (topicNumber === null) return 'Test Final';
+    return `UT${topicNumber}`;
+  };
+
+  // Agrupar stats por asignatura
+  const groupBySubject = (): GroupedStats[] => {
+    if (!stats || stats.stats.length === 0) return [];
+
+    const grouped: Record<string, GroupedStats> = {};
+
+    stats.stats.forEach((stat: SubjectStats) => {
+      const key = stat.subjectCode;
+
+      if (!grouped[key]) {
+        grouped[key] = {
+          subjectCode: stat.subjectCode,
+          subjectName: getSubjectName(stat.subjectCode),
+          totalAttempts: 0,
+          avgScore: 0,
+          topics: []
+        };
+      }
+
+      // Sumar intentos
+      grouped[key].totalAttempts += stat.totalAttempts;
+
+      // Añadir tema a la lista
+      grouped[key].topics.push({
+        topicNumber: stat.topicNumber,
+        topicTitle: getTopicTitle(stat.topicNumber),
+        attempts: stat.totalAttempts,
+        avgScore: stat.avgScore
+      });
+    });
+
+    // Calcular promedio de asignatura (media ponderada)
+    Object.values(grouped).forEach(subject => {
+      const totalScore = subject.topics.reduce(
+        (sum, topic) => sum + (topic.avgScore * topic.attempts),
+        0
+      );
+      subject.avgScore = Math.round(totalScore / subject.totalAttempts);
+    });
+
+    return Object.values(grouped);
+  };
+
+  // Calcular totales globales
+  const calculateGlobalStats = () => {
+    if (!stats || stats.stats.length === 0) {
+      return { totalTests: 0, avgScore: 0 };
+    }
+
+    const totalTests = stats.stats.reduce(
+      (sum, stat) => sum + stat.totalAttempts, 
+      0
+    );
+
+    const totalScore = stats.stats.reduce(
+      (sum, stat) => sum + (stat.avgScore * stat.totalAttempts),
+      0
+    );
+
+    const avgScore = totalTests > 0 
+      ? Math.round(totalScore / totalTests) 
+      : 0;
+
+    return { totalTests, avgScore };
+  };
+
+  const globalStats = calculateGlobalStats();
+  const groupedStats = groupBySubject();
+
+
+  // ============================================
+  // BLOQUE 6: FUNCIONES DE NAVEGACIÓN
+  // ============================================
+
+  const handleLogout = () => {
+    logoutUser();
+    navigate('/');
+  };
+
+  const handleRepasarFalladas = () => {
+    // Redirigir al dashboard para elegir asignatura
+    alert('Ve al Dashboard y selecciona una asignatura para repasar falladas');
+  };
+
+
+  // ============================================
+  // BLOQUE 7: JSX
+  // ============================================
+
+  // LOADING
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-6xl mb-4">⏳</div>
+          <p className="text-gray-600 text-lg">Cargando estadísticas...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // ERROR
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+        <div className="bg-red-100 border border-red-400 text-red-700 px-6 py-4 rounded-lg max-w-md">
+          <p className="font-semibold mb-2">❌ {error}</p>
+          <Link to="/dashboard" className="text-blue-600 hover:underline">
+            ← Volver al Dashboard
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  // SIN DATOS
+  if (!stats || stats.stats.length === 0) {
+    return (
+      <div className="min-h-screen bg-gray-100">
+        {/* Header */}
+        <header className="bg-white shadow">
+          <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 className="text-2xl font-bold text-gray-800">
+              📊 Mis Estadísticas
+            </h1>
+            <div className="flex items-center gap-4">
+              <span className="text-gray-700">
+                <strong>{user?.name}</strong>
+              </span>
+              <button
+                onClick={handleLogout}
+                className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
+              >
+                Cerrar Sesión
+              </button>
+            </div>
+          </div>
+        </header>
+
+        {/* Mensaje sin datos */}
+        <main className="max-w-7xl mx-auto px-4 py-8">
+          <div className="bg-yellow-100 border border-yellow-400 text-yellow-800 px-6 py-8 rounded-lg text-center">
+            <div className="text-5xl mb-4">📝</div>
+            <p className="text-xl font-semibold mb-2">
+              Aún no has realizado ningún test
+            </p>
+            <p className="text-gray-700 mb-6">
+              Comienza a practicar para ver tus estadísticas aquí
+            </p>
+            <Link
+              to="/dashboard"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition"
+            >
+              🏠 Ir al Dashboard
+            </Link>
+          </div>
+        </main>
+      </div>
+    );
+  }
+
+  // CONTENIDO NORMAL
+  return (
+    <div className="min-h-screen bg-gray-100">
+      {/* ============================================ */}
+      {/* HEADER */}
+      {/* ============================================ */}
+      <header className="bg-white shadow">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+          <div className="flex items-center gap-4">
+            <Link
+              to="/dashboard"
+              className="text-blue-600 hover:text-blue-800 font-semibold"
+            >
+              ← Volver
+            </Link>
+            <h1 className="text-2xl font-bold text-gray-800">
+              📊 Mis Estadísticas
+            </h1>
+          </div>
+          <div className="flex items-center gap-4">
+            <span className="text-gray-700">
+              <strong>{user?.name}</strong>
+            </span>
+            <button
+              onClick={handleLogout}
+              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
+            >
+              Cerrar Sesión
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* ============================================ */}
+      {/* CONTENIDO PRINCIPAL */}
+      {/* ============================================ */}
+      <main className="max-w-7xl mx-auto px-4 py-8">
+        
+        {/* ============================================ */}
+        {/* RESUMEN GLOBAL - 3 TARJETAS */}
+        {/* ============================================ */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          
+          {/* Tarjeta 1: Tests Realizados */}
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="text-5xl mb-3">🎯</div>
+            <p className="text-gray-600 text-sm font-semibold uppercase mb-2">
+              Tests Realizados
+            </p>
+            <p className="text-4xl font-bold text-blue-600">
+              {globalStats.totalTests}
+            </p>
+          </div>
+
+          {/* Tarjeta 2: Promedio General */}
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="text-5xl mb-3">📊</div>
+            <p className="text-gray-600 text-sm font-semibold uppercase mb-2">
+              Promedio General
+            </p>
+            <p className={`text-4xl font-bold ${
+              globalStats.avgScore >= 80 ? 'text-green-600' :
+              globalStats.avgScore >= 50 ? 'text-yellow-600' :
+              'text-red-600'
+            }`}>
+              {globalStats.avgScore}%
+            </p>
+          </div>
+
+          {/* Tarjeta 3: Preguntas Falladas */}
+          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+            <div className="text-5xl mb-3">❌</div>
+            <p className="text-gray-600 text-sm font-semibold uppercase mb-2">
+              Preguntas Falladas
+            </p>
+            <p className={`text-4xl font-bold ${
+              stats.totalFailedQuestions > 0 ? 'text-red-600' : 'text-green-600'
+            }`}>
+              {stats.totalFailedQuestions}
+            </p>
+          </div>
+
+        </div>
+
+        {/* ============================================ */}
+        {/* ESTADÍSTICAS POR ASIGNATURA */}
+        {/* ============================================ */}
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+            📚 Desglose por Asignatura
+          </h2>
+
+          <div className="space-y-6">
+            {groupedStats.map((subject) => (
+              <div
+                key={subject.subjectCode}
+                className="bg-white rounded-lg shadow-lg p-6"
+              >
+                {/* Header de Asignatura */}
+                <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-200">
+                  <div className="flex items-center gap-3">
+                    <div className="text-4xl">
+                      {subject.subjectCode === 'DWEC' && '🌐'}
+                      {subject.subjectCode === 'DWES' && '⚙️'}
+                      {subject.subjectCode === 'DAW' && '🚀'}
+                      {subject.subjectCode === 'DIW' && '🎨'}
+                      {subject.subjectCode === 'DASP' && '🔐'}
+                      {subject.subjectCode === 'IPE' && '💼'}
+                      {subject.subjectCode === 'CIBER' && '🛡️'}
+                      {subject.subjectCode === 'SASP' && '🔧'}
+                      {!['DWEC', 'DWES', 'DAW', 'DIW', 'DASP', 'IPE', 'CIBER', 'SASP'].includes(subject.subjectCode) && '📖'}
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-800">
+                        {subject.subjectCode}
+                      </h3>
+                      <p className="text-sm text-gray-600">
+                        {subject.subjectName}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <p className="text-sm text-gray-600">Total Intentos</p>
+                    <p className="text-2xl font-bold text-gray-800">
+                      {subject.totalAttempts}
+                    </p>
+                    <p className={`text-lg font-semibold ${
+                      subject.avgScore >= 80 ? 'text-green-600' :
+                      subject.avgScore >= 50 ? 'text-yellow-600' :
+                      'text-red-600'
+                    }`}>
+                      Promedio: {subject.avgScore}%
+                    </p>
+                  </div>
+                </div>
+
+                {/* Desglose por Temas */}
+                <div>
+                  <h4 className="text-sm font-semibold text-gray-700 uppercase mb-3">
+                    Por Temas:
+                  </h4>
+                  <div className="space-y-2">
+                    {subject.topics.map((topic, idx) => (
+                      <div
+                        key={idx}
+                        className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="text-2xl">
+                            {topic.topicNumber === null ? '🎯' : '📝'}
+                          </span>
+                          <div>
+                            <p className="font-semibold text-gray-800">
+                              {topic.topicTitle}
+                            </p>
+                            <p className="text-sm text-gray-600">
+                              {topic.attempts} intento{topic.attempts !== 1 ? 's' : ''}
+                            </p>
+                          </div>
+                        </div>
+                        <div className="text-right">
+                          <span className={`inline-block px-4 py-2 rounded-full text-sm font-bold ${
+                            topic.avgScore >= 80 ? 'bg-green-100 text-green-800' :
+                            topic.avgScore >= 50 ? 'bg-yellow-100 text-yellow-800' :
+                            'bg-red-100 text-red-800'
+                          }`}>
+                            {topic.avgScore}%
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* ============================================ */}
+        {/* BANNER DE PREGUNTAS FALLADAS */}
+        {/* ============================================ */}
+        {stats.totalFailedQuestions > 0 ? (
+          <div className="bg-red-50 border-2 border-red-300 rounded-lg p-6 text-center">
+            <div className="text-5xl mb-4">❌</div>
+            <h3 className="text-2xl font-bold text-red-800 mb-2">
+              Tienes {stats.totalFailedQuestions} pregunta{stats.totalFailedQuestions !== 1 ? 's' : ''} pendiente{stats.totalFailedQuestions !== 1 ? 's' : ''} de repasar
+            </h3>
+            <p className="text-gray-700 mb-6">
+              Repasa las preguntas que has fallado para mejorar tu puntuación
+            </p>
+            <div className="flex gap-4 justify-center">
+              <button
+                onClick={handleRepasarFalladas}
+                className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition"
+              >
+                🔄 Repasar Falladas
+              </button>
+              <Link
+                to="/dashboard"
+                className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold transition"
+              >
+                🏠 Volver al Dashboard
+              </Link>
+            </div>
+          </div>
+        ) : (
+          <div className="bg-green-50 border-2 border-green-300 rounded-lg p-6 text-center">
+            <div className="text-5xl mb-4">🎉</div>
+            <h3 className="text-2xl font-bold text-green-800 mb-2">
+              ¡Sin preguntas pendientes!
+            </h3>
+            <p className="text-gray-700 mb-6">
+              Has repasado todas las preguntas falladas. ¡Sigue practicando!
+            </p>
+            <Link
+              to="/dashboard"
+              className="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition"
+            >
+              🏠 Volver al Dashboard
+            </Link>
+          </div>
+        )}
+
+      </main>
+    </div>
+  );
+}

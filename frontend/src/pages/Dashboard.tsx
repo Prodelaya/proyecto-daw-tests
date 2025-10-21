@@ -59,6 +59,12 @@ export default function Dashboard() {
             <span className="text-gray-700">
               Hola, <strong>{user?.name}</strong>
             </span>
+            <Link
+              to="/stats"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold transition flex items-center gap-2"
+            >
+              📊 Estadísticas
+            </Link>
             <button
               onClick={handleLogout}
               className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"

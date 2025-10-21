@@ -13,7 +13,7 @@ import SubjectDetail from './pages/SubjectDetail';
 import TestConfig from './pages/TestConfig';       
 import TestView from './pages/TestView';            
 import Results from './pages/Results';              
-// import Stats from './pages/Stats';                  // Crearemos después
+import Stats from './pages/Stats';                 
 
 function App() {
   return (
@@ -69,16 +69,18 @@ function App() {
             }
           />
 
-          {/* TODO: Descomentar cuando creemos las páginas }
-          <Route
-            path="/stats"
-            element={
-              <PrivateRoute>
-                <Stats />
-              </PrivateRoute>
-            }
-          />
-         */}    
+          
+          {
+                    <Route
+                      path="/stats"
+                      element={
+                        <PrivateRoute>
+                          <Stats />
+                        </PrivateRoute>
+                      }
+                    />
+          }
+          
             
 
 
