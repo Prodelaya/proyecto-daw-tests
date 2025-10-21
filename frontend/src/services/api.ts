@@ -23,7 +23,7 @@ import {
  * En producción: Cambiar por URL del servidor Ubuntu
  */
 const apiClient = axios.create({
-  baseURL: 'http://192.168.1.131:3001/api',  // ← Tu IP
+  baseURL: import.meta.env.VITE_API_URL || 'http://192.168.1.131:3001/api',  // ← Tu IP
   headers: {
     'Content-Type': 'application/json'
   }
