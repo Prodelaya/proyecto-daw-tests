@@ -3,12 +3,13 @@ Estoy desarrollando una Plataforma de Tests interactivos para DAW (Desarrollo de
 
 Stack: React + TypeScript + Vite (frontend) | Node.js + Express + Prisma + PostgreSQL (backend)
 
-Archivos del proyecto que tienes disponibles:
+Debes revisar exhaustivamente el repositorio de github al que te doy acceso. 
+Y los Archivos del proyecto que tienes disponibles en la carpeta docs:
 - guia-desarrollo.md: Guía paso a paso completa del proyecto
 - proyecto-daw-resumen.md: Arquitectura y decisiones técnicas
 - funcionalidad_ranking.md: Ejemplo de cómo añadir features
 - session_1_&_2.md: Explicación de las sesiones y estado del proyecto tras esas sesiones.
-- Puede haber algún archivo más de sesiónX.md: explicando nuevas sesiones. 
+- Puede haber algún archivo más de sesiónX.md: explicando nuevas sesiones.
 - DWEC_UT1.json: Estructura de datos de preguntas
 
 Filosofía del proyecto:
