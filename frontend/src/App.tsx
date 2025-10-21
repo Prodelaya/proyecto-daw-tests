@@ -5,6 +5,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import PrivateRoute from './components/PrivateRoute';
+import { ThemeProvider } from './context/ThemeContext';
 
 // Páginas
 import Login from './pages/Login';
@@ -18,6 +19,7 @@ import Ranking from './pages/Ranking';
 
 function App() {
   return (
+  <ThemeProvider>
     <AuthProvider>
       <BrowserRouter>
         <Routes>
@@ -93,6 +95,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </AuthProvider>
+  </ThemeProvider> 
   );
 }
 

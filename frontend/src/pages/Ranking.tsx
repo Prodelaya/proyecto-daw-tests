@@ -4,7 +4,8 @@
 
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { apiClient } from '../services/api';  
+import { apiClient } from '../services/api';
+import DarkModeToggle from '../components/DarkModeToggle';
 
 // ============================================
 // TIPOS TYPESCRIPT
@@ -95,10 +96,10 @@ const Ranking = () => {
   
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center transition-colors duration-200">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-indigo-600 mx-auto"></div>
-          <p className="mt-4 text-gray-600">Cargando ranking...</p>
+          <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-indigo-600 dark:border-indigo-400 mx-auto"></div>
+          <p className="mt-4 text-gray-600 dark:text-gray-400">Cargando ranking...</p>
         </div>
       </div>
     );
@@ -106,12 +107,12 @@ const Ranking = () => {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
-        <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-          <p className="text-red-600 mb-4">{error}</p>
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center transition-colors duration-200">
+        <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg text-center transition-colors duration-200">
+          <p className="text-red-600 dark:text-red-400 mb-4">{error}</p>
           <button
             onClick={() => navigate('/dashboard')}
-            className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700"
+            className="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
           >
             Volver al Dashboard
           </button>
@@ -132,18 +133,26 @@ const Ranking = () => {
   // ============================================
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 py-8 px-4 transition-colors duration-200">
       <div className="max-w-6xl mx-auto">
         
         {/* ============================================ */}
-        {/* HEADER */}
+        {/* HEADER CON DARK MODE TOGGLE */}
+        {/* ============================================ */}
+        
+        <div className="flex justify-end mb-4">
+          <DarkModeToggle />
+        </div>
+
+        {/* ============================================ */}
+        {/* TÍTULO */}
         {/* ============================================ */}
         
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">
+          <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-2 transition-colors duration-200">
             🏆 Ranking
           </h1>
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-gray-400 transition-colors duration-200">
             Los valientes que más practican
           </p>
         </div>
@@ -157,7 +166,7 @@ const Ranking = () => {
             {top3[1] && (
                 <div className="flex flex-col items-center">
                 <div className="text-5xl mb-3">{getMedal(2)}</div>
-                <div className={`bg-gradient-to-b from-gray-300 to-gray-400 ${getPodiumHeight(2)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-lg`}>
+                <div className={`bg-gradient-to-b from-gray-300 to-gray-400 dark:from-gray-600 dark:to-gray-700 ${getPodiumHeight(2)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-lg transition-colors duration-200`}>
                     <p className="text-white font-bold text-base text-center px-2 leading-tight">
                     {top3[1].name}
                     </p>
@@ -168,7 +177,7 @@ const Ranking = () => {
                     {top3[1].totalTests} tests
                     </p>
                 </div>
-                <div className="bg-gray-500 h-2 w-40 rounded-b"></div>
+                <div className="bg-gray-500 dark:bg-gray-800 h-2 w-40 rounded-b"></div>
                 </div>
             )}
 
@@ -176,7 +185,7 @@ const Ranking = () => {
             {top3[0] && (
                 <div className="flex flex-col items-center">
                 <div className="text-6xl mb-3">{getMedal(1)}</div>
-                <div className={`bg-gradient-to-b from-yellow-400 to-yellow-600 ${getPodiumHeight(1)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-xl border-4 border-yellow-300`}>
+                <div className={`bg-gradient-to-b from-yellow-400 to-yellow-600 dark:from-yellow-500 dark:to-yellow-700 ${getPodiumHeight(1)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-xl border-4 border-yellow-300 dark:border-yellow-600 transition-colors duration-200`}>
                     <p className="text-white font-bold text-base text-center px-2 leading-tight">
                     {top3[0].name}
                     </p>
@@ -187,7 +196,7 @@ const Ranking = () => {
                     {top3[0].totalTests} tests
                     </p>
                 </div>
-                <div className="bg-yellow-700 h-2 w-40 rounded-b"></div>
+                <div className="bg-yellow-700 dark:bg-yellow-900 h-2 w-40 rounded-b"></div>
                 </div>
             )}
 
@@ -195,7 +204,7 @@ const Ranking = () => {
             {top3[2] && (
                 <div className="flex flex-col items-center">
                 <div className="text-5xl mb-3">{getMedal(3)}</div>
-                <div className={`bg-gradient-to-b from-orange-400 to-orange-600 ${getPodiumHeight(3)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-lg`}>
+                <div className={`bg-gradient-to-b from-orange-400 to-orange-600 dark:from-orange-500 dark:to-orange-700 ${getPodiumHeight(3)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-lg transition-colors duration-200`}>
                     <p className="text-white font-bold text-base text-center px-2 leading-tight">
                     {top3[2].name}
                     </p>
@@ -206,7 +215,7 @@ const Ranking = () => {
                     {top3[2].totalTests} tests
                     </p>
                 </div>
-                <div className="bg-orange-700 h-2 w-40 rounded-b"></div>
+                <div className="bg-orange-700 dark:bg-orange-900 h-2 w-40 rounded-b"></div>
                 </div>
             )}
             
@@ -219,21 +228,21 @@ const Ranking = () => {
         {/* ============================================ */}
         
         {rest.length > 0 && (
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-8">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden mb-8 transition-colors duration-200">
             <table className="w-full">
-              <thead className="bg-indigo-600 text-white">
+              <thead className="bg-indigo-600 dark:bg-indigo-800 text-white">
                 <tr>
                   <th className="px-6 py-3 text-left text-sm font-semibold">Posición</th>
                   <th className="px-6 py-3 text-left text-sm font-semibold">Nombre</th>
                   <th className="px-6 py-3 text-right text-sm font-semibold">Tests Realizados</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-200">
+              <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
                 {rest.map((user) => (
-                  <tr key={user.position} className="hover:bg-gray-50 transition">
-                    <td className="px-6 py-4 text-sm text-gray-700">{user.position}</td>
-                    <td className="px-6 py-4 text-sm font-medium text-gray-900">{user.name}</td>
-                    <td className="px-6 py-4 text-sm text-gray-700 text-right">{user.totalTests}</td>
+                  <tr key={user.position} className="hover:bg-gray-50 dark:hover:bg-gray-700 transition">
+                    <td className="px-6 py-4 text-sm text-gray-700 dark:text-gray-300">{user.position}</td>
+                    <td className="px-6 py-4 text-sm font-medium text-gray-900 dark:text-white">{user.name}</td>
+                    <td className="px-6 py-4 text-sm text-gray-700 dark:text-gray-300 text-right">{user.totalTests}</td>
                   </tr>
                 ))}
               </tbody>
@@ -248,7 +257,7 @@ const Ranking = () => {
         <div className="text-center">
           <button
             onClick={() => navigate('/dashboard')}
-            className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition shadow-lg"
+            className="px-6 py-3 bg-indigo-600 dark:bg-indigo-700 text-white rounded-lg hover:bg-indigo-700 dark:hover:bg-indigo-600 transition shadow-lg"
           >
             ← Volver al Dashboard
           </button>

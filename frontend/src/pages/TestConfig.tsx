@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { getQuestionsCount } from '../services/api';
+import DarkModeToggle from '../components/DarkModeToggle';
 
 
 // BLOQUE 2: Componente TestConfig
@@ -160,25 +161,26 @@ const handleStart = () => {
 // ============================================
 
 return (
-  <div className="min-h-screen bg-gray-100">
+  <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
     {/* Header */}
-    <header className="bg-white shadow">
+    <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center gap-4">
           <Link
             to={`/subject/${subjectCode}`}
-            className="text-blue-600 hover:text-blue-800 font-semibold"
+            className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold"
           >
             ← Volver
           </Link>
-          <h1 className="text-2xl font-bold text-gray-800">
+          <h1 className="text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
             {subjectCode}
           </h1>
         </div>
         <div className="flex items-center gap-4">
-          <span className="text-gray-700">
+          <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200">
             <strong>{user?.name}</strong>
           </span>
+          <DarkModeToggle />
           <button
             onClick={logoutUser}
             className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
@@ -191,26 +193,26 @@ return (
 
     {/* Contenido principal */}
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8">
+      <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8 transition-colors duration-200">
         📊 Configuración del Test
       </h2>
 
       {/* LOADING */}
       {loading && (
-        <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 text-center transition-colors duration-200">
           <div className="text-5xl mb-4">⏳</div>
-          <p className="text-gray-600 text-lg">Cargando preguntas disponibles...</p>
+          <p className="text-gray-600 dark:text-gray-400 text-lg">Cargando preguntas disponibles...</p>
         </div>
       )}
 
       {/* ERROR */}
       {error && !loading && (
-        <div className="bg-red-100 border border-red-400 text-red-700 px-6 py-4 rounded-lg">
+        <div className="bg-red-100 dark:bg-red-900/30 border border-red-400 dark:border-red-700 text-red-700 dark:text-red-300 px-6 py-4 rounded-lg">
           <p className="font-semibold">❌ Error</p>
           <p className="mt-1">{error}</p>
           <Link
             to={`/subject/${subjectCode}`}
-            className="inline-block mt-4 text-red-800 underline hover:text-red-900"
+            className="inline-block mt-4 text-red-800 dark:text-red-400 underline hover:text-red-900"
           >
             ← Volver a la asignatura
           </Link>
@@ -221,7 +223,7 @@ return (
       {!loading && !error && (
         <>
           {/* Tarjeta de información */}
-          <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-8 transition-colors duration-200">
             <div className="flex items-center gap-3 mb-4">
               <div className="text-4xl">
                 {type === 'tema' && '📝'}
@@ -229,12 +231,12 @@ return (
                 {type === 'failed' && '❌'}
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-800">
+                <h3 className="text-xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
                   {type === 'tema' && `Test por Tema - UT${topicNumber}`}
                   {type === 'final' && 'Test Final de Módulo'}
                   {type === 'failed' && 'Repaso de Preguntas Falladas'}
                 </h3>
-                <p className="text-sm text-gray-600 mt-1">
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
                   {availableCount} pregunta{availableCount !== 1 ? 's' : ''} disponible{availableCount !== 1 ? 's' : ''}
                 </p>
               </div>
@@ -243,7 +245,7 @@ return (
 
           {/* Mensaje si no hay preguntas */}
           {availableCount === 0 && (
-            <div className="bg-yellow-100 border border-yellow-400 text-yellow-800 px-6 py-4 rounded-lg">
+            <div className="bg-yellow-100 dark:bg-yellow-900/30 border border-yellow-400 dark:border-yellow-700 text-yellow-800 dark:text-yellow-300 px-6 py-4 rounded-lg">
               <p className="font-semibold">⚠️ No hay preguntas disponibles</p>
               <p className="mt-1">
                 {type === 'failed' 
@@ -252,7 +254,7 @@ return (
               </p>
               <Link
                 to={`/subject/${subjectCode}`}
-                className="inline-block mt-4 text-yellow-900 underline hover:text-yellow-950"
+                className="inline-block mt-4 text-yellow-900 dark:text-yellow-400 underline hover:text-yellow-950"
               >
                 ← Volver a la asignatura
               </Link>
@@ -262,8 +264,8 @@ return (
           {/* Selección de cantidad */}
           {availableCount > 0 && (
             <>
-              <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-6 transition-colors duration-200">
+                <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-4 transition-colors duration-200">
                   Selecciona la cantidad de preguntas:
                 </h3>
 
@@ -276,7 +278,7 @@ return (
                       className={`px-6 py-3 rounded-lg font-semibold text-lg transition ${
                         selectedLimit === amount
                           ? 'bg-blue-600 text-white shadow-lg'
-                          : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                          : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
                       }`}
                     >
                       {amount === availableCount ? `MAX (${amount})` : amount}
@@ -286,8 +288,8 @@ return (
 
                 {/* Indicador de selección */}
                 {selectedLimit !== null && (
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                    <p className="text-blue-800">
+                  <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-4">
+                    <p className="text-blue-800 dark:text-blue-300">
                       <strong>✓ Cantidad seleccionada:</strong> {selectedLimit} pregunta{selectedLimit !== 1 ? 's' : ''}
                     </p>
                   </div>
@@ -300,7 +302,7 @@ return (
                 disabled={selectedLimit === null}
                 className={`w-full py-4 rounded-lg font-bold text-lg transition ${
                   selectedLimit === null
-                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    ? 'bg-gray-300 dark:bg-gray-700 text-gray-500 dark:text-gray-500 cursor-not-allowed'
                     : 'bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl'
                 }`}
               >

@@ -9,6 +9,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { getStats } from '../services/api';
 import { Stats as StatsType, SubjectStats } from '../types';
+import DarkModeToggle from '../components/DarkModeToggle';
 
 
 // BLOQUE 2: Interfaces Locales
@@ -182,10 +183,10 @@ export default function Stats() {
   // LOADING
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center transition-colors duration-200">
         <div className="text-center">
           <div className="text-6xl mb-4">⏳</div>
-          <p className="text-gray-600 text-lg">Cargando estadísticas...</p>
+          <p className="text-gray-600 dark:text-gray-400 text-lg">Cargando estadísticas...</p>
         </div>
       </div>
     );
@@ -194,10 +195,10 @@ export default function Stats() {
   // ERROR
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="bg-red-100 border border-red-400 text-red-700 px-6 py-4 rounded-lg max-w-md">
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center transition-colors duration-200">
+        <div className="bg-red-100 dark:bg-red-900/30 border border-red-400 dark:border-red-700 text-red-700 dark:text-red-300 px-6 py-4 rounded-lg max-w-md">
           <p className="font-semibold mb-2">❌ {error}</p>
-          <Link to="/dashboard" className="text-blue-600 hover:underline">
+          <Link to="/dashboard" className="text-blue-600 dark:text-blue-400 hover:underline">
             ← Volver al Dashboard
           </Link>
         </div>
@@ -208,17 +209,18 @@ export default function Stats() {
   // SIN DATOS
   if (!stats || stats.stats.length === 0) {
     return (
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
         {/* Header */}
-        <header className="bg-white shadow">
+        <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
           <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 className="text-2xl font-bold text-gray-800">
+            <h1 className="text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
               📊 Mis Estadísticas
             </h1>
             <div className="flex items-center gap-4">
-              <span className="text-gray-700">
+              <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200">
                 <strong>{user?.name}</strong>
               </span>
+              <DarkModeToggle />
               <button
                 onClick={handleLogout}
                 className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
@@ -231,12 +233,12 @@ export default function Stats() {
 
         {/* Mensaje sin datos */}
         <main className="max-w-7xl mx-auto px-4 py-8">
-          <div className="bg-yellow-100 border border-yellow-400 text-yellow-800 px-6 py-8 rounded-lg text-center">
+          <div className="bg-yellow-100 dark:bg-yellow-900/30 border border-yellow-400 dark:border-yellow-700 text-yellow-800 dark:text-yellow-300 px-6 py-8 rounded-lg text-center">
             <div className="text-5xl mb-4">📝</div>
             <p className="text-xl font-semibold mb-2">
               Aún no has realizado ningún test
             </p>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 dark:text-gray-400 mb-6">
               Comienza a practicar para ver tus estadísticas aquí
             </p>
             <Link
@@ -253,27 +255,28 @@ export default function Stats() {
 
   // CONTENIDO NORMAL
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
       {/* ============================================ */}
       {/* HEADER */}
       {/* ============================================ */}
-      <header className="bg-white shadow">
+      <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <Link
               to="/dashboard"
-              className="text-blue-600 hover:text-blue-800 font-semibold"
+              className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold"
             >
               ← Volver
             </Link>
-            <h1 className="text-2xl font-bold text-gray-800">
+            <h1 className="text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
               📊 Mis Estadísticas
             </h1>
           </div>
           <div className="flex items-center gap-4">
-            <span className="text-gray-700">
+            <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200">
               <strong>{user?.name}</strong>
             </span>
+            <DarkModeToggle />
             <button
               onClick={handleLogout}
               className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
@@ -295,39 +298,39 @@ export default function Stats() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           
           {/* Tarjeta 1: Tests Realizados */}
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center transition-colors duration-200">
             <div className="text-5xl mb-3">🎯</div>
-            <p className="text-gray-600 text-sm font-semibold uppercase mb-2">
+            <p className="text-gray-600 dark:text-gray-400 text-sm font-semibold uppercase mb-2">
               Tests Realizados
             </p>
-            <p className="text-4xl font-bold text-blue-600">
+            <p className="text-4xl font-bold text-blue-600 dark:text-blue-400">
               {globalStats.totalTests}
             </p>
           </div>
 
           {/* Tarjeta 2: Promedio General */}
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center transition-colors duration-200">
             <div className="text-5xl mb-3">📊</div>
-            <p className="text-gray-600 text-sm font-semibold uppercase mb-2">
+            <p className="text-gray-600 dark:text-gray-400 text-sm font-semibold uppercase mb-2">
               Promedio General
             </p>
             <p className={`text-4xl font-bold ${
-              globalStats.avgScore >= 80 ? 'text-green-600' :
-              globalStats.avgScore >= 50 ? 'text-yellow-600' :
-              'text-red-600'
+              globalStats.avgScore >= 80 ? 'text-green-600 dark:text-green-400' :
+              globalStats.avgScore >= 50 ? 'text-yellow-600 dark:text-yellow-400' :
+              'text-red-600 dark:text-red-400'
             }`}>
               {globalStats.avgScore}%
             </p>
           </div>
 
           {/* Tarjeta 3: Preguntas Falladas */}
-          <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 text-center transition-colors duration-200">
             <div className="text-5xl mb-3">❌</div>
-            <p className="text-gray-600 text-sm font-semibold uppercase mb-2">
+            <p className="text-gray-600 dark:text-gray-400 text-sm font-semibold uppercase mb-2">
               Preguntas Falladas
             </p>
             <p className={`text-4xl font-bold ${
-              stats.totalFailedQuestions > 0 ? 'text-red-600' : 'text-green-600'
+              stats.totalFailedQuestions > 0 ? 'text-red-600 dark:text-red-400' : 'text-green-600 dark:text-green-400'
             }`}>
               {stats.totalFailedQuestions}
             </p>
@@ -339,7 +342,7 @@ export default function Stats() {
         {/* ESTADÍSTICAS POR ASIGNATURA */}
         {/* ============================================ */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+          <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-6 transition-colors duration-200">
             📚 Desglose por Asignatura
           </h2>
 
@@ -347,10 +350,10 @@ export default function Stats() {
             {groupedStats.map((subject) => (
               <div
                 key={subject.subjectCode}
-                className="bg-white rounded-lg shadow-lg p-6"
+                className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 transition-colors duration-200"
               >
                 {/* Header de Asignatura */}
-                <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-200">
+                <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-200 dark:border-gray-700">
                   <div className="flex items-center gap-3">
                     <div className="text-4xl">
                       {subject.subjectCode === 'DWEC' && '🌐'}
@@ -364,23 +367,23 @@ export default function Stats() {
                       {!['DWEC', 'DWES', 'DAW', 'DIW', 'DASP', 'IPE', 'CIBER', 'SASP'].includes(subject.subjectCode) && '📖'}
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-800">
+                      <h3 className="text-xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
                         {subject.subjectCode}
                       </h3>
-                      <p className="text-sm text-gray-600">
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
                         {subject.subjectName}
                       </p>
                     </div>
                   </div>
                   <div className="text-right">
-                    <p className="text-sm text-gray-600">Total Intentos</p>
-                    <p className="text-2xl font-bold text-gray-800">
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Total Intentos</p>
+                    <p className="text-2xl font-bold text-gray-800 dark:text-white">
                       {subject.totalAttempts}
                     </p>
                     <p className={`text-lg font-semibold ${
-                      subject.avgScore >= 80 ? 'text-green-600' :
-                      subject.avgScore >= 50 ? 'text-yellow-600' :
-                      'text-red-600'
+                      subject.avgScore >= 80 ? 'text-green-600 dark:text-green-400' :
+                      subject.avgScore >= 50 ? 'text-yellow-600 dark:text-yellow-400' :
+                      'text-red-600 dark:text-red-400'
                     }`}>
                       Promedio: {subject.avgScore}%
                     </p>
@@ -389,33 +392,33 @@ export default function Stats() {
 
                 {/* Desglose por Temas */}
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-700 uppercase mb-3">
+                  <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase mb-3">
                     Por Temas:
                   </h4>
                   <div className="space-y-2">
                     {subject.topics.map((topic, idx) => (
                       <div
                         key={idx}
-                        className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition"
+                        className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition"
                       >
                         <div className="flex items-center gap-3">
                           <span className="text-2xl">
                             {topic.topicNumber === null ? '🎯' : '📝'}
                           </span>
                           <div>
-                            <p className="font-semibold text-gray-800">
+                            <p className="font-semibold text-gray-800 dark:text-white">
                               {topic.topicTitle}
                             </p>
-                            <p className="text-sm text-gray-600">
+                            <p className="text-sm text-gray-600 dark:text-gray-400">
                               {topic.attempts} intento{topic.attempts !== 1 ? 's' : ''}
                             </p>
                           </div>
                         </div>
                         <div className="text-right">
                           <span className={`inline-block px-4 py-2 rounded-full text-sm font-bold ${
-                            topic.avgScore >= 80 ? 'bg-green-100 text-green-800' :
-                            topic.avgScore >= 50 ? 'bg-yellow-100 text-yellow-800' :
-                            'bg-red-100 text-red-800'
+                            topic.avgScore >= 80 ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300' :
+                            topic.avgScore >= 50 ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300' :
+                            'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300'
                           }`}>
                             {topic.avgScore}%
                           </span>
@@ -434,12 +437,12 @@ export default function Stats() {
         {/* BANNER DE PREGUNTAS FALLADAS */}
         {/* ============================================ */}
         {stats.totalFailedQuestions > 0 ? (
-          <div className="bg-red-50 border-2 border-red-300 rounded-lg p-6 text-center">
+          <div className="bg-red-50 dark:bg-red-900/30 border-2 border-red-300 dark:border-red-700 rounded-lg p-6 text-center transition-colors duration-200">
             <div className="text-5xl mb-4">❌</div>
-            <h3 className="text-2xl font-bold text-red-800 mb-2">
+            <h3 className="text-2xl font-bold text-red-800 dark:text-red-300 mb-2">
               Tienes {stats.totalFailedQuestions} pregunta{stats.totalFailedQuestions !== 1 ? 's' : ''} pendiente{stats.totalFailedQuestions !== 1 ? 's' : ''} de repasar
             </h3>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 dark:text-gray-400 mb-6">
               Repasa las preguntas que has fallado para mejorar tu puntuación
             </p>
             <div className="flex gap-4 justify-center">
@@ -458,12 +461,12 @@ export default function Stats() {
             </div>
           </div>
         ) : (
-          <div className="bg-green-50 border-2 border-green-300 rounded-lg p-6 text-center">
+          <div className="bg-green-50 dark:bg-green-900/30 border-2 border-green-300 dark:border-green-700 rounded-lg p-6 text-center transition-colors duration-200">
             <div className="text-5xl mb-4">🎉</div>
-            <h3 className="text-2xl font-bold text-green-800 mb-2">
+            <h3 className="text-2xl font-bold text-green-800 dark:text-green-300 mb-2">
               ¡Sin preguntas pendientes!
             </h3>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 dark:text-gray-400 mb-6">
               Has repasado todas las preguntas falladas. ¡Sigue practicando!
             </p>
             <Link

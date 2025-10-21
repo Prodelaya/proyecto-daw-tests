@@ -5,10 +5,11 @@
 // BLOQUE 1: Imports
 
 import { useEffect, useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Question } from '../types';
 import { apiClient } from '../services/api';
+import DarkModeToggle from '../components/DarkModeToggle';
 
 // Tipo para feedback inmediato (modo práctica)
 interface InstantFeedback {
@@ -250,10 +251,10 @@ export default function TestView() {
   // Loading state
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center transition-colors duration-200">
         <div className="text-center">
           <div className="text-6xl mb-4">⏳</div>
-          <p className="text-gray-600 text-lg">Cargando preguntas...</p>
+          <p className="text-gray-600 dark:text-gray-400 text-lg">Cargando preguntas...</p>
         </div>
       </div>
     );
@@ -262,12 +263,12 @@ export default function TestView() {
   // Error state
   if (error || questions.length === 0) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-        <div className="bg-red-100 border border-red-400 text-red-700 px-6 py-4 rounded-lg max-w-md">
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center transition-colors duration-200">
+        <div className="bg-red-100 dark:bg-red-900/30 border border-red-400 dark:border-red-700 text-red-700 dark:text-red-300 px-6 py-4 rounded-lg max-w-md">
           <p className="font-semibold mb-2">❌ {error || 'No hay preguntas'}</p>
           <button
             onClick={() => navigate('/dashboard')}
-            className="text-blue-600 hover:underline"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
           >
             ← Volver al Dashboard
           </button>
@@ -277,22 +278,33 @@ export default function TestView() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
       {/* Header */}
-      <header className="bg-white shadow">
+      <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-800">
+          <div className="flex items-center gap-3">
+            {/* Icono Dashboard */}
+            <Link
+              to="/dashboard"
+              className="text-3xl hover:scale-110 transition-transform"
+              title="Ir al Dashboard"
+            >
+              📚
+            </Link>
+            <div>
+              <h1 className="text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
               {subject} - Test {type === 'tema' ? `UT${topic}` : type === 'final' ? 'Final' : 'Falladas'}
             </h1>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               {questions.length} pregunta{questions.length !== 1 ? 's' : ''}
             </p>
           </div>
+          </div>
           <div className="flex items-center gap-4">
-            <span className="text-gray-700">
+            <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200">
               <strong>{user?.name}</strong>
             </span>
+            <DarkModeToggle />
             <button
               onClick={handleLogout}
               className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
@@ -307,11 +319,11 @@ export default function TestView() {
       <main className="max-w-4xl mx-auto px-4 py-8">
         
         {/* Toggle de Modo */}
-        <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-6 transition-colors duration-200">
           <div className="flex items-center justify-between">
             <div className="flex-1">
-              <h3 className="font-bold text-lg mb-1">Modo de Test</h3>
-              <p className="text-sm text-gray-600">
+              <h3 className="font-bold text-lg mb-1 text-gray-800 dark:text-white">Modo de Test</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
                 {practiceMode 
                   ? '🟢 Recibirás feedback inmediato tras cada respuesta' 
                   : '🔴 Sin feedback hasta finalizar el test'}
@@ -332,7 +344,7 @@ export default function TestView() {
             </button>
             
             <div className="text-right ml-4">
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg text-gray-800 dark:text-white">
                 {practiceMode ? '🟢 Práctica' : '🔴 Examen'}
               </p>
             </div>
@@ -340,14 +352,14 @@ export default function TestView() {
         </div>
 
         {/* BLOQUE 3: Pregunta Actual */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-6 transition-colors duration-200">
           
           {/* Progreso */}
           <div className="mb-6 flex justify-between items-center">
-            <p className="text-sm font-semibold text-gray-600">
+            <p className="text-sm font-semibold text-gray-600 dark:text-gray-400">
               Pregunta {currentIndex + 1} de {questions.length}
             </p>
-            <div className="w-64 bg-gray-200 rounded-full h-2">
+            <div className="w-64 bg-gray-200 dark:bg-gray-700 rounded-full h-2">
               <div
                 className="bg-blue-600 h-2 rounded-full transition-all"
                 style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
@@ -357,7 +369,7 @@ export default function TestView() {
 
           {/* Texto de la pregunta */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+            <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4 transition-colors duration-200">
               {currentQuestion?.text}
             </h2>
           </div>
@@ -372,8 +384,8 @@ export default function TestView() {
                   key={index}
                   className={`flex items-center p-4 border-2 rounded-lg cursor-pointer transition ${
                     isSelected
-                      ? 'border-blue-600 bg-blue-50'
-                      : 'border-gray-300 hover:border-blue-400 hover:bg-gray-50'
+                      ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30'
+                      : 'border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700'
                   }`}
                 >
                   <input
@@ -384,7 +396,7 @@ export default function TestView() {
                     onChange={() => handleAnswerSelect(option)}
                     className="w-5 h-5 text-blue-600 mr-4"
                   />
-                  <span className="text-lg text-gray-800">{option}</span>
+                  <span className="text-lg text-gray-800 dark:text-white">{option}</span>
                 </label>
               );
             })}
@@ -392,24 +404,26 @@ export default function TestView() {
 
           {/* 🟢 FEEDBACK INMEDIATO (Solo Modo Práctica) */}
           {practiceMode && instantFeedback && (
-            <div className={`p-4 rounded-lg border-2 mb-6 ${
+            <div className={`p-4 rounded-lg border-2 mb-6 transition-colors duration-200 ${
               instantFeedback.correct
-                ? 'bg-green-50 border-green-400'
-                : 'bg-red-50 border-red-400'
+                ? 'bg-green-50 dark:bg-green-900/30 border-green-400 dark:border-green-700'
+                : 'bg-red-50 dark:bg-red-900/30 border-red-400 dark:border-red-700'
             }`}>
               <p className={`font-bold text-lg mb-2 ${
-                instantFeedback.correct ? 'text-green-800' : 'text-red-800'
+                instantFeedback.correct 
+                  ? 'text-green-800 dark:text-green-300' 
+                  : 'text-red-800 dark:text-red-300'
               }`}>
                 {instantFeedback.correct ? '✅ ¡Correcto!' : '❌ Incorrecto'}
               </p>
               
               {!instantFeedback.correct && (
-                <p className="text-red-700 mb-2">
+                <p className="text-red-700 dark:text-red-300 mb-2">
                   <strong>Respuesta correcta:</strong> {instantFeedback.correctAnswer}
                 </p>
               )}
               
-              <div className="text-gray-700 text-sm mt-3 pt-3 border-t border-gray-300">
+              <div className="text-gray-700 dark:text-gray-300 text-sm mt-3 pt-3 border-t border-gray-300 dark:border-gray-600">
                 <strong>Explicación:</strong> {instantFeedback.explanation}
               </div>
             </div>
@@ -424,8 +438,8 @@ export default function TestView() {
               disabled={currentIndex === 0}
               className={`px-6 py-3 rounded-lg font-semibold transition ${
                 currentIndex === 0
-                  ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                  : 'bg-gray-600 hover:bg-gray-700 text-white'
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-600 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white'
               }`}
             >
               ← Anterior
@@ -433,7 +447,7 @@ export default function TestView() {
 
             {/* Indicador visual de respuestas */}
             <div className="text-center">
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 dark:text-gray-400">
                 {userAnswers.size} de {questions.length} respondidas
               </p>
               <div className="flex gap-1 mt-2">
@@ -445,7 +459,7 @@ export default function TestView() {
                         ? 'bg-green-500'
                         : idx === currentIndex
                         ? 'bg-blue-500'
-                        : 'bg-gray-300'
+                        : 'bg-gray-300 dark:bg-gray-600'
                     }`}
                   />
                 ))}
