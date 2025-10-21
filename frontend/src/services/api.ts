@@ -210,3 +210,6 @@ export const getTopicsBySubject = async (subjectCode: string): Promise<{
   const { data } = await apiClient.get(`/subjects/${subjectCode}/topics`);
   return data;
 };
+
+export { apiClient };
+

@@ -3,7 +3,7 @@
 // ============================================
 
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { getSubjects } from '../services/api';
 
@@ -16,6 +16,7 @@ interface Subject {
 
 export default function Dashboard() {
   const { user, logoutUser } = useAuth();
+  const navigate = useNavigate();
   
   // Estado: lista de asignaturas
   const [subjects, setSubjects] = useState<Subject[]>([]);
@@ -65,6 +66,12 @@ export default function Dashboard() {
             >
               📊 Estadísticas
             </Link>
+            <button
+              onClick={() => navigate('/ranking')}
+              className="px-6 py-3 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition shadow-lg font-semibold"
+            >
+              🏆 Ranking
+            </button>
             <button
               onClick={handleLogout}
               className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"

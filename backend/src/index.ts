@@ -16,6 +16,7 @@ import authRoutes from './routes/auth.routes';
 import questionRoutes from './routes/questions.routes';
 import attemptRoutes from './routes/attempts.routes';
 import subjectRoutes from './routes/subjects.routes';
+import rankingRoutes from './routes/ranking.routes';
 
 // Middleware de autenticación
 import { authMiddleware } from './middlewares/auth.middleware';
@@ -131,6 +132,13 @@ app.use('/api/attempts', attemptRoutes);
  */
 app.use('/api/subjects', subjectRoutes);
 
+/**
+ * Rutas de Ranking
+ * Prefijo: /api/ranking
+ * Endpoints disponibles:
+ * - GET /api/ranking → Obtener ranking de usuarios por cantidad de tests
+ */
+app.use('/api/ranking', rankingRoutes);
 
 
 /**

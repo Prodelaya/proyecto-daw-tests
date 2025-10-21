@@ -13,7 +13,8 @@ import SubjectDetail from './pages/SubjectDetail';
 import TestConfig from './pages/TestConfig';       
 import TestView from './pages/TestView';            
 import Results from './pages/Results';              
-import Stats from './pages/Stats';                 
+import Stats from './pages/Stats';    
+import Ranking from './pages/Ranking';             
 
 function App() {
   return (
@@ -71,18 +72,21 @@ function App() {
 
           
           {
-                    <Route
-                      path="/stats"
-                      element={
-                        <PrivateRoute>
-                          <Stats />
-                        </PrivateRoute>
-                      }
-                    />
+            <Route
+              path="/stats"
+              element={
+                <PrivateRoute>
+                  <Stats />
+                </PrivateRoute>
+              }
+            />
           }
-          
-            
 
+          
+          <Route path="/ranking" element={<PrivateRoute><Ranking /></PrivateRoute>} />
+
+
+          
 
           {/* Ruta 404 - Cualquier URL no definida */}
           <Route path="*" element={<Navigate to="/" replace />} />
