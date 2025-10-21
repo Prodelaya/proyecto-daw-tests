@@ -243,13 +243,12 @@ app.listen(PORT, '0.0.0.0', () => {
  * Cuando se detiene el servidor (Ctrl+C), cierra conexiones limpiamente
  * Evita dejar conexiones huérfanas en PostgreSQL
  */
-process.on('SIGINT', async () => {
-  console.log('\n🛑 Cerrando servidor...');
-  
-  // Cerrar conexión Prisma
-  await prisma.$disconnect();
-  console.log('✅ Conexión a PostgreSQL cerrada');
-  
-  // Salir del proceso
-  process.exit(0);
-});
+// Solo manejar SIGINT en desarrollo (no con PM2)
+if (process.env.NODE_ENV !== 'production' && !process.env.PM2_HOME) {
+  process.on('SIGINT', async () => {
+    console.log('\n🛑 Cerrando servidor...');
+    await prisma.$disconnect();
+    console.log('✅ Conexión a PostgreSQL cerrada');
+    process.exit(0);
+  });
+}
