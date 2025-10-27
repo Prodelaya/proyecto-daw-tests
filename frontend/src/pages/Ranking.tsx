@@ -160,65 +160,66 @@ const Ranking = () => {
         {/* PODIO - TOP 3 */}
         {top3.length > 0 && (
         <div className="mb-12">
-            <div className="flex items-end justify-center gap-6 mb-8">
-            
-            {/* SEGUNDO PUESTO */}
-            {top3[1] && (
-                <div className="flex flex-col items-center">
-                <div className="text-5xl mb-3">{getMedal(2)}</div>
-                <div className={`bg-gradient-to-b from-gray-300 to-gray-400 dark:from-gray-600 dark:to-gray-700 ${getPodiumHeight(2)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-lg transition-colors duration-200`}>
-                    <p className="text-white font-bold text-base text-center px-2 leading-tight">
-                    {top3[1].name}
+            {/* ✅ RESPONSIVE: flex-wrap + width dinámico */}
+            <div className="flex flex-wrap items-end justify-center gap-3 sm:gap-6 mb-8">
+              
+              {/* SEGUNDO PUESTO */}
+              {top3[1] && (
+                <div className="flex flex-col items-center w-28 sm:w-32 md:w-40">
+                  <div className="text-3xl sm:text-5xl mb-2 sm:mb-3">{getMedal(2)}</div>
+                  <div className={`bg-gradient-to-b from-gray-300 to-gray-400 dark:from-gray-600 dark:to-gray-700 ${getPodiumHeight(2)} w-full rounded-t-lg ...`}>
+                    <p className="text-white font-bold text-xs sm:text-sm md:text-base text-center px-1 sm:px-2 leading-tight">
+                      {top3[1].name}
                     </p>
-                    <p className="text-white text-xs italic mt-2 text-center px-2 leading-tight">
-                    "{getPodiumTitle(2)}"
+                    <p className="text-white text-[10px] sm:text-xs italic mt-1 sm:mt-2 text-center px-1 sm:px-2 leading-tight">
+                      "{getPodiumTitle(2)}"
                     </p>
-                    <p className="text-white text-sm font-semibold mt-2">
-                    {top3[1].totalTests} tests
+                    <p className="text-white text-xs sm:text-sm font-semibold mt-1 sm:mt-2">
+                      {top3[1].totalTests} tests
                     </p>
+                  </div>
+                  <div className="bg-gray-500 dark:bg-gray-800 h-2 w-full rounded-b"></div>
                 </div>
-                <div className="bg-gray-500 dark:bg-gray-800 h-2 w-40 rounded-b"></div>
-                </div>
-            )}
+              )}
 
-            {/* PRIMER PUESTO */}
-            {top3[0] && (
-                <div className="flex flex-col items-center">
-                <div className="text-6xl mb-3">{getMedal(1)}</div>
-                <div className={`bg-gradient-to-b from-yellow-400 to-yellow-600 dark:from-yellow-500 dark:to-yellow-700 ${getPodiumHeight(1)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-xl border-4 border-yellow-300 dark:border-yellow-600 transition-colors duration-200`}>
-                    <p className="text-white font-bold text-base text-center px-2 leading-tight">
-                    {top3[0].name}
+              {/* PRIMER PUESTO */}
+              {top3[0] && (
+                <div className="flex flex-col items-center w-28 sm:w-32 md:w-40">
+                  <div className="text-4xl sm:text-6xl mb-2 sm:mb-3">{getMedal(1)}</div>
+                  <div className={`bg-gradient-to-b from-yellow-400 to-yellow-600 dark:from-yellow-500 dark:to-yellow-700 ${getPodiumHeight(1)} w-full rounded-t-lg ...`}>
+                    <p className="text-white font-bold text-xs sm:text-sm md:text-base text-center px-1 sm:px-2 leading-tight">
+                      {top3[0].name}
                     </p>
-                    <p className="text-white text-xs italic mt-2 text-center px-2 leading-tight">
-                    "{getPodiumTitle(1)}"
+                    <p className="text-white text-[10px] sm:text-xs italic mt-1 sm:mt-2 text-center px-1 sm:px-2 leading-tight">
+                      "{getPodiumTitle(1)}"
                     </p>
-                    <p className="text-white text-sm font-semibold mt-2">
-                    {top3[0].totalTests} tests
+                    <p className="text-white text-xs sm:text-sm font-semibold mt-1 sm:mt-2">
+                      {top3[0].totalTests} tests
                     </p>
+                  </div>
+                  <div className="bg-yellow-700 dark:bg-yellow-900 h-2 w-full rounded-b"></div>
                 </div>
-                <div className="bg-yellow-700 dark:bg-yellow-900 h-2 w-40 rounded-b"></div>
-                </div>
-            )}
+              )}
 
-            {/* TERCER PUESTO */}
-            {top3[2] && (
-                <div className="flex flex-col items-center">
-                <div className="text-5xl mb-3">{getMedal(3)}</div>
-                <div className={`bg-gradient-to-b from-orange-400 to-orange-600 dark:from-orange-500 dark:to-orange-700 ${getPodiumHeight(3)} w-40 rounded-t-lg flex flex-col items-center justify-end pb-4 shadow-lg transition-colors duration-200`}>
-                    <p className="text-white font-bold text-base text-center px-2 leading-tight">
-                    {top3[2].name}
+              {/* TERCER PUESTO */}
+              {top3[2] && (
+                <div className="flex flex-col items-center w-28 sm:w-32 md:w-40">
+                  <div className="text-3xl sm:text-5xl mb-2 sm:mb-3">{getMedal(3)}</div>
+                  <div className={`bg-gradient-to-b from-orange-400 to-orange-600 dark:from-orange-500 dark:to-orange-700 ${getPodiumHeight(3)} w-full rounded-t-lg ...`}>
+                    <p className="text-white font-bold text-xs sm:text-sm md:text-base text-center px-1 sm:px-2 leading-tight">
+                      {top3[2].name}
                     </p>
-                    <p className="text-white text-xs italic mt-2 text-center px-2 leading-tight">
-                    "{getPodiumTitle(3)}"
+                    <p className="text-white text-[10px] sm:text-xs italic mt-1 sm:mt-2 text-center px-1 sm:px-2 leading-tight">
+                      "{getPodiumTitle(3)}"
                     </p>
-                    <p className="text-white text-sm font-semibold mt-2">
-                    {top3[2].totalTests} tests
+                    <p className="text-white text-xs sm:text-sm font-semibold mt-1 sm:mt-2">
+                      {top3[2].totalTests} tests
                     </p>
+                  </div>
+                  <div className="bg-orange-700 dark:bg-orange-900 h-2 w-full rounded-b"></div>
                 </div>
-                <div className="bg-orange-700 dark:bg-orange-900 h-2 w-40 rounded-b"></div>
-                </div>
-            )}
-            
+              )}
+              
             </div>
         </div>
         )}

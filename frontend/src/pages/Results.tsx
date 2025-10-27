@@ -34,25 +34,50 @@ export default function Results() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
       {/* Header */}
       <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
-            📊 Resultados del Test
-          </h1>
-          <div className="flex items-center gap-4">
-            <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200">
-              <strong>{user?.name}</strong>
-            </span>
-            <DarkModeToggle />
-            <button
-              onClick={() => {
-                logoutUser();
-                navigate('/');
-              }}
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
-            >
-              Cerrar Sesión
-            </button>
+        <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
+          
+          {/* Fila 1: Título + DarkMode (móvil) */}
+          <div className="flex justify-between items-center mb-2 sm:mb-0">
+            <h1 className="text-lg sm:text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
+              📊 Resultados del Test
+            </h1>
+            
+            {/* DarkMode solo en móvil */}
+            <div className="sm:hidden">
+              <DarkModeToggle />
+            </div>
           </div>
+
+          {/* Fila 2: Usuario + Botones (responsive) */}
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            
+            {/* Usuario */}
+            <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-200">
+              <strong className="hidden sm:inline">{user?.name}</strong>
+              <strong className="sm:hidden">{user?.name.split(' ')[0]}</strong>
+            </span>
+
+            {/* Botones */}
+            <div className="flex items-center gap-2">
+              {/* DarkMode solo en desktop */}
+              <div className="hidden sm:block">
+                <DarkModeToggle />
+              </div>
+              
+              {/* Botón Cerrar Sesión */}
+              <button
+                onClick={() => {
+                  logoutUser();
+                  navigate('/');
+                }}
+                className="bg-red-500 hover:bg-red-600 text-white px-3 sm:px-4 py-2 rounded-md font-semibold transition text-sm sm:text-base"
+              >
+                <span className="sm:hidden">🚪</span>
+                <span className="hidden sm:inline">Cerrar Sesión</span>
+              </button>
+            </div>
+          </div>
+
         </div>
       </header>
 

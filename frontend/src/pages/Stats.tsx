@@ -260,30 +260,55 @@ export default function Stats() {
       {/* HEADER */}
       {/* ============================================ */}
       <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-4">
-            <Link
-              to="/dashboard"
-              className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold"
-            >
-              ← Volver
-            </Link>
-            <h1 className="text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
-              📊 Mis Estadísticas
-            </h1>
+        <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
+          
+          {/* Fila 1: Volver + Título + DarkMode (móvil) */}
+          <div className="flex justify-between items-center mb-2 sm:mb-0">
+            <div className="flex items-center gap-2 sm:gap-4">
+              <Link
+                to="/dashboard"
+                className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-semibold text-sm sm:text-base"
+              >
+                ← Volver
+              </Link>
+              <h1 className="text-lg sm:text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
+                📊 Mis Estadísticas
+              </h1>
+            </div>
+            
+            {/* DarkMode solo en móvil */}
+            <div className="sm:hidden">
+              <DarkModeToggle />
+            </div>
           </div>
-          <div className="flex items-center gap-4">
-            <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200">
-              <strong>{user?.name}</strong>
+
+          {/* Fila 2: Usuario + Botones (responsive) */}
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            
+            {/* Usuario */}
+            <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-200">
+              <strong className="hidden sm:inline">{user?.name}</strong>
+              <strong className="sm:hidden">{user?.name.split(' ')[0]}</strong>
             </span>
-            <DarkModeToggle />
-            <button
-              onClick={handleLogout}
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
-            >
-              Cerrar Sesión
-            </button>
+
+            {/* Botones */}
+            <div className="flex items-center gap-2">
+              {/* DarkMode solo en desktop */}
+              <div className="hidden sm:block">
+                <DarkModeToggle />
+              </div>
+              
+              {/* Botón Cerrar Sesión */}
+              <button
+                onClick={handleLogout}
+                className="bg-red-500 hover:bg-red-600 text-white px-3 sm:px-4 py-2 rounded-md font-semibold transition text-sm sm:text-base"
+              >
+                <span className="sm:hidden">🚪</span>
+                <span className="hidden sm:inline">Cerrar Sesión</span>
+              </button>
+            </div>
           </div>
+
         </div>
       </header>
 

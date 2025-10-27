@@ -53,34 +53,64 @@ export default function Dashboard() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
       {/* Header con logout */}
       <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
-            📚 Tests DAW
-          </h1>
-          <div className="flex items-center gap-4">
-            <span className="text-gray-700 dark:text-gray-300 transition-colors duration-200">
+        <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
+          
+          {/* Fila 1: Título + DarkMode */}
+          <div className="flex justify-between items-center mb-3 sm:mb-0">
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white transition-colors duration-200">
+              📚 Tests DAW
+            </h1>
+            <div className="flex items-center gap-2 sm:hidden">
+              <span className="text-sm text-gray-700 dark:text-gray-300">
+                <strong>{user?.name.split(' ')[0]}</strong>
+              </span>
+              <DarkModeToggle />
+            </div>
+          </div>
+
+          {/* Fila 2: Botones Responsivos */}
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 sm:gap-4">
+            
+            {/* Usuario (solo desktop) */}
+            <span className="hidden sm:block text-gray-700 dark:text-gray-300 transition-colors duration-200">
               Hola, <strong>{user?.name}</strong>
             </span>
-            <DarkModeToggle />
-            <Link
-              to="/stats"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold transition flex items-center gap-2"
-            >
-              📊 Estadísticas
-            </Link>
-            <button
-              onClick={() => navigate('/ranking')}
-              className="px-6 py-3 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition shadow-lg font-semibold"
-            >
-              🏆 Ranking
-            </button>
-            <button
-              onClick={handleLogout}
-              className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-semibold transition"
-            >
-              Cerrar Sesión
-            </button>
+
+            {/* Contenedor de Botones */}
+            <div className="flex flex-wrap items-center gap-2">
+              
+              {/* DarkMode (solo desktop) */}
+              <div className="hidden sm:block">
+                <DarkModeToggle />
+              </div>
+
+              {/* Estadísticas */}
+              <Link
+                to="/stats"
+                className="flex-1 sm:flex-none bg-blue-600 hover:bg-blue-700 text-white px-3 sm:px-4 py-2 rounded-md font-semibold transition text-center text-sm sm:text-base"
+              >
+                📊 <span className="hidden sm:inline">Estadísticas</span>
+              </Link>
+
+              {/* Ranking */}
+              <button
+                onClick={() => navigate('/ranking')}
+                className="flex-1 sm:flex-none px-3 sm:px-6 py-2 sm:py-3 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition shadow-lg font-semibold text-sm sm:text-base"
+              >
+                🏆 <span className="hidden sm:inline">Ranking</span>
+              </button>
+
+              {/* Cerrar Sesión */}
+              <button
+                onClick={handleLogout}
+                className="flex-1 sm:flex-none bg-red-500 hover:bg-red-600 text-white px-3 sm:px-4 py-2 rounded-md font-semibold transition text-sm sm:text-base"
+              >
+                <span className="sm:hidden">🚪</span>
+                <span className="hidden sm:inline">Cerrar Sesión</span>
+              </button>
+            </div>
           </div>
+
         </div>
       </header>
 
