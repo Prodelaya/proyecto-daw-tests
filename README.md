@@ -31,7 +31,7 @@
 
 Plataforma web fullstack para practicar tests de **Desarrollo de Aplicaciones Web (DAW)**. Diseñada con arquitectura profesional, patrones de diseño escalables y enfoque en backend robusto.
 
-Actualmente contiene **181 preguntas** de **Desarrollo Web en Entorno Cliente (DWEC)**, con capacidad para expandirse a múltiples asignaturas mediante sistema de seed automático.
+Actualmente contiene **211 preguntas** de **Desarrollo Web en Entorno Cliente (DWEC)**, con capacidad para expandirse a múltiples asignaturas mediante sistema de seed automático.
 
 ### 💼 Contexto Profesional
 
@@ -306,7 +306,7 @@ npx prisma generate
 # Ejecutar migraciones
 npx prisma migrate dev
 
-# Cargar datos de ejemplo (181 preguntas DWEC)
+# Cargar datos de ejemplo (211 preguntas DWEC)
 npm run seed
 
 # Iniciar servidor (puerto 3001)
@@ -391,7 +391,7 @@ npx prisma studio
 ### Asignaturas Planeadas
 
 El proyecto tiene estructura para 8 asignaturas DAW:
-- ✅ **DWEC** - Desarrollo Web Entorno Cliente (181 preguntas)
+- ✅ **DWEC** - Desarrollo Web Entorno Cliente (211 preguntas)
 - ⏳ **DWES** - Desarrollo Web Entorno Servidor
 - ⏳ **DAW** - Despliegue de Aplicaciones Web
 - ⏳ **DIW** - Diseño de Interfaces Web
@@ -479,7 +479,7 @@ pm2 start cloudflared --name cloudflare-tunnel -- tunnel run daw-backend
 - [x] Ranking con gamificación
 - [x] Dark mode completo
 - [x] Deploy en producción
-- [x] 181 preguntas DWEC
+- [x] 211 preguntas DWEC
 
 ### 🚧 En Desarrollo (v1.1)
 - [ ] 5 asignaturas más (DWES, DAW, DIW, DASP, IPE)
