@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWEC",
+      "name": "Desarrollo Web en Entorno Cliente",
+      "topics": [
+        {
+          "number": 2,
+          "title": "Lenguajes, objetos y herramientas en desarrollo web General",
+          "questions": [
+            {
+              "text": "En un comercio de A Coruña, Lucía revisa una página de producto que mezcla logotipo, menú y texto principal dentro de un único <div>. El SEO ha caído y un lector de pantalla no distingue las zonas. ¿Qué primer cambio favorece la accesibilidad y estructura?",
+              "options": [
+                "Cambiar el texto principal a <article> y mantener el resto en <div>",
+                "Envolver todo en <section> para reducir etiquetas",
+                "Mover el menú a <aside> y dejar el resto igual",
+                "<header>, <nav>, <main> y <footer> para delimitar roles semánticos"
+              ],
+              "correctAnswer": "<header>, <nav>, <main> y <footer> para delimitar roles semánticos",
+              "explanation": "Las etiquetas semánticas estructuran el documento y ayudan a SEO y lectores de pantalla."
+            },
+            {
+              "text": "¿Qué indica la declaración <!DOCTYPE html> en un documento web actual?",
+              "options": [
+                "Deshabilita CSS externo y favorece estilos internos",
+                "Activa automáticamente todas las APIs de HTML5",
+                "Obliga a usar HTML4.01 en todos los navegadores",
+                "Informa al navegador de que debe renderizar en modo estándar con HTML5"
+              ],
+              "correctAnswer": "Informa al navegador de que debe renderizar en modo estándar con HTML5",
+              "explanation": "El doctype moderno activa el modo estándar y especifica HTML5."
+            },
+            {
+              "text": "Necesitas incluir un vídeo sin plugins y con controles nativos. ¿Qué alternativa es correcta?",
+              "options": [
+                "<video controls src=\"promo.mp4\"></video>",
+                "<object data=\"promo.mp4\" controls></object>",
+                "<video src=\"promo.mp4\"></video> sin más atributos",
+                "<embed controls src=\"promo.mp4\"></embed>"
+              ],
+              "correctAnswer": "<video controls src=\"promo.mp4\"></video>",
+              "explanation": "<video> con atributo controls ofrece reproducción nativa sin plugins."
+            },
+            {
+              "text": "En una intranet de Zaragoza, el equipo de soporte quiere mostrar una métrica opcional con su leyenda bajo una imagen. Prefieren una solución semántica. ¿Qué estructura se ajusta mejor?",
+              "options": [
+                "<figure><img alt=\"...\"><figcaption>Métrica semanal</figcaption></figure>",
+                "<picture><img><caption></caption></picture>",
+                "<div><img><p>texto</p></div>",
+                "<img><legend>Métrica semanal</legend>"
+              ],
+              "correctAnswer": "<figure><img alt=\"...\"><figcaption>Métrica semanal</figcaption></figure>",
+              "explanation": "La pareja <figure>/<figcaption> asocia imagen y pie de forma semántica."
+            },
+            {
+              "text": "¿Qué nuevo tipo de entrada de formulario facilita validar correos sin JavaScript adicional?",
+              "options": [
+                "type=\"search\" con required",
+                "type=\"url\" con pattern",
+                "type=\"text\" con maxlength",
+                "type=\"email\" con validación del navegador"
+              ],
+              "correctAnswer": "type=\"email\" con validación del navegador",
+              "explanation": "El tipo email activa validaciones nativas del navegador para formato de correo."
+            },
+            {
+              "text": "En una landing de Madrid, quieres un bloque de contenido independiente que pueda republicarse sin perder sentido. ¿Qué etiqueta es la adecuada?",
+              "options": [
+                "<section>",
+                "<aside>",
+                "<div>",
+                "<article>"
+              ],
+              "correctAnswer": "<article>",
+              "explanation": "<article> representa contenido autónomo y reutilizable fuera de su contexto."
+            },
+            {
+              "text": "¿Qué atributo de formulario permite mostrar un texto guía hasta que el usuario escribe?",
+              "options": [
+                "autofocus",
+                "pattern",
+                "spellcheck",
+                "placeholder"
+              ],
+              "correctAnswer": "placeholder",
+              "explanation": "placeholder muestra una pista breve dentro del campo hasta que se introduce contenido."
+            },
+            {
+              "text": "Te piden un control de progreso nativo para una subida de archivos. ¿Qué usarías?",
+              "options": [
+                "<bar value=\"80\">",
+                "<meter value=\"80\" min=\"0\" max=\"100\">",
+                "<range value=\"80\" max=\"100\">",
+                "<progress value=\"0.8\">80&#37;</progress>"
+              ],
+              "correctAnswer": "<progress value=\"0.8\">80&#37;</progress>",
+              "explanation": "<progress> es el control semántico para progreso; el valor puede ser fracción (0–1)."
+            },
+            {
+              "text": "En una app interna de Valencia, el equipo de logística quiere un panel plegable que muestre “Detalles del envío” al desplegar. ¿Qué combinación nativa encaja?",
+              "options": [
+                "<details><summary>Detalles del envío</summary>…</details>",
+                "<dialog open>Detalles del envío</dialog>",
+                "<section toggle=\"true\">Detalles del envío</section>",
+                "<summary><details>…</details></summary>"
+              ],
+              "correctAnswer": "<details><summary>Detalles del envío</summary>…</details>",
+              "explanation": "<details> con <summary> provee un disclosure nativo accesible."
+            },
+            {
+              "text": "¿Cuál es la mejor ubicación para los enlaces a hojas de estilo externas en HTML5?",
+              "options": [
+                "Antes del <!DOCTYPE html>",
+                "Dentro de <main> para priorizar el contenido",
+                "Al final del <body>",
+                "Dentro de <head> mediante <link rel=\"stylesheet\" href=\"…\">"
+              ],
+              "correctAnswer": "Dentro de <head> mediante <link rel=\"stylesheet\" href=\"…\">",
+              "explanation": "Las hojas de estilo se declaran en <head> para evitar FOUC y cargar estilos temprano."
+            },
+            {
+              "text": "En una web de una clínica en Bilbao, la tipografía se ve inconsistente entre páginas. El equipo quiere centralizar estilos para todo el sitio. ¿Qué enfoque favorece mantenimiento y reutilización?",
+              "options": [
+                "Poner reglas en atributos style solo en la home",
+                "Definir estilos en línea en cada etiqueta",
+                "Copiar un bloque <style> en cada HTML",
+                "Hoja CSS externa enlazada desde todas las páginas"
+              ],
+              "correctAnswer": "Hoja CSS externa enlazada desde todas las páginas",
+              "explanation": "Una hoja externa compartida garantiza consistencia y facilita el mantenimiento."
+            },
+            {
+              "text": "¿Qué selector aplica estilo a todos los <input> cuyo tipo sea “email”?",
+              "options": [
+                "input.email",
+                "input[type=\"email\"]",
+                "input#email",
+                ".input[type=email]"
+              ],
+              "correctAnswer": "input[type=\"email\"]",
+              "explanation": "El selector de atributo permite dirigir estilos por tipo de entrada."
+            },
+            {
+              "text": "¿Qué propiedad de CSS3 permite transicionar suavemente el color de fondo en 300 ms al hacer hover?",
+              "options": [
+                "filter: 300ms;",
+                "transform: background 300ms;",
+                "animation: background 300ms;",
+                "transition: background-color 300ms;"
+              ],
+              "correctAnswer": "transition: background-color 300ms;",
+              "explanation": "transition define cambios suaves en propiedades como background-color."
+            },
+            {
+              "text": "En la tienda online de Sevilla, las tarjetas de producto deben alinearse en fila y envolver al reducir la pantalla. ¿Qué configuración de contenedor es adecuada?",
+              "options": [
+                "display: block; column-count: auto;",
+                "display: flex; flex-wrap: wrap;",
+                "display: inline-block; white-space: normal;",
+                "display: table; table-layout: fixed;"
+              ],
+              "correctAnswer": "display: flex; flex-wrap: wrap;",
+              "explanation": "Flexbox con wrap permite filas que se ajustan al ancho disponible."
+            },
+            {
+              "text": "¿Qué regla de media query aplica estilos cuando el ancho mínimo es de 768px?",
+              "options": [
+                "@media screen and (min-width: 768px)",
+                "@media screen and (max-width: 768px)",
+                "@media device-width: 768px",
+                "@media (width >= 768px)"
+              ],
+              "correctAnswer": "@media screen and (min-width: 768px)",
+              "explanation": "min-width aplica estilos desde 768px hacia arriba (mobile-first)."
+            },
+            {
+              "text": "En una landing captada por marketing, quieren esquinas redondeadas y sombra suave sin imágenes. ¿Qué propiedades usarías?",
+              "options": [
+                "mask-image y mix-blend-mode",
+                "outline-radius y text-shadow",
+                "clip-path y filter: blur()",
+                "border-radius y box-shadow"
+              ],
+              "correctAnswer": "border-radius y box-shadow",
+              "explanation": "border-radius redondea bordes y box-shadow añade sombras externas."
+            },
+            {
+              "text": "¿Qué sintaxis básica de regla CSS es correcta?",
+              "options": [
+                "selector { propiedad: valor; }",
+                "selector: { propiedad: valor; }",
+                "{ selector: propiedad: valor; }",
+                "selector { propiedad valor }"
+              ],
+              "correctAnswer": "selector { propiedad: valor; }",
+              "explanation": "Regla CSS: selector seguido de bloque con pares propiedad: valor;"
+            },
+            {
+              "text": "En una intranet corporativa, necesitan una cuadrícula bidimensional que se adapte creando columnas automáticas con un mínimo de 200px. ¿Qué patrón de Grid responde a eso?",
+              "options": [
+                "grid-template-columns: repeat(1fr, 200px);",
+                "grid-template-columns: minmax(1fr, 200px);",
+                "grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));",
+                "grid-template-columns: auto-fit(200px);"
+              ],
+              "correctAnswer": "grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));",
+              "explanation": "auto-fill con minmax(200px, 1fr) crea tantas columnas como quepan con mínimo de 200px."
+            },
+            {
+              "text": "Para un diseño fluido, el equipo quiere que un contenedor ocupe siempre el 100&#37; del ancho disponible con un relleno relativo. ¿Qué enfoque es coherente con CSS responsivo descrito?",
+              "options": [
+                "Usar width: 1024px; padding: 20px;",
+                "Usar width: auto; padding: auto;",
+                "Usar width: 100%",
+                "Usar width: fit-content; padding: 2px;"
+              ],
+              "correctAnswer": "Usar width: 100%",
+              "explanation": "El ancho al 100% hace que el contenedor se adapte; el padding puede expresarse en % para ser relativo."
+            },
+            {
+              "text": "¿Qué declaración permite incorporar una fuente personalizada alojada en tu servidor?",
+              "options": [
+                "@font { src: url(\"…\"); }",
+                "@font-face { src: url(\"…\"); font-family: Nombre; }",
+                "font-src: url(\"…\")",
+                "@import-font url(\"…\")"
+              ],
+              "correctAnswer": "@font-face { src: url(\"…\"); font-family: Nombre; }",
+              "explanation": "@font-face define la familia y la fuente para usar archivos locales/externos."
+            },
+            {
+              "text": "En una pyme de logística de Vigo, el jefe pide “hacerlo en JavaScript sin compilar nada” y ejecutarlo en el navegador para un formulario dinámico. ¿Qué característica encaja con esa petición?",
+              "options": [
+                "Se interpreta directamente en el navegador",
+                "Requiere compilador antes de cada ejecución",
+                "Solo puede ejecutarse en servidores .NET",
+                "Exige empaquetar con Java antes de probar"
+              ],
+              "correctAnswer": "Se interpreta directamente en el navegador",
+              "explanation": "JavaScript se ejecuta directamente en el motor del navegador sin compilación previa."
+            },
+            {
+              "text": "¿Qué afirmación describe correctamente el modelo de objetos de JavaScript según se presenta?",
+              "options": [
+                "Utiliza objetos y prototipos para la orientación a objetos",
+                "Prohíbe tratar funciones como valores",
+                "No permite cambiar el tipo de una variable en tiempo de ejecución",
+                "Es un lenguaje estrictamente basado en clases como Java"
+              ],
+              "correctAnswer": "Utiliza objetos y prototipos para la orientación a objetos",
+              "explanation": "JavaScript implementa OOP con prototipos y funciones constructoras/clases sintácticas."
+            },
+            {
+              "text": "¿Cuál de estas es una característica resaltada del lenguaje?",
+              "options": [
+                "Necesita plugin del navegador para ejecutarse",
+                "No puede comunicarse con servidores",
+                "Tipado estático obligatorio",
+                "Funciones de primera clase"
+              ],
+              "correctAnswer": "Funciones de primera clase",
+              "explanation": "En JavaScript las funciones son valores: se pasan como argumentos y se retornan."
+            },
+            {
+              "text": "El equipo backend propone usar el mismo lenguaje en servidor para una API que en el cliente. ¿Qué entorno permite ejecutar JavaScript en el lado del servidor?",
+              "options": [
+                "JVM",
+                "Ruby MRI",
+                "PHP-FPM",
+                "Node.js"
+              ],
+              "correctAnswer": "Node.js",
+              "explanation": "Node.js ejecuta JavaScript en el servidor con el motor V8."
+            },
+            {
+              "text": "En una web heredada de Málaga, hay muchas interacciones ligeras y compatibilidad con navegadores antiguos. El cliente no quiere reescritura completa. ¿Qué opción pragmática ayuda a manipular DOM y eventos sin tocar el stack entero?",
+              "options": [
+                "Eliminar JavaScript y resolver con CSS puro",
+                "Sustituir todo por WebGL",
+                "Seguir usando jQuery para DOM y eventos en el proyecto heredado",
+                "Migrar a Angular y TypeScript inmediatamente"
+              ],
+              "correctAnswer": "Seguir usando jQuery para DOM y eventos en el proyecto heredado",
+              "explanation": "En legados, jQuery ofrece soluciones rápidas y compatibles sin reescribir la aplicación."
+            },
+            {
+              "text": "¿Qué rasgo define a Angular en esta UT?",
+              "options": [
+                "Librería para gráficos 3D",
+                "Biblioteca minimalista solo para vistas",
+                "Framework basado en componentes y en TypeScript con inyección de dependencias",
+                "Motor de plantillas para PHP"
+              ],
+              "correctAnswer": "Framework basado en componentes y en TypeScript con inyección de dependencias",
+              "explanation": "Angular es un framework completo con TypeScript, DI, routing, formularios, etc."
+            },
+            {
+              "text": "Observa el fragmento de React mostrado. ¿Qué mecanismo optimiza actualizaciones reduciendo trabajo sobre el DOM real?",
+              "options": [
+                "Server DOM",
+                "Shadow DOM",
+                "Incremental DOM del navegador",
+                "Virtual DOM"
+              ],
+              "correctAnswer": "Virtual DOM",
+              "explanation": "React calcula diferencias en un árbol virtual y aplica cambios mínimos al DOM real."
+            },
+            {
+              "text": "En un portal de formación en Granada, quieren introducir el framework de forma gradual empezando por una sola sección de la página. ¿Qué opción permite adopción progresiva?",
+              "options": [
+                "Angular requiere reescritura total",
+                "React solo funciona si se migra toda la app",
+                "Vue.js permite adopción progresiva por partes",
+                "jQuery con WebGL"
+              ],
+              "correctAnswer": "Vue.js permite adopción progresiva por partes",
+              "explanation": "Vue puede montarse de forma incremental en partes de la interfaz."
+            },
+            {
+              "text": "¿Qué línea de jQuery del ejemplo oculta todos los párrafos tras hacer clic en un botón?",
+              "options": [
+                "$('button').hide().on('click', 'p');",
+                "$('p').click(()=>$('button').hide());",
+                "$(\\'button\\').click(function(){ $(\\'p\\').hide(); });",
+                "$(\\'p\\').on('hide', 'button');"
+              ],
+              "correctAnswer": "$(\\'button\\').click(function(){ $(\\'p\\').hide(); });",
+              "explanation": "Asignar click al botón y, en el manejador, llamar a $('p').hide() oculta los párrafos."
+            },
+            {
+              "text": "¿Cómo se describe React?",
+              "options": [
+                "Lenguaje independiente que reemplaza HTML y CSS",
+                "Plugin de navegador para animaciones",
+                "Biblioteca de JavaScript para construir interfaces basada en componentes",
+                "Framework MVC de Google para SPAs"
+              ],
+              "correctAnswer": "Biblioteca de JavaScript para construir interfaces basada en componentes",
+              "explanation": "React es una biblioteca para UI declarativa y componible."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
