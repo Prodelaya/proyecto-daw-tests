@@ -1,0 +1,456 @@
+{
+  "subjects": [
+    {
+      "code": "AD",
+      "name": "Acceso a datos",
+      "topics": [
+        {
+          "number": 1,
+          "title": "TEST FINAL AD",
+          "questions": [
+            {
+              "text": "En un servicio técnico de Vigo, al abrir un fichero el sistema devuelve 'permiso denegado'. ¿Qué paso ayuda a diagnosticar sin dañar datos?",
+              "options": [
+                "Reiniciar el router",
+                "Cambiar la conexión y reiniciar",
+                "Copiar el texto tres veces",
+                "Leer el error de sistema y abordar la operación"
+              ],
+              "correctAnswer": "Leer el error de sistema y abordar la operación",
+              "explanation": "El mensaje 'Permiso denegado' indica un problema de permisos. Leer el error es crucial para verificar permisos o seguridad del sistema."
+            },
+            {
+              "text": "Un proceso de lectura termina en silencio y el informe sale incompleto. ¿Qué conviene verificar al terminar la lectura?",
+              "options": [
+                "La fecha del sistema",
+                "El uso de CPU",
+                "La condición de fin de archivo del flujo",
+                "El tamaño del monitor"
+              ],
+              "correctAnswer": "La condición de fin de archivo del flujo",
+              "explanation": "Verificar la condición de **Fin de Archivo (EOF)** indica si la lectura se detuvo por un error o porque se alcanzó el final, ayudando al diagnóstico."
+            },
+            {
+              "text": "En un comercio de Madrid comparan ficheros CSV con base de datos. ¿Qué ventaja destaca la base de datos en explotación?",
+              "options": [
+                "Menos necesidad de backups",
+                "Menos registros de seguridad",
+                "Evitar los índices",
+                "Consultas complejas eficientes y escalabilidad"
+              ],
+              "correctAnswer": "Consultas complejas eficientes y escalabilidad",
+              "explanation": "La principal ventaja son los **índices**, que aceleran consultas complejas y búsquedas, mejorando la eficiencia y la escalabilidad del sistema."
+            },
+            {
+              "text": "Un laboratorio de datos procesa XML muy grandes con poca RAM y piden resultados mientras está la información. ¿Qué enfoque favorece esa necesidad?",
+              "options": [
+                "Imprimir el archivo",
+                "Procesamiento por eventos con bajo consumo de memoria",
+                "Cargar todo el documento en memoria",
+                "Abrirlo en un editor gráfico"
+              ],
+              "correctAnswer": "Procesamiento por eventos con bajo consumo de memoria",
+              "explanation": "El **procesamiento por eventos** (streaming) procesa el XML secuencialmente, elemento a elemento, reduciendo significativamente el consumo de RAM."
+            },
+            {
+              "text": "En un Ayuntamiento de Zaragoza necesitan jerarquías y consultas por etiquetas. ¿Qué plataforma encaja mejor?",
+              "options": [
+                "Ficheros de texto plano",
+                "Un servidor FTP",
+                "Hojas de cálculo con macros",
+                "Base de datos nativa XML con XPath y XQuery"
+              ],
+              "correctAnswer": "Base de datos nativa XML con XPath y XQuery",
+              "explanation": "Una **Base de Datos Nativa XML** está diseñada para jerarquías y utiliza lenguajes estándar (**XPath** y **XQuery**) para consultas complejas por etiquetas."
+            },
+            {
+              "text": "En un CRM de Valencia, al borrar un cliente, quedan pedidos sin referencia válida. ¿Qué principio no se está cumpliendo?",
+              "options": [
+                "Balanceo L7",
+                "Almacenamiento columnar",
+                "Cifrado en reposo",
+                "Integridad referencial"
+              ],
+              "correctAnswer": "Integridad referencial",
+              "explanation": "La **Integridad Referencial** asegura que las relaciones entre tablas sean consistentes. Los pedidos huérfanos violan este principio de diseño de la base de datos."
+            },
+            {
+              "text": "Un CTO te pide justificar la normalización en el esquema. ¿Qué beneficio práctico explicas?",
+              "options": [
+                "Prohibir relaciones",
+                "Usar una sola tabla",
+                "Reducir redundancia y mejorar consistencia",
+                "Limitar las claves primarias"
+              ],
+              "correctAnswer": "Reducir redundancia y mejorar consistencia",
+              "explanation": "La **normalización** busca eliminar la repetición de datos (**redundancia**) y asegurar que la información sea uniforme (**consistencia**), facilitando el mantenimiento."
+            },
+            {
+              "text": "En una editorial de Bilbao quieren ver títulos con sus autores. ¿Qué operación se necesita entre dos tablas?",
+              "options": [
+                "Combinar por la clave relacionada para ver base de ambas (JOIN)",
+                "Desactivar índices",
+                "Cambiar tipo de datos",
+                "Filtrar de una sola tabla"
+              ],
+              "correctAnswer": "Combinar por la clave relacionada para ver base de ambas (JOIN)",
+              "explanation": "La operación **JOIN** combina filas de dos o más tablas basándose en una columna común (clave relacionada), necesaria para unir autores con sus títulos."
+            },
+            {
+              "text": "Un equipo remoto levanta un entorno local con servidor web y base de datos administrados desde un panel único. ¿Qué opción es típica?",
+              "options": [
+                "Un cliente FTP",
+                "Un paquete local que arranque servidor web y base de datos tipo XAMPP",
+                "Un IDE sin plugin",
+                "Un visor de PDF"
+              ],
+              "correctAnswer": "Un paquete local que arranque servidor web y base de datos tipo XAMPP",
+              "explanation": "Paquetes como **XAMPP** (o WAMP/MAMP) integran y administran un servidor web (Apache) y una base de datos (MySQL) localmente con un panel único."
+            },
+            {
+              "text": "En la consola gráfica de la base de datos has definido columnas y restricciones. ¿Qué asegura que la tabla queda creada?",
+              "options": [
+                "Confirmar guardar la estructura en la interfaz",
+                "Cambiar el idioma de la herramienta",
+                "Recargar el navegador",
+                "Cerrar la consola"
+              ],
+              "correctAnswer": "Confirmar guardar la estructura en la interfaz",
+              "explanation": "Tras definir la estructura de la tabla (columnas/restricciones), se requiere un comando o botón de **'Guardar'** o **'Crear tabla'** en la interfaz para ejecutar la acción."
+            },
+            {
+              "text": "En una 'fidget' (startup tecnológica) preguntan qué es exactamente un conector de base de datos. ¿Cómo lo explicas?",
+              "options": [
+                "Un proxy HTTP",
+                "Un editor de XML",
+                "Un componente de software que permite a la aplicación comunicarse con la base de datos",
+                "Un framework"
+              ],
+              "correctAnswer": "Un componente de software que permite a la aplicación comunicarse con la base de datos",
+              "explanation": "El **conector** es un intermediario que traduce solicitudes de la aplicación al lenguaje de la base de datos y viceversa, gestionando la comunicación."
+            },
+            {
+              "text": "Un formulario en clínica dispara varias operaciones. Si una falla, nada debe quedar a medias. ¿Qué principio debes garantizar?",
+              "options": [
+                "Completar por entero o deshacer por completo la transacción (Atomicidad)",
+                "Replicar por defecto",
+                "Log a texto plano",
+                "Caché del navegador"
+              ],
+              "correctAnswer": "Completar por entero o deshacer por completo la transacción (Atomicidad)",
+              "explanation": "El principio de **Atomicidad** (parte de ACID) garantiza que la transacción es indivisible; si falla una parte, todo el conjunto de operaciones se revierte."
+            },
+            {
+              "text": "En una startup Java de Madrid no quieren escribir SQL a mano para el CRUD (Crear, Leer, Actualizar, Borrar). ¿Qué solución propones?",
+              "options": [
+                "ORM para mapear clases a tablas",
+                "Macros del editor",
+                "Expresiones regulares",
+                "Plantillas HTML"
+              ],
+              "correctAnswer": "ORM para mapear clases a tablas",
+              "explanation": "Un **ORM** (Mapeo Objeto-Relacional) como Hibernate o JPA, permite manipular la base de datos usando objetos Java sin escribir SQL manualmente."
+            },
+            {
+              "text": "Tu equipo necesita llamar a una función específica del motor de base de datos que el ORM no expone. ¿Qué harías puntualmente?",
+              "options": [
+                "Migrar todo el stack",
+                "Quitar índice globalmente",
+                "Ignorar la necesidad",
+                "Ejecutar una consulta directa solo para ese caso"
+              ],
+              "correctAnswer": "Ejecutar una consulta directa solo para ese caso",
+              "explanation": "Una **consulta nativa (directa)** es la mejor opción para acceder a funcionalidades específicas del motor sin tener que reescribir la lógica de la aplicación."
+            },
+            {
+              "text": "Tras instanciar un objeto, aún no se ha guardado en la base de datos. En términos de ORM, ¿en qué estado está?",
+              "options": [
+                "Persistente",
+                "Separado (Detached)",
+                "Transitorio (New)",
+                "Borrado lógico"
+              ],
+              "correctAnswer": "Transitorio (New)",
+              "explanation": "El objeto solo existe en memoria y no ha sido sincronizado con la base de datos; está en estado **transitorio** o 'nuevo'."
+            },
+            {
+              "text": "Un 'front' en Valencia busca un almacén en el navegador con índices y transacciones. ¿Qué tecnología encaja?",
+              "options": [
+                "Cookies",
+                "Local Storage",
+                "Archivos descargados",
+                "IndexedDB"
+              ],
+              "correctAnswer": "IndexedDB",
+              "explanation": "**IndexedDB** es una API de almacenamiento en el navegador que soporta transacciones y permite estructurar datos con índices, ideal para grandes volúmenes."
+            },
+            {
+              "text": "En QA quieres comprobar que el navegador soporta el almacén elegido (IndexedDB). ¿Qué prueba harías?",
+              "options": [
+                "Cambiar de idioma",
+                "Vaciar la caché",
+                "Intentar abrir una base de pruebas y verificar que inicia",
+                "Medir FPS de la GPU"
+              ],
+              "correctAnswer": "Intentar abrir una base de pruebas y verificar que inicia",
+              "explanation": "La prueba directa para el soporte es intentar inicializar la tecnología, en este caso, **abrir una base de datos de pruebas** y confirmar la conexión."
+            },
+            {
+              "text": "En el cliente, una operación debe ser 'todo o nada' en un propio navegador. ¿Qué usarías?",
+              "options": [
+                "Transacción de lectura/escritura sobre el almacén",
+                "Retrasos aleatorios",
+                "Timeouts encadenados",
+                "Lotes sin control"
+              ],
+              "correctAnswer": "Transacción de lectura/escritura sobre el almacén",
+              "explanation": "Una **transacción** agrupa operaciones en una unidad atómica, garantizando que todas se completen o se anulen si alguna falla ('todo o nada')."
+            },
+            {
+              "text": "En un banco de pruebas con multimedia y geodatos, queréis conservar SQL pero usar tipos complejos. ¿Qué enfoque eliges?",
+              "options": [
+                "ORDBMS (Objeto-Relacional Extensible)",
+                "Texto plano",
+                "CSV versionado",
+                "OODBMS puro sin SQL"
+              ],
+              "correctAnswer": "ORDBMS (Objeto-Relacional Extensible)",
+              "explanation": "El **ORDBMS** combina el modelo relacional (SQL) con la capacidad de manejar objetos y tipos de datos complejos (multimedia, geodatos), extendiendo la funcionalidad."
+            },
+            {
+              "text": "En un proyecto científico con clases ricas, ¿qué ventaja aporta una base de datos orientada a objetos (OODBMS)?",
+              "options": [
+                "Evitar relaciones",
+                "Prohibir herencias",
+                "Menos log",
+                "Persistencia directa de objetos y menor impedancia 'mismatch'"
+              ],
+              "correctAnswer": "Persistencia directa de objetos y menor impedancia 'mismatch'",
+              "explanation": "El OODBMS almacena objetos directamente, eliminando la necesidad de mapeo complejo entre el modelo de objetos y el relacional, reduciendo la **impedancia**."
+            },
+            {
+              "text": "En un dominio con herencia, ¿qué ofrece un lenguaje de consultas para objetos?",
+              "options": [
+                "Solo filtros por clave",
+                "Consultas polimórficas sobre clases y sus subclases",
+                "Sin ordenación",
+                "Solo texto plano"
+              ],
+              "correctAnswer": "Consultas polimórficas sobre clases y sus subclases",
+              "explanation": "Permite consultar objetos basándose en la jerarquía de herencia, incluyendo a una clase y a todas sus descendientes de forma **polimórfica**."
+            },
+            {
+              "text": "Debes listar solo nombre y correo de un empleado en un lenguaje de consultas para objetos. ¿Qué permite esto?",
+              "options": [
+                "Ordenar únicamente por clave",
+                "Contar sin agrupar",
+                "Proyectar atributos concretos",
+                "Devolver siempre objetos completos"
+              ],
+              "correctAnswer": "Proyectar atributos concretos",
+              "explanation": "La **proyección** permite seleccionar y devolver únicamente los atributos necesarios (nombre y correo), optimizando el uso de la memoria y el rendimiento."
+            },
+            {
+              "text": "En un CMS con documentos XML, el cliente exige validación de estructura y tipos al recibirlos. ¿Qué entregas junto al XML?",
+              "options": [
+                "Un XSD o DTD para validar",
+                "Un PDF explicativo",
+                "Un readme",
+                "Un correo de confirmación"
+              ],
+              "correctAnswer": "Un XSD o DTD para validar",
+              "explanation": "Un **XSD** (XML Schema Definition) o **DTD** (Document Type Definition) son los estándares para definir y validar la estructura y los tipos de datos de un XML."
+            },
+            {
+              "text": "Tu equipo necesita seleccionar nodos y mover sus árboles de un documento XML en memoria. ¿Qué enfoque facilita estas operaciones?",
+              "options": [
+                "Renombrar archivos",
+                "Modelo de árbol en memoria estilo DOM",
+                "Lectura por lotes",
+                "Búsqueda textual"
+              ],
+              "correctAnswer": "Modelo de árbol en memoria estilo DOM",
+              "explanation": "El **DOM** (Document Object Model) carga el XML como un árbol completo en memoria, permitiendo una navegación y manipulación (selección/movimiento) eficiente de nodos."
+            },
+            {
+              "text": "En una base de datos XML la búsqueda por texto y por ruta (path) van lentas. ¿Qué harías primero?",
+              "options": [
+                "Bajar la resolución del monitor",
+                "Crear y ajustar índices de texto y de camino",
+                "Comprimir en zip",
+                "Quitar validación"
+              ],
+              "correctAnswer": "Crear y ajustar índices de texto y de camino",
+              "explanation": "La solución más directa para el rendimiento es usar **índices de texto** y de **camino (path)**, que aceleran significativamente las búsquedas internas del motor XML."
+            },
+            {
+              "text": "Estás diseñando una librería común de acceso a datos. Los equipos quieren poder sustituirla sin romper nada. ¿Qué propiedad del diseño garantiza esto?",
+              "options": [
+                "Dependencias circulares",
+                "Bajo acoplamiento o contrato estable e interfaz",
+                "Estado compatible mutable",
+                "Campos públicos globales"
+              ],
+              "correctAnswer": "Bajo acoplamiento o contrato estable e interfaz",
+              "explanation": "Un **contrato (interfaz) estable** con **bajo acoplamiento** permite cambiar la implementación interna de la librería sin afectar a las aplicaciones que la usan."
+            },
+            {
+              "text": "Varias piezas deben reaccionar a un pedido creado sin conocerse entre sí. ¿Qué mecanismo técnico encaja?",
+              "options": [
+                "Bucle infinito consultando",
+                "Ficheros temporales",
+                "Eventos con suscripción de manejadores",
+                "Variables globales"
+              ],
+              "correctAnswer": "Eventos con suscripción de manejadores",
+              "explanation": "El patrón **Publicador/Suscriptor (Eventos)** permite que piezas independientes reaccionen a un cambio de estado sin conocerse ni depender directamente una de la otra."
+            },
+            {
+              "text": "En un sistema de plugins, cargas tipos por nombre y evocas métodos en tiempo de ejecución. ¿Qué técnica describe esto?",
+              "options": [
+                "Herencia múltiple",
+                "Serialización binaria",
+                "Enlace temprano",
+                "Reflexión"
+              ],
+              "correctAnswer": "Reflexión",
+              "explanation": "La **reflexión** es la capacidad de un programa para examinar (cargar tipos por nombre) y modificar (evocar métodos) su propia estructura en tiempo de ejecución."
+            },
+            {
+              "text": "Un componente guarda su configuración al cerrar y la restaura al abrir. ¿Qué concepto cubre?",
+              "options": [
+                "Caché volátil",
+                "Logs detallados",
+                "Persistencia de componente (guardar y recuperar estado)",
+                "Minimizar recursos"
+              ],
+              "correctAnswer": "Persistencia de componente (guardar y recuperar estado)",
+              "explanation": "La **persistencia** se refiere a la capacidad de un objeto o componente para mantener su estado (configuración) entre diferentes sesiones de uso."
+            },
+            {
+              "text": "Para evitar corrupción si falla al guardar el estado, ¿qué práctica recomiendas?",
+              "options": [
+                "Escribir trozos sin control",
+                "Escritura atómica y validación de carga",
+                "Desactivar errores",
+                "Retrasar confirmaciones"
+              ],
+              "correctAnswer": "Escritura atómica y validación de carga",
+              "explanation": "Una **escritura atómica** asegura que la operación se completa por entero o no ocurre, previniendo estados parciales y corrupción. La validación confirma la lectura correcta."
+            },
+            {
+              "text": "En un portal de datos abiertos llega XML de tres proveedores con etiquetas homónimas. ¿Cómo evitas choques (colisiones de nombres)?",
+              "options": [
+                "Usar namespaces XML para distinguir vocabularios",
+                "Quitar atributos",
+                "Sufijos con números",
+                "Convertir a CSV"
+              ],
+              "correctAnswer": "Usar namespaces XML para distinguir vocabularios",
+              "explanation": "Los **Namespaces XML** asignan un identificador único (URI) a un conjunto de etiquetas, permitiendo diferenciar etiquetas homónimas de distintos orígenes."
+            },
+            {
+              "text": "Te piden una consulta XQuery con FLWOR donde defines un valor intermedio reutilizable. ¿Qué cláusula empleas?",
+              "options": [
+                "LET",
+                "FOR",
+                "WHERE",
+                "ORDER BY"
+              ],
+              "correctAnswer": "LET",
+              "explanation": "La cláusula **LET** en XQuery se usa para definir una variable a la que se asigna el resultado de una expresión para su uso posterior y reutilización en la consulta."
+            },
+            {
+              "text": "Un responsable pregunta por la diferencia práctica entre DTD y XSD para validación. ¿Qué ventaja aporta XSD?",
+              "options": [
+                "Define tipos de datos y trabaja bien con namespaces",
+                "No define tipos",
+                "Es siempre más corto",
+                "Solo valida atributos"
+              ],
+              "correctAnswer": "Define tipos de datos y trabaja bien con namespaces",
+              "explanation": "A diferencia de DTD, **XSD** permite una validación más rica al definir tipos de datos específicos y es totalmente compatible con el uso de **namespaces** en XML."
+            },
+            {
+              "text": "En un listado con ORM la vista va lenta porque se cargan colecciones que no se usan. ¿Qué estrategia mejora el rendimiento?",
+              "options": [
+                "Cargar todo siempre",
+                "Desactivar caché",
+                "Duplicar entidades",
+                "Cargar de forma perezosa (lazy) o seleccionar lo necesario (proyección)"
+              ],
+              "correctAnswer": "Cargar de forma perezosa (lazy) o seleccionar lo necesario (proyección)",
+              "explanation": "La **carga perezosa (lazy)** evita cargar colecciones hasta que se acceden. **Proyectar** solo carga los campos necesarios, mejorando la velocidad."
+            },
+            {
+              "text": "Guardaste un objeto, cerraste la sesión del ORM, y luego intentas modificarlo sin reanexarlo. ¿Qué estado tiene?",
+              "options": [
+                "Persistente",
+                "Separado (Detached)",
+                "Eliminado",
+                "Transitorio"
+              ],
+              "correctAnswer": "Separado (Detached)",
+              "explanation": "Al cerrar la sesión, el objeto deja de estar gestionado por el ORM, entrando en estado **separado**. Para modificarlo, hay que re-adjuntarlo a una nueva sesión."
+            },
+            {
+              "text": "En una PYME de Cádiz, el equipo duda entre acceso secuencial y aleatorio a ficheros. ¿Cuándo te compensa acceder secuencialmente?",
+              "options": [
+                "Cuando hay miles de accesos aleatorios",
+                "Cuando el formato es predecible y procesas de principio a fin",
+                "Cuando necesitas saltar posiciones",
+                "Siempre que el archivo sea grande"
+              ],
+              "correctAnswer": "Cuando el formato es predecible y procesas de principio a fin",
+              "explanation": "El **acceso secuencial** es más eficiente cuando se procesa el archivo linealmente (de principio a fin) porque minimiza la sobrecarga de búsqueda y posicionamiento en el disco."
+            },
+            {
+              "text": "En un back Office de Málaga una carga masiva escribe logs XML y algunas consultas XQuery demoran en horas punta. ¿Cuál es el primer plan de acción?",
+              "options": [
+                "Cambiar el nombre de las etiquetas",
+                "Eliminar la validación",
+                "Revisar índices, perfiles de consultas y ajustar recursos del motor",
+                "Desactivar XQuery"
+              ],
+              "correctAnswer": "Revisar índices, perfiles de consultas y ajustar recursos del motor",
+              "explanation": "Lo primero es la **optimización**: asegurar que los **índices** son correctos y que el motor tiene suficientes **recursos** para manejar la carga de las consultas."
+            },
+            {
+              "text": "Una app web de pruebas necesita publicar su carpeta del proyecto para acceder desde el navegador local. ¿Dónde colocas los archivos por defecto?",
+              "options": [
+                "Carpeta del sistema operativo",
+                "Directorio público del servidor web",
+                "Carpeta privada del motor de base de datos",
+                "Escritorio del sistema"
+              ],
+              "correctAnswer": "Directorio público del servidor web",
+              "explanation": "El servidor web está configurado para servir archivos únicamente desde su **directorio público** (como `htdocs` o `www`), haciéndolos accesibles al navegador."
+            },
+            {
+              "text": "Tras dar de alta librerías de contactos, quieres mostrar el listado actualizado. Del reenvío del formulario, ¿qué espera que haga la app?",
+              "options": [
+                "Quedarse en blanco",
+                "Reintentar indefinidamente",
+                "Redirigir al listado tras completar la inserción (patrón Post-Redirect-Get)",
+                "Borrar la base"
+              ],
+              "correctAnswer": "Redirigir al listado tras completar la inserción (patrón Post-Redirect-Get)",
+              "explanation": "El patrón **Post-Redirect-Get (PRG)** redirige al listado, previniendo el doble envío del formulario si el usuario refresca la página o utiliza el botón de 'Atrás'."
+            },
+            {
+              "text": "Vais a publicar cambios incompatibles en la API de la librería de acceso a datos. En versionado semántico, ¿qué número incrementas?",
+              "options": [
+                "Ninguno",
+                "Solo el Patch",
+                "El Mayor (Major)",
+                "Solo el Minor"
+              ],
+              "correctAnswer": "El Mayor (Major)",
+              "explanation": "El **versionado semántico** exige incrementar el número **Major** cuando se introducen cambios que rompen la compatibilidad hacia atrás con versiones anteriores."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
