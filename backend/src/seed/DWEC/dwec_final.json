@@ -9,15 +9,444 @@
           "title": "TEST FINAL DWEC",
           "questions": [
             {
-              "text": "Pregunta de prueba?",
+              "text": "¿Qué describe mejor la interacción entre cliente y servidor en la web?",
               "options": [
-                "Opción 1",
-                "Opción 2",
-                "Opción 3",
-                "Opción 4"
+                "Ambos ejecutan el mismo programa",
+                "No usan protocolo",
+                "El servidor envía datos sin solicitud",
+                "El cliente solicita y el servidor responde"
               ],
-              "correctAnswer": "Opción 3",
-              "explanation": "ELa opción 3 es correcta porque sí."
+              "correctAnswer": "El cliente solicita y el servidor responde",
+              "explanation": "Modelo request–response: el cliente envía una solicitud y el servidor procesa y responde (normalmente vía HTTP)."
+            },
+            {
+              "text": "¿Qué estrategia mejora la capacidad ante picos de demanda?",
+              "options": [
+                "Desactivar caché",
+                "Quitar imágenes",
+                "Varios equipos con reparto de carga",
+                "Un único equipo muy potente"
+              ],
+              "correctAnswer": "Varios equipos con reparto de carga",
+              "explanation": "Escalado horizontal con balanceo de carga: distribuye peticiones y elimina el punto único de fallo."
+            },
+            {
+              "text": "¿Qué opción protege los datos durante el transporte?",
+              "options": [
+                "Copias locales",
+                "Archivos comprimidos",
+                "Conexión segura",
+                "Texto sin cifrar"
+              ],
+              "correctAnswer": "Conexión segura",
+              "explanation": "HTTPS/TLS cifra la comunicación y garantiza confidencialidad e integridad en tránsito."
+            },
+            {
+              "text": "¿Qué implica el modo estándar del navegador en una página?",
+              "options": [
+                "Bloquea estilos",
+                "Aplica las reglas actuales del lenguaje",
+                "Muestra solo texto",
+                "Usa reglas antiguas"
+              ],
+              "correctAnswer": "Aplica las reglas actuales del lenguaje",
+              "explanation": "El navegador renderiza con las especificaciones modernas (no en quirks mode)."
+            },
+            {
+              "text": "¿Qué aporta una estructura con cabecera, navegación, contenido principal y pie?",
+              "options": [
+                "Archivos más pequeños",
+                "Más visitas automáticas",
+                "Claridad y significado del contenido",
+                "Más color"
+              ],
+              "correctAnswer": "Claridad y significado del contenido",
+              "explanation": "Estructura semántica que mejora accesibilidad y SEO."
+            },
+            {
+              "text": "¿Dónde conviene cargar los estilos para que se apliquen cuanto antes?",
+              "options": [
+                "Al final de la página",
+                "Por correo",
+                "Al inicio de la carga",
+                "En imágenes"
+              ],
+              "correctAnswer": "Al inicio de la carga",
+              "explanation": "Colocar CSS en <head> evita el render-blocking tardío y el reflujo."
+            },
+            {
+              "text": "¿Dónde conviene situar los scripts para mejorar la percepción de velocidad?",
+              "options": [
+                "Convertirlos en imágenes",
+                "Al final del proceso de carga",
+                "Al principio siempre",
+                "Eliminarlos"
+              ],
+              "correctAnswer": "Al final del proceso de carga",
+              "explanation": "Cargar JS al final del body o usar defer para no bloquear el render."
+            },
+            {
+              "text": "¿Qué valor representa la ausencia intencional de dato?",
+              "options": [
+                "Nulo",
+                "Texto",
+                "Número",
+                "Lista"
+              ],
+              "correctAnswer": "Nulo",
+              "explanation": "null expresa ausencia deliberada de valor."
+            },
+            {
+              "text": "¿Qué forma de comparar evita confusiones entre número y texto?",
+              "options": [
+                "Convertir “a ojo”",
+                "Exigir mismo tipo y mismo valor",
+                "Usar comas",
+                "Orden alfabético"
+              ],
+              "correctAnswer": "Exigir mismo tipo y mismo valor",
+              "explanation": "Comparación estricta (===) evita conversiones implícitas."
+            },
+            {
+              "text": "¿Qué permite la comunicación asíncrona en una página?",
+              "options": [
+                "Recargar todo siempre",
+                "Actualizar solo partes sin recargar",
+                "Desactivar imágenes",
+                "Quitar formularios"
+              ],
+              "correctAnswer": "Actualizar solo partes sin recargar",
+              "explanation": "AJAX/Fetch actualiza fragmentos del DOM sin full reload."
+            },
+            {
+              "text": "¿Cómo conviene enviar datos sensibles de un formulario?",
+              "options": [
+                "En el cuerpo de la solicitud",
+                "En una imagen",
+                "En un comentario",
+                "En la dirección de la página"
+              ],
+              "correctAnswer": "En el cuerpo de la solicitud",
+              "explanation": "Usar método POST y HTTPS; nunca exponerlos en la URL."
+            },
+            {
+              "text": "¿Para qué sirve un modelo basado en “promesas” en el cliente?",
+              "options": [
+                "Crear fuentes",
+                "Diseñar colores",
+                "Gestionar respuestas del servidor sin bloquear",
+                "Quitar accesibilidad"
+              ],
+              "correctAnswer": "Gestionar respuestas del servidor sin bloquear",
+              "explanation": "Promises modelan asincronía y encadenan operaciones sin callback hell."
+            },
+            {
+              "text": "¿Qué significan las siglas CRUD en gestión de datos?",
+              "options": [
+                "Copiar, revertir, subir, descargar",
+                "Crear, leer, actualizar y borrar",
+                "Cachear, replicar, unificar, diferir",
+                "Conectar, ejecutar, deshacer, soltar"
+              ],
+              "correctAnswer": "Crear, leer, actualizar y borrar",
+              "explanation": "Operaciones básicas sobre datos: Create, Read, Update, Delete."
+            },
+            {
+              "text": "¿Qué práctica reduce el riesgo de inyección en consultas de datos?",
+              "options": [
+                "Bloquear palabras sueltas",
+                "Cambiar colores",
+                "Comprimir respuestas",
+                "Separar los valores de la consulta (parametrizar)"
+              ],
+              "correctAnswer": "Separar los valores de la consulta (parametrizar)",
+              "explanation": "Consultas preparadas/parametrizadas tratan los datos como parámetros, no como código."
+            },
+            {
+              "text": "¿Qué propiedad garantiza que una operación de datos persista tras un fallo?",
+              "options": [
+                "Difusión",
+                "Decoración",
+                "Aleatoriedad",
+                "Durabilidad"
+              ],
+              "correctAnswer": "Durabilidad",
+              "explanation": "La D de ACID asegura persistencia tras commit incluso si hay fallos."
+            },
+            {
+              "text": "¿Qué es habitual en algunos sistemas de datos no relacionales?",
+              "options": [
+                "Crecer solo con más potencia en una máquina",
+                "No poder duplicar información",
+                "No tener índices",
+                "Crecer añadiendo más máquinas"
+              ],
+              "correctAnswer": "Crecer añadiendo más máquinas",
+              "explanation": "Escalado horizontal (añadir nodos) es una característica típica."
+            },
+            {
+              "text": "¿Qué formato suele preferirse para intercambiar datos ligeros?",
+              "options": [
+                "Hoja de cálculo",
+                "Página completa",
+                "Documento muy etiquetado",
+                "Formato de pares y listas ligero"
+              ],
+              "correctAnswer": "Formato de pares y listas ligero",
+              "explanation": "JSON es compacto, legible y nativo en JavaScript."
+            },
+            {
+              "text": "¿Qué organismo impulsa estándares para la Web?",
+              "options": [
+                "Una red social",
+                "Un buscador",
+                "Un banco",
+                "El consorcio de la web"
+              ],
+              "correctAnswer": "El consorcio de la web",
+              "explanation": "El W3C define estándares como HTML, CSS y recomendaciones de accesibilidad."
+            },
+            {
+              "text": "¿Para qué sirven las directrices de accesibilidad en la Web?",
+              "options": [
+                "Mejorar contraste, uso con teclado y lectura",
+                "Fijar un tamaño único",
+                "Quitar formularios",
+                "Comprimir mejor"
+              ],
+              "correctAnswer": "Mejorar contraste, uso con teclado y lectura",
+              "explanation": "WCAG guía para que los contenidos sean perceptibles, operables y comprensibles."
+            },
+            {
+              "text": "¿Cómo afecta el número de opciones al tiempo de decisión?",
+              "options": [
+                "Depende solo del color",
+                "Siempre es instantáneo",
+                "No lo afecta",
+                "A más opciones, más tiempo"
+              ],
+              "correctAnswer": "A más opciones, más tiempo",
+              "explanation": "Más alternativas aumentan la carga cognitiva y el tiempo de elección."
+            },
+            {
+              "text": "¿Qué almacenamiento del navegador permanece tras cerrar?",
+              "options": [
+                "El de sesión",
+                "El historial",
+                "Las variables de la página",
+                "El almacenamiento persistente del navegador"
+              ],
+              "correctAnswer": "El almacenamiento persistente del navegador",
+              "explanation": "localStorage/cookies persistentes sobreviven al cierre del navegador."
+            },
+            {
+              "text": "¿En qué consiste la delegación de eventos en una página?",
+              "options": [
+                "Usar un botón global",
+                "Cancelar todo",
+                "Poner un manejador a cada elemento",
+                "Ponerlo en un contenedor y aprovechar la burbuja"
+              ],
+              "correctAnswer": "Ponerlo en un contenedor y aprovechar la burbuja",
+              "explanation": "Un único listener en un ancestro maneja eventos de sus hijos mediante event bubbling."
+            },
+            {
+              "text": "¿Qué debes hacer para enviar un formulario sin recargar la página?",
+              "options": [
+                "Evitar el envío automático y gestionar la respuesta",
+                "Forzar recarga",
+                "Cambiar de método por norma",
+                "Quitar el botón"
+              ],
+              "correctAnswer": "Evitar el envío automático y gestionar la respuesta",
+              "explanation": "preventDefault() + fetch/XHR para enviar y actualizar la UI con la respuesta."
+            },
+            {
+              "text": "¿Qué ventaja ofrece “espera y sigue” sobre promesas?",
+              "options": [
+                "Eliminar errores",
+                "Crear hilos del sistema",
+                "Escribir asincronía de forma más legible",
+                "Evitar la red"
+              ],
+              "correctAnswer": "Escribir asincronía de forma más legible",
+              "explanation": "async/await simplifica el flujo y mejora la claridad respecto a then/catch encadenados."
+            },
+            {
+              "text": "¿Cuándo se ejecuta la parte de cierre en un proceso con intento, error y cierre?",
+              "options": [
+                "Solo si falla",
+                "Nunca si hubo salida",
+                "Solo en equipos nuevos",
+                "Siempre, falle o no"
+              ],
+              "correctAnswer": "Siempre, falle o no",
+              "explanation": "El bloque finally se ejecuta tanto si hubo excepción como si no."
+            },
+            {
+              "text": "¿Qué proceso permite pasar de texto con datos a objeto y viceversa?",
+              "options": [
+                "Conversión a formato de intercambio y vuelta",
+                "Validación de maquetación",
+                "Edición de imágenes",
+                "Compresión"
+              ],
+              "correctAnswer": "Conversión a formato de intercambio y vuelta",
+              "explanation": "Serialización/deserialización (p. ej., JSON.stringify/JSON.parse)."
+            },
+            {
+              "text": "¿Qué controla la política entre sitios distintos en el navegador?",
+              "options": [
+                "Idiomas",
+                "Errores tipográficos",
+                "Aceleración de imágenes",
+                "Permisos para pedir recursos a otros dominios"
+              ],
+              "correctAnswer": "Permisos para pedir recursos a otros dominios",
+              "explanation": "Same-Origin Policy y CORS regulan accesos entre orígenes distintos."
+            },
+            {
+              "text": "¿Qué ventaja práctica tiene una aplicación de una sola página?",
+              "options": [
+                "Igual que varias páginas",
+                "Navegación fluida sin recargas completas",
+                "Peor para todo",
+                "Ser siempre más lenta"
+              ],
+              "correctAnswer": "Navegación fluida sin recargas completas",
+              "explanation": "SPA actualiza vistas vía JS y enrutado en cliente, evitando full reloads."
+            },
+            {
+              "text": "En enfoque “primero móvil”, ¿qué tipo de regla amplía estilos a pantallas grandes?",
+              "options": [
+                "Reglas de ancho mínimo",
+                "Reglas de ancho máximo",
+                "Reglas de alta densidad",
+                "Reglas de impresión"
+              ],
+              "correctAnswer": "Reglas de ancho mínimo",
+              "explanation": "Media queries con min-width escalan progresivamente desde móvil."
+            },
+            {
+              "text": "¿Qué tipo de aviso facilita la comprensión inmediata de un error?",
+              "options": [
+                "Aviso que se anuncia automáticamente a quien lo necesita",
+                "Mensaje decorativo",
+                "Icono sin texto",
+                "Cambio de fondo"
+              ],
+              "correctAnswer": "Aviso que se anuncia automáticamente a quien lo necesita",
+              "explanation": "Alertas accesibles (por ejemplo ARIA live regions) notifican al usuario afectado."
+            },
+            {
+              "text": "¿Qué debe cumplirse respecto al foco de interacción?",
+              "options": [
+                "Es irrelevante en móviles",
+                "Solo aplica a enlaces",
+                "Debe ser visible y seguir un orden lógico",
+                "Debe ser invisible"
+              ],
+              "correctAnswer": "Debe ser visible y seguir un orden lógico",
+              "explanation": "El foco debe verse (outline) y seguir un orden de tabulación coherente."
+            },
+            {
+              "text": "¿Qué texto alternativo debe tener una imagen meramente decorativa?",
+              "options": [
+                "Una frase larga",
+                "Vacío",
+                "Ninguno",
+                "Un pie obligatorio"
+              ],
+              "correctAnswer": "Vacío",
+              "explanation": "alt=\"\" hace que los lectores de pantalla la ignoren."
+            },
+            {
+              "text": "¿Qué medida reduce el riesgo de ejecución de código no deseado en el cliente?",
+              "options": [
+                "Silenciar errores",
+                "Quitar cifrado",
+                "Insertar cualquier HTML recibido",
+                "Validar y no inyectar contenido no confiable"
+              ],
+              "correctAnswer": "Validar y no inyectar contenido no confiable",
+              "explanation": "Sanear/escapar entradas y no interpolar HTML crudo evita XSS."
+            },
+            {
+              "text": "¿Qué técnica mejora el rendimiento cuando hay muchas imágenes más abajo?",
+              "options": [
+                "Desactivar caché",
+                "Cargarlas al mostrarse",
+                "Cargarlas todas al inicio",
+                "Aumentar su peso"
+              ],
+              "correctAnswer": "Cargarlas al mostrarse",
+              "explanation": "Lazy loading difiere descargas hasta estar en viewport o cerca."
+            },
+            {
+              "text": "¿Qué ventaja aportan los módulos del lenguaje del navegador?",
+              "options": [
+                "Funcionar solo en servidor",
+                "Obligar a usar otro lenguaje",
+                "Menos maquetación",
+                "Organización, reutilización y ámbitos separados"
+              ],
+              "correctAnswer": "Organización, reutilización y ámbitos separados",
+              "explanation": "ES Modules permiten separar responsabilidades y evitar colisiones de ámbito."
+            },
+            {
+              "text": "¿Qué método de selección permite localizar elementos con reglas similares a las de estilo?",
+              "options": [
+                "Selección mediante reglas de estilo",
+                "Búsqueda manual",
+                "Recargar",
+                "Recorrer todo"
+              ],
+              "correctAnswer": "Selección mediante reglas de estilo",
+              "explanation": "document.querySelector(All) usa selectores CSS para localizar nodos."
+            },
+            {
+              "text": "¿Qué código de estado indica que se ha creado un recurso?",
+              "options": [
+                "500",
+                "204",
+                "201",
+                "200"
+              ],
+              "correctAnswer": "201",
+              "explanation": "HTTP 201 Created: la solicitud ha creado un recurso nuevo."
+            },
+            {
+              "text": "¿Cómo se identifican los recursos en un estilo de servicio orientado a recursos?",
+              "options": [
+                "Por direcciones físicas",
+                "Por nombres de tabla",
+                "Por direcciones únicas y acciones estándar",
+                "Por variables de sesión"
+              ],
+              "correctAnswer": "Por direcciones únicas y acciones estándar",
+              "explanation": "En REST cada recurso tiene una URI y se manipula con métodos como GET/POST/PUT/DELETE."
+            },
+            {
+              "text": "¿Qué mejora la interacción táctil en móviles?",
+              "options": [
+                "Reducir el área activa",
+                "Desactivar el zoom",
+                "Aumentar tamaño y separación de objetivos",
+                "Usar solo iconos"
+              ],
+              "correctAnswer": "Aumentar tamaño y separación de objetivos",
+              "explanation": "Objetivos táctiles grandes y espaciados reducen errores (Fitts/HCI)."
+            },
+            {
+              "text": "¿Qué técnica permite elegir entre dos diseños válidos con criterio?",
+              "options": [
+                "Publicar el primero que esté",
+                "Hacer una prueba con objetivos y muestra definidos",
+                "Decidir por gusto interno",
+                "Encuestar solo al equipo"
+              ],
+              "correctAnswer": "Hacer una prueba con objetivos y muestra definidos",
+              "explanation": "A/B testing con métricas y muestra representativa permite decidir con evidencia."
             }
           ]
         }
