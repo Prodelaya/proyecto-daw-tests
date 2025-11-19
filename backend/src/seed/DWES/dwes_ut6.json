@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 6,
+          "title": "Desarrollo de servicios web y APIs",
+          "questions": [
+            {
+              "text": "Una startup necesita que su nueva aplicación móvil se comunique con su base de datos de usuarios (alojada en un servidor) y también que obtenga datos del tiempo de un servicio meteorológico externo. ¿Qué tecnología actúa como intermediario para permitir este intercambio de datos?",
+              "options": [
+                "Un protocolo de transferencia de archivos (FTP)",
+                "Una API o servicio web",
+                "Un sistema de gestión de contenidos (CMS)",
+                "Un framework de JavaScript (como React)"
+              ],
+              "correctAnswer": "Una API o servicio web",
+              "explanation": "Porque una API o servicio web es la pieza que expone datos y operaciones de un sistema para que otras aplicaciones (como la app móvil) puedan consumirlos a través de la red."
+            },
+            {
+              "text": "Un desarrollador está trabajando con una API que se puede invocar a través de HTTP, pero también a través de SMTP (correo electrónico). Esto ilustra el concepto de que, aunque todos los servicios web son APIs, no todas las APIs...",
+              "options": [
+                "están documentadas.",
+                "son seguras.",
+                "son servicios web (que suelen depender de HTTP).",
+                "son servicios web (que suelen depender de HTTP)"
+              ],
+              "correctAnswer": "son servicios web (que suelen depender de HTTP).",
+              "explanation": "Porque el hecho de que una API pueda invocarse también por otros protocolos distintos de HTTP muestra que no todas las APIs son servicios web; los servicios web suelen basarse específicamente en HTTP."
+            },
+            {
+              "text": "Un arquitecto de software está rediseñando una aplicación monolítica gigante. Decide descomponerla en componentes más pequeños, modulares y reutilizables (como un \"servicio de pago\" y un \"servicio de inventario\"). ¿Qué enfoque de diseño de software está aplicando?",
+              "options": [
+                "Arquitectura Orientada a Servicios (SOA)",
+                "Programación de bajo nivel",
+                "Arquitectura Cliente-Servidor",
+                "Desarrollo basado en la nube"
+              ],
+              "correctAnswer": "Arquitectura Orientada a Servicios (SOA)",
+              "explanation": "Porque descomponer un monolito en servicios independientes que representan capacidades de negocio (pago, inventario, etc.) es la idea central de la Arquitectura Orientada a Servicios (SOA)."
+            },
+            {
+              "text": "En una gran empresa que utiliza SOA, un nuevo desarrollador necesita localizar un servicio de \"verificación de dirección\" que otro equipo ya ha construido. ¿En qué componente de la SOA debería buscar este servicio catalogado?",
+              "options": [
+                "La Orquestación de servicios",
+                "El Registro de servicios",
+                "La Infraestructura de servicios",
+                "El Middleware de servicios"
+              ],
+              "correctAnswer": "El Registro de servicios",
+              "explanation": "Porque el registro de servicios es el catálogo donde se anuncian y localizan los servicios disponibles dentro de una SOA, permitiendo que otros equipos los descubran."
+            },
+            {
+              "text": "En una Arquitectura Orientada a Servicios (SOA), un proceso de negocio complejo, como \"procesar un pedido\", requiere la coordinación de múltiples servicios (Verificar inventario, Procesar pago, Enviar notificación). ¿Cómo se llama este proceso de coordinación?",
+              "options": [
+                "Interfaz de servicios",
+                "Orquestación de servicios",
+                "Registro de servicios",
+                "Middleware de servicios"
+              ],
+              "correctAnswer": "Orquestación de servicios",
+              "explanation": "Porque la orquestación de servicios se encarga de coordinar varios servicios individuales para llevar a cabo un proceso de negocio completo, como procesar un pedido de principio a fin."
+            },
+            {
+              "text": "Una empresa necesita conectar su moderno sistema de ventas en línea con su antiguo sistema de contabilidad de hace 20 años. ¿Qué propósito o ventaja clave de SOA facilita esta tarea?",
+              "options": [
+                "Facilita la integración de sistemas dispares (heterogéneos)",
+                "Fomenta la creación de servicios reutilizables.",
+                "Simplifica el mantenimiento del software.",
+                "Permite un escalado más eficiente."
+              ],
+              "correctAnswer": "Facilita la integración de sistemas dispares (heterogéneos)",
+              "explanation": "Porque uno de los objetivos de SOA es exponer funcionalidades de sistemas muy distintos mediante servicios bien definidos, facilitando así la integración entre tecnologías heterogéneas."
+            },
+            {
+              "text": "Un banco necesita implementar un servicio web que requiere un alto nivel de seguridad, confiabilidad, y la capacidad de manejar transacciones complejas. ¿Qué protocolo basado en XML está diseñado para estas necesidades empresariales?",
+              "options": [
+                "JSON",
+                "HTTP",
+                "SOAP",
+                "REST"
+              ],
+              "correctAnswer": "SOAP",
+              "explanation": "Porque SOAP es un protocolo basado en XML diseñado para entornos empresariales donde se requieren características avanzadas como seguridad, transacciones y fiabilidad."
+            },
+            {
+              "text": "Un desarrollador está analizando un mensaje SOAP. Observa que el mensaje tiene una etiqueta raíz Envelope y una etiqueta Body. ¿Cuál es la función del Body?",
+              "options": [
+                "Es opcional y solo contiene metadatos",
+                "Contiene la información específica de la operación (ej. \"Sumar\") y sus argumentos",
+                "Contiene información de autenticación",
+                "Define el inicio y el final del mensaje"
+              ],
+              "correctAnswer": "Contiene la información específica de la operación (ej. \"Sumar\") y sus argumentos",
+              "explanation": "Porque el cuerpo (Body) del mensaje SOAP contiene la operación concreta que se quiere ejecutar y los parámetros asociados, es decir, los datos de la llamada en sí."
+            },
+            {
+              "text": "Un equipo está desarrollando una API para una aplicación de blog. Quieren que los clientes puedan usar métodos HTTP estándar (como GET /posts/1 para leer un artículo) y que el formato de respuesta sea ligero, como JSON. ¿Qué estilo arquitectónico se alinea mejor con estos requisitos?",
+              "options": [
+                "REST",
+                "SOAP",
+                "WSDL",
+                "XML-RPC"
+              ],
+              "correctAnswer": "REST",
+              "explanation": "Porque REST se basa precisamente en el uso de métodos HTTP estándar (GET, POST, etc.) sobre recursos identificados por URLs, y suele usar formatos ligeros como JSON."
+            },
+            {
+              "text": "¿Cuál es la diferencia fundamental entre SOAP y REST según la Unidad Temática?",
+              "options": [
+                "REST solo puede usar XML, mientras que SOAP puede usar JSON.",
+                "SOAP es inseguro, mientras que REST es seguro.",
+                "SOAP es más moderno que REST.",
+                "SOAP es un protocolo estricto, mientras que REST es un estilo arquitectónico"
+              ],
+              "correctAnswer": "SOAP es un protocolo estricto, mientras que REST es un estilo arquitectónico",
+              "explanation": "Porque SOAP define un protocolo rígido con formato y reglas estrictas, mientras que REST describe un estilo arquitectónico más flexible sobre HTTP y no un protocolo cerrado."
+            },
+            {
+              "text": "Un cliente de una API RESTful envía la siguiente solicitud a un servidor: DELETE /api/usuarios/42. ¿Cuál es la intención conceptual de esta solicitud?",
+              "options": [
+                "Recuperar la información del usuario con ID 42.",
+                "Actualizar la información del usuario con ID 42.",
+                "Crear un nuevo usuario con el ID 42.",
+                "Eliminar el recurso (usuario) identificado con el ID 42"
+              ],
+              "correctAnswer": "Eliminar el recurso (usuario) identificado con el ID 42",
+              "explanation": "Porque una petición DELETE sobre un recurso identificado (usuarios/42) expresa la intención de borrar ese recurso del servidor, no de leerlo o modificarlo."
+            },
+            {
+              "text": "Aunque REST es neutral en cuanto al formato de datos, ¿cuál es el formato de datos más comúnmente utilizado hoy en día para las respuestas de las APIs RESTful, debido a su simplicidad?",
+              "options": [
+                "HTML",
+                "JSON",
+                "XML",
+                "WSDL"
+              ],
+              "correctAnswer": "JSON",
+              "explanation": "Porque hoy en día JSON es el formato más usado en APIs REST por ser ligero, fácil de leer por humanos y sencillo de manejar desde JavaScript y otros lenguajes."
+            },
+            {
+              "text": "Al planificar la generación de un nuevo servicio web, ¿cuál es el primer paso esencial antes de escribir cualquier código?",
+              "options": [
+                "Elegir un lenguaje de descripción como WSDL.",
+                "Desarrollar la aplicación cliente que lo consumirá.",
+                "Determinar qué funcionalidades y recursos debe proporcionar el servicio",
+                "Implementar el servicio en un servidor en la nube."
+              ],
+              "correctAnswer": "Determinar qué funcionalidades y recursos debe proporcionar el servicio",
+              "explanation": "Porque antes de implementar nada hay que tener claro qué recursos y operaciones ofrecerá el servicio; sin esa definición previa, el diseño de la API sería caótico."
+            },
+            {
+              "text": "Un equipo de desarrollo ha decidido que su nueva API utilizará Python con el framework Flask. Esta decisión forma parte de qué etapa del proceso de generación de servicios web?",
+              "options": [
+                "Determinar las funcionalidades.",
+                "Elegir un protocolo y mecanismo de comunicación (y las herramientas asociadas)",
+                "Establecer los puntos finales.",
+                "Desplegar el servicio en un servidor."
+              ],
+              "correctAnswer": "Elegir un protocolo y mecanismo de comunicación (y las herramientas asociadas)",
+              "explanation": "Porque elegir lenguaje, framework, protocolo y mecanismos de comunicación (por ejemplo, Flask sobre HTTP/JSON) forma parte de la decisión tecnológica para implementar el servicio."
+            },
+            {
+              "text": "En el diseño de una API REST, ¿cómo se denominan las URLs únicas que representan las funciones del servicio (por ejemplo, /api/suma o /api/resta)?",
+              "options": [
+                "Puntos finales (endpoints)",
+                "Registros",
+                "Orquestaciones",
+                "WSDL"
+              ],
+              "correctAnswer": "Puntos finales (endpoints)",
+              "explanation": "Porque en REST cada funcionalidad o conjunto de datos se representa mediante una URL única que actúa como punto de entrada (endpoint) para ese recurso."
+            },
+            {
+              "text": "Un nuevo programador se une a un equipo y necesita integrar la aplicación que está construyendo con una API interna. ¿Qué debe consultar primero para entender cómo interactuar con la API?",
+              "options": [
+                "El registro de servicios de la SOA.",
+                "La infraestructura de hardware del servidor.",
+                "La documentación de la API",
+                "El middleware de servicios."
+              ],
+              "correctAnswer": "La documentación de la API",
+              "explanation": "Porque la documentación de la API explica qué endpoints existen, qué parámetros aceptan y qué devuelven; es el primer recurso que debe consultar quien quiere integrarse."
+            },
+            {
+              "text": "¿Qué lenguaje de descripción estandarizado, anteriormente conocido como Swagger, se utiliza comúnmente para documentar y describir servicios web RESTful?",
+              "options": [
+                "YAML (es un formato, no el lenguaje de descripción en sí)",
+                "OpenAPI",
+                "WSDL",
+                "XML"
+              ],
+              "correctAnswer": "OpenAPI",
+              "explanation": "Porque OpenAPI (antes Swagger) es el estándar de facto para describir APIs RESTful de forma estructurada, a partir de la cual se pueden generar documentación y clientes."
+            },
+            {
+              "text": "¿Por qué es fundamental mantener actualizada la documentación de un servicio web a medida que este evoluciona?",
+              "options": [
+                "Porque es un requisito legal en la mayoría de los países.",
+                "Para garantizar que las aplicaciones cliente tengan información precisa y relevante sobre cómo usar el servicio",
+                "Para facilitar la orquestación de servicios en una SOA.",
+                "Para mejorar el rendimiento y la escalabilidad del servidor."
+              ],
+              "correctAnswer": "Para garantizar que las aplicaciones cliente tengan información precisa y relevante sobre cómo usar el servicio",
+              "explanation": "Porque si la documentación no refleja la realidad de la API, los clientes llamarán mal a los endpoints o interpretarán mal las respuestas, provocando errores y fallos de integración."
+            },
+            {
+              "text": "Un desarrollador está creando una aplicación cliente para consumir un servicio web que requiere una clave de API. ¿Qué paso del proceso de utilización del servicio web debe implementar?",
+              "options": [
+                "Implementar los mecanismos de autenticación requeridos",
+                "Enviar la solicitud al punto final.",
+                "Procesar la respuesta del servicio.",
+                "Comprender la documentación."
+              ],
+              "correctAnswer": "Implementar los mecanismos de autenticación requeridos",
+              "explanation": "Porque si el servicio exige una API key u otro mecanismo similar, el cliente debe implementarlo para que el servidor pueda autenticar quién hace cada petición."
+            },
+            {
+              "text": "Una aplicación cliente (como una app móvil) envía una solicitud GET a una API. La API responde con un objeto JSON. ¿Cuál es el paso final que debe realizar la aplicación cliente?",
+              "options": [
+                "Desplegar el servicio web.",
+                "Documentar la API.",
+                "Procesar la respuesta (interpretar el JSON) y utilizar los datos (ej. mostrarlos al usuario)",
+                "Actualizar el punto final en el servidor."
+              ],
+              "correctAnswer": "Procesar la respuesta (interpretar el JSON) y utilizar los datos (ej. mostrarlos al usuario)",
+              "explanation": "Porque tras recibir el JSON, la app debe interpretarlo (parsearlo), extraer los datos útiles y mostrarlos o usarlos en la lógica de la aplicación; esa es la última etapa del consumo."
+            },
+            {
+              "text": "Un desarrollador necesita mostrar la ubicación de las tiendas de su cliente en un mapa dentro de su aplicación web. En lugar de construir su propio sistema de mapas global, utiliza la API de Google Maps. ¿Qué tipo de API está utilizando?",
+              "options": [
+                "Un protocolo SOAP",
+                "Una API personalizada",
+                "Un middleware de servicios",
+                "Una API disponible (pública o de terceros)"
+              ],
+              "correctAnswer": "Una API disponible (pública o de terceros)",
+              "explanation": "Porque Google Maps expone funcionalidades a través de una API accesible a terceros; no es una API privada para uso interno, sino un servicio público/de terceros que se integra en otras apps."
+            },
+            {
+              "text": "Al investigar el uso de la API de Twitter o la de Spotify, ¿qué es importante tener en cuenta respecto a su acceso, según la Unidad Temática?",
+              "options": [
+                "Solo funcionan con el protocolo SOAP.",
+                "Pueden requerir una clave de API y tener limitaciones de uso",
+                "Son de código abierto y se pueden modificar.",
+                "Siempre son gratuitas y de uso ilimitado."
+              ],
+              "correctAnswer": "Pueden requerir una clave de API y tener limitaciones de uso",
+              "explanation": "Porque muchas APIs públicas imponen registro, claves de acceso y límites de uso (rate limits) para controlar quién las usa y cuánto tráfico generan."
+            },
+            {
+              "text": "Una empresa de logística decide construir una API propia para gestionar su base de datos de empleados. Diseñan un punto final GET /empleados/. ¿Cuál es la función esperada de este punto final? {\n= Recuperar la información de un empleado específico usando su ID\n~ Crear un nuevo empleado.\n~ Actualizar la información de todos los empleados.\n~ Eliminar un empleado específico.\n}",
+              "options": [
+                "Recuperar la información de todos los empleados.",
+                "Crear un nuevo empleado.",
+                "Actualizar la información de todos los empleados.",
+                "Eliminar un empleado específico."
+              ],
+              "correctAnswer": "Recuperar la información de todos los empleados.",
+              "explanation": "Porque por convención, un GET sobre la colección /empleados/ devuelve la lista o colección de empleados, no crea ni borra registros."
+            },
+            {
+              "text": "Un desarrollador ha terminado de escribir el código para su API personalizada en su máquina local. Para que otras aplicaciones puedan usarla a través de Internet, ¿cuál es el siguiente paso crucial?",
+              "options": [
+                "Elegir el lenguaje de programación.",
+                "Escribir la documentación de la API.",
+                "Definir las funciones y recursos.",
+                "Implementar y desplegar el servicio en un servidor o en la nube"
+              ],
+              "correctAnswer": "Implementar y desplegar el servicio en un servidor o en la nube",
+              "explanation": "Porque escribir el código en local no basta: para que otros puedan consumir la API debe estar desplegada en un servidor accesible por red (on‑premise o en la nube)."
+            },
+            {
+              "text": "Una vez que una API personalizada está desplegada y en uso, ¿qué tareas continuas son esenciales para garantizar su buen rendimiento y seguridad?",
+              "options": [
+                "Elegir las tecnologías y herramientas.",
+                "La definición de los puntos finales.",
+                "El monitoreo y el mantenimiento de la API",
+                "El diseño de la estructura de la API."
+              ],
+              "correctAnswer": "El monitoreo y el mantenimiento de la API",
+              "explanation": "Porque una vez en producción hay que vigilar el rendimiento, los errores y la seguridad, y aplicar actualizaciones; esto se consigue con monitorización y mantenimiento continuos."
+            },
+            {
+              "text": "Una aplicación de viajes utiliza una API para reservar vuelos, otra para reservar hoteles y una tercera para alquilar coches. ¿Qué beneficio clave de los servicios web permite esto?",
+              "options": [
+                "Desarrollo de aplicaciones más rápido al reutilizar funcionalidades existentes",
+                "Control de acceso y seguridad mejorados",
+                "El uso de XML",
+                "La neutralidad del transporte de SOAP"
+              ],
+              "correctAnswer": "Desarrollo de aplicaciones más rápido al reutilizar funcionalidades existentes",
+              "explanation": "Porque al reutilizar APIs de terceros para tareas comunes (vuelos, hoteles, coches) se evita reinventar la rueda y se acelera mucho el desarrollo de nuevas aplicaciones."
+            },
+            {
+              "text": "¿Qué componente de una SOA se describe como el \"pegamento\" que facilita la integración, el enrutamiento y la transformación de datos entre diversos servicios?",
+              "options": [
+                "El Registro de servicios",
+                "La Orquestación de servicios",
+                "El Middleware de servicios",
+                "La Interfaz de servicios"
+              ],
+              "correctAnswer": "El Middleware de servicios",
+              "explanation": "Porque el middleware de servicios se encarga de conectar, enrutar y transformar las llamadas entre servicios, actuando como el “pegamento” de la arquitectura orientada a servicios."
+            },
+            {
+              "text": "Un equipo está diseñando una API para una aplicación web simple y moderna, que será consumida principalmente por navegadores web y aplicaciones móviles. ¿Qué mecanismo es generalmente preferido por su simplicidad y menor sobrecarga?",
+              "options": [
+                "SOAP",
+                "TCP",
+                "WSDL",
+                "REST"
+              ],
+              "correctAnswer": "REST",
+              "explanation": "Porque en la mayoría de escenarios web y móviles, REST sobre HTTP es más simple y tiene menos sobrecarga que SOAP, encajando mejor con clientes ligeros."
+            },
+            {
+              "text": "Una empresa expone su API públicamente y proporciona una herramienta interactiva en línea donde los desarrolladores pueden probar los puntos finales directamente desde el navegador. Esta herramienta de documentación se genera comúnmente a partir de...",
+              "options": [
+                "el registro de servicios de la SOA.",
+                "el código fuente del servidor.",
+                "un mensaje SOAP.",
+                "un archivo de definición OpenAPI (Swagger)"
+              ],
+              "correctAnswer": "un archivo de definición OpenAPI (Swagger)",
+              "explanation": "Porque herramientas como Swagger UI se generan automáticamente a partir de un documento OpenAPI, permitiendo probar endpoints directamente desde el navegador."
+            },
+            {
+              "text": "Para proteger una API personalizada y asegurar que solo los usuarios autorizados puedan acceder a los datos, ¿qué mecanismos de seguridad se mencionan como ejemplos?",
+              "options": [
+                "WSDL y YAML",
+                "JSON y XML",
+                "Tokens de acceso (como JWT) o autenticación basada en OAuth",
+                "HTTP y GET"
+              ],
+              "correctAnswer": "Tokens de acceso (como JWT) o autenticación basada en OAuth",
+              "explanation": "Porque tokens (como JWT) y protocolos de autorización como OAuth permiten identificar y autorizar de forma segura a los clientes que acceden a la API, protegiendo los datos expuestos."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

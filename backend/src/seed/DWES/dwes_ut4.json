@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 4,
+          "title": "Acceso y gestión de datos en aplicaciones web",
+          "questions": [
+            {
+              "text": "Un nuevo usuario se registra en un foro, introduciendo su nombre de usuario, correo y contraseña. Para que pueda iniciar sesión más tarde, la aplicación debe guardar esta información. ¿Qué propósito principal de la gestión de datos se está cumpliendo?",
+              "options": [
+                "Personalización del contenido",
+                "Integración con sistemas de pago",
+                "Facilitar la interacción del usuario (almacenar y recuperar datos)",
+                "Análisis de datos"
+              ],
+              "correctAnswer": "Facilitar la interacción del usuario (almacenar y recuperar datos)",
+              "explanation": "Porque guardar los datos del usuario para poder iniciar sesión más tarde es precisamente facilitar la interacción: almacenar y recuperar información cuando la aplicación lo necesita."
+            },
+            {
+              "text": "Una plataforma de streaming te recomienda series basándose en lo que has visto anteriormente. ¿Qué objetivo de la gestión de datos permite esta funcionalidad?",
+              "options": [
+                "Seguridad y cumplimiento normativo",
+                "Integración con otros sistemas",
+                "Personalización",
+                "Organización y almacenamiento básico"
+              ],
+              "correctAnswer": "Personalización",
+              "explanation": "Porque la plataforma usa los datos históricos del usuario para ajustar las recomendaciones a sus gustos; eso es un ejemplo claro de personalización basada en datos."
+            },
+            {
+              "text": "Un administrador de base de datos necesita asegurarse de que cada \"pedido\" en una tabla esté vinculado al \"cliente\" correcto que lo realizó, el cual se encuentra en otra tabla. ¿Qué concepto de base de datos relacional se utiliza para establecer este vínculo?",
+              "options": [
+                "Una clave primaria en la tabla de pedidos",
+                "Una clave foránea (Foreign Key)",
+                "Un índice de texto completo",
+                "Un atributo de columna único"
+              ],
+              "correctAnswer": "Una clave foránea (Foreign Key)",
+              "explanation": "Porque una clave foránea enlaza un registro de una tabla (pedido) con el registro correspondiente de otra tabla (cliente), garantizando que cada pedido apunte a un cliente existente."
+            },
+            {
+              "text": "En una tabla de \"Estudiantes\", el administrador de la base de datos se asegura de que no haya dos estudiantes con el mismo número de identificación. ¿Qué concepto se está aplicando a la columna \"número de identificación\"?",
+              "options": [
+                "Clave foránea (Foreign Key)",
+                "Normalización",
+                "Integridad referencial",
+                "Clave primaria (Primary Key)"
+              ],
+              "correctAnswer": "Clave primaria (Primary Key)",
+              "explanation": "Porque la clave primaria identifica de forma única cada fila de la tabla; si no se permiten dos estudiantes con el mismo número, ese campo está actuando como clave primaria."
+            },
+            {
+              "text": "¿Cómo se denomina a la estructura fundamental en una base de datos relacional que organiza la información en un formato de filas y columnas?",
+              "options": [
+                "Tabla",
+                "Clave",
+                "Columna o atributo",
+                "Fila o tupla"
+              ],
+              "correctAnswer": "Tabla",
+              "explanation": "Porque en una base de datos relacional la estructura básica donde se guardan los datos en filas y columnas se llama tabla."
+            },
+            {
+              "text": "Un desarrollador necesita eliminar por completo una tabla de la base de datos que ya no se utiliza. ¿Qué categoría conceptual de sentencias SQL se utiliza para esta tarea?",
+              "options": [
+                "Sentencias de control de acceso",
+                "Sentencias de definición de datos (DDL)",
+                "Sentencias de manipulación de datos (DML)",
+                "Sentencias de control de transacciones"
+              ],
+              "correctAnswer": "Sentencias de definición de datos (DDL)",
+              "explanation": "Porque eliminar una tabla afecta a la estructura de la base de datos, no solo a su contenido, y eso se hace con sentencias de definición de datos (DDL) como DROP TABLE."
+            },
+            {
+              "text": "¿Cuál es el término para el proceso de diseño de bases de datos que busca eliminar la redundancia de datos y garantizar la integridad?",
+              "options": [
+                "Consistencia",
+                "Durabilidad",
+                "Normalización",
+                "Atomicidad"
+              ],
+              "correctAnswer": "Normalización",
+              "explanation": "Porque la normalización es el proceso de diseño de tablas y relaciones que reduce la redundancia y ayuda a mantener la integridad de los datos."
+            },
+            {
+              "text": "Un analista de negocios necesita saber cuántos usuarios se registraron el mes pasado. ¿Qué categoría de sentencias SQL se utiliza para consultar y recuperar esta información de la base de datos?",
+              "options": [
+                "Sentencias de definición de datos (DDL)",
+                "Sentencias de manipulación de datos (DML)",
+                "Sentencias de control de transacciones",
+                "Sentencias de control de acceso"
+              ],
+              "correctAnswer": "Sentencias de manipulación de datos (DML)",
+              "explanation": "Porque las sentencias DML (como SELECT) son las que se usan para consultar y manipular datos almacenados, por ejemplo para saber cuántos usuarios se registraron en un periodo."
+            },
+            {
+              "text": "Un administrador de base de datos quiere permitir que un nuevo empleado pueda leer la tabla de \"Productos\", pero no pueda modificarla ni borrarla. ¿Qué categoría de sentencias SQL se utiliza para gestionar estos permisos?",
+              "options": [
+                "Sentencias de control de acceso",
+                "Sentencias de control de transacciones",
+                "Sentencias de definición de datos (DDL)",
+                "Sentencias de manipulación de datos (DML)"
+              ],
+              "correctAnswer": "Sentencias de control de acceso",
+              "explanation": "Porque los permisos de lectura, escritura, etc. se definen con sentencias de control de acceso (como GRANT/REVOKE), no con DML ni DDL."
+            },
+            {
+              "text": "¿Qué propiedad de una base de datos relacional garantiza que, si una clave foránea hace referencia a una clave primaria, esa clave primaria debe existir?",
+              "options": [
+                "Aislamiento",
+                "Atomicidad",
+                "Integridad referencial",
+                "Normalización"
+              ],
+              "correctAnswer": "Integridad referencial",
+              "explanation": "Porque la integridad referencial asegura que cualquier valor en una clave foránea debe corresponder a una clave primaria existente, evitando referencias a registros inexistentes."
+            },
+            {
+              "text": "Una aplicación web de Python necesita consultar una base de datos MySQL. ¿Qué componente de software, como SQLAlchemy o un controlador específico, se necesita para establecer el enlace entre la aplicación y el SGBD?",
+              "options": [
+                "Un controlador, biblioteca o API de conexión (como PDO o JDBC)",
+                "Un framework de JavaScript",
+                "Un servidor web",
+                "Un sistema de archivos en la nube"
+              ],
+              "correctAnswer": "Un controlador, biblioteca o API de conexión (como PDO o JDBC)",
+              "explanation": "Porque para que una aplicación hable con un SGBD hace falta un driver o biblioteca de conexión (como PDO, JDBC o un conector específico) que traduzca las operaciones de la app a consultas SQL."
+            },
+            {
+              "text": "¿Cuál es el propósito de tecnologías como JDBC (para Java) o PDO (para PHP) en la gestión de datos?",
+              "options": [
+                "Facilitar la conexión y la comunicación entre la aplicación web y la base de datos",
+                "Almacenar los datos directamente en el navegador del cliente",
+                "Analizar el comportamiento del usuario en la plataforma",
+                "Definir la estructura visual de la página web"
+              ],
+              "correctAnswer": "Facilitar la conexión y la comunicación entre la aplicación web y la base de datos",
+              "explanation": "Porque JDBC y PDO son capas de acceso a datos que abstraen la conexión y las consultas, permitiendo que la aplicación web se comunique con la base de datos de forma más cómoda y segura."
+            },
+            {
+              "text": "Un usuario cambia su dirección de envío en una tienda online. Conceptualmente, ¿qué sentencia de manipulación de datos (DML) utiliza la aplicación en la base de datos para registrar este cambio?",
+              "options": [
+                "SELECT (Seleccionar)",
+                "INSERT (Insertar)",
+                "UPDATE (Actualizar)",
+                "DELETE (Eliminar)"
+              ],
+              "correctAnswer": "UPDATE (Actualizar)",
+              "explanation": "Porque cambiar un dato ya existente (como la dirección) implica una operación UPDATE en la base de datos: se modifica el valor de uno o varios campos de un registro."
+            },
+            {
+              "text": "Cuando un usuario intenta iniciar sesión, la aplicación web compara el nombre de usuario y la contraseña introducidos con los almacenados en la base de datos. ¿Qué operación fundamental de datos está realizando?",
+              "options": [
+                "Definición de una clave primaria",
+                "Edición de información",
+                "Creación de una tabla",
+                "Recuperación de información"
+              ],
+              "correctAnswer": "Recuperación de información",
+              "explanation": "Porque al comparar usuario y contraseña con lo almacenado no se está modificando nada, solo leyendo datos; eso es una operación de recuperación o consulta."
+            },
+            {
+              "text": "Un usuario decide borrar su cuenta de una red social. ¿Qué sentencia de manipulación de datos (DML) utiliza la aplicación para eliminar permanentemente el registro de ese usuario de la tabla principal?",
+              "options": [
+                "DROP TABLE (Eliminar tabla)",
+                "DELETE (Eliminar)",
+                "UPDATE (Actualizar)",
+                "INSERT (Insertar)"
+              ],
+              "correctAnswer": "DELETE (Eliminar)",
+              "explanation": "Porque eliminar definitivamente el registro de un usuario de una tabla se hace con la sentencia DELETE, que borra filas concretas, no la tabla completa."
+            },
+            {
+              "text": "Un usuario visita un panel de control financiero y ve cómo los precios de las acciones cambian en tiempo real sin tener que recargar la página. ¿Cómo se denomina esta presentación de información?",
+              "options": [
+                "Edición de información",
+                "Normalización de datos",
+                "Visualización dinámica",
+                "Visualización estática"
+              ],
+              "correctAnswer": "Visualización dinámica",
+              "explanation": "Porque ver datos que cambian en tiempo real sin recargar la página es un ejemplo de visualización dinámica: la interfaz se actualiza según llegan nuevos datos."
+            },
+            {
+              "text": "¿Qué tecnología del lado del cliente es fundamental para permitir la \"visualización dinámica\", al recuperar datos de un servidor en segundo plano sin recargar la página completa?",
+              "options": [
+                "SQL",
+                "AJAX",
+                "HTML",
+                "CSS"
+              ],
+              "correctAnswer": "AJAX",
+              "explanation": "Porque AJAX permite hacer peticiones al servidor en segundo plano y actualizar solo partes de la página, base técnica de muchas interfaces dinámicas."
+            },
+            {
+              "text": "Para gestionar la actualización en tiempo real de interfaces de usuario complejas, los desarrolladores suelen usar herramientas como React, Angular o Vue.js. ¿Qué tipo de tecnologías son estas?",
+              "options": [
+                "Lenguajes de programación del lado del servidor",
+                "Servicios de almacenamiento en la nube",
+                "Bibliotecas o frameworks de JavaScript (lado del cliente)",
+                "Sistemas de gestión de bases de datos"
+              ],
+              "correctAnswer": "Bibliotecas o frameworks de JavaScript (lado del cliente)",
+              "explanation": "Porque React, Angular y Vue son bibliotecas o frameworks JavaScript que se ejecutan en el navegador y ayudan a gestionar interfaces complejas y reactivas."
+            },
+            {
+              "text": "Un usuario escribe un comentario en una publicación y hace clic en \"Enviar\". ¿Cuál es la responsabilidad principal del lenguaje del lado del servidor (como PHP o Python) en este proceso?",
+              "options": [
+                "Mostrar el comentario en la pantalla inmediatamente",
+                "Comprobar la ortografía del comentario en el navegador",
+                "Procesar la solicitud, validar los datos y guardarlos en la base de datos",
+                "Recargar la página web completa"
+              ],
+              "correctAnswer": "Procesar la solicitud, validar los datos y guardarlos en la base de datos",
+              "explanation": "Porque el servidor recibe los datos del comentario, los valida (por seguridad y coherencia) y los guarda en la base de datos antes de devolver la respuesta al cliente."
+            },
+            {
+              "text": "Cuando un usuario actualiza la información de su perfil, ¿qué elementos HTML se utilizan normalmente para recopilar los nuevos datos antes de enviarlos al servidor?",
+              "options": [
+                "Formularios y campos de entrada (input, textarea)",
+                "Sentencias SQL",
+                "Enlaces (etiquetas )",
+                "Tablas y listas"
+              ],
+              "correctAnswer": "Formularios y campos de entrada (input, textarea)",
+              "explanation": "Porque para enviar datos al servidor primero hay que recogerlos en el navegador, y eso se hace con formularios y campos de entrada donde el usuario escribe la nueva información."
+            },
+            {
+              "text": "Una transferencia bancaria implica dos operaciones: restar dinero de una cuenta y sumarlo a otra. ¿Qué propiedad de las transacciones (ACID) garantiza que ambas operaciones ocurran, o que ninguna ocurra si una falla?",
+              "options": [
+                "Consistencia",
+                "Aislamiento",
+                "Durabilidad",
+                "Atomicidad"
+              ],
+              "correctAnswer": "Atomicidad",
+              "explanation": "Porque la atomicidad indica que la transacción se ejecuta toda o no se ejecuta: en una transferencia o se realizan las dos operaciones (restar y sumar) o se deshace todo."
+            },
+            {
+              "text": "¿Qué término describe una secuencia de operaciones de base de datos (como varias inserciones y actualizaciones) que se ejecutan como una única unidad lógica de trabajo?",
+              "options": [
+                "Un controlador",
+                "Una consulta",
+                "Una clave foránea",
+                "Una transacción"
+              ],
+              "correctAnswer": "Una transacción",
+              "explanation": "Porque una transacción agrupa varias operaciones de base de datos en una sola unidad lógica que debe completarse íntegramente para considerarse correcta."
+            },
+            {
+              "text": "Un usuario confirma una compra en línea y la base de datos registra el pedido. Inmediatamente después, se produce un corte de energía en el servidor. ¿Qué propiedad ACID asegura que el pedido confirmado no se perderá?",
+              "options": [
+                "Atomicidad",
+                "Consistencia",
+                "Aislamiento",
+                "Durabilidad"
+              ],
+              "correctAnswer": "Durabilidad",
+              "explanation": "Porque la durabilidad garantiza que, una vez confirmada una transacción, sus cambios persisten incluso aunque haya fallos de energía o del sistema."
+            },
+            {
+              "text": "Mientras un usuario está a mitad de un proceso de reserva de asientos (una transacción larga), otro usuario no puede ver esos asientos como \"reservados\" hasta que la transacción se complete. ¿Qué propiedad ACID evita esta interferencia?",
+              "options": [
+                "Durabilidad",
+                "Atomicidad",
+                "Consistencia",
+                "Aislamiento"
+              ],
+              "correctAnswer": "Aislamiento",
+              "explanation": "Porque el aislamiento controla cómo se ven unos usuarios los cambios de otros mientras las transacciones están en curso, evitando interferencias indeseadas."
+            },
+            {
+              "text": "¿Qué propiedad ACID garantiza que una transacción solo puede llevar a la base de datos de un estado válido a otro, cumpliendo todas las reglas (como claves únicas y restricciones)?",
+              "options": [
+                "Atomicidad",
+                "Durabilidad",
+                "Aislamiento",
+                "Consistencia"
+              ],
+              "correctAnswer": "Consistencia",
+              "explanation": "Porque la consistencia asegura que, tras una transacción, la base de datos sigue cumpliendo todas sus reglas y restricciones, pasando de un estado válido a otro estado válido."
+            },
+            {
+              "text": "Un desarrollador está creando una aplicación que necesita almacenar datos en un formato flexible, similar a JSON, sin una estructura de tabla rígida. ¿Qué tipo de base de datos sería la más adecuada?",
+              "options": [
+                "Una base de datos NoSQL (de documentos)",
+                "Un servicio de almacenamiento en la nube",
+                "Una base de datos relacional",
+                "Un sistema de archivos"
+              ],
+              "correctAnswer": "Una base de datos NoSQL (de documentos)",
+              "explanation": "Porque una base de datos de documentos NoSQL guarda datos en estructuras flexibles tipo JSON, sin necesidad de un esquema rígido de tablas y columnas."
+            },
+            {
+              "text": "¿Cómo se llaman las bases de datos (como MongoDB o Redis) que no utilizan el modelo relacional tradicional de tablas y claves?",
+              "options": [
+                "Bases de datos NoSQL",
+                "Bases de datos de sistema de archivos",
+                "Bases de datos transaccionales",
+                "Bases de datos SQL"
+              ],
+              "correctAnswer": "Bases de datos NoSQL",
+              "explanation": "Porque MongoDB o Redis son ejemplos típicos de bases de datos NoSQL, que se apartan del modelo relacional clásico de tablas y claves."
+            },
+            {
+              "text": "Una aplicación necesita un almacenamiento temporal extremadamente rápido para guardar datos de sesión de usuario, accediendo a ellos mediante un identificador de sesión único. ¿Qué modelo de base de datos NoSQL es ideal para esto?",
+              "options": [
+                "De pares clave-valor",
+                "De documentos",
+                "De grafos",
+                "De columnas"
+              ],
+              "correctAnswer": "De pares clave-valor",
+              "explanation": "Porque el modelo clave-valor está optimizado para accesos muy rápidos a datos identificados por una clave sencilla, como los identificadores de sesión de usuario."
+            },
+            {
+              "text": "Una aplicación web como Google Drive o Dropbox necesita almacenar y gestionar grandes cantidades de archivos subidos por los usuarios (documentos, imágenes, etc.). ¿Qué tipo de origen de datos es el más adecuado para este fin?",
+              "options": [
+                "Una base de datos relacional (MySQL)",
+                "Almacenamiento en la nube (como Amazon S3 o Google Cloud Storage)",
+                "Una base de datos NoSQL de grafos",
+                "El sistema de archivos del servidor web"
+              ],
+              "correctAnswer": "Almacenamiento en la nube (como Amazon S3 o Google Cloud Storage)",
+              "explanation": "Porque servicios como S3 o Google Cloud Storage están diseñados para almacenar grandes volúmenes de archivos de usuario de forma escalable y accesible vía red."
+            },
+            {
+              "text": "Una aplicación de red social necesita mapear eficientemente las relaciones complejas entre usuarios (quién sigue a quién, quién es amigo de quién, etc.). ¿Qué tipo de base de datos NoSQL está optimizada para este caso de uso?",
+              "options": [
+                "De columnas",
+                "De grafos",
+                "De documentos",
+                "De pares clave-valor"
+              ],
+              "correctAnswer": "De grafos",
+              "explanation": "Porque las bases de datos de grafos representan entidades y sus relaciones como nodos y aristas, lo que encaja muy bien con redes sociales donde las conexiones son lo principal."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

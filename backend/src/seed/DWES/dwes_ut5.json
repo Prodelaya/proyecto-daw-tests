@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 5,
+          "title": "Seguridad y autenticación en aplicaciones web",
+          "questions": [
+            {
+              "text": "En un bufete de abogados, un ciberataque impide que tanto los clientes como los empleados accedan al portal web. ¿Qué pilar fundamental de la seguridad de la información se ha visto comprometido?",
+              "options": [
+                "Confidencialidad",
+                "Disponibilidad",
+                "Cumplimiento normativo",
+                "Integridad"
+              ],
+              "correctAnswer": "Disponibilidad",
+              "explanation": "Porque si nadie puede acceder al portal, el problema no es que se filtren datos sino que el servicio ha dejado de estar disponible; eso afecta directamente a la disponibilidad."
+            },
+            {
+              "text": "¿Cómo se denomina el pilar de la seguridad que garantiza que la información sea precisa, confiable y no haya sido modificada o corrompida por actores malintencionados?",
+              "options": [
+                "Integridad",
+                "Confidencialidad",
+                "Disponibilidad",
+                "Reputación"
+              ],
+              "correctAnswer": "Integridad",
+              "explanation": "Porque la integridad es el pilar que asegura que los datos no han sido alterados indebidamente y que se mantienen correctos y coherentes a lo largo del tiempo."
+            },
+            {
+              "text": "En un sistema de gestión de contenidos, un \"Editor\" puede publicar artículos y un \"Lector\" solo puede verlos. ¿Qué concepto de seguridad se utiliza para agrupar y asignar estos permisos específicos?",
+              "options": [
+                "Un Usuario",
+                "Una Contraseña",
+                "Un Perfil",
+                "Un Rol"
+              ],
+              "correctAnswer": "Un Rol",
+              "explanation": "Porque un rol agrupa permisos según el tipo de usuario (editor, lector, administrador) y define qué acciones puede realizar cada uno en el sistema."
+            },
+            {
+              "text": "Un usuario de una aplicación de e-learning actualiza su foto, su nombre visible y sus preferencias de notificación. ¿Qué concepto fundamental está personalizando?",
+              "options": [
+                "El Perfil",
+                "El Rol",
+                "La Autenticación",
+                "El Cifrado"
+              ],
+              "correctAnswer": "El Perfil",
+              "explanation": "Porque el perfil recoge los datos y preferencias visibles del usuario (foto, nombre, notificaciones), que es justo lo que está modificando en la aplicación."
+            },
+            {
+              "text": "¿Cómo se define a la entidad (persona, programa o dispositivo) que tiene autorización para acceder a un sistema y cuya identidad se verifica mediante credenciales?",
+              "options": [
+                "Administrador",
+                "Usuario",
+                "Rol",
+                "Perfil"
+              ],
+              "correctAnswer": "Usuario",
+              "explanation": "Porque llamamos usuario a la entidad que se identifica mediante credenciales para acceder al sistema, ya sea una persona, un programa o un dispositivo."
+            },
+            {
+              "text": "Durante una auditoría de seguridad, se descubre que las contraseñas de los usuarios se guardan en la base de datos como texto simple. ¿Cuál es la medida de seguridad indispensable que se debe aplicar, según la UT?",
+              "options": [
+                "Asignar roles a todos los usuarios.",
+                "Crear perfiles de usuario detallados.",
+                "Usar conexiones seguras (HTTPS).",
+                "Utilizar mecanismos de encriptación (hashing) para proteger las credenciales"
+              ],
+              "correctAnswer": "Utilizar mecanismos de encriptación (hashing) para proteger las credenciales",
+              "explanation": "Porque las contraseñas nunca deben guardarse en texto plano, sino protegidas mediante hashing u otros mecanismos criptográficos que impidan recuperarlas fácilmente si hay una brecha."
+            },
+            {
+              "text": "¿Cómo se llama el proceso mediante el cual un sistema verifica la identidad de un usuario que intenta acceder a él, generalmente validando sus credenciales?",
+              "options": [
+                "Autorización (Control de acceso)",
+                "Autenticación",
+                "Auditoría",
+                "Cifrado"
+              ],
+              "correctAnswer": "Autenticación",
+              "explanation": "Porque la autenticación consiste en verificar que el usuario es quien dice ser, validando sus credenciales antes de permitirle el acceso."
+            },
+            {
+              "text": "Tu aplicación registra todas las acciones que realizan los usuarios (quién accedió, a qué hora y qué modificó). ¿Para qué finalidad principal de la autenticación es útil este registro?",
+              "options": [
+                "Personalización de la interfaz",
+                "Disponibilidad del servicio",
+                "Cifrado de datos",
+                "Auditoría y seguimiento"
+              ],
+              "correctAnswer": "Auditoría y seguimiento",
+              "explanation": "Porque disponer de un historial de quién hizo qué y cuándo permite auditar accesos y acciones, detectando usos indebidos y atribuyendo responsabilidades."
+            },
+            {
+              "text": "Un banco online exige a sus usuarios que, además de su contraseña, introduzcan un código único enviado a su teléfono móvil. ¿Qué técnica de autenticación se está utilizando?",
+              "options": [
+                "Cifrado en reposo",
+                "Autenticación de dos factores (2FA)",
+                "Control de acceso basado en roles",
+                "Redes privadas virtuales (VPN)"
+              ],
+              "correctAnswer": "Autenticación de dos factores (2FA)",
+              "explanation": "Porque al pedir dos factores distintos (algo que sabes: la contraseña, y algo que tienes: el código del móvil) se está aplicando autenticación de dos factores."
+            },
+            {
+              "text": "Cuando un usuario inicia sesión, el sistema le muestra su panel de control personalizado con sus datos. ¿Qué finalidad de la autenticación permite esta adaptación de la experiencia?",
+              "options": [
+                "Responsabilidad",
+                "Seguridad de red",
+                "Personalización",
+                "Auditoría"
+              ],
+              "correctAnswer": "Personalización",
+              "explanation": "Porque gracias a la autenticación el sistema sabe quién ha iniciado sesión y puede adaptar el panel y el contenido a ese usuario concreto, personalizando la experiencia."
+            },
+            {
+              "text": "Una clínica en línea convierte los historiales médicos de los pacientes a un formato codificado ilegible antes de guardarlos en la base de datos. ¿Qué técnica de protección de datos se está aplicando?",
+              "options": [
+                "Autenticación de usuarios",
+                "Cifrado",
+                "Firewall",
+                "Detección de intrusiones (IDS)"
+              ],
+              "correctAnswer": "Cifrado",
+              "explanation": "Porque el cifrado transforma los datos en un formato ilegible sin la clave adecuada, protegiendo así la confidencialidad de historiales médicos y otra información sensible."
+            },
+            {
+              "text": "¿Qué herramienta de seguridad se describe como un dispositivo o software que protege una red interna filtrando el tráfico de red entrante y saliente?",
+              "options": [
+                "IDS/IPS",
+                "Copias de seguridad",
+                "VPN",
+                "Firewalls"
+              ],
+              "correctAnswer": "Firewalls",
+              "explanation": "Porque un firewall filtra el tráfico de red que entra y sale, bloqueando conexiones no autorizadas y permitiendo solo las que cumplen las reglas definidas."
+            },
+            {
+              "text": "El administrador de un e-commerce realiza copias diarias de la base de datos de pedidos y clientes en un servidor externo. ¿Qué técnica de protección de datos está empleando?",
+              "options": [
+                "Control de acceso",
+                "Cifrado",
+                "Copias de seguridad y recuperación",
+                "Auditoría y seguimiento"
+              ],
+              "correctAnswer": "Copias de seguridad y recuperación",
+              "explanation": "Porque hacer copias de seguridad periódicas permite recuperar la información si se pierde, se corrompe o es dañada en un incidente de seguridad."
+            },
+            {
+              "text": "El equipo de seguridad recibe una alerta de que un software está monitoreando el tráfico de red y ha detectado una actividad sospechosa que parece un intento de acceso no autorizado. ¿Qué tipo de sistema ha generado esta alerta?",
+              "options": [
+                "Un sistema de copias de seguridad",
+                "Una política de control de acceso",
+                "Un sistema de detección de intrusiones (IDS)",
+                "Un Firewall"
+              ],
+              "correctAnswer": "Un sistema de detección de intrusiones (IDS)",
+              "explanation": "Porque un sistema de detección de intrusos (IDS) analiza el tráfico y genera alertas cuando detecta patrones sospechosos que podrían indicar un ataque."
+            },
+            {
+              "text": "Correcta",
+              "options": [
+                "Cifrado",
+                "Actualizaciones y parches",
+                "Auditoría y seguimiento",
+                "Capacitación y concientización del usuario"
+              ],
+              "correctAnswer": "Capacitación y concientización del usuario",
+              "explanation": "Porque formar a los usuarios reduce mucho el riesgo de que caigan en phishing, usen contraseñas débiles o manejen mal la información, que son vectores habituales de ataque."
+            },
+            {
+              "text": "Correcta",
+              "options": [
+                "Capacitación de usuarios",
+                "Actualizaciones y parches de seguridad",
+                "Copias de seguridad",
+                "Detección de intrusiones"
+              ],
+              "correctAnswer": "Actualizaciones y parches de seguridad",
+              "explanation": "Porque aplicar rápidamente parches y actualizaciones corrige vulnerabilidades conocidas, reduciendo la ventana de tiempo en la que un atacante podría explotarlas."
+            },
+            {
+              "text": "¿Cuál es el propósito principal de una Red Privada Virtual (VPN) en el contexto de la seguridad de datos?",
+              "options": [
+                "Permitir una conexión segura a una red privada a través de Internet, cifrando la conexión",
+                "Almacenar copias de seguridad de los datos.",
+                "Monitorear la red en busca de intrusos.",
+                "Filtrar el tráfico malicioso como un firewall."
+              ],
+              "correctAnswer": "Permitir una conexión segura a una red privada a través de Internet, cifrando la conexión",
+              "explanation": "Porque una VPN crea un túnel cifrado entre el dispositivo del usuario y la red privada, evitando que terceros puedan espiar o modificar los datos que viajan por Internet."
+            },
+            {
+              "text": "Correcta",
+              "options": [
+                "Establecer políticas de seguridad claras",
+                "Cumplimiento del GDPR",
+                "Gestión de incidentes",
+                "Pruebas de penetración"
+              ],
+              "correctAnswer": "Establecer políticas de seguridad claras",
+              "explanation": "Porque definir por escrito las normas, responsabilidades y procedimientos de seguridad guía el comportamiento de todos y sirve de base para exigir su cumplimiento."
+            },
+            {
+              "text": "Una startup contrata a expertos externos para que intenten \"hackear\" su aplicación web y descubrir posibles vulnerabilidades. ¿Qué tipo de evaluación de riesgos están realizando?",
+              "options": [
+                "Capacitación de usuarios",
+                "Un análisis de código estático únicamente",
+                "Pruebas de seguridad periódicas (como pruebas de penetración)",
+                "Implementación de un firewall"
+              ],
+              "correctAnswer": "Pruebas de seguridad periódicas (como pruebas de penetración)",
+              "explanation": "Porque las pruebas de penetración simulan ataques reales para descubrir fallos de seguridad antes de que lo hagan atacantes, ayudando a evaluar y reducir el riesgo."
+            },
+            {
+              "text": "¿Qué regulación europea se menciona en el texto como un ejemplo de normativa de privacidad y protección de datos que las aplicaciones deben cumplir?",
+              "options": [
+                "IDS/IPS",
+                "XSS",
+                "Reglamento General de Protección de Datos (GDPR)",
+                "HTTPS"
+              ],
+              "correctAnswer": "Reglamento General de Protección de Datos (GDPR)",
+              "explanation": "Porque el GDPR es la normativa europea que regula específicamente la protección de datos personales y la privacidad, y es obligatoria para muchas aplicaciones."
+            },
+            {
+              "text": "Un sistema de mensajería se asegura de que solo las personas autorizadas (emisor y receptor) puedan leer el contenido de los mensajes. ¿Qué pilar de la seguridad se está garantizando?",
+              "options": [
+                "Cumplimiento normativo",
+                "Disponibilidad",
+                "Confidencialidad",
+                "Integridad"
+              ],
+              "correctAnswer": "Confidencialidad",
+              "explanation": "Porque al garantizar que solo emisor y receptor puedan leer el mensaje se está protegiendo la confidencialidad de la información transmitida."
+            },
+            {
+              "text": "Según el texto, ¿por qué es importante la implementación de medidas de seguridad robustas para la percepción pública de una organización?",
+              "options": [
+                "Porque garantiza el cumplimiento de todas las leyes automáticamente.",
+                "Porque genera confianza en los usuarios y mejora la reputación",
+                "Porque reduce los costos de hardware.",
+                "Porque elimina la necesidad de actualizaciones."
+              ],
+              "correctAnswer": "Porque genera confianza en los usuarios y mejora la reputación",
+              "explanation": "Porque cuando una organización demuestra que cuida bien la seguridad, los usuarios confían más en ella, lo que mejora su reputación pública."
+            },
+            {
+              "text": "Tienes que diseñar los permisos para una tienda online. El \"Propietario\" debe poder hacer todo, el \"Gestor de Almacén\" solo puede actualizar el stock, y el \"Cliente\" solo puede comprar. ¿Cuál es el concepto que permite esta gestión eficiente de derechos?",
+              "options": [
+                "Perfiles de usuario personalizados",
+                "Cifrado de la base de datos",
+                "Autenticación de dos factores",
+                "Control de acceso basado en roles"
+              ],
+              "correctAnswer": "Control de acceso basado en roles",
+              "explanation": "Porque el control de acceso basado en roles permite asignar conjuntos de permisos según el tipo de usuario (propietario, almacén, cliente), simplificando y ordenando la gestión."
+            },
+            {
+              "text": "Un empleado utiliza su cuenta autenticada para aprobar una factura. El sistema registra que \"Usuario_Aprobador\" realizó esta acción. ¿Qué finalidad de la autenticación permite atribuir esta acción al usuario correspondiente?",
+              "options": [
+                "Disponibilidad",
+                "Responsabilidad",
+                "Personalización",
+                "Cifrado"
+              ],
+              "correctAnswer": "Responsabilidad",
+              "explanation": "Porque registrar qué usuario realizó cada acción permite atribuirla a una identidad concreta, lo que da responsabilidad y trazabilidad sobre las operaciones realizadas."
+            },
+            {
+              "text": "¿Cuál es la diferencia conceptual principal entre un \"perfil\" y un \"rol\"?",
+              "options": [
+                "El perfil verifica la identidad y el rol la almacena.",
+                "El perfil define preferencias y datos del usuario (foto, nombre), mientras que el rol define permisos y responsabilidades (qué puede hacer)",
+                "El perfil es para administradores y el rol es para usuarios normales.",
+                "El perfil se almacena en el servidor y el rol en el cliente."
+              ],
+              "correctAnswer": "El perfil define preferencias y datos del usuario (foto, nombre), mientras que el rol define permisos y responsabilidades (qué puede hacer)",
+              "explanation": "Porque el perfil se centra en quién es el usuario y cómo quiere mostrarse, mientras que el rol define qué está autorizado a hacer dentro del sistema."
+            },
+            {
+              "text": "Un desarrollador está construyendo una aplicación web. ¿Qué tipos de ataques comunes, mencionados en el texto, debe prevenir mediante prácticas de codificación seguras?",
+              "options": [
+                "Ataques de denegación de servicio (DDoS)",
+                "Ataques de phishing",
+                "Hashing de contraseñas",
+                "Inyección de SQL y scripts entre sitios (XSS)"
+              ],
+              "correctAnswer": "Inyección de SQL y scripts entre sitios (XSS)",
+              "explanation": "Porque tanto la inyección SQL como el XSS aprovechan entradas mal tratadas; escribir código seguro es clave para evitar que el atacante ejecute órdenes no deseadas en el servidor o en el navegador."
+            },
+            {
+              "text": "Además de las herramientas técnicas como firewalls y cifrado, ¿qué medida no técnica es fundamental para proteger a la organización contra amenazas como el phishing?",
+              "options": [
+                "La capacitación y concientización del usuario",
+                "El uso de Node.js",
+                "La implementación de claves foráneas",
+                "La auditoría del sistema"
+              ],
+              "correctAnswer": "La capacitación y concientización del usuario",
+              "explanation": "Porque incluso con buenas herramientas técnicas, si los usuarios no saben identificar correos falsos, enlaces peligrosos o buenas prácticas, la organización sigue siendo muy vulnerable."
+            },
+            {
+              "text": "Una empresa detecta una brecha de seguridad. Tienen un plan definido para identificar, abordar y resolver rápidamente el problema, y luego aprender de él. ¿Qué proceso de seguridad están aplicando?",
+              "options": [
+                "Pruebas de penetración",
+                "Gestión de incidentes de seguridad",
+                "Capacitación de usuarios",
+                "Implementación de HTTPS"
+              ],
+              "correctAnswer": "Gestión de incidentes de seguridad",
+              "explanation": "Porque la gestión de incidentes define cómo detectar, contener, resolver y documentar una brecha de seguridad, minimizando el impacto y mejorando a futuro."
+            },
+            {
+              "text": "Durante el diseño de una nueva aplicación, el equipo de desarrollo integra las medidas de protección de datos desde el inicio, en lugar de añadirlas al final. ¿Cómo se llama este enfoque?",
+              "options": [
+                "Pruebas de penetración",
+                "Integrar la protección de datos en el ciclo de vida del desarrollo (Privacidad por diseño)",
+                "Gestión de incidentes",
+                "Capacitación de usuarios"
+              ],
+              "correctAnswer": "Integrar la protección de datos en el ciclo de vida del desarrollo (Privacidad por diseño)",
+              "explanation": "Porque la privacidad por diseño consiste en incorporar la protección de datos desde las primeras fases del desarrollo, en lugar de añadirla como parche al final."
+            },
+            {
+              "text": "Para cifrar la información transmitida entre el cliente y el servidor, como las credenciales de inicio de sesión, ¿qué protocolo de conexión segura es indispensable utilizar?",
+              "options": [
+                "SQL",
+                "FTP",
+                "HTTP",
+                "HTTPS"
+              ],
+              "correctAnswer": "HTTPS",
+              "explanation": "Porque HTTPS cifra la comunicación entre navegador y servidor, protegiendo credenciales y otros datos frente a escuchas o manipulaciones en tránsito."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

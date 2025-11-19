@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 2,
+          "title": "Desarrollo de aplicaciones web con código embebido",
+          "questions": [
+            {
+              "text": "Un cliente quiere que su página web \"salude\" al usuario por su nombre y muestre contenido diferente según la hora del día. ¿Qué capacidad clave del código embebido permite esta funcionalidad?",
+              "options": [
+                "La validación de formularios del lado del servidor",
+                "La mejora de la seguridad del servidor",
+                "La reducción del tiempo de carga inicial de la página",
+                "La generación de contenido dinámico e interactivo"
+              ],
+              "correctAnswer": "La generación de contenido dinámico e interactivo",
+              "explanation": "Porque el código embebido permite que el servidor genere contenido distinto según datos como el nombre o la hora, haciendo que la página sea dinámica e interactiva en lugar de fija."
+            },
+            {
+              "text": "¿Cuál es la finalidad principal de integrar código de programación del lado del servidor, como PHP, dentro de un archivo HTML?",
+              "options": [
+                "Almacenar permanentemente los datos en el navegador del usuario.",
+                "Definir la estructura y el diseño visual de la página web.",
+                "Reducir la necesidad de usar JavaScript para la interactividad.",
+                "Permitir que la página genere contenido personalizado antes de ser enviada al navegador"
+              ],
+              "correctAnswer": "Permitir que la página genere contenido personalizado antes de ser enviada al navegador",
+              "explanation": "Porque al integrar código del lado del servidor en HTML se puede generar contenido personalizado (por usuario, hora, idioma, etc.) antes de enviar la página al navegador."
+            },
+            {
+              "text": "Si un desarrollador necesita una tecnología de servidor que sea de código abierto y tenga una comunidad de soporte muy grande, ¿cuál de las siguientes opciones es la más adecuada?",
+              "options": [
+                "ASP (clásico)",
+                "JSP",
+                ".NET",
+                "PHP"
+              ],
+              "correctAnswer": "PHP",
+              "explanation": "Porque PHP es una tecnología de servidor de código abierto, muy extendida y con una comunidad enorme, lo que facilita encontrar soporte, documentación y librerías."
+            },
+            {
+              "text": "Un programador junior en tu equipo pregunta por qué no necesita definir el tipo de dato (como entero o cadena) al crear una variable en PHP. ¿Cuál es la razón conceptual?",
+              "options": [
+                "Porque PHP requiere que todas las variables sean cadenas de texto.",
+                "Porque el tipo de dato se define en el archivo HTML.",
+                "Porque PHP es un lenguaje de tipado dinámico",
+                "Porque PHP no puede manejar diferentes tipos de datos."
+              ],
+              "correctAnswer": "Porque PHP es un lenguaje de tipado dinámico",
+              "explanation": "Porque en un lenguaje de tipado dinámico como PHP el tipo de dato se decide en tiempo de ejecución, según el valor asignado, y no hace falta declararlo explícitamente."
+            },
+            {
+              "text": "¿Qué describe mejor la tecnología PHP (Hypertext Preprocessor) en el contexto del desarrollo web?",
+              "options": [
+                "Un lenguaje de marcas para estructurar el contenido de una página web.",
+                "Un lenguaje de programación de código abierto que se ejecuta en el servidor",
+                "Un lenguaje de programación que se ejecuta exclusivamente en el navegador del cliente.",
+                "Un sistema de gestión de bases de datos para almacenar información."
+              ],
+              "correctAnswer": "Un lenguaje de programación de código abierto que se ejecuta en el servidor",
+              "explanation": "Porque PHP es un lenguaje de programación de código abierto que se ejecuta en el servidor y está diseñado precisamente para generar páginas web dinámicas."
+            },
+            {
+              "text": "Una consultora tecnológica trabaja exclusivamente con clientes que utilizan servidores Windows y el servidor web IIS. ¿Qué tecnología propietaria de Microsoft está diseñada nativamente para este entorno?",
+              "options": [
+                "ASP (Active Server Pages)",
+                "JSP",
+                "PHP",
+                "Servlets"
+              ],
+              "correctAnswer": "ASP (Active Server Pages)",
+              "explanation": "Porque ASP clásico fue creado por Microsoft para funcionar de forma nativa sobre servidores Windows con IIS, siendo una solución propietaria muy integrada en ese entorno."
+            },
+            {
+              "text": "¿Qué lenguajes de script se utilizaban comúnmente con la tecnología clásica ASP (Active Server Pages) para generar contenido dinámico?",
+              "options": [
+                "Java y Python",
+                "C",
+                "VBScript y JScript",
+                "PHP y Perl"
+              ],
+              "correctAnswer": "VBScript y JScript",
+              "explanation": "Porque en ASP clásico se utilizaban habitualmente VBScript y JScript como lenguajes de script para construir páginas dinámicas en el lado del servidor."
+            },
+            {
+              "text": "Una gran empresa bancaria necesita construir una aplicación web robusta y de alta escalabilidad, aprovechando su infraestructura y equipo de expertos en Java. ¿Qué tecnología del ecosistema Java EE sería ideal para este propósito?",
+              "options": [
+                "JSP (JavaServer Pages) y Servlets",
+                "PHP",
+                "ASP (Active Server Pages)",
+                "Node.js"
+              ],
+              "correctAnswer": "JSP (JavaServer Pages) y Servlets",
+              "explanation": "Porque JSP y Servlets forman parte del ecosistema Java EE y están pensados para aplicaciones web robustas y escalables, aprovechando la infraestructura y el conocimiento en Java."
+            },
+            {
+              "text": "Un arquitecto de software decide usar Servlets en lugar de JSP para la lógica de negocio principal. ¿Qué característica de los Servlets (como clases Java) justifica esta decisión?",
+              "options": [
+                "Los Servlets se integran más fácilmente con el diseño HTML.",
+                "Los Servlets no requieren un servidor de aplicaciones Java.",
+                "Los Servlets son más adecuados para la lógica de procesamiento pura, separada de la presentación",
+                "Los Servlets son más fáciles de aprender para diseñadores gráficos."
+              ],
+              "correctAnswer": "Los Servlets son más adecuados para la lógica de procesamiento pura, separada de la presentación",
+              "explanation": "Porque los Servlets son clases Java orientadas a la lógica de negocio: procesan peticiones, aplican reglas y generan resultados, dejando la parte de presentación al HTML/JSP."
+            },
+            {
+              "text": "¿Cuál es la función principal de un Servlet de Java en una aplicación web?",
+              "options": [
+                "Almacenar archivos de texto en el navegador del cliente.",
+                "Procesar solicitudes HTTP (como GET y POST) y generar respuestas en el servidor",
+                "Definir los estilos visuales (CSS) de la aplicación.",
+                "Crear y gestionar la base de datos de la aplicación."
+              ],
+              "correctAnswer": "Procesar solicitudes HTTP (como GET y POST) y generar respuestas en el servidor",
+              "explanation": "Porque la responsabilidad principal de un Servlet es recibir solicitudes HTTP (GET, POST, etc.), procesarlas en el servidor y devolver una respuesta adecuada (HTML, JSON, etc.)."
+            },
+            {
+              "text": "Un equipo de desarrollo está decidiendo la tecnología para un nuevo proyecto. El líder técnico descarta PHP porque, aunque es fácil de aprender, la aplicación será muy grande y teme por el rendimiento en comparación con soluciones empresariales. ¿Qué desventaja de PHP está considerando?",
+              "options": [
+                "Su incapacidad para conectarse a bases de datos MySQL.",
+                "Su dependencia de la plataforma Microsoft.",
+                "Su rendimiento puede ser inferior en aplicaciones muy grandes comparado con Java (JSP/Servlets)",
+                "Su curva de aprendizaje es muy pronunciada."
+              ],
+              "correctAnswer": "Su rendimiento puede ser inferior en aplicaciones muy grandes comparado con Java (JSP/Servlets)",
+              "explanation": "Porque en aplicaciones muy grandes PHP puede ofrecer un rendimiento menor frente a soluciones empresariales basadas en Java (JSP/Servlets), que están más optimizadas para ese escenario."
+            },
+            {
+              "text": "Según la comparativa de tecnologías, ¿cuál es una desventaja significativa de elegir ASP (clásico) para un nuevo proyecto web hoy en día?",
+              "options": [
+                "No se puede integrar con otros productos de Microsoft.",
+                "Es una tecnología propietaria y dependiente de la plataforma Microsoft",
+                "Es la más rápida y escalable del mercado.",
+                "Tiene la comunidad de código abierto más grande."
+              ],
+              "correctAnswer": "Es una tecnología propietaria y dependiente de la plataforma Microsoft",
+              "explanation": "Porque ASP clásico es una tecnología propietaria ligada a la plataforma Microsoft, lo que reduce la portabilidad y te ata a un proveedor concreto."
+            },
+            {
+              "text": "Si la prioridad de un proyecto es el máximo rendimiento y escalabilidad, y el equipo ya domina Java, ¿qué tecnologías (aunque tengan una curva de aprendizaje más alta) serían las más apropiadas?",
+              "options": [
+                "Solo PHP",
+                "PHP y ASP",
+                "Solo ASP",
+                "JSP y Servlets"
+              ],
+              "correctAnswer": "JSP y Servlets",
+              "explanation": "Porque si se busca máximo rendimiento y escalabilidad en un entorno Java, las tecnologías típicas a elegir son JSP y Servlets, aunque requieran más aprendizaje y configuración."
+            },
+            {
+              "text": "Un desarrollador nuevo se queja de la cantidad de configuración necesaria para que un Servlet gestione una simple petición web, en comparación con simplemente escribir código en una página. ¿A qué desventaja de los Servlets se refiere?",
+              "options": [
+                "No están basados en un lenguaje potente como Java.",
+                "Son propiedad de Microsoft y tienen costos de licencia.",
+                "Tienen un rendimiento inferior al de PHP.",
+                "No se embeben directamente en HTML, requiriendo más configuración"
+              ],
+              "correctAnswer": "No se embeben directamente en HTML, requiriendo más configuración",
+              "explanation": "Porque los Servlets no se escriben directamente mezclados con HTML, sino como clases Java que se configuran en el servidor, lo que implica más pasos de configuración inicial."
+            },
+            {
+              "text": "¿Cuál es una ventaja clave de JSP (JavaServer Pages) en términos de rendimiento y compatibilidad?",
+              "options": [
+                "Solo funciona en servidores web Apache.",
+                "Es propietario y depende de la plataforma Microsoft.",
+                "Es compatible con muchas plataformas y servidores, y ofrece alto rendimiento",
+                "Requiere menos recursos del sistema que PHP y ASP."
+              ],
+              "correctAnswer": "Es compatible con muchas plataformas y servidores, y ofrece alto rendimiento",
+              "explanation": "Porque JSP puede ejecutarse en distintos servidores y sistemas operativos compatibles con Java y está diseñado para ofrecer un alto rendimiento en aplicaciones web."
+            },
+            {
+              "text": "Tu sitio web necesita recoger la opinión de los usuarios. Implementas una sección donde pueden escribir un comentario y enviar su correo electrónico. ¿Qué elemento HTML es la base conceptual para esta recolección de datos?",
+              "options": [
+                "Un Servlet.",
+                "Un formulario",
+                "Una cookie.",
+                "Un script de código embebido."
+              ],
+              "correctAnswer": "Un formulario",
+              "explanation": "Porque el formulario HTML es el elemento que agrupa campos de entrada y permite enviar los datos del usuario al servidor de manera estructurada."
+            },
+            {
+              "text": "¿Cuál es el propósito de la validación del lado del cliente (realizada en el navegador) en un formulario HTML?",
+              "options": [
+                "Personalizar la experiencia del usuario con contenido específico.",
+                "Guardar la información permanentemente en el servidor.",
+                "Asegurar que los datos sean válidos y completos antes de ser enviados al servidor",
+                "Enviar los datos al servidor de forma segura."
+              ],
+              "correctAnswer": "Asegurar que los datos sean válidos y completos antes de ser enviados al servidor",
+              "explanation": "Porque la validación en el lado del cliente revisa los datos antes de enviarlos, evitando enviar formularios incompletos o con errores evidentes y mejorando la experiencia de usuario."
+            },
+            {
+              "text": "Un usuario con una conexión a Internet lenta se queja de que, tras rellenar un largo formulario de registro y pulsar \"Enviar\", la página tarda mucho en responder. ¿A qué desventaja del procesamiento en servidor se debe esto?",
+              "options": [
+                "El tiempo de respuesta del servidor al procesar la solicitud",
+                "El riesgo de seguridad en la transmisión de datos.",
+                "La falta de validación de datos en el lado del cliente.",
+                "La complejidad de la implementación del formulario."
+              ],
+              "correctAnswer": "El tiempo de respuesta del servidor al procesar la solicitud",
+              "explanation": "Porque cuando el procesamiento depende del servidor, cada envío del formulario implica una petición y una respuesta; con conexiones lentas, ese ida y vuelta incrementa el tiempo de espera."
+            },
+            {
+              "text": "Una aplicación web muestra contenido diferente y recomendaciones basadas en las respuestas que un usuario dio en un formulario de \"intereses\". ¿Qué ventaja del procesamiento de formularios se está aprovechando?",
+              "options": [
+                "La personalización de la experiencia del usuario",
+                "La validación de datos del lado del cliente.",
+                "La facilidad de comunicación con el equipo de soporte.",
+                "La reducción de la carga en el servidor."
+              ],
+              "correctAnswer": "La personalización de la experiencia del usuario",
+              "explanation": "Porque procesar los datos del formulario en el servidor permite guardar preferencias y respuestas y, a partir de ellas, mostrar contenido y recomendaciones personalizadas."
+            },
+            {
+              "text": "Al gestionar la información de un formulario en el servidor, ¿cuál es uno de los riesgos de seguridad y privacidad más críticos que deben mitigarse?",
+              "options": [
+                "El aumento de la carga en el servidor.",
+                "La interceptación, manipulación o robo de los datos del usuario",
+                "La dependencia de JavaScript para la validación.",
+                "El tiempo de respuesta lento en conexiones inestables."
+              ],
+              "correctAnswer": "La interceptación, manipulación o robo de los datos del usuario",
+              "explanation": "Porque los datos que viajan entre cliente y servidor pueden ser interceptados o modificados si no se protegen (por ejemplo, con HTTPS), lo que pone en riesgo la privacidad del usuario."
+            },
+            {
+              "text": "Un usuario visita un portal de noticias y activa el \"modo oscuro\". El portal quiere que esta preferencia se mantenga guardada en el navegador del usuario, incluso si lo cierra y vuelve a abrirlo una semana después. ¿Qué mecanismo es el más adecuado?",
+              "options": [
+                "Un formulario",
+                "Una sesión",
+                "Una cookie",
+                "Un Servlet"
+              ],
+              "correctAnswer": "Una cookie",
+              "explanation": "Porque una cookie se guarda en el navegador del usuario y puede permanecer allí durante días o semanas, permitiendo recordar preferencias como el modo oscuro entre visitas."
+            },
+            {
+              "text": "¿Por qué se dice que el protocolo HTTP, en el que se basa la web, \"no tiene estado\" (stateless)?",
+              "options": [
+                "Porque no retiene información sobre solicitudes o respuestas previas",
+                "Porque solo puede enviar texto, no imágenes ni videos.",
+                "Porque requiere que el servidor almacene todos los datos del usuario.",
+                "Porque no necesita una conexión a Internet activa."
+              ],
+              "correctAnswer": "Porque no retiene información sobre solicitudes o respuestas previas",
+              "explanation": "Porque HTTP no recuerda automáticamente nada de lo que ocurrió en peticiones anteriores: cada solicitud se trata de forma independiente salvo que añadamos mecanismos extra de estado."
+            },
+            {
+              "text": "Un desarrollador quiere almacenar una gran cantidad de datos (más de 1MB) sobre el perfil del usuario. Decide no usar cookies. ¿Cuál es la razón principal (desventaja de las cookies) que justifica esta decisión?",
+              "options": [
+                "Las cookies tienen un tamaño de almacenamiento muy limitado (aprox. 4KB)",
+                "Las cookies aumentan demasiado la carga en el servidor.",
+                "Las cookies no pueden persistir después de cerrar el navegador.",
+                "Las cookies son muy inseguras para cualquier tipo de dato."
+              ],
+              "correctAnswer": "Las cookies tienen un tamaño de almacenamiento muy limitado (aprox. 4KB)",
+              "explanation": "Porque las cookies tienen un límite de tamaño pequeño (alrededor de 4KB), lo que las hace inadecuadas para almacenar grandes cantidades de información de perfil."
+            },
+            {
+              "text": "Una tienda online utiliza cookies para rastrear el contenido del carrito de compras de un usuario que aún no ha iniciado sesión. ¿Qué ventaja de las cookies están aprovechando?",
+              "options": [
+                "Su capacidad para reducir la carga del servidor a cero.",
+                "Su capacidad de almacenamiento ilimitada.",
+                "Su simplicidad y persistencia en el navegador del usuario",
+                "Su alta seguridad, ya que los datos están en el servidor."
+              ],
+              "correctAnswer": "Su simplicidad y persistencia en el navegador del usuario",
+              "explanation": "Porque las cookies son fáciles de usar y se guardan en el navegador, manteniéndose entre visitas mientras no caduquen, lo que permite recordar cosas como el carrito sin iniciar sesión."
+            },
+            {
+              "text": "¿Dónde se almacenan físicamente los datos de las cookies?",
+              "options": [
+                "En la memoria RAM del servidor web.",
+                "En pequeños archivos de texto en el navegador (computadora) del usuario",
+                "En la base de datos del servidor exclusivamente.",
+                "En la URL de la página web."
+              ],
+              "correctAnswer": "En pequeños archivos de texto en el navegador (computadora) del usuario",
+              "explanation": "Porque las cookies se almacenan como pequeños archivos de texto en el equipo del usuario, gestionados por el navegador, no en la memoria principal del servidor."
+            },
+            {
+              "text": "Un usuario inicia sesión en su banca online. El servidor necesita recordar que ese usuario está autenticado mientras navega por sus cuentas. Por seguridad, esta información no debe guardarse en el navegador. ¿Qué mecanismo se utiliza?",
+              "options": [
+                "Una sesión",
+                "Un formulario HTML",
+                "Un lenguaje de marcas",
+                "Una cookie persistente"
+              ],
+              "correctAnswer": "Una sesión",
+              "explanation": "Porque una sesión guarda en el servidor la información asociada a un usuario autenticado y la vincula a un identificador, sin exponer esos datos sensibles en el navegador."
+            },
+            {
+              "text": "¿Cuál es la principal diferencia entre cómo las sesiones y las cookies almacenan la información del usuario?",
+              "options": [
+                "Las sesiones son permanentes y las cookies se borran al cerrar el navegador.",
+                "Las cookies almacenan datos en el servidor y las sesiones en el navegador.",
+                "Las cookies solo guardan números y las sesiones solo guardan texto.",
+                "Las sesiones almacenan los datos principales en el servidor y las cookies en el navegador"
+              ],
+              "correctAnswer": "Las sesiones almacenan los datos principales en el servidor y las cookies en el navegador",
+              "explanation": "Porque en una sesión los datos principales se guardan en el servidor, mientras que las cookies almacenan la información directamente en el navegador del usuario."
+            },
+            {
+              "text": "Un administrador de sistemas nota que a medida que más usuarios se conectan a la aplicación, el uso de memoria del servidor aumenta considerablemente. ¿Qué mecanismo de mantenimiento de estado es la causa más probable de esta carga?",
+              "options": [
+                "El uso de validación del lado del cliente.",
+                "El uso de formularios HTML.",
+                "El uso de cookies en el cliente.",
+                "El almacenamiento de datos de sesión para cada usuario en el servidor"
+              ],
+              "correctAnswer": "El almacenamiento de datos de sesión para cada usuario en el servidor",
+              "explanation": "Porque para cada usuario conectado el servidor reserva memoria para su sesión; cuantos más usuarios concurrentes haya, más memoria de servidor consumen esos datos."
+            },
+            {
+              "text": "Un usuario está rellenando un formulario de varios pasos. Cierra accidentalmente el navegador, lo vuelve a abrir y descubre que todo su progreso (almacenado en la sesión) se ha perdido. ¿Qué desventaja de las sesiones (por defecto) se ilustra aquí?",
+              "options": [
+                "La carga que generan en el servidor.",
+                "Su incapacidad para almacenar estructuras de datos complejas.",
+                "El desafío de escalabilidad en sistemas distribuidos.",
+                "Su falta de persistencia; generalmente se pierden al cerrar el navegador"
+              ],
+              "correctAnswer": "Su falta de persistencia; generalmente se pierden al cerrar el navegador",
+              "explanation": "Porque por defecto la información de sesión se asocia a la vida de la sesión/navegador, de modo que al cerrar el navegador la sesión se pierde y con ella los datos temporales."
+            },
+            {
+              "text": "¿Cuál es la principal ventaja de seguridad de las sesiones en comparación con las cookies?",
+              "options": [
+                "No tienen limitaciones de tamaño.",
+                "No aumentan la carga en el servidor.",
+                "Los datos sensibles se almacenan en el servidor, no en el navegador del usuario",
+                "No requieren un identificador único."
+              ],
+              "correctAnswer": "Los datos sensibles se almacenan en el servidor, no en el navegador del usuario",
+              "explanation": "Porque en las sesiones la información sensible (como el estado de inicio de sesión) se guarda en el servidor, reduciendo el riesgo de manipulación directa en el navegador del usuario."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

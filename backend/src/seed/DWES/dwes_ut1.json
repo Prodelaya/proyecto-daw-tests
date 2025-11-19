@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Fundamentos de programación y arquitecturas web.",
+          "questions": [
+            {
+              "text": "Un nuevo programador en tu equipo está guardando el nombre de un usuario en el programa. ¿Qué concepto fundamental de la programación está utilizando para almacenar esa información?",
+              "options": [
+                "Un operador",
+                "Una función",
+                "Una variable",
+                "Una estructura de control"
+              ],
+              "correctAnswer": "Una variable",
+              "explanation": "Porque una variable es el contenedor básico que se usa en programación para guardar un dato, como el nombre de un usuario, de forma que se pueda leer y modificar después."
+            },
+            {
+              "text": "¿Cómo se denomina al concepto que clasifica los datos según su naturaleza, como enteros, flotantes o booleanos?",
+              "options": [
+                "Tipos de datos",
+                "Manejo de errores",
+                "Estructuras de datos",
+                "Operadores"
+              ],
+              "correctAnswer": "Tipos de datos",
+              "explanation": "Porque el término que agrupa categorías como entero, flotante o booleano es precisamente \"tipo de dato\": describe qué clase de valor se puede almacenar y cómo se interpreta."
+            },
+            {
+              "text": "En un script, necesitas ejecutar una acción solo si una condición es verdadera. ¿Qué tipo de estructura deberías emplear?",
+              "options": [
+                "Una función",
+                "Un bucle for",
+                "Un operador de asignación",
+                "Una estructura condicional (if/else)"
+              ],
+              "correctAnswer": "Una estructura condicional (if/else)",
+              "explanation": "Porque una estructura condicional if/else permite ejecutar un bloque de código solo cuando una condición se cumple; los operadores o bucles no deciden por sí mismos si algo se ejecuta o no."
+            },
+            {
+              "text": "Tu jefa de proyecto te pide organizar una colección de datos de forma ordenada, como una lista de clientes. ¿Qué concepto de programación usarías para organizar y almacenar esos datos?",
+              "options": [
+                "Una variable individual",
+                "Un operador",
+                "Una estructura de datos (como una lista)",
+                "Un tipo de dato simple"
+              ],
+              "correctAnswer": "Una estructura de datos (como una lista)",
+              "explanation": "Porque una estructura de datos, como una lista, está pensada justo para almacenar muchos elementos relacionados (por ejemplo, varios clientes) de forma ordenada y accesible; una variable simple solo guarda un valor."
+            },
+            {
+              "text": "¿Qué técnica se utiliza para gestionar situaciones excepcionales en el código, como un error al intentar conectarse a una base de datos?",
+              "options": [
+                "Manejo de errores (try-except)",
+                "Funciones reutilizables",
+                "Operadores lógicos",
+                "Bucles while"
+              ],
+              "correctAnswer": "Manejo de errores (try-except)",
+              "explanation": "Porque el manejo de errores con try-except (o equivalentes) permite capturar excepciones cuando ocurre algo anómalo, como un fallo de conexión, y tratarlo sin que el programa se detenga."
+            },
+            {
+              "text": "Estás diseñando una nueva aplicación web. El modelo más común implica que el navegador (cliente) solicita información a un sistema central (servidor). ¿Cómo se llama esta arquitectura?",
+              "options": [
+                "Arquitectura de tres capas",
+                "Arquitectura de microservicios",
+                "Arquitectura cliente-servidor",
+                "Arquitectura Serverless"
+              ],
+              "correctAnswer": "Arquitectura cliente-servidor",
+              "explanation": "Porque en la arquitectura cliente-servidor el cliente (navegador) pide recursos a un servidor centralizado, que responde con la información solicitada: es el modelo clásico de la web."
+            },
+            {
+              "text": "En el modelo cliente-servidor, ¿cuál es la ventaja que permite agregar nuevos servidores para manejar un aumento en el tráfico web?",
+              "options": [
+                "Escalabilidad",
+                "Flexibilidad",
+                "Descentralización",
+                "Mantenimiento"
+              ],
+              "correctAnswer": "Escalabilidad",
+              "explanation": "Porque la capacidad de añadir más servidores para soportar más usuarios o más carga se llama escalabilidad: el sistema crece horizontal o verticalmente sin cambiar su diseño básico."
+            },
+            {
+              "text": "Un banco online mantiene toda la información sensible de las cuentas en un servidor seguro, limitando el acceso. ¿A qué ventaja de la arquitectura cliente-servidor contribuye principalmente esta práctica?",
+              "options": [
+                "Descentralización",
+                "Seguridad",
+                "Escalabilidad",
+                "Flexibilidad"
+              ],
+              "correctAnswer": "Seguridad",
+              "explanation": "Porque guardar los datos sensibles en un servidor controlado y restringir el acceso aumenta la seguridad: se centraliza la protección y se reduce el riesgo frente a accesos no autorizados."
+            },
+            {
+              "text": "Tu equipo decide dividir una aplicación monolítica en tres partes: interfaz de usuario, lógica de negocio y base de datos. ¿Qué modelo arquitectónico están implementando?",
+              "options": [
+                "Arquitectura Serverless",
+                "Arquitectura cliente-servidor simple",
+                "Arquitectura de tres capas",
+                "Arquitectura de microservicios"
+              ],
+              "correctAnswer": "Arquitectura de tres capas",
+              "explanation": "Porque dividir la aplicación en capa de presentación (interfaz), lógica de negocio y acceso a datos es la base de la arquitectura de tres capas, que separa responsabilidades claramente."
+            },
+            {
+              "text": "¿Qué arquitectura se caracteriza por componer una aplicación a partir de múltiples servicios independientes y pequeños, cada uno con una responsabilidad única?",
+              "options": [
+                "Arquitectura basada en eventos",
+                "Arquitectura de microservicios",
+                "Arquitectura de tres capas",
+                "Arquitectura Serverless"
+              ],
+              "correctAnswer": "Arquitectura de microservicios",
+              "explanation": "Porque en la arquitectura de microservicios la aplicación se construye como un conjunto de pequeños servicios independientes, cada uno con una responsabilidad clara y bien delimitada."
+            },
+            {
+              "text": "Un desarrollador de tu equipo propone usar AWS Lambda para ejecutar funciones en respuesta a eventos, sin gestionar servidores. ¿Qué modelo arquitectónico está sugiriendo?",
+              "options": [
+                "Arquitectura Serverless",
+                "Arquitectura de tres capas",
+                "Arquitectura de microservicios",
+                "Modelo basado en protocolos de red"
+              ],
+              "correctAnswer": "Arquitectura Serverless",
+              "explanation": "Porque Serverless describe justo el modelo en el que ejecutas funciones en la nube (como AWS Lambda) sin administrar servidores: solo defines el código y la plataforma se encarga del resto."
+            },
+            {
+              "text": "¿Cuál es el modelo de programación cliente/servidor que utiliza protocolos como TCP/IP, donde el servidor \"escucha\" en un puerto específico?",
+              "options": [
+                "Modelo de solicitud-respuesta",
+                "Modelo basado en protocolos de red",
+                "Modelo basado en servicios web",
+                "Modelo de eventos"
+              ],
+              "correctAnswer": "Modelo basado en protocolos de red",
+              "explanation": "Porque en el modelo basado en protocolos de red el servidor se queda \"escuchando\" en un puerto usando protocolos como TCP/IP, esperando conexiones de los clientes."
+            },
+            {
+              "text": "Un sistema de chat en tiempo real necesita que los clientes reciban notificaciones inmediatas cuando se emite un nuevo mensaje. ¿Qué modelo de programación es el más idóneo para esta reactividad?",
+              "options": [
+                "Modelo de eventos",
+                "Modelo basado en arquitectura web (AJAX)",
+                "Modelo basado en servicios web (SOAP)",
+                "Modelo de solicitud-respuesta"
+              ],
+              "correctAnswer": "Modelo de eventos",
+              "explanation": "Porque un modelo de eventos se basa en reaccionar a sucesos (por ejemplo, un mensaje nuevo): cuando ocurre el evento, se dispara automáticamente el código que notifica a los clientes."
+            },
+            {
+              "text": "En un proyecto de integración de sistemas, necesitas conectar dos plataformas diferentes usando estándares como SOAP y XML para la comunicación. ¿Qué modelo de programación es el más adecuado?",
+              "options": [
+                "Modelo de eventos",
+                "Modelo basado en servicios web",
+                "Modelo basado en arquitectura web (HTML/CSS)",
+                "Modelo basado en protocolos de red"
+              ],
+              "correctAnswer": "Modelo basado en servicios web",
+              "explanation": "Porque el uso de estándares como SOAP y XML para intercambiar información entre sistemas distintos es propio del modelo basado en servicios web, pensado para la interoperabilidad."
+            },
+            {
+              "text": "Cuando un navegador web pide una página a un servidor y este responde enviando el contenido HTML, ¿qué modelo de programación básico se está utilizando?",
+              "options": [
+                "Modelo basado en protocolos de red",
+                "Modelo de eventos",
+                "Modelo basado en servicios web",
+                "Modelo de solicitud-respuesta"
+              ],
+              "correctAnswer": "Modelo de solicitud-respuesta",
+              "explanation": "Porque cuando el navegador hace una petición y el servidor responde con la página HTML se está usando el patrón solicitud-respuesta: una petición concreta produce una respuesta concreta."
+            },
+            {
+              "text": "Un nuevo proyecto requiere un lenguaje de alto nivel, fácil de aprender y con frameworks robustos como Django o Flask. ¿Qué lenguaje del lado servidor recomendarías?",
+              "options": [
+                "Python",
+                "Go (Golang)",
+                "Java",
+                "C"
+              ],
+              "correctAnswer": "Python",
+              "explanation": "Porque Python es un lenguaje de alto nivel, con sintaxis sencilla y muchos frameworks maduros para web como Django o Flask, lo que lo hace una opción muy adecuada en el lado servidor."
+            },
+            {
+              "text": "¿Qué entorno de ejecución permite utilizar JavaScript en el lado del servidor, siendo conocido por su rendimiento en aplicaciones en tiempo real?",
+              "options": [
+                "Spring Boot",
+                ".NET",
+                "Ruby on Rails",
+                "Node.js"
+              ],
+              "correctAnswer": "Node.js",
+              "explanation": "Porque Node.js es el entorno de ejecución que permite usar JavaScript en el servidor y está optimizado para manejar muchas conexiones simultáneas, ideal para aplicaciones en tiempo real."
+            },
+            {
+              "text": "Estás trabajando en un proyecto para una gran corporación que exige una plataforma estable, fuertemente tipada y con amplia adopción empresarial, usando frameworks como Spring. ¿Qué lenguaje es la elección más probable?",
+              "options": [
+                "Python",
+                "Java",
+                "PHP",
+                "Ruby"
+              ],
+              "correctAnswer": "Java",
+              "explanation": "Porque Java es un lenguaje fuertemente tipado, muy usado en entornos empresariales y cuenta con frameworks como Spring, por lo que encaja con la descripción de la corporación del enunciado."
+            },
+            {
+              "text": "Tu empresa utiliza la plataforma .NET de Microsoft para sus aplicaciones empresariales. ¿Qué lenguaje de programación es el más comúnmente asociado con esta plataforma?",
+              "options": [
+                "Ruby",
+                "Java",
+                "C",
+                "Kotlin"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Porque la plataforma .NET se asocia principalmente a lenguajes de la familia C#, derivados de C; entre las opciones dadas, \"C\" es la que más se aproxima a ese lenguaje frente a Ruby, Java o Kotlin."
+            },
+            {
+              "text": "¿Qué lenguaje, desarrollado por Google, se centra en la simplicidad, el rendimiento y la facilidad en la programación concurrente?",
+              "options": [
+                "Go (Golang)",
+                "PHP",
+                "Kotlin",
+                "JavaScript"
+              ],
+              "correctAnswer": "Go (Golang)",
+              "explanation": "Porque Go (Golang) fue creado por Google precisamente con la idea de ser simple, eficiente y facilitar la programación concurrente (muchas tareas a la vez) con un rendimiento elevado."
+            },
+            {
+              "text": "Un desarrollador necesita crear una página web cuyo contenido cambie en respuesta a las acciones del usuario. Esto requiere la integración de HTML con ¿qué tipo de lenguaje?",
+              "options": [
+                "Un lenguaje de marcas adicional como XML",
+                "Un editor de texto simple",
+                "Un compilador",
+                "Un lenguaje de programación como JavaScript"
+              ],
+              "correctAnswer": "Un lenguaje de programación como JavaScript",
+              "explanation": "Porque para que una página reaccione a las acciones del usuario hace falta un lenguaje de programación como JavaScript, que puede modificar el contenido y el comportamiento del HTML en tiempo real."
+            },
+            {
+              "text": "En el ejemplo de Flask proporcionado en la UT, ¿qué sintaxis se utiliza en el archivo index.html para insertar el contenido dinámico (la variable mensaje)?",
+              "options": [
+                "Sintaxis de Python",
+                "Sintaxis de plantillas de Jinja2",
+                "Funciones de JavaScript",
+                "Etiquetas de PHP"
+              ],
+              "correctAnswer": "Sintaxis de plantillas de Jinja2",
+              "explanation": "Porque en las plantillas de Flask se usa Jinja2, cuya sintaxis típica para insertar valores dinámicos es {{ mensaje }}; no es código Python puro ni JavaScript, sino sintaxis de plantillas."
+            },
+            {
+              "text": "Siguiendo el tutorial de Flask, después de instalar Python, ¿qué comando debes ejecutar en la terminal para instalar el microframework necesario?",
+              "options": [
+                "python app.py",
+                "flask --version",
+                "pip install Flask",
+                "python install flask"
+              ],
+              "correctAnswer": "pip install Flask",
+              "explanation": "Porque para instalar Flask desde la terminal se utiliza el gestor de paquetes de Python con el comando estándar \"pip install Flask\"; los otros comandos no instalan la librería."
+            },
+            {
+              "text": "Un programador junior se queja de que le cuesta leer su propio código. Le recomiendas un editor que colorea las palabras clave, variables y comentarios. ¿Qué característica es esta?",
+              "options": [
+                "Resaltado de sintaxis",
+                "Depurador integrado",
+                "Integración con Git",
+                "Autocompletado de código"
+              ],
+              "correctAnswer": "Resaltado de sintaxis",
+              "explanation": "Porque el resaltado de sintaxis es justo la funcionalidad que colorea palabras clave, variables y comentarios, haciendo que el código sea más legible y fácil de entender."
+            },
+            {
+              "text": "¿Cuál es la principal diferencia entre un editor de texto (como Sublime Text) y un Entorno de Desarrollo Integrado (IDE) (como NetBeans)?",
+              "options": [
+                "Los editores de texto son siempre de pago y los IDEs gratuitos.",
+                "Los editores de texto solo funcionan en Windows.",
+                "Los IDEs proporcionan un conjunto completo de herramientas (editor, compilador, depurador), mientras los editores son más simples.",
+                "Los editores de texto no tienen resaltado de sintaxis."
+              ],
+              "correctAnswer": "Los IDEs proporcionan un conjunto completo de herramientas (editor, compilador, depurador), mientras los editores son más simples.",
+              "explanation": "Porque un IDE agrupa varias herramientas (editor, compilador, depurador, etc.) en un solo entorno, mientras que un editor de texto simple solo ofrece la edición del código con menos funcionalidades integradas."
+            },
+            {
+              "text": "En tu equipo de desarrollo Java, se debate qué IDE de código abierto utilizar. Las dos opciones más populares mencionadas en el texto, conocidas por su extensibilidad, son:",
+              "options": [
+                "Notepad++ y GCC",
+                "Visual Studio Code y Atom",
+                "PyCharm y Sublime Text",
+                "NetBeans y Eclipse"
+              ],
+              "correctAnswer": "NetBeans y Eclipse",
+              "explanation": "Porque NetBeans y Eclipse son IDEs de código abierto muy usados para Java y conocidos por su gran capacidad de extensión mediante plugins, a diferencia del resto de opciones propuestas."
+            },
+            {
+              "text": "¿Qué herramienta traduce el código fuente de un lenguaje de programación a otro, como código de máquina o bytecode, para que pueda ejecutarse?",
+              "options": [
+                "Un IDE",
+                "Un lenguaje de marcas",
+                "Un editor de texto",
+                "Un compilador"
+              ],
+              "correctAnswer": "Un compilador",
+              "explanation": "Porque un compilador es el programa que traduce el código fuente escrito por el programador a otro formato ejecutable (código máquina o bytecode) que el ordenador sí puede ejecutar."
+            },
+            {
+              "text": "Si estás desarrollando una aplicación en Java, ¿qué compilador (incluido en el JDK) usarás para convertir tu código fuente .java en bytecode .class?",
+              "options": [
+                "Clang",
+                "MSVC",
+                "javac",
+                "GCC"
+              ],
+              "correctAnswer": "javac",
+              "explanation": "Porque \"javac\" es el compilador incluido en el JDK que convierte los archivos .java en bytecode .class; las otras opciones son compiladores para otros lenguajes o herramientas distintas."
+            },
+            {
+              "text": "Un desarrollador web está escribiendo código en TypeScript. Para que este código funcione en un navegador, primero debe ser traducido a JavaScript. ¿Qué herramienta se necesita para este proceso?",
+              "options": [
+                "El compilador Clang",
+                "El compilador de TypeScript (tsc)",
+                "Un compilador WebAssembly",
+                "El compilador de Kotlin"
+              ],
+              "correctAnswer": "El compilador de TypeScript (tsc)",
+              "explanation": "Porque el compilador de TypeScript, \"tsc\", es el encargado de transformar código TypeScript en JavaScript estándar que puede entender el navegador; las demás opciones pertenecen a otros lenguajes o tecnologías."
+            },
+            {
+              "text": "¿Qué conjunto de compiladores de código abierto, desarrollado por el proyecto GNU, es ampliamente utilizado en sistemas Unix y Linux para lenguajes como C y C++?",
+              "options": [
+                "MSVC (Microsoft Visual C++)",
+                "GCC (GNU Compiler Collection)",
+                "JDK (Java Development Kit)",
+                "Clang"
+              ],
+              "correctAnswer": "GCC (GNU Compiler Collection)",
+              "explanation": "Porque GCC (GNU Compiler Collection) es el conjunto de compiladores de software libre del proyecto GNU, ampliamente usado en sistemas Unix/Linux para compilar C, C++ y otros lenguajes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

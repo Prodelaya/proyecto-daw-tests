@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 7,
+          "title": "Desarrollo de aplicaciones web interactivas y dinámicas",
+          "questions": [
+            {
+              "text": "Tu jefe te pide crear una nueva web para la empresa que permita a los usuarios ver actualizaciones de pedidos en tiempo real, sin recargar la página. ¿Qué tipo de aplicación estás desarrollando?",
+              "options": [
+                "Una aplicación web estática",
+                "Una aplicación web interactiva y dinámica",
+                "Un sistema de gestión de contenidos",
+                "Un servidor de bases de datos"
+              ],
+              "correctAnswer": "Una aplicación web interactiva y dinámica",
+              "explanation": "Porque una aplicación web interactiva y dinámica actualiza el contenido en tiempo real en el navegador, sin necesidad de recargar la página completa."
+            },
+            {
+              "text": "¿Cuál es el principal beneficio empresarial de implementar aplicaciones web dinámicas que facilitan la colaboración en tiempo real, según la UT?",
+              "options": [
+                "Garantiza la compatibilidad con navegadores antiguos",
+                "Elimina los costos de servidor",
+                "Mejora la comunicación interna y acelera la toma de decisiones",
+                "Reduce la necesidad de usar JavaScript"
+              ],
+              "correctAnswer": "Mejora la comunicación interna y acelera la toma de decisiones",
+              "explanation": "Porque al permitir colaboración y actualización en tiempo real se mejora cómo se comunican los equipos y se acortan los tiempos para tomar decisiones empresariales."
+            },
+            {
+              "text": "Un usuario introduce sus datos de tarjeta de crédito en un formulario de pago. Para garantizar la seguridad, ¿dónde debería realizarse la verificación y procesamiento final de esta información sensible?",
+              "options": [
+                "En el servidor",
+                "En el navegador web",
+                "En el cliente",
+                "En el archivo CSS"
+              ],
+              "correctAnswer": "En el servidor",
+              "explanation": "Porque los datos sensibles como la tarjeta de crédito deben procesarse en el servidor, donde se pueden aplicar controles de seguridad y evitar exponer la lógica a manipulaciones del cliente."
+            },
+            {
+              "text": "Un usuario con un móvil antiguo se queja de que la nueva aplicación web es lenta, mientras que en los móviles nuevos funciona bien. ¿A qué desventaja del procesamiento en el cliente podría deberse esto?",
+              "options": [
+                "La mayor seguridad del código en el cliente",
+                "La variabilidad en la experiencia del usuario debido a las capacidades del dispositivo",
+                "La menor latencia",
+                "La menor carga en el servidor"
+              ],
+              "correctAnswer": "La variabilidad en la experiencia del usuario debido a las capacidades del dispositivo",
+              "explanation": "Porque cuando gran parte del trabajo se hace en el cliente, la experiencia depende mucho de la potencia del dispositivo; en móviles antiguos el rendimiento puede caer notablemente."
+            },
+            {
+              "text": "¿Cuál es una ventaja clave de realizar el procesamiento en el servidor?",
+              "options": [
+                "Proporciona mayor control y seguridad sobre la lógica de negocio y los datos sensibles",
+                "Permite animaciones y efectos visuales más rápidos",
+                "Reduce la latencia de la red",
+                "Disminuye la carga de trabajo del servidor"
+              ],
+              "correctAnswer": "Proporciona mayor control y seguridad sobre la lógica de negocio y los datos sensibles",
+              "explanation": "Porque al centralizar la lógica en el servidor se controla mejor quién accede a qué datos y cómo se procesan, reduciendo el riesgo de fugas o manipulaciones maliciosas."
+            },
+            {
+              "text": "Un programador está diseñando un formulario de registro. Decide que la comprobación de si \"el correo electrónico ya existe\" debe hacerse en el servidor. ¿Por qué es esta una buena decisión?",
+              "options": [
+                "Porque el cliente no tiene acceso a la base de datos de usuarios para hacer esa consulta",
+                "Porque el servidor puede hacerlo sin conexión a internet",
+                "Porque el cliente no puede validar formatos de correo",
+                "Porque reduce la carga del servidor"
+              ],
+              "correctAnswer": "Porque el cliente no tiene acceso a la base de datos de usuarios para hacer esa consulta",
+              "explanation": "Porque solo el servidor tiene acceso directo a la base de datos; el cliente no puede ni debe consultar si un correo existe, por lo que esa validación debe hacerse del lado del servidor."
+            },
+            {
+              "text": "¿Qué lenguajes se asocian comúnmente con el procesamiento en el servidor?",
+              "options": [
+                "JSON y XML",
+                "HTML, CSS y jQuery",
+                "PHP, Python, Ruby y Java",
+                "React, Angular y Vue.js"
+              ],
+              "correctAnswer": "PHP, Python, Ruby y Java",
+              "explanation": "Porque estos lenguajes están pensados para ejecutarse en el servidor, generar respuestas (HTML, JSON…) y trabajar con bases de datos y lógica de negocio."
+            },
+            {
+              "text": "Tu equipo necesita implementar una galería de imágenes con efectos visuales complejos y transiciones al pasar el cursor. ¿Qué enfoque de procesamiento es más adecuado para manejar estas animaciones?",
+              "options": [
+                "Procesamiento en la base de datos (SQL)",
+                "Procesamiento en la API",
+                "Procesamiento en el servidor (PHP)",
+                "Procesamiento en el cliente (JavaScript y CSS)"
+              ],
+              "correctAnswer": "Procesamiento en el cliente (JavaScript y CSS)",
+              "explanation": "Porque los efectos visuales y las animaciones dependen de la interacción directa con el navegador y la GPU del dispositivo, algo que se gestiona con JavaScript y CSS en el cliente."
+            },
+            {
+              "text": "En una aplicación bancaria, al solicitar un extracto de cuenta, la petición se envía al servidor, que consulta la base de datos. ¿Por qué se utiliza el procesamiento en el servidor para esta tarea?",
+              "options": [
+                "Para reducir la latencia de la respuesta",
+                "Para crear animaciones en el navegador",
+                "Para asegurar la integridad y seguridad de la base de datos",
+                "Para validar el formulario en el cliente"
+              ],
+              "correctAnswer": "Para asegurar la integridad y seguridad de la base de datos",
+              "explanation": "Porque consultar saldos y movimientos implica acceder directamente a la base de datos del banco, algo que debe hacerse en un entorno controlado y seguro como el servidor."
+            },
+            {
+              "text": "¿Cuál es una ventaja clave de realizar el procesamiento en el cliente?",
+              "options": [
+                "Permite acceder de forma segura a la base de datos",
+                "Reduce la carga en el servidor y la latencia en interacciones simples",
+                "Protege el código fuente de la manipulación",
+                "Asegura que todos los usuarios tengan la misma experiencia"
+              ],
+              "correctAnswer": "Reduce la carga en el servidor y la latencia en interacciones simples",
+              "explanation": "Porque al delegar ciertas operaciones en el navegador se evita enviar peticiones constantes al servidor, mejorando la rapidez de respuesta en validaciones y pequeñas interacciones."
+            },
+            {
+              "text": "Un director de proyecto está definiendo las características de una nueva red social. El primer paso que define es \"los usuarios podrán publicar comentarios y dar 'me gusta'\". ¿En qué fase del proceso de generación dinámica se encuentra?",
+              "options": [
+                "Mantenimiento",
+                "Planificación (Identificar objetivos y acciones)",
+                "Implementación",
+                "Pruebas y depuración"
+              ],
+              "correctAnswer": "Planificación (Identificar objetivos y acciones)",
+              "explanation": "Porque en la fase de planificación se decide qué podrá hacer la aplicación (comentar, dar \"me gusta\", etc.); primero se definen objetivos y acciones y luego se implementan."
+            },
+            {
+              "text": "Para que una página interactiva funcione, debe combinar procesamiento en el cliente y en el servidor. ¿Qué tecnología es fundamental para comunicar el frontend (cliente) con el backend (servidor) sin recargar la página?",
+              "options": [
+                "AJAX o Fetch API",
+                "CSS",
+                "SQL",
+                "HTML"
+              ],
+              "correctAnswer": "AJAX o Fetch API",
+              "explanation": "Porque AJAX y Fetch permiten que el frontend envíe y reciba datos del servidor en segundo plano, manteniendo la página cargada y actualizando solo lo necesario."
+            },
+            {
+              "text": "En el desarrollo de una página dinámica, has terminado de crear la lógica del servidor (el backend) y la interfaz de usuario (el frontend). ¿Cuál es el siguiente paso lógico para conectarlos?",
+              "options": [
+                "Integración Frontend y Backend (usando AJAX o Fetch)",
+                "Selección de tecnologías",
+                "Mantenimiento y actualizaciones",
+                "Diseño y maquetación"
+              ],
+              "correctAnswer": "Integración Frontend y Backend (usando AJAX o Fetch)",
+              "explanation": "Porque, una vez creados backend y frontend, el siguiente paso es enlazarlos mediante llamadas asíncronas (AJAX/Fetch) para que la interfaz hable con el servidor."
+            },
+            {
+              "text": "Correcta",
+              "options": [
+                "Mantenimiento y actualizaciones",
+                "Selección de tecnologías",
+                "Programación del lado del servidor",
+                "Planificación"
+              ],
+              "correctAnswer": "Mantenimiento y actualizaciones",
+              "explanation": "Porque una vez desplegada la aplicación, los problemas específicos de ciertos navegadores se abordan en la fase continua de mantenimiento y actualización del software."
+            },
+            {
+              "text": "¿Qué formatos de datos se utilizan comúnmente para transmitir información entre el cliente y el servidor en una llamada AJAX?",
+              "options": [
+                "React y Angular",
+                "JSON y XML",
+                "CSS y HTML",
+                "PHP y Python"
+              ],
+              "correctAnswer": "JSON y XML",
+              "explanation": "Porque JSON y XML son formatos estándar para serializar datos y transmitirlos en peticiones/respuestas AJAX entre cliente y servidor."
+            },
+            {
+              "text": "Un programador junior está confundido sobre por qué su script de PHP (lado del servidor) no puede reaccionar a un clic del ratón directamente en el navegador del usuario. ¿Qué tecnología del lado del cliente necesita usar para capturar ese clic?",
+              "options": [
+                "Node.js",
+                "SQL",
+                "JavaScript",
+                "JSON"
+              ],
+              "correctAnswer": "JavaScript",
+              "explanation": "Porque el clic ocurre en el navegador del usuario y solo JavaScript (del lado del cliente) puede capturar directamente ese evento y reaccionar en la interfaz."
+            },
+            {
+              "text": "En el ejemplo de comentarios de la UT, ¿cuál es la función del script PHP",
+              "options": [
+                "Validar el formulario en el lado del cliente",
+                "Almacenar nuevos comentarios en la base de datos",
+                "Definir los estilos CSS del formulario de comentarios",
+                "Recuperar los comentarios existentes (simulados) y enviarlos al cliente en formato JSON"
+              ],
+              "correctAnswer": "Recuperar los comentarios existentes (simulados) y enviarlos al cliente en formato JSON",
+              "explanation": "Porque fetch_comments.php se encarga de devolver al cliente los comentarios (aunque sean simulados) en formato JSON, para que el navegador pueda mostrarlos dinámicamente."
+            },
+            {
+              "text": "En el ejemplo de comentarios, un usuario envía un nuevo comentario. El JavaScript del cliente usa AJAX para enviar los datos al script submit_comment.php. ¿Cuál es la responsabilidad de este script PHP?",
+              "options": [
+                "Estilizar el nuevo comentario con CSS",
+                "Recargar toda la página web para mostrar el nuevo comentario",
+                "Enviar la lista de todos los comentarios anteriores",
+                "Recibir los datos del nuevo comentario y procesarlos (en un caso real, guardarlos en la BD)"
+              ],
+              "correctAnswer": "Recibir los datos del nuevo comentario y procesarlos (en un caso real, guardarlos en la BD)",
+              "explanation": "Porque submit_comment.php recibe los datos que envía el formulario (vía AJAX), los procesa y, en un sistema real, los guardaría en la base de datos antes de responder."
+            },
+            {
+              "text": "Tu equipo necesita construir una interfaz web rápidamente, pero no quiere escribir todo el CSS desde cero. Buscan un marco de trabajo que ofrezca componentes predefinidos para un diseño responsivo. ¿Qué herramienta de la lista sería la más adecuada?",
+              "options": [
+                "Bootstrap",
+                "React",
+                "Tailwind CSS",
+                "jQuery"
+              ],
+              "correctAnswer": "Bootstrap",
+              "explanation": "Porque Bootstrap ofrece un conjunto de componentes y estilos predefinidos para construir interfaces responsivas sin escribir todo el CSS desde cero."
+            },
+            {
+              "text": "¿Cómo se describe la biblioteca React en la Unidad Temática?",
+              "options": [
+                "Un marco de diseño de código abierto",
+                "Una biblioteca de componentes para implementar Material Design",
+                "Una biblioteca de JavaScript para crear interfaces de usuario interactivas con enfoque de componentes",
+                "Un marco de desarrollo de Google para aplicaciones de página única"
+              ],
+              "correctAnswer": "Una biblioteca de JavaScript para crear interfaces de usuario interactivas con enfoque de componentes",
+              "explanation": "Porque en la UT se explica React como una biblioteca JavaScript centrada en crear interfaces mediante componentes reutilizables, que reaccionan cuando cambia el estado."
+            },
+            {
+              "text": "Un desarrollador está construyendo una interfaz de usuario muy compleja, con muchos componentes que deben actualizar su estado de forma eficiente. ¿Qué tipo de herramienta, como React o Angular, sería la más adecuada?",
+              "options": [
+                "Una biblioteca de manipulación del DOM simple como jQuery",
+                "Un lenguaje de programación del lado del servidor como PHP",
+                "Un marco de diseño CSS como Bootstrap",
+                "Una biblioteca o framework de JavaScript para interfaces de usuario"
+              ],
+              "correctAnswer": "Una biblioteca o framework de JavaScript para interfaces de usuario",
+              "explanation": "Porque herramientas como React o Angular están pensadas para controlar interfaces complejas con muchos estados y componentes, algo que va más allá de lo que hace jQuery o solo CSS."
+            },
+            {
+              "text": "¿Qué biblioteca se describe como útil para la manipulación del DOM, el manejo de eventos y las solicitudes AJAX?",
+              "options": [
+                "Bootstrap",
+                "jQuery",
+                "React",
+                "Tailwind CSS"
+              ],
+              "correctAnswer": "jQuery",
+              "explanation": "Porque jQuery nació justamente para simplificar tareas de manipulación del DOM, manejo de eventos de usuario y peticiones AJAX con una sintaxis más sencilla."
+            },
+            {
+              "text": "Tu equipo ha elegido usar React para el frontend. Para el diseño, quieren un enfoque que les dé control total usando clases de bajo nivel en lugar de componentes predefinidos. ¿Qué marco de CSS se alinea con esta filosofía?",
+              "options": [
+                "Material-UI",
+                "Angular",
+                "Tailwind CSS",
+                "Bootstrap"
+              ],
+              "correctAnswer": "Tailwind CSS",
+              "explanation": "Porque Tailwind CSS proporciona clases de utilidad de bajo nivel para construir el diseño a medida, en lugar de ofrecer componentes visuales cerrados ya diseñados."
+            },
+            {
+              "text": "Un gerente de proyecto debe elegir las tecnologías para una nueva aplicación. ¿Qué factores, además de la curva de aprendizaje, debe considerar al seleccionar una biblioteca como React o Vue.js?",
+              "options": [
+                "Solo el costo de la licencia",
+                "Únicamente la popularidad en redes sociales",
+                "Escalabilidad, rendimiento y compatibilidad con tecnologías existentes",
+                "Si la biblioteca es de Google o de Facebook"
+              ],
+              "correctAnswer": "Escalabilidad, rendimiento y compatibilidad con tecnologías existentes",
+              "explanation": "Porque al elegir una tecnología no basta con que sea popular: hay que pensar si escalará bien, si rinde adecuadamente y si encaja con el resto del stack existente."
+            },
+            {
+              "text": "¿Cómo se describe el framework Angular?",
+              "options": [
+                "Un marco de desarrollo de Google para crear aplicaciones de página única",
+                "Una biblioteca de JavaScript para manipulación del DOM",
+                "Una biblioteca de componentes para implementar Material Design",
+                "Un marco de diseño CSS de utilidad"
+              ],
+              "correctAnswer": "Un marco de desarrollo de Google para crear aplicaciones de página única",
+              "explanation": "Porque Angular es un framework completo de Google pensado para crear SPAs (Single Page Applications), con muchas funcionalidades integradas de serie."
+            },
+            {
+              "text": "Un desarrollador quiere implementar rápidamente los principios de diseño \"Material Design\" de Google en su aplicación de React. ¿Qué biblioteca de componentes debería utilizar?",
+              "options": [
+                "Bootstrap",
+                "Tailwind CSS",
+                "Material-UI",
+                "jQuery"
+              ],
+              "correctAnswer": "Material-UI",
+              "explanation": "Porque Material-UI es una colección de componentes ya diseñados siguiendo las pautas de Material Design, lista para usarse en aplicaciones React."
+            },
+            {
+              "text": "¿Cómo se describe el framework Vue.js?",
+              "options": [
+                "Un marco de diseño CSS de bajo nivel",
+                "Un marco de JavaScript progresivo para interfaces de usuario y aplicaciones de página única",
+                "Un marco de desarrollo de Google",
+                "Una biblioteca de manipulación del DOM"
+              ],
+              "correctAnswer": "Un marco de JavaScript progresivo para interfaces de usuario y aplicaciones de página única",
+              "explanation": "Porque Vue.js se define como un framework progresivo: permite empezar de forma sencilla mejorando el DOM y crecer hasta construir aplicaciones de una sola página complejas."
+            },
+            {
+              "text": "Un sitio de noticias quiere que los titulares se actualicen en la página principal sin que el usuario tenga que recargarla. ¿Qué tecnologías deben trabajar juntas para lograr esto?",
+              "options": [
+                "Solo un lenguaje de servidor (como Python)",
+                "JavaScript (con AJAX/Fetch) en el cliente y un lenguaje de servidor (como PHP) en el backend",
+                "Solo una base de datos (como MySQL)",
+                "Solo HTML y CSS"
+              ],
+              "correctAnswer": "JavaScript (con AJAX/Fetch) en el cliente y un lenguaje de servidor (como PHP) en el backend",
+              "explanation": "Porque para actualizar titulares sin recargar la página se necesita que JavaScript en el cliente haga peticiones (AJAX/Fetch) a un backend que genera los datos dinámicamente."
+            },
+            {
+              "text": "Un usuario completa un formulario de registro. El navegador le avisa inmediatamente que la contraseña es \"demasiado corta\" antes de enviarla. ¿Qué tipo de procesamiento está ocurriendo?",
+              "options": [
+                "Procesamiento en el cliente (Validación de formularios)",
+                "Procesamiento de la API",
+                "Procesamiento en la base de datos",
+                "Procesamiento en el servidor"
+              ],
+              "correctAnswer": "Procesamiento en el cliente (Validación de formularios)",
+              "explanation": "Porque el navegador está ejecutando código que revisa el valor introducido antes de enviarlo al servidor; esa revisión inmediata es validación en el cliente."
+            },
+            {
+              "text": "¿Cuál es el objetivo principal de crear aplicaciones web interactivas y dinámicas desde la perspectiva de la Experiencia de Usuario (UX)?",
+              "options": [
+                "Facilitar la colaboración solo entre empleados",
+                "Reducir los costos de servidor",
+                "Hacer que el código sea más seguro",
+                "Mejorar la satisfacción, retención y compromiso del usuario con la plataforma"
+              ],
+              "correctAnswer": "Mejorar la satisfacción, retención y compromiso del usuario con la plataforma",
+              "explanation": "Porque desde UX lo importante es que la aplicación sea fluida, responda rápido y facilite las tareas, lo que aumenta la satisfacción, el uso continuado y el compromiso del usuario."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

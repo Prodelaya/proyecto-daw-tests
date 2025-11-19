@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 3,
+          "title": "Generación dinámica de páginas web e interacción del cliente",
+          "questions": [
+            {
+              "text": "Un usuario entra en un sitio de comercio electrónico y la página de inicio le muestra productos basados en sus compras anteriores. ¿Qué ventaja principal de las páginas dinámicas permite esta experiencia?",
+              "options": [
+                "Actualización de contenido más rápida para los administradores",
+                "Personalización del contenido",
+                "Mejor gestión de bases de datos",
+                "Mayor compatibilidad con navegadores antiguos"
+              ],
+              "correctAnswer": "Personalización del contenido",
+              "explanation": "Porque la ventaja clave de una página dinámica es poder adaptar el contenido a cada usuario, mostrando productos distintos según su historial y preferencias."
+            },
+            {
+              "text": "¿Cuál es la diferencia conceptual clave entre una página web estática y una página web dinámica?",
+              "options": [
+                "Las páginas estáticas siempre se cargan más rápido que las dinámicas.",
+                "Las páginas estáticas no pueden tener imágenes, solo texto.",
+                "Las páginas estáticas usan HTML y las dinámicas usan solo JavaScript.",
+                "Las páginas estáticas se entregan tal cual están almacenadas, mientras que las dinámicas se generan o modifican en tiempo real"
+              ],
+              "correctAnswer": "Las páginas estáticas se entregan tal cual están almacenadas, mientras que las dinámicas se generan o modifican en tiempo real",
+              "explanation": "Porque la diferencia esencial es que la página estática se entrega siempre igual desde el servidor, mientras que la dinámica se construye o modifica en el momento según datos o contexto."
+            },
+            {
+              "text": "Si el contenido de una página web, como los resultados de un partido de fútbol, debe cambiar instantáneamente para todos los usuarios en el momento en que ocurre un evento, ¿qué tipo de generación de página se requiere?",
+              "options": [
+                "Dinámica",
+                "Manual",
+                "Estática",
+                "De lado del cliente únicamente"
+              ],
+              "correctAnswer": "Dinámica",
+              "explanation": "Porque si todos los usuarios deben ver el cambio en el instante en que ocurre el evento, el contenido tiene que generarse dinámicamente en el servidor en ese momento, no quedarse fijo."
+            },
+            {
+              "text": "Un periódico digital permite a sus periodistas publicar noticias de última hora que aparecen inmediatamente en la portada. ¿Qué ventaja clave de la generación dinámica, en combinación con una base de datos, se está utilizando?",
+              "options": [
+                "La reducción de la carga en el servidor",
+                "La actualización de contenido en tiempo real sin modificar archivos manualmente",
+                "La retroalimentación instantánea al usuario",
+                "La validación de la información en el cliente"
+              ],
+              "correctAnswer": "La actualización de contenido en tiempo real sin modificar archivos manualmente",
+              "explanation": "Porque las noticias se insertan en la portada a partir de la base de datos y plantillas, sin editar archivos HTML a mano; eso es precisamente actualización dinámica en tiempo real."
+            },
+            {
+              "text": "¿Cuál es la función principal de un lenguaje de programación del lado del servidor (como Python o PHP) en la generación dinámica?",
+              "options": [
+                "Controlar la reproducción de videos y las animaciones en el navegador",
+                "Procesar la lógica, consultar bases de datos y construir la página HTML antes de enviarla al navegador",
+                "Validar los campos de un formulario en tiempo real mientras el usuario escribe",
+                "Almacenar las preferencias del usuario en el navegador del cliente"
+              ],
+              "correctAnswer": "Procesar la lógica, consultar bases de datos y construir la página HTML antes de enviarla al navegador",
+              "explanation": "Porque el servidor es quien ejecuta la lógica, consulta la base de datos y construye el HTML final que se enviará al navegador, en lugar de limitarse a servir archivos estáticos."
+            },
+            {
+              "text": "En un foro en línea, todos los mensajes, hilos y perfiles de usuario se guardan para poder ser consultados más tarde. ¿Qué mecanismo tecnológico es fundamental para almacenar y recuperar esta información?",
+              "options": [
+                "AJAX",
+                "Una API meteorológica",
+                "Un lenguaje del lado del cliente como React",
+                "Una base de datos (como MySQL o MongoDB)"
+              ],
+              "correctAnswer": "Una base de datos (como MySQL o MongoDB)",
+              "explanation": "Porque una base de datos está diseñada para guardar grandes cantidades de información estructurada (mensajes, usuarios, hilos) y permitir consultarla después de forma eficiente."
+            },
+            {
+              "text": "¿Cuál es la función principal de un lenguaje del lado del cliente (como JavaScript) en la generación dinámica?",
+              "options": [
+                "Consultar la base de datos de forma segura",
+                "Generar el contenido HTML inicial en el servidor",
+                "Enviar correos electrónicos desde el servidor",
+                "Modificar la estructura y el contenido de la página (el DOM) después de que esta se haya cargado en el navegador"
+              ],
+              "correctAnswer": "Modificar la estructura y el contenido de la página (el DOM) después de que esta se haya cargado en el navegador",
+              "explanation": "Porque JavaScript en el lado del cliente se encarga de cambiar el contenido y la estructura de la página ya cargada (el DOM), añadiendo dinamismo sin recargar la página completa."
+            },
+            {
+              "text": "Un usuario está en una página de YouTube y ajusta el control de volumen. El video reacciona inmediatamente sin recargar la página. ¿Qué tecnología es responsable de gestionar esta interacción en el navegador?",
+              "options": [
+                "Un lenguaje del lado del cliente (JavaScript)",
+                "Un lenguaje del lado del servidor (como Java)",
+                "Una base de datos (como PostgreSQL)",
+                "El servidor web (como Apache)"
+              ],
+              "correctAnswer": "Un lenguaje del lado del cliente (JavaScript)",
+              "explanation": "Porque ajustar el volumen, pausar o reproducir sin recargar la página es trabajo de código que corre en el navegador, normalmente JavaScript, manipulando el vídeo y la interfaz."
+            },
+            {
+              "text": "Una aplicación de mapas (como Google Maps) permite al usuario moverse por el mapa, cargando nuevas secciones geográficas sin que la página completa parpadee o se recargue. ¿Qué técnica fundamental permite esta actualización parcial?",
+              "options": [
+                "Generación estática de sitios",
+                "Programación del lado del servidor únicamente",
+                "Validación del lado del cliente",
+                "AJAX (JavaScript y XML asíncrono)"
+              ],
+              "correctAnswer": "AJAX (JavaScript y XML asíncrono)",
+              "explanation": "Porque AJAX permite enviar y recibir datos en segundo plano y actualizar solo partes de la página, como nuevas zonas del mapa, sin recargarla completa ni perder la interacción."
+            },
+            {
+              "text": "Un sitio web del tiempo muestra un pronóstico actualizado obteniendo datos de un servicio meteorológico externo. ¿Qué tipo de interfaz permite esta comunicación y intercambio de datos entre las dos aplicaciones?",
+              "options": [
+                "DOM (Modelo de Objetos del Documento)",
+                "API (Interfaz de Programación de Aplicaciones)",
+                "Un framework de Python como Django",
+                "Un sistema de gestión de contenidos (CMS)"
+              ],
+              "correctAnswer": "API (Interfaz de Programación de Aplicaciones)",
+              "explanation": "Porque una API define cómo dos aplicaciones se comunican y comparten datos; en este caso, el sitio del tiempo llama a la API del servicio meteorológico para obtener el pronóstico."
+            },
+            {
+              "text": "Un usuario está rellenando un formulario de registro. Al pasar al siguiente campo, el campo de \"correo electrónico\" se marca en rojo con el mensaje \"Formato inválido\", antes de pulsar el botón de enviar. ¿Qué proceso está ocurriendo?",
+              "options": [
+                "Validación del lado del servidor",
+                "Manipulación del DOM por el servidor",
+                "Validación del lado del cliente",
+                "Una solicitud AJAX a una API"
+              ],
+              "correctAnswer": "Validación del lado del cliente",
+              "explanation": "Porque la comprobación se hace en el navegador, antes de enviar los datos al servidor, mostrando errores instantáneos al usuario; eso es validación del lado del cliente."
+            },
+            {
+              "text": "¿Cuál es el objetivo principal de proporcionar retroalimentación en tiempo real durante la validación del lado del cliente?",
+              "options": [
+                "Garantizar la seguridad total de la aplicación",
+                "Mejorar la experiencia del usuario, permitiéndole corregir errores inmediatamente",
+                "Acelerar el procesamiento de los datos en el servidor",
+                "Reducir el tamaño de la base de datos"
+              ],
+              "correctAnswer": "Mejorar la experiencia del usuario, permitiéndole corregir errores inmediatamente",
+              "explanation": "Porque mostrar los errores al momento ayuda al usuario a corregirlos sin tener que enviar el formulario varias veces, haciendo el uso del formulario más cómodo y fluido."
+            },
+            {
+              "text": "Un formulario solicita al usuario crear una contraseña. ¿En qué lado (cliente o servidor) es más eficiente realizar la comprobación inicial de que \"la contraseña tiene al menos 8 caracteres\" para dar una respuesta inmediata?",
+              "options": [
+                "En la API (con JSON)",
+                "Lado del cliente (con JavaScript)",
+                "En la base de datos (con SQL)",
+                "Lado del servidor (con PHP o Python)"
+              ],
+              "correctAnswer": "Lado del cliente (con JavaScript)",
+              "explanation": "Porque comprobar reglas sencillas como la longitud mínima de una contraseña es más rápido y cómodo si se hace en el navegador con JavaScript, dando respuesta inmediata."
+            },
+            {
+              "text": "¿Cómo beneficia la validación del lado del cliente al rendimiento del servidor de una aplicación web?",
+              "options": [
+                "Reduce la carga en el servidor al filtrar solicitudes incorrectas o mal formateadas",
+                "Hace que el código del servidor se ejecute más rápido.",
+                "Mejora la velocidad de la conexión a Internet del usuario.",
+                "Elimina la necesidad de una base de datos."
+              ],
+              "correctAnswer": "Reduce la carga en el servidor al filtrar solicitudes incorrectas o mal formateadas",
+              "explanation": "Porque si muchos formularios incorrectos se filtran en el navegador, el servidor recibe menos peticiones inútiles y se ahorra procesar datos que ya sabemos que son inválidos."
+            },
+            {
+              "text": "¿Por qué la validación del lado del cliente (en el navegador) nunca debe ser la única medida de seguridad para los datos de un formulario?",
+              "options": [
+                "Porque ralentiza la experiencia del usuario.",
+                "Porque no todos los navegadores son compatibles con JavaScript.",
+                "Porque solo funciona para campos de texto, no para contraseñas.",
+                "Porque un usuario malicioso puede omitir fácilmente la validación del cliente y enviar datos maliciosos directamente al servidor"
+              ],
+              "correctAnswer": "Porque un usuario malicioso puede omitir fácilmente la validación del cliente y enviar datos maliciosos directamente al servidor",
+              "explanation": "Porque el código del lado del cliente se puede desactivar o manipular; un atacante puede saltarse esa validación y enviar peticiones maliciosas, por lo que el servidor debe validar siempre."
+            },
+            {
+              "text": "En una aplicación de chat, los nuevos mensajes aparecen en la conversación sin necesidad de recargar la página manualmente. ¿Qué técnica permite solicitar y mostrar estos nuevos mensajes?",
+              "options": [
+                "Una página web estática",
+                "Validación del lado del cliente",
+                "Un lenguaje del lado del servidor únicamente",
+                "Obtención remota de información (AJAX)"
+              ],
+              "correctAnswer": "Obtención remota de información (AJAX)",
+              "explanation": "Porque AJAX permite que la página envíe peticiones en segundo plano para recuperar nuevos mensajes y mostrarlos sin necesidad de recargar toda la página de chat."
+            },
+            {
+              "text": "En el contexto de AJAX, ¿qué significa que una solicitud sea \"asíncrona\"?",
+              "options": [
+                "Que la solicitud debe estar en formato XML obligatoriamente.",
+                "Que el servidor debe responder inmediatamente, sin demora.",
+                "Que el navegador no se congela y el usuario puede seguir interactuando con la página mientras espera la respuesta del servidor",
+                "Que la solicitud se envía al servidor y al cliente al mismo tiempo."
+              ],
+              "correctAnswer": "Que el navegador no se congela y el usuario puede seguir interactuando con la página mientras espera la respuesta del servidor",
+              "explanation": "Porque una solicitud asíncrona permite que el navegador siga respondiendo mientras espera la respuesta: la interfaz no se bloquea y el usuario puede seguir navegando."
+            },
+            {
+              "text": "Una aplicación necesita actualizar una lista de \"amigos conectados\" en tiempo real sin recargar toda la barra lateral. ¿Qué tecnología del lado del cliente es esencial para lograr esto?",
+              "options": [
+                "HTML y CSS básicos",
+                "Un servidor web como Apache",
+                "Un framework del lado del servidor como Laravel",
+                "JavaScript (utilizando AJAX o técnicas similares)"
+              ],
+              "correctAnswer": "JavaScript (utilizando AJAX o técnicas similares)",
+              "explanation": "Porque es JavaScript el que recibe los datos del servidor y actualiza solo la parte necesaria (por ejemplo, la lista de amigos) mediante AJAX u otras técnicas similares."
+            },
+            {
+              "text": "Después de que una solicitud AJAX recupera con éxito una lista de datos (por ejemplo, en formato JSON) del servidor, ¿cuál es el siguiente paso conceptual que debe realizar JavaScript para que el usuario vea esos datos?",
+              "options": [
+                "Enviar los datos de vuelta al servidor para su validación.",
+                "Recargar la página completa.",
+                "Manipular el DOM para crear y añadir nuevos elementos HTML a la página",
+                "Almacenar los datos en una base de datos del lado del cliente."
+              ],
+              "correctAnswer": "Manipular el DOM para crear y añadir nuevos elementos HTML a la página",
+              "explanation": "Porque después de recibir los datos, JavaScript debe crear o actualizar elementos HTML en el DOM para que el usuario pueda ver la nueva información en la página."
+            },
+            {
+              "text": "¿Qué es el DOM (Document Object Model) y qué papel juega en las páginas web dinámicas?",
+              "options": [
+                "Es la base de datos donde se almacena la información del usuario.",
+                "Es la representación en árbol de la estructura de una página web, que JavaScript puede modificar para cambiar el contenido visual",
+                "Es el protocolo de seguridad para las solicitudes AJAX.",
+                "Es el lenguaje de programación que se ejecuta en el servidor."
+              ],
+              "correctAnswer": "Es la representación en árbol de la estructura de una página web, que JavaScript puede modificar para cambiar el contenido visual",
+              "explanation": "Porque el DOM es la representación en árbol de la página que el navegador expone a JavaScript; al modificarlo, cambia directamente lo que el usuario ve en la pantalla."
+            },
+            {
+              "text": "Un desarrollador desea utilizar la interfaz de JavaScript más moderna y nativa del navegador para realizar solicitudes HTTP asincrónicas, prefiriéndola sobre la antigua XMLHttpRequest. ¿Qué tecnología utilizará?",
+              "options": [
+                "jQuery",
+                "La API Fetch",
+                "Node.js",
+                "React"
+              ],
+              "correctAnswer": "La API Fetch",
+              "explanation": "Porque la API Fetch es la interfaz moderna y nativa del navegador para hacer peticiones HTTP asíncronas, pensada como sustituta más cómoda y clara de XMLHttpRequest."
+            },
+            {
+              "text": "¿Cuál era el propósito principal de una biblioteca como jQuery en los inicios del desarrollo web dinámico?",
+              "options": [
+                "Simplificar tareas comunes, especialmente la manipulación del DOM y las solicitudes AJAX",
+                "Crear aplicaciones móviles nativas",
+                "Ejecutar código JavaScript en el servidor",
+                "Diseñar bases de datos relacionales"
+              ],
+              "correctAnswer": "Simplificar tareas comunes, especialmente la manipulación del DOM y las solicitudes AJAX",
+              "explanation": "Porque jQuery nació para simplificar tareas repetitivas, como seleccionar elementos del DOM y hacer peticiones AJAX, con una sintaxis más corta y compatible entre navegadores."
+            },
+            {
+              "text": "Un equipo está construyendo una aplicación de una sola página (SPA) muy compleja, con muchos componentes de interfaz de usuario que cambian de estado. ¿Qué tipo de tecnología de JavaScript, como React, Angular o Vue.js, es la más adecuada para este trabajo?",
+              "options": [
+                "Una biblioteca de utilidades simple",
+                "Un entorno de ejecución de servidor",
+                "Una API de solicitudes HTTP",
+                "Una biblioteca o framework de interfaz de usuario (UI)"
+              ],
+              "correctAnswer": "Una biblioteca o framework de interfaz de usuario (UI)",
+              "explanation": "Porque una SPA compleja necesita una estructura clara para gestionar estados y componentes de interfaz; ese es justo el rol de frameworks o bibliotecas de UI como React o Angular."
+            },
+            {
+              "text": "Un desarrollador de Python necesita crear una API web rápidamente, pero prefiere un framework minimalista y ligero en lugar de uno grande y completo. ¿Qué microframework mencionado en la UT es la elección obvia?",
+              "options": [
+                "Express.js",
+                "React",
+                "Flask",
+                "Django"
+              ],
+              "correctAnswer": "Flask",
+              "explanation": "Porque Flask es un microframework muy ligero y minimalista para Python, ideal cuando se quiere montar una API o web sencilla sin toda la complejidad de un framework grande."
+            },
+            {
+              "text": "¿Cuál es la diferencia fundamental de propósito entre un framework del lado del cliente (como React) y un framework del lado del servidor (como Django)?",
+              "options": [
+                "React solo funciona con Node.js y Django solo funciona con Python.",
+                "React es para bases de datos y Django es para diseño visual.",
+                "React es para solicitudes AJAX y Django es para validación de formularios.",
+                "React se centra en construir la interfaz de usuario en el navegador, mientras que Django gestiona la lógica de negocio y el acceso a datos en el servidor"
+              ],
+              "correctAnswer": "React se centra en construir la interfaz de usuario en el navegador, mientras que Django gestiona la lógica de negocio y el acceso a datos en el servidor",
+              "explanation": "Porque React se ejecuta en el navegador y se centra en construir la interfaz de usuario, mientras que Django se ejecuta en el servidor y se encarga de la lógica, rutas y acceso a datos."
+            },
+            {
+              "text": "Un programador de JavaScript desea escribir el código del back-end (servidor) de su aplicación usando el mismo lenguaje que usa para el front-end (cliente). ¿Qué entorno de tiempo de ejecución necesitará?",
+              "options": [
+                "Spring",
+                "Node.js",
+                "ASP.NET",
+                "Ruby on Rails"
+              ],
+              "correctAnswer": "Node.js",
+              "explanation": "Porque Node.js es el entorno que permite ejecutar JavaScript en el servidor, reutilizando el mismo lenguaje tanto en el front-end como en el back-end."
+            },
+            {
+              "text": "¿Para qué se utiliza comúnmente un framework como Express.js?",
+              "options": [
+                "Para crear interfaces de usuario interactivas en el cliente.",
+                "Para construir aplicaciones web y APIs de forma estructurada sobre Node.js",
+                "Para manipular el DOM del navegador de forma sencilla.",
+                "Para diseñar y gestionar bases de datos SQL."
+              ],
+              "correctAnswer": "Para construir aplicaciones web y APIs de forma estructurada sobre Node.js",
+              "explanation": "Porque Express.js es un framework que se monta sobre Node.js para estructurar rutas, controladores y middleware al construir APIs y aplicaciones web."
+            },
+            {
+              "text": "Una gran entidad financiera está desarrollando una aplicación empresarial robusta del lado del servidor y su equipo de desarrollo está especializado en Java. ¿Qué framework de alto nivel es una opción común para este escenario?",
+              "options": [
+                "Django",
+                "Laravel",
+                "React",
+                "Spring"
+              ],
+              "correctAnswer": "Spring",
+              "explanation": "Porque Spring es el framework Java más extendido para aplicaciones empresariales robustas del lado del servidor, muy usado en grandes compañías."
+            },
+            {
+              "text": "¿En qué ecosistema de lenguaje de programación se utiliza el framework Laravel para el desarrollo de aplicaciones web y APIs?",
+              "options": [
+                "Python",
+                "PHP",
+                "Ruby",
+                "Java"
+              ],
+              "correctAnswer": "PHP",
+              "explanation": "Porque Laravel es un framework del ecosistema PHP, diseñado para facilitar el desarrollo de aplicaciones web y APIs con este lenguaje."
+            },
+            {
+              "text": "¿Cuál es el propósito general de los frameworks del lado del servidor como Django, Spring y Laravel?",
+              "options": [
+                "Permitir la comunicación asíncrona (AJAX) desde el cliente",
+                "Proporcionar una estructura y herramientas para manejar la lógica de negocio, las rutas HTTP y la interacción con la base de datos",
+                "Reemplazar la necesidad de JavaScript en el navegador",
+                "Definir el estilo visual y las animaciones de una página web"
+              ],
+              "correctAnswer": "Proporcionar una estructura y herramientas para manejar la lógica de negocio, las rutas HTTP y la interacción con la base de datos",
+              "explanation": "Porque estos frameworks proporcionan una estructura organizada, gestión de rutas, controladores y herramientas de acceso a base de datos, facilitando toda la lógica del servidor."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

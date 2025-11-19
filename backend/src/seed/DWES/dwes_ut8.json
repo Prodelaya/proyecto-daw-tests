@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DWES",
+      "name": "Dewsarrollo Web en Entorno Servidor",
+      "topics": [
+        {
+          "number": 8,
+          "title": "Aplicaciones web híbridas y repositorios de información",
+          "questions": [
+            {
+              "text": "Una empresa de software quiere lanzar una aplicación para iOS y Android lo más rápido posible, aprovechando el conocimiento en HTML, CSS y JavaScript de su equipo web. ¿Qué tipo de aplicación deberían desarrollar?",
+              "options": [
+                "Una aplicación nativa para cada sistema",
+                "Un repositorio de paquetes",
+                "Una aplicación web híbrida",
+                "Un repositorio de control de versiones"
+              ],
+              "correctAnswer": "Una aplicación web híbrida",
+              "explanation": ""
+            },
+            {
+              "text": "¿Cuál es la característica principal que define a una aplicación web híbrida?",
+              "options": [
+                "Se desarrolla solo con lenguajes nativos (Swift o Kotlin)",
+                "Funciona únicamente en servidores web",
+                "Se desarrolla con tecnologías web (HTML, CSS) y se empaqueta en un contenedor nativo",
+                "Es un tipo de repositorio de información"
+              ],
+              "correctAnswer": "Se desarrolla con tecnologías web (HTML, CSS) y se empaqueta en un contenedor nativo",
+              "explanation": ""
+            },
+            {
+              "text": "Tu equipo está desarrollando una app híbrida y necesita que la aplicación pueda usar la cámara del teléfono. ¿Cómo se logra esta funcionalidad?",
+              "options": [
+                "Accediendo directamente al hardware, lo cual es imposible en una app híbrida",
+                "Usando solo código HTML y CSS",
+                "Usando un repositorio de datos como Data.gov",
+                "Mediante APIs y plugins específicos (como los de Apache Cordova) que acceden a características nativas"
+              ],
+              "correctAnswer": "Mediante APIs y plugins específicos (como los de Apache Cordova) que acceden a características nativas",
+              "explanation": ""
+            },
+            {
+              "text": "¿Cuál es uno de los objetivos clave o ventajas de negocio al elegir un enfoque de desarrollo híbrido?",
+              "options": [
+                "Mayor seguridad, ya que el código es HTML",
+                "Fomenta la colaboración y el intercambio de conocimientos",
+                "Reducción del tiempo de desarrollo y los costos",
+                "Rendimiento siempre superior al de las aplicaciones nativas"
+              ],
+              "correctAnswer": "Reducción del tiempo de desarrollo y los costos",
+              "explanation": ""
+            },
+            {
+              "text": "¿Cuál de las siguientes herramientas se menciona como un marco de trabajo que utiliza React para desarrollar aplicaciones híbridas?",
+              "options": [
+                "Apache Cordova",
+                "React Native",
+                "Ionic Framework",
+                "GitHub"
+              ],
+              "correctAnswer": "React Native",
+              "explanation": ""
+            },
+            {
+              "text": "Un equipo de desarrollo distribuido geográficamente necesita un sistema centralizado para gestionar el código fuente de su proyecto, ver el historial de cambios y colaborar. ¿Qué están utilizando?",
+              "options": [
+                "Un framework híbrido (como Ionic)",
+                "Una API de geolocalización",
+                "Un repositorio de control de versiones (como Git en GitHub)",
+                "Un repositorio de paquetes (como npm)"
+              ],
+              "correctAnswer": "Un repositorio de control de versiones (como Git en GitHub)",
+              "explanation": ""
+            },
+            {
+              "text": "Un desarrollador de Python necesita usar una biblioteca específica para su proyecto. Es probable que la descargue desde un sistema como PyPI. ¿Qué tipo de repositorio es PyPI?",
+              "options": [
+                "Un repositorio de aplicaciones híbridas",
+                "Un repositorio de paquetes",
+                "Un repositorio de datos",
+                "Un repositorio de control de versiones"
+              ],
+              "correctAnswer": "Un repositorio de paquetes",
+              "explanation": ""
+            },
+            {
+              "text": "Un repositorio de información como Data.gov, que almacena grandes volúmenes de datos, ¿a qué categoría pertenece?",
+              "options": [
+                "Repositorio de aplicaciones híbridas",
+                "Repositorio de control de versiones",
+                "Repositorio de paquetes",
+                "Repositorio de datos"
+              ],
+              "correctAnswer": "Repositorio de datos",
+              "explanation": ""
+            },
+            {
+              "text": "¿Cuál es uno de los objetivos genéricos de un repositorio, como se menciona en el texto?",
+              "options": [
+                "Preservar y garantizar la integridad de los datos a lo largo del tiempo",
+                "Acceder a las características nativas del dispositivo",
+                "Reducir los costos de desarrollo de aplicaciones móviles",
+                "Empaquetar código HTML en un contenedor nativo"
+              ],
+              "correctAnswer": "Preservar y garantizar la integridad de los datos a lo largo del tiempo",
+              "explanation": ""
+            },
+            {
+              "text": "Un programador está construyendo una nueva aplicación web y, para la función de inicio de sesión, decide usar una biblioteca de autenticación ya existente y probada. ¿Qué enfoque estratégico está aplicando?",
+              "options": [
+                "Desarrollo de una aplicación híbrida",
+                "Uso de un repositorio de paquetes",
+                "Reutilización de código",
+                "Creación de un repositorio a medida"
+              ],
+              "correctAnswer": "Reutilización de código",
+              "explanation": ""
+            },
+            {
+              "text": "¿Cuál es uno de los principales beneficios de la reutilización de código?",
+              "options": [
+                "Evita la necesidad de documentar cambios",
+                "Asegura que el código será compatible con cualquier proyecto",
+                "Garantiza que no habrá problemas de licencia",
+                "Mejora de la calidad del código, puesto que los componentes reutilizados suelen estar probados y depurados"
+              ],
+              "correctAnswer": "Mejora de la calidad del código, puesto que los componentes reutilizados suelen estar probados y depurados",
+              "explanation": ""
+            },
+            {
+              "text": "Antes de reutilizar un fragmento de código de un proyecto de código abierto, ¿cuál es la primera regla legal y ética que un desarrollador debe verificar?",
+              "options": [
+                "La coherencia en el estilo de codificación",
+                "La calidad del código y si está libre de vulnerabilidades",
+                "Respetar la licencia del código (si permite el uso, si requiere atribución, etc.)",
+                "La compatibilidad de la versión del lenguaje"
+              ],
+              "correctAnswer": "Respetar la licencia del código (si permite el uso, si requiere atribución, etc.)",
+              "explanation": ""
+            },
+            {
+              "text": "Si un desarrollador realiza modificaciones significativas o adaptaciones a un código que ha reutilizado, ¿qué regla de buenas prácticas debe seguir?",
+              "options": [
+                "Usar siempre la versión más inestable",
+                "Compartir las mejoras obligatoriamente",
+                "Eliminar la atribución al autor original",
+                "Documentar estos cambios para facilitar la comprensión futura"
+              ],
+              "correctAnswer": "Documentar estos cambios para facilitar la comprensión futura",
+              "explanation": ""
+            },
+            {
+              "text": "Un desarrollador encuentra una solución a un problema en una biblioteca de código abierto que está utilizando. El texto sugiere que una buena práctica sería:",
+              "options": [
+                "Ignorar la licencia del proyecto original",
+                "Mantener la mejora en privado para tener una ventaja competitiva",
+                "Considerar compartir las mejoras con la comunidad y el proyecto original",
+                "No documentar el cambio"
+              ],
+              "correctAnswer": "Considerar compartir las mejoras con la comunidad y el proyecto original",
+              "explanation": ""
+            },
+            {
+              "text": "En el desarrollo de aplicaciones web híbridas, ¿cuál es el propósito fundamental de las APIs que proporcionan los frameworks?",
+              "options": [
+                "Gestionar el control de versiones del código",
+                "Permitir el acceso a las funcionalidades nativas del dispositivo (cámara, GPS, etc.)",
+                "Definir la interfaz de usuario con HTML y CSS",
+                "Almacenar y distribuir paquetes de software"
+              ],
+              "correctAnswer": "Permitir el acceso a las funcionalidades nativas del dispositivo (cámara, GPS, etc.)",
+              "explanation": ""
+            },
+            {
+              "text": "Un desarrollador está usando el framework Ionic. Según el texto, ¿de qué otro framework (subyacente) aprovecha Ionic las APIs para acceder a funciones nativas?",
+              "options": [
+                "PyPI",
+                "React Native",
+                "Apache Cordova",
+                "GitHub"
+              ],
+              "correctAnswer": "Apache Cordova",
+              "explanation": ""
+            },
+            {
+              "text": "¿Qué tipo de API permite a los desarrolladores interactuar con plataformas como GitHub para obtener información sobre repositorios, usuarios o commits?",
+              "options": [
+                "Una API de un repositorio de datos",
+                "Una API de un framework híbrido",
+                "Una API de un repositorio de paquetes",
+                "Una API de un repositorio de información (o de código)"
+              ],
+              "correctAnswer": "Una API de un repositorio de información (o de código)",
+              "explanation": ""
+            },
+            {
+              "text": "¿Cuál es el propósito de la API de PubMed Central (PMC), según el ejemplo del texto?",
+              "options": [
+                "Gestionar código fuente y solicitudes de pull",
+                "Proporcionar acceso a una base de datos de artículos de investigación biomédica",
+                "Desarrollar aplicaciones híbridas para iOS y Android",
+                "Almacenar paquetes de software para Python"
+              ],
+              "correctAnswer": "Proporcionar acceso a una base de datos de artículos de investigación biomédica",
+              "explanation": ""
+            },
+            {
+              "text": "Un desarrollador está construyendo una aplicación híbrida que debe mostrar una lista de artículos científicos. Decide usar la API de un repositorio externo como arXiv. ¿Qué implica este proceso?",
+              "options": [
+                "La creación de un repositorio de paquetes",
+                "La utilización de información proveniente de repositorios",
+                "La creación de un repositorio a medida",
+                "La reutilización de código ético"
+              ],
+              "correctAnswer": "La utilización de información proveniente de repositorios",
+              "explanation": ""
+            },
+            {
+              "text": "En el ejemplo de la aplicación que consume datos de arXiv, ¿cuál es el primer paso crucial que debe realizar el desarrollador?",
+              "options": [
+                "Diseñar la arquitectura del repositorio",
+                "Crear un repositorio en GitHub",
+                "Investigar y comprender el funcionamiento de la API de arXiv (endpoints, parámetros, etc.)",
+                "Instalar un framework de desarrollo híbrido como React Native"
+              ],
+              "correctAnswer": "Investigar y comprender el funcionamiento de la API de arXiv (endpoints, parámetros, etc.)",
+              "explanation": ""
+            },
+            {
+              "text": "Una aplicación híbrida obtiene metadatos y debe mostrarlos al usuario. ¿Cuál es el siguiente paso?",
+              "options": [
+                "Realizar pruebas exhaustivas de seguridad",
+                "Integrarlos y presentarlos en la aplicación usando los componentes del framework híbrido",
+                "Analizar las necesidades del proyecto",
+                "Desarrollar endpoints"
+              ],
+              "correctAnswer": "Integrarlos y presentarlos en la aplicación usando los componentes del framework híbrido",
+              "explanation": ""
+            },
+            {
+              "text": "En la app de arXiv, además del título y resumen, ¿qué otra info clave se obtiene?",
+              "options": [
+                "Enlaces directos a los documentos en PDF",
+                "El código fuente de la API",
+                "La licencia del software",
+                "Plugins de Cordova"
+              ],
+              "correctAnswer": "Enlaces directos a los documentos en PDF",
+              "explanation": ""
+            },
+            {
+              "text": "Una corporación decide crear su propio sistema completo desde cero. ¿Qué es esto?",
+              "options": [
+                "Desarrollo híbrido",
+                "Reutilización de código",
+                "Uso de repositorios",
+                "Creación de repositorios a medida"
+              ],
+              "correctAnswer": "Creación de repositorios a medida",
+              "explanation": ""
+            },
+            {
+              "text": "¿Qué se debe considerar primero antes de desarrollar un repositorio personalizado?",
+              "options": [
+                "Identificar y analizar las necesidades",
+                "Pruebas exhaustivas",
+                "Elegir tecnologías",
+                "Desarrollar la API"
+              ],
+              "correctAnswer": "Identificar y analizar las necesidades",
+              "explanation": ""
+            },
+            {
+              "text": "Al diseñar un repositorio a medida, ¿cómo debe ser el diseño?",
+              "options": [
+                "Flexible y adaptable",
+                "Dependiente de Ionic",
+                "Rígido y cerrado",
+                "Basado en GitHub"
+              ],
+              "correctAnswer": "Flexible y adaptable",
+              "explanation": ""
+            },
+            {
+              "text": "¿Cómo exponer datos a consumidores externos?",
+              "options": [
+                "Acceso directo a BD",
+                "Reutilizar Cordova",
+                "Desarrollar APIs y servicios web",
+                "Almacenar en npm"
+              ],
+              "correctAnswer": "Desarrollar APIs y servicios web",
+              "explanation": ""
+            },
+            {
+              "text": "Tras implementar un repositorio a medida, ¿qué toca?",
+              "options": [
+                "Investigar APIs",
+                "Elegir lenguaje",
+                "Analizar necesidades",
+                "Pruebas y mantenimiento"
+              ],
+              "correctAnswer": "Pruebas y mantenimiento",
+              "explanation": ""
+            },
+            {
+              "text": "Ventaja del mantenimiento en híbridas:",
+              "options": [
+                "Actualización fácil en todas plataformas",
+                "Solo mantenible por creador",
+                "Sin actualizaciones",
+                "Requiere mantenimiento separado"
+              ],
+              "correctAnswer": "Actualización fácil en todas plataformas",
+              "explanation": ""
+            },
+            {
+              "text": "¿Qué repositorio permite colaboración simultánea?",
+              "options": [
+                "Repositorio de datos",
+                "Repositorio de control de versiones",
+                "Repositorio de paquetes",
+                "Framework híbrido"
+              ],
+              "correctAnswer": "Repositorio de control de versiones",
+              "explanation": ""
+            },
+            {
+              "text": "Regla clave de reutilización de código:",
+              "options": [
+                "Compartir mejoras",
+                "Usar versiones estables",
+                "Respetar privacidad",
+                "Atribuir autor"
+              ],
+              "correctAnswer": "Usar versiones estables",
+              "explanation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
