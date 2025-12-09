@@ -1,0 +1,456 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 1,
+          "title": "final",
+          "questions": [
+{
+	"text": "¿Cuál es el componente encargado de la ejecución de las aplicaciones .NET, gestionando la memoria y la seguridad?",
+	"options": [
+		"Visual Studio",
+		"Windows Forms",
+		"SQL Server",
+		"Common Language Runtime (CLR)"
+	],
+	"correctAnswer": "Common Language Runtime (CLR)",
+	"explanation": "El **Common Language Runtime (CLR)** es el corazón de la plataforma .NET. Es el entorno de ejecución que se encarga de servicios esenciales como la compilación 'Just-In-Time' (JIT), la gestión de memoria (a través del 'Garbage Collector' o recolector de basura), el manejo de excepciones y la seguridad del código."
+},
+{
+	"text": "¿Qué mecanismo utiliza .NET para liberar automáticamente la memoria de los objetos que ya no se utilizan?",
+	"options": [
+		"El compilador JIT",
+		"El depurador",
+		"El Recolector de Basura (Garbage Collector)",
+		"El explorador de soluciones"
+	],
+	"correctAnswer": "El Recolector de Basura (Garbage Collector)",
+	"explanation": "El **Recolector de Basura (Garbage Collector o GC)** es el encargado de la gestión automática de la memoria en .NET. Periódicamente, identifica los objetos que ya no tienen ninguna referencia y libera el espacio de memoria que ocupan."
+},
+{
+	"text": "En Visual Studio, ¿cuál es la diferencia principal entre una 'Solución' y un 'Proyecto'?",
+	"options": [
+		"No hay diferencia, son sinónimos.",
+		"Una solución es un contenedor que agrupa uno o varios proyectos relacionados.",
+		"La solución es solo para bases de datos y el proyecto para código.",
+		"Un proyecto contiene múltiples soluciones."
+	],
+	"correctAnswer": "Una solución es un contenedor que agrupa uno o varios proyectos relacionados.",
+	"explanation": "Una **Solución (.sln)** es el contenedor lógico principal que organiza y agrupa uno o más **Proyectos** relacionados. Un proyecto es la unidad que contiene el código fuente, recursos y archivos necesarios para construir un ensamblado o aplicación."
+},
+{
+	"text": "¿Qué funcionalidad del editor de código de Visual Studio ofrece sugerencias de autocompletado inteligentes mientras escribes?",
+	"options": [
+		"NuGet",
+		"Debugger",
+		"CodeLens",
+		"IntelliSense"
+	],
+	"correctAnswer": "IntelliSense",
+	"explanation": "**IntelliSense** es el nombre general dado a las ayudas del editor de código de Visual Studio, que proporciona autocompletado inteligente de código, información de parámetros y ayuda de contexto mientras se escribe."
+},
+{
+	"text": "¿En qué archivo de un proyecto Windows Forms se encuentra el código generado automáticamente por el diseñador visual (como la posición de los botones)?",
+	"options": [
+		"Program.cs",
+		"Form1.Designer.cs",
+		"App.config",
+		"Form1.cs"
+	],
+	"correctAnswer": "Form1.Designer.cs",
+	"explanation": "El archivo **.Designer.cs** contiene la clase parcial donde se genera automáticamente el código de inicialización de los componentes visuales (posiciones, tamaños, etc.) definidos en el diseñador gráfico de Visual Studio. Esto separa el diseño del código de lógica (`Form1.cs`)."
+},
+{
+	"text": "¿Qué propiedad permite que un control mantenga una distancia constante con los bordes del formulario al redimensionar la ventana?",
+	"options": [
+		"Location",
+		"Padding",
+		"Anchor",
+		"Dock"
+	],
+	"correctAnswer": "Anchor",
+	"explanation": "La propiedad **Anchor** (anclaje) especifica a qué bordes del contenedor (el formulario) está vinculado un control. Cuando el formulario cambia de tamaño, el control mantiene la distancia especificada con esos bordes anclados. La propiedad **Dock**, en cambio, hace que el control se ajuste y llene completamente uno de los bordes o el centro."
+},
+{
+	"text": "¿Qué significa XAML?",
+	"options": [
+		"XML Application Management Language",
+		"Xamarin Android Markup Language",
+		"Extensible Application Markup Language",
+		"Extended Abstract Model Logic"
+	],
+	"correctAnswer": "Extensible Application Markup Language",
+	"explanation": "**XAML** (Extensible Application Markup Language) es un lenguaje declarativo basado en XML que se utiliza en tecnologías como WPF, UWP y Xamarin.Forms para definir la interfaz de usuario de forma visual, separándola de la lógica de negocio."
+},
+{
+	"text": "En la arquitectura MVVM utilizada con XAML, ¿qué componente actúa como intermediario entre la Vista y el Modelo?",
+	"options": [
+		"La Base de Datos",
+		"El Controlador",
+		"El Code-Behind",
+		"El ViewModel"
+	],
+	"correctAnswer": "El ViewModel",
+	"explanation": "En el patron **MVVM** (Model-View-ViewModel), el **ViewModel** es la capa que expone los datos y comandos del Modelo de forma que la Vista (interfaz de usuario) pueda acceder a ellos fácilmente a través de un mecanismo llamado 'Data Binding' (enlace de datos). Image of MVVM Architecture Diagram"
+},
+{
+	"text": "Para crear un componente visual personalizado compuesto por varios controles existentes (ej: un Label + un TextBox), ¿de qué clase se suele heredar?",
+	"options": [
+		"Form",
+		"UserControl",
+		"Button",
+		"Component"
+	],
+	"correctAnswer": "UserControl",
+	"explanation": "Un **UserControl** (Control de Usuario) es la clase base ideal en Windows Forms o WPF para encapsular un grupo de controles existentes en una única unidad reutilizable. Esto facilita la creación de componentes complejos y modulares."
+},
+{
+	"text": "¿Qué propiedad es fundamental exponer en un control personalizado para permitir la configuración de su comportamiento desde el formulario principal?",
+	"options": [
+		"Variables privadas",
+		"Comentarios XML",
+		"Propiedades públicas (get/set)",
+		"Métodos estáticos"
+	],
+	"correctAnswer": "Propiedades públicas (get/set)",
+	"explanation": "Las **Propiedades públicas (get/set)** son el mecanismo estándar en la programación orientada a objetos para permitir que el código externo (como el formulario principal) lea o modifique los datos internos o el comportamiento de un componente de forma controlada y segura."
+},
+{
+	"text": "Según las heurísticas de Nielsen, ¿qué principio se viola si un usuario no sabe si el sistema está guardando un archivo o si se ha bloqueado?",
+	"options": [
+		"Visibilidad del estado del sistema",
+		"Estética minimalista",
+		"Flexibilidad de uso",
+		"Prevención de errores"
+	],
+	"correctAnswer": "Visibilidad del estado del sistema",
+	"explanation": "El primer principio de Nielsen es la **Visibilidad del estado del sistema**. El usuario debe ser informado en todo momento de lo que está sucediendo (por ejemplo, con barras de progreso, mensajes de 'Guardando', o indicadores de actividad) para saber que la acción se está realizando y que la aplicación no está bloqueada."
+},
+{
+	"text": "¿Qué es el Diseño Centrado en el Usuario (DCU)?",
+	"options": [
+		"Un estándar de codificación en C",
+		"Un diseño que prioriza la estética sobre la funcionalidad.",
+		"Una técnica para diseñar bases de datos.",
+		"Una metodología que involucra a los usuarios en todas las etapas del desarrollo."
+	],
+	"correctAnswer": "Una metodología que involucra a los usuarios en todas las etapas del desarrollo.",
+	"explanation": "El **Diseño Centrado en el Usuario (DCU o UCD)** es una metodología de desarrollo que se enfoca en entender las necesidades, deseos y limitaciones de los usuarios finales en cada fase, desde la conceptualización hasta la prueba, asegurando que el producto sea usable y útil."
+},
+{
+	"text": "¿Qué riesgo de seguridad se evita principalmente al utilizar consultas parametrizadas o un ORM como Entity Framework?",
+	"options": [
+		"Phishing",
+		"Inyección SQL",
+		"Ataques DDoS",
+		"Fugas de memoria"
+	],
+	"correctAnswer": "Inyección SQL",
+	"explanation": "La **Inyección SQL** ocurre cuando un atacante introduce código SQL malicioso a través de campos de entrada. Las consultas parametrizadas y los ORMs (como Entity Framework) separan de forma segura los comandos SQL de los datos del usuario, evitando que el texto de entrada se interprete como código ejecutable."
+},
+{
+	"text": "¿Qué clase de ADO.NET se utiliza para mantener una conexión abierta con una base de datos SQL Server?",
+	"options": [
+		"SqlCommand",
+		"SqlConnection",
+		"SqlDataReader",
+		"DataSet"
+	],
+	"correctAnswer": "SqlConnection",
+	"explanation": "La clase **SqlConnection** es fundamental en ADO.NET para establecer y gestionar la conexión con una base de datos SQL Server. Esta conexión se debe abrir, utilizar y cerrar de forma explícita o mediante la sentencia `using`."
+},
+{
+	"text": "¿Qué extensión tienen los archivos de definición de informes locales en el entorno de Visual Studio?",
+	"options": [
+		".rdlc",
+		".pdf",
+		".docx",
+		".xml"
+	],
+	"correctAnswer": ".rdlc",
+	"explanation": "La extensión **.rdlc** (Report Definition Language Client-side) se utiliza para los archivos de definición de informes que se procesan localmente dentro de una aplicación .NET, a diferencia de los archivos `.rdl` que se utilizan en SQL Server Reporting Services (SSRS) para informes en servidor."
+},
+{
+	"text": "¿Qué control de Windows Forms se utiliza para incrustar y visualizar un informe .rdlc dentro de la aplicación?",
+	"options": [
+		"DataGridView",
+		"PrintPreviewDialog",
+		"ReportViewer",
+		"ChartControl"
+	],
+	"correctAnswer": "ReportViewer",
+	"explanation": "El control **ReportViewer** de Microsoft es el componente específico diseñado para cargar, procesar y mostrar informes con extensión **.rdlc** directamente dentro de aplicaciones de escritorio (Windows Forms o WPF)."
+},
+{
+	"text": "¿Qué herramienta permite generar documentación técnica (como HTML) automáticamente a partir de los comentarios en el código fuente (estilo Javadoc)?",
+	"options": [
+		"Bugzilla",
+		"NUnit",
+		"Doxygen",
+		"Git"
+	],
+	"correctAnswer": "Doxygen",
+	"explanation": "**Doxygen** es una herramienta popular que parsea el código fuente (incluyendo los comentarios especiales) para generar automáticamente documentación técnica en múltiples formatos, como HTML, RTF o man pages. Es similar a Javadoc, pero para lenguajes como C++, C# y otros."
+},
+{
+	"text": "¿Cuál es el objetivo principal de la 'Guía de Instalación' en la documentación técnica?",
+	"options": [
+		"Listar los errores conocidos.",
+		"Definir los requisitos del cliente.",
+		"Detallar los pasos para configurar el entorno y desplegar el software.",
+		"Explicar cómo usar la aplicación al usuario final."
+	],
+	"correctAnswer": "Detallar los pasos para configurar el entorno y desplegar el software.",
+	"explanation": "La **Guía de Instalación** tiene como finalidad principal proporcionar instrucciones claras y secuenciales para que un técnico o administrador pueda **instalar, configurar el entorno y desplegar** (poner en funcionamiento) el software en el sistema destino."
+},
+{
+	"text": "Un desarrollador prueba un método de cálculo de IVA de forma aislada antes de integrarlo. ¿Qué tipo de prueba es?",
+	"options": [
+		"Prueba de sistema",
+		"Prueba de integración",
+		"Prueba de aceptación",
+		"Prueba unitaria"
+	],
+	"correctAnswer": "Prueba unitaria",
+	"explanation": "Una **Prueba unitaria** es aquella que verifica la funcionalidad de la unidad más pequeña y aislada del código (una clase o un método), sin dependencias externas. Esto garantiza que cada componente individual funcione correctamente antes de la integración."
+},
+{
+	"text": "¿Qué herramienta es un estándar para realizar pruebas unitarias en el entorno .NET?",
+	"options": [
+		"Selenium",
+		"JUnit",
+		"NUnit",
+		"Appium"
+	],
+	"correctAnswer": "NUnit",
+	"explanation": "**NUnit** es uno de los frameworks de testing unitario más populares y estándar en el ecosistema .NET. Proporciona la estructura y las herramientas necesarias para escribir y ejecutar pruebas unitarias de forma eficiente. JUnit es la herramienta equivalente en el entorno Java."
+},
+{
+	"text": "¿Qué característica del lenguaje C# permite definir métodos con el mismo nombre pero diferentes parámetros dentro de una misma clase?",
+	"options": [
+		"Polimorfismo",
+		"Encapsulamiento",
+		"Herencia",
+		"Sobrecarga (Overloading)"
+	],
+	"correctAnswer": "Sobrecarga (Overloading)",
+	"explanation": "La **Sobrecarga (Method Overloading)** es una forma de polimorfismo que permite crear múltiples métodos con el mismo nombre, siempre y cuando su **firma** (número y/o tipo de sus parámetros) sea diferente. Esto mejora la legibilidad y flexibilidad del código."
+},
+{
+	"text": "En el framework .NET, ¿qué es el JIT (Just-In-Time)?",
+	"options": [
+		"Un depurador de código.",
+		"Una biblioteca de clases base.",
+		"Un compilador que traduce el código intermedio (MSIL) a código máquina nativo en tiempo de ejecución.",
+		"Una herramienta para diseñar interfaces."
+	],
+	"correctAnswer": "Un compilador que traduce el código intermedio (MSIL) a código máquina nativo en tiempo de ejecución.",
+	"explanation": "El compilador **JIT (Just-In-Time)** forma parte del CLR. Su función es tomar el código intermedio llamado **MSIL** (Microsoft Intermediate Language) —generado previamente por el compilador de C#— y traducirlo a código máquina específico del sistema operativo en el momento en que se necesita ejecutar, lo que optimiza el rendimiento."
+},
+{
+	"text": "¿Para qué sirve la herramienta 'Administrador de paquetes NuGet' en Visual Studio?",
+	"options": [
+		"Para crear diagramas de clases.",
+		"Para descargar, instalar y gestionar bibliotecas de terceros y dependencias del proyecto.",
+		"Para diseñar la base de datos.",
+		"Para compilar el código más rápido."
+	],
+	"correctAnswer": "Para descargar, instalar y gestionar bibliotecas de terceros y dependencias del proyecto.",
+	"explanation": "**NuGet** es el gestor de paquetes oficial para .NET. Permite a los desarrolladores buscar, instalar, actualizar y eliminar librerías externas (dependencias) de forma centralizada en sus proyectos de Visual Studio."
+},
+{
+	"text": "Durante la depuración, ¿qué permite hacer un 'Breakpoint' (Punto de interrupción)?",
+	"options": [
+		"Terminar la aplicación inmediatamente.",
+		"Pausar la ejecución del programa en una línea específica para inspeccionar el estado.",
+		"Saltar las líneas de código con errores.",
+		"Generar un informe de rendimiento."
+	],
+	"correctAnswer": "Pausar la ejecución del programa en una línea específica para inspeccionar el estado.",
+	"explanation": "Un **Breakpoint** es una marca que se coloca en una línea de código. Cuando el depurador (debugger) alcanza esa línea, la ejecución del programa se **pausa**, permitiendo al desarrollador examinar el valor de las variables y el flujo de control del programa para diagnosticar problemas."
+},
+{
+	"text": "¿Cuál es la diferencia entre las propiedades Visible y Enabled en un control?",
+	"options": [
+		"Visible borra el control de la memoria.",
+		"Visible oculta el control, mientras que Enabled lo muestra pero impide la interacción (grisáceo).",
+		"Visible cambia el color y Enabled el tamaño.",
+		"No hay diferencia."
+	],
+	"correctAnswer": "Visible oculta el control, mientras que Enabled lo muestra pero impide la interacción (grisáceo).",
+	"explanation": "La propiedad **Visible** determina si el control se muestra en la interfaz de usuario. Si es `false`, no ocupa espacio. La propiedad **Enabled** determina si el usuario puede interactuar con él; si es `false`, el control se suele ver atenuado, pero sigue siendo visible."
+},
+{
+	"text": "¿Qué evento se dispara por defecto cuando un usuario pulsa un botón (Button) en Windows Forms?",
+	"options": [
+		"KeyPress",
+		"MouseHover",
+		"Click",
+		"Load"
+	],
+	"correctAnswer": "Click",
+	"explanation": "El evento más común y fundamental asociado a la interacción con un control **Button** en Windows Forms es el evento **Click**, que se dispara cuando el botón es pulsado y soltado por el usuario."
+},
+{
+	"text": "En XAML, ¿cuál es la diferencia principal entre un StackPanel y un Grid?",
+	"options": [
+		"El StackPanel solo admite texto.",
+		"El StackPanel organiza elementos secuencialmente (fila o columna), mientras que el Grid usa una matriz flexible de celdas.",
+		"El Grid no permite redimensionar elementos.",
+		"El Grid apila elementos y el StackPanel los organiza en filas y columnas."
+	],
+	"correctAnswer": "El StackPanel organiza elementos secuencialmente (fila o columna), mientras que el Grid usa una matriz flexible de celdas.",
+	"explanation": "El **StackPanel** es un panel de diseño simple que coloca los elementos uno tras otro (apilados) en una sola dirección (horizontal o vertical). El **Grid** es un panel más flexible que organiza los elementos en filas y columnas definidas, similar a una tabla HTML."
+},
+{
+	"text": "¿Qué característica de XAML permite definir la apariencia visual de múltiples controles en un solo lugar (similar a CSS en web)?",
+	"options": [
+		"Styles (Estilos) y Resources",
+		"Triggers",
+		"Data Binding",
+		"Code-behind"
+	],
+	"correctAnswer": "Styles (Estilos) y Resources",
+	"explanation": "Los **Styles (Estilos)** en XAML se definen en la sección **Resources** (Recursos) del control, ventana o aplicación. Permiten establecer un conjunto de propiedades visuales (color, fuente, plantillas) para ser aplicadas consistentemente a múltiples controles, de manera similar a cómo funciona CSS en el desarrollo web."
+},
+{
+	"text": "¿Qué ventaja ofrece la 'Composición' frente a la 'Herencia' al crear controles personalizados?",
+	"options": [
+		"Facilita la creación de controles complejos combinando funcionalidades de varios controles existentes.",
+		"Permite modificar el comportamiento base de un solo control.",
+		"Requiere menos código siempre.",
+		"Es el único método soportado por Visual Studio."
+	],
+	"correctAnswer": "Facilita la creación de controles complejos combinando funcionalidades de varios controles existentes.",
+	"explanation": "La **Composición** (utilizar instancias de otras clases/controles) es generalmente preferida sobre la **Herencia** para crear controles complejos, ya que permite combinar funcionalidades de múltiples controles preexistentes de manera flexible y evita los problemas asociados con heredar de clases que no fueron diseñadas para ello."
+},
+{
+	"text": "Si queremos que un control personalizado valide que solo se introduzcan números, ¿qué método del control TextBox deberíamos sobrescribir o qué evento manejar?",
+	"options": [
+		"OnKeyPress",
+		"OnClick",
+		"OnResize",
+		"OnPaint"
+	],
+	"correctAnswer": "OnKeyPress",
+	"explanation": "El evento **KeyPress** (o su método sobrescribible `OnKeyPress`) se dispara inmediatamente después de que una tecla es presionada y antes de que el carácter se muestre en el control. Esto permite al desarrollador interceptar la tecla pulsada y, si no es un número, **suprimir** la entrada de ese carácter, realizando la validación."
+},
+{
+	"text": "¿Qué pauta de accesibilidad beneficia específicamente a usuarios con daltonismo o dificultades visuales?",
+	"options": [
+		"Usar solo iconos sin texto.",
+		"Usar fuentes muy decorativas.",
+		"Reproducir audio automáticamente al entrar.",
+		"Garantizar un alto contraste entre el texto y el fondo, y no usar el color como único medio de información."
+	],
+	"correctAnswer": "Garantizar un alto contraste entre el texto y el fondo, y no usar el color como único medio de información.",
+	"explanation": "Las pautas de accesibilidad (como las WCAG) exigen un **alto contraste** para que el texto sea legible para personas con baja visión. Además, se debe evitar usar solo el color (por ejemplo, el rojo para un error) para transmitir información, ya que es incomprensible para personas con **daltonismo**. Se deben usar etiquetas, iconos o patrones además del color."
+},
+{
+	"text": "¿En qué consiste la técnica de creación de 'Personas' en el Diseño Centrado en el Usuario?",
+	"options": [
+		"Crear perfiles ficticios basados en datos reales para representar a los diferentes tipos de usuarios.",
+		"Asignar roles de seguridad en la base de datos.",
+		"Diseñar el organigrama de la empresa cliente.",
+		"Contratar a gente real para probar el software."
+	],
+	"correctAnswer": "Crear perfiles ficticios basados en datos reales para representar a los diferentes tipos de usuarios.",
+	"explanation": "Una **Persona** es un arquetipo de usuario ficticio, detallado y con nombre, creado a partir de la investigación de usuarios reales. Ayuda al equipo de desarrollo a centrarse en las necesidades específicas y objetivos de un grupo de usuarios clave durante el proceso de diseño (**DCU**)."
+},
+{
+	"text": "¿Qué es un ORM (Object-Relational Mapping) como Entity Framework?",
+	"options": [
+		"Un lenguaje de consultas SQL avanzado.",
+		"Un servidor de bases de datos.",
+		"Un tipo de base de datos NoSQL.",
+		"Una técnica que mapea las tablas de la base de datos a objetos (clases) en el código para facilitar la manipulación de datos."
+	],
+	"correctAnswer": "Una técnica que mapea las tablas de la base de datos a objetos (clases) en el código para facilitar la manipulación de datos.",
+	"explanation": "Un **ORM (Object-Relational Mapper)**, como Entity Framework en .NET, actúa como un traductor entre el mundo orientado a objetos de C# y el mundo relacional de la base de datos. Permite a los desarrolladores interactuar con los datos usando clases y métodos de C# en lugar de escribir consultas SQL directamente."
+},
+{
+	"text": "En el contexto de SQL y bases de datos, ¿qué instrucción DML se utiliza para modificar registros existentes?",
+	"options": [
+		"UPDATE",
+		"DROP",
+		"INSERT",
+		"SELECT"
+	],
+	"correctAnswer": "UPDATE",
+	"explanation": "**UPDATE** es una instrucción DML (Data Manipulation Language) que se utiliza para cambiar los valores de los datos en una o más filas de una tabla existente. **INSERT** añade filas, **SELECT** recupera datos, y **DROP** (DDL) elimina objetos de la base de datos."
+},
+{
+	"text": "¿Qué permite hacer un informe 'parametrizado'?",
+	"options": [
+		"Cambiar el color de fondo aleatoriamente.",
+		"Filtrar los datos del informe basándose en valores de entrada (como fechas o categorías) proporcionados por el usuario.",
+		"Imprimir el informe automáticamente al abrir la app.",
+		"Exportar solo a Excel."
+	],
+	"correctAnswer": "Filtrar los datos del informe basándose en valores de entrada (como fechas o categorías) proporcionados por el usuario.",
+	"explanation": "Un informe **parametrizado** es aquel que acepta uno o más **parámetros** (valores definidos por el usuario, como un rango de fechas o un ID de cliente) que se utilizan para limitar o filtrar los datos que se muestran en el informe. Esto permite generar informes dinámicos y específicos según las necesidades del usuario."
+},
+{
+	"text": "Al generar un informe desde C#, ¿qué objeto se utiliza para llenar el conjunto de datos (DataSet) con la información de la base de datos?",
+	"options": [
+		"SqlDataAdapter",
+		"SqlConnection",
+		"ReportViewer",
+		"SqlCommandBuilder"
+	],
+	"correctAnswer": "SqlDataAdapter",
+	"explanation": "El **SqlDataAdapter** (o el adaptador correspondiente al motor de base de datos) es el objeto que actúa como puente entre la base de datos y el **DataSet** (conjunto de datos desconectado). Su método `Fill()` ejecuta la consulta SQL y carga los resultados en la memoria del DataSet."
+},
+{
+	"text": "¿Qué tipo de mantenimiento de software se enfoca en adaptar la aplicación a cambios en el entorno (ej: nueva versión de Windows o cambio de servidor)?",
+	"options": [
+		"Preventivo",
+		"Adaptativo",
+		"Perfectivo",
+		"Correctivo"
+	],
+	"correctAnswer": "Adaptativo",
+	"explanation": "El **Mantenimiento Adaptativo** es el proceso de modificar el software para mantener su operatividad frente a los cambios en el entorno externo (sistema operativo, hardware, normativas legales, etc.) sin cambiar la funcionalidad principal del producto."
+},
+{
+	"text": "¿Por qué es crucial integrar la documentación en un sistema de control de versiones (como Git)?",
+	"options": [
+		"Para mantener el historial de cambios y asegurar que la documentación evolucione sincronizada con el código.",
+		"Para que ocupe menos espacio.",
+		"Para evitar que los usuarios la lean.",
+		"Para encriptar el contenido."
+	],
+	"correctAnswer": "Para mantener el historial de cambios y asegurar que la documentación evolucione sincronizada con el código.",
+	"explanation": "Al usar un sistema de control de versiones como **Git**, la documentación se versiona junto con el código fuente. Esto permite rastrear quién hizo qué cambio y, lo más importante, garantiza que siempre haya una versión de la documentación que corresponda **exactamente** con la versión del código que se está usando o desplegando."
+},
+{
+	"text": "¿Qué es una prueba de 'Caja Negra'?",
+	"options": [
+		"Una prueba donde se analiza el código fuente línea por línea.",
+		"Una prueba realizada solo de noche.",
+		"Una prueba de seguridad informática.",
+		"Una prueba funcional donde se evalúan las entradas y salidas sin conocer la estructura interna del código."
+	],
+	"correctAnswer": "Una prueba funcional donde se evalúan las entradas y salidas sin conocer la estructura interna del código.",
+	"explanation": "Las pruebas de **Caja Negra** se centran en la funcionalidad externa del software. Se simula la interacción del usuario sin tener conocimiento del código fuente interno, validando si las entradas producen las salidas esperadas según las especificaciones. Lo opuesto es la prueba de 'Caja Blanca', que sí revisa el código."
+},
+{
+	"text": "¿Cuál es el objetivo principal de las 'Pruebas de Regresión'?",
+	"options": [
+		"Diseñar la interfaz de usuario.",
+		"Probar la carga máxima del servidor.",
+		"Asegurar que los cambios o correcciones recientes no han introducido nuevos errores en funcionalidades que ya funcionaban.",
+		"Verificar la primera versión del software."
+	],
+	"correctAnswer": "Asegurar que los cambios o correcciones recientes no han introducido nuevos errores en funcionalidades que ya funcionaban.",
+	"explanation": "Las **Pruebas de Regresión** son fundamentales para la estabilidad del software. Consisten en re-ejecutar pruebas ya superadas después de realizar una modificación (corrección de un bug o adición de una característica) para garantizar que el cambio no haya provocado un 'efecto secundario' negativo en el código ya existente."
+}
+        ]
+        }
+      ]
+    }
+  ]
+}
