@@ -1,0 +1,456 @@
+{
+    "subjects": [
+        {
+            "code": "PRL",
+            "name": "Prevención de Riesgos Laborales",
+            "topics": [
+                {
+                    "number": 1,
+                    "title": "TEST FINAL PRL",
+                    "questions": [
+                        {
+                            "text": "Analizando el caso de Lucía, que no tiene lesiones físicas, pero sufre insomnio y aislamiento, ¿cómo define la OMS su estado de salud?",
+                            "options": [
+                                "Estrés común no laboral.",
+                                "Enfermedad profesional en grado leve.",
+                                "Falta de salud completa, ya que esta incluye el bienestar físico, mental y social.",
+                                "Saludable, pues no tiene enfermedades diagnosticadas."
+                            ],
+                            "correctAnswer": "Falta de salud completa, ya que esta incluye el bienestar físico, mental y social.",
+                            "explanation": "La OMS define la salud como un estado de completo bienestar en las tres esferas: física, mental y social, no solo la ausencia de afecciones."
+                        },
+                        {
+                            "text": "En prevención, usamos una fórmula mental para valorar si un riesgo es tolerable o no. ¿Cuál es?",
+                            "options": [
+                                "Riesgo = Peligro + Exposición",
+                                "Riesgo = Daño / Tiempo",
+                                "Daño + Tiempo",
+                                "Probabilidad x Gravedad."
+                            ],
+                            "correctAnswer": "Probabilidad x Gravedad.",
+                            "explanation": "Es la ecuación básica para evaluar un riesgo: medir la probabilidad de que ocurra por la severidad del daño que causaría."
+                        },
+                        {
+                            "text": "Un contable tiene un accidente de coche yendo de su casa al trabajo por el camino habitual. ¿Cómo se clasifica legalmente?",
+                            "options": [
+                                "Contingencia no profesional.",
+                                "Enfermedad común.",
+                                "Accidente in itinere.",
+                                "Accidente in misión."
+                            ],
+                            "correctAnswer": "Accidente in itinere.",
+                            "explanation": "Ocurre en el trayecto de ida o vuelta al trabajo ('in itinere'), siempre que no haya desvíos personales."
+                        },
+                        {
+                            "text": "¿Cuál es la diferencia legal clave entre accidente de trabajo y enfermedad profesional?",
+                            "options": [
+                                "No hay diferencia, son sinónimos.",
+                                "La enfermedad profesional no da derecho a baja.",
+                                "El accidente ocurre en la oficina y la enfermedad en casa.",
+                                "El accidente es súbito; la enfermedad es lenta, progresiva y debe estar listada en el cuadro oficial."
+                            ],
+                            "correctAnswer": "El accidente es súbito; la enfermedad es lenta, progresiva y debe estar listada en el cuadro oficial.",
+                            "explanation": "La instantaneidad caracteriza al accidente, mientras que la enfermedad requiere un desarrollo lento y estar tipificada legalmente."
+                        },
+                        {
+                            "text": "Según los Principios de la Acción Preventiva, ¿cuál es el primer paso obligatorio ante un riesgo?",
+                            "options": [
+                                "Evaluarlo.",
+                                "Dar formación sobre él.",
+                                "Protegerse con EPIs.",
+                                "Evitar el riesgo, eliminarlo si es posible."
+                            ],
+                            "correctAnswer": "Evitar el riesgo, eliminarlo si es posible.",
+                            "explanation": "Antes de evaluar o proteger, la ley obliga a intentar eliminar el riesgo por completo (principio de evitación)."
+                        },
+                        {
+                            "text": "¿Qué organismo público vigila el cumplimiento de la ley y sanciona a las empresas?",
+                            "options": [
+                                "La Inspección de Trabajo y Seguridad Social.",
+                                "El sindicato.",
+                                "La Mutua.",
+                                "El INSST."
+                            ],
+                            "correctAnswer": "La Inspección de Trabajo y Seguridad Social.",
+                            "explanation": "Es el cuerpo del Estado encargado de vigilar, levantar actas de infracción y proponer sanciones."
+                        },
+                        {
+                            "text": "Si una empresa incumple las normas y pone en peligro grave la vida de los trabajadores, ¿qué tipo de responsabilidad implica incluso penas de cárcel?",
+                            "options": [
+                                "Responsabilidad Penal.",
+                                "Responsabilidad Civil.",
+                                "Responsabilidad Social Corporativa.",
+                                "Responsabilidad Administrativa."
+                            ],
+                            "correctAnswer": "Responsabilidad Penal.",
+                            "explanation": "Poner en peligro grave la vida de los trabajadores puede constituir un delito contra la seguridad y salud."
+                        },
+                        {
+                            "text": "¿Qué incluye el concepto de condiciones de seguridad en un lugar de trabajo?",
+                            "options": [
+                                "Factores materiales como el diseño del edificio, instalaciones, orden, limpieza y señalización.",
+                                "Solo la maquinaria pesada.",
+                                "La temperatura exclusivamente.",
+                                "El ambiente psicológico."
+                            ],
+                            "correctAnswer": "Factores materiales como el diseño del edificio, instalaciones, orden, limpieza y señalización.",
+                            "explanation": "Son los elementos físicos y estructurales que pueden causar accidentes como golpes, cortes o caídas."
+                        },
+                        {
+                            "text": "Las caídas al mismo nivel son frecuentes en oficinas. ¿Cuál es una causa principal?",
+                            "options": [
+                                "Uso de ascensores.",
+                                "Cables sueltos, suelos mojados u obstáculos en zonas de paso.",
+                                "Estanterías mal ancladas.",
+                                "Falta de arneses."
+                            ],
+                            "correctAnswer": "Cables sueltos, suelos mojados u obstáculos en zonas de paso.",
+                            "explanation": "El desorden (cajas, cables) es el principal factor de riesgo para tropezones en entornos administrativos."
+                        },
+                        {
+                            "text": "¿Qué medida preventiva evita caídas de objetos en estanterías?",
+                            "options": [
+                                "Colocar lo más pesado arriba.",
+                                "No usar estanterías.",
+                                "Colocar lo más pesado abajo y lo ligero arriba.",
+                                "Usar estanterías sin fondo."
+                            ],
+                            "correctAnswer": "Colocar lo más pesado abajo y lo ligero arriba.",
+                            "explanation": "Baja el centro de gravedad, dando estabilidad y reduciendo el riesgo al manipular cargas pesadas."
+                        },
+                        {
+                            "text": "En el riesgo eléctrico, ¿qué es un contacto indirecto?",
+                            "options": [
+                                "Tocar la carcasa de un aparato que se ha electrizado por un fallo.",
+                                "Electricidad estática.",
+                                "Tocar un enchufe mojado.",
+                                "Tocar un cable pelado."
+                            ],
+                            "correctAnswer": "Tocar la carcasa de un aparato que se ha electrizado por un fallo.",
+                            "explanation": "Contacto con partes que no deberían tener tensión (masas) pero la tienen accidentalmente."
+                        },
+                        {
+                            "text": "¿Qué provoca una mala iluminación en un puesto con pantallas?",
+                            "options": [
+                                "Ceguera súbita.",
+                                "Fatiga visual, dolores de cabeza y errores.",
+                                "Mejora la creatividad.",
+                                "Aumenta la temperatura corporal."
+                            ],
+                            "correctAnswer": "Fatiga visual, dolores de cabeza y errores.",
+                            "explanation": "Forzar la vista genera cansancio ocular y cefaleas, afectando al rendimiento."
+                        },
+                        {
+                            "text": "¿Por qué el ruido es un riesgo crítico para desarrolladores?",
+                            "options": [
+                                "Daño inmediato al tímpano.",
+                                "Impide oír alarmas.",
+                                "Interrumpe procesos cognitivos complejos y aumenta errores.",
+                                "Genera vibraciones en el teclado."
+                            ],
+                            "correctAnswer": "Interrumpe procesos cognitivos complejos y aumenta errores.",
+                            "explanation": "Rompe la concentración necesaria para programar, aumentando la tasa de fallos en el código."
+                        },
+                        {
+                            "text": "¿Qué fenómeno provoca malestar por mala ventilación?",
+                            "options": [
+                                "Síndrome del Edificio Enfermo.",
+                                "Efecto invernadero laboral.",
+                                "Fiebre del lunes.",
+                                "Hipoxia de altura."
+                            ],
+                            "correctAnswer": "Síndrome del Edificio Enfermo.",
+                            "explanation": "Conjunto de síntomas inespecíficos causados por la mala calidad del aire en edificios cerrados."
+                        },
+                        {
+                            "text": "¿Cuál es el principio clave de la ergonomía?",
+                            "options": [
+                                "El puesto debe adaptarse a la persona.",
+                                "El trabajador debe adaptarse.",
+                                "La estética es lo principal.",
+                                "Comprar lo más barato."
+                            ],
+                            "correctAnswer": "El puesto debe adaptarse a la persona.",
+                            "explanation": "Adaptar las condiciones de trabajo a las características físicas y mentales del usuario."
+                        },
+                        {
+                            "text": "¿Quién se considera trabajador usuario de PVD?",
+                            "options": [
+                                "Quien usa el móvil.",
+                                "Solo programadores senior.",
+                                "Quien usa pantallas durante parte significativa de su jornada.",
+                                "Quien trabaja más de 10 horas."
+                            ],
+                            "correctAnswer": "Quien usa pantallas durante parte significativa de su jornada.",
+                            "explanation": "Se define por el uso habitual y continuo de pantallas como herramienta principal de trabajo."
+                        },
+                        {
+                            "text": "¿Qué recomienda la higiene postural?",
+                            "options": [
+                                "Pantalla lateral.",
+                                "Sentarse en el borde.",
+                                "Mantener pies apoyados o usar reposapiés.",
+                                "Cruzar las piernas."
+                            ],
+                            "correctAnswer": "Mantener pies apoyados o usar reposapiés.",
+                            "explanation": "Evita la presión en los muslos y mantiene la columna en una posición neutra y estable."
+                        },
+                        {
+                            "text": "¿Qué es la carga mental?",
+                            "options": [
+                                "Enfado del jefe.",
+                                "Cantidad de emails.",
+                                "Esfuerzo cognitivo necesario para realizar tareas.",
+                                "Peso de archivos."
+                            ],
+                            "correctAnswer": "Esfuerzo cognitivo necesario para realizar tareas.",
+                            "explanation": "Cantidad de procesamiento mental (memoria, atención) requerido por el trabajo."
+                        },
+                        {
+                            "text": "¿Qué analogía describe mejor el estrés laboral?",
+                            "options": [
+                                "Un vaso que se llena con una manguera de bomberos.",
+                                "Un coche sin gasolina.",
+                                "Un ordenador apagado.",
+                                "Una batería infinita."
+                            ],
+                            "correctAnswer": "Un vaso que se llena con una manguera de bomberos.",
+                            "explanation": "Desequilibrio entre la capacidad (vaso) y las exigencias desbordantes (manguera)."
+                        },
+                        {
+                            "text": "¿Qué derecho protege de responder emails fuera de horario?",
+                            "options": [
+                                "Libertad de expresión.",
+                                "Derecho a la pereza.",
+                                "Desconexión digital.",
+                                "Habeas corpus."
+                            ],
+                            "correctAnswer": "Desconexión digital.",
+                            "explanation": "Derecho a no atender comunicaciones laborales en tiempo de descanso."
+                        },
+                        {
+                            "text": "¿Cada cuánto se recomiendan pausas activas con pantallas?",
+                            "options": [
+                                "Solo al final.",
+                                "No hacer pausas.",
+                                "Cada 50 o 60 minutos.",
+                                "Cada 4 horas."
+                            ],
+                            "correctAnswer": "Cada 50 o 60 minutos.",
+                            "explanation": "Pausas breves y frecuentes previenen la fatiga visual y muscular."
+                        },
+                        {
+                            "text": "La prevención debe ser:",
+                            "options": [
+                                "Solo de recursos humanos.",
+                                "Un trámite externo.",
+                                "Voluntaria.",
+                                "Un sistema integrado en la gestión de la empresa."
+                            ],
+                            "correctAnswer": "Un sistema integrado en la gestión de la empresa.",
+                            "explanation": "Debe formar parte de todas las decisiones y niveles jerárquicos."
+                        },
+                        {
+                            "text": "¿Modalidad preventiva más común en empresas tecnológicas?",
+                            "options": [
+                                "Ignorar la prevención.",
+                                "Designar un becario.",
+                                "Servicio propio médico.",
+                                "Servicio de Prevención Ajeno."
+                            ],
+                            "correctAnswer": "Servicio de Prevención Ajeno.",
+                            "explanation": "Las PYMES suelen externalizar este servicio a entidades especializadas."
+                        },
+                        {
+                            "text": "¿Qué es la Evaluación de Riesgos?",
+                            "options": [
+                                "Examen a trabajadores.",
+                                "Cálculo de nóminas.",
+                                "Inspección sorpresa.",
+                                "Diagnóstico de riesgos no evitables y medidas."
+                            ],
+                            "correctAnswer": "Diagnóstico de riesgos no evitables y medidas.",
+                            "explanation": "Proceso para estimar la magnitud de los riesgos y decidir cómo controlarlos."
+                        },
+                        {
+                            "text": "¿Qué documento organiza la acción preventiva?",
+                            "options": [
+                                "Convenio colectivo.",
+                                "Planificación de la Actividad Preventiva.",
+                                "Nómina.",
+                                "Factura eléctrica."
+                            ],
+                            "correctAnswer": "Planificación de la Actividad Preventiva.",
+                            "explanation": "Establece qué hacer, quién, cuándo y con qué recursos."
+                        },
+                        {
+                            "text": "¿Quiénes son los representantes en PRL?",
+                            "options": [
+                                "Abogados.",
+                                "Delegados de Prevención.",
+                                "Administrativos.",
+                                "Jefes de equipo."
+                            ],
+                            "correctAnswer": "Delegados de Prevención.",
+                            "explanation": "Representantes de los trabajadores con funciones específicas en seguridad y salud."
+                        },
+                        {
+                            "text": "¿Qué órgano paritario trata la seguridad en empresas grandes?",
+                            "options": [
+                                "Consejo Escolar.",
+                                "Comité de Empresa.",
+                                "Junta Directiva.",
+                                "Comité de Seguridad y Salud."
+                            ],
+                            "correctAnswer": "Comité de Seguridad y Salud.",
+                            "explanation": "Órgano de participación formado por igual número de representantes de la empresa y trabajadores."
+                        },
+                        {
+                            "text": "¿Cuándo debe revisarse la evaluación de riesgos?",
+                            "options": [
+                                "Cuando cambian condiciones, tecnología o hay accidentes.",
+                                "Cada mes.",
+                                "Solo si hay inspección.",
+                                "Nunca."
+                            ],
+                            "correctAnswer": "Cuando cambian condiciones, tecnología o hay accidentes.",
+                            "explanation": "Es un documento vivo que debe actualizarse ante cualquier cambio relevante."
+                        },
+                        {
+                            "text": "¿Cómo se define una emergencia laboral?",
+                            "options": [
+                                "Avería informática.",
+                                "Discusión.",
+                                "Simulacro.",
+                                "Situación anómala con riesgo grave que requiere actuación inmediata."
+                            ],
+                            "correctAnswer": "Situación anómala con riesgo grave que requiere actuación inmediata.",
+                            "explanation": "Evento súbito con potencial de daño grave que requiere movilización de recursos especiales."
+                        },
+                        {
+                            "text": "¿Qué significan las siglas PAS?",
+                            "options": [
+                                "Pensar, Actuar, Solucionar.",
+                                "Parar, Ayudar, Salir.",
+                                "Prevenir, Asistir, Socorrer.",
+                                "Proteger, Avisar, Socorrer."
+                            ],
+                            "correctAnswer": "Proteger, Avisar, Socorrer.",
+                            "explanation": "Secuencia de actuación en primeros auxilios."
+                        },
+                        {
+                            "text": "En una evacuación por incendio, ¿qué está prohibido usar?",
+                            "options": [
+                                "Ascensor.",
+                                "Escaleras.",
+                                "Extintor.",
+                                "Puerta de emergencia."
+                            ],
+                            "correctAnswer": "Ascensor.",
+                            "explanation": "Peligro de atrapamiento o intoxicación por humos."
+                        },
+                        {
+                            "text": "¿Cómo deben ser las compresiones en RCP?",
+                            "options": [
+                                "Fuertes y rápidas en el centro del pecho.",
+                                "Suaves y lentas.",
+                                "Solo lado izquierdo.",
+                                "Intermitentes."
+                            ],
+                            "correctAnswer": "Fuertes y rápidas en el centro del pecho.",
+                            "explanation": "Para mantener un flujo sanguíneo efectivo (100-120 cpm)."
+                        },
+                        {
+                            "text": "Ante una hemorragia externa, ¿qué hacer primero?",
+                            "options": [
+                                "Hielo.",
+                                "Echar alcohol.",
+                                "Presión directa fuerte.",
+                                "Torniquete en el cuello."
+                            ],
+                            "correctAnswer": "Presión directa fuerte.",
+                            "explanation": "Detiene la salida de sangre por compresión mecánica."
+                        },
+                        {
+                            "text": "¿Por qué es clave el extintor de CO2 en perfiles DAW?",
+                            "options": [
+                                "Es más barato.",
+                                "Pesa menos.",
+                                "No daña equipos informáticos.",
+                                "Es el único legal."
+                            ],
+                            "correctAnswer": "No daña equipos informáticos.",
+                            "explanation": "Gas limpio, no deja residuos, ideal para servidores y electrónica."
+                        },
+                        {
+                            "text": "Si hay un objeto clavado en una herida, ¿qué hacer?",
+                            "options": [
+                                "Cortarlo.",
+                                "Nunca retirarlo; inmovilizar y presionar bordes.",
+                                "Retirarlo.",
+                                "Moverlo."
+                            ],
+                            "correctAnswer": "Nunca retirarlo; inmovilizar y presionar bordes.",
+                            "explanation": "Puede estar taponando una hemorragia; retirarlo es peligroso."
+                        },
+                        {
+                            "text": "¿Por qué la ergonomía es estratégica para tu carrera?",
+                            "options": [
+                                "Es fácil.",
+                                "Decora oficinas.",
+                                "Previene enfermedades modernas y asegura rendimiento.",
+                                "Da más vacaciones."
+                            ],
+                            "correctAnswer": "Previene enfermedades modernas y asegura rendimiento.",
+                            "explanation": "Evita el desgaste físico a largo plazo."
+                        },
+                        {
+                            "text": "Mayor reto psicosocial futuro en DAW/DAM:",
+                            "options": [
+                                "Manipulación de cargas.",
+                                "Ruido.",
+                                "Tecnoestrés y sedentarismo.",
+                                "Riesgo eléctrico."
+                            ],
+                            "correctAnswer": "Tecnoestrés y sedentarismo.",
+                            "explanation": "Riesgos específicos del sector tecnológico."
+                        },
+                        {
+                            "text": "Desafío psicosocial en marketing:",
+                            "options": [
+                                "Químicos.",
+                                "Estrés creativo y presión de plazos.",
+                                "Polvo.",
+                                "Caídas."
+                            ],
+                            "correctAnswer": "Estrés creativo y presión de plazos.",
+                            "explanation": "Presión por la inmediatez y la creatividad."
+                        },
+                        {
+                            "text": "¿Qué es el burnout?",
+                            "options": [
+                                "Técnica de relajación.",
+                                "Agotamiento cuya fase final es apatía y desconexión.",
+                                "Accidente físico.",
+                                "Euforia."
+                            ],
+                            "correctAnswer": "Agotamiento cuya fase final es apatía y desconexión.",
+                            "explanation": "Síndrome del trabajador quemado."
+                        },
+                        {
+                            "text": "¿Qué conducta de acoso continuado busca intimidar o excluir?",
+                            "options": [
+                                "Feedback puntual.",
+                                "Exigir puntualidad.",
+                                "Despido objetivo.",
+                                "Mobbing."
+                            ],
+                            "correctAnswer": "Mobbing.",
+                            "explanation": "Acoso psicológico sistemático en el trabajo."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

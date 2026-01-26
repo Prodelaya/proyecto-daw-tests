@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "DASP",
+            "name": "Digitalización Aplicada a los Sectores Productivos",
+            "topics": [
+                {
+                    "number": 2,
+                    "title": "Caracterización de las tecnologías habilitadoras",
+                    "questions": [
+                        {
+                            "text": "¿Qué característica define a las Tecnologías Habilitadoras (THD) en el contexto digital?",
+                            "options": [
+                                "Están limitadas a las redes de comunicación internas de las empresas.",
+                                "Solo se enfocan en mejorar el almacenamiento de datos.",
+                                "Actúan como catalizadores de la transformación digital y optimizan recursos.",
+                                "Sustituyen completamente la intervención humana en todos los procesos."
+                            ],
+                            "correctAnswer": "Actúan como catalizadores de la transformación digital y optimizan recursos.",
+                            "explanation": "Las THD son tecnologías fundamentales que impulsan y aceleran la transformación digital, permitiendo optimizar recursos y crear nuevas oportunidades de negocio."
+                        },
+                        {
+                            "text": "¿Qué función principal cumple la automatización de procesos en las Tecnologías Habilitadoras (THD)?",
+                            "options": [
+                                "Reemplazar completamente el trabajo humano en todas las actividades.",
+                                "Eliminar los sistemas de análisis de datos.",
+                                "Limitar la interconectividad entre dispositivos.",
+                                "Reducir la intervención humana en tareas repetitivas y liberar tiempo para actividades de mayor valor."
+                            ],
+                            "correctAnswer": "Reducir la intervención humana en tareas repetitivas y liberar tiempo para actividades de mayor valor.",
+                            "explanation": "La automatización libera a los trabajadores de tareas rutinarias y repetitivas, permitiéndoles enfocarse en actividades estratégicas y de mayor valor añadido."
+                        },
+                        {
+                            "text": "¿Cuál es una de las principales funciones del Machine Learning (ML) dentro de la Inteligencia Artificial (IA)?",
+                            "options": [
+                                "Reconocer imágenes mediante redes neuronales profundas.",
+                                "Facilitar la interconexión de dispositivos a través de internet.",
+                                "Permitir que los sistemas aprendan automáticamente a partir de la experiencia.",
+                                "Transmitir datos en forma de luz para optimizar la conectividad."
+                            ],
+                            "correctAnswer": "Permitir que los sistemas aprendan automáticamente a partir de la experiencia.",
+                            "explanation": "El Machine Learning permite a los sistemas mejorar su rendimiento automáticamente a partir de la experiencia y los datos, sin necesidad de programación explícita para cada caso."
+                        },
+                        {
+                            "text": "¿Qué tecnología permite el monitoreo continuo de activos y el mantenimiento predictivo en plantas industriales?",
+                            "options": [
+                                "Inteligencia Artificial (IA).",
+                                "Internet de las Cosas (IoT).",
+                                "Redes 5G.",
+                                "Fibra óptica."
+                            ],
+                            "correctAnswer": "Internet de las Cosas (IoT).",
+                            "explanation": "El IoT conecta sensores a equipos industriales para monitorizar su estado en tiempo real, permitiendo detectar anomalías y predecir fallos antes de que ocurran."
+                        },
+                        {
+                            "text": "¿Qué ventaja proporciona la fibra óptica a las empresas en comparación con los cables de cobre tradicionales?",
+                            "options": [
+                                "Ofrece mayor velocidad y calidad en la transmisión de datos.",
+                                "Reduce la necesidad de algoritmos avanzados para la toma de decisiones.",
+                                "Facilita la implementación de tecnologías como vehículos autónomos.",
+                                "Permite la conexión de dispositivos físicos mediante sensores."
+                            ],
+                            "correctAnswer": "Ofrece mayor velocidad y calidad en la transmisión de datos.",
+                            "explanation": "La fibra óptica transmite datos mediante pulsos de luz, ofreciendo velocidades muy superiores, menor latencia y mayor inmunidad a interferencias que el cobre."
+                        },
+                        {
+                            "text": "¿Cuál es una de las principales ventajas de la Computación Difusa (Fog Computing) frente a la Computación en la Nube?",
+                            "options": [
+                                "Garantizar transacciones seguras mediante tecnología de registro distribuido.",
+                                "Reducir la latencia al procesar los datos más cerca de donde se generan.",
+                                "Ofrecer un almacenamiento ilimitado de datos en servidores remotos.",
+                                "Permitir el acceso remoto a recursos informáticos desde cualquier lugar."
+                            ],
+                            "correctAnswer": "Reducir la latencia al procesar los datos más cerca de donde se generan.",
+                            "explanation": "El Fog Computing descentraliza el procesamiento acercándolo al borde de la red, reduciendo significativamente la latencia al no depender de servidores remotos."
+                        },
+                        {
+                            "text": "¿Qué tecnología combina datos en tiempo real de un objeto físico con su réplica virtual para simular y optimizar su rendimiento?",
+                            "options": [
+                                "Blockchain.",
+                                "Robótica colaborativa (Cobótica).",
+                                "Gemelos Digitales.",
+                                "Realidad Aumentada."
+                            ],
+                            "correctAnswer": "Gemelos Digitales.",
+                            "explanation": "Los Gemelos Digitales son réplicas virtuales de objetos físicos que reciben datos en tiempo real, permitiendo simular escenarios, optimizar rendimiento y predecir comportamientos."
+                        },
+                        {
+                            "text": "¿Qué característica distingue al Blockchain de la categoría más amplia de tecnologías DLT (Distributed Ledger Technology)?",
+                            "options": [
+                                "Reducir errores en procesos colaborativos con robots.",
+                                "Gestionar grandes volúmenes de datos mediante algoritmos avanzados.",
+                                "Permitir la creación de entornos digitales inmersivos.",
+                                "Almacenar información en bloques encadenados de manera segura y transparente."
+                            ],
+                            "correctAnswer": "Almacenar información en bloques encadenados de manera segura y transparente.",
+                            "explanation": "Blockchain es un tipo específico de DLT que organiza los datos en bloques vinculados criptográficamente, garantizando inmutabilidad, transparencia y seguridad."
+                        },
+                        {
+                            "text": "¿Qué vulnerabilidad específica puede afectar a los sistemas de Inteligencia Artificial (IA)?",
+                            "options": [
+                                "Manipulación de procesos físicos.",
+                                "Intercepción de datos cifrados.",
+                                "Uso de protocolos no seguros.",
+                                "\"Data poisoning\" (envenenamiento de datos)."
+                            ],
+                            "correctAnswer": "\"Data poisoning\" (envenenamiento de datos).",
+                            "explanation": "El data poisoning consiste en introducir datos maliciosos en el entrenamiento de modelos de IA, corrompiendo su aprendizaje y provocando predicciones erróneas."
+                        },
+                        {
+                            "text": "¿Qué característica distingue los riesgos de ciberseguridad en las Tecnologías de Operación (OT) respecto a las Tecnologías de la Información (IT)?",
+                            "options": [
+                                "OT utiliza siempre protocolos diseñados con ciberseguridad integrada.",
+                                "Las amenazas OT están limitadas a datos sensibles.",
+                                "Las redes OT no requieren medidas específicas para proteger procesos físicos.",
+                                "Los ataques OT pueden causar daños físicos en infraestructuras críticas."
+                            ],
+                            "correctAnswer": "Los ataques OT pueden causar daños físicos en infraestructuras críticas.",
+                            "explanation": "A diferencia de IT, los ataques a sistemas OT pueden provocar daños físicos reales, afectando infraestructuras críticas como plantas industriales, redes eléctricas o sistemas de transporte."
+                        },
+                        {
+                            "text": "¿Qué diferencia principal existe entre la huella digital activa y pasiva?",
+                            "options": [
+                                "Ambas huellas requieren siempre del consentimiento explícito del usuario.",
+                                "La activa se genera de forma intencional, y la pasiva, sin que el usuario lo note.",
+                                "La activa incluye datos recopilados por cookies, y la pasiva, comentarios en redes sociales.",
+                                "La pasiva se asocia solo a redes sociales, y la activa, a direcciones IP."
+                            ],
+                            "correctAnswer": "La activa se genera de forma intencional, y la pasiva, sin que el usuario lo note.",
+                            "explanation": "La huella digital activa se crea cuando el usuario comparte información conscientemente, mientras que la pasiva se recopila automáticamente sin intervención directa del usuario."
+                        },
+                        {
+                            "text": "¿Qué deber tienen las empresas en relación con el impacto ambiental de las THD?",
+                            "options": [
+                                "Invertir exclusivamente en inteligencia artificial.",
+                                "Asegurar la competitividad en mercados internacionales.",
+                                "Reducir los costos operativos a toda costa.",
+                                "Optimizar el consumo de energía y gestionar desechos electrónicos."
+                            ],
+                            "correctAnswer": "Optimizar el consumo de energía y gestionar desechos electrónicos.",
+                            "explanation": "Las empresas deben adoptar prácticas sostenibles: optimizar el consumo energético de sus infraestructuras digitales y gestionar responsablemente los residuos electrónicos."
+                        },
+                        {
+                            "text": "¿Qué impacto tienen las THD en la personalización de productos y servicios?",
+                            "options": [
+                                "Eliminar la necesidad de interacción con el cliente.",
+                                "Limitan la capacidad de personalización al centrarse en la producción masiva.",
+                                "Aumentan los costos operativos para implementar soluciones personalizadas.",
+                                "Permiten analizar patrones de consumo y ofrecer experiencias adaptadas."
+                            ],
+                            "correctAnswer": "Permiten analizar patrones de consumo y ofrecer experiencias adaptadas.",
+                            "explanation": "Las THD permiten recopilar y analizar datos de clientes para comprender sus preferencias y comportamientos, ofreciendo productos y servicios personalizados."
+                        },
+                        {
+                            "text": "¿Qué ventaja principal aporta el uso de blockchain en la cadena de suministro global?",
+                            "options": [
+                                "Reducción de la cantidad de proveedores involucrados.",
+                                "Mejora de la trazabilidad y eficiencia a nivel global.",
+                                "Eliminación de la necesidad de transporte internacional.",
+                                "Sustitución de contratos con socios internacionales por algoritmos."
+                            ],
+                            "correctAnswer": "Mejora de la trazabilidad y eficiencia a nivel global.",
+                            "explanation": "Blockchain proporciona un registro inmutable y transparente de todas las transacciones, mejorando la trazabilidad de productos y la eficiencia de la cadena de suministro."
+                        },
+                        {
+                            "text": "¿Cómo contribuye la llegada de las redes 5G a la eficiencia de las plantas industriales?",
+                            "options": [
+                                "Mejorando la velocidad y precisión de la comunicación entre dispositivos conectados.",
+                                "Eliminando la necesidad de robots industriales al aumentar la capacidad humana.",
+                                "Acelerando la producción mediante la automatización completa sin intervención humana.",
+                                "Permitiendo una mayor carga de trabajo en los operarios humanos."
+                            ],
+                            "correctAnswer": "Mejorando la velocidad y precisión de la comunicación entre dispositivos conectados.",
+                            "explanation": "Las redes 5G ofrecen alta velocidad, baja latencia y gran capacidad de conexión, permitiendo comunicación precisa y en tiempo real entre dispositivos industriales."
+                        },
+                        {
+                            "text": "¿Cómo contribuye el Big Data y el análisis avanzado en el entorno de negocio?",
+                            "options": [
+                                "Permitiendo a las empresas analizar solo los datos obtenidos de ventas pasadas.",
+                                "Limitar el acceso a la información para evitar sobrecargar a los empleados.",
+                                "Facilitando la personalización de la experiencia de compra y optimización del inventario mediante el análisis de datos en tiempo real.",
+                                "Reduciendo la necesidad de interacción entre departamentos en la toma de decisiones."
+                            ],
+                            "correctAnswer": "Facilitando la personalización de la experiencia de compra y optimización del inventario mediante el análisis de datos en tiempo real.",
+                            "explanation": "Big Data permite analizar comportamientos de clientes en tiempo real, personalizar experiencias de compra y optimizar inventarios según la demanda real."
+                        },
+                        {
+                            "text": "¿Cómo contribuyen las Tecnologías Habilitadoras Digitales a la toma de decisiones estratégicas en las empresas?",
+                            "options": [
+                                "Solo permiten una mejora en los procesos operativos sin impacto en las decisiones estratégicas.",
+                                "Permiten que las decisiones sean tomadas sin la necesidad de información en tiempo real, favoreciendo el análisis posterior.",
+                                "La integración de datos en tiempo real facilita decisiones informadas, anticipándose a problemas y oportunidades.",
+                                "Su implementación centraliza las decisiones, eliminando la flexibilidad para responder a cambios inmediatos."
+                            ],
+                            "correctAnswer": "La integración de datos en tiempo real facilita decisiones informadas, anticipándose a problemas y oportunidades.",
+                            "explanation": "Las THD proporcionan datos actualizados y análisis en tiempo real, permitiendo tomar decisiones estratégicas informadas y anticiparse a cambios del mercado."
+                        },
+                        {
+                            "text": "¿Cómo contribuyen las Tecnologías Habilitadoras Digitales a la innovación dentro de una organización?",
+                            "options": [
+                                "Solo permiten la mejora de los productos existentes sin la capacidad de desarrollar nuevos modelos de negocio.",
+                                "Facilitan la experimentación con nuevos modelos de negocio y productos sin requerir grandes inversiones en infraestructura.",
+                                "Limitan la capacidad de innovación al depender de sistemas rígidos y estandarizados.",
+                                "Fomentan la innovación solo en áreas de servicios sin impacto en la creación de productos."
+                            ],
+                            "correctAnswer": "Facilitan la experimentación con nuevos modelos de negocio y productos sin requerir grandes inversiones en infraestructura.",
+                            "explanation": "Las THD permiten prototipar, testear y escalar nuevos productos y modelos de negocio con menor inversión inicial gracias a la nube, simulación y herramientas digitales."
+                        },
+                        {
+                            "text": "¿Cuál es una de las ventajas principales del almacenamiento de datos en la nube en los sistemas digitalizados?",
+                            "options": [
+                                "Aumenta el riesgo de pérdida de datos, ya que no se pueden realizar copias de seguridad efectivas.",
+                                "Permite la recolección de datos de manera más eficiente pero limita el acceso en tiempo real.",
+                                "Facilita el acceso remoto y mejora la disponibilidad de datos sin necesidad de infraestructura física costosa.",
+                                "Elimina la necesidad de tener dispositivos físicos de almacenamiento, pero restringe la capacidad de procesamiento."
+                            ],
+                            "correctAnswer": "Facilita el acceso remoto y mejora la disponibilidad de datos sin necesidad de infraestructura física costosa.",
+                            "explanation": "El almacenamiento en la nube permite acceder a los datos desde cualquier lugar, garantiza alta disponibilidad y elimina la necesidad de invertir en infraestructura física propia."
+                        },
+                        {
+                            "text": "En términos de ciberseguridad, ¿qué tecnologías son esenciales para proteger la información sensible en los sistemas digitalizados?",
+                            "options": [
+                                "Encriptado, autenticación multifactorial y protección de redes.",
+                                "Computación en la nube y edge computing.",
+                                "Big data y blockchain.",
+                                "Inteligencia artificial y machine learning."
+                            ],
+                            "correctAnswer": "Encriptado, autenticación multifactorial y protección de redes.",
+                            "explanation": "El cifrado protege los datos, la autenticación multifactor verifica identidades y la protección de redes previene accesos no autorizados: juntos forman la base de la ciberseguridad."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

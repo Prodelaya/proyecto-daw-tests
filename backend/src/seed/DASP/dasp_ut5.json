@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "DASP",
+            "name": "Digitalización Aplicada a los Sectores Productivos",
+            "topics": [
+                {
+                    "number": 5,
+                    "title": "Evaluación de datos",
+                    "questions": [
+                        {
+                            "text": "¿Cuál es una de las principales diferencias entre un dato y la información?",
+                            "options": [
+                                "Los datos son siempre más accesibles que la información.",
+                                "Los datos tienen un significado claro por sí mismos.",
+                                "La información incluye contexto y facilita la toma de decisiones.",
+                                "La información se genera directamente de los dispositivos IoT."
+                            ],
+                            "correctAnswer": "La información incluye contexto y facilita la toma de decisiones.",
+                            "explanation": "Los datos son valores brutos sin interpretar, mientras que la información resulta de procesar y contextualizar esos datos, haciéndolos útiles para la toma de decisiones."
+                        },
+                        {
+                            "text": "¿Qué característica NO corresponde a los datos?",
+                            "options": [
+                                "Forma bruta.",
+                                "Específicos.",
+                                "Generados en grandes volúmenes.",
+                                "Comprensible."
+                            ],
+                            "correctAnswer": "Comprensible.",
+                            "explanation": "Los datos en bruto no son comprensibles por sí mismos; necesitan ser procesados y contextualizados para convertirse en información comprensible y útil."
+                        },
+                        {
+                            "text": "¿Qué ocurre específicamente durante el procesamiento de datos en sistemas productivos digitalizados?",
+                            "options": [
+                                "Los datos se integran en sistemas avanzados como plataformas de big data o inteligencia artificial.",
+                                "Se generan datos en tiempo real mediante sensores y dispositivos IoT.",
+                                "Se analizan gráficos y reportes para optimizar los procesos productivos.",
+                                "Los datos son evaluados manualmente para identificar patrones clave."
+                            ],
+                            "correctAnswer": "Los datos se integran en sistemas avanzados como plataformas de big data o inteligencia artificial.",
+                            "explanation": "El procesamiento implica integrar los datos capturados en plataformas avanzadas que los limpian, transforman y analizan mediante técnicas de big data e IA."
+                        },
+                        {
+                            "text": "¿Por qué es importante la etapa de eliminación en el ciclo de vida del dato?",
+                            "options": [
+                                "Para garantizar la calidad de los datos en tiempo real mediante limpieza y validación.",
+                                "Para asegurar que todos los datos sean compartidos con las partes interesadas.",
+                                "Para optimizar el almacenamiento de datos en bases de datos locales.",
+                                "Para cumplir con normativas como el RGPD y mitigar riesgos de acumulación innecesaria."
+                            ],
+                            "correctAnswer": "Para cumplir con normativas como el RGPD y mitigar riesgos de acumulación innecesaria.",
+                            "explanation": "La eliminación controlada de datos es esencial para cumplir con normativas de protección de datos (RGPD), reducir costos de almacenamiento y minimizar riesgos de seguridad."
+                        },
+                        {
+                            "text": "Durante el ciclo de vida del dato, ¿cuál de las siguientes actividades se asocia exclusivamente con la etapa de \"Procesamiento y análisis\"?",
+                            "options": [
+                                "Convertir datos brutos en información útil mediante limpieza, organización y modelos predictivos.",
+                                "Generar reportes y paneles de control para la distribución de datos.",
+                                "Decidir políticas de retención para el almacenamiento seguro de datos.",
+                                "Configurar sensores y dispositivos IoT para la captura inicial de datos."
+                            ],
+                            "correctAnswer": "Convertir datos brutos en información útil mediante limpieza, organización y modelos predictivos.",
+                            "explanation": "El procesamiento y análisis transforma datos brutos en información valiosa mediante limpieza, normalización, organización y aplicación de modelos analíticos y predictivos."
+                        },
+                        {
+                            "text": "¿Cuál es el principal desafío al gestionar datos provenientes de diversas fuentes en sistemas productivos digitalizados?",
+                            "options": [
+                                "Asegurar su coherencia y compatibilidad para integrarlos eficazmente.",
+                                "Evitar la redundancia de datos en la etapa de almacenamiento.",
+                                "La dificultad para realizar auditorías internas.",
+                                "Garantizar la disponibilidad de los datos en tiempo real."
+                            ],
+                            "correctAnswer": "Asegurar su coherencia y compatibilidad para integrarlos eficazmente.",
+                            "explanation": "La integración de datos de múltiples fuentes requiere resolver problemas de formatos distintos, estructuras incompatibles y semánticas diferentes para lograr coherencia."
+                        },
+                        {
+                            "text": "Según las fases del análisis de datos, ¿cuál de las siguientes técnicas recomendaría una acción específica basada en los resultados analizados?",
+                            "options": [
+                                "Análisis exploratorio.",
+                                "Análisis predictivo.",
+                                "Análisis prescriptivo.",
+                                "Análisis descriptivo."
+                            ],
+                            "correctAnswer": "Análisis prescriptivo.",
+                            "explanation": "El análisis prescriptivo va más allá de predecir qué pasará: recomienda acciones específicas a tomar para optimizar resultados, combinando predicción con optimización."
+                        },
+                        {
+                            "text": "¿Cuál es un ejemplo concreto de cómo el análisis de datos contribuye al mantenimiento predictivo en sistemas productivos?",
+                            "options": [
+                                "Ajustar niveles de inventario según patrones de consumo.",
+                                "Analizar retrasos en líneas de producción.",
+                                "Prever fallos en máquinas antes de que ocurran.",
+                                "Detectar defectos en productos terminados."
+                            ],
+                            "correctAnswer": "Prever fallos en máquinas antes de que ocurran.",
+                            "explanation": "El mantenimiento predictivo analiza datos de sensores para detectar patrones anómalos y predecir fallos antes de que ocurran, evitando paradas no planificadas."
+                        },
+                        {
+                            "text": "¿Qué característica del almacenamiento en la nube permite ajustar la capacidad de almacenamiento según las necesidades de una empresa?",
+                            "options": [
+                                "Pago por uso",
+                                "Escalabilidad",
+                                "Integración con ERP",
+                                "Respaldo automático"
+                            ],
+                            "correctAnswer": "Escalabilidad",
+                            "explanation": "La escalabilidad permite aumentar o reducir la capacidad de almacenamiento dinámicamente según las necesidades del negocio, sin inversiones en infraestructura fija."
+                        },
+                        {
+                            "text": "¿Cómo contribuye el almacenamiento en la nube a la gestión de grandes volúmenes de datos en sistemas productivos?",
+                            "options": [
+                                "Reduce automáticamente la cantidad de datos generados.",
+                                "Proporciona copias de seguridad locales con almacenamiento físico.",
+                                "Integra datos en tiempo real con herramientas como IoT y ERP.",
+                                "Reemplaza la necesidad de análisis de datos mediante big data."
+                            ],
+                            "correctAnswer": "Integra datos en tiempo real con herramientas como IoT y ERP.",
+                            "explanation": "El almacenamiento en la nube facilita la integración de datos de sensores IoT, sistemas ERP y otras fuentes en tiempo real, centralizando la información empresarial."
+                        },
+                        {
+                            "text": "¿Qué tipo de almacenamiento en la nube es ideal para organizaciones que necesitan un mayor control y seguridad, pero con mayores costos de mantenimiento?",
+                            "options": [
+                                "Nube privada",
+                                "Nube escalable",
+                                "Nube pública",
+                                "Nube híbrida"
+                            ],
+                            "correctAnswer": "Nube privada",
+                            "explanation": "La nube privada ofrece infraestructura dedicada exclusivamente a una organización, proporcionando máximo control y seguridad, pero con mayores costos de gestión."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes tareas se realiza en la etapa de \"Limpieza y transformación de datos\" dentro de la ingeniería de datos?",
+                            "options": [
+                                "Normalización de datos para mantener consistencia",
+                                "Procesamiento de grandes volúmenes de datos en tiempo real",
+                                "Almacenamiento en la nube para escalabilidad",
+                                "Integración de datos de diferentes fuentes"
+                            ],
+                            "correctAnswer": "Normalización de datos para mantener consistencia",
+                            "explanation": "La limpieza y transformación incluye normalizar datos para asegurar formatos consistentes, eliminar duplicados, corregir errores y preparar los datos para análisis."
+                        },
+                        {
+                            "text": "¿Qué técnica se utiliza para combinar datos de diferentes fuentes en un repositorio unificado durante la integración de datos?",
+                            "options": [
+                                "Mantenimiento de sistemas",
+                                "Análisis batch",
+                                "Visualización de datos",
+                                "ETL (Extracción, Transformación y Carga)"
+                            ],
+                            "correctAnswer": "ETL (Extracción, Transformación y Carga)",
+                            "explanation": "ETL es el proceso estándar para integrar datos: extrae de múltiples fuentes, transforma al formato requerido y carga en un repositorio centralizado como un data warehouse."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes aplicaciones de la ciencia de datos en empresas está asociada con la optimización de la producción?",
+                            "options": [
+                                "Segmentación de clientes basada en sus preferencias personales",
+                                "Optimización de rutas logísticas para minimizar costos de entrega",
+                                "Personalización de ofertas de marketing digital según patrones de consumo",
+                                "Monitoreo en tiempo real de datos provenientes de sensores IoT para prever fallos en maquinaria"
+                            ],
+                            "correctAnswer": "Monitoreo en tiempo real de datos provenientes de sensores IoT para prever fallos en maquinaria",
+                            "explanation": "El monitoreo de sensores IoT permite optimizar la producción mediante mantenimiento predictivo, reduciendo paradas imprevistas y maximizando la eficiencia operativa."
+                        },
+                        {
+                            "text": "En el ámbito de la optimización de la producción mediante la ciencia de datos, ¿qué factor es clave para que los algoritmos de aprendizaje automático ajusten automáticamente las líneas de producción en función de la demanda proyectada?",
+                            "options": [
+                                "La personalización de los productos basados en la demanda de los clientes",
+                                "El análisis en tiempo real de datos provenientes de las máquinas y los sensores de la línea de producción",
+                                "La predicción precisa de los fallos de los sensores IoT en las máquinas",
+                                "La capacidad de la red logística para adaptarse a los cambios de producción"
+                            ],
+                            "correctAnswer": "El análisis en tiempo real de datos provenientes de las máquinas y los sensores de la línea de producción",
+                            "explanation": "El análisis en tiempo real de datos de producción permite a los algoritmos de ML ajustar procesos dinámicamente según condiciones actuales y demanda proyectada."
+                        },
+                        {
+                            "text": "¿Cuál es la principal diferencia entre el uso de la ciencia de datos para la gestión de inventarios y logística frente a su uso en la innovación de productos y servicios?",
+                            "options": [
+                                "En la innovación de productos, se utiliza análisis de datos sobre el comportamiento del cliente, mientras que en la gestión de inventarios se emplean algoritmos de aprendizaje automático para predecir stock",
+                                "Los modelos de innovación de productos no requieren datos de clientes, mientras que la gestión de inventarios no utiliza algoritmos predictivos",
+                                "La gestión de inventarios se basa en datos históricos, mientras que la innovación de productos depende solo de los datos actuales de la demanda",
+                                "La optimización de rutas logísticas es un proceso independiente de los modelos predictivos que se aplican en la innovación de productos"
+                            ],
+                            "correctAnswer": "En la innovación de productos, se utiliza análisis de datos sobre el comportamiento del cliente, mientras que en la gestión de inventarios se emplean algoritmos de aprendizaje automático para predecir stock",
+                            "explanation": "La innovación de productos analiza comportamiento y preferencias del cliente, mientras que la gestión de inventarios usa algoritmos predictivos para optimizar niveles de stock."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los principales riesgos al adoptar la ciencia de datos en las empresas?",
+                            "options": [
+                                "La necesidad de una gran inversión inicial en software y hardware especializado",
+                                "La calidad de los datos disponibles, ya que datos incompletos o erróneos pueden generar decisiones equivocadas",
+                                "La dificultad de integrar los sistemas de inteligencia artificial en la infraestructura tecnológica existente",
+                                "El impacto negativo en la competitividad debido a una incorrecta interpretación de los datos"
+                            ],
+                            "correctAnswer": "La calidad de los datos disponibles, ya que datos incompletos o erróneos pueden generar decisiones equivocadas",
+                            "explanation": "La calidad de los datos es fundamental: datos incompletos, incorrectos o sesgados producen análisis erróneos y decisiones equivocadas, siguiendo el principio 'garbage in, garbage out'."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los riesgos más graves de un manejo ineficiente de los datos?",
+                            "options": [
+                                "Aumento de los costos operativos debido a la falta de capacitación del personal",
+                                "Pérdida de datos críticos debido a fallos en los sistemas de almacenamiento o ciberataques",
+                                "Falta de acceso a datos en tiempo real",
+                                "Dificultades para realizar copias de seguridad periódicas"
+                            ],
+                            "correctAnswer": "Pérdida de datos críticos debido a fallos en los sistemas de almacenamiento o ciberataques",
+                            "explanation": "La pérdida de datos críticos por fallos técnicos o ciberataques puede tener consecuencias devastadoras: pérdida de información vital, incumplimiento normativo y daño reputacional."
+                        },
+                        {
+                            "text": "¿Cuál es el elemento clave de la seguridad de los datos que asegura que la información no sea alterada o manipulada durante su almacenamiento o transmisión?",
+                            "options": [
+                                "Cumplimiento normativo",
+                                "Confidencialidad",
+                                "Disponibilidad",
+                                "Integridad"
+                            ],
+                            "correctAnswer": "Integridad",
+                            "explanation": "La integridad garantiza que los datos permanezcan exactos, completos y sin modificaciones no autorizadas durante todo su ciclo de vida, ya sea en almacenamiento o tránsito."
+                        },
+                        {
+                            "text": "¿Qué tipo de medida de seguridad debe implementarse para garantizar que los datos sensibles no sean accesibles durante su transmisión o almacenamiento?",
+                            "options": [
+                                "Cifrado de datos",
+                                "Auditorías periódicas",
+                                "Respaldo de información crítica",
+                                "Control de acceso basado en roles"
+                            ],
+                            "correctAnswer": "Cifrado de datos",
+                            "explanation": "El cifrado transforma los datos en formato ilegible sin la clave correspondiente, protegiendo la información sensible tanto en tránsito como en reposo."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

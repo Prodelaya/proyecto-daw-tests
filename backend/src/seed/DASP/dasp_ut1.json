@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "DASP",
+            "name": "Digitalización Aplicada a los Sectores Productivos",
+            "topics": [
+                {
+                    "number": 1,
+                    "title": "Digitalización en los sectores productivos",
+                    "questions": [
+                        {
+                            "text": "¿Cuál fue la principal tecnología que impulsó la Primera Revolución Industrial en Inglaterra?",
+                            "options": [
+                                "La electricidad",
+                                "El motor de combustión interna",
+                                "La máquina de vapor",
+                                "El Internet de las Cosas (IoT)"
+                            ],
+                            "correctAnswer": "La máquina de vapor",
+                            "explanation": "La máquina de vapor fue la innovación clave que permitió mecanizar la producción textil y el transporte en la Primera Revolución Industrial, sustituyendo la fuerza humana y animal."
+                        },
+                        {
+                            "text": "¿En qué etapa de las revoluciones industriales se introdujeron las líneas de producción en masa y el uso del teléfono?",
+                            "options": [
+                                "Cuarta Revolución Industrial",
+                                "Primera Revolución Industrial",
+                                "Tercera Revolución Industrial",
+                                "Segunda Revolución Industrial"
+                            ],
+                            "correctAnswer": "Segunda Revolución Industrial",
+                            "explanation": "La Segunda Revolución Industrial (finales del siglo XIX) se caracterizó por la producción en masa, líneas de montaje y nuevas tecnologías de comunicación como el teléfono y el telégrafo."
+                        },
+                        {
+                            "text": "¿Qué tecnologías caracterizan principalmente la Cuarta Revolución Industrial?",
+                            "options": [
+                                "La mecanización y el uso del carbón",
+                                "Los motores de combustión interna y el teléfono",
+                                "La digitalización, la Inteligencia Artificial, el IoT y el big data",
+                                "La informática y el uso de robots industriales"
+                            ],
+                            "correctAnswer": "La digitalización, la Inteligencia Artificial, el IoT y el big data",
+                            "explanation": "La Cuarta Revolución Industrial o Industria 4.0 se define por la convergencia de tecnologías digitales avanzadas: IA, IoT, big data, computación en la nube y sistemas ciberfísicos."
+                        },
+                        {
+                            "text": "¿Qué sectores crecieron exponencialmente durante la Segunda Revolución Industrial gracias a nuevas tecnologías como la electricidad?",
+                            "options": [
+                                "Informático y electrónico",
+                                "Robótica y telecomunicaciones",
+                                "Textil y minero",
+                                "Automovilístico, químico y eléctrico"
+                            ],
+                            "correctAnswer": "Automovilístico, químico y eléctrico",
+                            "explanation": "La electrificación y el motor de combustión permitieron el desarrollo de la industria automovilística, la química industrial y el sector eléctrico durante la Segunda Revolución Industrial."
+                        },
+                        {
+                            "text": "¿Qué elemento de la Cuarta Revolución Industrial permite conectar objetos físicos a Internet para crear redes inteligentes?",
+                            "options": [
+                                "Blockchain",
+                                "Robótica Avanzada",
+                                "Internet de las Cosas (IoT)",
+                                "Realidad Aumentada"
+                            ],
+                            "correctAnswer": "Internet de las Cosas (IoT)",
+                            "explanation": "El IoT conecta dispositivos físicos a Internet mediante sensores, permitiendo la comunicación entre máquinas, la recopilación de datos y la creación de redes inteligentes."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los usos principales del Big Data en la Cuarta Revolución Industrial?",
+                            "options": [
+                                "Gestionar y analizar grandes volúmenes de datos para decisiones en tiempo real",
+                                "Fabricar piezas personalizadas",
+                                "Asegurar transacciones descentralizadas",
+                                "Conectar objetos físicos para el mantenimiento predictivo"
+                            ],
+                            "correctAnswer": "Gestionar y analizar grandes volúmenes de datos para decisiones en tiempo real",
+                            "explanation": "El Big Data permite procesar y analizar enormes cantidades de información de múltiples fuentes, facilitando la toma de decisiones basada en datos en tiempo real."
+                        },
+                        {
+                            "text": "¿Qué desafío surge con la transformación digital de los modelos de negocio y el aumento de estructuras flexibles?",
+                            "options": [
+                                "Aumento en tareas rutinarias",
+                                "Menor adaptación a las demandas del mercado",
+                                "La necesidad de reducir la especialización en el trabajo",
+                                "Retos en ciberseguridad, regulación de datos y privacidad"
+                            ],
+                            "correctAnswer": "Retos en ciberseguridad, regulación de datos y privacidad",
+                            "explanation": "La transformación digital aumenta la exposición a ciberamenazas y genera nuevos desafíos en protección de datos, cumplimiento normativo (RGPD) y privacidad de la información."
+                        },
+                        {
+                            "text": "En una fábrica inteligente, ¿qué permite ajustar el funcionamiento de las máquinas de producción en tiempo real?",
+                            "options": [
+                                "Robots de mantenimiento manual",
+                                "Trabajadores operando las máquinas directamente",
+                                "Actuadores sin sensores",
+                                "Sensores conectados que recopilan y analizan datos en una plataforma digital"
+                            ],
+                            "correctAnswer": "Sensores conectados que recopilan y analizan datos en una plataforma digital",
+                            "explanation": "Los sensores IoT recopilan datos operativos que se analizan en plataformas digitales, permitiendo ajustes automáticos y optimización de la producción en tiempo real."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los principales beneficios de la digitalización en la organización de una empresa?",
+                            "options": [
+                                "Facilita la coordinación y comunicación mediante herramientas colaborativas y plataformas en la nube",
+                                "Reduce la necesidad de comunicación entre departamentos",
+                                "Reemplaza la toma de decisiones por procesos automáticos",
+                                "Elimina la necesidad de un flujo de información"
+                            ],
+                            "correctAnswer": "Facilita la coordinación y comunicación mediante herramientas colaborativas y plataformas en la nube",
+                            "explanation": "Las herramientas digitales y la nube permiten colaboración en tiempo real, acceso compartido a información y mejor coordinación entre equipos y departamentos."
+                        },
+                        {
+                            "text": "¿Cómo se optimizan los recursos en una empresa digitalizada?",
+                            "options": [
+                                "Solo mediante la gestión de recursos humanos",
+                                "A través de sistemas ERP que integran inventarios, finanzas y recursos humanos en una única plataforma",
+                                "Con la eliminación de recursos humanos innecesarios",
+                                "Principalmente mediante la asignación de tareas aleatorias"
+                            ],
+                            "correctAnswer": "A través de sistemas ERP que integran inventarios, finanzas y recursos humanos en una única plataforma",
+                            "explanation": "Los sistemas ERP centralizan toda la información empresarial en una plataforma única, optimizando la gestión de recursos, reduciendo duplicidades y mejorando la eficiencia."
+                        },
+                        {
+                            "text": "¿Qué función cumple el software de gestión de proyectos en la planificación de tareas compartidas en una empresa digitalizada?",
+                            "options": [
+                                "Limita el acceso a la información solo a empleados de alto nivel",
+                                "Facilita únicamente la gestión financiera de la empresa",
+                                "Permite únicamente la distribución de tareas entre directivos",
+                                "Mejora la productividad y permite que las unidades trabajen de manera sincrónica y organizada"
+                            ],
+                            "correctAnswer": "Mejora la productividad y permite que las unidades trabajen de manera sincrónica y organizada",
+                            "explanation": "El software de gestión de proyectos coordina tareas, plazos y recursos entre equipos, mejorando la productividad y permitiendo el trabajo sincronizado."
+                        },
+                        {
+                            "text": "¿Cuál es el principal objetivo de los entornos OT en una empresa?",
+                            "options": [
+                                "Optimizar el flujo de información digital",
+                                "Gestionar redes de comunicación",
+                                "Minimizar el tiempo de respuesta en el manejo de datos",
+                                "Controlar y automatizar procesos físicos en tiempo real para la producción"
+                            ],
+                            "correctAnswer": "Controlar y automatizar procesos físicos en tiempo real para la producción",
+                            "explanation": "Los entornos OT (Tecnología Operacional) se centran en el control directo de equipos industriales, automatización de procesos productivos y operaciones físicas en tiempo real."
+                        },
+                        {
+                            "text": "¿Qué aspecto de seguridad es la prioridad en los entornos OT?",
+                            "options": [
+                                "Protección de datos digitales",
+                                "Seguridad de redes de comunicación",
+                                "Prevención de acceso no autorizado a bases de datos",
+                                "Minimizar riesgos en equipos y procesos industriales"
+                            ],
+                            "correctAnswer": "Minimizar riesgos en equipos y procesos industriales",
+                            "explanation": "En entornos OT, la prioridad es la seguridad física: proteger equipos industriales, evitar accidentes y garantizar la continuidad de los procesos productivos."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes es una similitud entre los entornos IT y OT?",
+                            "options": [
+                                "Ambos se centran exclusivamente en la seguridad de datos digitales",
+                                "IT y OT buscan aumentar la eficiencia y productividad de la empresa",
+                                "Solo OT depende de tecnologías digitales para generar valor",
+                                "Los dos entornos operan de forma aislada en la mayoría de empresas"
+                            ],
+                            "correctAnswer": "IT y OT buscan aumentar la eficiencia y productividad de la empresa",
+                            "explanation": "Tanto IT como OT comparten el objetivo común de mejorar la eficiencia operativa y productividad empresarial, aunque con enfoques diferentes."
+                        },
+                        {
+                            "text": "¿Qué es la Transformación Digital Habilitadora (TDH)?",
+                            "options": [
+                                "El uso de tecnologías avanzadas para integrar IT y OT en los entornos productivos",
+                                "La estrategia para mejorar solo los procesos de control físico en OT",
+                                "Un concepto de protección de datos en los entornos IT y OT",
+                                "La implementación exclusiva de IoT en entornos OT"
+                            ],
+                            "correctAnswer": "El uso de tecnologías avanzadas para integrar IT y OT en los entornos productivos",
+                            "explanation": "La TDH implica utilizar tecnologías habilitadoras para convergir los mundos IT y OT, creando sistemas integrados que optimizan tanto la gestión de información como las operaciones físicas."
+                        },
+                        {
+                            "text": "¿Qué beneficio aporta la integración de IT y OT en una empresa digitalizada?",
+                            "options": [
+                                "Optimiza únicamente el control de las operaciones físicas en la producción",
+                                "Facilita la toma de decisiones estratégicas basadas en datos de operaciones en tiempo real",
+                                "Permite utilizar TDH únicamente en el entorno IT",
+                                "Mantiene ambos entornos funcionando de manera independiente para evitar riesgos"
+                            ],
+                            "correctAnswer": "Facilita la toma de decisiones estratégicas basadas en datos de operaciones en tiempo real",
+                            "explanation": "La convergencia IT/OT permite que los datos operativos alimenten los sistemas de información, facilitando decisiones estratégicas basadas en información en tiempo real."
+                        },
+                        {
+                            "text": "¿Cómo contribuye la digitalización al desarrollo sostenible dentro de las empresas?",
+                            "options": [
+                                "Permitiendo reducir desperdicios y gestionar los recursos de manera eficiente",
+                                "Eliminando la necesidad de cumplir con normativas ambientales",
+                                "Incrementando la cantidad de recursos necesarios para cada operación",
+                                "Proporcionando herramientas para maximizar el consumo energético"
+                            ],
+                            "correctAnswer": "Permitiendo reducir desperdicios y gestionar los recursos de manera eficiente",
+                            "explanation": "La digitalización permite monitorizar y optimizar el uso de recursos, reducir desperdicios, mejorar la eficiencia energética y aplicar prácticas sostenibles."
+                        },
+                        {
+                            "text": "¿De qué manera la digitalización facilita la conciliación entre la vida personal y laboral de los empleados?",
+                            "options": [
+                                "Requiere que los empleados trabajen únicamente desde oficinas centralizadas",
+                                "Limita el acceso a plataformas de teletrabajo para mejorar la concentración",
+                                "Reduce la necesidad de desplazamientos y permite flexibilidad laboral",
+                                "Aumenta la jornada laboral para adaptarse a las demandas digitales"
+                            ],
+                            "correctAnswer": "Reduce la necesidad de desplazamientos y permite flexibilidad laboral",
+                            "explanation": "Las herramientas digitales permiten el teletrabajo, horarios flexibles y acceso remoto, facilitando la conciliación entre la vida personal y profesional."
+                        },
+                        {
+                            "text": "¿Qué permite el uso de big data y análisis avanzado en una empresa digitalizada?",
+                            "options": [
+                                "Prever tendencias de mercado y optimizar la producción",
+                                "Reducir la flexibilidad en la toma de decisiones",
+                                "Limitar el acceso a datos en tiempo real",
+                                "Aumentar los tiempos de respuesta ante cambios en la demanda"
+                            ],
+                            "correctAnswer": "Prever tendencias de mercado y optimizar la producción",
+                            "explanation": "El análisis avanzado de big data permite identificar patrones, anticipar tendencias del mercado y optimizar procesos productivos de forma proactiva."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes opciones describe mejor un efecto clave de implementar una estrategia de comunicación multicanal en una empresa digitalizada?",
+                            "options": [
+                                "Limita la flexibilidad de respuesta debido a la dependencia de herramientas específicas",
+                                "Aumenta la complejidad en la interacción con clientes, generando mayores costos operativos",
+                                "Reduce la efectividad de la comunicación al centralizar los canales en plataformas únicas",
+                                "Potencia la relación con clientes al facilitar acceso y disponibilidad en diferentes plataformas"
+                            ],
+                            "correctAnswer": "Potencia la relación con clientes al facilitar acceso y disponibilidad en diferentes plataformas",
+                            "explanation": "La estrategia multicanal permite interactuar con clientes a través de múltiples plataformas, mejorando la accesibilidad, disponibilidad y experiencia del cliente."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

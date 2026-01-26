@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "DASP",
+            "name": "Digitalización Aplicada a los Sectores Productivos",
+            "topics": [
+                {
+                    "number": 4,
+                    "title": "Aplicación de la Inteligencia Artificial (IA)",
+                    "questions": [
+                        {
+                            "text": "¿Qué sector utiliza la IA para implementar herramientas como los \"robo-advisors\"?",
+                            "options": [
+                                "Seguridad",
+                                "Educación",
+                                "Finanzas",
+                                "Transporte y movilidad"
+                            ],
+                            "correctAnswer": "Finanzas",
+                            "explanation": "Los robo-advisors son plataformas de IA utilizadas en el sector financiero para proporcionar asesoramiento automatizado de inversiones basado en algoritmos y perfiles de riesgo."
+                        },
+                        {
+                            "text": "¿Qué característica distingue a los robots quirúrgicos como el sistema Da Vinci en el sector salud?",
+                            "options": [
+                                "Monitorizan enfermedades crónicas en tiempo real para evitar recaídas.",
+                                "Ayudan a médicos a planificar terapias personalizadas mediante datos genéticos.",
+                                "Realizan diagnósticos médicos autónomos basados en IA.",
+                                "Asisten en procedimientos quirúrgicos, aumentando la precisión de las operaciones."
+                            ],
+                            "correctAnswer": "Asisten en procedimientos quirúrgicos, aumentando la precisión de las operaciones.",
+                            "explanation": "El sistema Da Vinci es un robot quirúrgico que asiste a los cirujanos, proporcionando mayor precisión, menor invasividad y mejor visualización durante las operaciones."
+                        },
+                        {
+                            "text": "¿Cuál es una característica clave que distingue a la IA Débil de la IA Fuerte?",
+                            "options": [
+                                "La IA Débil simula autoconciencia, mientras que la IA Fuerte depende únicamente de programación.",
+                                "La IA Débil tiene habilidades de razonamiento autónomo, mientras que la IA Fuerte se limita a tareas específicas.",
+                                "La IA Débil opera de manera independiente, mientras que la IA Fuerte requiere intervención humana constante.",
+                                "La IA Débil se centra en tareas específicas y concretas, mientras que la IA Fuerte busca simular capacidades cognitivas humanas completas."
+                            ],
+                            "correctAnswer": "La IA Débil se centra en tareas específicas y concretas, mientras que la IA Fuerte busca simular capacidades cognitivas humanas completas.",
+                            "explanation": "La IA Débil está diseñada para tareas concretas (como reconocimiento de voz), mientras que la IA Fuerte teóricamente poseería inteligencia general similar a la humana."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes es un ejemplo de IA Débil?",
+                            "options": [
+                                "Un robot con habilidades cognitivas similares a las de un humano en todas las áreas.",
+                                "Algoritmos de recomendación como los utilizados por Netflix.",
+                                "Un modelo de IA diseñado para simular autoconciencia y entendimiento general.",
+                                "Un sistema de inteligencia artificial capaz de realizar cualquier tarea intelectual humana."
+                            ],
+                            "correctAnswer": "Algoritmos de recomendación como los utilizados por Netflix.",
+                            "explanation": "Los algoritmos de recomendación de Netflix son IA Débil: sistemas especializados en una tarea específica (recomendar contenido) sin capacidades de inteligencia general."
+                        },
+                        {
+                            "text": "¿Cuál es una característica clave de la IA Simbólica?",
+                            "options": [
+                                "Utiliza redes neuronales y métodos estadísticos para aprender de datos en bruto.",
+                                "Es adecuada para problemas ambiguos y con información incompleta.",
+                                "Se basa en reglas definidas y razonamiento deductivo en entornos predecibles.",
+                                "Funciona mediante el aprendizaje profundo y adaptativo."
+                            ],
+                            "correctAnswer": "Se basa en reglas definidas y razonamiento deductivo en entornos predecibles.",
+                            "explanation": "La IA Simbólica utiliza reglas explícitas y lógica formal para representar conocimiento, siendo efectiva en dominios bien definidos y estructurados."
+                        },
+                        {
+                            "text": "¿Qué ventaja tiene la IA Subsimbólica frente a la IA Simbólica?",
+                            "options": [
+                                "Es capaz de adaptarse a problemas dinámicos y no estructurados.",
+                                "No requiere grandes cantidades de datos ni potencia computacional.",
+                                "Funciona eficientemente en dominios con información precisa y completa.",
+                                "Es más transparente e interpretable en su funcionamiento."
+                            ],
+                            "correctAnswer": "Es capaz de adaptarse a problemas dinámicos y no estructurados.",
+                            "explanation": "La IA Subsimbólica (redes neuronales, deep learning) aprende patrones de los datos, adaptándose mejor a problemas complejos, ambiguos y sin reglas explícitas."
+                        },
+                        {
+                            "text": "¿Cuál fue uno de los principales factores que contribuyeron al renacimiento de la IA en la década de 1990?",
+                            "options": [
+                                "Avances en la potencia computacional y acceso a grandes volúmenes de datos.",
+                                "La implementación de la ética en los sistemas de IA.",
+                                "El desarrollo de la computación cuántica.",
+                                "La creación de los sistemas expertos con reglas explícitas."
+                            ],
+                            "correctAnswer": "Avances en la potencia computacional y acceso a grandes volúmenes de datos.",
+                            "explanation": "El renacimiento de la IA fue impulsado por el aumento exponencial de la capacidad de cómputo y la disponibilidad de grandes conjuntos de datos para entrenar modelos."
+                        },
+                        {
+                            "text": "¿Qué técnica se considera fundamental para los avances de la IA moderna desde 2010?",
+                            "options": [
+                                "Programación en lenguajes como Lisp y Prolog.",
+                                "Sistemas expertos basados en reglas explícitas.",
+                                "Lógica matemática para representación de razonamiento humano.",
+                                "Aprendizaje profundo (Deep Learning) y redes neuronales profundas."
+                            ],
+                            "correctAnswer": "Aprendizaje profundo (Deep Learning) y redes neuronales profundas.",
+                            "explanation": "El Deep Learning revolucionó la IA moderna, permitiendo avances significativos en visión artificial, procesamiento de lenguaje natural y reconocimiento de patrones."
+                        },
+                        {
+                            "text": "¿Qué práctica se recomienda para reducir los riesgos de privacidad al trabajar con IA y datos personales?",
+                            "options": [
+                                "Permitir que los algoritmos tomen decisiones sin intervención humana.",
+                                "Anonimizar y encriptar los datos antes de procesarlos.",
+                                "No realizar evaluaciones de impacto sobre los riesgos de privacidad.",
+                                "Evitar el uso de datos sintéticos para entrenar modelos."
+                            ],
+                            "correctAnswer": "Anonimizar y encriptar los datos antes de procesarlos.",
+                            "explanation": "La anonimización elimina identificadores personales y el cifrado protege los datos, reduciendo significativamente los riesgos de privacidad en sistemas de IA."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los principales riesgos asociados con el uso de grandes volúmenes de datos en los sistemas de IA?",
+                            "options": [
+                                "Excesiva transparencia en el uso de datos.",
+                                "Limitación en la cantidad de datos recopilados.",
+                                "Implementación de sistemas de encriptación robustos.",
+                                "Reutilización de los datos sin consentimiento."
+                            ],
+                            "correctAnswer": "Reutilización de los datos sin consentimiento.",
+                            "explanation": "Un riesgo importante es que los datos recopilados para un propósito se utilicen para otros fines sin el consentimiento informado de los usuarios."
+                        },
+                        {
+                            "text": "¿Cuál es el primer paso en el proceso de minería de datos?",
+                            "options": [
+                                "Selección del modelo.",
+                                "Preparación de los datos.",
+                                "Definición del problema.",
+                                "Exploración de los datos."
+                            ],
+                            "correctAnswer": "Definición del problema.",
+                            "explanation": "Antes de cualquier análisis, es fundamental definir claramente el problema a resolver o la pregunta a responder, orientando todo el proceso de minería de datos."
+                        },
+                        {
+                            "text": "En la minería de datos, ¿qué tipo de modelo se seleccionaría para identificar patrones en grandes conjuntos de datos sin etiquetas?",
+                            "options": [
+                                "Clasificación.",
+                                "Reglas de asociación.",
+                                "Clustering.",
+                                "Red neuronal profunda."
+                            ],
+                            "correctAnswer": "Clustering.",
+                            "explanation": "El clustering es una técnica de aprendizaje no supervisado que agrupa datos similares sin necesidad de etiquetas previas, identificando patrones y estructuras ocultas."
+                        },
+                        {
+                            "text": "¿Cómo mejora la IA el proceso de minería de datos?",
+                            "options": [
+                                "Descubre patrones complejos que los métodos tradicionales no pueden identificar.",
+                                "B y C son correctas.",
+                                "Proporciona datos limpios y procesados para entrenar modelos.",
+                                "Limita el número de variables a analizar."
+                            ],
+                            "correctAnswer": "B y C son correctas.",
+                            "explanation": "La IA mejora la minería de datos tanto descubriendo patrones complejos mediante algoritmos avanzados como proporcionando datos preprocesados para entrenar modelos más precisos."
+                        },
+                        {
+                            "text": "¿Qué lenguaje de programación es especialmente utilizado en IA para tareas que requieren lógica y razonamiento, como en sistemas expertos?",
+                            "options": [
+                                "Java",
+                                "Prolog",
+                                "R",
+                                "Python"
+                            ],
+                            "correctAnswer": "Prolog",
+                            "explanation": "Prolog es un lenguaje de programación lógica diseñado específicamente para aplicaciones de IA que requieren razonamiento basado en reglas y sistemas expertos."
+                        },
+                        {
+                            "text": "¿Qué lenguaje de programación es ideal para aplicaciones de IA que requieren un alto rendimiento y control de recursos, como juegos o sistemas embebidos?",
+                            "options": [
+                                "Julia",
+                                "C++",
+                                "R",
+                                "Python"
+                            ],
+                            "correctAnswer": "C++",
+                            "explanation": "C++ ofrece alto rendimiento y control directo sobre recursos del sistema, siendo ideal para aplicaciones de IA que requieren velocidad y eficiencia en tiempo real."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes lenguajes de programación es más popular en Inteligencia Artificial debido a su sintaxis sencilla y potentes bibliotecas como TensorFlow, Keras y Scikit-learn?",
+                            "options": [
+                                "C++",
+                                "Java",
+                                "Python",
+                                "Prolog"
+                            ],
+                            "correctAnswer": "Python",
+                            "explanation": "Python es el lenguaje más popular en IA por su sintaxis clara, facilidad de aprendizaje y ecosistema extenso de bibliotecas especializadas en machine learning y deep learning."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes tecnologías facilita el análisis de grandes volúmenes de datos para la creación de modelos predictivos que utiliza la Inteligencia Artificial?",
+                            "options": [
+                                "Big Data",
+                                "Blockchain",
+                                "Internet de las Cosas (IoT)",
+                                "Cloud Computing"
+                            ],
+                            "correctAnswer": "Big Data",
+                            "explanation": "Big Data proporciona las técnicas y herramientas para almacenar, procesar y analizar grandes volúmenes de datos necesarios para entrenar modelos predictivos de IA."
+                        },
+                        {
+                            "text": "¿Cómo se integra la Inteligencia Artificial con el Blockchain en el contexto de la automatización de contratos?",
+                            "options": [
+                                "La IA reemplaza la necesidad de contratos inteligentes y el Blockchain gestiona datos.",
+                                "El Blockchain proporciona la infraestructura de procesamiento, mientras que la IA crea modelos predictivos.",
+                                "La IA se utiliza para almacenar datos masivos, mientras que el Blockchain predice comportamientos.",
+                                "El Blockchain verifica la autenticidad de las transacciones, mientras que la IA automatiza y analiza en tiempo real."
+                            ],
+                            "correctAnswer": "El Blockchain verifica la autenticidad de las transacciones, mientras que la IA automatiza y analiza en tiempo real.",
+                            "explanation": "Blockchain garantiza la integridad y autenticidad de las transacciones, mientras que la IA aporta capacidades de análisis, automatización y toma de decisiones inteligentes."
+                        },
+                        {
+                            "text": "¿Qué desafío legal en relación con la propiedad intelectual plantea la IA en el contexto de las creaciones generadas por algoritmos?",
+                            "options": [
+                                "La pregunta de quién posee los derechos de autor sobre una obra generada por IA.",
+                                "La IA no puede generar contenido original.",
+                                "Las leyes de propiedad intelectual ya contemplan a la IA como autor.",
+                                "La IA crea contenido sin violar los derechos de autor."
+                            ],
+                            "correctAnswer": "La pregunta de quién posee los derechos de autor sobre una obra generada por IA.",
+                            "explanation": "La IA genera obras (arte, música, textos) pero no tiene personalidad jurídica, creando el dilema de quién ostenta los derechos: el desarrollador, el usuario o nadie."
+                        },
+                        {
+                            "text": "En relación con el principio de \"Transparencia y explicabilidad\" en la IA, ¿cuál de los siguientes aspectos es un desafío clave en su implementación dentro del sector cultural?",
+                            "options": [
+                                "Evitar la manipulación de contenidos y garantizar la diversidad cultural",
+                                "Hacer que los usuarios comprendan cómo los algoritmos seleccionan o promocionan contenidos",
+                                "Asegurar que los algoritmos sean auditables para evitar la discriminación",
+                                "Asegurar la privacidad de los datos recolectados por plataformas culturales"
+                            ],
+                            "correctAnswer": "Hacer que los usuarios comprendan cómo los algoritmos seleccionan o promocionan contenidos",
+                            "explanation": "La explicabilidad en el sector cultural implica que los usuarios entiendan por qué los algoritmos recomiendan ciertos contenidos, evitando burbujas de filtro y sesgos ocultos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

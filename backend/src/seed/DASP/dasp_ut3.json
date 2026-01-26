@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "DASP",
+            "name": "Digitalización Aplicada a los Sectores Productivos",
+            "topics": [
+                {
+                    "number": 3,
+                    "title": "Cloud y sistemas conectados",
+                    "questions": [
+                        {
+                            "text": "¿Cuál es la principal responsabilidad del proveedor en el nivel IaaS del Cloud Computing?",
+                            "options": [
+                                "Desarrollar y probar aplicaciones para el usuario.",
+                                "Gestionar el software y las aplicaciones del usuario.",
+                                "Proporcionar hardware, virtualización y redes.",
+                                "Gestionar el uso directo de las aplicaciones por parte del usuario."
+                            ],
+                            "correctAnswer": "Proporcionar hardware, virtualización y redes.",
+                            "explanation": "En IaaS (Infraestructura como Servicio), el proveedor gestiona la infraestructura física: servidores, almacenamiento, redes y virtualización, mientras el usuario gestiona el sistema operativo y las aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué nivel de Cloud Computing proporciona un entorno para desarrollar, probar e implementar aplicaciones sin que el usuario gestione la infraestructura?",
+                            "options": [
+                                "Desarrollo como Servicio (DaaS).",
+                                "Plataforma como Servicio (PaaS).",
+                                "Software como Servicio (SaaS).",
+                                "Infraestructura como Servicio (IaaS)."
+                            ],
+                            "correctAnswer": "Plataforma como Servicio (PaaS).",
+                            "explanation": "PaaS proporciona un entorno completo de desarrollo con herramientas, frameworks y servicios, permitiendo a los desarrolladores centrarse en el código sin gestionar la infraestructura subyacente."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes opciones es una ventaja principal del nivel SaaS?",
+                            "options": [
+                                "Control total sobre el hardware y la infraestructura.",
+                                "Herramientas avanzadas para desarrollar y probar software.",
+                                "Escalabilidad de recursos según las necesidades del negocio.",
+                                "Acceso a aplicaciones sin necesidad de instalarlas localmente."
+                            ],
+                            "correctAnswer": "Acceso a aplicaciones sin necesidad de instalarlas localmente.",
+                            "explanation": "SaaS permite utilizar aplicaciones directamente desde el navegador sin instalación local, el proveedor gestiona toda la infraestructura, actualizaciones y mantenimiento."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes herramientas facilita la automatización de tareas repetitivas en el trabajo en la nube?",
+                            "options": [
+                                "Microsoft Power Automate",
+                                "Shopify",
+                                "QuickBooks",
+                                "Google Classroom"
+                            ],
+                            "correctAnswer": "Microsoft Power Automate",
+                            "explanation": "Microsoft Power Automate es una herramienta de automatización de flujos de trabajo que permite crear procesos automatizados entre aplicaciones y servicios sin necesidad de programación."
+                        },
+                        {
+                            "text": "Una de las principales ventajas del trabajo en la nube es:",
+                            "options": [
+                                "Independencia total de la conectividad a Internet.",
+                                "Reducción de la necesidad de capacitación del personal.",
+                                "Eliminación total de costos operativos.",
+                                "Colaboración en tiempo real desde dispositivos con conexión a Internet."
+                            ],
+                            "correctAnswer": "Colaboración en tiempo real desde dispositivos con conexión a Internet.",
+                            "explanation": "La nube permite que múltiples usuarios trabajen simultáneamente en los mismos documentos y proyectos desde cualquier ubicación con conexión a Internet."
+                        },
+                        {
+                            "text": "¿Qué ventaja clave proporciona la escalabilidad en la nube para las empresas?",
+                            "options": [
+                                "Eliminación de la necesidad de conectividad a Internet.",
+                                "Creación de infraestructuras físicas locales a bajo costo.",
+                                "Ajuste de recursos según las demandas del mercado sin gastos excesivos.",
+                                "Incremento fijo de los recursos independientemente de las necesidades."
+                            ],
+                            "correctAnswer": "Ajuste de recursos según las demandas del mercado sin gastos excesivos.",
+                            "explanation": "La escalabilidad en la nube permite aumentar o reducir recursos computacionales según la demanda, pagando solo por lo utilizado y evitando inversiones en capacidad ociosa."
+                        },
+                        {
+                            "text": "¿Cuál es una de las principales ventajas del edge computing en comparación con el cloud computing?",
+                            "options": [
+                                "Reducción de la latencia al procesar datos localmente.",
+                                "Mayor capacidad para almacenar datos a largo plazo.",
+                                "Proporcionar ancho de banda ilimitado.",
+                                "Eliminación total de la necesidad de conexión a Internet."
+                            ],
+                            "correctAnswer": "Reducción de la latencia al procesar datos localmente.",
+                            "explanation": "El edge computing procesa datos en el borde de la red, cerca de donde se generan, reduciendo drásticamente la latencia al evitar enviar todo a servidores remotos."
+                        },
+                        {
+                            "text": "¿Cómo optimiza el edge computing el uso del ancho de banda?",
+                            "options": [
+                                "Almacenando temporalmente los datos en dispositivos no conectados a la red.",
+                                "Eliminando la necesidad de transmitir datos a la nube.",
+                                "Procesando una parte de los datos localmente y enviando solo los relevantes a la nube.",
+                                "Procesando todos los datos directamente en la nube."
+                            ],
+                            "correctAnswer": "Procesando una parte de los datos localmente y enviando solo los relevantes a la nube.",
+                            "explanation": "El edge computing filtra y procesa datos localmente, enviando solo la información relevante o agregada a la nube, reduciendo significativamente el tráfico de red."
+                        },
+                        {
+                            "text": "¿En qué contexto es más apropiado el uso del edge computing para el procesamiento en tiempo real?",
+                            "options": [
+                                "Almacenar datos históricos para análisis futuros.",
+                                "Operaciones bancarias de largo plazo.",
+                                "Gestión de bases de datos distribuidas a escala global.",
+                                "Dispositivos IoT en la industria 4.0 que deben responder a eventos inmediatos."
+                            ],
+                            "correctAnswer": "Dispositivos IoT en la industria 4.0 que deben responder a eventos inmediatos.",
+                            "explanation": "El edge computing es ideal para IoT industrial donde se requieren respuestas inmediatas a eventos, como detección de fallos o ajustes de producción en tiempo real."
+                        },
+                        {
+                            "text": "¿Qué función principal cumple el Fog Computing en relación con la nube?",
+                            "options": [
+                                "Reemplazar completamente el procesamiento en la nube.",
+                                "Reducir la dependencia de la conexión a Internet.",
+                                "Introducir una capa intermedia para el procesamiento y almacenamiento de datos entre el dispositivo y la nube.",
+                                "Procesar exclusivamente datos críticos en tiempo real."
+                            ],
+                            "correctAnswer": "Introducir una capa intermedia para el procesamiento y almacenamiento de datos entre el dispositivo y la nube.",
+                            "explanation": "El Fog Computing actúa como capa intermedia entre los dispositivos edge y la nube, proporcionando procesamiento, almacenamiento y servicios de red más cerca de los usuarios."
+                        },
+                        {
+                            "text": "¿Cómo se diferencia el Mist Computing del Fog Computing?",
+                            "options": [
+                                "El Mist Computing opera a nivel de dispositivos más pequeños y distribuidos, como sensores y dispositivos IoT.",
+                                "El Mist Computing centraliza el procesamiento en servidores más potentes que los del Fog Computing.",
+                                "El Fog Computing se limita exclusivamente a dispositivos finales sin intermediarios.",
+                                "El Mist Computing utiliza exclusivamente conexiones inalámbricas para el procesamiento."
+                            ],
+                            "correctAnswer": "El Mist Computing opera a nivel de dispositivos más pequeños y distribuidos, como sensores y dispositivos IoT.",
+                            "explanation": "El Mist Computing lleva el procesamiento al nivel más cercano al origen de los datos: directamente en sensores y microcontroladores, aún más distribuido que el Fog Computing."
+                        },
+                        {
+                            "text": "¿Cómo contribuyen Fog y Mist Computing a la seguridad en los sistemas de computación?",
+                            "options": [
+                                "Eliminan la necesidad de respaldo en la nube para la protección de datos.",
+                                "Sustituyen las políticas de seguridad gestionadas por la nube.",
+                                "Procesan y almacenan datos localmente antes de enviarlos a la nube, reduciendo riesgos de privacidad.",
+                                "Proporcionan análisis centralizado exclusivo para evitar ciberataques."
+                            ],
+                            "correctAnswer": "Procesan y almacenan datos localmente antes de enviarlos a la nube, reduciendo riesgos de privacidad.",
+                            "explanation": "Al procesar datos sensibles localmente, Fog y Mist Computing reducen la cantidad de información que viaja por la red, minimizando riesgos de interceptación y problemas de privacidad."
+                        },
+                        {
+                            "text": "En el contexto de ciudades inteligentes, ¿qué rol desempeña el Mist Computing?",
+                            "options": [
+                                "Sustituir la necesidad de análisis de datos en la nube.",
+                                "Procesar datos localmente en dispositivos como sensores urbanos antes de enviarlos al fog o a la nube.",
+                                "Detectar patrones globales en la gestión de tráfico.",
+                                "Procesar todos los datos directamente en la nube."
+                            ],
+                            "correctAnswer": "Procesar datos localmente en dispositivos como sensores urbanos antes de enviarlos al fog o a la nube.",
+                            "explanation": "En ciudades inteligentes, el Mist Computing permite que sensores urbanos procesen datos localmente, enviando solo información relevante y reduciendo la carga en la red."
+                        },
+                        {
+                            "text": "¿Qué medida de seguridad ofrecen los proveedores de la nube para garantizar la protección de los datos durante su almacenamiento y transmisión?",
+                            "options": [
+                                "Almacenamiento de datos sin cifrado.",
+                                "Cifrado de datos tanto en tránsito como en reposo.",
+                                "Cifrado de datos solo cuando se almacenan en reposo.",
+                                "Exclusión de medidas de seguridad avanzadas para optimizar el rendimiento."
+                            ],
+                            "correctAnswer": "Cifrado de datos tanto en tránsito como en reposo.",
+                            "explanation": "Los proveedores de nube implementan cifrado completo: en tránsito (durante la transmisión) y en reposo (almacenados), garantizando la protección de datos en todo momento."
+                        },
+                        {
+                            "text": "¿Cómo facilita la nube la interoperabilidad entre diversas plataformas y aplicaciones?",
+                            "options": [
+                                "Ofreciendo plataformas exclusivas de un solo proveedor.",
+                                "Usando estándares abiertos y APIs para permitir la comunicación entre diferentes sistemas.",
+                                "Al prohibir el uso de estándares abiertos y APIs.",
+                                "Integrando solo aplicaciones desarrolladas por el mismo proveedor de nube."
+                            ],
+                            "correctAnswer": "Usando estándares abiertos y APIs para permitir la comunicación entre diferentes sistemas.",
+                            "explanation": "La nube utiliza estándares abiertos y APIs bien documentadas que permiten la integración y comunicación entre diferentes sistemas, plataformas y aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué ventaja clave del uso de la nube facilita la colaboración entre equipos dispersos?",
+                            "options": [
+                                "La imposibilidad de editar documentos simultáneamente por varios usuarios.",
+                                "La imposibilidad de gestionar proyectos colaborativos.",
+                                "El acceso limitado a aplicaciones basadas en la nube.",
+                                "El trabajo conjunto en documentos en tiempo real, mejorando la productividad."
+                            ],
+                            "correctAnswer": "El trabajo conjunto en documentos en tiempo real, mejorando la productividad.",
+                            "explanation": "Las herramientas en la nube permiten edición colaborativa en tiempo real, donde múltiples usuarios pueden trabajar simultáneamente en el mismo documento desde diferentes ubicaciones."
+                        },
+                        {
+                            "text": "¿Qué rol juega la nube en la optimización de los recursos y la reducción del costo operativo?",
+                            "options": [
+                                "No ofrece ventajas en la optimización de recursos.",
+                                "Permite que las organizaciones gasten más en infraestructura física.",
+                                "Ofrece acceso a infraestructura de TI escalable y a bajo costo, eliminando la necesidad de grandes inversiones locales.",
+                                "Requiere un uso exclusivo de servidores locales, aumentando los costos operativos."
+                            ],
+                            "correctAnswer": "Ofrece acceso a infraestructura de TI escalable y a bajo costo, eliminando la necesidad de grandes inversiones locales.",
+                            "explanation": "La nube elimina la necesidad de invertir en hardware propio, ofreciendo infraestructura escalable con modelo de pago por uso, reduciendo significativamente los costos operativos."
+                        },
+                        {
+                            "text": "¿Cuál es la ventaja de la computación en la nube relacionada con la mejora de la innovación en las empresas?",
+                            "options": [
+                                "Reducción del tiempo de lanzamiento al mercado al eliminar barreras tecnológicas.",
+                                "Restricción del acceso a tecnologías avanzadas, como la inteligencia artificial y el big data.",
+                                "Incapacidad de desarrollar productos debido a la dependencia de infraestructuras locales.",
+                                "Aumento de los costos al intentar lanzar nuevos productos rápidamente."
+                            ],
+                            "correctAnswer": "Reducción del tiempo de lanzamiento al mercado al eliminar barreras tecnológicas.",
+                            "explanation": "La nube proporciona acceso inmediato a recursos y tecnologías avanzadas, permitiendo desarrollar y lanzar productos más rápidamente sin barreras de infraestructura."
+                        },
+                        {
+                            "text": "¿Cómo ayuda la computación en la nube en la toma de decisiones dentro de las empresas?",
+                            "options": [
+                                "Ofreciendo herramientas para análisis de datos en tiempo real que mejoran la toma de decisiones.",
+                                "Eludiendo la optimización de la cadena de suministro y otros procesos de negocio.",
+                                "Generando datos a largo plazo sin capacidad de análisis en tiempo real.",
+                                "Limitando el acceso a datos en tiempo real, dificultando las decisiones inmediatas."
+                            ],
+                            "correctAnswer": "Ofreciendo herramientas para análisis de datos en tiempo real que mejoran la toma de decisiones.",
+                            "explanation": "La nube ofrece herramientas de análisis y business intelligence que permiten procesar datos en tiempo real, proporcionando información actualizada para decisiones informadas."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los factores que más favorece la reducción de costos operativos en las empresas que adoptan soluciones de computación en la nube?",
+                            "options": [
+                                "La nube no reduce los costos operativos ya que requiere inversiones significativas en seguridad y protección de datos.",
+                                "Las soluciones en la nube son más costosas a largo plazo debido a la infraestructura de almacenamiento local.",
+                                "El pago por suscripción o uso específico permite ajustar los costos a las necesidades exactas, eliminando gastos de infraestructura innecesarios.",
+                                "Las empresas deben invertir en grandes infraestructuras locales para garantizar un buen rendimiento."
+                            ],
+                            "correctAnswer": "El pago por suscripción o uso específico permite ajustar los costos a las necesidades exactas, eliminando gastos de infraestructura innecesarios.",
+                            "explanation": "El modelo de pago por uso de la nube permite pagar solo por los recursos consumidos, eliminando inversiones en infraestructura ociosa y reduciendo costos operativos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

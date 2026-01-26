@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "DASP",
+            "name": "Digitalización Aplicada a los Sectores Productivos",
+            "topics": [
+                {
+                    "number": 6,
+                    "title": "Digitalización empresarial. Desarrollo de un proyecto",
+                    "questions": [
+                        {
+                            "text": "¿Qué es fundamental antes de definir una estrategia de digitalización en la empresa?",
+                            "options": [
+                                "Identificar el mercado objetivo para un nuevo producto.",
+                                "Realizar un diagnóstico de la situación actual de la empresa.",
+                                "Implementar un nuevo software de gestión empresarial.",
+                                "Contratar un equipo de desarrolladores."
+                            ],
+                            "correctAnswer": "Realizar un diagnóstico de la situación actual de la empresa.",
+                            "explanation": "Antes de digitalizar, es esencial analizar el estado actual de la empresa: procesos, tecnología existente, cultura organizacional y capacidades, para identificar brechas y prioridades."
+                        },
+                        {
+                            "text": "¿Cómo debe contribuir la digitalización según la revisión de la misión, visión y valores de la empresa?",
+                            "options": [
+                                "Centrándose exclusivamente en la reducción de costes operativos.",
+                                "Fortaleciendo la propuesta de valor de la organización.",
+                                "Implementando tecnologías sin considerar el impacto ecológico.",
+                                "Desarrollando productos únicamente para nuevos mercados."
+                            ],
+                            "correctAnswer": "Fortaleciendo la propuesta de valor de la organización.",
+                            "explanation": "La digitalización debe alinearse con la estrategia empresarial, fortaleciendo lo que hace única a la organización y potenciando su propuesta de valor diferencial."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los criterios clave para priorizar áreas en una estrategia de digitalización?",
+                            "options": [
+                                "La cantidad de empleados en el área.",
+                                "La viabilidad técnica y económica de la digitalización.",
+                                "La antigüedad de los sistemas utilizados.",
+                                "La disponibilidad de software gratuito."
+                            ],
+                            "correctAnswer": "La viabilidad técnica y económica de la digitalización.",
+                            "explanation": "La priorización debe considerar tanto la viabilidad técnica (es posible hacerlo) como la económica (retorno de inversión), además del impacto estratégico."
+                        },
+                        {
+                            "text": "¿Qué tipo de aplicaciones permiten a las empresas optimizar el flujo de materiales en la cadena de suministro?",
+                            "options": [
+                                "Aplicaciones de gestión de relaciones con el cliente (CRM)",
+                                "Aplicaciones de gestión operativa",
+                                "Aplicaciones de marketing digital",
+                                "Aplicaciones de monitorización remota"
+                            ],
+                            "correctAnswer": "Aplicaciones de gestión operativa",
+                            "explanation": "Las aplicaciones de gestión operativa (SCM, WMS, MRP) optimizan el flujo de materiales, inventarios y logística en la cadena de suministro."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes afirmaciones describe mejor la importancia de evitar silos de información en una empresa?",
+                            "options": [
+                                "La comunicación entre áreas se reduce al mínimo.",
+                                "Los departamentos deben competir entre sí por recursos.",
+                                "La información de un área puede influir en la planificación de otras áreas.",
+                                "Cada área trabaja de manera independiente sin compartir datos."
+                            ],
+                            "correctAnswer": "La información de un área puede influir en la planificación de otras áreas.",
+                            "explanation": "Evitar silos permite que la información fluya entre departamentos, facilitando decisiones coordinadas donde los datos de un área enriquecen la planificación de otras."
+                        },
+                        {
+                            "text": "¿Qué implica el coste de oportunidad en el contexto de la digitalización?",
+                            "options": [
+                                "Los beneficios que se obtienen al no invertir en tecnología.",
+                                "Los beneficios que se dejan de obtener por no tomar decisiones a tiempo.",
+                                "La mejora de la satisfacción del cliente mediante procesos manuales.",
+                                "La reducción de costos operativos al no digitalizar."
+                            ],
+                            "correctAnswer": "Los beneficios que se dejan de obtener por no tomar decisiones a tiempo.",
+                            "explanation": "El coste de oportunidad representa los beneficios perdidos por retrasar o no realizar la digitalización: competidores que avanzan, clientes que migran, eficiencias no capturadas."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes afirmaciones describe mejor el impacto del Big Data en la toma de decisiones empresariales?",
+                            "options": [
+                                "Reduce la necesidad de personal especializado en análisis de datos.",
+                                "Facilita la recopilación de datos sin necesidad de análisis.",
+                                "Permite la identificación de patrones que pueden guiar decisiones estratégicas.",
+                                "Aumenta la dependencia de la intuición en la gestión empresarial."
+                            ],
+                            "correctAnswer": "Permite la identificación de patrones que pueden guiar decisiones estratégicas.",
+                            "explanation": "Big Data permite analizar grandes volúmenes de información para descubrir patrones, tendencias y correlaciones que fundamentan decisiones estratégicas basadas en evidencia."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los principales beneficios de implementar Inteligencia Artificial en los procesos empresariales?",
+                            "options": [
+                                "Eliminación de la necesidad de análisis de datos previos.",
+                                "Aumento de la complejidad en la gestión de datos sin un propósito claro.",
+                                "Mejora en la velocidad de respuesta a los clientes mediante chatbots.",
+                                "Sustitución completa de recursos humanos en todas las áreas."
+                            ],
+                            "correctAnswer": "Mejora en la velocidad de respuesta a los clientes mediante chatbots.",
+                            "explanation": "Los chatbots con IA permiten atención al cliente 24/7, respuestas inmediatas a consultas frecuentes y escalamiento eficiente a agentes humanos cuando es necesario."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes afirmaciones describe mejor el uso de la Realidad Aumentada en el diseño y prototipado?",
+                            "options": [
+                                "Facilita la visualización en 3D de productos antes de su fabricación, ahorrando tiempo y costos.",
+                                "Permite la creación de productos sin necesidad de un diseño previo.",
+                                "Elimina la necesidad de pruebas físicas de los prototipos.",
+                                "Aumenta el costo de desarrollo al requerir tecnología avanzada."
+                            ],
+                            "correctAnswer": "Facilita la visualización en 3D de productos antes de su fabricación, ahorrando tiempo y costos.",
+                            "explanation": "La Realidad Aumentada permite visualizar prototipos virtuales en contexto real, identificar problemas tempranamente y reducir iteraciones físicas costosas."
+                        },
+                        {
+                            "text": "En el contexto de la ciberseguridad, ¿cuál es una función clave de la autenticación multifactor?",
+                            "options": [
+                                "Evitar accesos no autorizados mediante múltiples métodos de verificación.",
+                                "Minimizar el impacto de ataques cibernéticos sin requerir protocolos específicos.",
+                                "Proteger la infraestructura digital mediante firewalls.",
+                                "Aumentar la complejidad de las contraseñas de los usuarios."
+                            ],
+                            "correctAnswer": "Evitar accesos no autorizados mediante múltiples métodos de verificación.",
+                            "explanation": "La autenticación multifactor combina varios factores (algo que sabes, tienes y eres) para verificar identidad, dificultando significativamente accesos no autorizados."
+                        },
+                        {
+                            "text": "¿Qué se busca lograr durante la fase de pruebas piloto en la implantación de tecnologías?",
+                            "options": [
+                                "Obtener la aprobación de todos los departamentos antes de la implementación.",
+                                "Evaluar el rendimiento de las tecnologías en un entorno controlado antes de su expansión.",
+                                "Reducir costos mediante la eliminación de algunas tecnologías.",
+                                "Realizar una implementación a gran escala de inmediato."
+                            ],
+                            "correctAnswer": "Evaluar el rendimiento de las tecnologías en un entorno controlado antes de su expansión.",
+                            "explanation": "Las pruebas piloto permiten validar tecnologías en entorno real pero controlado, identificar problemas, ajustar configuraciones y minimizar riesgos antes del despliegue general."
+                        },
+                        {
+                            "text": "¿Cuál es el propósito del escalado progresivo en la integración de tecnologías en una empresa?",
+                            "options": [
+                                "Aumentar la complejidad de los sistemas para mejorar la seguridad.",
+                                "Extender la implementación de manera ordenada, minimizando riesgos y asegurando la estabilidad del sistema.",
+                                "Implementar todas las tecnologías simultáneamente para ahorrar tiempo.",
+                                "Evitar la capacitación de los usuarios en nuevas tecnologías."
+                            ],
+                            "correctAnswer": "Extender la implementación de manera ordenada, minimizando riesgos y asegurando la estabilidad del sistema.",
+                            "explanation": "El escalado progresivo permite expandir gradualmente la solución, aprendiendo de cada fase, corrigiendo problemas y asegurando estabilidad antes de ampliar alcance."
+                        },
+                        {
+                            "text": "¿Cuál es una de las recomendaciones para mejorar la interoperabilidad de los sistemas tecnológicos en una empresa?",
+                            "options": [
+                                "Usar APIs robustas y bien documentadas para facilitar el intercambio de información.",
+                                "Utilizar únicamente software propietario.",
+                                "Implementar estándares cerrados para limitar el acceso a los datos.",
+                                "Evitar la comunicación entre diferentes plataformas."
+                            ],
+                            "correctAnswer": "Usar APIs robustas y bien documentadas para facilitar el intercambio de información.",
+                            "explanation": "Las APIs bien diseñadas y documentadas permiten que diferentes sistemas se comuniquen e intercambien datos de forma estandarizada, mejorando la interoperabilidad."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de un software ERP (Enterprise Resource Planning)?",
+                            "options": [
+                                "Automatizar únicamente los procesos de marketing de la empresa.",
+                                "Mejorar la experiencia del cliente mediante la personalización de servicios.",
+                                "Centralizar la información de todos los departamentos en una única plataforma para optimizar la gestión empresarial.",
+                                "Gestionar exclusivamente las relaciones con los clientes."
+                            ],
+                            "correctAnswer": "Centralizar la información de todos los departamentos en una única plataforma para optimizar la gestión empresarial.",
+                            "explanation": "Un ERP integra todos los procesos empresariales (finanzas, RRHH, operaciones, ventas) en una plataforma única, eliminando silos y optimizando la gestión global."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo principal de la gestión de procesos de negocio (BPM)?",
+                            "options": [
+                                "Mejorar continuamente los procesos de negocio optimizando los flujos de trabajo.",
+                                "Aumentar la cantidad de tareas manuales en los procesos.",
+                                "Reducir la comunicación entre departamentos.",
+                                "Implementar sistemas aislados para cada función empresarial."
+                            ],
+                            "correctAnswer": "Mejorar continuamente los procesos de negocio optimizando los flujos de trabajo.",
+                            "explanation": "BPM se centra en analizar, modelar, automatizar y mejorar continuamente los procesos empresariales para aumentar eficiencia, calidad y agilidad organizacional."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes afirmaciones describe mejor Microsoft 365?",
+                            "options": [
+                                "Es un software de gestión de proyectos instalado localmente.",
+                                "Solo es accesible desde dispositivos móviles.",
+                                "Se utiliza exclusivamente para el almacenamiento de datos sin herramientas de colaboración.",
+                                "Es una suite de productividad en la nube que incluye aplicaciones como Word y Excel, facilitando la colaboración en tiempo real."
+                            ],
+                            "correctAnswer": "Es una suite de productividad en la nube que incluye aplicaciones como Word y Excel, facilitando la colaboración en tiempo real.",
+                            "explanation": "Microsoft 365 es una suite cloud que integra aplicaciones de productividad (Word, Excel, Teams), almacenamiento (OneDrive) y herramientas de colaboración en tiempo real."
+                        },
+                        {
+                            "text": "¿Cuál es el primer paso fundamental en la gestión de datos masivos?",
+                            "options": [
+                                "Visualización de datos.",
+                                "Almacenamiento eficiente de datos.",
+                                "Análisis avanzado de datos.",
+                                "Recolección de datos."
+                            ],
+                            "correctAnswer": "Recolección de datos.",
+                            "explanation": "La recolección es el primer paso: capturar datos de múltiples fuentes (sensores, sistemas, interacciones) antes de poder almacenarlos, procesarlos o analizarlos."
+                        },
+                        {
+                            "text": "¿Cuál de las siguientes técnicas es utilizada en el análisis avanzado de datos para predecir tendencias futuras?",
+                            "options": [
+                                "Análisis de sentimiento.",
+                                "Almacenamiento en la nube.",
+                                "Machine Learning (Aprendizaje Automático).",
+                                "Recolección de datos."
+                            ],
+                            "correctAnswer": "Machine Learning (Aprendizaje Automático).",
+                            "explanation": "Machine Learning utiliza algoritmos que aprenden de datos históricos para identificar patrones y predecir tendencias futuras con precisión creciente."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de los dashboards interactivos en el seguimiento de proyectos de digitalización?",
+                            "options": [
+                                "Realizar análisis de sentimiento sobre la satisfacción del cliente.",
+                                "Monitorear el progreso en tiempo real mediante indicadores clave de rendimiento (KPIs).",
+                                "Almacenar datos de manera eficiente.",
+                                "Generar informes detallados sobre el estado del proyecto."
+                            ],
+                            "correctAnswer": "Monitorear el progreso en tiempo real mediante indicadores clave de rendimiento (KPIs).",
+                            "explanation": "Los dashboards interactivos visualizan KPIs en tiempo real, permitiendo monitorear el progreso, identificar desviaciones y tomar decisiones informadas rápidamente."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes perfiles es esencial para proteger la infraestructura digital de una empresa en un proyecto de digitalización?",
+                            "options": [
+                                "Gerente de Transformación Digital.",
+                                "Especialista en Ciberseguridad.",
+                                "Desarrollador de Software.",
+                                "Científico de Datos."
+                            ],
+                            "correctAnswer": "Especialista en Ciberseguridad.",
+                            "explanation": "El Especialista en Ciberseguridad es esencial para proteger la infraestructura digital, gestionar riesgos, implementar controles de seguridad y responder a incidentes."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
