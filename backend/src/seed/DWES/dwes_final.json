@@ -1,0 +1,456 @@
+{
+    "subjects": [
+        {
+            "code": "DWES",
+            "name": "Desarrollo Web en Entorno Servidor",
+            "topics": [
+                {
+                    "number": 9,
+                    "title": "TEST FINAL DWES",
+                    "questions": [
+                        {
+                            "text": "Un desarrollador necesita almacenar la edad de un usuario (un número entero) y su nombre (texto). ¿Qué dos conceptos fundamentales de programación está utilizando?",
+                            "options": [
+                                "Funciones y Operadores",
+                                "Variables y Tipos de datos",
+                                "Clases y Objetos",
+                                "Estructuras de control y Bucles"
+                            ],
+                            "correctAnswer": "Variables y Tipos de datos",
+                            "explanation": "Porque las variables son contenedores para almacenar datos, y los tipos de datos definen la naturaleza de esos datos (entero para la edad, texto para el nombre)."
+                        },
+                        {
+                            "text": "Estás diseñando una nueva aplicación web. El modelo más común implica que el navegador (cliente) solicita información a un sistema central (servidor). ¿Cómo se llama esta arquitectura?",
+                            "options": [
+                                "Arquitectura de microservicios",
+                                "Arquitectura de tres capas",
+                                "Arquitectura Serverless",
+                                "Arquitectura cliente-servidor"
+                            ],
+                            "correctAnswer": "Arquitectura cliente-servidor",
+                            "explanation": "Porque en la arquitectura cliente-servidor el cliente (navegador) pide recursos a un servidor centralizado, que responde con la información solicitada: es el modelo clásico de la web."
+                        },
+                        {
+                            "text": "Tu equipo decide dividir una aplicación monolítica en tres partes: interfaz de usuario, lógica de negocio y base de datos. ¿Qué modelo arquitectónico están implementando?",
+                            "options": [
+                                "Arquitectura cliente-servidor",
+                                "Arquitectura de tres capas",
+                                "Arquitectura de microservicios",
+                                "Arquitectura Serverless"
+                            ],
+                            "correctAnswer": "Arquitectura de tres capas",
+                            "explanation": "Porque dividir la aplicación en capa de presentación (interfaz), lógica de negocio y acceso a datos es la base de la arquitectura de tres capas, que separa responsabilidades claramente."
+                        },
+                        {
+                            "text": "¿Qué arquitectura se caracteriza por componer una aplicación a partir de múltiples servicios independientes y pequeños, cada uno con una responsabilidad única?",
+                            "options": [
+                                "Arquitectura basada en eventos",
+                                "Arquitectura de tres capas",
+                                "Arquitectura Serverless",
+                                "Arquitectura de microservicios"
+                            ],
+                            "correctAnswer": "Arquitectura de microservicios",
+                            "explanation": "Porque en la arquitectura de microservicios la aplicación se construye como un conjunto de pequeños servicios independientes, cada uno con una responsabilidad clara y bien delimitada."
+                        },
+                        {
+                            "text": "Un equipo de desarrollo escribe código en C++. Para que el ordenador pueda ejecutarlo, necesitan un programa que traduzca ese código a código máquina. ¿Qué herramienta es esta?",
+                            "options": [
+                                "Un compilador",
+                                "Un gestor de paquetes",
+                                "Un depurador",
+                                "Un editor de texto"
+                            ],
+                            "correctAnswer": "Un compilador",
+                            "explanation": "Porque un compilador es el programa que traduce el código fuente escrito por el programador a código máquina que el ordenador puede ejecutar."
+                        },
+                        {
+                            "text": "¿Cuál es la ventaja principal de usar lenguajes embebidos como PHP en un archivo HTML?",
+                            "options": [
+                                "Eliminar la necesidad de una base de datos",
+                                "Permitir la generación de contenido dinámico en el servidor antes de enviar la página",
+                                "Reducir la capacidad de almacenamiento en el cliente",
+                                "Mejorar el diseño (estilo CSS) de la página"
+                            ],
+                            "correctAnswer": "Permitir la generación de contenido dinámico en el servidor antes de enviar la página",
+                            "explanation": "Porque los lenguajes embebidos como PHP permiten generar contenido HTML dinámicamente en el servidor antes de enviar la página al cliente."
+                        },
+                        {
+                            "text": "¿Qué describe mejor la tecnología PHP (Hypertext Preprocessor) en el contexto del desarrollo web?",
+                            "options": [
+                                "Un lenguaje de programación de código abierto que se ejecuta en el servidor",
+                                "Un sistema de gestión de bases de datos para almacenar información",
+                                "Un lenguaje de programación que se ejecuta exclusivamente en el navegador del cliente",
+                                "Un lenguaje de marcas para estructurar el contenido de una página web"
+                            ],
+                            "correctAnswer": "Un lenguaje de programación de código abierto que se ejecuta en el servidor",
+                            "explanation": "Porque PHP es un lenguaje de programación de código abierto diseñado principalmente para el desarrollo web del lado del servidor."
+                        },
+                        {
+                            "text": "Una gran empresa bancaria necesita construir una aplicación web robusta y de alta escalabilidad, aprovechando su infraestructura y equipo de expertos en Java. ¿Qué tecnología del ecosistema Java EE sería ideal para este propósito?",
+                            "options": [
+                                "ASP (Active Server Pages)",
+                                "Node.js",
+                                "JSP (JavaServer Pages) y Servlets",
+                                "PHP"
+                            ],
+                            "correctAnswer": "JSP (JavaServer Pages) y Servlets",
+                            "explanation": "Porque JSP y Servlets son tecnologías del ecosistema Java EE diseñadas para aplicaciones web empresariales robustas y escalables."
+                        },
+                        {
+                            "text": "¿Cuál es la diferencia fundamental entre dónde almacenan los datos las cookies y las sesiones?",
+                            "options": [
+                                "Las cookies solo almacenan texto, y las sesiones solo datos numéricos",
+                                "Las cookies almacenan datos en el navegador del usuario y las sesiones en el servidor",
+                                "Las cookies se almacenan en el servidor, las sesiones en el navegador del usuario",
+                                "Las cookies se almacenan en la base de datos, las sesiones en el código fuente"
+                            ],
+                            "correctAnswer": "Las cookies almacenan datos en el navegador del usuario y las sesiones en el servidor",
+                            "explanation": "Porque las cookies se almacenan en el navegador del cliente, mientras que las sesiones mantienen los datos en el servidor, enviando solo un identificador al cliente."
+                        },
+                        {
+                            "text": "¿Cuál es el mecanismo HTML principal utilizado para recopilar información del usuario (como un nombre o un comentario) y enviarla al servidor?",
+                            "options": [
+                                "Una sesión",
+                                "Un enlace (<a>)",
+                                "Una tabla (<table>)",
+                                "Un formulario (<form>)"
+                            ],
+                            "correctAnswer": "Un formulario (<form>)",
+                            "explanation": "Porque los formularios HTML (<form>) son el mecanismo principal para recopilar datos del usuario y enviarlos al servidor mediante métodos como GET o POST."
+                        },
+                        {
+                            "text": "¿Cuál es la diferencia conceptual clave entre una página web estática y una página web dinámica?",
+                            "options": [
+                                "Las páginas estáticas se entregan tal cual están almacenadas, mientras que las dinámicas se generan o modifican en tiempo real",
+                                "Las páginas estáticas no pueden tener imágenes, solo texto",
+                                "Las páginas estáticas siempre se cargan más rápido que las dinámicas",
+                                "Las páginas estáticas usan HTML y las dinámicas usan solo JavaScript"
+                            ],
+                            "correctAnswer": "Las páginas estáticas se entregan tal cual están almacenadas, mientras que las dinámicas se generan o modifican en tiempo real",
+                            "explanation": "Porque las páginas estáticas muestran siempre el mismo contenido almacenado, mientras que las dinámicas pueden generar contenido diferente según el contexto o las acciones del usuario."
+                        },
+                        {
+                            "text": "Una aplicación de mapas (como Google Maps) permite al usuario moverse por el mapa, cargando nuevas secciones geográficas sin que la página completa parpadee o se recargue. ¿Qué técnica fundamental permite esta actualización parcial?",
+                            "options": [
+                                "AJAX (JavaScript y XML asíncrono)",
+                                "Programación del lado del servidor únicamente",
+                                "Generación estática de sitios",
+                                "Validación del lado del cliente"
+                            ],
+                            "correctAnswer": "AJAX (JavaScript y XML asíncrono)",
+                            "explanation": "Porque AJAX permite realizar peticiones asíncronas al servidor y actualizar partes de la página sin necesidad de recargarla completamente."
+                        },
+                        {
+                            "text": "¿Por qué la validación del lado del cliente (en el navegador) nunca debe ser la única medida de seguridad para los datos de un formulario?",
+                            "options": [
+                                "Porque solo funciona para campos de texto, no para contraseñas",
+                                "Porque un usuario malicioso puede omitir fácilmente la validación del cliente y enviar datos maliciosos directamente al servidor",
+                                "Porque ralentiza la experiencia del usuario",
+                                "Porque no todos los navegadores son compatibles con JavaScript"
+                            ],
+                            "correctAnswer": "Porque un usuario malicioso puede omitir fácilmente la validación del cliente y enviar datos maliciosos directamente al servidor",
+                            "explanation": "Porque la validación del lado del cliente puede ser fácilmente eludida por usuarios malintencionados, por lo que siempre debe complementarse con validación en el servidor."
+                        },
+                        {
+                            "text": "Cuando JavaScript modifica el contenido de una página después de que se haya cargado (por ejemplo, cambiando un texto), ¿qué estructura de la página está manipulando?",
+                            "options": [
+                                "El servidor web",
+                                "La API",
+                                "El CSS",
+                                "El DOM (Document Object Model)"
+                            ],
+                            "correctAnswer": "El DOM (Document Object Model)",
+                            "explanation": "Porque el DOM es la representación estructurada del documento HTML que JavaScript puede manipular para modificar el contenido y estructura de la página."
+                        },
+                        {
+                            "text": "¿Cuál es el propósito principal de usar un framework del lado del servidor como Django o Laravel?",
+                            "options": [
+                                "Reemplazar la necesidad de usar HTML",
+                                "Simplificar las solicitudes AJAX en el cliente",
+                                "Crear animaciones y efectos visuales en el navegador",
+                                "Proporcionar una estructura y herramientas (manejo de rutas, BD) para agilizar el desarrollo del backend"
+                            ],
+                            "correctAnswer": "Proporcionar una estructura y herramientas (manejo de rutas, BD) para agilizar el desarrollo del backend",
+                            "explanation": "Porque los frameworks del lado del servidor proporcionan estructura, patrones y herramientas predefinidas que agilizan el desarrollo de la lógica de negocio y el acceso a datos."
+                        },
+                        {
+                            "text": "Un administrador de base de datos necesita añadir un nuevo usuario a la tabla 'Usuarios'. ¿Qué categoría de sentencias SQL (DML o DDL) utilizará?",
+                            "options": [
+                                "DML (Data Manipulation Language)",
+                                "DCL (Data Control Language)",
+                                "DDL (Data Definition Language)",
+                                "TCL (Transaction Control Language)"
+                            ],
+                            "correctAnswer": "DML (Data Manipulation Language)",
+                            "explanation": "Porque DML (Data Manipulation Language) incluye las sentencias para manipular datos como INSERT, UPDATE, DELETE, que son las que se usan para añadir registros."
+                        },
+                        {
+                            "text": "Un administrador de base de datos necesita asegurarse de que cada 'pedido' en una tabla está vinculado a un 'cliente' correcto que realmente existe, el cual se encuentra en otra tabla. ¿Qué concepto de base de datos relacional se utiliza para establecer este vínculo?",
+                            "options": [
+                                "Un atributo de columna único",
+                                "Una clave foránea (Foreign Key)",
+                                "Un índice de texto completo",
+                                "Una clave primaria en la tabla de pedidos"
+                            ],
+                            "correctAnswer": "Una clave foránea (Foreign Key)",
+                            "explanation": "Porque una clave foránea es una restricción que vincula una columna de una tabla con la clave primaria de otra tabla, asegurando la integridad referencial."
+                        },
+                        {
+                            "text": "En una tabla de 'Estudiantes', el administrador de la base de datos se asegura de que no haya dos estudiantes con el mismo número de identificación. ¿Qué concepto se está aplicando a la columna 'número de identificación'?",
+                            "options": [
+                                "Clave primaria (Primary Key)",
+                                "Normalización",
+                                "Clave foránea (Foreign Key)",
+                                "Integridad referencial"
+                            ],
+                            "correctAnswer": "Clave primaria (Primary Key)",
+                            "explanation": "Porque la clave primaria garantiza que cada registro sea único e identificable, impidiendo duplicados en la columna designada."
+                        },
+                        {
+                            "text": "Un desarrollador está creando una aplicación que necesita almacenar datos en un formato flexible, similar a JSON, sin una estructura de tabla rígida. ¿Qué tipo de base de datos sería la más adecuada?",
+                            "options": [
+                                "Una base de datos NoSQL (de documentos)",
+                                "Una base de datos relacional",
+                                "Un servicio de almacenamiento en la nube",
+                                "Un sistema de archivos"
+                            ],
+                            "correctAnswer": "Una base de datos NoSQL (de documentos)",
+                            "explanation": "Porque las bases de datos NoSQL de documentos permiten almacenar datos en formatos flexibles como JSON sin necesidad de un esquema rígido predefinido."
+                        },
+                        {
+                            "text": "En una transferencia bancaria, si la operación de restar dinero de la cuenta A tiene éxito, pero la de sumar a la cuenta B falla, el sistema anula la resta. ¿Qué propiedad ACID garantiza esto?",
+                            "options": [
+                                "Durabilidad",
+                                "Atomicidad",
+                                "Aislamiento",
+                                "Consistencia"
+                            ],
+                            "correctAnswer": "Atomicidad",
+                            "explanation": "Porque la atomicidad garantiza que una transacción se ejecute completamente o no se ejecute en absoluto, revirtiendo los cambios si alguna parte falla."
+                        },
+                        {
+                            "text": "Un hospital se asegura de que solo el personal médico autorizado puede acceder a los historiales de los pacientes. ¿Qué pilar de la seguridad de la información se está aplicando?",
+                            "options": [
+                                "Disponibilidad",
+                                "Confidencialidad",
+                                "Reputación",
+                                "Integridad"
+                            ],
+                            "correctAnswer": "Confidencialidad",
+                            "explanation": "Porque la confidencialidad asegura que la información solo sea accesible para personas autorizadas, protegiendo los datos sensibles de accesos no autorizados."
+                        },
+                        {
+                            "text": "¿Cómo se denomina el pilar de la seguridad que garantiza que la información sea precisa, confiable y no haya sido modificada o corrompida por acciones malintencionadas?",
+                            "options": [
+                                "Cumplimiento normativo",
+                                "Confidencialidad",
+                                "Integridad",
+                                "Disponibilidad"
+                            ],
+                            "correctAnswer": "Integridad",
+                            "explanation": "Porque la integridad garantiza que los datos permanezcan precisos, completos y sin modificaciones no autorizadas."
+                        },
+                        {
+                            "text": "En un sistema de gestión de contenidos, un 'Editor' puede publicar artículos y un 'Lector' solo puede verlos. ¿Qué concepto de seguridad se utiliza para agrupar y asignar estos permisos específicos?",
+                            "options": [
+                                "Un Usuario",
+                                "Un Rol",
+                                "Un Perfil",
+                                "Una Contraseña"
+                            ],
+                            "correctAnswer": "Un Rol",
+                            "explanation": "Porque los roles agrupan permisos específicos que se asignan a los usuarios, permitiendo gestionar el acceso de forma organizada según las funciones."
+                        },
+                        {
+                            "text": "¿Cómo se llama el proceso mediante el cual un sistema verifica la identidad de un usuario que intenta acceder a él, generalmente validando sus credenciales?",
+                            "options": [
+                                "Autenticación",
+                                "Cifrado",
+                                "Auditoría",
+                                "Autorización (Control de acceso)"
+                            ],
+                            "correctAnswer": "Autenticación",
+                            "explanation": "Porque la autenticación es el proceso de verificar la identidad de un usuario, generalmente mediante credenciales como usuario y contraseña."
+                        },
+                        {
+                            "text": "¿Qué herramienta de seguridad de red actúa como una barrera, filtrando el tráfico entrante y saliente para bloquear accesos no autorizados?",
+                            "options": [
+                                "Un Firewall",
+                                "Una VPN",
+                                "Un sistema de detección de intrusiones (IDS)",
+                                "Un sistema de copias de seguridad"
+                            ],
+                            "correctAnswer": "Un Firewall",
+                            "explanation": "Porque un firewall actúa como barrera entre redes, filtrando el tráfico según reglas definidas para bloquear accesos no autorizados."
+                        },
+                        {
+                            "text": "Una aplicación del tiempo en tu móvil muestra datos de un servicio meteorológico externo. ¿Qué tecnología utiliza la app para solicitar esos datos?",
+                            "options": [
+                                "Un protocolo SOAP",
+                                "Un repositorio Git",
+                                "Un framework integrado",
+                                "Una API (Interfaz de Programación de Aplicaciones)"
+                            ],
+                            "correctAnswer": "Una API (Interfaz de Programación de Aplicaciones)",
+                            "explanation": "Porque una API permite que diferentes aplicaciones se comuniquen entre sí, facilitando el acceso a datos y funcionalidades de servicios externos."
+                        },
+                        {
+                            "text": "Un arquitecto de software está rediseñando una aplicación monolítica gigante. Decide descomponerla en componentes más pequeños, modulares y reutilizables (como un 'servicio de pago'). ¿Qué enfoque de diseño de software está aplicando?",
+                            "options": [
+                                "Arquitectura Cliente-Servidor",
+                                "Arquitectura Orientada a Servicios (SOA)",
+                                "Desarrollo basado en la nube",
+                                "Programación de bajo nivel"
+                            ],
+                            "correctAnswer": "Arquitectura Orientada a Servicios (SOA)",
+                            "explanation": "Porque SOA es un enfoque que organiza la aplicación en servicios independientes y reutilizables que se comunican entre sí."
+                        },
+                        {
+                            "text": "¿Cuál es la diferencia fundamental entre SOAP y REST según la Unidad Temática?",
+                            "options": [
+                                "REST solo puede usar XML, mientras que SOAP puede usar JSON",
+                                "SOAP es un protocolo estricto, mientras que REST es un estilo arquitectónico",
+                                "SOAP es inseguro, mientras que REST es seguro",
+                                "SOAP es más moderno que REST"
+                            ],
+                            "correctAnswer": "SOAP es un protocolo estricto, mientras que REST es un estilo arquitectónico",
+                            "explanation": "Porque SOAP es un protocolo con reglas estrictas y mensajes XML, mientras que REST es un estilo arquitectónico más flexible que puede usar diferentes formatos."
+                        },
+                        {
+                            "text": "Un nuevo programador se une a un equipo y necesita integrar la aplicación que está construyendo con una API interna. ¿Qué debe consultar primero para entender cómo interactuar con la API?",
+                            "options": [
+                                "La infraestructura de hardware del servidor",
+                                "El registro de servicios de la SOA",
+                                "El middleware de servicios",
+                                "La documentación de la API"
+                            ],
+                            "correctAnswer": "La documentación de la API",
+                            "explanation": "Porque la documentación de la API describe los endpoints disponibles, los parámetros requeridos, los formatos de respuesta y cómo interactuar correctamente con el servicio."
+                        },
+                        {
+                            "text": "En un estilo arquitectónico REST, ¿qué método HTTP se usaría convencionalmente para crear un nuevo recurso (por ejemplo, un nuevo usuario)?",
+                            "options": [
+                                "DELETE",
+                                "GET",
+                                "POST",
+                                "PUT"
+                            ],
+                            "correctAnswer": "POST",
+                            "explanation": "Porque en REST, el método POST se usa convencionalmente para crear nuevos recursos en el servidor."
+                        },
+                        {
+                            "text": "Un usuario rellena un formulario y recibe un error inmediato de 'formato de correo inválido' antes de pulsar 'Enviar'. ¿Este procesamiento ocurre en el cliente o en el servidor?",
+                            "options": [
+                                "En el cliente",
+                                "En ambos al mismo tiempo",
+                                "En la base de datos",
+                                "En el servidor"
+                            ],
+                            "correctAnswer": "En el cliente",
+                            "explanation": "Porque la validación inmediata antes de enviar el formulario se realiza en el navegador del cliente mediante JavaScript."
+                        },
+                        {
+                            "text": "¿Cuál es una ventaja clave de realizar el procesamiento en el servidor?",
+                            "options": [
+                                "Disminuye la carga de trabajo del servidor",
+                                "Proporciona mayor control y seguridad sobre la lógica de negocio y los datos sensibles",
+                                "Permite animaciones y efectos visuales más rápidos",
+                                "Reduce la latencia de la red"
+                            ],
+                            "correctAnswer": "Proporciona mayor control y seguridad sobre la lógica de negocio y los datos sensibles",
+                            "explanation": "Porque el procesamiento en el servidor permite proteger la lógica de negocio y los datos sensibles, ya que el código no está expuesto al cliente."
+                        },
+                        {
+                            "text": "¿Cuál es una ventaja clave de realizar el procesamiento en el cliente?",
+                            "options": [
+                                "Permite acceder de forma segura a la base de datos",
+                                "Asegura que todos los usuarios tengan la misma experiencia",
+                                "Reduce la carga en el servidor y la latencia en interacciones simples",
+                                "Protege el código fuente de la manipulación"
+                            ],
+                            "correctAnswer": "Reduce la carga en el servidor y la latencia en interacciones simples",
+                            "explanation": "Porque el procesamiento en el cliente reduce las peticiones al servidor y proporciona respuestas más rápidas para interacciones simples."
+                        },
+                        {
+                            "text": "¿Cómo se describe la biblioteca React en la Unidad Temática?",
+                            "options": [
+                                "Una biblioteca de componentes para implementar Material Design",
+                                "Un marco de diseño de código abierto",
+                                "Una biblioteca de JavaScript para crear interfaces de usuario interactivas con enfoque de componentes",
+                                "Un marco de desarrollo de Google para aplicaciones de página única"
+                            ],
+                            "correctAnswer": "Una biblioteca de JavaScript para crear interfaces de usuario interactivas con enfoque de componentes",
+                            "explanation": "Porque React es una biblioteca de JavaScript desarrollada por Facebook para crear interfaces de usuario basadas en componentes reutilizables."
+                        },
+                        {
+                            "text": "¿Cuál es la ventaja principal de usar una biblioteca como React o Vue.js en lugar de JavaScript puro para aplicaciones complejas?",
+                            "options": [
+                                "No requieren CSS para el diseño",
+                                "Eliminan la necesidad de usar HTML",
+                                "Solo funcionan en el lado del servidor",
+                                "Simplifican la gestión del estado y la actualización de la interfaz de usuario (DOM)"
+                            ],
+                            "correctAnswer": "Simplifican la gestión del estado y la actualización de la interfaz de usuario (DOM)",
+                            "explanation": "Porque estas bibliotecas proporcionan herramientas para gestionar el estado de la aplicación y actualizar eficientemente el DOM cuando los datos cambian."
+                        },
+                        {
+                            "text": "¿Cuál es la característica principal que define a una aplicación web híbrida?",
+                            "options": [
+                                "Se desarrolla con tecnologías web (HTML, CSS) y se empaqueta en un contenedor nativo",
+                                "Funciona únicamente en servidores web",
+                                "Se escribe de repetidamente en cada plataforma",
+                                "Se desarrolla solo con lenguajes de programación de bajo nivel"
+                            ],
+                            "correctAnswer": "Se desarrolla con tecnologías web (HTML, CSS) y se empaqueta en un contenedor nativo",
+                            "explanation": "Porque las aplicaciones híbridas combinan tecnologías web con un contenedor nativo que permite distribuirlas en tiendas de aplicaciones móviles."
+                        },
+                        {
+                            "text": "Un equipo de desarrollo distribuido geográficamente necesita un sistema centralizado para gestionar el código fuente de su proyecto, ver el historial de cambios y colaborar. ¿Qué están utilizando?",
+                            "options": [
+                                "Un repositorio de control de versiones (como Git en GitHub)",
+                                "Un repositorio de paquetes (como npm)",
+                                "Una API de geolocalización",
+                                "Un framework híbrido (como Ionic)"
+                            ],
+                            "correctAnswer": "Un repositorio de control de versiones (como Git en GitHub)",
+                            "explanation": "Porque los repositorios de control de versiones como Git permiten gestionar el código fuente, ver el historial de cambios y facilitar la colaboración entre desarrolladores."
+                        },
+                        {
+                            "text": "Un programador está construyendo una nueva aplicación web y, para la función de inicio de sesión, decide usar una biblioteca de autenticación ya existente y probada. ¿Qué enfoque estratégico está aplicando?",
+                            "options": [
+                                "Desarrollo de una aplicación nativa",
+                                "Uso de un componente de propósito único",
+                                "Reutilización de código",
+                                "Creación de componentes a medida"
+                            ],
+                            "correctAnswer": "Reutilización de código",
+                            "explanation": "Porque la reutilización de código implica usar bibliotecas y componentes existentes en lugar de desarrollar todo desde cero, ahorrando tiempo y aprovechando soluciones probadas."
+                        },
+                        {
+                            "text": "¿Cómo logra una aplicación híbrida, construida con HTML y JavaScript, acceder a la cámara o al GPS del dispositivo móvil?",
+                            "options": [
+                                "Usando CSS avanzado",
+                                "Conectando directamente a la base de datos del sistema operativo",
+                                "Mediante APIs y plugins (ej. de Cordova) que sirven de puente a las funciones nativas",
+                                "No es posible, solo las apps nativas pueden hacerlo"
+                            ],
+                            "correctAnswer": "Mediante APIs y plugins (ej. de Cordova) que sirven de puente a las funciones nativas",
+                            "explanation": "Porque frameworks como Cordova proporcionan plugins que actúan como puente entre el código web y las funcionalidades nativas del dispositivo."
+                        },
+                        {
+                            "text": "Un desarrollador de JavaScript necesita una biblioteca específica. La instala usando 'npm install'. ¿De qué tipo de repositorio está descargando el paquete?",
+                            "options": [
+                                "Repositorio de paquetes",
+                                "Repositorio de aplicaciones híbridas",
+                                "Repositorio de datos",
+                                "Repositorio de control de versiones"
+                            ],
+                            "correctAnswer": "Repositorio de paquetes",
+                            "explanation": "Porque npm es un gestor de paquetes que descarga bibliotecas desde un repositorio de paquetes, no desde repositorios de control de versiones o de datos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
