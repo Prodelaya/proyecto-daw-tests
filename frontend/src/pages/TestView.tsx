@@ -10,6 +10,7 @@ import { useAuth } from '../context/AuthContext';
 import { Question } from '../types';
 import { apiClient } from '../services/api';
 import DarkModeToggle from '../components/DarkModeToggle';
+import ConfirmModal from '../components/ConfirmModal';
 
 // Tipo para feedback inmediato (modo práctica)
 interface InstantFeedback {
@@ -35,7 +36,7 @@ export default function TestView() {
   const topicStr = searchParams.get('topic');
   const type = searchParams.get('type');
   const limitStr = searchParams.get('limit');
-  
+
   const topic = topicStr ? parseInt(topicStr, 10) : null;
   const limit = limitStr ? parseInt(limitStr, 10) : 20;
 
@@ -48,6 +49,7 @@ export default function TestView() {
   const [loading, setLoading] = useState<boolean>(true); // Loading inicial
   const [submitting, setSubmitting] = useState<boolean>(false); // Enviando intento
   const [error, setError] = useState<string>(''); // Error message
+  const [showConfirmModal, setShowConfirmModal] = useState<boolean>(false); // Modal de confirmación
 
   // Pregunta actual
   const currentQuestion = questions[currentIndex];
@@ -67,7 +69,7 @@ export default function TestView() {
 
       try {
         setLoading(true);
-        
+
         // Token del localStorage (interceptor lo añade automáticamente)
         const token = localStorage.getItem('token');
         if (!token) {
@@ -94,7 +96,7 @@ export default function TestView() {
         }
 
         // 🟢 FETCH CONDICIONAL según modo
-        const endpoint = practiceMode 
+        const endpoint = practiceMode
           ? '/questions/practice'  // ✅ Incluye correctAnswer
           : '/questions';          // ❌ NO incluye correctAnswer
 
@@ -102,7 +104,7 @@ export default function TestView() {
 
 
         setQuestions(data);
-        
+
         // Si no hay preguntas
         if (data.length === 0) {
           setError('No hay preguntas disponibles con estos filtros');
@@ -145,7 +147,7 @@ export default function TestView() {
       // En modo práctica, currentQuestion tiene correctAnswer (tipo QuestionWithAnswer)
       const questionWithAnswer = currentQuestion as QuestionWithAnswer;
       const isCorrect = selectedAnswer === questionWithAnswer.correctAnswer;
-      
+
       setInstantFeedback({
         correct: isCorrect,
         correctAnswer: questionWithAnswer.correctAnswer,
@@ -156,8 +158,8 @@ export default function TestView() {
       setInstantFeedback(null);
     }
   };
-  
- // ============================================
+
+  // ============================================
   // BLOQUE 4: Navegación entre preguntas
   // ============================================
 
@@ -174,12 +176,13 @@ export default function TestView() {
       setInstantFeedback(null); // Limpiar feedback al cambiar
     }
   };
-  
+
   // ============================================
   // BLOQUE 5: Finalizar test y enviar
   // ============================================
 
-  const handleFinishTest = async () => {
+  // Mostrar modal de confirmación
+  const handleFinishTest = () => {
     // Validar que todas las preguntas tienen respuesta
     const allAnswered = questions.every(q => userAnswers.has(q.id));
 
@@ -189,20 +192,18 @@ export default function TestView() {
       return;
     }
 
-    // Confirmar antes de enviar
-    const confirmed = window.confirm(
-      `¿Estás seguro de finalizar el test?\n\n` +
-      `Has respondido ${userAnswers.size} de ${questions.length} preguntas.\n\n` +
-      `Una vez enviado, no podrás cambiar tus respuestas.`
-    );
+    // Mostrar modal de confirmación (reemplaza window.confirm)
+    setShowConfirmModal(true);
+  };
 
-    if (!confirmed) return;
-
+  // Ejecutar envío tras confirmación del modal
+  const handleConfirmSubmit = async () => {
     try {
       setSubmitting(true);
 
       // Construir array de respuestas para el backend
-      const answers = Array.from(userAnswers.entries()).map(([questionId, userAnswer]) => ({
+      const entries = Array.from(userAnswers.entries()) as [number, string][];
+      const answers = entries.map(([questionId, userAnswer]) => ({
         questionId,
         userAnswer
       }));
@@ -217,23 +218,30 @@ export default function TestView() {
       // Enviar al backend
       const { data } = await apiClient.post('/attempts', payload);
 
-      // Navegar a Results con los datos
-      navigate('/results', { 
-        state: { 
+      // Cerrar modal y navegar a Results
+      setShowConfirmModal(false);
+      navigate('/results', {
+        state: {
           results: data,
           subject: subject,
           topic: topic,
           type: type
-        } 
+        }
       });
 
     } catch (err) {
       console.error('Error al enviar intento:', err);
       alert('❌ Error al enviar el test. Por favor, inténtalo de nuevo.');
       setSubmitting(false);
+      setShowConfirmModal(false);
     }
   };
-  
+
+  // Cancelar envío
+  const handleCancelSubmit = () => {
+    setShowConfirmModal(false);
+  };
+
   const handleModeToggle = () => {
     // Solo permitir cambiar modo ANTES de responder preguntas
     if (userAnswers.size === 0) {
@@ -243,7 +251,7 @@ export default function TestView() {
       alert('No puedes cambiar el modo después de empezar a responder');
     }
   };
-  
+
   // ============================================
   // BLOQUE 2: JSX
   // ============================================
@@ -282,7 +290,7 @@ export default function TestView() {
       {/* Header */}
       <header className="bg-white dark:bg-gray-800 shadow transition-colors duration-200">
         <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
-          
+
           {/* Fila 1: Icono + Título + DarkMode (móvil) */}
           <div className="flex justify-between items-center mb-2 sm:mb-0">
             <div className="flex items-center gap-2 sm:gap-3">
@@ -303,7 +311,7 @@ export default function TestView() {
                 </p>
               </div>
             </div>
-            
+
             {/* DarkMode solo en móvil */}
             <div className="sm:hidden">
               <DarkModeToggle />
@@ -312,7 +320,7 @@ export default function TestView() {
 
           {/* Fila 2: Usuario + Botones (responsive) */}
           <div className="flex flex-wrap items-center justify-between gap-2">
-            
+
             {/* Usuario */}
             <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-200">
               <strong className="hidden sm:inline">{user?.name}</strong>
@@ -325,7 +333,7 @@ export default function TestView() {
               <div className="hidden sm:block">
                 <DarkModeToggle />
               </div>
-              
+
               {/* Botón Cerrar Sesión */}
               <button
                 onClick={handleLogout}
@@ -342,32 +350,30 @@ export default function TestView() {
 
       {/* Contenido Principal */}
       <main className="max-w-4xl mx-auto px-4 py-8">
-        
+
         {/* Toggle de Modo */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-6 transition-colors duration-200">
           <div className="flex items-center justify-between">
             <div className="flex-1">
               <h3 className="font-bold text-lg mb-1 text-gray-800 dark:text-white">Modo de Test</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                {practiceMode 
-                  ? '🟢 Recibirás feedback inmediato tras cada respuesta' 
+                {practiceMode
+                  ? '🟢 Recibirás feedback inmediato tras cada respuesta'
                   : '🔴 Sin feedback hasta finalizar el test'}
               </p>
             </div>
-            
+
             {/* Toggle Switch */}
             <button
               onClick={handleModeToggle}
               disabled={userAnswers.size > 0}
-              className={`relative inline-flex h-8 w-16 items-center rounded-full transition ${
-                practiceMode ? 'bg-green-500' : 'bg-red-500'
-              } ${userAnswers.size > 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
+              className={`relative inline-flex h-8 w-16 items-center rounded-full transition ${practiceMode ? 'bg-green-500' : 'bg-red-500'
+                } ${userAnswers.size > 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
             >
-              <span className={`inline-block h-6 w-6 transform rounded-full bg-white transition ${
-                practiceMode ? 'translate-x-9' : 'translate-x-1'
-              }`} />
+              <span className={`inline-block h-6 w-6 transform rounded-full bg-white transition ${practiceMode ? 'translate-x-9' : 'translate-x-1'
+                }`} />
             </button>
-            
+
             <div className="text-right ml-4">
               <p className="font-semibold text-lg text-gray-800 dark:text-white">
                 {practiceMode ? '🟢 Práctica' : '🔴 Examen'}
@@ -378,7 +384,7 @@ export default function TestView() {
 
         {/* BLOQUE 3: Pregunta Actual */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-6 transition-colors duration-200">
-          
+
           {/* Progreso */}
           <div className="mb-6 flex justify-between items-center">
             <p className="text-sm font-semibold text-gray-600 dark:text-gray-400">
@@ -403,15 +409,14 @@ export default function TestView() {
           <div className="space-y-3 mb-6">
             {currentQuestion?.options.map((option, index) => {
               const isSelected = userAnswers.get(currentQuestion.id) === option;
-              
+
               return (
                 <label
                   key={index}
-                  className={`flex items-center p-4 border-2 rounded-lg cursor-pointer transition ${
-                    isSelected
-                      ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30'
-                      : 'border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700'
-                  }`}
+                  className={`flex items-center p-4 border-2 rounded-lg cursor-pointer transition ${isSelected
+                    ? 'border-blue-600 bg-blue-50 dark:bg-blue-900/30'
+                    : 'border-gray-300 dark:border-gray-600 hover:border-blue-400 hover:bg-gray-50 dark:hover:bg-gray-700'
+                    }`}
                 >
                   <input
                     type="radio"
@@ -429,25 +434,23 @@ export default function TestView() {
 
           {/* 🟢 FEEDBACK INMEDIATO (Solo Modo Práctica) */}
           {practiceMode && instantFeedback && (
-            <div className={`p-4 rounded-lg border-2 mb-6 transition-colors duration-200 ${
-              instantFeedback.correct
-                ? 'bg-green-50 dark:bg-green-900/30 border-green-400 dark:border-green-700'
-                : 'bg-red-50 dark:bg-red-900/30 border-red-400 dark:border-red-700'
-            }`}>
-              <p className={`font-bold text-lg mb-2 ${
-                instantFeedback.correct 
-                  ? 'text-green-800 dark:text-green-300' 
-                  : 'text-red-800 dark:text-red-300'
+            <div className={`p-4 rounded-lg border-2 mb-6 transition-colors duration-200 ${instantFeedback.correct
+              ? 'bg-green-50 dark:bg-green-900/30 border-green-400 dark:border-green-700'
+              : 'bg-red-50 dark:bg-red-900/30 border-red-400 dark:border-red-700'
               }`}>
+              <p className={`font-bold text-lg mb-2 ${instantFeedback.correct
+                ? 'text-green-800 dark:text-green-300'
+                : 'text-red-800 dark:text-red-300'
+                }`}>
                 {instantFeedback.correct ? '✅ ¡Correcto!' : '❌ Incorrecto'}
               </p>
-              
+
               {!instantFeedback.correct && (
                 <p className="text-red-700 dark:text-red-300 mb-2">
                   <strong>Respuesta correcta:</strong> {instantFeedback.correctAnswer}
                 </p>
               )}
-              
+
               <div className="text-gray-700 dark:text-gray-300 text-sm mt-3 pt-3 border-t border-gray-300 dark:border-gray-600">
                 <strong>Explicación:</strong> {instantFeedback.explanation}
               </div>
@@ -456,16 +459,15 @@ export default function TestView() {
 
           {/* BLOQUE 4: Botones de Navegación */}
           <div className="flex justify-between items-center">
-            
+
             {/* Botón Anterior */}
             <button
               onClick={handlePrevious}
               disabled={currentIndex === 0}
-              className={`px-6 py-3 rounded-lg font-semibold transition ${
-                currentIndex === 0
-                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
-                  : 'bg-gray-600 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white'
-              }`}
+              className={`px-6 py-3 rounded-lg font-semibold transition ${currentIndex === 0
+                ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                : 'bg-gray-600 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-600 text-white'
+                }`}
             >
               ← Anterior
             </button>
@@ -479,13 +481,12 @@ export default function TestView() {
                 {questions.map((q, idx) => (
                   <div
                     key={q.id}
-                    className={`w-2 h-2 rounded-full ${
-                      userAnswers.has(q.id)
-                        ? 'bg-green-500'
-                        : idx === currentIndex
+                    className={`w-2 h-2 rounded-full ${userAnswers.has(q.id)
+                      ? 'bg-green-500'
+                      : idx === currentIndex
                         ? 'bg-blue-500'
                         : 'bg-gray-300 dark:bg-gray-600'
-                    }`}
+                      }`}
                   />
                 ))}
               </div>
@@ -503,18 +504,29 @@ export default function TestView() {
               <button
                 onClick={handleFinishTest}
                 disabled={submitting}
-                className={`px-6 py-3 rounded-lg font-semibold transition ${
-                    submitting
-                    ? 'bg-gray-400 cursor-not-allowed'
-                    : 'bg-green-600 hover:bg-green-700 text-white'
-                }`}
-                >
+                className={`px-6 py-3 rounded-lg font-semibold transition ${submitting
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-green-600 hover:bg-green-700 text-white'
+                  }`}
+              >
                 {submitting ? '⏳ Enviando...' : '🏁 Finalizar Test'}
-                </button>
+              </button>
             )}
 
           </div>
         </div>
+
+        {/* Modal de Confirmación */}
+        <ConfirmModal
+          isOpen={showConfirmModal}
+          title="🏁 Finalizar Test"
+          message={`¿Estás seguro de finalizar el test?\n\nHas respondido ${userAnswers.size} de ${questions.length} preguntas.\n\nUna vez enviado, no podrás cambiar tus respuestas.`}
+          confirmText="Finalizar"
+          cancelText="Cancelar"
+          onConfirm={handleConfirmSubmit}
+          onCancel={handleCancelSubmit}
+          isLoading={submitting}
+        />
 
       </main>
     </div>
