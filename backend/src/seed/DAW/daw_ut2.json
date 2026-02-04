@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 2,
+                    "title": "Instalación y estructura de módulos en servidores de aplicaciones",
+                    "questions": [
+                        {
+                            "text": "Una empresa desea ampliar las capacidades de su servidor de aplicaciones para incluir soporte de seguridad avanzada sin rediseñar el núcleo del sistema. ¿Qué componente de software permite esta personalización?",
+                            "options": [
+                                "Un nuevo lenguaje de programación",
+                                "Una actualización del sistema operativo",
+                                "Un módulo del servidor de aplicaciones",
+                                "Un cambio en el hardware del procesador"
+                            ],
+                            "correctAnswer": "Un módulo del servidor de aplicaciones",
+                            "explanation": "Los módulos del servidor de aplicaciones permiten ampliar capacidades sin rediseñar el núcleo del sistema."
+                        },
+                        {
+                            "text": "Como administrador, necesitas mejorar el procesamiento de solicitudes y la gestión de caché. ¿Cuál es el objetivo principal de instalar módulos orientados a estas tareas?",
+                            "options": [
+                                "Reducir el espacio físico del servidor",
+                                "Eliminar la necesidad de una base de datos",
+                                "Cambiar la interfaz gráfica del usuario",
+                                "Mejorar el rendimiento del servidor"
+                            ],
+                            "correctAnswer": "Mejorar el rendimiento del servidor",
+                            "explanation": "Los módulos de procesamiento de solicitudes y caché tienen como objetivo principal mejorar el rendimiento del servidor."
+                        },
+                        {
+                            "text": "Un desarrollador afirma que todos los servidores de aplicaciones gestionan sus módulos de la misma forma. ¿Es esto correcto según la UT2?",
+                            "options": [
+                                "Sí, todos usan archivos .exe exclusivamente",
+                                "No, solo los servidores Linux permiten módulos externos",
+                                "Sí, todos los módulos deben estar integrados en el núcleo",
+                                "No, la estructura modular varía significativamente según el tipo de servidor"
+                            ],
+                            "correctAnswer": "No, la estructura modular varía significativamente según el tipo de servidor",
+                            "explanation": "La estructura modular varía significativamente según el tipo de servidor de aplicaciones utilizado."
+                        },
+                        {
+                            "text": "Estás planificando la instalación de nuevos módulos en un servidor de aplicaciones empresarial. ¿A qué sistema suelen recurrir los servidores para facilitar esta administración?",
+                            "options": [
+                                "Edición directa del registro de Windows",
+                                "Descarga de código fuente sin compilar",
+                                "Sistemas de gestión de paquetes",
+                                "Copiado manual de archivos binarios"
+                            ],
+                            "correctAnswer": "Sistemas de gestión de paquetes",
+                            "explanation": "Los servidores empresariales suelen utilizar sistemas de gestión de paquetes para facilitar la administración de módulos."
+                        },
+                        {
+                            "text": "Un servidor web necesita gestionar específicamente las solicitudes HTTP y el control de sesiones de usuario. ¿En qué categoría se clasifican los módulos que realizan estas funciones esenciales?",
+                            "options": [
+                                "Módulos de escalabilidad",
+                                "Módulos de seguridad",
+                                "Módulos básicos",
+                                "Módulos de análisis"
+                            ],
+                            "correctAnswer": "Módulos básicos",
+                            "explanation": "Los módulos básicos son los que realizan funciones esenciales como gestionar solicitudes HTTP y control de sesiones."
+                        },
+                        {
+                            "text": "Tras un intento de intrusión, el equipo de sistemas decide instalar un componente para la autenticación de usuarios. ¿Qué tipo de módulo están implementando?",
+                            "options": [
+                                "Módulo de seguridad",
+                                "Módulo de diagnóstico",
+                                "Módulo de rendimiento",
+                                "Módulo de base de datos"
+                            ],
+                            "correctAnswer": "Módulo de seguridad",
+                            "explanation": "Los módulos de seguridad proporcionan funcionalidades como autenticación de usuarios."
+                        },
+                        {
+                            "text": "La dirección solicita un informe detallado sobre el uso del servidor y las aplicaciones por parte de los empleados. ¿Qué categoría de módulos proporcionará estas estadísticas?",
+                            "options": [
+                                "Módulos de análisis",
+                                "Módulos de monitoreo",
+                                "Módulos de rendimiento",
+                                "Módulos básicos"
+                            ],
+                            "correctAnswer": "Módulos de análisis",
+                            "explanation": "Los módulos de análisis proporcionan estadísticas detalladas sobre el uso del servidor y las aplicaciones."
+                        },
+                        {
+                            "text": "Notas que el servidor de aplicaciones tarda demasiado en responder bajo carga. Decides instalar un módulo que optimice el uso de memoria y el procesamiento paralelo. ¿Qué tipo de módulo es?",
+                            "options": [
+                                "Módulo de base de datos",
+                                "Módulo de rendimiento",
+                                "Módulo de seguridad",
+                                "Módulo de escalabilidad"
+                            ],
+                            "correctAnswer": "Módulo de rendimiento",
+                            "explanation": "Los módulos de rendimiento optimizan el uso de memoria y el procesamiento paralelo."
+                        },
+                        {
+                            "text": "Quieres implementar una técnica de balanceo de carga para que el servidor maneje más tráfico. ¿Qué categoría de módulo es la adecuada para esta tarea?",
+                            "options": [
+                                "Módulos de diagnóstico",
+                                "Módulos de análisis",
+                                "Módulos de escalabilidad",
+                                "Módulos básicos"
+                            ],
+                            "correctAnswer": "Módulos de escalabilidad",
+                            "explanation": "Los módulos de escalabilidad incluyen técnicas como el balanceo de carga para manejar más tráfico."
+                        },
+                        {
+                            "text": "Estás siguiendo el proceso de instalación de Apache en Windows. ¿Cuál es la fuente oficial recomendada en el manual para descargar los binarios?",
+                            "options": [
+                                "Repositorios de Microsoft Store",
+                                "Sitios de descarga de software gratuito",
+                                "Página oficial de Apache Haus",
+                                "GitHub personal de desarrolladores"
+                            ],
+                            "correctAnswer": "Página oficial de Apache Haus",
+                            "explanation": "Apache Haus es la fuente oficial recomendada para descargar los binarios de Apache en Windows."
+                        },
+                        {
+                            "text": "Después de descargar Apache, ¿en qué ubicación del sistema se recomienda descomprimirlo según el ejemplo detallado de la UT2?",
+                            "options": [
+                                "Disco local C:",
+                                "Carpeta temporal de descargas",
+                                "Archivos de programa (x86)",
+                                "Documentos del usuario"
+                            ],
+                            "correctAnswer": "Disco local C:",
+                            "explanation": "Se recomienda descomprimir Apache en el disco local C: para evitar problemas con rutas largas o espacios."
+                        },
+                        {
+                            "text": "Has instalado Apache pero al intentar ejecutar comandos desde cualquier carpeta, el sistema no los reconoce. ¿Qué paso de configuración te ha faltado?",
+                            "options": [
+                                "Reiniciar el ordenador tres veces",
+                                "Instalar un antivirus nuevo",
+                                "Configurar la ruta en la variable de entorno PATH",
+                                "Borrar la carpeta \"conf\" de Apache"
+                            ],
+                            "correctAnswer": "Configurar la ruta en la variable de entorno PATH",
+                            "explanation": "Para ejecutar comandos de Apache desde cualquier carpeta, es necesario configurar la ruta en la variable de entorno PATH."
+                        },
+                        {
+                            "text": "Durante la edición de variables de entorno en Windows, llegas a la ventana \"Editar variable de entorno\". ¿Qué precaución crítica debes tener al añadir la ruta de Apache?",
+                            "options": [
+                                "Asegurarte de no eliminar ninguna de las rutas existentes",
+                                "Borrar todas las rutas anteriores para evitar conflictos",
+                                "Usar comillas dobles en toda la cadena de texto",
+                                "Escribir la ruta en minúsculas obligatoriamente"
+                            ],
+                            "correctAnswer": "Asegurarte de no eliminar ninguna de las rutas existentes",
+                            "explanation": "Es crítico no eliminar las rutas existentes al añadir nuevas rutas a la variable PATH."
+                        },
+                        {
+                            "text": "Necesitas iniciar el servidor Apache por primera vez usando la línea de comandos. ¿Qué requisito debe cumplir la ventana de Símbolo del sistema (CMD)?",
+                            "options": [
+                                "Debe tener el fondo de color azul",
+                                "Debe ejecutarse como administrador",
+                                "Debe estar abierta en modo invitado",
+                                "No requiere ningún permiso especial"
+                            ],
+                            "correctAnswer": "Debe ejecutarse como administrador",
+                            "explanation": "Para instalar e iniciar Apache como servicio, el CMD debe ejecutarse como administrador."
+                        },
+                        {
+                            "text": "¿Cuál es el comando específico para instalar Apache como un servicio de Windows una vez que estás dentro de la carpeta \"bin\"?",
+                            "options": [
+                                "apache -start",
+                                "httpd -k install",
+                                "setup.exe /s",
+                                "install-service.bat"
+                            ],
+                            "correctAnswer": "httpd -k install",
+                            "explanation": "El comando httpd -k install instala Apache como un servicio de Windows."
+                        },
+                        {
+                            "text": "Has instalado el servicio correctamente y ahora deseas que el servidor empiece a funcionar. ¿Qué comando debes ejecutar?",
+                            "options": [
+                                "systemctl enable apache",
+                                "run apache",
+                                "services.msc /run",
+                                "httpd -k start"
+                            ],
+                            "correctAnswer": "httpd -k start",
+                            "explanation": "El comando httpd -k start inicia el servicio de Apache en Windows."
+                        },
+                        {
+                            "text": "Tras la instalación, abres un navegador y escribes \"localhost\". ¿Qué indica que visualices la página de \"Apache Haus Distribution\"?",
+                            "options": [
+                                "Que la conexión a internet ha fallado",
+                                "Que el servidor web está trabajando correctamente pero no ha sido configurado",
+                                "Que el firewall ha bloqueado el acceso externo",
+                                "Que el servidor tiene un virus"
+                            ],
+                            "correctAnswer": "Que el servidor web está trabajando correctamente pero no ha sido configurado",
+                            "explanation": "La página de Apache Haus Distribution indica que el servidor funciona correctamente pero aún no se ha configurado con contenido propio."
+                        },
+                        {
+                            "text": "El proyecto requiere habilitar conexiones seguras HTTPS. ¿Qué módulo adicional de Apache se debe instalar para este propósito?",
+                            "options": [
+                                "mod_rewrite",
+                                "mod_ssl",
+                                "mod_php",
+                                "mod_proxy"
+                            ],
+                            "correctAnswer": "mod_ssl",
+                            "explanation": "El módulo mod_ssl proporciona soporte para conexiones HTTPS seguras en Apache."
+                        },
+                        {
+                            "text": "Para que el módulo de seguridad funcione, Apache necesita trabajar con certificados. ¿Qué software adicional es necesario instalar en Windows primero?",
+                            "options": [
+                                "Java Runtime Environment",
+                                "Python 3.10",
+                                "OpenSSL",
+                                ".NET Framework 4.8"
+                            ],
+                            "correctAnswer": "OpenSSL",
+                            "explanation": "OpenSSL es necesario para generar y gestionar certificados SSL para Apache en Windows."
+                        },
+                        {
+                            "text": "Estás instalando OpenSSL en C:\\OpenSSL. ¿Qué norma de nomenclatura recomienda el manual para evitar errores en la ruta de instalación?",
+                            "options": [
+                                "Que el nombre esté en mayúsculas",
+                                "Que incluya la versión exacta en el nombre de la carpeta",
+                                "Que se instale dentro de la carpeta de Apache",
+                                "Que la ruta no tenga espacios"
+                            ],
+                            "correctAnswer": "Que la ruta no tenga espacios",
+                            "explanation": "Es recomendable que la ruta de instalación de OpenSSL no tenga espacios para evitar errores."
+                        },
+                        {
+                            "text": "Para activar el soporte SSL, debes editar el archivo \"httpd.conf\". ¿Cuál es la acción correcta sobre la línea \"#LoadModule ssl_module modules/mod_ssl.so\"?",
+                            "options": [
+                                "Eliminar el símbolo \"#\" al comienzo para descomentarla",
+                                "Duplicar la línea al final del archivo",
+                                "Borrar la línea completamente y guardarla en otro archivo",
+                                "Cambiar \"ssl_module\" por \"https_module\""
+                            ],
+                            "correctAnswer": "Eliminar el símbolo \"#\" al comienzo para descomentarla",
+                            "explanation": "Para activar un módulo en Apache, se debe eliminar el símbolo # para descomentar la línea correspondiente."
+                        },
+                        {
+                            "text": "Además de cargar el módulo, debes incluir la configuración específica de SSL. ¿Qué línea debes descomentar en el archivo \"httpd.conf\"?",
+                            "options": [
+                                "LoadModule security_module",
+                                "Include conf/extra/httpd-ssl.conf",
+                                "SetHandler ssl-handler",
+                                "Include conf/extra/httpd-vhosts.conf"
+                            ],
+                            "correctAnswer": "Include conf/extra/httpd-ssl.conf",
+                            "explanation": "Se debe descomentar la línea Include conf/extra/httpd-ssl.conf para incluir la configuración específica de SSL."
+                        },
+                        {
+                            "text": "Estás en un entorno de pruebas y no tienes un certificado emitido por una autoridad oficial. ¿Qué puedes crear para validar la configuración HTTPS?",
+                            "options": [
+                                "Un archivo de texto llamado \"cert.txt\"",
+                                "Un certificado SSL autofirmado",
+                                "Una contraseña de administrador nueva",
+                                "Un certificado de regalo"
+                            ],
+                            "correctAnswer": "Un certificado SSL autofirmado",
+                            "explanation": "En entornos de pruebas se puede usar un certificado SSL autofirmado para validar la configuración HTTPS."
+                        },
+                        {
+                            "text": "¿Qué herramienta de comandos se utiliza para generar la clave privada (server.key) y el certificado (server.crt) según el manual?",
+                            "options": [
+                                "El Bloc de notas de Windows",
+                                "El administrador de tareas",
+                                "El comando \"openssl req\"",
+                                "El comando \"httpd -k restart\""
+                            ],
+                            "correctAnswer": "El comando \"openssl req\"",
+                            "explanation": "El comando openssl req se utiliza para generar claves privadas y certificados SSL."
+                        },
+                        {
+                            "text": "Al reiniciar Apache, recibes el error \"AH00526: Cannot define multiple Listeners on the same IP:port\". ¿Cómo se soluciona según la guía práctica?",
+                            "options": [
+                                "Cambiando el puerto 80 por el 8080",
+                                "Desconectando el cable de red",
+                                "Reinstalando todo el sistema operativo",
+                                "Comentando con # la línea Listen duplicada en httpd-ssl.conf"
+                            ],
+                            "correctAnswer": "Comentando con # la línea Listen duplicada en httpd-ssl.conf",
+                            "explanation": "El error se soluciona comentando la línea Listen duplicada en el archivo httpd-ssl.conf."
+                        },
+                        {
+                            "text": "Al intentar acceder a \"https://localhost\", el navegador muestra una advertencia de \"La conexión no es privada\". ¿A qué se debe esto?",
+                            "options": [
+                                "A que el servidor Apache se ha detenido inesperadamente",
+                                "A que alguien está robando los datos en ese preciso momento",
+                                "Al uso de un certificado SSL autofirmado que el navegador no reconoce como confiable",
+                                "A un error crítico en el código de la página"
+                            ],
+                            "correctAnswer": "Al uso de un certificado SSL autofirmado que el navegador no reconoce como confiable",
+                            "explanation": "Los certificados autofirmados no son reconocidos como confiables por los navegadores, generando esta advertencia."
+                        },
+                        {
+                            "text": "Una empresa está evaluando un módulo y descubre que consume demasiada CPU, ralentizando el servidor. ¿Qué criterio de compatibilidad/prerrequisito no se está cumpliendo?",
+                            "options": [
+                                "Sistema operativo",
+                                "Base de datos",
+                                "Lenguaje de programación",
+                                "Rendimiento"
+                            ],
+                            "correctAnswer": "Rendimiento",
+                            "explanation": "El criterio de rendimiento no se está cumpliendo si el módulo consume demasiados recursos y ralentiza el servidor."
+                        },
+                        {
+                            "text": "¿Qué aspecto de la evaluación de módulos asegura que el proveedor ofrezca parches de seguridad y mejoras de forma periódica?",
+                            "options": [
+                                "Funcionalidad",
+                                "Flexibilidad",
+                                "Integración",
+                                "Soporte y actualizaciones"
+                            ],
+                            "correctAnswer": "Soporte y actualizaciones",
+                            "explanation": "El criterio de soporte y actualizaciones evalúa si el proveedor ofrece parches de seguridad y mejoras periódicas."
+                        },
+                        {
+                            "text": "En la estructura de un módulo Java EE, ¿qué directorio se considera el \"directorio base\" y contiene la configuración y clases?",
+                            "options": [
+                                "WEB-INF/",
+                                "/htdocs/",
+                                "/logs/",
+                                "/bin/"
+                            ],
+                            "correctAnswer": "WEB-INF/",
+                            "explanation": "En aplicaciones Java EE, el directorio WEB-INF/ contiene la configuración y clases de la aplicación."
+                        },
+                        {
+                            "text": "Estás trabajando con el marco Spring Security para una aplicación Java. ¿Cuál es su funcionalidad clave principal?",
+                            "options": [
+                                "Autenticación, autorización y protección contra ataques comunes",
+                                "Comprimir imágenes en el lado del servidor",
+                                "Generar informes PDF automáticamente",
+                                "Gestionar la conexión física a la impresora"
+                            ],
+                            "correctAnswer": "Autenticación, autorización y protección contra ataques comunes",
+                            "explanation": "Spring Security proporciona autenticación, autorización y protección contra ataques comunes en aplicaciones Java."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

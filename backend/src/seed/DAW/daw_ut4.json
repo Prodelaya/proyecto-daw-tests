@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 4,
+                    "title": "Herramientas y documentación para la gestión de servidores de aplicaciones",
+                    "questions": [
+                        {
+                            "text": "Una organización acaba de adquirir un nuevo servidor de aplicaciones y el equipo de TI necesita conocer los pasos exactos para su configuración inicial. ¿Cuál es el recurso fundamental que ofrece información detallada sobre estos procedimientos?",
+                            "options": [
+                                "La documentación oficial del servidor de aplicaciones",
+                                "El manual de usuario del sistema operativo",
+                                "Una búsqueda general en redes sociales",
+                                "El foro de soporte de hardware"
+                            ],
+                            "correctAnswer": "La documentación oficial del servidor de aplicaciones",
+                            "explanation": "La documentación oficial del servidor de aplicaciones es el recurso fundamental para conocer los procedimientos de configuración."
+                        },
+                        {
+                            "text": "Como administrador de sistemas, necesitas identificar cuellos de botella y problemas de rendimiento en tiempo real en tus servidores. ¿Qué herramientas de monitoreo y análisis son las más adecuadas para esta tarea?",
+                            "options": [
+                                "New Relic, AppDynamics o Dynatrace",
+                                "Jenkins y Travis CI",
+                                "Git y SVN",
+                                "Docker y Kubernetes"
+                            ],
+                            "correctAnswer": "New Relic, AppDynamics o Dynatrace",
+                            "explanation": "New Relic, AppDynamics y Dynatrace son herramientas especializadas en monitoreo de rendimiento de aplicaciones (APM)."
+                        },
+                        {
+                            "text": "Un equipo de desarrolladores desea llevar un seguimiento riguroso de los cambios realizados en el código fuente de una aplicación web para colaborar de manera eficiente. ¿Qué sistemas facilitan este proceso?",
+                            "options": [
+                                "Git, SVN o Mercurial",
+                                "Nagios y Zabbix",
+                                "Apache Mesos y Rancher",
+                                "Splunk y Logstash"
+                            ],
+                            "correctAnswer": "Git, SVN o Mercurial",
+                            "explanation": "Git, SVN y Mercurial son sistemas de control de versiones que facilitan el seguimiento de cambios en código fuente."
+                        },
+                        {
+                            "text": "Una empresa busca automatizar la construcción, prueba e implementación de sus aplicaciones para mejorar la velocidad de entrega. ¿Qué tipo de plataforma debe implementar?",
+                            "options": [
+                                "Plataformas de integración y entrega continua (CI/CD)",
+                                "Software de documentación técnica",
+                                "Herramientas de análisis de tráfico de red",
+                                "Sistemas de gestión de bases de datos"
+                            ],
+                            "correctAnswer": "Plataformas de integración y entrega continua (CI/CD)",
+                            "explanation": "Las plataformas CI/CD automatizan la construcción, prueba e implementación de aplicaciones."
+                        },
+                        {
+                            "text": "Estás diseñando una infraestructura flexible que permita empaquetar y escalar aplicaciones fácilmente. ¿Qué tecnologías facilitan este control sobre los recursos utilizados?",
+                            "options": [
+                                "Ansible y Puppet",
+                                "Wireshark y SolarWinds",
+                                "Nagios y Icinga",
+                                "Docker y Kubernetes"
+                            ],
+                            "correctAnswer": "Docker y Kubernetes",
+                            "explanation": "Docker y Kubernetes permiten empaquetar aplicaciones en contenedores y escalar fácilmente."
+                        },
+                        {
+                            "text": "Como profesional de TI, te encuentras con un error desconocido en la configuración de un servidor JBoss. ¿Cuál es un recurso complementario útil para compartir conocimientos y obtener ayuda de otros profesionales?",
+                            "options": [
+                                "El registro de cambios de hardware",
+                                "El contrato de licencia del software",
+                                "Foros y comunidades en línea",
+                                "La factura de compra del servidor"
+                            ],
+                            "correctAnswer": "Foros y comunidades en línea",
+                            "explanation": "Los foros y comunidades en línea son recursos útiles para compartir conocimientos y resolver problemas técnicos."
+                        },
+                        {
+                            "text": "Necesitas supervisar específicamente el rendimiento y estado de los componentes de hardware en tu entorno de TI. ¿Qué tipo de herramienta debes utilizar?",
+                            "options": [
+                                "Monitoreo de infraestructura",
+                                "Gestión de registros",
+                                "Automatización de procesos",
+                                "Monitoreo de aplicaciones (APM)"
+                            ],
+                            "correctAnswer": "Monitoreo de infraestructura",
+                            "explanation": "Las herramientas de monitoreo de infraestructura supervisan el rendimiento y estado del hardware."
+                        },
+                        {
+                            "text": "Tu servidor de aplicaciones genera miles de líneas de eventos diariamente y necesitas analizarlos para mejorar la seguridad. ¿Qué herramienta ejemplar se utiliza para la gestión de registros (log management)?",
+                            "options": [
+                                "Wireshark",
+                                "Jenkins",
+                                "ELK Stack (Elasticsearch, Logstash, Kibana)",
+                                "CircleCI"
+                            ],
+                            "correctAnswer": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+                            "explanation": "ELK Stack es una solución popular para la gestión y análisis de registros (logs)."
+                        },
+                        {
+                            "text": "Un administrador detecta tráfico inusual en la red y necesita analizar los paquetes para identificar posibles amenazas. ¿Qué herramienta es la más indicada para el análisis de tráfico?",
+                            "options": [
+                                "Wireshark",
+                                "Ansible",
+                                "Puppet",
+                                "Git"
+                            ],
+                            "correctAnswer": "Wireshark",
+                            "explanation": "Wireshark es la herramienta estándar para capturar y analizar tráfico de red."
+                        },
+                        {
+                            "text": "Quieres automatizar la configuración de 50 servidores para asegurar que todos cumplan con las mismas políticas. ¿Qué categoría de herramientas permite esta consistencia?",
+                            "options": [
+                                "Análisis de rendimiento",
+                                "Gestión de configuración",
+                                "Control de versiones",
+                                "Orquestación de contenedores"
+                            ],
+                            "correctAnswer": "Gestión de configuración",
+                            "explanation": "Las herramientas de gestión de configuración automatizan y aseguran la consistencia en la configuración de servidores."
+                        },
+                        {
+                            "text": "Estás comparando soluciones de código abierto para el monitoreo de infraestructura. ¿Cuál de las siguientes opciones pertenece a esta categoría?",
+                            "options": [
+                                "PRTG Network Monitor",
+                                "SolarWinds",
+                                "Nagios Core o Zabbix",
+                                "New Relic"
+                            ],
+                            "correctAnswer": "Nagios Core o Zabbix",
+                            "explanation": "Nagios Core y Zabbix son soluciones de código abierto para monitoreo de infraestructura."
+                        },
+                        {
+                            "text": "Tu empresa prefiere una solución comercial para el monitoreo de aplicaciones que ofrezca soporte técnico directo. ¿Cuál elegirías según el manual?",
+                            "options": [
+                                "Zipkin",
+                                "Jaeger",
+                                "Grafana",
+                                "Datadog o Dynatrace"
+                            ],
+                            "correctAnswer": "Datadog o Dynatrace",
+                            "explanation": "Datadog y Dynatrace son soluciones comerciales de APM con soporte técnico profesional."
+                        },
+                        {
+                            "text": "Para la gestión de registros en una gran empresa, se decide utilizar una solución comercial líder en el mercado. ¿Cuál es un ejemplo de esta categoría?",
+                            "options": [
+                                "Fluentd",
+                                "Logstash",
+                                "Graylog",
+                                "Splunk"
+                            ],
+                            "correctAnswer": "Splunk",
+                            "explanation": "Splunk es una solución comercial líder en gestión y análisis de registros empresariales."
+                        },
+                        {
+                            "text": "Un equipo de sistemas necesita una herramienta comercial para automatizar procesos y tareas repetitivas. ¿Cuál de estas herramientas ejemplifica esta necesidad?",
+                            "options": [
+                                "GitLab CI/CD",
+                                "Travis CI",
+                                "CircleCI o Bamboo",
+                                "Jenkins"
+                            ],
+                            "correctAnswer": "CircleCI o Bamboo",
+                            "explanation": "CircleCI y Bamboo son soluciones comerciales para automatización de procesos CI/CD."
+                        },
+                        {
+                            "text": "Estás desplegando una arquitectura de microservicios y buscas una solución comercial para la orquestación. ¿Cuál es una opción válida según la comparativa?",
+                            "options": [
+                                "Red Hat OpenShift o VMware Tanzu",
+                                "Kubernetes (comunitario)",
+                                "Rancher",
+                                "Apache Mesos"
+                            ],
+                            "correctAnswer": "Red Hat OpenShift o VMware Tanzu",
+                            "explanation": "Red Hat OpenShift y VMware Tanzu son soluciones comerciales para orquestación de contenedores."
+                        },
+                        {
+                            "text": "Vas a redactar la documentación técnica de un servidor. ¿Qué elemento es fundamental incluir para que el equipo comprenda la plataforma y tecnologías implementadas?",
+                            "options": [
+                                "La arquitectura del sistema y sus componentes clave",
+                                "El presupuesto anual del departamento",
+                                "La lista de cumpleaños de los empleados",
+                                "El manual de marca de la empresa"
+                            ],
+                            "correctAnswer": "La arquitectura del sistema y sus componentes clave",
+                            "explanation": "La documentación técnica debe incluir la arquitectura del sistema y sus componentes clave."
+                        },
+                        {
+                            "text": "Al documentar la instalación, el manual indica que se deben especificar las bibliotecas y dependencias necesarias. ¿En qué sección se debe incluir esta información?",
+                            "options": [
+                                "Requisitos de hardware y software",
+                                "Procedimientos de respaldo",
+                                "Registro de cambios",
+                                "Guía de usuario final"
+                            ],
+                            "correctAnswer": "Requisitos de hardware y software",
+                            "explanation": "Las bibliotecas y dependencias se documentan en la sección de requisitos de hardware y software."
+                        },
+                        {
+                            "text": "Quieres asegurar que el proceso de implementación de aplicaciones sea coherente y reproducible. ¿Qué debe detallar tu documentación técnica?",
+                            "options": [
+                                "El historial de errores de red",
+                                "La configuración de los ventiladores del rack",
+                                "La biografía del desarrollador principal",
+                                "El despliegue de aplicaciones y servicios"
+                            ],
+                            "correctAnswer": "El despliegue de aplicaciones y servicios",
+                            "explanation": "La documentación debe detallar el proceso de despliegue para asegurar implementaciones coherentes."
+                        },
+                        {
+                            "text": "Se produce un fallo en el sistema y se pierden los datos. ¿Qué sección de la documentación técnica indica cómo restaurar la información?",
+                            "options": [
+                                "Registro de versiones",
+                                "Análisis de rendimiento",
+                                "Procedimientos de respaldo y recuperación",
+                                "Referencias a documentación externa"
+                            ],
+                            "correctAnswer": "Procedimientos de respaldo y recuperación",
+                            "explanation": "Los procedimientos de respaldo y recuperación indican cómo restaurar datos tras un fallo."
+                        },
+                        {
+                            "text": "Para documentar procesos complejos, se recomienda utilizar un elemento visual que ilustre los pasos y decisiones. ¿A qué se refiere el manual?",
+                            "options": [
+                                "Capturas de pantalla de baja resolución",
+                                "Fotografías del equipo de trabajo",
+                                "Gráficos de barras de colores aleatorios",
+                                "Diagramas de flujo de trabajo"
+                            ],
+                            "correctAnswer": "Diagramas de flujo de trabajo",
+                            "explanation": "Los diagramas de flujo ilustran visualmente los pasos y decisiones en procesos complejos."
+                        },
+                        {
+                            "text": "Tienes que definir quién se encarga de cada tarea en la gestión del servidor. ¿Qué debes incluir en la documentación de procesos?",
+                            "options": [
+                                "Roles y responsabilidades de los miembros del equipo",
+                                "El historial de navegación de los administradores",
+                                "El organigrama completo de la empresa",
+                                "La dirección personal de los técnicos"
+                            ],
+                            "correctAnswer": "Roles y responsabilidades de los miembros del equipo",
+                            "explanation": "La documentación debe incluir roles y responsabilidades para definir quién realiza cada tarea."
+                        },
+                        {
+                            "text": "Al desarrollar guías de usuario, es vital saber a quién va dirigido el material. ¿Cuál es el primer paso recomendado?",
+                            "options": [
+                                "Identificar a la audiencia",
+                                "Establecer un programa de capacitación",
+                                "Crear recursos visuales",
+                                "Recopilar comentarios"
+                            ],
+                            "correctAnswer": "Identificar a la audiencia",
+                            "explanation": "El primer paso al desarrollar guías de usuario es identificar a la audiencia objetivo."
+                        },
+                        {
+                            "text": "Un manual de usuario resulta confuso por el exceso de tecnicismos. ¿Qué recomendación del manual para desarrollar guías efectivas se ha ignorado?",
+                            "options": [
+                                "Crear materiales interactivos",
+                                "Incluir ejemplos reales",
+                                "Utilizar un lenguaje claro y sencillo",
+                                "Estructurar el contenido"
+                            ],
+                            "correctAnswer": "Utilizar un lenguaje claro y sencillo",
+                            "explanation": "Las guías efectivas deben utilizar un lenguaje claro y sencillo, evitando tecnicismos excesivos."
+                        },
+                        {
+                            "text": "¿Qué aspecto del mantenimiento de la documentación asegura que los cambios sean validados por expertos antes de publicarse?",
+                            "options": [
+                                "Proceso de revisión y aprobación",
+                                "Asignar responsables",
+                                "Comunicar las actualizaciones",
+                                "Facilitar el acceso"
+                            ],
+                            "correctAnswer": "Proceso de revisión y aprobación",
+                            "explanation": "El proceso de revisión y aprobación asegura que los cambios sean validados antes de publicarse."
+                        },
+                        {
+                            "text": "El equipo de TI necesita editar y revisar un manual de forma conjunta en tiempo real. ¿Qué tipo de herramienta se recomienda para esta colaboración?",
+                            "options": [
+                                "El correo electrónico tradicional",
+                                "Herramientas de colaboración en línea (Google Docs, Confluence)",
+                                "Notas adhesivas físicas",
+                                "Un servidor de archivos FTP"
+                            ],
+                            "correctAnswer": "Herramientas de colaboración en línea (Google Docs, Confluence)",
+                            "explanation": "Las herramientas de colaboración en línea permiten editar documentos de forma conjunta en tiempo real."
+                        },
+                        {
+                            "text": "Has decidido implementar Git para gestionar la documentación. ¿Qué práctica permite realizar cambios pequeños que representen una única unidad de cambio?",
+                            "options": [
+                                "Hacer copias de seguridad mensuales",
+                                "Realizar commits atómicos y significativos",
+                                "Escribir mensajes de commit ambiguos",
+                                "Definir políticas de ramificación"
+                            ],
+                            "correctAnswer": "Realizar commits atómicos y significativos",
+                            "explanation": "Los commits atómicos representan cambios pequeños y específicos que facilitan el seguimiento."
+                        },
+                        {
+                            "text": "Al realizar un \"commit\" en el sistema de control de versiones, ¿qué debe contener el mensaje adjunto para facilitar la comprensión del historial?",
+                            "options": [
+                                "La fecha y hora exactas únicamente",
+                                "Una lista de todas las personas de la oficina",
+                                "El nombre del archivo modificado sin más explicación",
+                                "El propósito y detalles de los cambios realizados"
+                            ],
+                            "correctAnswer": "El propósito y detalles de los cambios realizados",
+                            "explanation": "Los mensajes de commit deben describir el propósito y detalles de los cambios para facilitar la comprensión."
+                        },
+                        {
+                            "text": "Deseas que tu documentación técnica siga un estándar profesional reconocido. ¿Cuál de los siguientes es un ejemplo de estándar externo mencionado?",
+                            "options": [
+                                "Manual de Carreteras",
+                                "Diccionario de la RAE",
+                                "Microsoft Manual of Style",
+                                "Normas de seguridad vial"
+                            ],
+                            "correctAnswer": "Microsoft Manual of Style",
+                            "explanation": "Microsoft Manual of Style es un estándar profesional reconocido para documentación técnica."
+                        },
+                        {
+                            "text": "Para garantizar que personas con discapacidades puedan utilizar la documentación, ¿qué aspecto se debe considerar según las buenas prácticas?",
+                            "options": [
+                                "La complejidad de la terminología",
+                                "El número de páginas del documento",
+                                "El uso de colores brillantes",
+                                "La accesibilidad"
+                            ],
+                            "correctAnswer": "La accesibilidad",
+                            "explanation": "La accesibilidad asegura que personas con discapacidades puedan utilizar la documentación."
+                        },
+                        {
+                            "text": "Estás diseñando el estilo de un manual y quieres enfatizar términos específicos. ¿Qué recursos tipográficos y de formato recomienda el manual?",
+                            "options": [
+                                "Usar solo mayúsculas en todo el texto",
+                                "Usar negrita, cursiva o subrayado",
+                                "Utilizar fuentes góticas de difícil lectura",
+                                "Cambiar el color de cada palabra"
+                            ],
+                            "correctAnswer": "Usar negrita, cursiva o subrayado",
+                            "explanation": "La negrita, cursiva y subrayado son recursos tipográficos recomendados para enfatizar términos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

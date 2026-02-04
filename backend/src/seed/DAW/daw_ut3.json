@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 3,
+                    "title": "Ajuste de parámetros y configuración de servidores de aplicaciones",
+                    "questions": [
+                        {
+                            "text": "Te han asignado la administración de un servidor que aloja una aplicación bancaria crítica. ¿Por qué es fundamental realizar un ajuste preciso de sus parámetros iniciales?",
+                            "options": [
+                                "Para asegurar rendimiento óptimo, escalabilidad, seguridad y confiabilidad",
+                                "Para eliminar la necesidad de realizar copias de seguridad",
+                                "Para reducir el tamaño físico de los racks en el centro de datos",
+                                "Para cambiar el lenguaje de programación de la aplicación"
+                            ],
+                            "correctAnswer": "Para asegurar rendimiento óptimo, escalabilidad, seguridad y confiabilidad",
+                            "explanation": "El ajuste preciso de parámetros es fundamental para asegurar rendimiento óptimo, escalabilidad, seguridad y confiabilidad en aplicaciones críticas."
+                        },
+                        {
+                            "text": "En el contexto de un servidor de aplicaciones, ¿qué parámetros deben configurarse específicamente para mejorar el rendimiento y la escalabilidad?",
+                            "options": [
+                                "Direcciones IP y cortafuegos únicamente",
+                                "Número de hilos de ejecución, asignación de memoria y optimización de caché",
+                                "Solo el nombre del dominio y el correo electrónico del administrador",
+                                "La velocidad de los ventiladores del hardware"
+                            ],
+                            "correctAnswer": "Número de hilos de ejecución, asignación de memoria y optimización de caché",
+                            "explanation": "Para mejorar rendimiento y escalabilidad se configuran hilos de ejecución, asignación de memoria y optimización de caché."
+                        },
+                        {
+                            "text": "Un servidor de aplicaciones sufre una caída de hardware, pero la aplicación sigue disponible gracias a la formación de clústeres y el balanceo de carga. ¿Qué parámetro esencial se ha gestionado correctamente?",
+                            "options": [
+                                "Configuración de la red",
+                                "Seguridad de datos",
+                                "Actualizaciones y mantenimiento",
+                                "Disponibilidad y tolerancia a fallos"
+                            ],
+                            "correctAnswer": "Disponibilidad y tolerancia a fallos",
+                            "explanation": "La disponibilidad y tolerancia a fallos mediante clústeres y balanceo de carga mantiene el servicio ante caídas de hardware."
+                        },
+                        {
+                            "text": "Durante una auditoría, se detecta que el servidor no genera avisos cuando la CPU llega al 99%. ¿Qué área de la configuración esencial está fallando?",
+                            "options": [
+                                "Tiempos de respuesta y latencia",
+                                "Arquitectura de la aplicación",
+                                "Monitorización y gestión (configuración de alertas)",
+                                "Integración y compatibilidad"
+                            ],
+                            "correctAnswer": "Monitorización y gestión (configuración de alertas)",
+                            "explanation": "La monitorización y gestión debe incluir configuración de alertas para avisar cuando los recursos alcanzan niveles críticos."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad principal de configurar correctamente las direcciones IP, puertos y cortafuegos en un servidor de aplicaciones?",
+                            "options": [
+                                "Reducir el número de microservicios utilizados",
+                                "Aumentar la capacidad de almacenamiento en disco",
+                                "Garantizar una comunicación eficiente con otros componentes del sistema",
+                                "Optimizar el colector de basura de Java"
+                            ],
+                            "correctAnswer": "Garantizar una comunicación eficiente con otros componentes del sistema",
+                            "explanation": "La configuración de red (IP, puertos, cortafuegos) garantiza la comunicación eficiente entre componentes del sistema."
+                        },
+                        {
+                            "text": "Un servidor Apache está consumiendo toda la memoria RAM disponible, provocando que el sistema operativo se bloquee. ¿Qué acción preventiva se debería haber tomado?",
+                            "options": [
+                                "Desactivar el uso de bases de datos",
+                                "Eliminar los registros de eventos para liberar espacio",
+                                "Aumentar la latencia de red intencionadamente",
+                                "Establecer límites máximos y mínimos de memoria (heap) para la aplicación"
+                            ],
+                            "correctAnswer": "Establecer límites máximos y mínimos de memoria (heap) para la aplicación",
+                            "explanation": "Establecer límites de memoria previene que la aplicación consuma toda la RAM disponible del sistema."
+                        },
+                        {
+                            "text": "Estás configurando el pool de conexiones a la base de datos para una aplicación de alta demanda. ¿Qué riesgo evitas al establecer un límite máximo de conexiones?",
+                            "options": [
+                                "La expiración de la caché de imágenes",
+                                "La necesidad de usar certificados SSL",
+                                "La sobrecarga tanto del servidor de aplicaciones como de la base de datos",
+                                "Que el sistema operativo Windows requiera actualizaciones"
+                            ],
+                            "correctAnswer": "La sobrecarga tanto del servidor de aplicaciones como de la base de datos",
+                            "explanation": "Limitar las conexiones del pool evita la sobrecarga del servidor de aplicaciones y de la base de datos."
+                        },
+                        {
+                            "text": "¿Qué parámetro de configuración permite que los clientes utilicen la misma conexión TCP para enviar múltiples solicitudes HTTP, reduciendo la latencia?",
+                            "options": [
+                                "TimeOut",
+                                "StartServers",
+                                "MaxRequestWorkers",
+                                "KeepAlive"
+                            ],
+                            "correctAnswer": "KeepAlive",
+                            "explanation": "KeepAlive permite reutilizar conexiones TCP para múltiples solicitudes HTTP, reduciendo la latencia."
+                        },
+                        {
+                            "text": "Al configurar el \"thread pool\" (grupo de hilos), decides establecer políticas de crecimiento y reducción según la carga. ¿Qué beneficio buscas obtener?",
+                            "options": [
+                                "Optimización del rendimiento y la escalabilidad",
+                                "Cifrado de las comunicaciones TLS/SSL",
+                                "Eliminación del uso de cookies de sesión",
+                                "Reducción del ancho de banda utilizado"
+                            ],
+                            "correctAnswer": "Optimización del rendimiento y la escalabilidad",
+                            "explanation": "Configurar políticas de crecimiento del thread pool optimiza el rendimiento y la escalabilidad del servidor."
+                        },
+                        {
+                            "text": "El servidor de aplicaciones se ha vuelto extremadamente lento debido a usuarios que descargan archivos de gran tamaño sin control. ¿Qué limitación de recursos aplicaría para resolver esto?",
+                            "options": [
+                                "Reducción del tamaño del disco duro",
+                                "Ajuste del TimeOut a 1 segundo",
+                                "Cuotas por usuario y límites de ancho de banda",
+                                "Desactivación de la compresión mod_deflate"
+                            ],
+                            "correctAnswer": "Cuotas por usuario y límites de ancho de banda",
+                            "explanation": "Las cuotas por usuario y límites de ancho de banda controlan el uso excesivo de recursos por descargas grandes."
+                        },
+                        {
+                            "text": "Estás analizando la configuración de un servidor Apache. ¿Qué módulo de multiprocesamiento (MPM) se menciona en el manual como ejemplo para gestionar conexiones y solicitudes?",
+                            "options": [
+                                "mpm_prefork_module",
+                                "mod_expires",
+                                "mod_ssl",
+                                "mod_status"
+                            ],
+                            "correctAnswer": "mpm_prefork_module",
+                            "explanation": "El módulo mpm_prefork_module es un MPM de Apache usado para gestionar conexiones y solicitudes."
+                        },
+                        {
+                            "text": "Has configurado el parámetro \"TimeOut 60\" en Apache. ¿Qué representa exactamente este valor?",
+                            "options": [
+                                "El tiempo de vida de un certificado SSL",
+                                "El intervalo entre actualizaciones de Windows Update",
+                                "El tiempo máximo que el servidor espera por una solicitud antes de cerrar la conexión",
+                                "La frecuencia de limpieza del colector de basura"
+                            ],
+                            "correctAnswer": "El tiempo máximo que el servidor espera por una solicitud antes de cerrar la conexión",
+                            "explanation": "TimeOut define el tiempo máximo que el servidor espera por una solicitud antes de cerrar la conexión."
+                        },
+                        {
+                            "text": "Un servidor web mantiene miles de conexiones inactivas que agotan los recursos. ¿Qué ajuste de \"KeepAliveTimeout\" sería más razonable según los ejemplos del manual?",
+                            "options": [
+                                "999 segundos",
+                                "0 segundos (infinito)",
+                                "3600 segundos",
+                                "5 segundos"
+                            ],
+                            "correctAnswer": "5 segundos",
+                            "explanation": "Un KeepAliveTimeout de 5 segundos es razonable para liberar conexiones inactivas y conservar recursos."
+                        },
+                        {
+                            "text": "Necesitas mejorar la velocidad de carga de una página web reduciendo la cantidad de datos transferidos. ¿Qué módulo de Apache debes habilitar?",
+                            "options": [
+                                "mod_deflate (compresión)",
+                                "mod_headers",
+                                "mod_status",
+                                "mod_mpm"
+                            ],
+                            "correctAnswer": "mod_deflate (compresión)",
+                            "explanation": "El módulo mod_deflate proporciona compresión de contenido para reducir la cantidad de datos transferidos."
+                        },
+                        {
+                            "text": "Al configurar la compresión, utilizas la directiva \"AddOutputFilterByType DEFLATE text/html\". ¿Qué efecto tiene esta línea?",
+                            "options": [
+                                "Comprime las imágenes JPG del servidor",
+                                "Bloquea el acceso a archivos HTML desde el exterior",
+                                "Cifra el tráfico HTML mediante TLS",
+                                "Habilita la compresión para archivos de texto HTML"
+                            ],
+                            "correctAnswer": "Habilita la compresión para archivos de texto HTML",
+                            "explanation": "Esta directiva habilita la compresión DEFLATE específicamente para archivos de tipo text/html."
+                        },
+                        {
+                            "text": "Tu servidor sirve muchas imágenes estáticas (.jpg, .png) que no cambian con frecuencia. ¿Qué directiva de \"mod_expires\" usarías para que el cliente las guarde un mes?",
+                            "options": [
+                                "KeepAliveTimeout 30",
+                                "Cache-Control: no-cache",
+                                "ExpiresByType image/jpg \"access plus 1 month\"",
+                                "ExpiresActive Off"
+                            ],
+                            "correctAnswer": "ExpiresByType image/jpg \"access plus 1 month\"",
+                            "explanation": "ExpiresByType configura el tiempo de expiración de caché para tipos específicos de archivos."
+                        },
+                        {
+                            "text": "¿Cuál es el primer paso obligatorio después de modificar manualmente el archivo de configuración \"httpd.conf\" para que los cambios tengan efecto?",
+                            "options": [
+                                "Formatear el disco duro",
+                                "Reiniciar el servidor Apache",
+                                "Cambiar la dirección IP del servidor",
+                                "Reinstalar el sistema operativo"
+                            ],
+                            "correctAnswer": "Reiniciar el servidor Apache",
+                            "explanation": "Después de modificar httpd.conf, se debe reiniciar Apache para que los cambios tengan efecto."
+                        },
+                        {
+                            "text": "Necesitas medir cuántas solicitudes por segundo puede gestionar tu servidor Apache mediante una herramienta de línea de comandos sencilla. ¿Cuál utilizarías?",
+                            "options": [
+                                "Wireshark",
+                                "Grafana",
+                                "ApacheBench (ab)",
+                                "Windows Update"
+                            ],
+                            "correctAnswer": "ApacheBench (ab)",
+                            "explanation": "ApacheBench (ab) es una herramienta de línea de comandos para medir el rendimiento de servidores web."
+                        },
+                        {
+                            "text": "Un equipo de desarrollo solicita una herramienta de código abierto para realizar pruebas de carga complejas que incluyan servidores y bases de datos. ¿Cuál recomendarías?",
+                            "options": [
+                                "PRTG",
+                                "JMeter",
+                                "New Relic",
+                                "TimeOut"
+                            ],
+                            "correctAnswer": "JMeter",
+                            "explanation": "JMeter es una herramienta de código abierto para pruebas de carga que soporta múltiples protocolos."
+                        },
+                        {
+                            "text": "Deseas crear paneles visuales personalizados y gráficos atractivos integrando métricas recopiladas por Prometheus. ¿Qué herramienta es la ideal para visualización?",
+                            "options": [
+                                "Grafana",
+                                "mod_status",
+                                "Wireshark",
+                                "ApacheBench"
+                            ],
+                            "correctAnswer": "Grafana",
+                            "explanation": "Grafana es la herramienta ideal para crear paneles visuales y gráficos a partir de métricas de Prometheus."
+                        },
+                        {
+                            "text": "Estás diagnosticando una posible brecha de seguridad a nivel de red y necesitas capturar el tráfico en tiempo real. ¿Qué analizador de protocolos usarías?",
+                            "options": [
+                                "Wireshark",
+                                "PRTG Network Monitor",
+                                "JMeter",
+                                "mod_deflate"
+                            ],
+                            "correctAnswer": "Wireshark",
+                            "explanation": "Wireshark es un analizador de protocolos de red que permite capturar y analizar tráfico en tiempo real."
+                        },
+                        {
+                            "text": "Has decidido usar PRTG Network Monitor. ¿Cuál es el primer paso para integrarlo con tu infraestructura según el manual?",
+                            "options": [
+                                "Editar el archivo httpd-ssl.conf",
+                                "Descargar e instalar PRTG en un servidor Windows",
+                                "Habilitar el cifrado SSL en el puerto 443",
+                                "Reiniciar el router principal de la oficina"
+                            ],
+                            "correctAnswer": "Descargar e instalar PRTG en un servidor Windows",
+                            "explanation": "El primer paso para usar PRTG es descargarlo e instalarlo en un servidor Windows."
+                        },
+                        {
+                            "text": "Para que PRTG pueda obtener datos detallados del rendimiento de Apache, ¿qué módulo específico del servidor debe estar habilitado y configurado?",
+                            "options": [
+                                "mod_status",
+                                "mod_rewrite",
+                                "mod_expires",
+                                "mod_auth_basic"
+                            ],
+                            "correctAnswer": "mod_status",
+                            "explanation": "El módulo mod_status proporciona información de estado del servidor que PRTG puede consultar."
+                        },
+                        {
+                            "text": "En la configuración del sensor de PRTG, estableces \"Require host localhost\" dentro de la sección. ¿Qué significa esto?",
+                            "options": [
+                                "Que cualquier persona en internet puede ver las métricas",
+                                "Que solo el propio servidor (o PRTG si está local) puede acceder a los datos de estado",
+                                "Que el servidor Apache solo funcionará si no hay internet",
+                                "Que los usuarios deben estar autenticados mediante certificado digital"
+                            ],
+                            "correctAnswer": "Que solo el propio servidor (o PRTG si está local) puede acceder a los datos de estado",
+                            "explanation": "Require host localhost restringe el acceso a los datos de estado solo al servidor local."
+                        },
+                        {
+                            "text": "Un servidor de aplicaciones ha sido atacado mediante inyección SQL. ¿Qué práctica recomendada de seguridad se ha omitido?",
+                            "options": [
+                                "Actualizar la memoria RAM",
+                                "Habilitar la compresión de datos",
+                                "Seguridad a nivel de aplicación (validación de entradas)",
+                                "Ajuste del pool de hilos"
+                            ],
+                            "correctAnswer": "Seguridad a nivel de aplicación (validación de entradas)",
+                            "explanation": "La validación de entradas a nivel de aplicación previene ataques de inyección SQL."
+                        },
+                        {
+                            "text": "¿Cuál es la recomendación del manual respecto a las comunicaciones entre cliente y servidor para garantizar privacidad e integridad?",
+                            "options": [
+                                "Utilizar arquitecturas monolíticas exclusivamente",
+                                "Implementar protocolos de cifrado TLS/SSL",
+                                "Desactivar el cortafuegos del servidor",
+                                "Usar solo conexiones por puerto 80"
+                            ],
+                            "correctAnswer": "Implementar protocolos de cifrado TLS/SSL",
+                            "explanation": "TLS/SSL garantiza la privacidad e integridad de las comunicaciones entre cliente y servidor."
+                        },
+                        {
+                            "text": "Te das cuenta de que el servidor Apache tiene una versión de hace dos años. ¿Qué herramienta de Windows te ayudaría a actualizar la base del sistema (SO)?",
+                            "options": [
+                                "ApacheBench",
+                                "Windows Update",
+                                "Notepad++",
+                                "PRTG Monitor"
+                            ],
+                            "correctAnswer": "Windows Update",
+                            "explanation": "Windows Update mantiene actualizado el sistema operativo con parches de seguridad y mejoras."
+                        },
+                        {
+                            "text": "Deseas verificar exactamente qué versión de Apache tienes instalada actualmente en tu servidor Windows. ¿Qué comando ejecutarías en la carpeta \"bin\"?",
+                            "options": [
+                                "httpd -v",
+                                "apache -version",
+                                "show-config",
+                                "get-version --apache"
+                            ],
+                            "correctAnswer": "httpd -v",
+                            "explanation": "El comando httpd -v muestra la versión de Apache instalada."
+                        },
+                        {
+                            "text": "El departamento de TI está planificando el calendario de actualizaciones del próximo año. ¿Qué criterio sugiere el manual para elegir el momento de aplicación?",
+                            "options": [
+                                "Durante períodos de menor actividad o fuera del horario laboral",
+                                "Justo al mediodía para tener soporte técnico inmediato",
+                                "Durante las horas de mayor tráfico para probar la resistencia",
+                                "Únicamente los lunes por la mañana"
+                            ],
+                            "correctAnswer": "Durante períodos de menor actividad o fuera del horario laboral",
+                            "explanation": "Las actualizaciones deben aplicarse durante períodos de menor actividad para minimizar el impacto."
+                        },
+                        {
+                            "text": "Antes de aplicar un parche crítico en el servidor de producción, ¿qué acción es indispensable para poder volver atrás si algo falla?",
+                            "options": [
+                                "Cambiar todas las contraseñas de los usuarios",
+                                "Contar con un plan de reversión y copias de seguridad de configuración y bases de datos",
+                                "Borrar los archivos temporales",
+                                "Desinstalar el monitor PRTG"
+                            ],
+                            "correctAnswer": "Contar con un plan de reversión y copias de seguridad de configuración y bases de datos",
+                            "explanation": "Un plan de reversión y copias de seguridad son indispensables antes de aplicar parches críticos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

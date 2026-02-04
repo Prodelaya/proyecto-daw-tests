@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 5,
+                    "title": "Procedimientos de despliegue y distribución de aplicaciones",
+                    "questions": [
+                        {
+                            "text": "Tu equipo acaba de finalizar el desarrollo de una nueva plataforma de gestión educativa. ¿Cómo se denomina al proceso de preparar la aplicación para su ejecución en los servidores de la infraestructura de producción?",
+                            "options": [
+                                "Registro de nombres de dominio",
+                                "Despliegue de aplicaciones web",
+                                "Auditoría de código fuente",
+                                "Compilación distributiva"
+                            ],
+                            "correctAnswer": "Despliegue de aplicaciones web",
+                            "explanation": "El despliegue de aplicaciones web es el proceso de preparar y publicar aplicaciones en servidores de producción."
+                        },
+                        {
+                            "text": "Durante la fase de preparación del despliegue, el equipo debe realizar varias tareas técnicas. Según el manual, ¿cuál de estas tareas es parte de dicha preparación?",
+                            "options": [
+                                "Venta de licencias a los usuarios finales",
+                                "Redactar el contrato de los desarrolladores",
+                                "Diseño de los logotipos comerciales",
+                                "Compilación del código fuente y configuración de la aplicación"
+                            ],
+                            "correctAnswer": "Compilación del código fuente y configuración de la aplicación",
+                            "explanation": "La compilación del código y la configuración son tareas técnicas fundamentales en la preparación del despliegue."
+                        },
+                        {
+                            "text": "Un administrador de sistemas está instalando una aplicación en el servidor de producción para que los usuarios accedan por Internet. ¿Qué fase del ciclo de vida está completando?",
+                            "options": [
+                                "Despliegue",
+                                "Distribución comercial",
+                                "Análisis de requisitos",
+                                "Prototipado rápido"
+                            ],
+                            "correctAnswer": "Despliegue",
+                            "explanation": "El despliegue es la fase en la que se instala la aplicación en el servidor de producción."
+                        },
+                        {
+                            "text": "Una empresa de software quiere garantizar que su aplicación esté disponible y funcione correctamente para los usuarios finales. ¿Cuál es el objetivo principal de la distribución de aplicaciones?",
+                            "options": [
+                                "Incrementar el coste de mantenimiento",
+                                "Ocultar el código fuente a los administradores",
+                                "Reducir el número de servidores disponibles",
+                                "Entregar la aplicación a los usuarios de manera eficiente y segura"
+                            ],
+                            "correctAnswer": "Entregar la aplicación a los usuarios de manera eficiente y segura",
+                            "explanation": "El objetivo de la distribución es entregar la aplicación de manera eficiente y segura a los usuarios finales."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes es un método común de distribución mencionado en el temario para que los usuarios obtengan la aplicación?",
+                            "options": [
+                                "Uso exclusivo de redes locales aisladas",
+                                "Envío de cintas magnéticas por correo",
+                                "Copiado manual en cada terminal del cliente",
+                                "Descargas directas o tiendas de aplicaciones"
+                            ],
+                            "correctAnswer": "Descargas directas o tiendas de aplicaciones",
+                            "explanation": "Las descargas directas y tiendas de aplicaciones son métodos comunes de distribución moderna."
+                        },
+                        {
+                            "text": "Como responsable de infraestructura, decides utilizar una tecnología que permite empaquetar la aplicación con todas sus dependencias. ¿A qué método de despliegue te refieres?",
+                            "options": [
+                                "Instalación por scripts de consola",
+                                "Virtualización completa del kernel",
+                                "Emulación de hardware antiguo",
+                                "Contenedores"
+                            ],
+                            "correctAnswer": "Contenedores",
+                            "explanation": "Los contenedores permiten empaquetar aplicaciones con todas sus dependencias de forma aislada."
+                        },
+                        {
+                            "text": "El equipo de desarrollo utiliza Docker para empaquetar la App. ¿Qué ventaja principal aporta esta tecnología al despliegue según la UT5?",
+                            "options": [
+                                "Permite que solo un desarrollador trabaje a la vez",
+                                "Garantiza que la aplicación funcione de la misma manera en cualquier entorno",
+                                "Aumenta el tamaño total de la aplicación",
+                                "Elimina la necesidad de usar una red internet"
+                            ],
+                            "correctAnswer": "Garantiza que la aplicación funcione de la misma manera en cualquier entorno",
+                            "explanation": "Docker garantiza que la aplicación funcione igual en cualquier entorno gracias al empaquetado de dependencias."
+                        },
+                        {
+                            "text": "Necesitas gestionar el ciclo de vida de cientos de contenedores en un clúster de servidores para asegurar la alta disponibilidad. ¿Qué herramienta de orquestación elegirías?",
+                            "options": [
+                                "Adobe Reader",
+                                "Notepad++",
+                                "Microsoft Excel",
+                                "Kubernetes"
+                            ],
+                            "correctAnswer": "Kubernetes",
+                            "explanation": "Kubernetes es la herramienta de orquestación estándar para gestionar contenedores en clústeres."
+                        },
+                        {
+                            "text": "Al configurar un orquestador, notas que el sistema detecta un contenedor caído y lo reinicia automáticamente. ¿Qué capacidad estás aplicando?",
+                            "options": [
+                                "Cifrado de punto a punto",
+                                "Autorreparación (self-healing)",
+                                "Compresión de datos",
+                                "Escalabilidad manual"
+                            ],
+                            "correctAnswer": "Autorreparación (self-healing)",
+                            "explanation": "La autorreparación o self-healing permite que el orquestador detecte y reinicie contenedores fallidos automáticamente."
+                        },
+                        {
+                            "text": "Una startup desea que sus aplicaciones se adapten automáticamente al aumento de tráfico durante el lanzamiento de un producto. ¿Qué funcionalidad de la orquestación permite esto?",
+                            "options": [
+                                "El escalado automático",
+                                "La redacción de manuales",
+                                "El registro de logs",
+                                "El diseño de la interfaz"
+                            ],
+                            "correctAnswer": "El escalado automático",
+                            "explanation": "El escalado automático permite que las aplicaciones se adapten dinámicamente a cambios en la demanda."
+                        },
+                        {
+                            "text": "Estás definiendo los pasos para que el despliegue en tu empresa sea exitoso y repetible. ¿Qué estás estableciendo según el apartado 2 de la UT?",
+                            "options": [
+                                "Un manual de identidad visual",
+                                "Una política de vacaciones",
+                                "Procedimientos de despliegue",
+                                "Un contrato de confidencialidad"
+                            ],
+                            "correctAnswer": "Procedimientos de despliegue",
+                            "explanation": "Los procedimientos de despliegue definen los pasos para realizar despliegues exitosos y repetibles."
+                        },
+                        {
+                            "text": "Según la normativa del manual, ¿qué debe incluir un procedimiento de despliegue bien definido?",
+                            "options": [
+                                "El inventario de muebles de la oficina",
+                                "Los perfiles de redes sociales de los clientes",
+                                "Solo la fecha de finalización del proyecto",
+                                "Pasos detallados para la construcción, prueba e implementación"
+                            ],
+                            "correctAnswer": "Pasos detallados para la construcción, prueba e implementación",
+                            "explanation": "Un procedimiento de despliegue debe incluir pasos detallados de construcción, prueba e implementación."
+                        },
+                        {
+                            "text": "Para evitar que un error en el código llegue a los usuarios, el equipo decide implementar una etapa donde se ejecutan pruebas de unidad y de integración. ¿Cómo se llama técnicamente este flujo automatizado?",
+                            "options": [
+                                "Embudo de ventas",
+                                "Cadena de montaje física",
+                                "Pipeline de despliegue",
+                                "Túnel de comunicaciones"
+                            ],
+                            "correctAnswer": "Pipeline de despliegue",
+                            "explanation": "El pipeline de despliegue es el flujo automatizado que incluye construcción, pruebas y despliegue."
+                        },
+                        {
+                            "text": "Durante la ejecución de un pipeline, el sistema se detiene porque una prueba de seguridad ha fallado. ¿Qué ventaja de los flujos de trabajo automatizados se evidencia aquí?",
+                            "options": [
+                                "Reducción de errores y mejora de la calidad",
+                                "Incremento del tiempo de desarrollo",
+                                "Aumento de la burocracia técnica",
+                                "Mayor dependencia del trabajo manual"
+                            ],
+                            "correctAnswer": "Reducción de errores y mejora de la calidad",
+                            "explanation": "Los pipelines automatizados reducen errores al detectar problemas antes de que lleguen a producción."
+                        },
+                        {
+                            "text": "¿Cuál es el orden lógico de las etapas en un pipeline de despliegue estándar mencionado en el material?",
+                            "options": [
+                                "Construcción -> Pruebas -> Despliegue",
+                                "Instalación -> Diseño -> Pruebas",
+                                "Producción -> Construcción -> Pruebas",
+                                "Pruebas -> Compilación -> Análisis"
+                            ],
+                            "correctAnswer": "Construcción -> Pruebas -> Despliegue",
+                            "explanation": "El orden estándar de un pipeline es: Construcción, Pruebas y Despliegue."
+                        },
+                        {
+                            "text": "Tras configurar el procedimiento de despliegue, el equipo realiza una serie de comprobaciones para confirmar que todo funciona según lo previsto. ¿A qué etapa corresponde esto?",
+                            "options": [
+                                "Marketing de lanzamiento",
+                                "Verificación de los procedimientos",
+                                "Planificación estratégica",
+                                "Cierre del año fiscal"
+                            ],
+                            "correctAnswer": "Verificación de los procedimientos",
+                            "explanation": "La verificación confirma que los procedimientos de despliegue funcionan correctamente."
+                        },
+                        {
+                            "text": "Si durante la verificación detectas que el servidor de producción no tiene la versión correcta de la base de datos, ¿qué debes hacer según el flujo de trabajo?",
+                            "options": [
+                                "Borrar todo el código fuente permanentemente",
+                                "Corregir el procedimiento y volver a verificar",
+                                "Cambiar de proveedor de internet",
+                                "Ignorar el error y seguir adelante"
+                            ],
+                            "correctAnswer": "Corregir el procedimiento y volver a verificar",
+                            "explanation": "Ante errores, se debe corregir el procedimiento y volver a ejecutar la verificación."
+                        },
+                        {
+                            "text": "Un equipo utiliza Jenkins para que cada vez que un desarrollador sube código, se compile y pruebe automáticamente. ¿Qué concepto están aplicando?",
+                            "options": [
+                                "Distribución manual",
+                                "Automatización del despliegue",
+                                "Gestión de hardware físico",
+                                "Soporte técnico preventivo"
+                            ],
+                            "correctAnswer": "Automatización del despliegue",
+                            "explanation": "Jenkins automatiza el proceso de compilación y pruebas como parte de la automatización del despliegue."
+                        },
+                        {
+                            "text": "¿Cuál es la principal ventaja de minimizar la intervención humana en el proceso de despliegue?",
+                            "options": [
+                                "Permite que los empleados trabajen menos horas",
+                                "Reduce la posibilidad de errores y mejora la velocidad de lanzamiento",
+                                "Evita tener que comprar servidores potentes",
+                                "Hace que el código sea ilegible para los hackers"
+                            ],
+                            "correctAnswer": "Reduce la posibilidad de errores y mejora la velocidad de lanzamiento",
+                            "explanation": "Minimizar la intervención humana reduce errores y acelera los lanzamientos."
+                        },
+                        {
+                            "text": "Tu aplicación ya está en producción, pero necesitas saber si está consumiendo demasiada CPU o si el tiempo de respuesta es lento. ¿Qué proceso debes implementar?",
+                            "options": [
+                                "Cambio de nombre de la aplicación",
+                                "Compilación en frío",
+                                "Monitorización del despliegue",
+                                "Reinstalación del sistema operativo"
+                            ],
+                            "correctAnswer": "Monitorización del despliegue",
+                            "explanation": "La monitorización del despliegue permite supervisar el rendimiento de la aplicación en producción."
+                        },
+                        {
+                            "text": "Durante la monitorización, el equipo recolecta métricas y registros de eventos. ¿Cuál es la utilidad de estos datos?",
+                            "options": [
+                                "Limpiar el almacenamiento físico del disco",
+                                "Diseñar campañas de publicidad en Google",
+                                "Calcular el salario de los programadores",
+                                "Identificar rápidamente problemas de rendimiento o seguridad"
+                            ],
+                            "correctAnswer": "Identificar rápidamente problemas de rendimiento o seguridad",
+                            "explanation": "Las métricas y registros permiten identificar problemas de rendimiento o seguridad rápidamente."
+                        },
+                        {
+                            "text": "Has configurado un sistema que envía un mensaje al móvil del administrador si la App web deja de responder. Esto forma parte de:",
+                            "options": [
+                                "La fase de diseño gráfico",
+                                "El marketing de contenidos",
+                                "La monitorización de la salud y disponibilidad",
+                                "El proceso de compilación"
+                            ],
+                            "correctAnswer": "La monitorización de la salud y disponibilidad",
+                            "explanation": "Las alertas sobre disponibilidad forman parte de la monitorización de salud del sistema."
+                        },
+                        {
+                            "text": "Una empresa utiliza GitLab CI/CD para gestionar sus lanzamientos. ¿En qué categoría de herramientas se clasifica según el manual?",
+                            "options": [
+                                "Herramientas de diseño 3D",
+                                "Sistemas de integración y entrega continua",
+                                "Editores de texto avanzado",
+                                "Navegadores web empresariales"
+                            ],
+                            "correctAnswer": "Sistemas de integración y entrega continua",
+                            "explanation": "GitLab CI/CD es un sistema de integración y entrega continua (CI/CD)."
+                        },
+                        {
+                            "text": "¿Qué acción técnica permite a los equipos asegurar que las aplicaciones cumplen con los estándares de calidad antes de la distribución final?",
+                            "options": [
+                                "El uso de herramientas de monitorización y análisis de métricas",
+                                "La compra de más licencias de Windows",
+                                "El cambio frecuente de contraseñas de WiFi",
+                                "El aumento de la resolución de las imágenes"
+                            ],
+                            "correctAnswer": "El uso de herramientas de monitorización y análisis de métricas",
+                            "explanation": "Las herramientas de monitorización y análisis aseguran que las aplicaciones cumplen estándares de calidad."
+                        },
+                        {
+                            "text": "Estás diseñando un pipeline y decides incluir una etapa de \"Build\". ¿Qué ocurre normalmente en esta fase?",
+                            "options": [
+                                "Se compila el código y se generan los artefactos ejecutables",
+                                "Se realiza una encuesta de satisfacción",
+                                "Se vende la aplicación al cliente",
+                                "Se apaga el servidor para mantenimiento"
+                            ],
+                            "correctAnswer": "Se compila el código y se generan los artefactos ejecutables",
+                            "explanation": "En la etapa de Build se compila el código y se generan los artefactos ejecutables."
+                        },
+                        {
+                            "text": "Un desarrollador afirma que la monitorización solo es necesaria durante la primera hora tras el despliegue. ¿Es correcto según la UT5?",
+                            "options": [
+                                "Sí, porque los errores solo aparecen al principio",
+                                "Sí, para ahorrar recursos de red",
+                                "No, solo es necesaria si el cliente lo pide expresamente",
+                                "No, se requiere supervisión continua en los entornos de producción"
+                            ],
+                            "correctAnswer": "No, se requiere supervisión continua en los entornos de producción",
+                            "explanation": "La monitorización debe ser continua en producción, no solo tras el despliegue inicial."
+                        },
+                        {
+                            "text": "¿Qué tecnología de las mencionadas permite escalar la infraestructura de forma flexible y con mayor control sobre los recursos?",
+                            "options": [
+                                "Cables de fibra óptica",
+                                "Unidades de cinta magnética",
+                                "Protocolo FTP",
+                                "Tecnologías de contenedores y orquestación"
+                            ],
+                            "correctAnswer": "Tecnologías de contenedores y orquestación",
+                            "explanation": "Los contenedores y la orquestación permiten escalar la infraestructura de forma flexible."
+                        },
+                        {
+                            "text": "En un escenario de despliegue basado en microservicios, ¿por qué es vital la orquestación?",
+                            "options": [
+                                "Para administrar el ciclo de vida y la comunicación de múltiples servicios independientes",
+                                "Para reducir el número de usuarios que entran a la web",
+                                "Para que los desarrolladores no tengan que hablar entre ellos",
+                                "Para eliminar el uso de bases de datos relacionales"
+                            ],
+                            "correctAnswer": "Para administrar el ciclo de vida y la comunicación de múltiples servicios independientes",
+                            "explanation": "La orquestación gestiona el ciclo de vida y comunicación entre microservicios independientes."
+                        },
+                        {
+                            "text": "¿Qué garantiza que una App web \"funcione correctamente para los usuarios finales\" según la introducción de la unidad?",
+                            "options": [
+                                "El conjunto de prácticas de implementación y entrega (despliegue y distribución)",
+                                "El precio de venta de la suscripción",
+                                "La cantidad de memoria RAM del usuario",
+                                "El uso de colores llamativos"
+                            ],
+                            "correctAnswer": "El conjunto de prácticas de implementación y entrega (despliegue y distribución)",
+                            "explanation": "Las prácticas de despliegue y distribución garantizan el correcto funcionamiento para los usuarios."
+                        },
+                        {
+                            "text": "Al finalizar el despliegue, la App ya es accesible. ¿Cuál es el canal de acceso mencionado en el manual para los usuarios?",
+                            "options": [
+                                "Redes de telefonía fija analógica",
+                                "Internet",
+                                "Radiofrecuencia de onda corta",
+                                "Disquetes de 3.5 pulgadas"
+                            ],
+                            "correctAnswer": "Internet",
+                            "explanation": "Internet es el canal principal de acceso para los usuarios a las aplicaciones web desplegadas."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

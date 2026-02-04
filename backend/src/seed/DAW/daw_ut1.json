@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 1,
+                    "title": "Introducción a la gestión de servidores de aplicaciones",
+                    "questions": [
+                        {
+                            "text": "Una consultora tecnológica está definiendo la infraestructura para una nueva plataforma de banca móvil. ¿Qué concepto define mejor la plataforma que facilitará la ejecución y gestión de esta aplicación empresarial?",
+                            "options": [
+                                "Una base de datos relacional",
+                                "Un sistema operativo de red",
+                                "Un servidor de archivos centralizado",
+                                "Un servidor de aplicaciones"
+                            ],
+                            "correctAnswer": "Un servidor de aplicaciones",
+                            "explanation": "Un servidor de aplicaciones proporciona la plataforma que facilita la ejecución y gestión de aplicaciones empresariales como plataformas de banca móvil."
+                        },
+                        {
+                            "text": "Según el temario, ¿cuál es el propósito principal de que un servidor de aplicaciones actúe como intermediario?",
+                            "options": [
+                                "Permitir que los desarrolladores se centren en la lógica de la aplicación",
+                                "Obligar a los desarrolladores a gestionar la infraestructura de red",
+                                "Aumentar la latencia en las transacciones de los usuarios",
+                                "Eliminar la necesidad de usar protocolos de seguridad"
+                            ],
+                            "correctAnswer": "Permitir que los desarrolladores se centren en la lógica de la aplicación",
+                            "explanation": "El servidor de aplicaciones actúa como intermediario para que los desarrolladores puedan centrarse en la lógica de la aplicación sin preocuparse por la infraestructura subyacente."
+                        },
+                        {
+                            "text": "Una empresa de retail necesita desplegar un sistema ERP. ¿Qué ventaja específica aporta el servidor de aplicaciones en este escenario de \"aplicación crítica\"?",
+                            "options": [
+                                "Sustituye completamente la necesidad de una base de datos",
+                                "Proporciona un entorno seguro y escalable para garantizar disponibilidad continua",
+                                "Reduce la velocidad de procesamiento para ahorrar energía",
+                                "Permite que cualquier usuario modifique el código fuente en tiempo real"
+                            ],
+                            "correctAnswer": "Proporciona un entorno seguro y escalable para garantizar disponibilidad continua",
+                            "explanation": "Para aplicaciones críticas como un ERP, el servidor de aplicaciones proporciona un entorno seguro y escalable que garantiza la disponibilidad continua del sistema."
+                        },
+                        {
+                            "text": "Te encuentras configurando un sistema de comercio electrónico que espera un gran volumen de transacciones simultáneas. ¿Qué capacidad del servidor de aplicaciones es vital para procesar estos pagos de forma segura?",
+                            "options": [
+                                "El procesamiento de transacciones seguro y escalable",
+                                "La capacidad de almacenamiento de medios físicos",
+                                "El diseño visual de la interfaz de usuario",
+                                "La gestión de correos electrónicos de marketing"
+                            ],
+                            "correctAnswer": "El procesamiento de transacciones seguro y escalable",
+                            "explanation": "Para un sistema de comercio electrónico con alto volumen de transacciones, es vital contar con procesamiento de transacciones seguro y escalable."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes es un ejemplo de cómo un servidor de aplicaciones reduce la complejidad administrativa?",
+                            "options": [
+                                "Eliminando el uso de estándares y protocolos de comunicación",
+                                "Ofreciendo un entorno centralizado y seguro para su ejecución",
+                                "Fragmentando la ejecución de la aplicación en múltiples servidores sin control",
+                                "Delegando toda la seguridad al navegador del cliente"
+                            ],
+                            "correctAnswer": "Ofreciendo un entorno centralizado y seguro para su ejecución",
+                            "explanation": "El servidor de aplicaciones reduce la complejidad administrativa al ofrecer un entorno centralizado y seguro para la ejecución de aplicaciones."
+                        },
+                        {
+                            "text": "Como administrador de sistemas, notas que un servidor está desperdiciando ciclos de CPU mientras la memoria está saturada. ¿Qué función del servidor de aplicaciones debes invocar para corregir esto?",
+                            "options": [
+                                "Soporte de múltiples lenguajes de programación",
+                                "Gestión de recursos (asignación y optimización)",
+                                "Replicación de datos en clúster",
+                                "Interoperabilidad con servicios web"
+                            ],
+                            "correctAnswer": "Gestión de recursos (asignación y optimización)",
+                            "explanation": "La gestión de recursos permite asignar y optimizar el uso de CPU y memoria para corregir desequilibrios en el rendimiento del servidor."
+                        },
+                        {
+                            "text": "Una empresa necesita que su aplicación se comunique con un servicio externo mediante gRPC y REST. ¿Qué característica del servidor de aplicaciones permite esta integración?",
+                            "options": [
+                                "El despliegue en entornos de prueba",
+                                "El soporte para múltiples protocolos y estándares",
+                                "La tolerancia a fallos ante desastres naturales",
+                                "La actualización de versiones en tiempo real"
+                            ],
+                            "correctAnswer": "El soporte para múltiples protocolos y estándares",
+                            "explanation": "El soporte para múltiples protocolos y estándares permite que la aplicación se comunique con servicios externos mediante diferentes protocolos como gRPC y REST."
+                        },
+                        {
+                            "text": "Estás diseñando la arquitectura de seguridad para una aplicación financiera. ¿Qué mecanismos de protección debe ofrecerte de serie el servidor de aplicaciones?",
+                            "options": [
+                                "La creación de contenidos para redes sociales",
+                                "Solo el diseño de logotipos corporativos",
+                                "Únicamente la gestión de cables de red físicos",
+                                "Autenticación, autorización, control de acceso y cifrado"
+                            ],
+                            "correctAnswer": "Autenticación, autorización, control de acceso y cifrado",
+                            "explanation": "Para una aplicación financiera, el servidor de aplicaciones debe proporcionar autenticación, autorización, control de acceso y cifrado como mecanismos de seguridad."
+                        },
+                        {
+                            "text": "El departamento de marketing prevé un aumento del 400% en el tráfico debido al Black Friday. ¿Qué capacidad técnica permite añadir recursos de software o hardware para manejar esta carga?",
+                            "options": [
+                                "Escalabilidad",
+                                "Documentación",
+                                "Portabilidad",
+                                "Componentización"
+                            ],
+                            "correctAnswer": "Escalabilidad",
+                            "explanation": "La escalabilidad permite añadir recursos de software o hardware para manejar aumentos significativos en la carga de trabajo."
+                        },
+                        {
+                            "text": "Un desarrollador utiliza Java para el backend y Node.js para un servicio de chat en tiempo real. ¿Por qué es posible ejecutar ambos en servidores de aplicaciones modernos?",
+                            "options": [
+                                "Porque el servidor de aplicaciones traduce automáticamente todo a PHP",
+                                "Porque suelen ser compatibles con múltiples lenguajes y tecnologías",
+                                "Porque los servidores de aplicaciones solo admiten código binario cerrado",
+                                "Porque no es necesario que el servidor entienda el lenguaje de programación"
+                            ],
+                            "correctAnswer": "Porque suelen ser compatibles con múltiples lenguajes y tecnologías",
+                            "explanation": "Los servidores de aplicaciones modernos son compatibles con múltiples lenguajes y tecnologías, permitiendo ejecutar tanto Java como Node.js."
+                        },
+                        {
+                            "text": "Durante una auditoría de rendimiento, necesitas saber por qué la aplicación se ralentiza a las 10:00 AM. ¿Qué funcionalidad del servidor debes consultar?",
+                            "options": [
+                                "Herramientas de monitoreo y administración",
+                                "El manual de identidad visual",
+                                "La tabla de estilos CSS",
+                                "El contrato del proveedor de internet"
+                            ],
+                            "correctAnswer": "Herramientas de monitoreo y administración",
+                            "explanation": "Las herramientas de monitoreo y administración permiten analizar el rendimiento y detectar las causas de ralentización en momentos específicos."
+                        },
+                        {
+                            "text": "¿Qué característica permite actualizar una aplicación en el servidor de producción sin que el servicio se vea interrumpido para los usuarios?",
+                            "options": [
+                                "Gestión de almacenamiento físico",
+                                "Actualizaciones en tiempo real y despliegue de versiones",
+                                "Uso de protocolos de correo electrónico",
+                                "Formación de los miembros del equipo"
+                            ],
+                            "correctAnswer": "Actualizaciones en tiempo real y despliegue de versiones",
+                            "explanation": "Las actualizaciones en tiempo real y el despliegue de versiones permiten actualizar aplicaciones sin interrumpir el servicio para los usuarios."
+                        },
+                        {
+                            "text": "Tu aplicación ha sufrido una caída en uno de sus nodos, pero los usuarios siguen operando con normalidad. ¿Qué mecanismo ha evitado el desastre?",
+                            "options": [
+                                "La eliminación de las copias de seguridad",
+                                "El uso de protocolos HTTP sin cifrar",
+                                "Alta disponibilidad y tolerancia a fallos (replicación/clústeres)",
+                                "El uso de un solo servidor central muy potente"
+                            ],
+                            "correctAnswer": "Alta disponibilidad y tolerancia a fallos (replicación/clústeres)",
+                            "explanation": "La alta disponibilidad y tolerancia a fallos mediante replicación y clústeres permite que el servicio continúe aunque fallen algunos nodos."
+                        },
+                        {
+                            "text": "Una startup desea utilizar una arquitectura de microservicios para su nueva App. ¿Qué soporte deben buscar específicamente en su servidor de aplicaciones?",
+                            "options": [
+                                "Soporte para arquitecturas de microservicios y contenedores",
+                                "Gestión de nóminas de los empleados",
+                                "Soporte exclusivo para aplicaciones monolíticas antiguas",
+                                "Capacidad para imprimir documentos en red"
+                            ],
+                            "correctAnswer": "Soporte para arquitecturas de microservicios y contenedores",
+                            "explanation": "Para una arquitectura de microservicios, se necesita un servidor de aplicaciones con soporte específico para microservicios y contenedores."
+                        },
+                        {
+                            "text": "El servidor de aplicaciones debe guardar datos en una base de datos externa y enviar mensajes a una cola de Amazon SQS. ¿Qué término describe esta capacidad?",
+                            "options": [
+                                "Metodología DevOps",
+                                "Escalabilidad vertical",
+                                "Interoperabilidad",
+                                "Patrón de diseño MVC"
+                            ],
+                            "correctAnswer": "Interoperabilidad",
+                            "explanation": "La interoperabilidad es la capacidad del servidor de aplicaciones para comunicarse con sistemas externos como bases de datos y colas de mensajes."
+                        },
+                        {
+                            "text": "La carga de trabajo de una aplicación web ha crecido y decides añadir tres nuevas instancias de servidores detrás de un balanceador. ¿Cómo se llama este tipo de escalabilidad?",
+                            "options": [
+                                "Escalabilidad Horizontal",
+                                "Escalabilidad de Almacenamiento",
+                                "Escalabilidad Diagonal",
+                                "Escalabilidad Vertical"
+                            ],
+                            "correctAnswer": "Escalabilidad Horizontal",
+                            "explanation": "La escalabilidad horizontal consiste en añadir más instancias de servidores para distribuir la carga de trabajo."
+                        },
+                        {
+                            "text": "Si decides mejorar el rendimiento de una aplicación aumentando la memoria RAM y la potencia del procesador del servidor actual, estás aplicando:",
+                            "options": [
+                                "Escalabilidad Horizontal",
+                                "Portabilidad de código",
+                                "Escalabilidad Vertical",
+                                "Componentización modular"
+                            ],
+                            "correctAnswer": "Escalabilidad Vertical",
+                            "explanation": "La escalabilidad vertical consiste en aumentar los recursos (RAM, CPU) de un servidor existente para mejorar su rendimiento."
+                        },
+                        {
+                            "text": "Un equipo de desarrollo necesita que la aplicación funcione igual en Windows, Linux y en la nube sin cambiar el código fuente. ¿A qué concepto se refiere este requisito?",
+                            "options": [
+                                "Portabilidad",
+                                "Resiliencia",
+                                "Orquestación",
+                                "Mantenibilidad"
+                            ],
+                            "correctAnswer": "Portabilidad",
+                            "explanation": "La portabilidad permite que una aplicación funcione en diferentes plataformas y entornos sin modificar el código fuente."
+                        },
+                        {
+                            "text": "¿Cuál es el principal beneficio de utilizar contenedores Docker en el despliegue de aplicaciones según el manual?",
+                            "options": [
+                                "Que hacen la aplicación portable y ejecutable en diferentes entornos sin cambios",
+                                "Que eliminan la necesidad de tener un sistema operativo",
+                                "Que aumentan el tamaño de la aplicación significativamente",
+                                "Que restringen el uso de la aplicación a una sola arquitectura de software"
+                            ],
+                            "correctAnswer": "Que hacen la aplicación portable y ejecutable en diferentes entornos sin cambios",
+                            "explanation": "Docker permite empaquetar aplicaciones con todas sus dependencias, haciéndolas portables y ejecutables en diferentes entornos sin cambios."
+                        },
+                        {
+                            "text": "Tienes una aplicación monolítica difícil de mantener y decides dividirla en módulos autónomos que se comunican por interfaces definidas. Has realizado un proceso de:",
+                            "options": [
+                                "Escalabilidad vertical masiva",
+                                "Componentización",
+                                "Cifrado de datos",
+                                "Integración continua"
+                            ],
+                            "correctAnswer": "Componentización",
+                            "explanation": "La componentización consiste en dividir una aplicación monolítica en módulos autónomos que se comunican mediante interfaces definidas."
+                        },
+                        {
+                            "text": "Al implementar microservicios, ¿cómo se comunican estos componentes independientes entre sí?",
+                            "options": [
+                                "A través de APIs bien definidas",
+                                "Mediante cables seriales",
+                                "No se comunican entre sí en ningún caso",
+                                "Compartiendo la misma memoria física directamente"
+                            ],
+                            "correctAnswer": "A través de APIs bien definidas",
+                            "explanation": "Los microservicios se comunican entre sí a través de APIs bien definidas, generalmente mediante protocolos HTTP/REST o mensajería."
+                        },
+                        {
+                            "text": "Estás diseñando una aplicación y decides separar la lógica de negocio de la interfaz de usuario para facilitar cambios futuros. ¿Qué estás utilizando?",
+                            "options": [
+                                "Un servidor de nombres de dominio",
+                                "Patrones de diseño (como MVC)",
+                                "Una copia de seguridad incremental",
+                                "Un protocolo de mensajería asíncrona"
+                            ],
+                            "correctAnswer": "Patrones de diseño (como MVC)",
+                            "explanation": "Los patrones de diseño como MVC (Modelo-Vista-Controlador) permiten separar la lógica de negocio de la interfaz de usuario."
+                        },
+                        {
+                            "text": "En el patrón de diseño MVC, ¿qué elemento es el encargado de manejar las solicitudes de entrada y coordinar la interacción?",
+                            "options": [
+                                "El Modelo",
+                                "La Base de Datos",
+                                "El Controlador",
+                                "La Vista"
+                            ],
+                            "correctAnswer": "El Controlador",
+                            "explanation": "En el patrón MVC, el Controlador es el encargado de manejar las solicitudes de entrada y coordinar la interacción entre el Modelo y la Vista."
+                        },
+                        {
+                            "text": "Tu empresa quiere unir los equipos de desarrollo y sistemas para acelerar la entrega de software con calidad. ¿Qué metodología deben adoptar?",
+                            "options": [
+                                "Cascada (Waterfall)",
+                                "Desarrollo basado en hardware",
+                                "Arquitectura de capas aisladas",
+                                "DevOps"
+                            ],
+                            "correctAnswer": "DevOps",
+                            "explanation": "DevOps es la metodología que une los equipos de desarrollo y operaciones para acelerar la entrega de software manteniendo la calidad."
+                        },
+                        {
+                            "text": "Necesitas un servidor para ejecutar una aplicación empresarial basada en Java EE que requiere servicios de mensajería JMS. ¿Cuál elegirías?",
+                            "options": [
+                                "Microsoft IIS",
+                                "Nginx con PHP-FPM",
+                                "Apache Tomcat o JBoss/WildFly",
+                                "Gunicorn"
+                            ],
+                            "correctAnswer": "Apache Tomcat o JBoss/WildFly",
+                            "explanation": "Para aplicaciones Java EE que requieren servicios como JMS, Apache Tomcat o JBoss/WildFly son las opciones adecuadas."
+                        },
+                        {
+                            "text": "Una empresa que trabaja exclusivamente con tecnologías de Microsoft (ASP.NET, WCF) necesita un servidor de aplicaciones. ¿Cuál es la opción estándar?",
+                            "options": [
+                                "Puma",
+                                "Internet Information Services (IIS)",
+                                "Hapi.js",
+                                "GlassFish"
+                            ],
+                            "correctAnswer": "Internet Information Services (IIS)",
+                            "explanation": "IIS (Internet Information Services) es el servidor de aplicaciones estándar para tecnologías Microsoft como ASP.NET y WCF."
+                        },
+                        {
+                            "text": "Tienes una aplicación en Python desarrollada con el framework Django. ¿Qué servidor es el más adecuado según los casos de uso para aplicaciones medianas?",
+                            "options": [
+                                "Apache con módulo PHP",
+                                "Gunicorn",
+                                "Phusion Passenger",
+                                "Express.js"
+                            ],
+                            "correctAnswer": "Gunicorn",
+                            "explanation": "Gunicorn es el servidor WSGI recomendado para aplicaciones Python/Django de tamaño mediano."
+                        },
+                        {
+                            "text": "Estás administrando una web con PHP que recibe millones de visitas y requiere el máximo rendimiento y protección contra ataques DDoS. ¿Qué servidor se recomienda?",
+                            "options": [
+                                "Koa.js",
+                                "LiteSpeed Web Server",
+                                "Apache HTTP Server simple",
+                                "Unicorn"
+                            ],
+                            "correctAnswer": "LiteSpeed Web Server",
+                            "explanation": "LiteSpeed Web Server ofrece alto rendimiento para PHP y protección integrada contra ataques DDoS."
+                        },
+                        {
+                            "text": "¿Qué protocolo es la versión segura de HTTP y utiliza SSL/TLS para cifrar la comunicación en un servidor de aplicaciones?",
+                            "options": [
+                                "REST",
+                                "HTTPS",
+                                "AMQP",
+                                "SOAP"
+                            ],
+                            "correctAnswer": "HTTPS",
+                            "explanation": "HTTPS es la versión segura de HTTP que utiliza SSL/TLS para cifrar las comunicaciones entre cliente y servidor."
+                        },
+                        {
+                            "text": "Necesitas que tu servidor de aplicaciones Java interactúe con una base de datos relacional mediante SQL. ¿Qué API utilizarás?",
+                            "options": [
+                                "ORM",
+                                "JSON",
+                                "WebSockets",
+                                "JDBC"
+                            ],
+                            "correctAnswer": "JDBC",
+                            "explanation": "JDBC (Java Database Connectivity) es la API estándar de Java para interactuar con bases de datos relacionales mediante SQL."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

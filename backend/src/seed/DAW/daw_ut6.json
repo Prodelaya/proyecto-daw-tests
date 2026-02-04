@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 6,
+                    "title": "Mejora continua en el despliegue de aplicaciones web",
+                    "questions": [
+                        {
+                            "text": "Una empresa de software nota que sus despliegues son eficientes pero cree que aún pueden optimizarse. ¿Qué enfoque sistemático debería adoptar para refinar constantemente estos procesos?",
+                            "options": [
+                                "Mantenimiento correctivo únicamente",
+                                "Suspensión temporal de actualizaciones",
+                                "Reingeniería total del software",
+                                "Mejora continua"
+                            ],
+                            "correctAnswer": "Mejora continua",
+                            "explanation": "La mejora continua es el enfoque sistemático para refinar constantemente los procesos de despliegue."
+                        },
+                        {
+                            "text": "Según la UT6, ¿en qué principio fundamental se basa el enfoque de mejora continua?",
+                            "options": [
+                                "Siempre es posible realizar mejoras en cualquier proceso",
+                                "La mejora solo es necesaria ante fallos críticos",
+                                "El diseño inicial es la única referencia válida",
+                                "Los procesos perfectos no necesitan cambios"
+                            ],
+                            "correctAnswer": "Siempre es posible realizar mejoras en cualquier proceso",
+                            "explanation": "El principio fundamental de la mejora continua es que siempre es posible realizar mejoras en cualquier proceso."
+                        },
+                        {
+                            "text": "Un equipo quiere aplicar mejora continua al código y a las interfaces de usuario. ¿En qué área específica de la unidad temática están trabajando?",
+                            "options": [
+                                "Contratación de personal",
+                                "Desarrollo y diseño de aplicaciones",
+                                "Automatización de pruebas",
+                                "Gestión de hardware físico"
+                            ],
+                            "correctAnswer": "Desarrollo y diseño de aplicaciones",
+                            "explanation": "La mejora del código e interfaces corresponde al área de desarrollo y diseño de aplicaciones."
+                        },
+                        {
+                            "text": "Tras un despliegue con errores menores, el equipo decide implementar pruebas automatizadas más rigurosas. ¿Cuál es el objetivo primordial de esta acción según la mejora continua?",
+                            "options": [
+                                "Aumentar el tiempo de desarrollo",
+                                "Asegurar que las aplicaciones funcionen correctamente antes del lanzamiento",
+                                "Reducir el salario de los programadores",
+                                "Eliminar la necesidad de monitorización"
+                            ],
+                            "correctAnswer": "Asegurar que las aplicaciones funcionen correctamente antes del lanzamiento",
+                            "explanation": "Las pruebas automatizadas aseguran que las aplicaciones funcionen correctamente antes de su lanzamiento."
+                        },
+                        {
+                            "text": "¿Qué fase de la mejora continua implica la implementación de flujos de trabajo automatizados para que los cambios se integren y desplieguen rápidamente?",
+                            "options": [
+                                "Análisis de mercado",
+                                "Diseño de interfaz",
+                                "Integración y despliegue continuo",
+                                "Auditoría contable"
+                            ],
+                            "correctAnswer": "Integración y despliegue continuo",
+                            "explanation": "La integración y despliegue continuo (CI/CD) automatiza la integración y despliegue de cambios."
+                        },
+                        {
+                            "text": "Como administrador, recibes alertas de que el servidor se satura los viernes. Decides investigar la causa para mejorar el sistema. ¿Qué área de la mejora continua estás aplicando?",
+                            "options": [
+                                "Publicidad digital",
+                                "Formación en recursos humanos",
+                                "Monitorización y análisis de rendimiento",
+                                "Selección de proveedores"
+                            ],
+                            "correctAnswer": "Monitorización y análisis de rendimiento",
+                            "explanation": "Investigar alertas de saturación corresponde a la monitorización y análisis de rendimiento."
+                        },
+                        {
+                            "text": "El equipo de operaciones detecta una vulnerabilidad en el servidor de aplicaciones y propone un parche inmediato. ¿A qué área de mejora pertenece esta acción?",
+                            "options": [
+                                "Seguridad",
+                                "Diseño gráfico",
+                                "Gestión de nóminas",
+                                "Redacción de contenidos"
+                            ],
+                            "correctAnswer": "Seguridad",
+                            "explanation": "La detección y corrección de vulnerabilidades pertenece al área de seguridad."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad última de la retroalimentación y la evaluación en el proceso de mejora continua?",
+                            "options": [
+                                "Justificar el aumento de precios",
+                                "Reducir el número de reuniones",
+                                "Identificar culpables de los errores",
+                                "Identificar áreas de mejora y tomar decisiones informadas"
+                            ],
+                            "correctAnswer": "Identificar áreas de mejora y tomar decisiones informadas",
+                            "explanation": "La retroalimentación y evaluación permiten identificar áreas de mejora y tomar decisiones informadas."
+                        },
+                        {
+                            "text": "Estás analizando métricas de uso para entender el comportamiento de los usuarios tras un cambio. ¿Qué tipo de retroalimentación estás utilizando?",
+                            "options": [
+                                "Retroalimentación de hardware",
+                                "Retroalimentación financiera",
+                                "Retroalimentación externa (usuarios)",
+                                "Retroalimentación interna (equipo)"
+                            ],
+                            "correctAnswer": "Retroalimentación externa (usuarios)",
+                            "explanation": "Las métricas de comportamiento de usuarios constituyen retroalimentación externa."
+                        },
+                        {
+                            "text": "El equipo técnico se reúne para discutir cómo mejorar el pipeline de despliegue tras un fallo interno. ¿Cómo se clasifica este tipo de retroalimentación?",
+                            "options": [
+                                "Retroalimentación externa",
+                                "Retroalimentación interna",
+                                "Retroalimentación estética",
+                                "Retroalimentación comercial"
+                            ],
+                            "correctAnswer": "Retroalimentación interna",
+                            "explanation": "Las discusiones del equipo sobre mejoras internas constituyen retroalimentación interna."
+                        },
+                        {
+                            "text": "Durante la evaluación del proceso de despliegue, decides usar herramientas de análisis de datos para medir el tiempo de inactividad. ¿Qué técnica estás empleando?",
+                            "options": [
+                                "Evaluación cualitativa subjetiva",
+                                "Evaluación de impacto ambiental",
+                                "Evaluación por intuición",
+                                "Evaluación basada en métricas y análisis de datos"
+                            ],
+                            "correctAnswer": "Evaluación basada en métricas y análisis de datos",
+                            "explanation": "Usar herramientas de análisis para medir tiempos corresponde a evaluación basada en métricas."
+                        },
+                        {
+                            "text": "¿Qué beneficio aporta la retroalimentación de los usuarios finales según el manual?",
+                            "options": [
+                                "Ayuda a comprender las necesidades y expectativas de los usuarios",
+                                "Permite ignorar las quejas técnicas",
+                                "Elimina la necesidad de realizar pruebas de seguridad",
+                                "Reduce la carga de trabajo de los desarrolladores"
+                            ],
+                            "correctAnswer": "Ayuda a comprender las necesidades y expectativas de los usuarios",
+                            "explanation": "La retroalimentación de usuarios ayuda a comprender sus necesidades y expectativas."
+                        },
+                        {
+                            "text": "Un equipo decide implementar el ciclo PDCA. ¿Qué significan las siglas de este modelo de mejora continua?",
+                            "options": [
+                                "Pagar, Distribuir, Comprar, Almacenar",
+                                "Planificar, Hacer, Verificar, Actuar",
+                                "Publicar, Diseñar, Consultar, Analizar",
+                                "Program, Data, Control, Access"
+                            ],
+                            "correctAnswer": "Planificar, Hacer, Verificar, Actuar",
+                            "explanation": "PDCA significa Planificar (Plan), Hacer (Do), Verificar (Check), Actuar (Act)."
+                        },
+                        {
+                            "text": "Estás en la fase de \"Planificar\" del ciclo PDCA. ¿Qué tarea debes realizar en este momento?",
+                            "options": [
+                                "Ejecutar los cambios en el servidor de producción",
+                                "Comparar los resultados con los objetivos",
+                                "Documentar las lecciones aprendidas finales",
+                                "Establecer objetivos e identificar procesos a mejorar"
+                            ],
+                            "correctAnswer": "Establecer objetivos e identificar procesos a mejorar",
+                            "explanation": "En la fase Planificar se establecen objetivos e identifican procesos a mejorar."
+                        },
+                        {
+                            "text": "Tras realizar un cambio (Hacer), el equipo procede a comparar los resultados obtenidos con los objetivos originales. ¿En qué etapa del PDCA se encuentran?",
+                            "options": [
+                                "Verificar",
+                                "Reiniciar",
+                                "Planificar",
+                                "Actuar"
+                            ],
+                            "correctAnswer": "Verificar",
+                            "explanation": "Verificar es la etapa donde se comparan resultados con objetivos establecidos."
+                        },
+                        {
+                            "text": "Una organización necesita adaptarse rápidamente a cambios en el mercado y requisitos de usuarios. ¿Qué tipo de metodologías se recomiendan?",
+                            "options": [
+                                "Metodologías tradicionales en cascada",
+                                "Metodologías de gestión de crisis",
+                                "Metodologías ágiles",
+                                "Metodologías estáticas"
+                            ],
+                            "correctAnswer": "Metodologías ágiles",
+                            "explanation": "Las metodologías ágiles permiten adaptarse rápidamente a cambios en requisitos."
+                        },
+                        {
+                            "text": "¿Cuál es una característica fundamental de las metodologías ágiles en el despliegue de aplicaciones?",
+                            "options": [
+                                "Enfoque iterativo e incremental",
+                                "Prohibición del trabajo en equipo",
+                                "Grandes lanzamientos anuales únicos",
+                                "Documentación extensiva antes de programar"
+                            ],
+                            "correctAnswer": "Enfoque iterativo e incremental",
+                            "explanation": "Las metodologías ágiles se caracterizan por un enfoque iterativo e incremental."
+                        },
+                        {
+                            "text": "Tu equipo utiliza Scrum y realiza reuniones cortas diarias para sincronizarse. ¿A qué aspecto de la agilidad contribuye esto?",
+                            "options": [
+                                "Reducción de la seguridad del código",
+                                "Aumento de la burocracia",
+                                "Aislamiento del desarrollador",
+                                "Colaboración y comunicación constante"
+                            ],
+                            "correctAnswer": "Colaboración y comunicación constante",
+                            "explanation": "Las reuniones diarias de Scrum fomentan la colaboración y comunicación constante."
+                        },
+                        {
+                            "text": "Estás gestionando el flujo de trabajo mediante un tablero visual con columnas \"Por hacer\", \"En proceso\" y \"Hecho\". ¿Qué metodología estás aplicando?",
+                            "options": [
+                                "Kanban",
+                                "PDCA manual",
+                                "Scrum",
+                                "Cascada"
+                            ],
+                            "correctAnswer": "Kanban",
+                            "explanation": "Kanban utiliza tableros visuales con columnas para gestionar el flujo de trabajo."
+                        },
+                        {
+                            "text": "En un entorno de mejora continua, ¿cuál es el beneficio de realizar entregas pequeñas y frecuentes?",
+                            "options": [
+                                "Evitar tener que documentar la aplicación",
+                                "Permitir una retroalimentación rápida y reducir el riesgo de errores graves",
+                                "Ahorrar espacio en el disco duro del servidor",
+                                "Confundir a los usuarios con cambios constantes"
+                            ],
+                            "correctAnswer": "Permitir una retroalimentación rápida y reducir el riesgo de errores graves",
+                            "explanation": "Las entregas frecuentes permiten retroalimentación rápida y reducen riesgos de errores graves."
+                        },
+                        {
+                            "text": "¿Qué valor ágil se prioriza al permitir que el equipo de despliegue responda rápidamente a un fallo detectado por los usuarios?",
+                            "options": [
+                                "Seguimiento estricto de un plan",
+                                "Procesos y herramientas sobre personas",
+                                "Respuesta ante el cambio",
+                                "Negociación de contratos"
+                            ],
+                            "correctAnswer": "Respuesta ante el cambio",
+                            "explanation": "Responder rápidamente a fallos refleja el valor ágil de respuesta ante el cambio."
+                        },
+                        {
+                            "text": "La gerencia cree que la mejora continua es tarea de una sola persona. ¿Qué concepto de la UT6 contradice esta idea?",
+                            "options": [
+                                "El uso de servidores de alta gama",
+                                "El aislamiento técnico",
+                                "La automatización total sin supervisión",
+                                "La importancia de la colaboración y el trabajo en equipo"
+                            ],
+                            "correctAnswer": "La importancia de la colaboración y el trabajo en equipo",
+                            "explanation": "La mejora continua requiere colaboración y trabajo en equipo, no es tarea de una sola persona."
+                        },
+                        {
+                            "text": "Al trabajar en equipo, surge una idea creativa para reducir el tiempo de despliegue que a nadie se le había ocurrido solo. ¿Qué ventaja de la colaboración se describe?",
+                            "options": [
+                                "Mayor creatividad y resolución de problemas",
+                                "Incremento del control jerárquico",
+                                "Eliminación de la diversidad",
+                                "Reducción de la competencia"
+                            ],
+                            "correctAnswer": "Mayor creatividad y resolución de problemas",
+                            "explanation": "La colaboración en equipo genera mayor creatividad y mejor resolución de problemas."
+                        },
+                        {
+                            "text": "Los miembros del equipo comparten sus conocimientos sobre nuevas herramientas de CI/CD durante las reuniones. ¿Qué objetivo de la colaboración están cumpliendo?",
+                            "options": [
+                                "Cumplimiento de horario",
+                                "Vigilancia mutua",
+                                "Reducción de la comunicación",
+                                "Aprendizaje y crecimiento"
+                            ],
+                            "correctAnswer": "Aprendizaje y crecimiento",
+                            "explanation": "Compartir conocimientos contribuye al aprendizaje y crecimiento del equipo."
+                        },
+                        {
+                            "text": "¿Cómo influye el trabajo en equipo en la adaptabilidad y agilidad de la organización?",
+                            "options": [
+                                "Ralentiza la toma de decisiones al haber más gente",
+                                "Facilita decisiones rápidas e implementaciones de cambios",
+                                "Genera conflictos que impiden el progreso",
+                                "Obliga a seguir procesos antiguos"
+                            ],
+                            "correctAnswer": "Facilita decisiones rápidas e implementaciones de cambios",
+                            "explanation": "El trabajo en equipo facilita decisiones rápidas e implementación ágil de cambios."
+                        },
+                        {
+                            "text": "Un equipo bien coordinado divide las tareas de configuración y despliegue de forma eficiente. ¿Qué resultado directo se obtiene?",
+                            "options": [
+                                "Necesidad de más jefes de proyecto",
+                                "Aumento del consumo de recursos",
+                                "Mejora de la eficiencia y efectividad del proceso",
+                                "Mayor confusión en las tareas"
+                            ],
+                            "correctAnswer": "Mejora de la eficiencia y efectividad del proceso",
+                            "explanation": "La coordinación eficiente mejora la eficiencia y efectividad del proceso de despliegue."
+                        },
+                        {
+                            "text": "¿Qué factor psicológico aumenta en el personal cuando existe un ambiente de trabajo colaborativo en el despliegue de aplicaciones?",
+                            "options": [
+                                "Desinterés por el producto final",
+                                "Estrés por vigilancia constante",
+                                "Satisfacción y compromiso del equipo",
+                                "Deseo de abandonar la empresa"
+                            ],
+                            "correctAnswer": "Satisfacción y compromiso del equipo",
+                            "explanation": "Un ambiente colaborativo aumenta la satisfacción y compromiso del equipo."
+                        },
+                        {
+                            "text": "En la mejora continua del diseño de interfaces, ¿qué métrica sería válida para evaluar el éxito según la unidad?",
+                            "options": [
+                                "El número de líneas de código CSS",
+                                "El color del logotipo del servidor",
+                                "La experiencia y satisfacción de los usuarios",
+                                "El precio del teclado del diseñador"
+                            ],
+                            "correctAnswer": "La experiencia y satisfacción de los usuarios",
+                            "explanation": "La experiencia y satisfacción de usuarios es la métrica válida para evaluar mejoras en interfaces."
+                        },
+                        {
+                            "text": "El ciclo PDCA termina en la fase \"Actuar\". ¿Qué se hace en este paso si los resultados fueron exitosos?",
+                            "options": [
+                                "Se ignoran los datos para el próximo ciclo",
+                                "Se despide al equipo de pruebas",
+                                "Se borra la documentación anterior",
+                                "Se estandarizan los cambios y se inicia un nuevo ciclo de mejora"
+                            ],
+                            "correctAnswer": "Se estandarizan los cambios y se inicia un nuevo ciclo de mejora",
+                            "explanation": "En la fase Actuar, si hay éxito, se estandarizan los cambios y se inicia un nuevo ciclo."
+                        },
+                        {
+                            "text": "¿Qué garantiza que \"todos estén alineados con los objetivos y prioridades del proyecto\" en la mejora continua?",
+                            "options": [
+                                "El trabajo individual aislado",
+                                "La compra de licencias caras",
+                                "El uso de contraseñas complejas",
+                                "Una comunicación abierta y efectiva"
+                            ],
+                            "correctAnswer": "Una comunicación abierta y efectiva",
+                            "explanation": "La comunicación abierta y efectiva garantiza la alineación con objetivos y prioridades."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
