@@ -1,0 +1,456 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 7,
+                    "title": "TEST FINAL DAW",
+                    "questions": [
+                        {
+                            "text": "¿Qué concepto define mejor la plataforma que facilita la creación, ejecución y gestión de aplicaciones empresariales actuando como intermediario?",
+                            "options": [
+                                "Una base de datos relacional",
+                                "Un servidor de archivos",
+                                "Un sistema operativo de red",
+                                "Un servidor de aplicaciones"
+                            ],
+                            "correctAnswer": "Un servidor de aplicaciones",
+                            "explanation": "Un servidor de aplicaciones actúa como intermediario facilitando la creación, ejecución y gestión de aplicaciones empresariales."
+                        },
+                        {
+                            "text": "El departamento de marketing prevé un aumento del 400% en el tráfico. ¿Qué capacidad técnica permite añadir recursos para manejar esta carga?",
+                            "options": [
+                                "Documentación",
+                                "Portabilidad",
+                                "Componentización",
+                                "Escalabilidad"
+                            ],
+                            "correctAnswer": "Escalabilidad",
+                            "explanation": "La escalabilidad permite añadir recursos para manejar incrementos en la carga de trabajo."
+                        },
+                        {
+                            "text": "Tu aplicación ha sufrido una caída en uno de sus nodos, pero los usuarios siguen operando con normalidad. ¿Qué mecanismo ha evitado el desastre?",
+                            "options": [
+                                "El uso de protocolos HTTP sin cifrar",
+                                "La eliminación de las copias de seguridad",
+                                "El uso de un solo servidor central",
+                                "Alta disponibilidad y tolerancia a fallos"
+                            ],
+                            "correctAnswer": "Alta disponibilidad y tolerancia a fallos",
+                            "explanation": "La alta disponibilidad y tolerancia a fallos permite que el sistema siga funcionando incluso cuando un nodo falla."
+                        },
+                        {
+                            "text": "Una empresa desea ampliar las capacidades de su servidor sin rediseñar el núcleo. ¿Qué componente de software permite esta personalización?",
+                            "options": [
+                                "Un nuevo lenguaje de programación",
+                                "Un cambio en el procesador",
+                                "Un módulo del servidor de aplicaciones",
+                                "Una actualización del hardware"
+                            ],
+                            "correctAnswer": "Un módulo del servidor de aplicaciones",
+                            "explanation": "Los módulos del servidor de aplicaciones permiten ampliar las capacidades sin rediseñar el núcleo."
+                        },
+                        {
+                            "text": "Tras la instalación de Apache, abres un navegador y escribes \"localhost\". ¿Qué indica visualizar la página de \"Apache Haus Distribution\"?",
+                            "options": [
+                                "Que el servidor está trabajando correctamente pero no ha sido configurado",
+                                "Que el firewall ha bloqueado el acceso",
+                                "Que el servidor tiene un virus",
+                                "Que la conexión a internet ha fallado"
+                            ],
+                            "correctAnswer": "Que el servidor está trabajando correctamente pero no ha sido configurado",
+                            "explanation": "La página por defecto de Apache indica que el servidor funciona correctamente aunque aún no ha sido configurado."
+                        },
+                        {
+                            "text": "Al intentar acceder a \"https://localhost\", el navegador muestra una advertencia de \"La conexión no es privada\". ¿A qué se debe habitualmente en pruebas?",
+                            "options": [
+                                "A un robo de datos en tiempo real",
+                                "A que el servidor se ha detenido",
+                                "Al uso de un certificado SSL autofirmado no reconocido",
+                                "A un error crítico de código"
+                            ],
+                            "correctAnswer": "Al uso de un certificado SSL autofirmado no reconocido",
+                            "explanation": "En entornos de prueba, se usan certificados autofirmados que no son reconocidos por el navegador."
+                        },
+                        {
+                            "text": "Un servidor de aplicaciones sufre una caída de hardware, pero la aplicación sigue disponible gracias a clústeres. ¿Qué parámetro se ha gestionado?",
+                            "options": [
+                                "Disponibilidad y tolerancia a fallos",
+                                "Configuración de red",
+                                "Actualizaciones y mantenimiento",
+                                "Seguridad de datos"
+                            ],
+                            "correctAnswer": "Disponibilidad y tolerancia a fallos",
+                            "explanation": "Los clústeres gestionan la disponibilidad y tolerancia a fallos del sistema."
+                        },
+                        {
+                            "text": "¿Qué parámetro de configuración permite que los clientes utilicen la misma conexión TCP para múltiples solicitudes, reduciendo la latencia?",
+                            "options": [
+                                "StartServers",
+                                "MaxRequestWorkers",
+                                "TimeOut",
+                                "KeepAlive"
+                            ],
+                            "correctAnswer": "KeepAlive",
+                            "explanation": "KeepAlive permite reutilizar conexiones TCP para múltiples solicitudes, reduciendo la latencia."
+                        },
+                        {
+                            "text": "Quieres crear paneles visuales personalizados y gráficos integrando métricas recopiladas por Prometheus. ¿Qué herramienta es la ideal?",
+                            "options": [
+                                "Grafana",
+                                "ApacheBench",
+                                "Wireshark",
+                                "mod_status"
+                            ],
+                            "correctAnswer": "Grafana",
+                            "explanation": "Grafana es la herramienta ideal para crear paneles visuales y gráficos con métricas de Prometheus."
+                        },
+                        {
+                            "text": "¿Cuál es el recurso fundamental que ofrece información detallada sobre los procedimientos de instalación y configuración de un servidor específico?",
+                            "options": [
+                                "La documentación oficial del servidor de aplicaciones",
+                                "El manual del sistema operativo",
+                                "Redes sociales",
+                                "El foro de soporte de hardware"
+                            ],
+                            "correctAnswer": "La documentación oficial del servidor de aplicaciones",
+                            "explanation": "La documentación oficial es el recurso fundamental para instalación y configuración."
+                        },
+                        {
+                            "text": "Tu servidor genera miles de líneas de eventos y necesitas analizarlos para mejorar la seguridad. ¿Qué herramienta ejemplifica la gestión de registros?",
+                            "options": [
+                                "CircleCI",
+                                "ELK Stack (Elasticsearch, Logstash, Kibana)",
+                                "Jenkins",
+                                "Wireshark"
+                            ],
+                            "correctAnswer": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+                            "explanation": "ELK Stack es una herramienta para la gestión y análisis de logs."
+                        },
+                        {
+                            "text": "Se produce un fallo en el sistema y se pierden datos. ¿Qué sección de la documentación técnica indica cómo restaurar la información?",
+                            "options": [
+                                "Referencias externas",
+                                "Análisis de rendimiento",
+                                "Registro de versiones",
+                                "Procedimientos de respaldo y recuperación"
+                            ],
+                            "correctAnswer": "Procedimientos de respaldo y recuperación",
+                            "explanation": "Los procedimientos de respaldo y recuperación indican cómo restaurar información tras un fallo."
+                        },
+                        {
+                            "text": "Tu equipo acaba de finalizar el desarrollo de una App. ¿Cómo se denomina al proceso de prepararla para su ejecución en producción?",
+                            "options": [
+                                "Auditoría de código",
+                                "Compilación distributiva",
+                                "Despliegue de aplicaciones web",
+                                "Registro de dominio"
+                            ],
+                            "correctAnswer": "Despliegue de aplicaciones web",
+                            "explanation": "El despliegue de aplicaciones web es el proceso de preparar una aplicación para su ejecución en producción."
+                        },
+                        {
+                            "text": "Necesitas gestionar el ciclo de vida de cientos de contenedores en un clúster para asegurar alta disponibilidad. ¿Qué herramienta elegirías?",
+                            "options": [
+                                "Notepad++",
+                                "Microsoft Excel",
+                                "Kubernetes",
+                                "Adobe Reader"
+                            ],
+                            "correctAnswer": "Kubernetes",
+                            "explanation": "Kubernetes es la herramienta estándar para orquestación de contenedores y alta disponibilidad."
+                        },
+                        {
+                            "text": "¿Cuál es la principal ventaja de minimizar la intervención humana en el proceso de despliegue mediante automatización?",
+                            "options": [
+                                "Evita comprar servidores potentes",
+                                "Hace el código ilegible para hackers",
+                                "Reduce la posibilidad de errores y mejora la velocidad",
+                                "Permite trabajar menos horas"
+                            ],
+                            "correctAnswer": "Reduce la posibilidad de errores y mejora la velocidad",
+                            "explanation": "La automatización reduce errores humanos y acelera el proceso de despliegue."
+                        },
+                        {
+                            "text": "¿En qué principio fundamental se basa el enfoque de mejora continua?",
+                            "options": [
+                                "Los procesos perfectos no cambian",
+                                "El diseño inicial es la única referencia",
+                                "Siempre es posible realizar mejoras en cualquier proceso",
+                                "La mejora solo es necesaria ante fallos"
+                            ],
+                            "correctAnswer": "Siempre es posible realizar mejoras en cualquier proceso",
+                            "explanation": "La mejora continua se basa en que siempre es posible mejorar cualquier proceso."
+                        },
+                        {
+                            "text": "Un equipo decide implementar el ciclo PDCA. ¿Qué significan las siglas de este modelo?",
+                            "options": [
+                                "Publicar, Diseñar, Consultar, Analizar",
+                                "Pagar, Distribuir, Comprar, Almacenar",
+                                "Planificar, Hacer, Verificar, Actuar",
+                                "Program, Data, Control, Access"
+                            ],
+                            "correctAnswer": "Planificar, Hacer, Verificar, Actuar",
+                            "explanation": "PDCA significa Plan-Do-Check-Act (Planificar, Hacer, Verificar, Actuar)."
+                        },
+                        {
+                            "text": "Estás gestionando el flujo de trabajo mediante un tablero visual con columnas \"Por hacer\", \"En proceso\" y \"Hecho\". ¿Qué metodología aplicas?",
+                            "options": [
+                                "PDCA manual",
+                                "Cascada",
+                                "Kanban",
+                                "Scrum"
+                            ],
+                            "correctAnswer": "Kanban",
+                            "explanation": "Kanban utiliza tableros visuales con columnas para gestionar el flujo de trabajo."
+                        },
+                        {
+                            "text": "¿Qué tecnología permite mapear objetos de un lenguaje de programación a registros de una base de datos relacional?",
+                            "options": [
+                                "SOAP",
+                                "WebSockets",
+                                "ORM (Object-Relational Mapping)",
+                                "JDBC"
+                            ],
+                            "correctAnswer": "ORM (Object-Relational Mapping)",
+                            "explanation": "ORM permite mapear objetos de programación a registros de base de datos relacional."
+                        },
+                        {
+                            "text": "Si seleccionas \"Gunicorn\" como servidor, ¿para qué lenguaje de programación estás orientando principalmente el despliegue?",
+                            "options": [
+                                "Ruby",
+                                "PHP",
+                                "Java",
+                                "Python"
+                            ],
+                            "correctAnswer": "Python",
+                            "explanation": "Gunicorn es un servidor WSGI diseñado principalmente para aplicaciones Python."
+                        },
+                        {
+                            "text": "¿Cuál es la función del \"Controlador\" dentro del patrón de diseño MVC en un servidor de aplicaciones?",
+                            "options": [
+                                "Presentar la interfaz al usuario",
+                                "Cifrar las comunicaciones SSL",
+                                "Manejar las solicitudes de entrada y coordinar interacciones",
+                                "Almacenar los datos de negocio"
+                            ],
+                            "correctAnswer": "Manejar las solicitudes de entrada y coordinar interacciones",
+                            "explanation": "El controlador en MVC maneja las solicitudes y coordina las interacciones entre modelo y vista."
+                        },
+                        {
+                            "text": "¿En qué subdirectorio de una estructura Java EE estándar se almacenan las bibliotecas de terceros (.jar)?",
+                            "options": [
+                                "/bin/",
+                                "/htdocs/",
+                                "/classes/",
+                                "/lib/"
+                            ],
+                            "correctAnswer": "/lib/",
+                            "explanation": "En Java EE, las bibliotecas de terceros (.jar) se almacenan en el directorio /lib/."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo de los \"Módulos de Análisis\" en un servidor de aplicaciones?",
+                            "options": [
+                                "Proveer estadísticas sobre el uso del servidor y las aplicaciones",
+                                "Almacenar sesiones en caché",
+                                "Cifrar las contraseñas",
+                                "Equilibrar la carga entre máquinas"
+                            ],
+                            "correctAnswer": "Proveer estadísticas sobre el uso del servidor y las aplicaciones",
+                            "explanation": "Los módulos de análisis proveen estadísticas sobre el uso del servidor y las aplicaciones."
+                        },
+                        {
+                            "text": "Para instalar OpenSSL en Windows de forma que no genere errores de ruta en scripts, ¿qué recomendación es clave?",
+                            "options": [
+                                "Instalarlo en una unidad externa",
+                                "Instalarlo en la carpeta de Descargas",
+                                "Que la ruta de instalación no contenga espacios (ej. C:\\OpenSSL)",
+                                "Usar nombres de carpeta con más de 20 caracteres"
+                            ],
+                            "correctAnswer": "Que la ruta de instalación no contenga espacios (ej. C:\\OpenSSL)",
+                            "explanation": "Es importante que la ruta de instalación no contenga espacios para evitar errores en scripts."
+                        },
+                        {
+                            "text": "¿Qué directiva de Apache se utiliza para reducir el peso de los archivos enviados al cliente mediante compresión?",
+                            "options": [
+                                "mod_expires",
+                                "mod_ssl",
+                                "mod_access",
+                                "mod_deflate"
+                            ],
+                            "correctAnswer": "mod_deflate",
+                            "explanation": "mod_deflate comprime los archivos para reducir su tamaño en la transferencia."
+                        },
+                        {
+                            "text": "Estás realizando una prueba de carga con \"ab -n 1000 -c 10 http://localhost/\". ¿Qué indica el parámetro \"-c 10\"?",
+                            "options": [
+                                "El tiempo de espera en segundos",
+                                "El número de peticiones concurrentes (simultáneas)",
+                                "La versión del protocolo HTTP",
+                                "El número total de peticiones"
+                            ],
+                            "correctAnswer": "El número de peticiones concurrentes (simultáneas)",
+                            "explanation": "El parámetro -c en ApacheBench indica el número de peticiones concurrentes."
+                        },
+                        {
+                            "text": "¿Cuál es la mejor práctica al aplicar actualizaciones en un servidor de producción?",
+                            "options": [
+                                "Hacerlo en las horas de mayor tráfico para ver el impacto",
+                                "Probarlas primero en un entorno de desarrollo o pruebas",
+                                "Aplicarlas inmediatamente al salir la notificación",
+                                "Desactivar el firewall durante la actualización"
+                            ],
+                            "correctAnswer": "Probarlas primero en un entorno de desarrollo o pruebas",
+                            "explanation": "Las actualizaciones deben probarse primero en entornos de desarrollo o pruebas antes de producción."
+                        },
+                        {
+                            "text": "¿Qué herramienta comercial de APM (Application Performance Monitoring) permite obtener visibilidad profunda del código en producción?",
+                            "options": [
+                                "Nagios",
+                                "Git",
+                                "Ansible",
+                                "New Relic"
+                            ],
+                            "correctAnswer": "New Relic",
+                            "explanation": "New Relic es una herramienta de APM para monitorizar el rendimiento de aplicaciones."
+                        },
+                        {
+                            "text": "En la elaboración de guías de usuario, ¿cuál es el primer paso indispensable?",
+                            "options": [
+                                "Identificar a la audiencia objetivo",
+                                "Elegir los colores del manual",
+                                "Imprimir el documento",
+                                "Instalar el software de diseño"
+                            ],
+                            "correctAnswer": "Identificar a la audiencia objetivo",
+                            "explanation": "El primer paso es identificar a la audiencia objetivo para adaptar el contenido."
+                        },
+                        {
+                            "text": "¿Qué sistema de control de versiones es el más utilizado actualmente para la gestión colaborativa de documentación y código?",
+                            "options": [
+                                "SVN",
+                                "Git",
+                                "Dropbox",
+                                "Mercurial"
+                            ],
+                            "correctAnswer": "Git",
+                            "explanation": "Git es el sistema de control de versiones más utilizado actualmente."
+                        },
+                        {
+                            "text": "¿Cómo se denomina a la capacidad de un orquestador para sustituir automáticamente un contenedor que ha dejado de responder?",
+                            "options": [
+                                "Integración manual",
+                                "Escalado vertical",
+                                "Balanceo de IP",
+                                "Autorreparación (self-healing)"
+                            ],
+                            "correctAnswer": "Autorreparación (self-healing)",
+                            "explanation": "La autorreparación o self-healing es la capacidad de sustituir contenedores automáticamente."
+                        },
+                        {
+                            "text": "¿Qué etapa del pipeline CI/CD se encarga de transformar el código fuente en un paquete ejecutable (artefacto)?",
+                            "options": [
+                                "Release",
+                                "Deploy",
+                                "Test",
+                                "Build (Construcción)"
+                            ],
+                            "correctAnswer": "Build (Construcción)",
+                            "explanation": "La etapa Build transforma el código fuente en un artefacto ejecutable."
+                        },
+                        {
+                            "text": "¿Qué herramienta de integración continua permite definir pipelines mediante un archivo llamado \"Jenkinsfile\"?",
+                            "options": [
+                                "GitHub Desktop",
+                                "Jenkins",
+                                "Wireshark",
+                                "Docker Hub"
+                            ],
+                            "correctAnswer": "Jenkins",
+                            "explanation": "Jenkins utiliza Jenkinsfile para definir pipelines de integración continua."
+                        },
+                        {
+                            "text": "En el ciclo de mejora continua, ¿qué se busca al realizar una \"retroalimentación externa\"?",
+                            "options": [
+                                "Comprender las necesidades y expectativas de los usuarios finales",
+                                "Conocer la opinión del equipo técnico",
+                                "Analizar el coste del hardware",
+                                "Evaluar el rendimiento de la CPU"
+                            ],
+                            "correctAnswer": "Comprender las necesidades y expectativas de los usuarios finales",
+                            "explanation": "La retroalimentación externa busca comprender las necesidades de los usuarios finales."
+                        },
+                        {
+                            "text": "¿Qué metodología ágil se centra en limitar el \"Work In Progress\" (WIP) para evitar cuellos de botella?",
+                            "options": [
+                                "PDCA",
+                                "Scrum",
+                                "Cascada",
+                                "Kanban"
+                            ],
+                            "correctAnswer": "Kanban",
+                            "explanation": "Kanban se centra en limitar el WIP para optimizar el flujo de trabajo."
+                        },
+                        {
+                            "text": "En el ciclo PDCA, ¿qué acción corresponde a la fase \"Verificar\"?",
+                            "options": [
+                                "Estandarizar la solución exitosa",
+                                "Definir los objetivos de mejora",
+                                "Comparar los resultados obtenidos con los objetivos establecidos",
+                                "Ejecutar el cambio por primera vez"
+                            ],
+                            "correctAnswer": "Comparar los resultados obtenidos con los objetivos establecidos",
+                            "explanation": "La fase Verificar (Check) consiste en comparar resultados con los objetivos."
+                        },
+                        {
+                            "text": "Un ingeniero DevOps debe automatizar el despliegue de una infraestructura completa usando código. ¿Qué concepto define esta práctica?",
+                            "options": [
+                                "Local Host Config",
+                                "Infrastructure as Code (IaC)",
+                                "Manual Deployment",
+                                "Hardware Management"
+                            ],
+                            "correctAnswer": "Infrastructure as Code (IaC)",
+                            "explanation": "Infrastructure as Code (IaC) permite automatizar el despliegue de infraestructura mediante código."
+                        },
+                        {
+                            "text": "¿Cuál es la principal ventaja de utilizar una arquitectura de Microservicios frente a una Monolítica en despliegues modernos?",
+                            "options": [
+                                "Permite escalar y desplegar servicios de forma independiente",
+                                "Es más fácil de programar para una sola persona",
+                                "No necesita monitorización",
+                                "Requiere menos servidores"
+                            ],
+                            "correctAnswer": "Permite escalar y desplegar servicios de forma independiente",
+                            "explanation": "Los microservicios permiten escalar y desplegar servicios de forma independiente."
+                        },
+                        {
+                            "text": "En una entrevista técnica te preguntan por \"Blue-Green Deployment\". ¿A qué se refieren?",
+                            "options": [
+                                "A un protocolo de ahorro de energía en servidores",
+                                "A una técnica de diseño gráfico",
+                                "A una estrategia de despliegue para reducir el tiempo de inactividad usando dos entornos idénticos",
+                                "A cambiar el color de la interfaz de usuario"
+                            ],
+                            "correctAnswer": "A una estrategia de despliegue para reducir el tiempo de inactividad usando dos entornos idénticos",
+                            "explanation": "Blue-Green Deployment es una estrategia que usa dos entornos idénticos para minimizar downtime."
+                        },
+                        {
+                            "text": "¿Qué significa el término \"Continuous Deployment\" (CD) en un flujo de trabajo profesional?",
+                            "options": [
+                                "Que el servidor está encendido continuamente",
+                                "Que el código se sube a un servidor una vez al mes",
+                                "Que los desarrolladores escriben código sin descanso",
+                                "Que cada cambio que pasa las pruebas se despliega automáticamente en producción sin intervención manual"
+                            ],
+                            "correctAnswer": "Que cada cambio que pasa las pruebas se despliega automáticamente en producción sin intervención manual",
+                            "explanation": "Continuous Deployment significa que cada cambio que pasa las pruebas se despliega automáticamente en producción."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
