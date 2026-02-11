@@ -1,0 +1,104 @@
+{
+    "subjects": [
+        {
+            "code": "DWES",
+            "name": "Desarrollo Web en Entorno Servidor",
+            "topics": [
+                {
+                    "number": 10,
+                    "title": "PREGUNTAS PROFESOR",
+                    "questions": [
+                        {
+                            "text": "En un entorno típico de desarrollo web con PHP (DWES) usando VS Code y un servidor local (Apache + PHP), ¿cuál de las siguientes afirmaciones es la MÁS correcta sobre dónde se ejecuta realmente el código PHP y qué ve el navegador?",
+                            "options": [
+                                "El navegador ejecuta directamente el PHP y por eso es imprescindible tener instalada la extensión de PHP en VS Code.",
+                                "El PHP se ejecuta en el servidor (Apache/PHP) y el navegador únicamente recibe el resultado ya procesado en HTML/CSS/JS.",
+                                "El PHP se ejecuta en el cliente si el archivo termina en .php, pero solo si la caché del navegador está desactivada.",
+                                "El código PHP se ejecuta dentro de VS Code cuando pulsas \"Run\", y el navegador solo actúa como visor del proyecto."
+                            ],
+                            "correctAnswer": "El PHP se ejecuta en el servidor (Apache/PHP) y el navegador únicamente recibe el resultado ya procesado en HTML/CSS/JS.",
+                            "explanation": "PHP es del lado del servidor: el servidor interpreta el código y devuelve al navegador solo el resultado (normalmente HTML), no el PHP."
+                        },
+                        {
+                            "text": "En PHP, ¿para qué se utiliza principalmente la superglobal $_POST?",
+                            "options": [
+                                "Para guardar variables internas del servidor web (Apache).",
+                                "Para recoger los datos enviados desde un formulario cuando el método es POST.",
+                                "Para mostrar mensajes en pantalla usando HTML.",
+                                "Para conectarse automáticamente a una base de datos."
+                            ],
+                            "correctAnswer": "Para recoger los datos enviados desde un formulario cuando el método es POST.",
+                            "explanation": "$_POST contiene los pares clave/valor que el navegador envía al servidor cuando un formulario se envía con method=\"POST\"."
+                        },
+                        {
+                            "text": "En PHP, ¿qué función se utiliza para mostrar información en pantalla (por ejemplo, el valor de una variable) durante una prueba rápida?",
+                            "options": [
+                                "print()",
+                                "show()",
+                                "display()",
+                                "echo()"
+                            ],
+                            "correctAnswer": "print()",
+                            "explanation": "print() es una construcción válida en PHP para imprimir. (echo() también imprime, pero aquí la respuesta marcada es print())."
+                        },
+                        {
+                            "text": "phpMyAdmin. ¿Cuál es la finalidad principal de esta herramienta en un entorno de desarrollo con PHP?",
+                            "options": [
+                                "Es un editor de código para programar en PHP desde el navegador.",
+                                "Es una interfaz web para administrar bases de datos MySQL/MariaDB (crear BD, tablas, ejecutar consultas, etc.).",
+                                "Es un servidor que ejecuta archivos .php sin necesidad de Apache.",
+                                "Es una extensión de VS Code para depurar formularios HTML."
+                            ],
+                            "correctAnswer": "Es una interfaz web para administrar bases de datos MySQL/MariaDB (crear BD, tablas, ejecutar consultas, etc.).",
+                            "explanation": "phpMyAdmin es una interfaz web para gestionar MySQL/MariaDB: bases de datos, tablas, usuarios y consultas SQL."
+                        },
+                        {
+                            "text": "En SQL ¿Qué sentencia se utiliza para insertar un nuevo registro en una tabla?",
+                            "options": [
+                                "ADD INTO",
+                                "INSERT INTO",
+                                "PUT INTO",
+                                "UPDATE INTO"
+                            ],
+                            "correctAnswer": "INSERT INTO",
+                            "explanation": "INSERT INTO es la instrucción SQL estándar para añadir nuevas filas (registros) a una tabla."
+                        },
+                        {
+                            "text": "En Bootstrap, ¿qué clase hace que un elemento ocupe toda la fila en pantallas pequeñas, pero solo la mitad en pantallas medianas y superiores?",
+                            "options": [
+                                "col-6 col-md-12",
+                                "col-12 col-md-6",
+                                "row-12 row-md-6",
+                                "container-12 container-md-6"
+                            ],
+                            "correctAnswer": "col-12 col-md-6",
+                            "explanation": "col-12 ocupa 12 columnas (100%) en pantallas pequeñas; col-md-6 ocupa 6 columnas (50%) en pantallas medianas o mayores."
+                        },
+                        {
+                            "text": "¿Cuál es la forma correcta de mostrar una variable dentro del JSX en React?",
+                            "options": [
+                                "<p>variable</p>",
+                                "<p>${variable}</p>",
+                                "<p>{variable}</p>",
+                                "<p>(variable)</p>"
+                            ],
+                            "correctAnswer": "<p>{variable}</p>",
+                            "explanation": "En JSX, el contenido dinámico de JavaScript se inserta entre llaves { }."
+                        },
+                        {
+                            "text": "¿Qué ventaja principal aporta usar static $pdo dentro de la función db() en db_connection.php?",
+                            "options": [
+                                "Permite que MySQL cree automáticamente la base de datos si no existe.",
+                                "Evita abrir una nueva conexión a la base de datos cada vez que se llama a db().",
+                                "Convierte automáticamente todas las consultas SQL en consultas preparadas.",
+                                "Hace que las contraseñas se guarden encriptadas en la base de datos."
+                            ],
+                            "correctAnswer": "Evita abrir una nueva conexión a la base de datos cada vez que se llama a db().",
+                            "explanation": "Al declarar $pdo como static, la conexión se mantiene entre llamadas a la función, evitando conexiones repetidas (mejor rendimiento)."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
