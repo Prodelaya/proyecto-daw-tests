@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 1,
+                    "title": "UT1: Planificación de interfaces gráficas",
+                    "questions": [
+                        {
+                            "text": "Un diseñador junior está bloqueado en la fase inicial de un proyecto de una aplicación móvil. Según la definición técnica de diseño, ¿qué etapa representa este momento de búsqueda de soluciones previas a la producción?",
+                            "options": [
+                                "Ajuste de materiales",
+                                "Fase mental preliminar",
+                                "Análisis de mercado",
+                                "Producción final"
+                            ],
+                            "correctAnswer": "Fase mental preliminar",
+                            "explanation": "La fase mental preliminar es la etapa de diseño donde se buscan y planifican soluciones creativas antes de la producción física o digital."
+                        },
+                        {
+                            "text": "Durante una reunión de equipo, se discute la importancia de la estética en el mobiliario de oficina. ¿Qué combinación de factores define el objetivo principal de cualquier objeto diseñado según el temario?",
+                            "options": [
+                                "Funcionalidad, comodidad y estética",
+                                "Coste, rapidez y materiales",
+                                "Estructura, volumen y ventas",
+                                "Psicología, economía y marketing"
+                            ],
+                            "correctAnswer": "Funcionalidad, comodidad y estética",
+                            "explanation": "El diseño busca equilibrar la utilidad (funcionalidad), la ergonomía (comodidad) y el atractivo visual (estética) de un objeto."
+                        },
+                        {
+                            "text": "Al observar un logotipo, un usuario identifica inmediatamente la letra \"A\" aunque los trazos no estén cerrados del todo. ¿Qué teoría psicológica explica cómo nuestro cerebro organiza estos elementos percibidos?",
+                            "options": [
+                                "Teoría de la percepción activa",
+                                "Teoría de la Gestalt",
+                                "Teoría del color",
+                                "Teoría de la comunicación visual"
+                            ],
+                            "correctAnswer": "Teoría de la Gestalt",
+                            "explanation": "La Teoría de la Gestalt explica cómo la mente humana tiende a percibir los elementos visuales como un todo estructurado, cerrando formas incompletas."
+                        },
+                        {
+                            "text": "Un desarrollador web recibe quejas de que su sitio no se entiende bien. Para que el mensaje visual tenga éxito, ¿qué condición debe cumplirse entre el emisor (diseñador) y el receptor (usuario)?",
+                            "options": [
+                                "Que el receptor tenga conocimientos avanzados de diseño gráfico",
+                                "Que el mensaje visual contenga al menos tres colores primarios",
+                                "Que el receptor decodifique el mensaje tal como lo previó el emisor",
+                                "Que el receptor use el mismo navegador que el emisor"
+                            ],
+                            "correctAnswer": "Que el receptor decodifique el mensaje tal como lo previó el emisor",
+                            "explanation": "El éxito de la comunicación visual radica en que la idea original del diseñador (emisor) sea comprendida e interpretada correctamente por el usuario (receptor)."
+                        },
+                        {
+                            "text": "Estás dibujando el esquema de una interfaz y apoyas el lápiz por primera vez sobre el papel para marcar la ubicación de un botón. ¿Cómo se define técnicamente este elemento mínimo de expresión?",
+                            "options": [
+                                "Punto",
+                                "Línea",
+                                "Plano",
+                                "Forma"
+                            ],
+                            "correctAnswer": "Punto",
+                            "explanation": "El punto es la unidad más simple e indivisible de la comunicación visual."
+                        },
+                        {
+                            "text": "En el diseño de una interfaz, necesitas establecer los límites de un banner superior sin asignarle todavía una anchura real, solo longitud. ¿Qué elemento conceptual surge del movimiento de un punto sobre la superficie?",
+                            "options": [
+                                "Contorno implícito",
+                                "Profundidad",
+                                "Línea",
+                                "Volumen"
+                            ],
+                            "correctAnswer": "Línea",
+                            "explanation": "La línea se define conceptualmente como la trayectoria o el rastro que deja un punto en movimiento."
+                        },
+                        {
+                            "text": "Un diseñador gráfico quiere crear la ilusión de tridimensionalidad en una pantalla de dos dimensiones (2D). ¿Qué concepto resulta del desplazamiento de un plano en dirección perpendicular a la suya?",
+                            "options": [
+                                "Volumen",
+                                "Textura",
+                                "Masa",
+                                "Área"
+                            ],
+                            "correctAnswer": "Volumen",
+                            "explanation": "El volumen representa la progresión de un plano en el espacio, añadiendo la dimensión de profundidad (tridimensionalidad)."
+                        },
+                        {
+                            "text": "Estás seleccionando la paleta para una marca de productos ecológicos. ¿Por qué es fundamental la teoría del color en este proceso de comunicación visual?",
+                            "options": [
+                                "Porque determina la velocidad de carga de la página web",
+                                "Porque define la tipografía que se debe usar",
+                                "Porque permite entender cómo los colores afectan la percepción del mensaje",
+                                "Porque sustituye la necesidad de usar iconos o texto"
+                            ],
+                            "correctAnswer": "Porque permite entender cómo los colores afectan la percepción del mensaje",
+                            "explanation": "La teoría del color ayuda a comprender el impacto psicológico y emocional que los diferentes colores tienen sobre el usuario y el mensaje a transmitir."
+                        },
+                        {
+                            "text": "Un equipo de diseño debate sobre el uso de fuentes con remates (serif) o sin ellos (sans-serif) para un blog de lectura larga. ¿Cuál es el objetivo principal de la tipografía adecuada?",
+                            "options": [
+                                "Sustituir el uso de imágenes en la composición",
+                                "Reducir el espacio ocupado por el texto en pantalla",
+                                "Optimizar la legibilidad y el atractivo visual",
+                                "Reforzar exclusivamente la identidad visual"
+                            ],
+                            "correctAnswer": "Optimizar la legibilidad y el atractivo visual",
+                            "explanation": "Una buena selección tipográfica asegura que el texto sea fácil de leer y estéticamente agradable en la composición."
+                        },
+                        {
+                            "text": "Estás diseñando el menú de una aplicación de mapas y necesitas representar la acción de \"ajustes\" sin usar palabras. ¿Qué tipo de representación visual simplificada es la más adecuada?",
+                            "options": [
+                                "Logotipo corporativo",
+                                "Icono",
+                                "Fotografía artística",
+                                "Infografía técnica"
+                            ],
+                            "correctAnswer": "Icono",
+                            "explanation": "Los iconos son pictogramas o símbolos visuales sencillos que representan conceptos, objetos o acciones, facilitando la comprensión rápida y universal."
+                        },
+                        {
+                            "text": "Una empresa de software quiere medir qué tan satisfechos están sus clientes al usar su nueva plataforma. ¿En qué disciplina multidisciplinaria se deben basar para optimizar esta relación?",
+                            "options": [
+                                "Programación orientada a objetos",
+                                "Marketing digital",
+                                "Interacción persona-ordenador (IPO)",
+                                "Arquitectura de computadores"
+                            ],
+                            "correctAnswer": "Interacción persona-ordenador (IPO)",
+                            "explanation": "La Interacción Persona-Ordenador estudia el diseño, evaluación e implementación de sistemas informáticos interactivos para uso humano, enfocándose en la experiencia del usuario."
+                        },
+                        {
+                            "text": "Al diseñar el panel de control de una maquinaria industrial, te centras en la disposición de botones y la selección de iconos para que el operario trabaje rápido. ¿Qué aspecto clave de la IPO estás trabajando?",
+                            "options": [
+                                "Diseño de interfaces de usuario (UI)",
+                                "Back-end development",
+                                "Ingeniería de requisitos",
+                                "Gestión de base de datos"
+                            ],
+                            "correctAnswer": "Diseño de interfaces de usuario (UI)",
+                            "explanation": "El Diseño de Interfaz de Usuario (UI) se encarga de la disposición visual y funcional de los elementos con los que el usuario interactúa directamente."
+                        },
+                        {
+                            "text": "Tras lanzar una web, observas que los usuarios tardan mucho en encontrar el botón de \"comprar\". Decides realizar encuestas y pruebas de campo. ¿Qué proceso estás ejecutando?",
+                            "options": [
+                                "Programación reactiva",
+                                "Evaluación de la usabilidad",
+                                "Análisis de la competencia",
+                                "Diseño centrado en el negocio"
+                            ],
+                            "correctAnswer": "Evaluación de la usabilidad",
+                            "explanation": "La evaluación de usabilidad implica medir el grado de facilidad con el que los usuarios pueden alcanzar sus objetivos dentro del sistema, mediante pruebas y recolección de datos."
+                        },
+                        {
+                            "text": "En el desarrollo de un sistema para un hospital, el equipo prioriza las limitaciones físicas de los médicos que usan guantes. ¿Cómo se denomina este enfoque de desarrollo?",
+                            "options": [
+                                "Diseño centrado en el hardware",
+                                "Diseño de factibilidad económica",
+                                "Diseño de viabilidad tecnológica",
+                                "Diseño centrado en el ser humano"
+                            ],
+                            "correctAnswer": "Diseño centrado en el ser humano",
+                            "explanation": "El Diseño Centrado en el Humano (Human-Centered Design) posiciona a las personas, sus necesidades y características, como el foco principal durante todo el proceso de desarrollo."
+                        },
+                        {
+                            "text": "Una web debe ser utilizada por personas con ceguera mediante lectores de pantalla. ¿A qué característica técnica del diseño se refiere esta capacidad de ser usable por personas con limitaciones?",
+                            "options": [
+                                "Accesibilidad",
+                                "Tipografía responsiva",
+                                "Atractivo visual",
+                                "Interacción dinámica"
+                            ],
+                            "correctAnswer": "Accesibilidad",
+                            "explanation": "La accesibilidad web busca asegurar que todas las personas, independientemente de sus discapacidades técnicas o físicas, puedan percibir, entender, navegar e interactuar con la web."
+                        },
+                        {
+                            "text": "Un diseñador recibe un documento que indica qué tonos de azul puede usar y qué tamaño debe tener el logo en la cabecera. ¿Cómo se llama técnicamente este documento?",
+                            "options": [
+                                "Mapa de navegación",
+                                "Prototipo de alta fidelidad",
+                                "Guía de estilo",
+                                "Lenguaje de marcas"
+                            ],
+                            "correctAnswer": "Guía de estilo",
+                            "explanation": "Una guía de estilo es el documento normativo que recoge las pautas sobre los elementos gráficos (colores, tipografías, logos, componentes) para garantizar la coherencia visual del producto."
+                        },
+                        {
+                            "text": "Al revisar la guía de estilo de una marca, encuentras las reglas de alineación, interlineado y espaciado de los párrafos. ¿En qué sección del documento se detalla esta información?",
+                            "options": [
+                                "Imágenes y fotografía",
+                                "Iconografía",
+                                "Tipografía",
+                                "Paleta de colores"
+                            ],
+                            "correctAnswer": "Tipografía",
+                            "explanation": "Las normas sobre el uso y las características de las fuentes de texto, como su tamaño o alineación, se encuentran definidas en la sección de Tipografía de la guía de estilo."
+                        },
+                        {
+                            "text": "Un cliente te pide que el diseño de su web sea consistente con las pautas de Material Design. ¿De qué compañía es originaria esta famosa guía de estilo?",
+                            "options": [
+                                "BBC",
+                                "Google",
+                                "IBM",
+                                "Microsoft"
+                            ],
+                            "correctAnswer": "Google",
+                            "explanation": "Material Design es el lenguaje de diseño desarrollado por Google como una guía unificada de estilo, diseño de interacción y experiencia de usuario."
+                        },
+                        {
+                            "text": "Estás diseñando un sitio web complejo y decides incluir un menú tipo \"hamburguesa\" para la versión móvil porque es una solución probada y eficiente. ¿Qué estás aplicando en este caso?",
+                            "options": [
+                                "Un patrón de diseño de navegación",
+                                "Una hoja de estilo en cascada",
+                                "Un prototipo de baja fidelidad",
+                                "Un lenguaje de marcas nuevo"
+                            ],
+                            "correctAnswer": "Un patrón de diseño de navegación",
+                            "explanation": "Los patrones de diseño son soluciones estandarizadas y recurrentes a problemas comunes en el diseño de interfaces, aportando la ventaja de que los usuarios ya los conocen (como el menú hamburguesa para navegar en móviles)."
+                        },
+                        {
+                            "text": "Para mejorar la conversión en un ecommerce, decides que los formularios validen los campos en tiempo real y muestren mensajes claros. ¿Qué tipo de patrón estás aplicando?",
+                            "options": [
+                                "Patrón de interacción dinámica",
+                                "Patrón de listas modulares",
+                                "Patrón de diseño responsivo",
+                                "Patrón de diseño de formularios"
+                            ],
+                            "correctAnswer": "Patrón de diseño de formularios",
+                            "explanation": "Los patrones de diseño de formularios se enfocan en recoger información del usuario de manera eficaz e intuitiva, mejorando la usabilidad mediante técnicas como la validación en tiempo real."
+                        },
+                        {
+                            "text": "Un usuario entra en una web y se siente cómodo porque la información está organizada de forma lógica y es compatible con su tablet. ¿Qué característica de calidad está experimentando?",
+                            "options": [
+                                "Contenido educativo",
+                                "Atractivo visual",
+                                "Usabilidad",
+                                "Actualización constante"
+                            ],
+                            "correctAnswer": "Usabilidad",
+                            "explanation": "La usabilidad es la medida de la calidad de la experiencia que tiene un usuario cuando interactúa con un diseño funcional, claro y de fácil manejo."
+                        },
+                        {
+                            "text": "Un portal de noticias decide renovar sus fotos y artículos cada semana para reflejar las tendencias actuales. ¿Qué aspecto del diseño web están priorizando con esta acción?",
+                            "options": [
+                                "Jerarquía de contenido",
+                                "Accesibilidad técnica",
+                                "Atractivo visual estático",
+                                "Actualización constante"
+                            ],
+                            "correctAnswer": "Actualización constante",
+                            "explanation": "La actualización constante es fundamental para retener el interés del usuario, proporcionando contenido fresco y dinámico."
+                        },
+                        {
+                            "text": "Quieres empezar a diseñar visualmente el esqueleto de una web antes de programarla. ¿Qué herramienta de las siguientes es específica para el diseño de interfaces o experiencia de usuario?",
+                            "options": [
+                                "Sublime Text",
+                                "Figma",
+                                "Visual Studio Code",
+                                "WebStorm"
+                            ],
+                            "correctAnswer": "Figma",
+                            "explanation": "Figma es una herramienta líder en la industria para el diseño de interfaces de usuario colaborativo y la creación de prototipos."
+                        },
+                        {
+                            "text": "Una vez terminado el diseño visual, necesitas definir la estructura y el contenido básico de la página web. ¿Qué tecnología es la base estándar para esta tarea?",
+                            "options": [
+                                "CSS",
+                                "SVG",
+                                "HTML",
+                                "JavaScript"
+                            ],
+                            "correctAnswer": "HTML",
+                            "explanation": "El Lenguaje de Marcado de Hipertexto (HTML) es la base para estructurar el contenido de las páginas web y su significado jerárquico."
+                        },
+                        {
+                            "text": "Estás revisando el código de una web y ves una etiqueta que contiene el logotipo, la navegación principal y botones de inicio de sesión. ¿A qué componente de la interfaz se refiere?",
+                            "options": [
+                                "Contenido principal",
+                                "Carrusel interactivo",
+                                "Pie de página (Footer)",
+                                "Encabezado (Header)"
+                            ],
+                            "correctAnswer": "Encabezado (Header)",
+                            "explanation": "El elemento <header> (Encabezado) de la página web suele contener los logotipos, el menú de navegación general y otros elementos introductorios de primer orden."
+                        },
+                        {
+                            "text": "En la zona inferior de una tienda online, aparecen los enlaces a las redes sociales y la política de privacidad. ¿Cómo se denomina este componente?",
+                            "options": [
+                                "Bloque de contenido secundario",
+                                "Barra de navegación lateral",
+                                "Zona de interacción",
+                                "Pie de página (Footer)"
+                            ],
+                            "correctAnswer": "Pie de página (Footer)",
+                            "explanation": "El <footer> sirve de contenedor final de la página e incluye enlaces de contacto, legales, mapa del sitio y redes sociales."
+                        },
+                        {
+                            "text": "Un desarrollador busca un editor de código fuente gratuito, de código abierto y desarrollado por Microsoft. ¿Cuál debería elegir?",
+                            "options": [
+                                "Adobe Dreamweaver",
+                                "Bootstrap Studio",
+                                "Adobe XD",
+                                "Visual Studio Code"
+                            ],
+                            "correctAnswer": "Visual Studio Code",
+                            "explanation": "Visual Studio Code (VS Code) es uno de los editores de código fuente libre más populares y versátiles creado por Microsoft."
+                        },
+                        {
+                            "text": "Necesitas crear un gráfico vectorial para un sitio web que no pierda calidad al redimensionarse. ¿Qué lenguaje de marcas basado en XML es el adecuado?",
+                            "options": [
+                                "XHTML",
+                                "CSS",
+                                "HTML",
+                                "SVG"
+                            ],
+                            "correctAnswer": "SVG",
+                            "explanation": "SVG (Scalable Vector Graphics) define gráficos bidimensionales vectoriales basados en XML, permitiendo escalado sin pérdida de nitidez y manipulación mediante CSS y JavaScript."
+                        },
+                        {
+                            "text": "Antes de programar, dibujas una representación visual de la jerarquía y conexión entre las páginas de tu sitio para asegurar que la navegación sea intuitiva. ¿Qué has creado?",
+                            "options": [
+                                "Un marco (frame)",
+                                "Un patrón de interacción",
+                                "Una hoja de estilo",
+                                "Un mapa de navegación"
+                            ],
+                            "correctAnswer": "Un mapa de navegación",
+                            "explanation": "Un mapa de navegación (o mapa del sitio visual) representa el árbol lógico y el esquema estructural de cómo están conectadas las páginas entre sí, clave para proyectar la navegación."
+                        },
+                        {
+                            "text": "Un cliente te pide una web que se construya muy rápido, usando elementos y estilos predefinidos para asegurar coherencia en todas las páginas. ¿Qué recurso es el más útil?",
+                            "options": [
+                                "Una plantilla de diseño",
+                                "Una tabla HTML de maquetación",
+                                "Un marco de visualización (frameset)",
+                                "Un lenguaje de marcas XML"
+                            ],
+                            "correctAnswer": "Una plantilla de diseño",
+                            "explanation": "Las plantillas (templates) ofrecen diseños preconstruidos sobre los que trabajar y estructurar nuevos contenidos acelerando la carga de desarrollo y garantizando consistencia visual."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

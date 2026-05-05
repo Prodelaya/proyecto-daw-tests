@@ -163,7 +163,7 @@
               "explanation": "Porque un sistema de detección de intrusos (IDS) analiza el tráfico y genera alertas cuando detecta patrones sospechosos que podrían indicar un ataque."
             },
             {
-              "text": "Correcta",
+              "text": "¿Qué medida preventiva es especialmente importante para reducir los riesgos derivados de errores humanos, como caer en phishing o usar malas prácticas de seguridad?",
               "options": [
                 "Cifrado",
                 "Actualizaciones y parches",
@@ -174,7 +174,7 @@
               "explanation": "Porque formar a los usuarios reduce mucho el riesgo de que caigan en phishing, usen contraseñas débiles o manejen mal la información, que son vectores habituales de ataque."
             },
             {
-              "text": "Correcta",
+              "text": "¿Qué medida permite corregir vulnerabilidades conocidas en sistemas y aplicaciones, reduciendo la posibilidad de que sean explotadas por un atacante?",
               "options": [
                 "Capacitación de usuarios",
                 "Actualizaciones y parches de seguridad",
@@ -196,7 +196,7 @@
               "explanation": "Porque una VPN crea un túnel cifrado entre el dispositivo del usuario y la red privada, evitando que terceros puedan espiar o modificar los datos que viajan por Internet."
             },
             {
-              "text": "Correcta",
+              "text": "¿Qué medida organizativa sirve para definir normas, responsabilidades y procedimientos de seguridad dentro de una organización?",
               "options": [
                 "Establecer políticas de seguridad claras",
                 "Cumplimiento del GDPR",

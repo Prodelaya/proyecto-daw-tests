@@ -152,7 +152,7 @@
               "explanation": "Porque, una vez creados backend y frontend, el siguiente paso es enlazarlos mediante llamadas asíncronas (AJAX/Fetch) para que la interfaz hable con el servidor."
             },
             {
-              "text": "Correcta",
+              "text": "¿En qué fase del desarrollo de una aplicación web se suelen corregir los problemas de compatibilidad específicos detectados tras el despliegue, como fallos en determinados navegadores?",
               "options": [
                 "Mantenimiento y actualizaciones",
                 "Selección de tecnologías",

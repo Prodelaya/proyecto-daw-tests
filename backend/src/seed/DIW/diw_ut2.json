@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 2,
+                    "title": "UT2: Estilos y organización del diseño",
+                    "questions": [
+                        {
+                            "text": "Un desarrollador necesita aplicar un color específico a un solo párrafo de forma inmediata para una prueba rápida. ¿Cuál es la principal utilidad de usar estilos en línea en este escenario profesional?",
+                            "options": [
+                                "Facilitar el mantenimiento futuro del código",
+                                "Aplicar estilos rápidamente a un elemento específico",
+                                "Permitir la reutilización del estilo en otros párrafos",
+                                "Separar completamente la estructura de la presentación"
+                            ],
+                            "correctAnswer": "Aplicar estilos rápidamente a un elemento específico",
+                            "explanation": "Los estilos en línea son útiles para pruebas rápidas y ajustes puntuales, aunque no se recomiendan para el diseño global."
+                        },
+                        {
+                            "text": "Al revisar el código de una aplicación antigua, observas que el atributo \"style\" está presente en casi todas las etiquetas. ¿Por qué se considera que este enfoque dificulta el trabajo del programador?",
+                            "options": [
+                                "Porque los navegadores modernos ya no lo interpretan",
+                                "Porque requiere el uso obligatorio de preprocesadores",
+                                "Porque mezcla la estructura y contenido con la presentación",
+                                "Porque consume demasiada memoria RAM en el servidor"
+                            ],
+                            "correctAnswer": "Porque mezcla la estructura y contenido con la presentación",
+                            "explanation": "Mezclar HTML y CSS dificulta el mantenimiento y la lectura del código, rompiendo el principio de separación de responsabilidades."
+                        },
+                        {
+                            "text": "Estás definiendo el diseño global de un blog y quieres que todos los párrafos de todas las páginas tengan el mismo tamaño de fuente. ¿Qué método aplica estilos a una etiqueta específica afectando a todos sus elementos?",
+                            "options": [
+                                "Estilos auditivos de voz",
+                                "Estilos de minificación",
+                                "Estilos basados en clases",
+                                "Estilos basados en etiquetas"
+                            ],
+                            "correctAnswer": "Estilos basados en etiquetas",
+                            "explanation": "Los selectores de etiqueta en CSS aplican reglas a todos los elementos HTML de ese tipo en el documento."
+                        },
+                        {
+                            "text": "Una empresa solicita que ciertos mensajes de error aparezcan en rojo y negrita, pero solo en secciones específicas de la web. ¿Cuál es la ventaja de utilizar estilos basados en clases para este requerimiento?",
+                            "options": [
+                                "Permite la reutilización de estilos y combinación de múltiples clases",
+                                "Es el método que tiene la prioridad más alta en la cascada",
+                                "Obliga al navegador a leer el texto en voz alta",
+                                "Evita tener que usar un archivo CSS externo"
+                            ],
+                            "correctAnswer": "Permite la reutilización de estilos y combinación de múltiples clases",
+                            "explanation": "Las clases son versátiles porque permiten aplicar un mismo estilo a diferentes elementos o combinar varios estilos en uno solo."
+                        },
+                        {
+                            "text": "Como experto en desarrollo, debes recomendar el método más flexible y fácil de mantener para un proyecto que escalará a cientos de páginas. ¿Cuál de estos enfoques es el más recomendable?",
+                            "options": [
+                                "Estilos basados en etiquetas",
+                                "Estilos basados en marcos",
+                                "Estilos en línea",
+                                "Estilos basados en clases"
+                            ],
+                            "correctAnswer": "Estilos basados en clases",
+                            "explanation": "El uso de clases es el estándar de oro para el diseño escalable y mantenible en proyectos web profesionales."
+                        },
+                        {
+                            "text": "Te han asignado la tarea de organizar un sitio web para que el diseño sea uniforme. ¿Cuál es el objetivo primordial de crear y vincular hojas de estilo externas?",
+                            "options": [
+                                "Permitir que el HTML se ejecute sin necesidad de un navegador",
+                                "Impedir que el usuario pueda ver el código fuente",
+                                "Mantener la estructura del sitio separada del diseño y presentación",
+                                "Aumentar el número de archivos en el servidor"
+                            ],
+                            "correctAnswer": "Mantener la estructura del sitio separada del diseño y presentación",
+                            "explanation": "Separar el CSS del HTML permite gestionar el aspecto visual de todo el sitio desde un único lugar."
+                        },
+                        {
+                            "text": "Estás configurando tu entorno de trabajo en Visual Studio Code para empezar a escribir las reglas de diseño. ¿Con qué extensión de archivo debes guardar el documento de estilos?",
+                            "options": [
+                                ".html",
+                                ".js",
+                                ".css",
+                                ".txt"
+                            ],
+                            "correctAnswer": ".css",
+                            "explanation": "La extensión .css identifica los archivos que contienen Hojas de Estilo en Cascada."
+                        },
+                        {
+                            "text": "Para que el navegador reconozca tus reglas de diseño, debes añadir una línea de código específica en el documento HTML. ¿Dónde debe colocarse la etiqueta de vinculación?",
+                            "options": [
+                                "Justo antes del cierre del </body>",
+                                "Dentro de cada etiqueta <div>",
+                                "Dentro de la sección <head>",
+                                "Al final del </html>"
+                            ],
+                            "correctAnswer": "Dentro de la sección <head>",
+                            "explanation": "La etiqueta <link> para CSS debe ubicarse en el <head> para que el navegador cargue los estilos antes que el contenido."
+                        },
+                        {
+                            "text": "Un cliente se queja de que el texto de su web es difícil de leer. Decides cambiar la fuente en el archivo externo. ¿Qué atributo de la etiqueta define la ruta y el nombre de ese archivo?",
+                            "options": [
+                                "href",
+                                "type",
+                                "rel",
+                                "src"
+                            ],
+                            "correctAnswer": "href",
+                            "explanation": "El atributo href (Hypertext Reference) especifica la ubicación del archivo CSS vinculado."
+                        },
+                        {
+                            "text": "Al integrar una hoja de estilos, utilizas el atributo rel=\"stylesheet\". ¿Qué función cumple este atributo específicamente?",
+                            "options": [
+                                "Indica la relación entre el documento HTML y el archivo vinculado",
+                                "Define el tamaño total del archivo en kilobytes",
+                                "Especifica la velocidad de carga del diseño",
+                                "Establece el idioma del documento vinculado"
+                            ],
+                            "correctAnswer": "Indica la relación entre el documento HTML y el archivo vinculado",
+                            "explanation": "Rel indica qué tipo de relación tiene el archivo externo con el documento actual (en este caso, una hoja de estilos)."
+                        },
+                        {
+                            "text": "Una institución pública requiere que su portal sea accesible para personas con discapacidad visual que utilizan navegadores de voz. ¿Qué técnica permite aplicar estilos a la presentación auditiva?",
+                            "options": [
+                                "Hojas de estilo de preprocesamiento",
+                                "Hojas de estilo de posicionamiento",
+                                "Hojas de estilo auditivas",
+                                "Hojas de estilo para impresión"
+                            ],
+                            "correctAnswer": "Hojas de estilo auditivas",
+                            "explanation": "Las hojas de estilo auditivas permiten configurar cómo los sintetizadores de voz deben narrar el contenido."
+                        },
+                        {
+                            "text": "Estás revisando una hoja de estilos antigua que utiliza la propiedad 'azimuth'. ¿Cuál es el estado actual de estas propiedades según las especificaciones de CSS3?",
+                            "options": [
+                                "Son obligatorias para la validación W3C",
+                                "Se han fusionado con las propiedades de color",
+                                "Solo funcionan en dispositivos móviles",
+                                "Fueron declaradas obsoletas y no se incluyeron en CSS3"
+                            ],
+                            "correctAnswer": "Fueron declaradas obsoletas y no se incluyeron en CSS3",
+                            "explanation": "Muchas propiedades de audio antiguas se descartaron en CSS3 en favor de estándares más modernos y eficientes."
+                        },
+                        {
+                            "text": "Quieres ajustar la rapidez con la que el lector de pantalla narra el contenido de un artículo extenso. ¿Qué propiedad del módulo CSS Speech debes utilizar?",
+                            "options": [
+                                "voice-volume",
+                                "voice-pitch",
+                                "voice-rate",
+                                "voice-duration"
+                            ],
+                            "correctAnswer": "voice-rate",
+                            "explanation": "Voice-rate controla la velocidad de la voz del sintetizador en el módulo CSS Speech."
+                        },
+                        {
+                            "text": "Durante una auditoría de accesibilidad, detectas que hay elementos decorativos que el sintetizador de voz no debería leer. ¿Cómo puedes controlar esto mediante CSS?",
+                            "options": [
+                                "Usando pause-before: 0ms",
+                                "Usando speak: none",
+                                "Usando voice-family: sans-serif",
+                                "Usando voice-stress: high"
+                            ],
+                            "correctAnswer": "Usando speak: none",
+                            "explanation": "La propiedad speak: none indica que el elemento no debe ser reproducido por el lector de voz."
+                        },
+                        {
+                            "text": "Necesitas que el sintetizador de voz haga un silencio breve antes de leer cada título de la página. ¿Qué propiedad permite establecer una pausa antes de un elemento?",
+                            "options": [
+                                "voice-stress",
+                                "voice-pitch-range",
+                                "pause",
+                                "volume"
+                            ],
+                            "correctAnswer": "pause",
+                            "explanation": "La propiedad pause permite introducir silencios breves antes o después del contenido hablado."
+                        },
+                        {
+                            "text": "Un usuario desea imprimir un artículo de tu web, pero no quiere que salgan los anuncios ni el menú de navegación. ¿Qué técnica permite ajustar la apariencia para este fin?",
+                            "options": [
+                                "Hojas de estilo auditivas",
+                                "Minificación de archivos CSS",
+                                "Hojas de estilo para impresión",
+                                "Animaciones con Animate.css"
+                            ],
+                            "correctAnswer": "Hojas de estilo para impresión",
+                            "explanation": "Las hojas de estilo para impresión adaptan el diseño para que sea óptimo al pasar a papel, eliminando elementos innecesarios."
+                        },
+                        {
+                            "text": "Al configurar la vinculación de estilos, quieres que el archivo \"imprimir.css\" solo se active al generar un PDF o usar la impresora. ¿Qué valor debe tener el atributo \"media\"?",
+                            "options": [
+                                "speech",
+                                "all",
+                                "print",
+                                "screen"
+                            ],
+                            "correctAnswer": "print",
+                            "explanation": "El valor media=\"print\" asegura que los estilos solo se apliquen cuando el medio de salida sea la impresora."
+                        },
+                        {
+                            "text": "En tu archivo CSS para impresión, quieres optimizar el espacio eliminando todas las imágenes del documento. ¿Qué regla es la correcta para este propósito?",
+                            "options": [
+                                "img { visibility: visible; }",
+                                "img { display: none; }",
+                                "img { color: transparent; }",
+                                "img { margin: 0; }"
+                            ],
+                            "correctAnswer": "img { display: none; }",
+                            "explanation": "Display: none oculta completamente el elemento y libera el espacio que ocuparía en el diseño impreso."
+                        },
+                        {
+                            "text": "Para que la versión impresa sea más útil, decides que después de cada enlace aparezca escrita la dirección URL entre paréntesis. ¿Qué propiedad CSS te permite insertar este contenido?",
+                            "options": [
+                                "page-break",
+                                "display",
+                                "font-family",
+                                "content"
+                            ],
+                            "correctAnswer": "content",
+                            "explanation": "La propiedad content, usada con pseudoelementos como ::after, permite insertar texto como las URLs en versión impresa."
+                        },
+                        {
+                            "text": "El jefe de proyecto pregunta por qué es beneficioso crear una hoja de estilos específica para imprimir. ¿Cuál es el principal beneficio según el temario?",
+                            "options": [
+                                "Mejora la legibilidad y experiencia del usuario en formato impreso",
+                                "Permite que la impresora gaste menos tinta de color",
+                                "Hace que el archivo HTML pese menos en el servidor",
+                                "Aumenta la resolución de las imágenes impresas"
+                            ],
+                            "correctAnswer": "Mejora la legibilidad y experiencia del usuario en formato impreso",
+                            "explanation": "El objetivo principal es que el usuario reciba una versión clara y legible de la información cuando decida imprimirla."
+                        },
+                        {
+                            "text": "Estás desarrollando una interfaz compleja y necesitas utilizar variables y funciones para no repetir código CSS. ¿Qué herramienta deberías emplear para extender las capacidades de CSS?",
+                            "options": [
+                                "Un optimizador como CSSNano",
+                                "Un generador de Flexbox",
+                                "Un preprocesador como Sass",
+                                "Un validador como W3C"
+                            ],
+                            "correctAnswer": "Un preprocesador como Sass",
+                            "explanation": "Los preprocesadores como Sass añaden funcionalidades avanzadas a CSS para mejorar la eficiencia del desarrollo."
+                        },
+                        {
+                            "text": "Un compañero prefiere una sintaxis lo más parecida posible a CSS estándar pero que incluya anidación y mixins. ¿Qué preprocesador es similar a Sass en este aspecto?",
+                            "options": [
+                                "Bootstrap",
+                                "Stylelint",
+                                "Hover.css",
+                                "Less"
+                            ],
+                            "correctAnswer": "Less",
+                            "explanation": "Less es un preprocesador conocido por su sintaxis amigable y cercana al CSS puro."
+                        },
+                        {
+                            "text": "Quieres crear una estructura de cuadrícula compleja sin tener que escribir cada línea de código a mano. ¿Qué herramienta en línea te permite visualizar y ajustar la cuadrícula?",
+                            "options": [
+                                "W3C Validator",
+                                "CleanCSS",
+                                "CSS Grid Generator",
+                                "Flexbox Generator"
+                            ],
+                            "correctAnswer": "CSS Grid Generator",
+                            "explanation": "Los generadores de Grid en línea permiten diseñar visualmente cuadrículas y obtener el código CSS automáticamente."
+                        },
+                        {
+                            "text": "Antes de subir tu web a producción, necesitas reducir el tamaño del archivo CSS eliminando espacios y comentarios. ¿Qué herramienta realiza esta tarea de minificación?",
+                            "options": [
+                                "Bootstrap",
+                                "Animate.css",
+                                "CSSNano",
+                                "Sass"
+                            ],
+                            "correctAnswer": "CSSNano",
+                            "explanation": "CSSNano es un optimizador que comprime y minifica el CSS eliminando todo lo que el navegador no necesita leer."
+                        },
+                        {
+                            "text": "Deseas asegurar que tu código CSS cumple con los estándares actuales y está libre de errores sintácticos. ¿Qué herramienta oficial de la W3C debes utilizar?",
+                            "options": [
+                                "Google Chrome",
+                                "W3C CSS Validator",
+                                "Bootstrap Studio",
+                                "Stylelint"
+                            ],
+                            "correctAnswer": "W3C CSS Validator",
+                            "explanation": "El validador de la W3C es la herramienta oficial para comprobar que el código CSS es correcto y estándar."
+                        },
+                        {
+                            "text": "Tu equipo necesita crear una web responsiva de forma muy rápida utilizando componentes ya diseñados. ¿Qué marco de trabajo (framework) es el más popular para esto?",
+                            "options": [
+                                "Hover.css",
+                                "Less",
+                                "Foundation",
+                                "Bootstrap"
+                            ],
+                            "correctAnswer": "Bootstrap",
+                            "explanation": "Bootstrap es el framework CSS más utilizado para crear sitios web responsivos y coherentes de forma ágil."
+                        },
+                        {
+                            "text": "Para mantener una base de código limpia y consistente en un equipo de cinco programadores, decides usar una herramienta que analice el código. ¿Cuál es la adecuada?",
+                            "options": [
+                                "CleanCSS",
+                                "Stylelint",
+                                "Sass",
+                                "CSS Grid Generator"
+                            ],
+                            "correctAnswer": "Stylelint",
+                            "explanation": "Stylelint es un 'linter' que ayuda a mantener el código CSS limpio y a seguir las mismas reglas de estilo en todo el equipo."
+                        },
+                        {
+                            "text": "Quieres añadir una animación llamativa a los botones de tu web cuando el usuario pase el ratón por encima. ¿Qué colección de efectos es específica para desplazamientos?",
+                            "options": [
+                                "Hover.css",
+                                "W3C Validator",
+                                "CSSNano",
+                                "Animate.css"
+                            ],
+                            "correctAnswer": "Hover.css",
+                            "explanation": "Hover.css es una librería especializada en efectos de animación que se activan al pasar el cursor (hover) sobre los elementos."
+                        },
+                        {
+                            "text": "Te piden que el sitio web sea especialmente accesible y responsivo. ¿Qué framework, además de Bootstrap, se centra específicamente en estos dos aspectos?",
+                            "options": [
+                                "Sass",
+                                "Foundation",
+                                "CleanCSS",
+                                "Less"
+                            ],
+                            "correctAnswer": "Foundation",
+                            "explanation": "Foundation es un framework profesional robusto que pone gran énfasis en la accesibilidad y el diseño flexible."
+                        },
+                        {
+                            "text": "Al usar CleanCSS en tu flujo de trabajo, ¿qué objetivo estás persiguiendo principalmente?",
+                            "options": [
+                                "Validar el código contra estándares oficiales",
+                                "Crear animaciones en 3D",
+                                "Traducir el código a otros idiomas",
+                                "Optimizar y comprimir el archivo CSS"
+                            ],
+                            "correctAnswer": "Optimizar y comprimir el archivo CSS",
+                            "explanation": "CleanCSS es una herramienta de optimización que ayuda a que el archivo final sea lo más ligero posible para el servidor y el usuario."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

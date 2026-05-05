@@ -1,0 +1,456 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 10,
+                    "title": "EXAMEN FINAL",
+                    "questions": [
+                        {
+                            "text": "Al observar un logotipo, un usuario identifica inmediatamente la letra \"A\" aunque los trazos no estén cerrados del todo. ¿Qué teoría psicológica explica cómo nuestro cerebro organiza estos elementos percibidos?",
+                            "options": [
+                                "Teoría de la comunicación visual",
+                                "Teoría del color",
+                                "Teoría de la percepción activa",
+                                "Teoría de la Gestalt"
+                            ],
+                            "correctAnswer": "Teoría de la Gestalt",
+                            "explanation": "La Teoría de la Gestalt explica cómo la mente humana tiende a percibir los elementos visuales como un todo estructurado, cerrando automáticamente formas incompletas."
+                        },
+                        {
+                            "text": "Una empresa de software quiere medir qué tan satisfechos están sus clientes al usar su nueva plataforma. ¿En qué disciplina multidisciplinaria se deben basar para optimizar esta relación?",
+                            "options": [
+                                "Marketing digital",
+                                "Programación orientada a objetos",
+                                "Interacción persona-ordenador (IPO)",
+                                "Arquitectura de computadores"
+                            ],
+                            "correctAnswer": "Interacción persona-ordenador (IPO)",
+                            "explanation": "La Interacción Persona-Ordenador (IPO) estudia el diseño, evaluación e implementación de sistemas informáticos interactivos para uso humano, con foco en la satisfacción del usuario."
+                        },
+                        {
+                            "text": "Como experto en desarrollo, debes recomendar el método más flexible y fácil de mantener para un proyecto que escalará a cientos de páginas. ¿Cuál de estos enfoques es el más recomendable?",
+                            "options": [
+                                "Estilos basados en marcos",
+                                "Estilos basados en clases",
+                                "Estilos basados en etiquetas",
+                                "Estilos en línea"
+                            ],
+                            "correctAnswer": "Estilos basados en clases",
+                            "explanation": "Los estilos basados en clases permiten reutilizar reglas CSS en múltiples elementos, facilitando el mantenimiento y la escalabilidad del proyecto sin afectar globalmente a todas las etiquetas."
+                        },
+                        {
+                            "text": "Estás desarrollando una interfaz compleja y necesitas utilizar variables y funciones para no repetir código CSS. ¿Qué herramienta deberías emplear para extender las capacidades de CSS?",
+                            "options": [
+                                "Un generador de Flexbox",
+                                "Un optimizador como CSSNano",
+                                "Un validador como W3C",
+                                "Un preprocesador como Sass"
+                            ],
+                            "correctAnswer": "Un preprocesador como Sass",
+                            "explanation": "Los preprocesadores CSS como Sass añaden funcionalidades avanzadas al CSS estándar, como variables, anidamiento, mixins y funciones, reduciendo la repetición de código."
+                        },
+                        {
+                            "text": "Un diseñador gráfico debe elegir el formato más adecuado para el logotipo de una empresa que se mostrará en una barra de navegación. ¿Qué formato es preferible por ser escalable y tener resolución independiente?",
+                            "options": [
+                                "SVG",
+                                "GIF",
+                                "PNG",
+                                "JPEG"
+                            ],
+                            "correctAnswer": "SVG",
+                            "explanation": "SVG (Scalable Vector Graphics) es un formato vectorial que no pierde calidad al escalar, ideal para logotipos que deben verse nítidos en cualquier tamaño y resolución de pantalla."
+                        },
+                        {
+                            "text": "Un creador de contenido quiere compartir sus ilustraciones en una plataforma permitiendo que otros las usen gratuitamente bajo condiciones de atribución y no comercialización. ¿Qué tipo de licencias debería utilizar?",
+                            "options": [
+                                "Licencias de software propietario",
+                                "Licencias Creative Commons",
+                                "Licencias de patentes comerciales",
+                                "Licencias de propiedad industrial"
+                            ],
+                            "correctAnswer": "Licencias Creative Commons",
+                            "explanation": "Las licencias Creative Commons permiten al autor definir las condiciones de uso de su obra (como la atribución obligatoria o la prohibición de uso comercial) manteniendo algunos derechos reservados."
+                        },
+                        {
+                            "text": "Durante el montaje de una interfaz, necesitas que una ventana emergente (pop-up) aparezca siempre por delante del contenido principal. ¿Qué propiedad CSS controla esta posición de profundidad?",
+                            "options": [
+                                "z-index",
+                                "scroll-behavior",
+                                "transform",
+                                "transition-duration"
+                            ],
+                            "correctAnswer": "z-index",
+                            "explanation": "La propiedad z-index controla el orden de apilamiento de los elementos posicionados en CSS; un valor mayor sitúa el elemento por encima de los demás en el eje Z (profundidad)."
+                        },
+                        {
+                            "text": "Un profesional del vídeo necesita sustituir el fondo verde de una grabación por una imagen de una oficina tecnológica. ¿Cómo se llama técnicamente este efecto?",
+                            "options": [
+                                "Blanco y negro",
+                                "Acelerar",
+                                "Zoom",
+                                "Chroma key"
+                            ],
+                            "correctAnswer": "Chroma key",
+                            "explanation": "El Chroma key (o clave de color) es una técnica de edición de vídeo que elimina un color específico (habitualmente verde o azul) del plano para sustituirlo por otra imagen o vídeo."
+                        },
+                        {
+                            "text": "Estás optimizando el espacio en pantalla de una aplicación móvil y necesitas que el usuario elija una opción de una lista sin ocupar mucho sitio. ¿Qué etiqueta HTML es la adecuada para este propósito?",
+                            "options": [
+                                "button",
+                                "video",
+                                "select",
+                                "iframe"
+                            ],
+                            "correctAnswer": "select",
+                            "explanation": "La etiqueta <select> genera una lista desplegable compacta que permite al usuario elegir entre varias opciones ocupando un espacio mínimo en pantalla."
+                        },
+                        {
+                            "text": "Una aplicación de gestión de proyectos permite a los usuarios mover tarjetas de tareas de una columna a otra con el ratón. ¿Qué tipo de componente avanzado se está implementando?",
+                            "options": [
+                                "Elemento arrastrable",
+                                "Mapa interactivo estático",
+                                "Formulario de envío masivo",
+                                "Desplazamiento infinito"
+                            ],
+                            "correctAnswer": "Elemento arrastrable",
+                            "explanation": "Un elemento arrastrable (drag and drop) permite al usuario mover componentes de la interfaz de una posición a otra mediante el ratón, mejorando la interactividad y la experiencia de gestión visual."
+                        },
+                        {
+                            "text": "Una empresa de software desea que su nueva plataforma de gestión cumpla con las normativas vigentes de accesibilidad. ¿Cómo se llaman específicamente las pautas desarrolladas por la WAI para este fin?",
+                            "options": [
+                                "CSS Standards",
+                                "UX Frameworks",
+                                "WCAG (Pautas de Accesibilidad para el Contenido Web)",
+                                "HTML5 Guidelines"
+                            ],
+                            "correctAnswer": "WCAG (Pautas de Accesibilidad para el Contenido Web)",
+                            "explanation": "Las WCAG (Web Content Accessibility Guidelines) son las pautas internacionales de accesibilidad elaboradas por la WAI (Web Accessibility Initiative) del W3C para guiar el desarrollo de contenido web accesible."
+                        },
+                        {
+                            "text": "Un usuario invidente navega por un formulario y el lector de pantalla no le indica qué debe escribir en cada cuadro. ¿Qué etiqueta HTML falta para asociar el texto descriptivo con el campo de entrada?",
+                            "options": [
+                                "button",
+                                "label",
+                                "div",
+                                "section"
+                            ],
+                            "correctAnswer": "label",
+                            "explanation": "La etiqueta <label> asocia un texto descriptivo a un campo de formulario, permitiendo que los lectores de pantalla anuncien correctamente la función de cada campo a usuarios invidentes."
+                        },
+                        {
+                            "text": "Durante la fase de desarrollo, la empresa contrata a tres especialistas para que evalúen el sitio basándose en principios de diseño. ¿Cómo se denomina técnicamente esta técnica de análisis?",
+                            "options": [
+                                "Prueba de guerrilla",
+                                "Eye tracking",
+                                "Card sorting",
+                                "Análisis experto"
+                            ],
+                            "correctAnswer": "Análisis experto",
+                            "explanation": "El análisis experto (o evaluación heurística) consiste en que especialistas en usabilidad revisan el sistema basándose en principios de diseño reconocidos para identificar problemas sin necesidad de usuarios reales."
+                        },
+                        {
+                            "text": "Necesitas supervisar cómo Google ve tu sitio web y recibir alertas sobre errores de indexación. ¿Qué herramienta gratuita debes utilizar?",
+                            "options": [
+                                "Eye tracking",
+                                "GTmetrix",
+                                "Google Search Console",
+                                "PageSpeed Insights"
+                            ],
+                            "correctAnswer": "Google Search Console",
+                            "explanation": "Google Search Console es la herramienta gratuita de Google que permite monitorizar la presencia de un sitio en los resultados de búsqueda, detectar errores de indexación y verificar el rendimiento SEO."
+                        },
+                        {
+                            "text": "Una startup decide involucrar a sus clientes potenciales desde las primeras fases del diseño para recibir retroalimentación constante. ¿Cómo se denomina técnicamente esta metodología?",
+                            "options": [
+                                "Diseño orientado al programador",
+                                "Arquitectura de sistemas cerrada",
+                                "Diseño centrado en el usuario",
+                                "Evaluación post-lanzamiento"
+                            ],
+                            "correctAnswer": "Diseño centrado en el usuario",
+                            "explanation": "El Diseño Centrado en el Usuario (DCU) es una metodología que involucra al usuario final en todas las fases del proceso de diseño para asegurar que el producto satisface sus necesidades reales."
+                        },
+                        {
+                            "text": "Estás diseñando el plano esquemático de una página web para mostrar la disposición de los botones y menús sin entrar en detalles estéticos. ¿Cómo se llama esta representación?",
+                            "options": [
+                                "Mapa de calor",
+                                "Prototipo de alta fidelidad",
+                                "Wireframe (plano de página)",
+                                "Código CSS final"
+                            ],
+                            "correctAnswer": "Wireframe (plano de página)",
+                            "explanation": "Un wireframe es un esquema visual de baja fidelidad que representa la estructura y disposición de los elementos de una interfaz sin incluir diseño gráfico ni contenido definitivo."
+                        },
+                        {
+                            "text": "Una pequeña empresa quiere promocionar sus nuevos servicios pero dispone de un presupuesto muy ajustado para anuncios pagados. ¿Qué táctica de marketing digital debería priorizar para mejorar su visibilidad de forma orgánica en los buscadores?",
+                            "options": [
+                                "Email marketing",
+                                "Gestión de chatbots",
+                                "Publicidad en redes sociales",
+                                "Optimización para motores de búsqueda (SEO)"
+                            ],
+                            "correctAnswer": "Optimización para motores de búsqueda (SEO)",
+                            "explanation": "El SEO (Search Engine Optimization) mejora la visibilidad orgánica de un sitio en los motores de búsqueda sin coste por clic, ideal cuando el presupuesto publicitario es limitado."
+                        },
+                        {
+                            "text": "En el análisis de métricas, ¿qué término define al porcentaje de visitantes que completan una acción específica, como registrarse en un boletín o realizar una compra?",
+                            "options": [
+                                "Tasa de apertura",
+                                "Tasa de rebote",
+                                "Tasa de conversión",
+                                "Tasa de retención"
+                            ],
+                            "correctAnswer": "Tasa de conversión",
+                            "explanation": "La tasa de conversión mide el porcentaje de usuarios que realizan la acción objetivo (compra, registro, descarga, etc.) respecto al total de visitantes, siendo un indicador clave del éxito de una campaña o diseño."
+                        },
+                        {
+                            "text": "Un desarrollador busca un editor de código fuente gratuito, de código abierto y desarrollado por Microsoft. ¿Cuál debería elegir?",
+                            "options": [
+                                "Adobe Dreamweaver",
+                                "Bootstrap Studio",
+                                "Visual Studio Code",
+                                "Adobe XD"
+                            ],
+                            "correctAnswer": "Visual Studio Code",
+                            "explanation": "Visual Studio Code (VS Code) es el editor de código gratuito y de código abierto desarrollado por Microsoft, ampliamente adoptado por su extensibilidad y soporte para múltiples lenguajes."
+                        },
+                        {
+                            "text": "Tu equipo necesita crear una web responsiva de forma muy rápida utilizando componentes ya diseñados. ¿Qué marco de trabajo (framework) es el más popular para esto?",
+                            "options": [
+                                "Foundation",
+                                "Less",
+                                "Bootstrap",
+                                "Hover.css"
+                            ],
+                            "correctAnswer": "Bootstrap",
+                            "explanation": "Bootstrap es el framework de CSS más popular para el desarrollo web responsivo, ya que proporciona una amplia colección de componentes y una cuadrícula adaptable listos para usar."
+                        },
+                        {
+                            "text": "Al desarrollar una página compleja, necesitas ubicar la zona donde se presenta la información específica, como texto, vídeos y formularios de cada sección. ¿Cómo se denomina este componente?",
+                            "options": [
+                                "Zona de navegación lateral",
+                                "Contenido principal",
+                                "Pie de página (Footer)",
+                                "Encabezado (Header)"
+                            ],
+                            "correctAnswer": "Contenido principal",
+                            "explanation": "El contenido principal (elemento <main>) es la zona central de la página donde se presenta la información específica de cada sección, diferenciándose del encabezado, la navegación y el pie de página."
+                        },
+                        {
+                            "text": "Estás configurando una hoja de estilos auditiva y necesitas ajustar la velocidad a la que el sintetizador narra el contenido. ¿Qué propiedad CSS Speech debes emplear?",
+                            "options": [
+                                "voice-volume",
+                                "voice-rate",
+                                "voice-pitch",
+                                "speak-header"
+                            ],
+                            "correctAnswer": "voice-rate",
+                            "explanation": "La propiedad CSS Speech voice-rate controla la velocidad de locución del sintetizador de voz, permitiendo ajustar si el contenido se lee más rápido o más despacio."
+                        },
+                        {
+                            "text": "Un cliente te pide que las imágenes de su sitio web carguen lo más rápido posible sin perder calidad visual notable. ¿Qué formato moderno combina las ventajas de JPEG y PNG siendo ideal para la web?",
+                            "options": [
+                                "TIFF",
+                                "BMP",
+                                "WebP",
+                                "GIF"
+                            ],
+                            "correctAnswer": "WebP",
+                            "explanation": "WebP es un formato de imagen moderno desarrollado por Google que ofrece compresión con y sin pérdida superior a JPEG y PNG, reduciendo el tamaño de archivo y mejorando la velocidad de carga."
+                        },
+                        {
+                            "text": "Quieres dar un toque estético a una galería de imágenes aplicando un tono marrón-amarillento que simule una fotografía antigua. ¿Qué efecto visual es el adecuado?",
+                            "options": [
+                                "Desenfocar",
+                                "Chroma key",
+                                "Sepia",
+                                "Blanco y negro"
+                            ],
+                            "correctAnswer": "Sepia",
+                            "explanation": "El efecto sepia aplica una tonalidad marrón-amarillenta a la imagen para simular el envejecimiento fotográfico característico de las fotografías antiguas."
+                        },
+                        {
+                            "text": "Durante la creación de un formulario interactivo, quieres que el cursor se posicione automáticamente en el primer campo de entrada al cargar la página. ¿Qué atributo HTML debes usar?",
+                            "options": [
+                                "readonly",
+                                "required",
+                                "autofocus",
+                                "disabled"
+                            ],
+                            "correctAnswer": "autofocus",
+                            "explanation": "El atributo autofocus hace que el elemento de formulario reciba el foco del teclado automáticamente al cargar la página, facilitando el inicio de la interacción sin necesidad de clics adicionales."
+                        },
+                        {
+                            "text": "Al diseñar para una amplia variedad de dispositivos y tecnologías asistivas, buscas que el contenido sea interpretable de manera fiable a largo plazo. ¿A qué principio POUR se refiere?",
+                            "options": [
+                                "Perceptible",
+                                "Comprensible",
+                                "Robusto",
+                                "Operable"
+                            ],
+                            "correctAnswer": "Robusto",
+                            "explanation": "El principio Robusto de las WCAG exige que el contenido sea lo suficientemente sólido para ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluidas las tecnologías asistivas actuales y futuras."
+                        },
+                        {
+                            "text": "En el análisis de usuarios, has creado personajes ficticios que representan segmentos de tu audiencia con sus problemáticas y demografía. ¿Cómo se llaman técnicamente?",
+                            "options": [
+                                "Algoritmos de búsqueda",
+                                "Leads",
+                                "Personas",
+                                "Stakeholders"
+                            ],
+                            "correctAnswer": "Personas",
+                            "explanation": "Las Personas son arquetipos ficticios basados en datos reales de usuarios que representan los distintos segmentos de audiencia, ayudando al equipo de diseño a tomar decisiones centradas en el usuario."
+                        },
+                        {
+                            "text": "Necesitas crear una jerarquía intuitiva de categorías y subcategorías para clasificar los libros de una biblioteca digital. ¿En qué concepto de la AI te estás enfocando?",
+                            "options": [
+                                "Estructura",
+                                "Organización",
+                                "Búsqueda",
+                                "Etiquetado"
+                            ],
+                            "correctAnswer": "Organización",
+                            "explanation": "El sistema de organización de la Arquitectura de Información define cómo se agrupan y se relacionan los contenidos en categorías y subcategorías para que los usuarios puedan encontrarlos fácilmente."
+                        },
+                        {
+                            "text": "La empresa quiere medir la rentabilidad de su última campaña publicitaria calculando el beneficio obtenido frente a la inversión. ¿Qué métrica deben analizar?",
+                            "options": [
+                                "Retorno de la inversión (ROI)",
+                                "CPA",
+                                "Tasa de apertura",
+                                "Tasa de rebote"
+                            ],
+                            "correctAnswer": "Retorno de la inversión (ROI)",
+                            "explanation": "El ROI (Return On Investment) mide la rentabilidad de una inversión calculando el beneficio neto obtenido en relación con el coste invertido, siendo el indicador clave para evaluar el éxito de una campaña."
+                        },
+                        {
+                            "text": "Antes de programar, necesitas visualizar la estructura jerárquica y la interconexión de todas las secciones de tu aplicación. ¿Qué herramienta de planificación utilizarás?",
+                            "options": [
+                                "Código fuente",
+                                "Hoja de estilos",
+                                "Guía de estilo",
+                                "Mapa de navegación"
+                            ],
+                            "correctAnswer": "Mapa de navegación",
+                            "explanation": "Un mapa de navegación representa visualmente la jerarquía y las relaciones entre todas las secciones de un sitio o aplicación, siendo esencial para planificar la arquitectura de la información antes de comenzar a programar."
+                        },
+                        {
+                            "text": "Estás vinculando una hoja de estilos externa a un documento HTML. ¿Qué atributo de la etiqueta indica la ubicación exacta del archivo .css?",
+                            "options": [
+                                "media",
+                                "type",
+                                "href",
+                                "rel"
+                            ],
+                            "correctAnswer": "href",
+                            "explanation": "El atributo href (Hypertext Reference) de la etiqueta <link> especifica la ruta o URL del archivo CSS externo que se desea vincular al documento HTML."
+                        },
+                        {
+                            "text": "Para reducir la latencia y mejorar la velocidad de carga de imágenes para usuarios globales, decides usar un conjunto de servidores distribuidos. ¿Qué tecnología estás aplicando?",
+                            "options": [
+                                "Red de entrega de contenido (CDN)",
+                                "Almacenamiento local",
+                                "Base de datos SQL",
+                                "Servidor SMTP"
+                            ],
+                            "correctAnswer": "Red de entrega de contenido (CDN)",
+                            "explanation": "Una CDN (Content Delivery Network) es una red de servidores distribuidos geográficamente que sirve los recursos estáticos desde el servidor más cercano al usuario, reduciendo la latencia y acelerando la carga."
+                        },
+                        {
+                            "text": "Como diseñador junior, buscas una herramienta en línea para crear animaciones de vídeo explicativo de forma sencilla. ¿Cuál de estas es recomendada por el temario?",
+                            "options": [
+                                "Photoshop",
+                                "Animaker",
+                                "GIMP",
+                                "OpenShot"
+                            ],
+                            "correctAnswer": "Animaker",
+                            "explanation": "Animaker es una herramienta en línea especializada en la creación de vídeos animados y explicativos de forma sencilla, sin necesidad de conocimientos avanzados de edición de vídeo."
+                        },
+                        {
+                            "text": "Quieres incrustar un vídeo de una plataforma externa permitiendo que se vea a pantalla completa mediante un atributo booleano. ¿Cuál es dicho atributo?",
+                            "options": [
+                                "frameborder",
+                                "allowfullscreen",
+                                "width",
+                                "src"
+                            ],
+                            "correctAnswer": "allowfullscreen",
+                            "explanation": "El atributo booleano allowfullscreen en la etiqueta <iframe> autoriza al navegador a mostrar el vídeo incrustado en modo de pantalla completa cuando el usuario lo solicita."
+                        },
+                        {
+                            "text": "Al evaluar la accesibilidad en dispositivos móviles, investigas cómo los usuarios con discapacidad utilizan gestos en la pantalla. ¿Qué aspecto estás analizando?",
+                            "options": [
+                                "Interacciones táctiles",
+                                "Orientación de pantalla",
+                                "Conectividad",
+                                "Tamaño de pantalla"
+                            ],
+                            "correctAnswer": "Interacciones táctiles",
+                            "explanation": "Las interacciones táctiles hacen referencia a la forma en que los usuarios interactúan con la pantalla mediante gestos (tocar, deslizar, pellizcar), siendo clave para evaluar la accesibilidad en dispositivos móviles."
+                        },
+                        {
+                            "text": "Tras realizar un análisis con GTmetrix, observas un gráfico que muestra el tiempo de carga de cada recurso individualmente. ¿Cómo se llama este gráfico?",
+                            "options": [
+                                "Gráfico de cascada (Waterfall)",
+                                "Mapa de calor",
+                                "Gráfico de barras",
+                                "Diagrama de flujo"
+                            ],
+                            "correctAnswer": "Gráfico de cascada (Waterfall)",
+                            "explanation": "El gráfico de cascada (Waterfall) muestra de forma secuencial y visual los tiempos de solicitud, espera y descarga de cada recurso durante la carga de la página, permitiendo identificar cuellos de botella."
+                        },
+                        {
+                            "text": "En el proceso de diseño centrado en el usuario, has llegado a la fase final de monitoreo tras el lanzamiento para identificar áreas de mejora. ¿Cómo se denomina esta etapa?",
+                            "options": [
+                                "Generación de ideas",
+                                "Evaluación y mejora continua",
+                                "Investigación inicial",
+                                "Definición del problema"
+                            ],
+                            "correctAnswer": "Evaluación y mejora continua",
+                            "explanation": "La etapa de evaluación y mejora continua es la fase posterior al lanzamiento en la que se monitorea el producto en uso real para detectar problemas e iterar sobre el diseño de forma constante."
+                        },
+                        {
+                            "text": "Tu objetivo es fortalecer la relación con los clientes actuales proporcionándoles información útil y relevante que fomente su lealtad. ¿Qué beneficio del marketing de contenidos buscas?",
+                            "options": [
+                                "Mejora del hardware",
+                                "Aumento del CPA",
+                                "Incremento de la tasa de rebote",
+                                "Fidelización de clientes"
+                            ],
+                            "correctAnswer": "Fidelización de clientes",
+                            "explanation": "La fidelización de clientes es el objetivo del marketing de contenidos que busca mantener y fortalecer la relación con los clientes existentes mediante contenido de valor que fomente su lealtad a la marca."
+                        },
+                        {
+                            "text": "Necesitas presentar una lista de resultados de una consulta a una base de datos de forma organizada en filas y columnas. ¿Qué elemento HTML es el más apropiado hoy en día?",
+                            "options": [
+                                "Tablas",
+                                "Divs con float",
+                                "Frameset",
+                                "Listas desordenadas"
+                            ],
+                            "correctAnswer": "Tablas",
+                            "explanation": "El elemento <table> es el componente HTML semánticamente correcto para presentar datos tabulares, es decir, información organizada en filas y columnas como los resultados de una consulta a base de datos."
+                        },
+                        {
+                            "text": "Un sitio web gubernamental debe cumplir con el nivel de adecuación intermedio de las WCAG, que incluye descripciones de audio y jerarquía lógica de encabezados. ¿A qué nivel se refiere?",
+                            "options": [
+                                "Nivel AA",
+                                "Nivel AAA",
+                                "Nivel B",
+                                "Nivel A"
+                            ],
+                            "correctAnswer": "Nivel AA",
+                            "explanation": "El Nivel AA de las WCAG es el nivel de conformidad intermedio y el más exigido por las legislaciones de accesibilidad web a nivel internacional; incluye criterios como descripciones de audio y una jerarquía lógica de encabezados."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,345 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 6,
+                    "title": "UT6: Accesibilidad web",
+                    "questions": [
+                        {
+                            "text": "Un desarrollador está diseñando un sitio para una biblioteca pública y quiere asegurar que personas con diversas discapacidades puedan navegar sin barreras. ¿Cómo se define técnicamente este concepto de diseño inclusivo?",
+                            "options": [
+                                "Optimización de motores de búsqueda",
+                                "Usabilidad avanzada",
+                                "Diseño responsivo",
+                                "Accesibilidad web"
+                            ],
+                            "correctAnswer": "Accesibilidad web",
+                            "explanation": "La accesibilidad web es la práctica de eliminar barreras para que las personas con cualquier tipo de discapacidad puedan usar la web en igualdad de condiciones."
+                        },
+                        {
+                            "text": "Al revisar los fundamentos del diseño para todos, ¿cuál es el objetivo principal de la accesibilidad web según el temario?",
+                            "options": [
+                                "Aumentar la velocidad de carga en servidores internacionales",
+                                "Obligar a los usuarios a utilizar navegadores específicos",
+                                "Reducir el coste de mantenimiento de las bases de datos",
+                                "Que las personas con discapacidad puedan percibir, entender, navegar e interactuar con la web"
+                            ],
+                            "correctAnswer": "Que las personas con discapacidad puedan percibir, entender, navegar e interactuar con la web",
+                            "explanation": "El fin último de la accesibilidad es garantizar que el contenido web sea accesible para todos los usuarios, independientemente de sus capacidades."
+                        },
+                        {
+                            "text": "Un equipo de desarrollo quiere implementar mejoras de accesibilidad siguiendo estándares internacionales. ¿Qué organización internacional es la encargada de desarrollar estas pautas?",
+                            "options": [
+                                "W3C (World Wide Web Consortium)",
+                                "IETF",
+                                "IEEE",
+                                "ISO"
+                            ],
+                            "correctAnswer": "W3C (World Wide Web Consortium)",
+                            "explanation": "El W3C es el organismo principal que desarrolla los estándares y pautas técnicas para la web, incluyendo la accesibilidad."
+                        },
+                        {
+                            "text": "Una empresa de software desea que su nueva plataforma de gestión cumpla con las normativas vigentes de accesibilidad. ¿Cómo se llaman específicamente las pautas desarrolladas por la WAI para este fin?",
+                            "options": [
+                                "UX Frameworks",
+                                "CSS Standards",
+                                "WCAG (Pautas de Accesibilidad para el Contenido Web)"
+                            ],
+                            "correctAnswer": "WCAG (Pautas de Accesibilidad para el Contenido Web)",
+                            "explanation": "Las WCAG (Web Content Accessibility Guidelines) son el estándar global de referencia para hacer el contenido web accesible."
+                        },
+                        {
+                            "text": "Estás evaluando la accesibilidad de un portal de noticias. ¿Cuál es la función principal de la Iniciativa de Accesibilidad Web (WAI) dentro del W3C?",
+                            "options": [
+                                "Vender licencias de software de diseño",
+                                "Gestionar los nombres de dominio en internet",
+                                "Programar navegadores exclusivos para invidentes",
+                                "Facilitar la accesibilidad en la web para personas con discapacidad"
+                            ],
+                            "correctAnswer": "Facilitar la accesibilidad en la web para personas con discapacidad",
+                            "explanation": "La WAI (Web Accessibility Initiative) es la rama del W3C dedicada específicamente a promover y estandarizar la accesibilidad."
+                        },
+                        {
+                            "text": "Un diseñador gráfico añade texto alternativo a todas las imágenes de una web para que los lectores de pantalla puedan describirlas. ¿A qué principio general de diseño accesible responde esta acción?",
+                            "options": [
+                                "Comprensible",
+                                "Robusto",
+                                "Operable",
+                                "Perceptible"
+                            ],
+                            "correctAnswer": "Perceptible",
+                            "explanation": "El principio 'Perceptible' asegura que la información pueda ser percibida por los sentidos, por ejemplo, convirtiendo imagen en texto para un lector."
+                        },
+                        {
+                            "text": "Durante el testeo de una aplicación, notas que un usuario no puede navegar por el menú principal porque solo tiene acceso a un teclado y no al ratón. ¿Qué principio de accesibilidad se está incumpliendo?",
+                            "options": [
+                                "Operable",
+                                "Perceptible",
+                                "Robusto",
+                                "Comprensible"
+                            ],
+                            "correctAnswer": "Operable",
+                            "explanation": "El principio 'Operable' garantiza que los componentes de la interfaz y la navegación sean manejables mediante diferentes periféricos (teclado, ratón, voz)."
+                        },
+                        {
+                            "text": "Al revisar el contenido de una web educativa, observas que el lenguaje utilizado es demasiado técnico y no hay ayudas para entender las siglas. ¿Qué principio de las WCAG se debe trabajar para mejorar esto?",
+                            "options": [
+                                "Perceptible",
+                                "Robusto",
+                                "Operable",
+                                "Comprensible"
+                            ],
+                            "correctAnswer": "Comprensible",
+                            "explanation": "El principio 'Comprensible' se centra en que la información y el manejo de la interfaz de usuario deben ser fáciles de entender."
+                        },
+                        {
+                            "text": "Estás desarrollando una interfaz que debe ser compatible tanto con navegadores actuales como con tecnologías asistivas futuras. ¿Cómo se denomina técnicamente este principio de diseño?",
+                            "options": [
+                                "Operable",
+                                "Robusto",
+                                "Comprensible",
+                                "Perceptible"
+                            ],
+                            "correctAnswer": "Robusto",
+                            "explanation": "El principio 'Robusto' asegura que el contenido sea lo suficientemente compatible para ser interpretado por una amplia variedad de agentes de usuario."
+                        },
+                        {
+                            "text": "Para cumplir con los requisitos de la WCAG, un programador debe asegurar que la estructura del sitio sea lógica. ¿Cuál es el primer paso recomendado para satisfacer estos requisitos?",
+                            "options": [
+                                "Comprender los principios fundamentales de accesibilidad",
+                                "Eliminar todas las imágenes de la página",
+                                "Programar la web exclusivamente en lenguaje C++",
+                                "Usar solo colores en blanco y negro"
+                            ],
+                            "correctAnswer": "Comprender los principios fundamentales de accesibilidad",
+                            "explanation": "Antes de aplicar técnicas, es crucial entender los cuatro principios POUR (Perceptible, Operable, Comprensible, Robusto)."
+                        },
+                        {
+                            "text": "Estás maquetando un artículo web y necesitas definir correctamente la jerarquía de los títulos. ¿Qué técnica HTML es la correcta para estructurar el contenido de forma accesible?",
+                            "options": [
+                                "Usar etiquetas con diferentes tamaños de letra",
+                                "Crear una tabla para cada párrafo",
+                                "Poner todo el texto en negrita",
+                                "Utilizar etiquetas de encabezado de h1 a h6"
+                            ],
+                            "correctAnswer": "Utilizar etiquetas de encabezado de h1 a h6",
+                            "explanation": "El uso semántico de los encabezados (h1-h6) permite a las tecnologías asistivas entender y navegar por la estructura del documento."
+                        },
+                        {
+                            "text": "Un usuario invidente navega por un formulario y el lector de pantalla no le indica qué debe escribir en cada cuadro. ¿Qué etiqueta HTML falta para asociar el texto descriptivo con el campo de entrada?",
+                            "options": [
+                                "button",
+                                "section",
+                                "div",
+                                "label"
+                            ],
+                            "correctAnswer": "label",
+                            "explanation": "La etiqueta <label> vincula explícitamente el texto descriptivo con su correspondiente campo de entrada mediante el atributo 'for'."
+                        },
+                        {
+                            "text": "Quieres mejorar la accesibilidad de una tabla de datos complejos en una web financiera. ¿Qué atributos HTML son esenciales para identificar las celdas de encabezado?",
+                            "options": [
+                                "scope o id/headers",
+                                "href y target",
+                                "width y height",
+                                "src y alt"
+                            ],
+                            "correctAnswer": "scope o id/headers",
+                            "explanation": "Los atributos 'scope' y 'headers' permiten establecer relaciones claras entre los encabezados y las celdas de datos en tablas complejas."
+                        },
+                        {
+                            "text": "Un diseñador decide separar completamente el diseño visual de la estructura del documento utilizando CSS. ¿Cuál es la ventaja de esta técnica para la accesibilidad?",
+                            "options": [
+                                "Hace que las imágenes pesen menos en el servidor",
+                                "Aumenta el contraste de forma automática en todos los monitores",
+                                "Permite que el contenido se lea en un orden lógico independientemente del diseño",
+                                "Impide que el usuario cambie el tamaño de la fuente"
+                            ],
+                            "correctAnswer": "Permite que el contenido se lea en un orden lógico independientemente del diseño",
+                            "explanation": "Separar contenido (HTML) de presentación (CSS) garantiza que el orden de lectura sea correcto para lectores de pantalla."
+                        },
+                        {
+                            "text": "Al definir los estilos de una web corporativa, decides evitar el uso exclusivo del color para transmitir información importante (como errores). ¿Qué técnica CSS estás aplicando?",
+                            "options": [
+                                "Animación por fotogramas",
+                                "Estilo responsivo",
+                                "Contraste y uso de color accesible",
+                                "Posicionamiento absoluto"
+                            ],
+                            "correctAnswer": "Contraste y uso de color accesible",
+                            "explanation": "La información no debe depender únicamente del color, ya que usuarios con daltonismo o baja visión podrían no percibirla."
+                        },
+                        {
+                            "text": "Estás revisando los niveles de adecuación de una web institucional. Si la página cumple con todos los puntos de verificación de prioridad 1, ¿qué nivel de adecuación ha alcanzado?",
+                            "options": [
+                                "Nivel A",
+                                "Nivel AA",
+                                "Nivel B",
+                                "Nivel AAA"
+                            ],
+                            "correctAnswer": "Nivel A",
+                            "explanation": "El Nivel A representa el grado mínimo de accesibilidad, cumpliendo con los puntos de verificación de prioridad 1."
+                        },
+                        {
+                            "text": "Una web gubernamental aspira a alcanzar el máximo nivel de accesibilidad posible para no excluir a ningún colectivo. ¿Qué nivel de adecuación debe certificar?",
+                            "options": [
+                                "Nivel A+",
+                                "Nivel AAA",
+                                "Nivel A",
+                                "Nivel AA"
+                            ],
+                            "correctAnswer": "Nivel AAA",
+                            "explanation": "El Nivel AAA es el grado más alto de cumplimiento de las WCAG, recomendando satisfacer todos los niveles de prioridad (1, 2 y 3)."
+                        },
+                        {
+                            "text": "Un auditor de accesibilidad identifica un error que impide el acceso a un grupo de usuarios de forma crítica. ¿A qué nivel de prioridad corresponde este punto de verificación?",
+                            "options": [
+                                "Prioridad 3",
+                                "Prioridad 2",
+                                "Prioridad 0",
+                                "Prioridad 1"
+                            ],
+                            "correctAnswer": "Prioridad 1",
+                            "explanation": "Los puntos de prioridad 1 son aquellos que un desarrollador DEBE satisfacer, ya que de lo contrario ciertos usuarios no podrían acceder a la información."
+                        },
+                        {
+                            "text": "Quieres realizar una evaluación rápida y manual de un sitio web antes de usar herramientas profesionales. ¿Cómo se denomina este proceso según el temario?",
+                            "options": [
+                                "Auditoría exhaustiva",
+                                "Revisión preliminar",
+                                "Test de estrés",
+                                "Análisis de código fuente"
+                            ],
+                            "correctAnswer": "Revisión preliminar",
+                            "explanation": "La revisión preliminar es un chequeo inicial que combina revisiones manuales y automáticas básicas para detectar fallos evidentes."
+                        },
+                        {
+                            "text": "Durante una evaluación de conformidad, el equipo decide probar la web con usuarios reales que tienen discapacidades. ¿Por qué es valioso este método?",
+                            "options": [
+                                "Porque permite terminar el desarrollo más rápido",
+                                "Porque proporciona una visión real de los desafíos de navegación",
+                                "Porque sustituye la necesidad de cumplir las normas WCAG",
+                                "Porque es más barato que usar software"
+                            ],
+                            "correctAnswer": "Porque proporciona una visión real de los desafíos de navegación",
+                            "explanation": "El testeo con usuarios reales revela barreras de usabilidad que las herramientas automáticas a menudo pasan por alto."
+                        },
+                        {
+                            "text": "Necesitas una herramienta que escanee automáticamente tu sitio web en busca de errores de accesibilidad. ¿Cómo se clasifican estas aplicaciones en el temario?",
+                            "options": [
+                                "Compiladores de código",
+                                "Herramientas de análisis de accesibilidad web",
+                                "Motores de renderizado",
+                                "Editores de texto"
+                            ],
+                            "correctAnswer": "Herramientas de análisis de accesibilidad web",
+                            "explanation": "Son programas o servicios diseñados para validar un sitio web frente a los estándares WCAG de forma automatizada."
+                        },
+                        {
+                            "text": "Un desarrollador utiliza la herramienta \"WAVE\" para inspeccionar su código. ¿Qué beneficio principal ofrece este tipo de software online?",
+                            "options": [
+                                "Aloja la página web de forma gratuita",
+                                "Traduce el contenido a varios idiomas",
+                                "Corrige el código automáticamente sin intervención humana",
+                                "Identifica errores de accesibilidad y ofrece recomendaciones de mejora"
+                            ],
+                            "correctAnswer": "Identifica errores de accesibilidad y ofrece recomendaciones de mejora",
+                            "explanation": "WAVE visualiza los problemas directamente sobre la página y sugiere cómo solucionarlos según las pautas oficiales."
+                        },
+                        {
+                            "text": "Estás buscando una herramienta gratuita de Google para medir la accesibilidad y el rendimiento de tu web. ¿Cuál de las siguientes es la mencionada en la UT?",
+                            "options": [
+                                "Google Maps",
+                                "Lighthouse",
+                                "Google Analytics",
+                                "Google Drive"
+                            ],
+                            "correctAnswer": "Lighthouse",
+                            "explanation": "Lighthouse es una herramienta automatizada integrada en Chrome que audita calidad, rendimiento y accesibilidad de las webs."
+                        },
+                        {
+                            "text": "Al testear una página, utilizas un validador que comprueba si el código HTML sigue los estándares oficiales. ¿Qué organización proporciona este servicio de validación?",
+                            "options": [
+                                "Microsoft",
+                                "Adobe",
+                                "W3C",
+                                "Apple"
+                            ],
+                            "correctAnswer": "W3C",
+                            "explanation": "El W3C ofrece un servicio de validación gratuito para asegurar que el código HTML/CSS es correcto y sigue los estándares."
+                        },
+                        {
+                            "text": "Un usuario con baja visión utiliza una herramienta que lee el contenido de la pantalla en voz alta. ¿Cómo se conoce técnicamente a este tipo de software asistivo?",
+                            "options": [
+                                "Lupa de pantalla",
+                                "Lector de pantalla",
+                                "Teclado virtual",
+                                "Filtro de color"
+                            ],
+                            "correctAnswer": "Lector de pantalla",
+                            "explanation": "Los lectores de pantalla (como NVDA o JAWS) son aplicaciones que transforman el contenido textual y visual en voz o braille."
+                        },
+                        {
+                            "text": "Estás comprobando cómo se comporta tu web accesible en diferentes entornos. ¿Por qué es necesario realizar el chequeo desde diversos navegadores?",
+                            "options": [
+                                "Porque aumenta el espacio de almacenamiento en la nube",
+                                "Porque es obligatorio por ley usar al menos cinco navegadores",
+                                "Porque cada navegador puede interpretar las pautas de accesibilidad de forma distinta",
+                                "Porque así se eliminan los virus del sitio web"
+                            ],
+                            "correctAnswer": "Porque cada navegador puede interpretar las pautas de accesibilidad de forma distinta",
+                            "explanation": "La visualización e interacción pueden variar entre navegadores, por lo que el test multi-navegador asegura una experiencia coherente."
+                        },
+                        {
+                            "text": "Al probar la accesibilidad en dispositivos móviles, giras el teléfono de vertical a horizontal. ¿Qué aspecto clave estás verificando?",
+                            "options": [
+                                "La calidad de la cámara",
+                                "La orientación de pantalla",
+                                "El consumo de batería",
+                                "La velocidad del procesador"
+                            ],
+                            "correctAnswer": "La orientación de pantalla",
+                            "explanation": "Es vital asegurar que el contenido se reorganiza correctamente al cambiar la orientación del dispositivo sin perder funcionalidad."
+                        },
+                        {
+                            "text": "Un usuario con discapacidad motriz utiliza gestos específicos en su tableta para navegar. ¿A qué aspecto clave del testeo móvil se refiere este estudio de movimientos?",
+                            "options": [
+                                "Interacciones táctiles",
+                                "Tamaño de pantalla",
+                                "Resolución de imagen",
+                                "Conectividad 5G"
+                            ],
+                            "correctAnswer": "Interacciones táctiles",
+                            "explanation": "El testeo de interacciones táctiles evalúa si los gestos necesarios (swipe, pinch, tap) son accesibles para todos los usuarios."
+                        },
+                        {
+                            "text": "Estás testeando una web en un smartphone de gama baja con pantalla pequeña. ¿Qué objetivo persigues al asegurar que el diseño se adapta correctamente?",
+                            "options": [
+                                "Que los usuarios accedan a todo el contenido de forma clara además de sencilla",
+                                "Que la página se vea igual que en un televisor",
+                                "Que el usuario gaste menos datos móviles",
+                                "Que la publicidad ocupe toda la pantalla"
+                            ],
+                            "correctAnswer": "Que los usuarios accedan a todo el contenido de forma clara además de sencilla",
+                            "explanation": "El diseño responsivo debe garantizar la legibilidad y facilidad de uso en terminales con recursos y pantallas limitadas."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad última de realizar todas estas pruebas de accesibilidad en móviles y escritorio?",
+                            "options": [
+                                "Mejorar el ranking de ventas de la empresa",
+                                "Cumplir el expediente sin importar el resultado real",
+                                "Asegurar que una amplia gama de usuarios puedan navegar eficazmente",
+                                "Reducir el número de clics para comprar un producto"
+                            ],
+                            "correctAnswer": "Asegurar que una amplia gama de usuarios puedan navegar eficazmente",
+                            "explanation": "El objetivo de las pruebas es validar que la interfaz es realmente usable e inclusiva para el mayor número posible de personas."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

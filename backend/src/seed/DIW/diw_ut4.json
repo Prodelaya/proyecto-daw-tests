@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 4,
+                    "title": "UT4: Animación y efectos de interfaz",
+                    "questions": [
+                        {
+                            "text": "Estás diseñando el flujo de navegación de una tienda online y decides añadir transiciones suaves entre las categorías de productos. ¿Cuál es el beneficio principal de estas animaciones según el temario?",
+                            "options": [
+                                "Reducir el peso total de la página web",
+                                "Sustituir la necesidad de usar imágenes de alta resolución",
+                                "Garantizar que la web funcione en navegadores obsoletos",
+                                "Ofrecer interacciones más atractivas además de fluidas"
+                            ],
+                            "correctAnswer": "Ofrecer interacciones más atractivas además de fluidas",
+                            "explanation": "Las animaciones bien aplicadas mejoran la percepción de fluidez y hacen que la interacción sea más satisfactoria para el usuario."
+                        },
+                        {
+                            "text": "Un desarrollador junior ha sobrecargado una página con elementos en movimiento, lo que dificulta encontrar el botón de contacto. ¿Qué recomendación estratégica del temario ha ignorado?",
+                            "options": [
+                                "Evitar el exceso con el fin de optimizar la experiencia del usuario",
+                                "Programar las animaciones únicamente con JavaScript",
+                                "Aumentar la velocidad de todos los fotogramas clave",
+                                "Usar siempre colores primarios en las animaciones"
+                            ],
+                            "correctAnswer": "Evitar el exceso con el fin de optimizar la experiencia del usuario",
+                            "explanation": "El exceso de animaciones puede distraer y frustrar al usuario, por lo que deben usarse con moderación y propósito."
+                        },
+                        {
+                            "text": "Al crear una secuencia animada de un personaje caminando, ¿cómo se define técnicamente cada imagen individual que, al mostrarse rápido, genera la ilusión de movimiento?",
+                            "options": [
+                                "Atributo de estilo",
+                                "Fotograma",
+                                "Vector de posición",
+                                "Capa de profundidad"
+                            ],
+                            "correctAnswer": "Fotograma",
+                            "explanation": "Un fotograma (frame) es la unidad mínima de una animación; la sucesión rápida de estos crea la sensación de movimiento continuo."
+                        },
+                        {
+                            "text": "Estás trabajando con animaciones en CSS para un banner publicitario y necesitas establecer el punto inicial y final del movimiento de un logo. ¿Qué concepto técnico estás utilizando?",
+                            "options": [
+                                "Fotogramas clave",
+                                "Transiciones de audio",
+                                "Capas de cebolla",
+                                "Z-index dinámico"
+                            ],
+                            "correctAnswer": "Fotogramas clave",
+                            "explanation": "Los fotogramas clave (@keyframes) definen los estados específicos de una animación en momentos determinados del tiempo."
+                        },
+                        {
+                            "text": "Durante el montaje de una interfaz, necesitas que una ventana emergente (pop-up) aparezca siempre por delante del contenido principal. ¿Qué propiedad CSS controla esta posición de profundidad?",
+                            "options": [
+                                "z-index",
+                                "transition-duration",
+                                "scroll-behavior",
+                                "transform"
+                            ],
+                            "correctAnswer": "z-index",
+                            "explanation": "La propiedad z-index determina el orden de apilamiento de los elementos en el eje Z (profundidad)."
+                        },
+                        {
+                            "text": "Tienes tres elementos circulares (rojo, verde y azul) solapados en tu diseño. Si quieres que el círculo azul sea el que se vea al fondo, ¿qué valor de z-index debería tener en relación a los demás?",
+                            "options": [
+                                "El valor más alto",
+                                "El valor más bajo",
+                                "Un valor negativo obligatorio",
+                                "Un valor igual a cero siempre"
+                            ],
+                            "correctAnswer": "El valor más bajo",
+                            "explanation": "Los elementos con valores menores de z-index se sitúan detrás de aquellos con valores mayores."
+                        },
+                        {
+                            "text": "Para una web de fotografía, decides aplicar un efecto donde el texto rote y aumente de tamaño al pasar el ratón. ¿Qué propiedad CSS específica permite aplicar rotación y escalado?",
+                            "options": [
+                                "transform",
+                                "parallax scrolling",
+                                "smooth scrolling",
+                                "z-index"
+                            ],
+                            "correctAnswer": "transform",
+                            "explanation": "Transform permite aplicar funciones como rotate, scale, skew o translate a un elemento sin alterar el flujo del documento."
+                        },
+                        {
+                            "text": "Un cliente solicita un efecto visual para su página de inicio donde los elementos del fondo se muevan más lento que los del frente al bajar con el ratón. ¿Cómo se llama esta técnica?",
+                            "options": [
+                                "Efecto de escritura",
+                                "Animación SVG",
+                                "Revelar texto gradualmente",
+                                "Parallax scrolling"
+                            ],
+                            "correctAnswer": "Parallax scrolling",
+                            "explanation": "El parallax scrolling es una técnica donde las capas de fondo se mueven a distintas velocidades para simular profundidad."
+                        },
+                        {
+                            "text": "Estás diseñando una \"landing page\" donde quieres que el paso de una sección a otra no sea brusco, sino una transición gradual. ¿Qué término define este comportamiento?",
+                            "options": [
+                                "Typography effects",
+                                "Smooth scrolling",
+                                "Layer stacking",
+                                "Keyframe transitions"
+                            ],
+                            "correctAnswer": "Smooth scrolling",
+                            "explanation": "El smooth scrolling permite que el desplazamiento a diferentes partes de la página sea fluido en lugar de un salto instantáneo."
+                        },
+                        {
+                            "text": "Quieres animar el logotipo de una empresa que es un gráfico vectorial para que no pierda calidad en ninguna pantalla. ¿Qué tipo de animaciones son ideales para este caso?",
+                            "options": [
+                                "Animaciones SVG",
+                                "Animaciones de texto plano",
+                                "Animaciones de mapa de bits",
+                                "Animaciones de fotogramas físicos"
+                            ],
+                            "correctAnswer": "Animaciones SVG",
+                            "explanation": "Las animaciones SVG permiten manipular los elementos vectoriales mediante CSS o JS manteniendo la nitidez a cualquier escala."
+                        },
+                        {
+                            "text": "Mientras la web carga sus recursos pesados, decides mostrar una pequeña animación de un círculo girando para dar retroalimentación al usuario. ¿Qué función cumple esta animación?",
+                            "options": [
+                                "Mejorar el posicionamiento SEO de la imagen",
+                                "Eliminar la necesidad de capas en la interfaz",
+                                "Brindar retroalimentación visual y ocultar el tiempo de espera",
+                                "Aumentar el ancho de banda del cliente"
+                            ],
+                            "correctAnswer": "Brindar retroalimentación visual y ocultar el tiempo de espera",
+                            "explanation": "Los indicadores de carga (loaders) comunican al usuario que el sistema está trabajando, reduciendo la incertidumbre y la sensación de espera."
+                        },
+                        {
+                            "text": "Un equipo de marketing quiere usar audio y vídeo en sus banners animados. ¿Cuál es la principal ventaja de integrar estos archivos según la UT?",
+                            "options": [
+                                "Mayor capacidad para contar historias",
+                                "Disminuir los requerimientos de hardware",
+                                "Evitar problemas de compatibilidad entre navegadores",
+                                "Facilitar el acceso a usuarios con conexiones lentas"
+                            ],
+                            "correctAnswer": "Mayor capacidad para contar historias",
+                            "explanation": "El vídeo y el audio permiten transmitir emociones y mensajes complejos de forma mucho más potente que las imágenes estáticas."
+                        },
+                        {
+                            "text": "Al planificar una animación inmersiva, el equipo discute los posibles riesgos técnicos. ¿Qué desventaja importante deben considerar respecto al consumo de datos?",
+                            "options": [
+                                "Mayor capacidad para transmitir información",
+                                "Mejora de la experiencia del usuario",
+                                "Requerimientos de ancho de banda",
+                                "Diferenciación del sitio web"
+                            ],
+                            "correctAnswer": "Requerimientos de ancho de banda",
+                            "explanation": "Los archivos multimedia pesados pueden ralentizar la carga, especialmente en dispositivos con conexiones móviles o limitadas."
+                        },
+                        {
+                            "text": "Estás utilizando una herramienta en línea para crear un vídeo explicativo con personajes animados. ¿Qué software gratuito (con limitaciones) menciona el temario para este fin?",
+                            "options": [
+                                "Animaker",
+                                "Adobe Premiere",
+                                "CSS Studio",
+                                "OpenShot"
+                            ],
+                            "correctAnswer": "Animaker",
+                            "explanation": "Animaker es una herramienta web popular que facilita la creación de vídeos animados mediante plantillas y elementos predefinidos."
+                        },
+                        {
+                            "text": "En el proceso de creación de una animación con vídeo, necesitas que este aparezca como el fondo de la escena. ¿Qué paso es fundamental realizar en el software de animación?",
+                            "options": [
+                                "Exportar el archivo como GIF antes de subirlo",
+                                "Cambiar el nombre del archivo a \"index.html\"",
+                                "Desactivar la línea de tiempo de la escena",
+                                "Seleccionar la capa de fondo y hacer clic en el vídeo cargado"
+                            ],
+                            "correctAnswer": "Seleccionar la capa de fondo y hacer clic en el vídeo cargado",
+                            "explanation": "Para asignar un vídeo como fondo se debe interactuar con la gestión de capas del lienzo de edición."
+                        },
+                        {
+                            "text": "Quieres que la música de tu animación empiece exactamente cuando el personaje salta en pantalla. ¿Qué herramienta del editor debes ajustar para lograr esta coordinación?",
+                            "options": [
+                                "La línea de tiempo",
+                                "El botón de publicar",
+                                "El panel de propiedades de color",
+                                "La pestaña de redimensionar imagen"
+                            ],
+                            "correctAnswer": "La línea de tiempo",
+                            "explanation": "La línea de tiempo permite sincronizar los diferentes elementos (imagen, audio, efectos) en el orden cronológico deseado."
+                        },
+                        {
+                            "text": "Has terminado tu proyecto de animación multimedia y necesitas entregarlo en un formato compatible con la mayoría de interfaces web. ¿Qué formatos de salida son comunes tras renderizar?",
+                            "options": [
+                                "Vídeo o GIF",
+                                ".txt o .exe",
+                                ".css o .js únicamente",
+                                ".zip o .rar"
+                            ],
+                            "correctAnswer": "Vídeo o GIF",
+                            "explanation": "El resultado final de una animación suele exportarse como un archivo de vídeo (.mp4) o una imagen animada (.gif) para su fácil integración."
+                        },
+                        {
+                            "text": "Un cliente te pide \"purgar\" su vídeo de renderización porque está tardando mucho. ¿Qué estado indica que el vídeo está esperando su procesamiento final en el servidor de la aplicación?",
+                            "options": [
+                                "Puesto en cola",
+                                "Importación de activos",
+                                "Edición de música activa",
+                                "Descargado correctamente"
+                            ],
+                            "correctAnswer": "Puesto en cola",
+                            "explanation": "Estar 'en cola' significa que el archivo está en la lista de espera para ser procesado por el servidor de renderizado."
+                        },
+                        {
+                            "text": "En el contexto del diseño de interfaces, ¿a qué se refiere técnicamente el concepto de \"efectos\"?",
+                            "options": [
+                                "Al uso exclusivo de etiquetas h1 en el código",
+                                "A la aplicación de cambios visuales para modificar la apariencia de un objeto",
+                                "A la optimización del protocolo HTTPS",
+                                "A la programación de bases de datos"
+                            ],
+                            "correctAnswer": "A la aplicación de cambios visuales para modificar la apariencia de un objeto",
+                            "explanation": "Los efectos permiten alterar la estética original de un recurso (vídeo, imagen, texto) para lograr un estilo visual concreto."
+                        },
+                        {
+                            "text": "Estás defendiendo el uso de efectos visuales ante un cliente que prefiere una web estática. ¿Qué ventaja podrías mencionar basándote en el temario?",
+                            "options": [
+                                "Aumento de la legibilidad y comprensión",
+                                "Incompatibilidad con dispositivos móviles",
+                                "Reducción de la interactividad del usuario",
+                                "Aumento del tiempo de carga"
+                            ],
+                            "correctAnswer": "Aumento de la legibilidad y comprensión",
+                            "explanation": "Los efectos visuales pueden ayudar a jerarquizar la información y a guiar la atención del usuario, mejorando la comprensión del sitio."
+                        },
+                        {
+                            "text": "Al añadir efectos complejos de iluminación y desenfoque, notas que la web tarda varios segundos más en abrirse. ¿Qué desventaja de los efectos se está manifestando?",
+                            "options": [
+                                "Mejora de la apariencia visual",
+                                "Mayor inmersión auditiva",
+                                "Diferenciación del sitio web",
+                                "Aumento del tiempo de carga"
+                            ],
+                            "correctAnswer": "Aumento del tiempo de carga",
+                            "explanation": "Los efectos que requieren procesamiento intensivo pueden penalizar el rendimiento y la velocidad de acceso al sitio."
+                        },
+                        {
+                            "text": "Quieres darle un vídeo de presentación un toque nostálgico, similar a una película de principios del siglo XX. ¿Qué efecto deberías aplicar?",
+                            "options": [
+                                "Sepia",
+                                "Chroma key",
+                                "Zoom",
+                                "Acelerar"
+                            ],
+                            "correctAnswer": "Sepia",
+                            "explanation": "El efecto sepia tiñe la imagen de tonos marrones cálidos, evocando un estilo antiguo o vintage."
+                        },
+                        {
+                            "text": "Para ocultar los detalles de un fondo que distrae del mensaje principal, decides suavizar la imagen eliminando su nitidez. ¿Qué efecto estás aplicando?",
+                            "options": [
+                                "Cámara lenta",
+                                "Blanco y negro",
+                                "Desenfocar",
+                                "Reflejar"
+                            ],
+                            "correctAnswer": "Desenfocar",
+                            "explanation": "El desenfoque (blur) reduce el detalle de ciertas áreas para resaltar otros elementos que sí están enfocados."
+                        },
+                        {
+                            "text": "En un vídeo de acción deportiva para una interfaz, necesitas que el espectador vea con detalle un movimiento muy rápido. ¿Qué efecto es el más adecuado?",
+                            "options": [
+                                "Acelerar",
+                                "Cámara lenta",
+                                "Recortar",
+                                "Iluminación"
+                            ],
+                            "correctAnswer": "Cámara lenta",
+                            "explanation": "La cámara lenta reduce la velocidad de reproducción para que el ojo humano pueda captar detalles que ocurrirían demasiado rápido normalmente."
+                        },
+                        {
+                            "text": "Necesitas eliminar las franjas negras laterales de un vídeo grabado en formato antiguo para que encaje en un contenedor moderno. ¿Qué efecto permite eliminar partes de la imagen?",
+                            "options": [
+                                "Chroma key",
+                                "Recortar",
+                                "Zoom",
+                                "Reflejar"
+                            ],
+                            "correctAnswer": "Recortar",
+                            "explanation": "Recortar (crop) permite eliminar las áreas sobrantes o no deseadas de los bordes del vídeo."
+                        },
+                        {
+                            "text": "Estás editando un tutorial y quieres simular un efecto de espejo en el que el presentador parezca estar al otro lado de la pantalla. ¿Qué efecto debes usar?",
+                            "options": [
+                                "Reflejar",
+                                "Desenfocar",
+                                "Sepia",
+                                "Iluminación"
+                            ],
+                            "correctAnswer": "Reflejar",
+                            "explanation": "El efecto de reflejo invierte la imagen horizontal o verticalmente, creando un efecto de simetría especular."
+                        },
+                        {
+                            "text": "Un profesional del vídeo necesita sustituir el fondo verde de una grabación por una imagen de una oficina tecnológica. ¿Cómo se llama técnicamente este efecto?",
+                            "options": [
+                                "Acelerar",
+                                "Zoom",
+                                "Blanco y negro",
+                                "Chroma key"
+                            ],
+                            "correctAnswer": "Chroma key",
+                            "explanation": "El Chroma key es la técnica de eliminar un color sólido (usualmente verde o azul) para hacerlo transparente y sustituirlo por otra imagen."
+                        },
+                        {
+                            "text": "Has descargado un software gratuito y de código abierto para editar tus vídeos antes de subirlos a la web. ¿Qué programa recomienda el temario para esta tarea?",
+                            "options": [
+                                "OpenShot",
+                                "Photoshop",
+                                "Animaker",
+                                "Windows Media Player"
+                            ],
+                            "correctAnswer": "OpenShot",
+                            "explanation": "OpenShot es un editor de vídeo libre y multiplataforma, ideal para tareas de edición sencillas pero potentes."
+                        },
+                        {
+                            "text": "Al trabajar en OpenShot, necesitas cambiar la luminosidad y el contraste de un clip para mejorar su calidad visual. ¿En qué pestaña del programa se encuentran estos ajustes específicos?",
+                            "options": [
+                                "Propiedades",
+                                "Proyecto nuevo",
+                                "Emoticonos",
+                                "Transiciones"
+                            ],
+                            "correctAnswer": "Propiedades",
+                            "explanation": "En el panel de propiedades se pueden ajustar los valores numéricos de efectos y transformaciones de cada clip seleccionado."
+                        },
+                        {
+                            "text": "El proceso final donde el software de edición combina todos los clips, audios y efectos en un único archivo de vídeo se denomina:",
+                            "options": [
+                                "Arrastrar",
+                                "Renderizar",
+                                "Importar",
+                                "Sincronizar"
+                            ],
+                            "correctAnswer": "Renderizar",
+                            "explanation": "Renderizar es la generación del archivo final definitivo tras aplicar todos los cambios de edición y efectos."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

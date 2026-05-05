@@ -137,9 +137,7 @@
                 "UX es solo color",
                 "Usabilidad solo en móviles"
               ],
-              "correctAnswer": 
-                "Usabilidad, eficacia/eficiencia; UX, experiencia completaa",
-              
+              "correctAnswer": "Usabilidad, eficacia/eficiencia; UX, experiencia completa",
               "explanation": "La usabilidad busca eficacia y eficiencia; la UX abarca también la satisfacción y emociones del usuario."
             },
             {
@@ -337,9 +335,7 @@
                 "meta “theme",
                 "viewport con escala inicial 2"
               ],
-              "correctAnswer": 
-                "viewport con width, device-width, initial-scale, 1.0, mobile”, phone”"
-              ,
+              "correctAnswer": "viewport con width, device-width, initial-scale, 1.0, mobile”, phone”",
               "explanation": "La metaetiqueta viewport con width=device-width e initial-scale=1.0 ajusta el contenido a pantallas móviles."
             }
           ]

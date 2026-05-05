@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 8,
+                    "title": "UT8: Experiencia de usuario (UX) y diseño centrado en el usuario (DCU)",
+                    "questions": [
+                        {
+                            "text": "Un equipo de desarrollo está diseñando una nueva aplicación bancaria. Según el enfoque de la Experiencia del Usuario (UX), ¿en qué debe centrarse principalmente el diseño para tener éxito?",
+                            "options": [
+                                "En la opinión exclusiva de los directivos de la empresa",
+                                "En las necesidades, deseos y expectativas de los usuarios",
+                                "En la reducción de costes de programación",
+                                "En el uso de las últimas tendencias de hardware"
+                            ],
+                            "correctAnswer": "En las necesidades, deseos y expectativas de los usuarios",
+                            "explanation": "La UX se centra en cómo el usuario percibe y experimenta el producto, priorizando sus necesidades para lograr una solución eficaz."
+                        },
+                        {
+                            "text": "Para asegurar una experiencia de usuario sobresaliente en un sitio web de reservas, ¿qué combinación de aspectos técnicos se deben considerar fundamentalmente?",
+                            "options": [
+                                "Usabilidad, accesibilidad, funcionalidad y rendimiento",
+                                "Bases de datos, redes locales y protocolos de seguridad",
+                                "Marketing, ventas y distribución",
+                                "Colores llamativos, música de fondo y animaciones complejas"
+                            ],
+                            "correctAnswer": "Usabilidad, accesibilidad, funcionalidad y rendimiento",
+                            "explanation": "Una buena UX requiere que el sitio sea fácil de usar, accesible para todos, cumpla su función y sea rápido."
+                        },
+                        {
+                            "text": "Una startup decide involucrar a sus clientes potenciales desde las primeras fases del diseño para recibir retroalimentación constante. ¿Cómo se denomina técnicamente esta metodología?",
+                            "options": [
+                                "Diseño orientado al programador",
+                                "Arquitectura de sistemas cerrada",
+                                "Diseño centrado en el usuario",
+                                "Evaluación post-lanzamiento"
+                            ],
+                            "correctAnswer": "Diseño centrado en el usuario",
+                            "explanation": "El DCU (UCD) es un proceso iterativo en el que los diseñadores se centran en los usuarios y sus necesidades en cada fase del diseño."
+                        },
+                        {
+                            "text": "Un consultor de UX explica que una buena experiencia de usuario puede determinar si un producto triunfa o fracasa. ¿Cuál es el propósito final de desarrollar estas soluciones según el temario?",
+                            "options": [
+                                "Proporcionar una experiencia satisfactoria y eficiente",
+                                "Reducir el tiempo de vida útil del software",
+                                "Aumentar la complejidad de la interfaz para usuarios expertos",
+                                "Sustituir la atención al cliente humana"
+                            ],
+                            "correctAnswer": "Proporcionar una experiencia satisfactoria y eficiente",
+                            "explanation": "El objetivo de la UX es crear productos que no solo funcionen, sino que sean agradables y resuelvan problemas de forma óptima."
+                        },
+                        {
+                            "text": "Estás trabajando en el rediseño de un ecommerce y aplicas el Diseño Centrado en el Usuario (DCU). ¿En qué se basa este enfoque para asegurar que el producto sea fácil de usar?",
+                            "options": [
+                                "En la empatía y comprensión profunda del usuario",
+                                "En las limitaciones técnicas del lenguaje HTML",
+                                "En la imitación de la competencia directa",
+                                "En la intuición personal del diseñador gráfico"
+                            ],
+                            "correctAnswer": "En la empatía y comprensión profunda del usuario",
+                            "explanation": "Entender quién es el usuario y qué problemas enfrenta es la base para diseñar soluciones que realmente le aporten valor."
+                        },
+                        {
+                            "text": "Al inicio de un proyecto de software médico, el equipo realiza entrevistas y encuestas para conocer los problemas de los doctores. ¿En qué etapa del proceso de DCU se encuentran?",
+                            "options": [
+                                "Investigación y comprensión del usuario",
+                                "Diseño y creación de prototipos",
+                                "Evaluación y mejora continua",
+                                "Implementación y lanzamiento"
+                            ],
+                            "correctAnswer": "Investigación y comprensión del usuario",
+                            "explanation": "La primera fase del DCU consiste en empatizar con el usuario y entender el contexto de uso mediante técnicas de investigación."
+                        },
+                        {
+                            "text": "Tras analizar los datos de una investigación, un diseñador establece objetivos medibles que abordan los deseos detectados en los usuarios. ¿Qué etapa del proceso de DCU representa esta acción?",
+                            "options": [
+                                "Definición del problema y objetivos",
+                                "Pruebas y validación con usuarios",
+                                "Generación de ideas y soluciones",
+                                "Evaluación del contexto de red"
+                            ],
+                            "correctAnswer": "Definición del problema y objetivos",
+                            "explanation": "En esta etapa se sintetiza la información para definir claramente qué se va a solucionar y cómo se medirá el éxito."
+                        },
+                        {
+                            "text": "Un equipo de diseño realiza una sesión de lluvia de ideas y crea flujos de usuario para visualizar el movimiento en la aplicación. ¿Qué entregable de baja fidelidad es común en esta etapa?",
+                            "options": [
+                                "Base de datos relacional",
+                                "Bocetos y prototipos de baja fidelidad",
+                                "Manual de usuario impreso",
+                                "Código fuente final"
+                            ],
+                            "correctAnswer": "Bocetos y prototipos de baja fidelidad",
+                            "explanation": "Los bocetos y wireframes permiten visualizar ideas rápidamente sin preocuparse por la estética, centrándose en la estructura."
+                        },
+                        {
+                            "text": "Has desarrollado un prototipo de mayor fidelidad y lo estás ajustando tras recibir comentarios del equipo de desarrollo. ¿Cuál es el siguiente paso lógico en el ciclo de DCU?",
+                            "options": [
+                                "Redacción de contratos legales",
+                                "Pruebas y validación con usuarios reales",
+                                "Eliminación de todas las etapas previas",
+                                "Lanzamiento inmediato al mercado"
+                            ],
+                            "correctAnswer": "Pruebas y validación con usuarios reales",
+                            "explanation": "Validar el diseño con usuarios reales es fundamental para detectar fallos antes de pasar a la fase final de programación."
+                        },
+                        {
+                            "text": "El proceso de Diseño Centrado en el Usuario se describe como flexible e iterativo. ¿Qué permite esta característica al equipo de diseño?",
+                            "options": [
+                                "Terminar el proyecto sin realizar evaluaciones",
+                                "Ignorar las necesidades cambiantes del mercado",
+                                "Regresar a cualquier etapa para realizar ajustes o mejoras",
+                                "Evitar la colaboración con desarrolladores"
+                            ],
+                            "correctAnswer": "Regresar a cualquier etapa para realizar ajustes o mejoras",
+                            "explanation": "La iteración permite corregir errores y refinar la solución basándose en el aprendizaje obtenido en etapas posteriores."
+                        },
+                        {
+                            "text": "Una empresa de logística necesita organizar miles de registros de envíos de forma lógica y comprensible. ¿Qué disciplina se encarga de estructurar y etiquetar este contenido?",
+                            "options": [
+                                "Programación de scripts",
+                                "Diseño de hardware",
+                                "Marketing digital",
+                                "Arquitectura de la información"
+                            ],
+                            "correctAnswer": "Arquitectura de la información",
+                            "explanation": "La AI es la disciplina que organiza y etiqueta el contenido para que los usuarios encuentren la información fácilmente."
+                        },
+                        {
+                            "text": "En una biblioteca digital, los libros se clasifican por género (ficción, no ficción) y luego por subcategorías (novela histórica, biografías). ¿Qué componente de la AI se está aplicando?",
+                            "options": [
+                                "Navegación",
+                                "Búsqueda",
+                                "Etiquetado",
+                                "Organización"
+                            ],
+                            "correctAnswer": "Organización",
+                            "explanation": "Los sistemas de organización agrupan la información en esquemas y estructuras jerárquicas o lógicas."
+                        },
+                        {
+                            "text": "Una plataforma de comercio electrónico muestra recomendaciones de productos basadas en las búsquedas anteriores del cliente. ¿Qué función de la AI define esta conexión entre las partes?",
+                            "options": [
+                                "Registro",
+                                "Estructura",
+                                "Etiquetado",
+                                "Búsqueda"
+                            ],
+                            "correctAnswer": "Estructura",
+                            "explanation": "La estructura define la forma en que las piezas de información se relacionan entre sí dentro de un sistema."
+                        },
+                        {
+                            "text": "Un portal de noticias utiliza términos como \"Política\", \"Deportes\" y \"Negocios\" para clasificar sus artículos de forma consistente. ¿A qué concepto de la arquitectura de la información se refiere?",
+                            "options": [
+                                "Navegación",
+                                "Estructura",
+                                "Etiquetado",
+                                "Jerarquía"
+                            ],
+                            "correctAnswer": "Etiquetado",
+                            "explanation": "El etiquetado (labeling) consiste en usar nombres comprensibles y consistentes para las categorías y secciones."
+                        },
+                        {
+                            "text": "Un estudiante necesita encontrar las fechas de examen en la web de su universidad. Para ello, utiliza los menús y submenús diseñados por el equipo de UX. ¿Qué componente de la AI facilita esta tarea?",
+                            "options": [
+                                "Navegación",
+                                "Organización",
+                                "Búsqueda",
+                                "Etiquetado"
+                            ],
+                            "correctAnswer": "Navegación",
+                            "explanation": "Los sistemas de navegación permiten al usuario desplazarse por el sitio y entender dónde se encuentra."
+                        },
+                        {
+                            "text": "Un investigador utiliza una base de datos científica y aplica herramientas de filtrado por autor y fecha de publicación para refinar sus resultados. ¿Qué sistema de la AI se ha diseñado en este caso?",
+                            "options": [
+                                "Sistema de etiquetado consistente",
+                                "Sistema de búsqueda eficiente",
+                                "Sistema de estructura relacional",
+                                "Sistema de organización jerárquica"
+                            ],
+                            "correctAnswer": "Sistema de búsqueda eficiente",
+                            "explanation": "Los sistemas de búsqueda y filtrado ayudan a los usuarios a localizar información específica en grandes volúmenes de datos."
+                        },
+                        {
+                            "text": "Estás diseñando el plano esquemático de una página web para mostrar la disposición de los botones y menús sin entrar en detalles estéticos. ¿Cómo se llama esta representación?",
+                            "options": [
+                                "Mapa de calor",
+                                "Código CSS final",
+                                "Prototipo de alta fidelidad",
+                                "Wireframe (plano de página)"
+                            ],
+                            "correctAnswer": "Wireframe (plano de página)",
+                            "explanation": "Un wireframe es una guía visual de baja fidelidad que representa el esqueleto de una página web o aplicación."
+                        },
+                        {
+                            "text": "Un equipo de diseño utiliza wireframes en las fases iniciales de un proyecto. ¿Cuál es uno de los objetivos principales de usar esta herramienta según el temario?",
+                            "options": [
+                                "Programar las bases de datos de la aplicación",
+                                "Establecer la jerarquía y disposición de los elementos",
+                                "Probar la velocidad de los servidores",
+                                "Crear el diseño visual definitivo con colores y texturas"
+                            ],
+                            "correctAnswer": "Establecer la jerarquía y disposición de los elementos",
+                            "explanation": "Los wireframes sirven para definir la estructura y la importancia relativa de los contenidos antes de añadir el diseño visual."
+                        },
+                        {
+                            "text": "Durante una reunión, los diseñadores y desarrolladores colaboran para identificar problemas de diseño antes de invertir recursos en modelos complejos. ¿Qué herramienta facilita esta discusión?",
+                            "options": [
+                                "Pruebas de carga",
+                                "Manuales técnicos",
+                                "Wireframes",
+                                "Scripts de JavaScript"
+                            ],
+                            "correctAnswer": "Wireframes",
+                            "explanation": "Los wireframes son excelentes herramientas de comunicación interna para alinear a todos los miembros del equipo sobre la estructura del proyecto."
+                        },
+                        {
+                            "text": "Necesitas crear un modelo interactivo que simule la experiencia final del usuario para que los inversores vean cómo funciona la aplicación. ¿Qué recurso debes desarrollar?",
+                            "options": [
+                                "Un prototipo",
+                                "Un wireframe estático",
+                                "Un esquema de base de datos",
+                                "Un diagrama de flujo"
+                            ],
+                            "correctAnswer": "Un prototipo",
+                            "explanation": "A diferencia del wireframe, un prototipo es interactivo y permite simular el uso real de la interfaz."
+                        },
+                        {
+                            "text": "Para una prueba rápida de concepto, el equipo utiliza dibujos a mano de las pantallas. ¿Cómo se clasifica este tipo de modelo?",
+                            "options": [
+                                "Prototipo de baja fidelidad",
+                                "Prototipo de alta fidelidad",
+                                "Producto mínimo viable",
+                                "Wireframe profesional"
+                            ],
+                            "correctAnswer": "Prototipo de baja fidelidad",
+                            "explanation": "Los prototipos de baja fidelidad (en papel o esqueletos) son rápidos y baratos, ideales para validar ideas iniciales."
+                        },
+                        {
+                            "text": "Quieres demostrar el flujo de la interfaz a los interesados mediante un modelo detallado y funcional muy similar al producto final. ¿Qué herramienta es la más adecuada?",
+                            "options": [
+                                "Prototipo de alta fidelidad",
+                                "Boceto digital simple",
+                                "Plano de página básico",
+                                "Dibujo a mano alzada"
+                            ],
+                            "correctAnswer": "Prototipo de alta fidelidad",
+                            "explanation": "Los prototipos de alta fidelidad incorporan diseño visual y funcionalidad avanzada, pareciéndose mucho a la versión final."
+                        },
+                        {
+                            "text": "Un diseñador web quiere evaluar la facilidad de uso de un sitio mediante la observación directa de usuarios reales. ¿Qué metodología debe aplicar?",
+                            "options": [
+                                "Análisis de competencia",
+                                "Auditoría de código",
+                                "Pruebas de usabilidad",
+                                "Test de penetración"
+                            ],
+                            "correctAnswer": "Pruebas de usabilidad",
+                            "explanation": "Las pruebas de usabilidad consisten en observar a usuarios reales mientras realizan tareas específicas con el producto."
+                        },
+                        {
+                            "text": "Antes de comenzar una prueba de usabilidad, el equipo decide evaluar si las funciones de búsqueda son efectivas. ¿En qué paso de la prueba se encuentran?",
+                            "options": [
+                                "Preparar el entorno",
+                                "Recopilar datos",
+                                "Definir los objetivos de la prueba",
+                                "Reclutar participantes"
+                            ],
+                            "correctAnswer": "Definir los objetivos de la prueba",
+                            "explanation": "El primer paso siempre es establecer qué se quiere probar y qué hipótesis se desean validar."
+                        },
+                        {
+                            "text": "Estás preparando un plan de prueba de usabilidad para una aplicación de fitness. ¿Cuál es el número recomendado de participantes para obtener resultados significativos?",
+                            "options": [
+                                "Más de 100",
+                                "Exactamente 50",
+                                "Entre 1 y 2",
+                                "Entre 5 y 10"
+                            ],
+                            "correctAnswer": "Entre 5 y 10",
+                            "explanation": "Se ha demostrado que con unos 5-8 usuarios se detectan la mayoría de los problemas de usabilidad críticos."
+                        },
+                        {
+                            "text": "Durante una sesión de prueba, pides al usuario que diga en voz alta lo que piensa mientras intenta encontrar el menú de configuración. ¿Qué técnica estás aplicando?",
+                            "options": [
+                                "Verbalización de pensamientos",
+                                "Grabación oculta",
+                                "Encuesta post-tarea",
+                                "Análisis silencioso"
+                            ],
+                            "correctAnswer": "Verbalización de pensamientos",
+                            "explanation": "La técnica 'Think Aloud' permite entender el proceso de razonamiento del usuario y dónde encuentra confusión."
+                        },
+                        {
+                            "text": "Al finalizar la interacción del usuario con el producto, registras el tiempo que ha tardado en completar la tarea y los fallos cometidos. ¿Qué estás haciendo en este paso?",
+                            "options": [
+                                "Definir escenarios",
+                                "Recopilar datos y observaciones",
+                                "Implementar mejoras",
+                                "Analizar los resultados"
+                            ],
+                            "correctAnswer": "Recopilar datos y observaciones",
+                            "explanation": "En esta fase se captura toda la información cualitativa y cuantitativa derivada de la interacción."
+                        },
+                        {
+                            "text": "Tras observar que varios participantes no encuentran el botón de \"Contacto\", el equipo identifica una tendencia en la experiencia del usuario. ¿En qué paso de la metodología de prueba están?",
+                            "options": [
+                                "Analizar los resultados",
+                                "Crear el plan de prueba",
+                                "Preparar el entorno",
+                                "Reclutar participantes"
+                            ],
+                            "correctAnswer": "Analizar los resultados",
+                            "explanation": "El análisis consiste en procesar los datos para identificar patrones de error y áreas de mejora."
+                        },
+                        {
+                            "text": "El informe de usabilidad sugiere que las etiquetas de navegación son confusas. ¿Cuál es la acción inmediata que debe tomar el diseñador?",
+                            "options": [
+                                "Implementar mejoras en el diseño",
+                                "Ignorar los comentarios subjetivos",
+                                "Lanzar el producto sin cambios",
+                                "Despedir a los participantes"
+                            ],
+                            "correctAnswer": "Implementar mejoras en el diseño",
+                            "explanation": "Los hallazgos de las pruebas de usabilidad deben usarse para refinar y mejorar el producto."
+                        },
+                        {
+                            "text": "Has realizado cambios en el diseño del menú basándote en las pruebas. ¿Cuál es el paso final recomendado para asegurar que los cambios funcionan?",
+                            "options": [
+                                "Iterar y repetir el proceso de prueba",
+                                "Aumentar el presupuesto de marketing",
+                                "Finalizar el proyecto definitivamente",
+                                "Cambiar el equipo de desarrollo"
+                            ],
+                            "correctAnswer": "Iterar y repetir el proceso de prueba",
+                            "explanation": "El DCU es iterativo; tras mejorar el producto, se debe volver a probar para validar que las soluciones aplicadas son efectivas."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

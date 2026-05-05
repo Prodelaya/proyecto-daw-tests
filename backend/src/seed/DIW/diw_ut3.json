@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 3,
+                    "title": "UT3: Multimedia y gestión de recursos",
+                    "questions": [
+                        {
+                            "text": "Una empresa de formación quiere renovar su sitio web para hacerlo más interactivo. Según la estrategia de diseño web, ¿cuál es el beneficio principal de integrar contenido multimedia como imágenes, audio y video?",
+                            "options": [
+                                "Eliminar la necesidad de utilizar lenguajes de programación",
+                                "Mejorar la experiencia del usuario y aumentar el atractivo visual",
+                                "Reducir drásticamente los costes de mantenimiento del servidor",
+                                "Garantizar que el sitio web funcione sin conexión a internet"
+                            ],
+                            "correctAnswer": "Mejorar la experiencia del usuario y aumentar el atractivo visual",
+                            "explanation": "El contenido multimedia enriquece la interfaz, facilitando la comprensión y haciendo que el sitio sea más atractivo para el usuario."
+                        },
+                        {
+                            "text": "Estás configurando el estilo visual de una nueva interfaz y decides añadir una textura sutil que se repite en la parte de atrás. ¿Cómo se define técnicamente este tipo de recurso gráfico?",
+                            "options": [
+                                "Imagen de producto de alta fidelidad",
+                                "Imagen de fondo o de patrón",
+                                "Banner publicitario interactivo",
+                                "Icono representativo de funciones"
+                            ],
+                            "correctAnswer": "Imagen de fondo o de patrón",
+                            "explanation": "Los patrones o texturas de fondo proporcionan profundidad y carácter visual a la interfaz sin distraer del contenido principal."
+                        },
+                        {
+                            "text": "Un diseñador gráfico debe elegir el formato más adecuado para el logotipo de una empresa que se mostrará en una barra de navegación. ¿Qué formato es preferible por ser escalable y tener resolución independiente?",
+                            "options": [
+                                "JPEG",
+                                "PNG",
+                                "SVG",
+                                "GIF"
+                            ],
+                            "correctAnswer": "SVG",
+                            "explanation": "SVG es un formato vectorial que permite que los gráficos se escalen a cualquier tamaño sin perder nitidez."
+                        },
+                        {
+                            "text": "Te han encargado diseñar un elemento gráfico de gran tamaño para la parte superior de la página con el fin de destacar una promoción estacional. ¿Qué componente de la interfaz estás creando?",
+                            "options": [
+                                "Icon font",
+                                "Thumbnail",
+                                "Banner",
+                                "Mapa de bits"
+                            ],
+                            "correctAnswer": "Banner",
+                            "explanation": "Un banner es un elemento visual destacado, a menudo ubicado en la parte superior, que se utiliza para promociones o anuncios importantes."
+                        },
+                        {
+                            "text": "Durante el desarrollo de una aplicación, surge una duda sobre cuánto tiempo están protegidas las obras originales tras el fallecimiento del autor. ¿Cuál es el plazo general estipulado por los derechos de autor?",
+                            "options": [
+                                "50 años",
+                                "100 años",
+                                "25 años",
+                                "70 años"
+                            ],
+                            "correctAnswer": "70 años",
+                            "explanation": "En la mayoría de legislaciones actuales, los derechos de autor protegen la obra durante la vida del autor y 70 años tras su fallecimiento."
+                        },
+                        {
+                            "text": "Un creador de contenido quiere compartir sus ilustraciones en una plataforma permitiendo que otros las usen gratuitamente bajo condiciones de atribución y no comercialización. ¿Qué tipo de licencias debería utilizar?",
+                            "options": [
+                                "Licencias de patentes comerciales",
+                                "Licencias Creative Commons",
+                                "Licencias de propiedad industrial",
+                                "Licencias de software propietario"
+                            ],
+                            "correctAnswer": "Licencias Creative Commons",
+                            "explanation": "Las licencias Creative Commons permiten a los autores compartir su trabajo de forma flexible, definiendo qué usos están permitidos."
+                        },
+                        {
+                            "text": "Aunque los derechos de autor se otorgan automáticamente al crear una obra, un desarrollador decide realizar un trámite adicional para simplificar la resolución de futuras disputas. ¿Qué proceso está llevando a cabo?",
+                            "options": [
+                                "Gestión de licencias mixtas",
+                                "Registro de contenido",
+                                "Optimización de metadatos",
+                                "Auditoría de accesibilidad"
+                            ],
+                            "correctAnswer": "Registro de contenido",
+                            "explanation": "Registrar formalmente la obra proporciona una prueba legal de autoría más sólida en caso de plagio o conflicto."
+                        },
+                        {
+                            "text": "Estás trabajando en un equipo multidisciplinar y tu tarea principal es investigar y analizar las necesidades de los usuarios para que la navegación sea intuitiva. ¿Qué rol desempeñas en esta entidad?",
+                            "options": [
+                                "Especialista en SEO",
+                                "Desarrollador front-end",
+                                "Diseñador de experiencia de usuario (UX)",
+                                "Diseñador de interfaces de usuario (UI)"
+                            ],
+                            "correctAnswer": "Diseñador de experiencia de usuario (UX)",
+                            "explanation": "El diseñador UX se centra en cómo se siente el usuario al interactuar con el producto y en asegurar que sea fácil de usar."
+                        },
+                        {
+                            "text": "Para implementar la funcionalidad y el estilo de la interfaz web, un profesional utiliza lenguajes como HTML, CSS y JavaScript. ¿En qué grupo de entidades se clasifica este trabajador?",
+                            "options": [
+                                "Desarrolladores back-end",
+                                "Desarrolladores front-end",
+                                "Gerentes de proyecto",
+                                "Expertos en accesibilidad"
+                            ],
+                            "correctAnswer": "Desarrollador front-end",
+                            "explanation": "El desarrollador front-end se encarga de la parte visual e interactiva de la web que el usuario ve y usa directamente."
+                        },
+                        {
+                            "text": "Un equipo decide adoptar el enfoque de gestión colectiva en su modelo de trabajo. ¿Cuál es el objetivo principal de coordinar y cooperar entre todas las partes involucradas?",
+                            "options": [
+                                "Sustituir las reuniones de comunicación por herramientas automáticas",
+                                "Garantizar que el código sea propiedad exclusiva de la gerencia",
+                                "Aprovechar al máximo las habilidades y conocimientos de cada miembro",
+                                "Reducir el tiempo de desarrollo eliminando las pruebas de usuario"
+                            ],
+                            "correctAnswer": "Aprovechar al máximo las habilidades y conocimientos de cada miembro",
+                            "explanation": "La gestión colectiva busca la sinergia entre los distintos expertos del equipo para obtener un resultado final superior."
+                        },
+                        {
+                            "text": "El equipo de diseño de una aplicación bancaria decide usar un sistema de tarjetas para organizar las tareas y mejorar la flexibilidad ante cambios. ¿Qué tipo de metodología ágil están aplicando?",
+                            "options": [
+                                "Waterfall (Cascada)",
+                                "Modelo en V",
+                                "Scrum o Kanban",
+                                "Programación extrema"
+                            ],
+                            "correctAnswer": "Scrum o Kanban",
+                            "explanation": "Tanto Scrum como Kanban utilizan tableros y tarjetas para gestionar el flujo de trabajo de forma iterativa y flexible."
+                        },
+                        {
+                            "text": "Al editar una fotografía compleja para una web de viajes, observas que está formada por una cuadrícula de píxeles con valores de color específicos. ¿Qué nombre técnico recibe este tipo de imagen?",
+                            "options": [
+                                "Dibujo técnico",
+                                "Imagen de mapa de bits (rasterizada)",
+                                "Imagen vectorial",
+                                "Gráfico geométrico"
+                            ],
+                            "correctAnswer": "Imagen de mapa de bits (rasterizada)",
+                            "explanation": "Las imágenes de mapa de bits (como JPG o PNG) están compuestas por una rejilla de píxeles individuales."
+                        },
+                        {
+                            "text": "Necesitas crear un esquema de ingeniería para un sitio web técnico que mantenga líneas nítidas y precisión matemática al ampliarlo. ¿Qué formato de imagen vectorial es el estándar para este uso?",
+                            "options": [
+                                "PNG",
+                                "SVG",
+                                "JPEG",
+                                "WebP"
+                            ],
+                            "correctAnswer": "SVG",
+                            "explanation": "SVG define las formas mediante coordenadas matemáticas, lo que permite escalarlas indefinidamente sin pérdida de calidad."
+                        },
+                        {
+                            "text": "Un diseñador junior necesita retocar una fotografía de equipo para eliminar el brillo del fondo. ¿Qué software de edición de imágenes de mapa de bits es el más popular y completo para esta tarea?",
+                            "options": [
+                                "Canva",
+                                "Inkscape",
+                                "Adobe Photoshop",
+                                "Adobe Illustrator"
+                            ],
+                            "correctAnswer": "Adobe Photoshop",
+                            "explanation": "Photoshop es el estándar profesional para la edición y manipulación avanzada de imágenes basadas en píxeles."
+                        },
+                        {
+                            "text": "Debes elegir un formato de imagen para una ilustración con áreas de color sólido y transparencias, priorizando que no haya pérdida de información. ¿Qué formato es el más adecuado?",
+                            "options": [
+                                "JPEG",
+                                "WebP con pérdida",
+                                "PNG",
+                                "GIF animado"
+                            ],
+                            "correctAnswer": "PNG",
+                            "explanation": "PNG es ideal para gráficos con transparencias y ofrece compresión sin pérdida de calidad."
+                        },
+                        {
+                            "text": "Un portal de noticias quiere incluir animaciones simples y gráficos con un máximo de 256 colores. ¿Qué formato de imagen es ideal para cumplir con estos requisitos específicos?",
+                            "options": [
+                                "JPEG",
+                                "GIF",
+                                "SVG",
+                                "WebP"
+                            ],
+                            "correctAnswer": "GIF",
+                            "explanation": "GIF es un formato con una paleta limitada de 256 colores, muy utilizado para animaciones cortas y sencillas en la web."
+                        },
+                        {
+                            "text": "Al optimizar la web, se propone usar un formato moderno que combine las ventajas de compresión de JPEG y las transparencias de PNG. ¿Qué formato cumple esta función?",
+                            "options": [
+                                "SVG",
+                                "WebP",
+                                "BMP",
+                                "TIFF"
+                            ],
+                            "correctAnswer": "WebP",
+                            "explanation": "WebP es un formato moderno que ofrece una calidad superior con tamaños de archivo mucho más pequeños que JPEG o PNG."
+                        },
+                        {
+                            "text": "Estás revisando los detalles técnicos de una pantalla para asegurar que las imágenes se vean nítidas. ¿Cómo se denomina la cantidad de detalle medida en píxeles por pulgada (PPI)?",
+                            "options": [
+                                "Profundidad de bits",
+                                "Tamaño de archivo",
+                                "Latencia de carga",
+                                "Resolución"
+                            ],
+                            "correctAnswer": "Resolución",
+                            "explanation": "La resolución define la densidad de píxeles, lo que determina la nitidez y el nivel de detalle de las imágenes en pantalla."
+                        },
+                        {
+                            "text": "Quieres darle un aspecto antiguo a las fotos de una galería de historia local ajustando su tonalidad. ¿Qué técnica de modificación visual debes aplicar directamente sobre la imagen?",
+                            "options": [
+                                "Efecto de paralaje",
+                                "Filtro (ej. sepia)",
+                                "Animación CSS",
+                                "Carga diferida"
+                            ],
+                            "correctAnswer": "Filtro (ej. sepia)",
+                            "explanation": "Los filtros permiten alterar los colores y tonos de una imagen para lograr efectos artísticos específicos, como el sepia o blanco y negro."
+                        },
+                        {
+                            "text": "Un desarrollador implementa una técnica donde los elementos del fondo se desplazan a diferentes velocidades para crear sensación de profundidad. ¿Cómo se llama este efecto?",
+                            "options": [
+                                "Efecto de contraste",
+                                "Efecto de iluminación",
+                                "Efecto de paralaje",
+                                "Efecto de desenfoque"
+                            ],
+                            "correctAnswer": "Efecto de paralaje",
+                            "explanation": "El efecto de paralaje (Parallax) crea una ilusión óptica de profundidad al mover diferentes capas de la web a distintas velocidades al hacer scroll."
+                        },
+                        {
+                            "text": "Para mejorar el rendimiento de un ecommerce, utilizas una herramienta para reducir el peso de los archivos PNG sin que el usuario note una pérdida visual. ¿Qué herramienta es adecuada?",
+                            "options": [
+                                "TinyPNG",
+                                "HandBrake",
+                                "Audacity",
+                                "FFmpeg"
+                            ],
+                            "correctAnswer": "TinyPNG",
+                            "explanation": "TinyPNG es una herramienta popular en línea para comprimir imágenes PNG y JPEG sin sacrificar la calidad percibida."
+                        },
+                        {
+                            "text": "Necesitas que el navegador seleccione automáticamente la mejor resolución de una imagen según la pantalla del dispositivo. ¿Qué atributos debes incluir en la etiqueta \"img\"?",
+                            "options": [
+                                "controls y autoplay",
+                                "href y alt",
+                                "srcset y sizes",
+                                "loading y async"
+                            ],
+                            "correctAnswer": "srcset y sizes",
+                            "explanation": "Srcset y sizes permiten ofrecer diferentes versiones de una imagen para que el navegador descargue la más eficiente según la pantalla."
+                        },
+                        {
+                            "text": "Una web con tráfico internacional quiere reducir la latencia al entregar imágenes a usuarios de otros continentes. ¿Qué infraestructura de servidores distribuidos debería contratar?",
+                            "options": [
+                                "Servidor de correo SMTP",
+                                "Red de entrega de contenido (CDN)",
+                                "Almacenamiento en caché local",
+                                "Servidor de base de datos SQL"
+                            ],
+                            "correctAnswer": "Red de entrega de contenido (CDN)",
+                            "explanation": "Una CDN almacena copias del contenido en servidores repartidos geográficamente para servirlos más rápido desde la ubicación más cercana al usuario."
+                        },
+                        {
+                            "text": "Para un proyecto de archivado de grabaciones de voz de máxima calidad profesional, necesitas un formato de audio sin pérdida. ¿Cuál de los siguientes es el estándar para este fin?",
+                            "options": [
+                                "OGG",
+                                "AAC",
+                                "MP3",
+                                "WAV"
+                            ],
+                            "correctAnswer": "WAV",
+                            "explanation": "WAV es un formato de audio sin compresión (o sin pérdida) que garantiza la máxima fidelidad del sonido original."
+                        },
+                        {
+                            "text": "Un servicio de streaming de música quiere optimizar la calidad de sus archivos a una tasa de bits baja, mejorando el rendimiento de MP3. ¿Qué formato es preferible para dispositivos Apple?",
+                            "options": [
+                                "WAV",
+                                "FLAC",
+                                "OGG",
+                                "AAC"
+                            ],
+                            "correctAnswer": "AAC",
+                            "explanation": "AAC (Advanced Audio Coding) ofrece mejor calidad que MP3 a la misma tasa de bits y es el estándar nativo en el ecosistema Apple."
+                        },
+                        {
+                            "text": "Estás utilizando Audacity para convertir una pista de audio. ¿Cuál es el paso final necesario para obtener el archivo MP3 tras ajustar la calidad y los metadatos?",
+                            "options": [
+                                "Hacer clic en \"Aceptar\" en la ventana de exportación",
+                                "Aplicar un filtro de iluminación al espectro",
+                                "Importar el archivo WAV nuevamente",
+                                "Cambiar la extensión del archivo manualmente en el escritorio"
+                            ],
+                            "correctAnswer": "Hacer clic en \"Aceptar\" en la ventana de exportación",
+                            "explanation": "En Audacity, para generar el archivo final se debe realizar el proceso de exportación y confirmar los parámetros de calidad."
+                        },
+                        {
+                            "text": "El proceso técnico de comprimir y transformar datos de video para facilitar su almacenamiento se conoce como:",
+                            "options": [
+                                "Codificación de video",
+                                "Diseño responsivo",
+                                "Optimización SEO",
+                                "Transcodificación de audio"
+                            ],
+                            "correctAnswer": "Codificación de video",
+                            "explanation": "La codificación aplica algoritmos de compresión (códecs) para reducir el tamaño masivo de los archivos de video crudos."
+                        },
+                        {
+                            "text": "Un desarrollador busca el formato de video más compatible con la mayoría de sistemas, reproductores y dispositivos móviles actuales. ¿Qué extensión debería elegir?",
+                            "options": [
+                                ".mkv",
+                                ".avi",
+                                ".mp4",
+                                ".mov"
+                            ],
+                            "correctAnswer": ".mp4",
+                            "explanation": "MP4 es actualmente el formato de video más universal, soportado nativamente por casi todos los dispositivos y navegadores web."
+                        },
+                        {
+                            "text": "Al preparar un video para ser insertado en una página web moderna, se recomienda un formato comprimido con pérdida ideal para navegadores. ¿Cuál es el más adecuado?",
+                            "options": [
+                                "WebM",
+                                "FLAC",
+                                "AVI",
+                                "MKV"
+                            ],
+                            "correctAnswer": "WebM",
+                            "explanation": "WebM es un formato de video libre desarrollado por Google, optimizado específicamente para su uso eficiente en la web."
+                        },
+                        {
+                            "text": "Necesitas una herramienta libre y de código abierto para realizar la transcodificación de archivos de video a diferentes formatos. ¿Qué software es el recomendado en el temario?",
+                            "options": [
+                                "Canva",
+                                "GIMP",
+                                "Adobe Premiere Pro",
+                                "HandBrake"
+                            ],
+                            "correctAnswer": "HandBrake",
+                            "explanation": "HandBrake es una herramienta de código abierto potente y versátil para convertir y comprimir archivos de video."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

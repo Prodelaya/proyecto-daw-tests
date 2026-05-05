@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 9,
+                    "title": "UT9: Marketing digital y métricas",
+                    "questions": [
+                        {
+                            "text": "Una pequeña empresa quiere promocionar sus nuevos servicios pero dispone de un presupuesto muy ajustado para anuncios pagados. ¿Qué táctica de marketing digital debería priorizar para mejorar su visibilidad de forma orgánica en los buscadores?",
+                            "options": [
+                                "Gestión de chatbots",
+                                "Email marketing",
+                                "Publicidad en redes sociales",
+                                "Optimización para motores de búsqueda (SEO)"
+                            ],
+                            "correctAnswer": "Optimización para motores de búsqueda (SEO)",
+                            "explanation": "El SEO es el proceso de optimizar un sitio web para mejorar su posición en los resultados orgánicos (gratuitos) de los buscadores."
+                        },
+                        {
+                            "text": "De acuerdo con la introducción al marketing digital, ¿cuál es el motivo principal por el cual este tipo de marketing ha cobrado una relevancia creciente para las empresas actuales?",
+                            "options": [
+                                "Porque permite eliminar la necesidad de tener un sitio web propio",
+                                "Porque sustituye por completo a la atención al cliente tradicional",
+                                "Porque es la única forma de realizar publicidad sin usar métricas",
+                                "Porque los consumidores pasan más tiempo en línea y utilizan la tecnología para comprar"
+                            ],
+                            "correctAnswer": "Porque los consumidores pasan más tiempo en línea y utilizan la tecnología para comprar",
+                            "explanation": "El cambio en los hábitos de consumo hacia lo digital obliga a las empresas a estar presentes donde están sus clientes."
+                        },
+                        {
+                            "text": "Un departamento de marketing invierte 1.000€ en una campaña de anuncios y genera un beneficio directo de 4.000€. ¿Qué métrica cuantitativa refleja este beneficio obtenido en relación con la inversión realizada?",
+                            "options": [
+                                "Tasa de conversión",
+                                "Retorno de la inversión (ROI)",
+                                "Tasa de rebote",
+                                "Tiempo en el sitio"
+                            ],
+                            "correctAnswer": "Retorno de la inversión (ROI)",
+                            "explanation": "El ROI mide la rentabilidad de una inversión comparando el beneficio obtenido con el capital invertido."
+                        },
+                        {
+                            "text": "Un creador de contenido busca que sus seguidores no solo lean sus artículos una vez, sino que se conviertan en clientes fieles y confíen en su criterio profesional. ¿Qué estrategia se centra en atraer y fidelizar mediante contenido relevante?",
+                            "options": [
+                                "Marketing de contenidos",
+                                "Gestión de redes sociales pura",
+                                "Publicidad display",
+                                "Email marketing masivo"
+                            ],
+                            "correctAnswer": "Marketing de contenidos",
+                            "explanation": "El marketing de contenidos se basa en crear y distribuir contenido valioso para atraer, adquirir y llamar la atención de un público objetivo bien definido."
+                        },
+                        {
+                            "text": "El marketing de contenidos utiliza diversos formatos para solucionar problemas o necesidades de los consumidores. ¿Cuál de los siguientes no se menciona en la UT como un formato propio de esta estrategia?",
+                            "options": [
+                                "Infografías",
+                                "Podcasts",
+                                "Ebooks y guías",
+                                "Planos técnicos de hardware de red"
+                            ],
+                            "correctAnswer": "Planos técnicos de hardware de red",
+                            "explanation": "Los planos de hardware no suelen ser piezas de marketing de contenidos, ya que tienen un fin técnico más que informativo o persuasivo para el público general."
+                        },
+                        {
+                            "text": "Estás diseñando la página de un producto y quieres maximizar las posibilidades de que el usuario se registre en ese mismo momento. ¿Cuál es la ubicación más estratégica para el llamado a la acción (CTA)?",
+                            "options": [
+                                "Oculto dentro de un menú desplegable de configuración",
+                                "En una ventana emergente que aparezca solo al cerrar la pestaña",
+                                "En un lugar visible y estratégico como la parte superior o el centro del contenido",
+                                "En el pie de página, junto a los enlaces legales"
+                            ],
+                            "correctAnswer": "En un lugar visible y estratégico como la parte superior o el centro del contenido",
+                            "explanation": "Los CTA deben estar en lugares donde el usuario no tenga que buscarlos, facilitando la conversión inmediata."
+                        },
+                        {
+                            "text": "Para que un llamado a la acción (CTA) sea realmente eficaz y el usuario comprenda qué debe hacer, ¿qué tipo de lenguaje se recomienda utilizar?",
+                            "options": [
+                                "Lenguaje literario y descriptivo de gran extensión",
+                                "Lenguaje pasivo y sugerente sin indicar una acción concreta",
+                                "Lenguaje técnico especializado y complejo",
+                                "Lenguaje claro, breve y directo con verbos imperativos"
+                            ],
+                            "correctAnswer": "Lenguaje claro, breve y directo con verbos imperativos",
+                            "explanation": "Acciones como 'Compra', 'Regístrate' o 'Suscríbete' son directas e incitan a la acción rápida."
+                        },
+                        {
+                            "text": "Un analista ha creado dos versiones de un botón: una de color rojo que dice \"Comprar ahora\" y otra de color verde que dice \"Lo quiero\". ¿Cómo se denomina el proceso para identificar cuál obtiene mejores resultados?",
+                            "options": [
+                                "Análisis de leads",
+                                "Sindicalización de contenidos",
+                                "Pruebas A/B",
+                                "Integración de chatbots"
+                            ],
+                            "correctAnswer": "Pruebas A/B",
+                            "explanation": "Las pruebas A/B consisten en comparar dos versiones de un elemento para ver cuál tiene un mejor rendimiento."
+                        },
+                        {
+                            "text": "Una tienda online de moda desea que los visitantes puedan publicar las fotos de sus productos favoritos directamente en sus perfiles personales de redes sociales. ¿Qué función de integración es la adecuada?",
+                            "options": [
+                                "Chatbots de atención al cliente",
+                                "Botones de compartir",
+                                "Estrategia de contenido cruzado",
+                                "Inicio de sesión social"
+                            ],
+                            "correctAnswer": "Botones de compartir",
+                            "explanation": "Los botones de compartir facilitan que el contenido de la web se difunda en las redes sociales de los usuarios."
+                        },
+                        {
+                            "text": "Quieres simplificar el acceso a tu plataforma web para que los nuevos usuarios no tengan que completar un formulario de registro desde cero. ¿Qué técnica permite registrarse usando cuentas de redes sociales?",
+                            "options": [
+                                "Publicidad programática",
+                                "Plugins y widgets de galerías",
+                                "Inicio de sesión social",
+                                "Feeds en vivo de noticias"
+                            ],
+                            "correctAnswer": "Inicio de sesión social",
+                            "explanation": "El Social Login permite a los usuarios autenticarse usando sus perfiles de servicios como Google o Facebook, mejorando la tasa de registro."
+                        },
+                        {
+                            "text": "Al revisar las estadísticas de tu sitio web, compruebas que un gran volumen de usuarios llega a través de enlaces colocados en blogs de terceros. ¿A qué fuente de tráfico corresponde este indicador?",
+                            "options": [
+                                "Tráfico directo",
+                                "Tráfico referido",
+                                "Tráfico orgánico",
+                                "Tráfico social"
+                            ],
+                            "correctAnswer": "Tráfico referido",
+                            "explanation": "El tráfico referido es aquel que llega a tu sitio a través de enlaces en otras páginas web."
+                        },
+                        {
+                            "text": "En el análisis de métricas, ¿qué término define al porcentaje de visitantes que completan una acción específica, como registrarse en un boletín o realizar una compra?",
+                            "options": [
+                                "Tasa de apertura",
+                                "Tasa de retención",
+                                "Tasa de conversión",
+                                "Tasa de rebote"
+                            ],
+                            "correctAnswer": "Tasa de conversión",
+                            "explanation": "La tasa de conversión mide la eficacia de un sitio para que el usuario realice el objetivo deseado."
+                        },
+                        {
+                            "text": "Observas que el 85% de los usuarios que entran en tu página de aterrizaje la abandonan inmediatamente sin interactuar con ningún otro elemento. ¿Qué métrica indica este posible problema de diseño?",
+                            "options": [
+                                "Tasa de clics (CTR) elevada",
+                                "ROI negativo",
+                                "Tiempo en el sitio prolongado",
+                                "Tasa de rebote alta"
+                            ],
+                            "correctAnswer": "Tasa de rebote alta",
+                            "explanation": "La tasa de rebote (bounce rate) indica el porcentaje de sesiones de una sola página, lo que puede señalar falta de interés o problemas de carga."
+                        },
+                        {
+                            "text": "Un gestor de contenidos nota que los visitantes pasan una media de 6 minutos en la sección de artículos de profundidad del sitio. ¿Qué interpretación puede extraer de este dato?",
+                            "options": [
+                                "Que el sitio web tarda demasiado en cargar sus recursos",
+                                "Que los usuarios no encuentran el botón de salida",
+                                "Que la tasa de conversión es necesariamente nula",
+                                "Que el contenido resulta relevante además de interesante para los visitantes"
+                            ],
+                            "correctAnswer": "Que el contenido resulta relevante además de interesante para los visitantes",
+                            "explanation": "Un tiempo de permanencia elevado suele ser un indicador positivo de la calidad y relevancia del contenido."
+                        },
+                        {
+                            "text": "Para medir la rentabilidad de una campaña de publicidad y saber cuánto dinero cuesta conseguir cada nuevo cliente potencial, ¿qué métrica se debe calcular?",
+                            "options": [
+                                "Tasa de apertura de correos",
+                                "Tasa de rebote por página",
+                                "Costo por adquisición (CPA)",
+                                "Tiempo promedio en el sitio"
+                            ],
+                            "correctAnswer": "Costo por adquisición (CPA)",
+                            "explanation": "El CPA mide cuánto se gasta en publicidad por cada conversión o cliente conseguido."
+                        },
+                        {
+                            "text": "Un usuario ve una oferta en una web que incluye el mensaje: \"Promoción válida hasta mañana a las 10:00\". ¿Qué característica de un CTA eficaz está aplicando la empresa en este caso?",
+                            "options": [
+                                "Lenguaje técnico y detallado",
+                                "Personalización extrema",
+                                "Ubicación estratégica lateral",
+                                "Sentido de urgencia o escasez"
+                            ],
+                            "correctAnswer": "Sentido de urgencia o escasez",
+                            "explanation": "Poner un límite temporal incita al usuario a decidirse rápido para no perder la oportunidad."
+                        },
+                        {
+                            "text": "El marketing de contenidos busca generar confianza en la marca mediante la distribución de material de alta calidad. ¿Cuál es su propósito principal según la unidad temática?",
+                            "options": [
+                                "Realizar ventas agresivas mediante ventanas emergentes",
+                                "Ofrecer información útil además de entretenida que solucione problemas",
+                                "Reducir la base de datos de clientes potenciales",
+                                "Eliminar el uso de palabras clave en el sitio web"
+                            ],
+                            "correctAnswer": "Ofrecer información útil además de entretenida que solucione problemas",
+                            "explanation": "A diferencia de la publicidad directa, el marketing de contenidos aporta valor antes de pedir la venta."
+                        },
+                        {
+                            "text": "Deseas que los visitantes de tu blog vean automáticamente las últimas actualizaciones de tu perfil de Twitter en una columna lateral de la web. ¿Qué método de integración debes emplear?",
+                            "options": [
+                                "Inicio de sesión social",
+                                "Botones de seguir",
+                                "Sindicalización de contenidos (feeds en vivo)",
+                                "Publicidad en redes sociales"
+                            ],
+                            "correctAnswer": "Sindicalización de contenidos (feeds en vivo)",
+                            "explanation": "Los feeds sociales permiten mostrar en tiempo real la actividad de las redes en el sitio web."
+                        },
+                        {
+                            "text": "Una empresa de servicios evalúa el número de \"me gusta\", compartidos y comentarios en sus publicaciones de Instagram. ¿Qué objetivo persigue al analizar estas métricas sociales?",
+                            "options": [
+                                "Reducir el tiempo que los usuarios pasan en la web principal",
+                                "Evaluar el nivel de compromiso y la popularidad de la marca en línea",
+                                "Calcular el retorno de la inversión en SEO técnico",
+                                "Mejorar la tasa de apertura de las campañas de email marketing"
+                            ],
+                            "correctAnswer": "Evaluar el nivel de compromiso y la popularidad de la marca en línea",
+                            "explanation": "El engagement (compromiso) mide la interacción voluntaria del público con los contenidos de la marca."
+                        },
+                        {
+                            "text": "Estás enviando un boletín informativo semanal por correo electrónico y necesitas saber qué porcentaje de usuarios ha interactuado con los enlaces del mensaje. ¿Qué métrica debes consultar?",
+                            "options": [
+                                "Tasa de rebote",
+                                "Tasa de clics",
+                                "Tasa de apertura",
+                                "Tasa de retención"
+                            ],
+                            "correctAnswer": "Tasa de clics",
+                            "explanation": "El CTR (Click Through Rate) en email marketing mide cuánta gente pinchó en los enlaces tras abrir el correo."
+                        },
+                        {
+                            "text": "Al entrar en una página de Facebook de una aerolínea, un usuario recibe una respuesta automática e inmediata a sus preguntas sobre el equipaje. ¿Qué herramienta de integración se está utilizando?",
+                            "options": [
+                                "Google Search Console",
+                                "Plugins de comentarios",
+                                "Inicio de sesión social",
+                                "Chatbots"
+                            ],
+                            "correctAnswer": "Chatbots",
+                            "explanation": "Los chatbots proporcionan atención al cliente 24/7 de forma automatizada y escalable."
+                        },
+                        {
+                            "text": "Según la UT, ¿qué herramienta es fundamental para realizar un análisis de datos efectivo y evaluar el rendimiento de un sitio web?",
+                            "options": [
+                                "HandBrake",
+                                "Adobe Premiere",
+                                "Visual Studio Code",
+                                "Google Analytics"
+                            ],
+                            "correctAnswer": "Google Analytics",
+                            "explanation": "Google Analytics es la plataforma líder para medir el tráfico, comportamiento y conversiones en la web."
+                        },
+                        {
+                            "text": "Una plataforma de suscripción detecta que muchos clientes cancelan su servicio después del primer mes. ¿Qué indicador esencial deben monitorizar para medir la fidelización?",
+                            "options": [
+                                "Tráfico social",
+                                "Tasa de apertura de emails",
+                                "Tasa de retención",
+                                "Tasa de rebote"
+                            ],
+                            "correctAnswer": "Tasa de retención",
+                            "explanation": "La tasa de retención indica qué porcentaje de clientes sigue usando el servicio a lo largo de un tiempo determinado."
+                        },
+                        {
+                            "text": "Para tu estrategia digital, publicas un resumen atractivo en tus redes sociales que redirige a los usuarios a leer el informe completo en tu sitio web. ¿Cómo se denomina esta planificación?",
+                            "options": [
+                                "Publicidad programática",
+                                "Análisis de CPA",
+                                "Estrategia de contenido cruzado",
+                                "Optimización de feeds"
+                            ],
+                            "correctAnswer": "Estrategia de contenido cruzado",
+                            "explanation": "El 'Cross Content' consiste en adaptar y distribuir contenido en diferentes plataformas para atraer tráfico a la web central."
+                        },
+                        {
+                            "text": "¿Cuál es el paso inicial necesario para desarrollar una estrategia de marketing de contenidos coherente y efectiva?",
+                            "options": [
+                                "Realizar una prueba A/B de los botones de compra",
+                                "Seleccionar los canales de distribución finales",
+                                "Crear el contenido en formatos de video y podcast",
+                                "Definición de la audiencia además de los objetivos de la estrategia"
+                            ],
+                            "correctAnswer": "Definición de la audiencia además de los objetivos de la estrategia",
+                            "explanation": "No se puede crear contenido eficaz sin saber a quién nos dirigimos y qué queremos conseguir."
+                        },
+                        {
+                            "text": "Estás navegando por una tienda de electrónica y encuentras un botón llamativo con el texto \"Registrarse\" en el centro de la página. ¿Qué elemento de marketing digital representa?",
+                            "options": [
+                                "Una métrica cuantitativa",
+                                "Un llamado a la acción (CTA)",
+                                "Un plugin de comentarios",
+                                "Un feed en vivo de redes sociales"
+                            ],
+                            "correctAnswer": "Un llamado a la acción (CTA)",
+                            "explanation": "Un CTA es cualquier elemento diseñado para provocar una respuesta inmediata del usuario."
+                        },
+                        {
+                            "text": "Un profesional del marketing está supervisando las métricas y las tácticas de las empresas rivales para identificar amenazas en el mercado. ¿Qué actividad está realizando?",
+                            "options": [
+                                "Prueba A/B de ubicación de CTA",
+                                "Análisis de la competencia",
+                                "Email marketing directo",
+                                "Optimización para motores de búsqueda"
+                            ],
+                            "correctAnswer": "Análisis de la competencia",
+                            "explanation": "Monitorizar a los rivales ayuda a entender las tendencias del mercado y a encontrar oportunidades de diferenciación."
+                        },
+                        {
+                            "text": "De acuerdo con la UT, ¿cuál es una de las ventajas de incluir palabras clave y frases relevantes dentro del marketing de contenidos?",
+                            "options": [
+                                "Mejorar la visibilidad en los motores de búsqueda",
+                                "Sustituir la necesidad de realizar publicidad en redes sociales",
+                                "Reducir la tasa de apertura de los correos electrónicos",
+                                "Aumentar el costo por adquisición (CPA)"
+                            ],
+                            "correctAnswer": "Mejorar la visibilidad en los motores de búsqueda",
+                            "explanation": "El uso estratégico de palabras clave es fundamental para el SEO, permitiendo que el contenido sea encontrado por quienes lo buscan."
+                        },
+                        {
+                            "text": "Un sitio web permite que los visitantes dejen opiniones sobre sus productos utilizando las funciones de su perfil social. ¿A qué función de integración corresponde?",
+                            "options": [
+                                "Botones de seguir",
+                                "Chatbots de respuesta rápida",
+                                "Sindicalización de contenidos",
+                                "Comentarios y reseñas"
+                            ],
+                            "correctAnswer": "Comentarios y reseñas",
+                            "explanation": "Permitir comentarios sociales aumenta la prueba social y la confianza de otros posibles compradores."
+                        },
+                        {
+                            "text": "El objetivo principal del marketing digital en la actualidad es:",
+                            "options": [
+                                "Incrementar la inversión en medios tradicionales como la televisión",
+                                "Reducir el tiempo de permanencia de los usuarios en la web",
+                                "Evitar la interacción con la marca a través de redes sociales",
+                                "Alcanzar a los consumidores en el momento y lugar adecuados"
+                            ],
+                            "correctAnswer": "Alcanzar a los consumidores en el momento y lugar adecuados",
+                            "explanation": "A diferencia del marketing tradicional, el digital permite una segmentación y personalización mucho más precisa."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

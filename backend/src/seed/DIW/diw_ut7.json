@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 7,
+                    "title": "UT7: Usabilidad y métricas",
+                    "questions": [
+                        {
+                            "text": "Un usuario accede a una tienda online y logra realizar una compra en menos de dos minutos sin necesidad de ayuda. ¿Qué concepto define esta facilidad de interacción y satisfacción según el temario?",
+                            "options": [
+                                "Diseño responsivo",
+                                "Usabilidad",
+                                "Accesibilidad universal",
+                                "Programación estructurada"
+                            ],
+                            "correctAnswer": "Usabilidad",
+                            "explanation": "La usabilidad es la medida en que un producto puede ser usado por usuarios específicos para lograr metas con efectividad, eficiencia y satisfacción."
+                        },
+                        {
+                            "text": "Durante la fase de desarrollo, la empresa contrata a tres especialistas para que evalúen el sitio basándose en principios de diseño. ¿Cómo se denomina técnicamente esta técnica de análisis?",
+                            "options": [
+                                "Eye tracking",
+                                "Análisis experto",
+                                "Prueba de guerrilla",
+                                "Card sorting"
+                            ],
+                            "correctAnswer": "Análisis experto",
+                            "explanation": "El análisis experto consiste en la evaluación de una interfaz por parte de profesionales de UX basándose en heurísticas y principios de diseño."
+                        },
+                        {
+                            "text": "El equipo de diseño necesita decidir cómo organizar las categorías del menú principal. Para ello, piden a un grupo de usuarios que agrupen tarjetas con nombres de secciones. ¿Qué método están aplicando?",
+                            "options": [
+                                "Ordenación de tarjetas (card sorting)",
+                                "Seguimiento de ojos",
+                                "Análisis de métricas",
+                                "Cuestionarios y encuestas"
+                            ],
+                            "correctAnswer": "Ordenación de tarjetas (card sorting)",
+                            "explanation": "El card sorting es una técnica para entender cómo los usuarios categorizan la información, ayudando a diseñar la arquitectura del sitio."
+                        },
+                        {
+                            "text": "Una startup lanza una página web pero los usuarios no entienden si es un blog de noticias o una plataforma de venta. ¿Qué principio fundamental para conseguir webs amigables se ha omitido?",
+                            "options": [
+                                "Consistencia interna",
+                                "Identificación del objetivo de la web",
+                                "Velocidad de conexión",
+                                "Uso de estándares externos"
+                            ],
+                            "correctAnswer": "Identificación del objetivo de la web",
+                            "explanation": "Es vital que el usuario comprenda el propósito del sitio nada más entrar para evitar confusión y abandono."
+                        },
+                        {
+                            "text": "El departamento de UX clasifica a un grupo de personas como aquellas que tienen conocimientos básicos pero necesitan orientación para tareas complejas. ¿A qué perfil de usuario pertenecen?",
+                            "options": [
+                                "Usuarios novatos",
+                                "Usuarios expertos",
+                                "Usuarios intermedios",
+                                "Usuarios avanzados"
+                            ],
+                            "correctAnswer": "Usuarios intermedios",
+                            "explanation": "Los usuarios intermedios dominan las funciones básicas pero requieren apoyo o una interfaz intuitiva para las opciones más avanzadas."
+                        },
+                        {
+                            "text": "Al diseñar un portal para personas mayores, el desarrollador aumenta el tamaño de los botones y evita destellos. ¿Qué acción de diseño está realizando específicamente?",
+                            "options": [
+                                "Identificación de métricas",
+                                "Adaptación del interfaz a los perfiles de usuario",
+                                "Aplicación de estándares CSS",
+                                "Registro en Search Console"
+                            ],
+                            "correctAnswer": "Adaptación del interfaz a los perfiles de usuario",
+                            "explanation": "Diseñar pensando en las necesidades y limitaciones específicas del público objetivo mejora drásticamente la usabilidad."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes elementos es identificado en el temario como una barrera que puede dificultar la navegación y frustrar al usuario?",
+                            "options": [
+                                "Diseño coherente",
+                                "Menús de navegación claros",
+                                "Formularios largos y complejos",
+                                "Tiempo de carga rápido"
+                            ],
+                            "correctAnswer": "Formularios largos y complejos",
+                            "explanation": "Pedir demasiada información o presentar campos confusos es una de las principales barreras de usabilidad en la web."
+                        },
+                        {
+                            "text": "Estás analizando por qué los usuarios abandonan el carrito de compra. Notas que el botón de \"pagar\" está oculto tras varios clics. ¿Qué principio de accesibilidad a la información debes mejorar?",
+                            "options": [
+                                "Información fácilmente accesible",
+                                "Estándares de red",
+                                "Identificación del color",
+                                "Uso de lenguaje técnico"
+                            ],
+                            "correctAnswer": "Información fácilmente accesible",
+                            "explanation": "Las acciones críticas deben estar visibles y requerir el mínimo número de pasos posible."
+                        },
+                        {
+                            "text": "Un usuario con una conexión de datos limitada intenta entrar en tu web, pero esta tarda 20 segundos en cargar debido a imágenes pesadas. ¿Qué factor crítico de la usabilidad se está viendo afectado?",
+                            "options": [
+                                "Tipo de usuario experto",
+                                "Velocidad de conexión",
+                                "Vocabulario adecuado",
+                                "Consistencia interna"
+                            ],
+                            "correctAnswer": "Velocidad de conexión",
+                            "explanation": "El tiempo de carga es un factor determinante de la experiencia; una carga lenta provoca frustración y pérdida de usuarios."
+                        },
+                        {
+                            "text": "Para que una web de medicina sea usable por pacientes, el equipo decide evitar tecnicismos médicos complejos en la página principal. ¿Qué principio están siguiendo?",
+                            "options": [
+                                "Navegación redescubierta",
+                                "Estándares externos",
+                                "Análisis experto",
+                                "Uso del lenguaje y vocabulario adecuado"
+                            ],
+                            "correctAnswer": "Uso del lenguaje y vocabulario adecuado",
+                            "explanation": "El lenguaje debe estar adaptado al nivel de conocimiento del usuario final para asegurar que la información se entiende."
+                        },
+                        {
+                            "text": "Un diseñador utiliza el mismo color azul para todos los enlaces y la misma tipografía en todas las secciones del sitio. ¿Cómo se denomina esta uniformidad en el diseño?",
+                            "options": [
+                                "Consistencia interna",
+                                "Navegación recordada",
+                                "Análisis de PageSpeed",
+                                "Identificación de necesidades"
+                            ],
+                            "correctAnswer": "Consistencia interna",
+                            "explanation": "La consistencia interna reduce la carga cognitiva, ya que el usuario aprende una vez cómo funciona la interfaz y lo aplica en todo el sitio."
+                        },
+                        {
+                            "text": "¿Por qué es importante el uso de estándares externos, como las pautas de accesibilidad web (WCAG), en el diseño de interfaces?",
+                            "options": [
+                                "Porque obligan a usar servidores de Google",
+                                "Porque limitan la creatividad del diseñador",
+                                "Porque aseguran que el sitio sea accesible para personas con discapacidad",
+                                "Porque aumentan el coste del proyecto"
+                            ],
+                            "correctAnswer": "Porque aseguran que el sitio sea accesible para personas con discapacidad",
+                            "explanation": "Seguir estándares universales garantiza que la web sea usable por el mayor número de personas posible, incluyendo aquellas con discapacidad."
+                        },
+                        {
+                            "text": "Un usuario entra en una web después de seis meses y recuerda perfectamente dónde está el botón de contacto sin tener que explorar. ¿Qué tipo de navegación está experimentando?",
+                            "options": [
+                                "Navegación compleja",
+                                "Navegación asistida",
+                                "Navegación fácilmente recordada",
+                                "Navegación redescubierta"
+                            ],
+                            "correctAnswer": "Navegación fácilmente recordada",
+                            "explanation": "Una buena estructura lógica permite que el usuario retenga la ubicación de los elementos clave incluso tras periodos de inactividad."
+                        },
+                        {
+                            "text": "¿Qué característica define a la \"navegación redescubierta\" según el contenido de la unidad temática?",
+                            "options": [
+                                "Se basa en el uso de menús desplegables",
+                                "Es la navegación más eficiente para expertos",
+                                "El usuario debe explorar nuevamente el sitio para encontrar lo que busca",
+                                "El usuario recuerda la estructura por su uso frecuente"
+                            ],
+                            "correctAnswer": "El usuario debe explorar nuevamente el sitio para encontrar lo que busca",
+                            "explanation": "Ocurre cuando la interfaz es confusa o inconsistente, obligando al usuario a aprender la navegación cada vez que entra."
+                        },
+                        {
+                            "text": "Para facilitar que el usuario sepa siempre dónde se encuentra dentro del sitio, decides incluir una barra de \"migas de pan\". ¿Qué aspecto de la navegación estás optimizando?",
+                            "options": [
+                                "Facilidad de navegación en la web",
+                                "Análisis de Lighthouse",
+                                "Identificación de perfiles",
+                                "Velocidad de conexión"
+                            ],
+                            "correctAnswer": "Facilidad de navegación en la web",
+                            "explanation": "Las migas de pan (breadcrumbs) ayudan al usuario a situarse jerárquicamente y a volver atrás fácilmente."
+                        },
+                        {
+                            "text": "Necesitas supervisar cómo Google ve tu sitio web y recibir alertas sobre errores de indexación. ¿Qué herramienta gratuita debes utilizar?",
+                            "options": [
+                                "Eye tracking",
+                                "GTmetrix",
+                                "Google Search Console",
+                                "PageSpeed Insights"
+                            ],
+                            "correctAnswer": "Google Search Console",
+                            "explanation": "Search Console es la herramienta de Google para webmasters que permite monitorizar el estado de indexación y salud del sitio."
+                        },
+                        {
+                            "text": "Al ejecutar un análisis automático, la herramienta te devuelve una puntuación sobre rendimiento, accesibilidad y mejores prácticas. ¿Qué software de código abierto estás empleando?",
+                            "options": [
+                                "GTmetrix",
+                                "Card sorting",
+                                "Search Console",
+                                "Lighthouse"
+                            ],
+                            "correctAnswer": "Lighthouse",
+                            "explanation": "Lighthouse realiza auditorías automatizadas sobre rendimiento, accesibilidad y SEO, proporcionando informes detallados de mejora."
+                        },
+                        {
+                            "text": "Un desarrollador quiere saber específicamente cómo optimizar el tiempo de carga de una URL en dispositivos móviles. ¿Qué herramienta de Google es la más especializada para esto?",
+                            "options": [
+                                "Search Console",
+                                "Análisis experto",
+                                "Cuestionarios",
+                                "PageSpeed Insights"
+                            ],
+                            "correctAnswer": "PageSpeed Insights",
+                            "explanation": "PageSpeed Insights analiza el rendimiento de carga y sugiere cambios técnicos para acelerar la web en móviles y escritorio."
+                        },
+                        {
+                            "text": "Estás utilizando una herramienta que te permite ver una \"cascada\" (waterfall) de carga de todos los recursos de tu web. ¿Qué herramienta proporciona este informe detallado?",
+                            "options": [
+                                "GTmetrix",
+                                "Lighthouse",
+                                "PageSpeed Insights",
+                                "Search Console"
+                            ],
+                            "correctAnswer": "GTmetrix",
+                            "explanation": "GTmetrix ofrece un desglose visual (waterfall) del proceso de carga, permitiendo identificar qué archivos tardan más en descargarse."
+                        },
+                        {
+                            "text": "¿Cuál es el primer paso indicado en el temario para realizar un análisis de rendimiento con GTmetrix?",
+                            "options": [
+                                "Realizar un card sorting previo",
+                                "Ingresar la URL del sitio web en el cuadro de búsqueda",
+                                "Registrarse en Search Console",
+                                "Contratar a un experto en usabilidad"
+                            ],
+                            "correctAnswer": "Ingresar la URL del sitio web en el cuadro de búsqueda",
+                            "explanation": "Para iniciar cualquier análisis en GTmetrix, basta con introducir la dirección URL que se desea auditar."
+                        },
+                        {
+                            "text": "Al navegar por una web, un usuario nota que el menú cambia de lugar en cada página. ¿Qué principio de usabilidad se está rompiendo?",
+                            "options": [
+                                "Velocidad de conexión",
+                                "Uso de estándares externos",
+                                "Identificación de objetivos",
+                                "Consistencia interna"
+                            ],
+                            "correctAnswer": "Consistencia interna",
+                            "explanation": "La ubicación de los elementos de navegación debe mantenerse constante para no desorientar al usuario."
+                        },
+                        {
+                            "text": "Según el temario, ¿qué permiten identificar las herramientas para la medida de la usabilidad y el rendimiento?",
+                            "options": [
+                                "El lenguaje de programación preferido del usuario",
+                                "El nombre de los usuarios que visitan la web",
+                                "Problemas de rendimiento y oportunidades de optimización",
+                                "La ubicación física exacta de los servidores"
+                            ],
+                            "correctAnswer": "Problemas de rendimiento y oportunidades de optimización",
+                            "explanation": "Estas herramientas sirven para detectar fallos técnicos o de diseño que lastran la experiencia y proponer soluciones."
+                        },
+                        {
+                            "text": "Un usuario \"novato\" entra en tu plataforma. Según el temario, ¿qué característica de diseño le ayudaría más?",
+                            "options": [
+                                "Una interfaz compleja con muchas opciones",
+                                "Atajos de teclado avanzados",
+                                "Una interfaz intuitiva y fácil de usar",
+                                "Un lenguaje técnico muy preciso"
+                            ],
+                            "correctAnswer": "Una interfaz intuitiva y fácil de usar",
+                            "explanation": "Los usuarios novatos necesitan interfaces que los guíen de forma sencilla y sin complicaciones técnicas."
+                        },
+                        {
+                            "text": "¿Qué técnica de usabilidad utiliza tecnología para rastrear el movimiento de los ojos de los usuarios mientras miran la pantalla?",
+                            "options": [
+                                "Ordenación de tarjetas",
+                                "Análisis experto",
+                                "Seguimiento de ojos (eye tracking)",
+                                "Cuestionarios"
+                            ],
+                            "correctAnswer": "Seguimiento de ojos (eye tracking)",
+                            "explanation": "El eye-tracking permite saber qué zonas de la web atraen más la atención visual y cuáles son ignoradas."
+                        },
+                        {
+                            "text": "Estás diseñando la estructura de información de un nuevo ecommerce. ¿Qué método de análisis te ayudaría a saber si las categorías \"Hogar\" y \"Muebles\" son claras para el cliente?",
+                            "options": [
+                                "Lighthouse",
+                                "Search Console",
+                                "PageSpeed Insights",
+                                "Ordenación de tarjetas (card sorting)"
+                            ],
+                            "correctAnswer": "Ordenación de tarjetas (card sorting)",
+                            "explanation": "El card sorting es ideal para validar si la jerarquía y el etiquetado de la información coinciden con el modelo mental del usuario."
+                        },
+                        {
+                            "text": "El temario menciona que las \"migas de pan\" (breadcrumbs) son útiles para:",
+                            "options": [
+                                "Aumentar el peso de la página",
+                                "Mejorar la calidad de las imágenes",
+                                "Mostrar la ubicación del usuario en la jerarquía del sitio",
+                                "Realizar encuestas de satisfacción"
+                            ],
+                            "correctAnswer": "Mostrar la ubicación del usuario en la jerarquía del sitio",
+                            "explanation": "Las migas de pan orientan al usuario sobre el camino recorrido y su posición actual dentro de la estructura web."
+                        },
+                        {
+                            "text": "¿Cuál es la principal ventaja de realizar pruebas con usuarios reales observando su interacción?",
+                            "options": [
+                                "Permite identificar problemas de usabilidad que no son evidentes para los diseñadores",
+                                "Sustituye por completo la necesidad de herramientas automáticas",
+                                "Permite vender el producto directamente al usuario",
+                                "Es la técnica más rápida y barata"
+                            ],
+                            "correctAnswer": "Permite identificar problemas de usabilidad que no son evidentes para los diseñadores",
+                            "explanation": "Observar a un usuario real revela frustraciones y cuellos de botella que los desarrolladores podrían pasar por alto por su familiaridad con el sistema."
+                        },
+                        {
+                            "text": "Tienes una web que carga muchas fuentes y scripts externos. ¿En qué sección de GTmetrix podrías ver el impacto de cada uno en el tiempo de carga?",
+                            "options": [
+                                "Gráfico de cascada (Waterfall)",
+                                "Tabla de perfiles",
+                                "Sección de objetivos",
+                                "Puntuación Performance"
+                            ],
+                            "correctAnswer": "Gráfico de cascada (Waterfall)",
+                            "explanation": "El gráfico de cascada muestra cronológicamente cuándo descarga cada recurso, permitiendo ver retrasos causados por fuentes o scripts pesados."
+                        },
+                        {
+                            "text": "Un sitio web que utiliza un lenguaje demasiado técnico para un público general está ignorando:",
+                            "options": [
+                                "Velocidad de conexión",
+                                "Concepto de usabilidad",
+                                "Importancia de estándares externos",
+                                "Uso del lenguaje y vocabulario adecuado"
+                            ],
+                            "correctAnswer": "Uso del lenguaje y vocabulario adecuado",
+                            "explanation": "Para que un sitio sea usable, el vocabulario debe coincidir con el de su audiencia para evitar malentendidos."
+                        },
+                        {
+                            "text": "Tras completar un análisis con Lighthouse, la herramienta sugiere \"eliminar recursos que bloqueen el renderizado\". ¿A qué categoría de mejora pertenece esto?",
+                            "options": [
+                                "Rendimiento (Performance)",
+                                "Mejores prácticas",
+                                "SEO",
+                                "Accesibilidad"
+                            ],
+                            "correctAnswer": "Rendimiento (Performance)",
+                            "explanation": "Cualquier sugerencia sobre procesos de carga y renderizado está enfocada a mejorar el rendimiento y velocidad del sitio."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

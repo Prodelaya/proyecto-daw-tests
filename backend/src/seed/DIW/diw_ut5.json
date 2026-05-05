@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 5,
+                    "title": "UT5: Componentes y elementos de la interfaz",
+                    "questions": [
+                        {
+                            "text": "Un diseñador web está planificando una página donde los usuarios deben realizar acciones específicas como enviar datos o navegar. Según el temario, ¿qué tipo de elementos permiten este cambio cuando el usuario trabaja con ellos?",
+                            "options": [
+                                "Metadatos del encabezado",
+                                "Elementos estáticos de texto",
+                                "Imágenes de fondo fijas",
+                                "Elementos interactivos"
+                            ],
+                            "correctAnswer": "Elementos interactivos",
+                            "explanation": "Los elementos interactivos son aquellos que reaccionan a las acciones del usuario, permitiendo la comunicación bidireccional."
+                        },
+                        {
+                            "text": "Al diseñar un formulario de registro, necesitas incluir campos donde el usuario pueda ingresar su nombre y correo. ¿Cuál es el nombre técnico de este componente básico de la interfaz?",
+                            "options": [
+                                "Hipervínculo dinámico",
+                                "Formulario",
+                                "Contenido incrustado externo",
+                                "Menú desplegable optimizado"
+                            ],
+                            "correctAnswer": "Formulario",
+                            "explanation": "Un formulario es el componente que agrupa campos de entrada para recolectar información del usuario."
+                        },
+                        {
+                            "text": "Estás optimizando el espacio en pantalla de una aplicación móvil y necesitas que el usuario elija una opción de una lista sin ocupar mucho sitio. ¿Qué etiqueta HTML es la adecuada para este propósito?",
+                            "options": [
+                                "select",
+                                "button",
+                                "iframe",
+                                "video"
+                            ],
+                            "correctAnswer": "select",
+                            "explanation": "La etiqueta <select> crea una lista desplegable que ahorra espacio visual mientras ofrece múltiples opciones."
+                        },
+                        {
+                            "text": "Un usuario hace clic en un texto subrayado de color azul para saltar a un dominio externo de la empresa. ¿Qué elemento interactivo básico ha utilizado para navegar a otra página?",
+                            "options": [
+                                "Mapa interactivo avanzado",
+                                "Hipervínculo",
+                                "Atributo autofocus",
+                                "Script de alerta"
+                            ],
+                            "correctAnswer": "Hipervínculo",
+                            "explanation": "Los hipervínculos (o enlaces) son la base de la navegación web, permitiendo conectar diferentes documentos o recursos."
+                        },
+                        {
+                            "text": "Para mejorar la comprensión de un artículo técnico sobre astronomía, decides insertar un gráfico que ilustre el sistema solar. Según la definición de elementos básicos, ¿qué función cumple este recurso?",
+                            "options": [
+                                "Permitir la interacción táctil en móviles",
+                                "Ejecutar secuencias de comandos en segundo plano",
+                                "Reducir la latencia de carga del servidor",
+                                "Añadir color, ilustrar o mejorar la comprensión"
+                            ],
+                            "correctAnswer": "Añadir color, ilustrar o mejorar la comprensión",
+                            "explanation": "Las imágenes y gráficos actúan como apoyo visual que facilita la interpretación de la información textual."
+                        },
+                        {
+                            "text": "Un portal de noticias quiere incluir una entrevista grabada en audio. ¿Qué atributo debes añadir a la etiqueta correspondiente para que el usuario pueda ver el botón de reproducción y pausa?",
+                            "options": [
+                                "autoplay",
+                                "src",
+                                "controls",
+                                "loop"
+                            ],
+                            "correctAnswer": "controls",
+                            "explanation": "El atributo 'controls' muestra la interfaz nativa del navegador para gestionar la reproducción multimedia."
+                        },
+                        {
+                            "text": "Estás insertando un vídeo tutorial en una página web y quieres asegurar que el usuario tenga el control de la reproducción. ¿Qué ocurre si el navegador del usuario es muy antiguo y no soporta la etiqueta de vídeo?",
+                            "options": [
+                                "El navegador descargará el archivo de vídeo sin permiso",
+                                "Se mostrará el texto que hayamos incluido dentro de la etiqueta",
+                                "Se ejecutará una alerta de JavaScript obligatoria",
+                                "La página web se cierra automáticamente"
+                            ],
+                            "correctAnswer": "Se mostrará el texto que hayamos incluido dentro de la etiqueta",
+                            "explanation": "El contenido dentro de las etiquetas <video> o <audio> sirve como respaldo (fallback) para navegadores sin soporte."
+                        },
+                        {
+                            "text": "Necesitas incrustar una presentación de diapositivas de una plataforma externa en tu sitio. ¿Qué elemento HTML es el estándar para embeber contenido desde otra fuente?",
+                            "options": [
+                                "iframe",
+                                "textarea",
+                                "audio",
+                                "source"
+                            ],
+                            "correctAnswer": "iframe",
+                            "explanation": "El <iframe> permite mostrar un documento HTML completo dentro de otro, facilitando la integración de servicios externos."
+                        },
+                        {
+                            "text": "Al configurar un vídeo de YouTube dentro de tu web, quieres que el usuario pueda verlo ocupando toda la pantalla del monitor. ¿Qué atributo booleano debes incluir en el código de inserción?",
+                            "options": [
+                                "allowfullscreen",
+                                "width",
+                                "height",
+                                "frameborder"
+                            ],
+                            "correctAnswer": "allowfullscreen",
+                            "explanation": "Allowfullscreen es el atributo que habilita la capacidad de ampliar el contenido incrustado a pantalla completa."
+                        },
+                        {
+                            "text": "Estás diseñando una interfaz avanzada donde los elementos responden al usuario con transiciones fluidas al pasar de una página a otra. ¿En qué categoría de componentes se clasifican estos efectos?",
+                            "options": [
+                                "Elementos básicos de navegación",
+                                "Atributos de solo lectura",
+                                "Animaciones",
+                                "Formularios de entrada"
+                            ],
+                            "correctAnswer": "Animaciones",
+                            "explanation": "Las animaciones son cambios dinámicos en las propiedades de los elementos que mejoran la sensación de interactividad."
+                        },
+                        {
+                            "text": "Una aplicación de gestión de proyectos permite a los usuarios mover tarjetas de tareas de una columna a otra con el ratón. ¿Qué tipo de componente avanzado se está implementando?",
+                            "options": [
+                                "Mapa interactivo estático",
+                                "Elemento arrastrable",
+                                "Formulario de envío masivo",
+                                "Desplazamiento infinito"
+                            ],
+                            "correctAnswer": "Elemento arrastrable",
+                            "explanation": "Los elementos arrastrables (drag and drop) permiten una manipulación directa e intuitiva de los objetos en la interfaz."
+                        },
+                        {
+                            "text": "Al diseñar una red social, el equipo decide que los nuevos artículos se carguen automáticamente a medida que el usuario baja en la página. ¿Cómo se denomina técnicamente este comportamiento?",
+                            "options": [
+                                "Cambio de propiedad title",
+                                "Animación por fotogramas",
+                                "Desplazamiento infinito",
+                                "Comportamiento onclick"
+                            ],
+                            "correctAnswer": "Desplazamiento infinito",
+                            "explanation": "El infinite scroll carga contenido conforme el usuario llega al final de la página, eliminando la necesidad de paginar manualmente."
+                        },
+                        {
+                            "text": "Un diseñador quiere que el cursor de texto se sitúe automáticamente en el campo \"Nombre\" nada más entrar en la web. ¿Qué atributo interactivo común debe utilizar en el código HTML?",
+                            "options": [
+                                "required",
+                                "autofocus",
+                                "disabled",
+                                "draggable"
+                            ],
+                            "correctAnswer": "autofocus",
+                            "explanation": "El atributo autofocus pone el foco del teclado en un elemento específico nada más cargar la página."
+                        },
+                        {
+                            "text": "Por motivos de seguridad, necesitas que un campo del formulario muestre un valor fijo que el usuario no pueda cambiar bajo ningún concepto. ¿Qué atributo es el indicado?",
+                            "options": [
+                                "tabindex",
+                                "draggable",
+                                "autofocus",
+                                "readonly"
+                            ],
+                            "correctAnswer": "readonly",
+                            "explanation": "Readonly permite que el usuario vea el valor y lo envíe con el formulario, pero impide que pueda editarlo."
+                        },
+                        {
+                            "text": "Un usuario está navegando por tu sitio web utilizando únicamente el teclado. ¿Qué atributo determina el orden en el que se moverá el foco al pulsar la tecla de tabulación?",
+                            "options": [
+                                "onmousedown",
+                                "tabindex",
+                                "onclick",
+                                "onwheel"
+                            ],
+                            "correctAnswer": "tabindex",
+                            "explanation": "Tabindex define la secuencia de navegación mediante el teclado, esencial para la accesibilidad."
+                        },
+                        {
+                            "text": "Estás adaptando una web para que se vea correctamente en teléfonos móviles. ¿Qué decisión de diseño es fundamental para facilitar la interacción táctil según el temario?",
+                            "options": [
+                                "Hacer que los elementos interactivos sean más grandes",
+                                "Ocultar todos los botones de la página",
+                                "Impedir la navegación con el teclado",
+                                "Utilizar exclusivamente audio de fondo"
+                            ],
+                            "correctAnswer": "Hacer que los elementos interactivos sean más grandes",
+                            "explanation": "En pantallas táctiles, los botones deben tener un tamaño suficiente para ser pulsados fácilmente con el dedo (objetivos táctiles)."
+                        },
+                        {
+                            "text": "Como experto en accesibilidad, te piden que mejores la navegación para personas con discapacidades motrices. ¿Qué recomendación del temario deberías aplicar en los elementos interactivos?",
+                            "options": [
+                                "Ofrecer alternativas de teclado para la navegación",
+                                "Configurar todos los elementos como ocultos por defecto",
+                                "Eliminar los cambios de color en los botones",
+                                "Usar colores de bajo contraste para no distraer"
+                            ],
+                            "correctAnswer": "Ofrecer alternativas de teclado para la navegación",
+                            "explanation": "Garantizar que todo sea operable vía teclado es un pilar básico de la accesibilidad para usuarios que no pueden usar el ratón."
+                        },
+                        {
+                            "text": "Un cliente se queja de que su página tarda mucho en cargar debido a que tiene muchos vídeos y mapas. ¿Qué técnica de optimización de rendimiento se menciona en la unidad para solucionar esto?",
+                            "options": [
+                                "Carga diferida",
+                                "Aumento del tamaño de los archivos multimedia",
+                                "Uso masivo de scripts en el encabezado",
+                                "Desactivar el diseño adaptable"
+                            ],
+                            "correctAnswer": "Carga diferida",
+                            "explanation": "La carga diferida (lazy loading) pospone la descarga de recursos pesados hasta que el usuario los necesita realmente (cuando aparecen en pantalla)."
+                        },
+                        {
+                            "text": "Quieres añadir una pequeña nota aclaratoria que aparezca solo cuando el usuario deje el cursor sobre un botón de \"Ayuda\". ¿Qué atributo de HTML permite esta funcionalidad?",
+                            "options": [
+                                "title",
+                                "class",
+                                "id",
+                                "type"
+                            ],
+                            "correctAnswer": "title",
+                            "explanation": "El atributo title muestra una descripción breve (tooltip) cuando el usuario sitúa el cursor sobre el elemento."
+                        },
+                        {
+                            "text": "Un desarrollador necesita que un botón cambie su color de fondo a azul y el texto a blanco de forma permanente en su diseño. ¿Qué lenguaje debe utilizar para definir estas reglas de estilo?",
+                            "options": [
+                                "SQL",
+                                "XML",
+                                "HTML puro",
+                                "CSS"
+                            ],
+                            "correctAnswer": "CSS",
+                            "explanation": "CSS es el lenguaje encargado de definir la apariencia visual y el estilo de los documentos HTML."
+                        },
+                        {
+                            "text": "Necesitas que un botón se vuelva de color verde solo mientras el usuario tiene el cursor encima, y que recupere su color original al quitarlo. ¿Qué lenguaje permite este cambio dinámico basado en eventos?",
+                            "options": [
+                                "HTML5",
+                                "JavaScript",
+                                "PHP",
+                                "CSS inline"
+                            ],
+                            "correctAnswer": "JavaScript",
+                            "explanation": "Aunque CSS permite estados :hover básicos, JavaScript es necesario para una lógica interactiva compleja basada en eventos."
+                        },
+                        {
+                            "text": "Durante el desarrollo de una web, el equipo discute sobre el proceso de interpretar y ejecutar código en el navegador. ¿Cuál es la definición técnica de este proceso?",
+                            "options": [
+                                "Ejecución de secuencias de comandos (scripting)",
+                                "Compilación estática",
+                                "Optimización de imágenes",
+                                "Maquetación de interfaces"
+                            ],
+                            "correctAnswer": "Ejecución de secuencias de comandos (scripting)",
+                            "explanation": "El scripting se refiere al uso de programas pequeños (scripts) que el navegador ejecuta para añadir funciones dinámicas."
+                        },
+                        {
+                            "text": "Quieres que aparezca un mensaje de \"¡Hola mundo!\" en el navegador del usuario en cuanto se termine de cargar el archivo HTML. ¿En qué etiqueta debes incluir el código de alerta?",
+                            "options": [
+                                "button",
+                                "iframe",
+                                "label",
+                                "script"
+                            ],
+                            "correctAnswer": "script",
+                            "explanation": "La etiqueta <script> contiene o vincula el código JavaScript que el navegador ejecuta."
+                        },
+                        {
+                            "text": "Para mantener un código limpio y organizado, decides que las funciones de validación de tu formulario no estén en el HTML, sino en un archivo separado. ¿Qué atributo de la etiqueta script permite vincular este archivo?",
+                            "options": [
+                                "alt",
+                                "href",
+                                "src",
+                                "value"
+                            ],
+                            "correctAnswer": "src",
+                            "explanation": "El atributo src (source) señala la ruta del archivo .js externo que contiene el código."
+                        },
+                        {
+                            "text": "Necesitas que se ejecute una función específica solo cuando el usuario haga clic físicamente en un botón determinado. ¿Cómo se denominan estas acciones en el desarrollo con scripts?",
+                            "options": [
+                                "Etiquetas de metadatos",
+                                "Secuencias de carga diferida",
+                                "Controladores de eventos",
+                                "Propiedades de solo lectura"
+                            ],
+                            "correctAnswer": "Controladores de eventos",
+                            "explanation": "Los manejadores o controladores de eventos (como onclick) capturan la interacción del usuario y disparan una acción en respuesta."
+                        },
+                        {
+                            "text": "Al preparar los archivos multimedia para la web, el departamento técnico recomienda ciertos formatos para no afectar al rendimiento. ¿Cuál es el objetivo principal de esta recomendación?",
+                            "options": [
+                                "Impedir que el usuario pueda descargar el contenido",
+                                "Reducir el tamaño del archivo sin comprometer la calidad",
+                                "Aumentar la resolución de las animaciones",
+                                "Forzar la reproducción automática en todos los casos"
+                            ],
+                            "correctAnswer": "Reducir el tamaño del archivo sin comprometer la calidad",
+                            "explanation": "La optimización busca un equilibrio entre una buena apariencia visual y un tamaño de archivo ligero para una carga rápida."
+                        },
+                        {
+                            "text": "Estás diseñando una galería de imágenes para usuarios con discapacidad visual que utilizan lectores de pantalla. ¿Qué acción es esencial para que la página sea accesible?",
+                            "options": [
+                                "Usar scripts que bloqueen el teclado",
+                                "Eliminar todas las imágenes de la interfaz",
+                                "Poner música de fondo muy alta",
+                                "Ofrecer alternativas textuales describiendo la acción"
+                            ],
+                            "correctAnswer": "Ofrecer alternativas textuales describiendo la acción",
+                            "explanation": "El atributo 'alt' y las descripciones textuales permiten que los lectores de pantalla expliquen el contenido visual a los usuarios ciegos."
+                        },
+                        {
+                            "text": "Un desarrollador olvida con frecuencia que el usuario tiene la última palabra sobre el contenido multimedia de la página. ¿Qué entidad ofrece opciones para activar o desactivar este contenido según las preferencias del usuario?",
+                            "options": [
+                                "La tarjeta gráfica del ordenador",
+                                "La base de datos del sitio",
+                                "Los navegadores",
+                                "El sistema operativo del servidor"
+                            ],
+                            "correctAnswer": "Los navegadores",
+                            "explanation": "Los navegadores permiten a los usuarios configurar sus preferencias de privacidad, seguridad y reproducción de medios."
+                        },
+                        {
+                            "text": "Un usuario de Microsoft Edge quiere gestionar los permisos de los sitios para que los vídeos no se reproduzcan solos. ¿A qué sección del menú de configuración debe dirigirse después de pulsar los tres puntos?",
+                            "options": [
+                                "Historial de navegación",
+                                "Apariencia del tema oscuro",
+                                "Cookies y permisos del sitio",
+                                "Administrar cuenta personal"
+                            ],
+                            "correctAnswer": "Cookies y permisos del sitio",
+                            "explanation": "En esta sección se centralizan todos los ajustes relacionados con cómo los sitios web pueden interactuar con el dispositivo."
+                        },
+                        {
+                            "text": "Quieres explicarle a una persona con sensibilidad visual cómo evitar que el contenido multimedia se inicie sin su permiso en Edge. ¿Qué sección específica de la configuración debe buscar al final del proceso?",
+                            "options": [
+                                "Zoom de página",
+                                "Guardar contraseñas automáticamente",
+                                "Reproducción automática de contenido multimedia",
+                                "Importar datos del explorador"
+                            ],
+                            "correctAnswer": "Reproducción automática de contenido multimedia",
+                            "explanation": "Este ajuste permite bloquear o limitar que los vídeos y audios se activen de forma espontánea al cargar la web."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

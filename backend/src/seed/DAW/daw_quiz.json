@@ -1,0 +1,126 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 8,
+                    "title": "PREGUNTAS PROFESOR",
+                    "questions": [
+                        {
+                            "text": "¿Qué archivo del sistema se modifica para que el dominio inventario.local apunte a la IP local?",
+                            "options": [
+                                "httpd.conf",
+                                "my.ini",
+                                "hosts",
+                                "php.ini"
+                            ],
+                            "correctAnswer": "hosts",
+                            "explanation": "Para que inventario.local resuelva en tu equipo, se edita el archivo hosts del sistema y se apunta a 127.0.0.1 (o a la IP que toque)."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad principal de configurar un Virtual Host en Apache?",
+                            "options": [
+                                "Aumentar la velocidad del procesador",
+                                "Permitir múltiples dominios con configuraciones independientes en un mismo servidor",
+                                "Sustituir el archivo .htaccess",
+                                "Crear automáticamente bases de datos"
+                            ],
+                            "correctAnswer": "Permitir múltiples dominios con configuraciones independientes en un mismo servidor",
+                            "explanation": "Un Virtual Host te permite servir distintos sitios/dominios con DocumentRoot y directivas propias en el mismo Apache."
+                        },
+                        {
+                            "text": "Si no se descomenta la inclusión de httpd-vhosts.conf en httpd.conf, ¿qué ocurrirá?",
+                            "options": [
+                                "Apache no iniciará",
+                                "El certificado SSL dejará de funcionar",
+                                "El host virtual no se cargará correctamente",
+                                "Se bloqueará el acceso a MySQL"
+                            ],
+                            "correctAnswer": "El host virtual no se cargará correctamente",
+                            "explanation": "Si no incluyes el fichero de vhosts, Apache ignora esas configuraciones y el dominio no apuntará al DocumentRoot esperado."
+                        },
+                        {
+                            "text": "¿Qué directiva se ajusta para limitar el número máximo de peticiones/usuarios simultáneos atendidos por Apache?",
+                            "options": [
+                                "KeepAlive",
+                                "CacheRoot",
+                                "MaxRequestWorkers",
+                                "Timeout"
+                            ],
+                            "correctAnswer": "MaxRequestWorkers",
+                            "explanation": "MaxRequestWorkers limita cuántas peticiones simultáneas puede atender Apache (evitas que se coma la RAM si algo va mal)."
+                        },
+                        {
+                            "text": "¿Qué módulos deben habilitarse para activar la caché en disco en Apache?",
+                            "options": [
+                                "mod_ssl y mod_rewrite",
+                                "mod_php y mod_status",
+                                "mod_cache y mod_cache_disk",
+                                "mod_proxy y mod_headers"
+                            ],
+                            "correctAnswer": "mod_cache y mod_cache_disk",
+                            "explanation": "mod_cache habilita la caché y mod_cache_disk permite almacenarla en disco para recursos estáticos (CSS, etc.)."
+                        },
+                        {
+                            "text": "¿Qué herramienta se utiliza para generar un certificado SSL autofirmado para habilitar HTTPS en pruebas?",
+                            "options": [
+                                "phpMyAdmin",
+                                "OpenSSL",
+                                "Git",
+                                "Apache Benchmark"
+                            ],
+                            "correctAnswer": "OpenSSL",
+                            "explanation": "Con OpenSSL generas clave privada + certificado autofirmado. El navegador avisará, pero el tráfico va cifrado."
+                        },
+                        {
+                            "text": "Para que el archivo .htaccess funcione dentro del directorio del proyecto, ¿qué directiva debe permitirlo en Apache?",
+                            "options": [
+                                "AllowOverride All",
+                                "Require all granted",
+                                "ServerName localhost",
+                                "Options Indexes"
+                            ],
+                            "correctAnswer": "AllowOverride All",
+                            "explanation": "Sin AllowOverride (p. ej. All), Apache ignora el .htaccess aunque exista."
+                        },
+                        {
+                            "text": "¿Qué herramienta de consola permite generar el archivo de credenciales (usuarios/contraseñas) para autenticación básica?",
+                            "options": [
+                                "openssl",
+                                "htpasswd",
+                                "mysql",
+                                "netstat"
+                            ],
+                            "correctAnswer": "htpasswd",
+                            "explanation": "htpasswd crea/gestiona el fichero con hashes de contraseñas que luego referencia el .htaccess."
+                        },
+                        {
+                            "text": "¿Qué técnica se recomienda en PHP para prevenir inyecciones SQL al insertar/listar productos?",
+                            "options": [
+                                "Concatenar variables con comillas simples",
+                                "Usar consultas preparadas con PDO o MySQLi",
+                                "Codificar el HTML con CSS",
+                                "Cambiar el puerto de MySQL"
+                            ],
+                            "correctAnswer": "Usar consultas preparadas con PDO o MySQLi",
+                            "explanation": "Las consultas preparadas separan datos de la sentencia SQL, neutralizando gran parte de los intentos de inyección."
+                        },
+                        {
+                            "text": "¿Qué herramienta se emplea para realizar una prueba básica de carga y medir tiempos de respuesta del servidor?",
+                            "options": [
+                                "Wireshark",
+                                "Jenkins",
+                                "Apache Benchmark (ab)",
+                                "Docker"
+                            ],
+                            "correctAnswer": "Apache Benchmark (ab)",
+                            "explanation": "Apache Benchmark (ab) permite lanzar un número de peticiones/concurrencia y medir latencias/throughput."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
