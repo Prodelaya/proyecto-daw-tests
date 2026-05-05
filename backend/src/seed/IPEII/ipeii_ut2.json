@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "IPEII",
+            "name": "Itinerario Personal para la Empleabilidad II",
+            "topics": [
+                {
+                    "number": 2,
+                    "title": "UT2: Técnicas de selección y habilidades sociales",
+                    "questions": [
+                        {
+                            "text": "Imagina que estás redactando tu currículum vitae para una oferta de empleo. Siguiendo la analogía del \"tráiler de una película\", ¿cuál debería ser el objetivo principal de este documento?",
+                            "options": [
+                                "Contar toda tu historia vital y académica con el máximo detalle posible.",
+                                "Listar todas las asignaturas aprobadas durante el ciclo de grado superior.",
+                                "Servir como un documento legal que sustituya al contrato de trabajo inicial.",
+                                "Generar el suficiente interés para que el reclutador quiera conocerte en una entrevista."
+                            ],
+                            "correctAnswer": "Generar el suficiente interés para que el reclutador quiera conocerte en una entrevista.",
+                            "explanation": "La opción correcta es: Generar el suficiente interés para que el reclutador quiera conocerte en una entrevista."
+                        },
+                        {
+                            "text": "Un estudiante decide incluir ciertos datos en su currículum para enviarlo a una empresa en España. ¿Cuál de los siguientes elementos debe excluirse según las normas habituales del país?",
+                            "options": [
+                                "El centro educativo donde realizó sus estudios de FP.",
+                                "Los logros alcanzados durante el periodo de prácticas en empresas.",
+                                "Las expectativas de sueldo y el estado civil del candidato.",
+                                "Un título profesional que sintetice su perfil."
+                            ],
+                            "correctAnswer": "Las expectativas de sueldo y el estado civil del candidato.",
+                            "explanation": "La opción correcta es: Las expectativas de sueldo y el estado civil del candidato."
+                        },
+                        {
+                            "text": "Laura acaba de terminar su ciclo formativo y, aunque tiene formación y ha hecho voluntariado, carece de experiencia laboral previa con contrato. ¿Qué tipo de currículum le resultaría más útil para destacar sus habilidades?",
+                            "options": [
+                                "El currículum funcional o temático, centrado en bloques de competencias.",
+                                "Un currículum ciego, donde no aparezca ninguna formación académica.",
+                                "El currículum cronológico inverso, para mostrar las fechas más recientes.",
+                                "Un currículum mixto, centrado exclusivamente en los nombres de las empresas."
+                            ],
+                            "correctAnswer": "El currículum funcional o temático, centrado en bloques de competencias.",
+                            "explanation": "La opción correcta es: El currículum funcional o temático, centrado en bloques de competencias."
+                        },
+                        {
+                            "text": "Estás preparando el envío de tu currículum por correo electrónico. ¿Qué práctica es la más recomendable para causar un impacto profesional inmediato según el temario?",
+                            "options": [
+                                "Escribir la carta de presentación directamente en el cuerpo del mensaje del email.",
+                                "Usar una dirección de correo con un mote personal para mostrar cercanía.",
+                                "Adjuntar el CV en un archivo comprimido de más de 5 MB para asegurar la calidad.",
+                                "Enviar el archivo sin ningún texto en el cuerpo del correo para ahorrar tiempo al reclutador."
+                            ],
+                            "correctAnswer": "Escribir la carta de presentación directamente en el cuerpo del mensaje del email.",
+                            "explanation": "La opción correcta es: Escribir la carta de presentación directamente en el cuerpo del mensaje del email."
+                        },
+                        {
+                            "text": "¿Qué función cumple la \"imagen visual\" o el diseño del currículum vitae en un proceso de selección moderno?",
+                            "options": [
+                                "Actúa como un argumento de venta que ayuda a guiar la mirada del seleccionador.",
+                                "Sirve para ocultar la falta de experiencia técnica mediante colores llamativos.",
+                                "Es un elemento secundario que los reclutadores no suelen tener en cuenta.",
+                                "Es obligatoria solo para los alumnos del ciclo de marketing o diseño gráfico."
+                            ],
+                            "correctAnswer": "Actúa como un argumento de venta que ayuda a guiar la mirada del seleccionador.",
+                            "explanation": "La opción correcta es: Actúa como un argumento de venta que ayuda a guiar la mirada del seleccionador."
+                        },
+                        {
+                            "text": "Un candidato se enfrenta a un test psicotécnico de \"aptitud numérica\" en una oficina. ¿Qué capacidad específica intenta medir la empresa con este tipo de prueba?",
+                            "options": [
+                                "El grado de extroversión y responsabilidad del perfil profesional.",
+                                "La agilidad mental del candidato con las cuentas y los problemas lógicos.",
+                                "La capacidad de visión espacial mediante la rotación de figuras geométricas.",
+                                "La habilidad para interpretar instrucciones complejas en un texto escrito."
+                            ],
+                            "correctAnswer": "La agilidad mental del candidato con las cuentas y los problemas lógicos.",
+                            "explanation": "La opción correcta es: La agilidad mental del candidato con las cuentas y los problemas lógicos."
+                        },
+                        {
+                            "text": "Durante una dinámica de grupo, un evaluador observa en silencio cómo los candidatos resuelven un reto común. ¿Qué es lo que realmente busca observar la empresa en este ejercicio?",
+                            "options": [
+                                "Cómo se comporta el aspirante cuando trabaja, negocia y colabora con otros.",
+                                "La capacidad del alumno para memorizar las instrucciones dadas al inicio.",
+                                "Qué candidato termina la tarea individual de forma más rápida que el resto.",
+                                "Quién es el candidato que tiene el mejor expediente académico del grupo."
+                            ],
+                            "correctAnswer": "Cómo se comporta el aspirante cuando trabaja, negocia y colabora con otros.",
+                            "explanation": "La opción correcta es: Cómo se comporta el aspirante cuando trabaja, negocia y colabora con otros."
+                        },
+                        {
+                            "text": "Estás participando en una dinámica de grupo y notas que uno de tus compañeros se ha quedado bloqueado y no participa. ¿Cuál sería la actitud más valorada por los seleccionadores?",
+                            "options": [
+                                "Hacer el trabajo del compañero tú mismo sin consultarle para ganar tiempo.",
+                                "Interrumpir al resto del grupo para quejarte de la falta de nivel de tu compañero.",
+                                "Animarlo a participar para demostrar un enfoque constructivo y maduro.",
+                                "Ignorar al compañero para demostrar que tú eres más competitivo y rápido."
+                            ],
+                            "correctAnswer": "Animarlo a participar para demostrar un enfoque constructivo y maduro.",
+                            "explanation": "La opción correcta es: Animarlo a participar para demostrar un enfoque constructivo y maduro."
+                        },
+                        {
+                            "text": "Javier tiene una entrevista para un puesto técnico. ¿Por qué es fundamental que investigue la misión y los valores de la empresa antes de acudir a la cita?",
+                            "options": [
+                                "Para saber exactamente cuánto dinero puede pedir de salario antes de empezar.",
+                                "Para demostrar interés real y ver si sus expectativas encajan con las de la entidad.",
+                                "Porque es probable que le hagan un examen escrito sobre la historia de la empresa.",
+                                "Para poder criticar los proyectos anteriores de la organización y proponer cambios."
+                            ],
+                            "correctAnswer": "Para demostrar interés real y ver si sus expectativas encajan con las de la entidad.",
+                            "explanation": "La opción correcta es: Para demostrar interés real y ver si sus expectativas encajan con las de la entidad."
+                        },
+                        {
+                            "text": "Si realizas una entrevista por videollamada, el temario ofrece un consejo clave para generar confianza con el reclutador a través de la cámara. ¿Cuál es?",
+                            "options": [
+                                "Buscar un fondo muy decorado para demostrar que tienes mucha creatividad.",
+                                "Mirar siempre a tu propia imagen en la pantalla para corregir tu postura.",
+                                "Mantener el micrófono apagado durante toda la sesión para evitar ruidos externos.",
+                                "Mirar directamente a la cámara del dispositivo para simular el contacto visual."
+                            ],
+                            "correctAnswer": "Mirar directamente a la cámara del dispositivo para simular el contacto visual.",
+                            "explanation": "La opción correcta es: Mirar directamente a la cámara del dispositivo para simular el contacto visual."
+                        },
+                        {
+                            "text": "¿En qué consiste el \"Método STAR\" para responder preguntas sobre competencias durante una entrevista de trabajo?",
+                            "options": [
+                                "En un sistema para evaluar el salario mínimo profesional de un sector técnico.",
+                                "En una lista de cinco fortalezas que el candidato debe repetir constantemente.",
+                                "En una técnica para memorizar nombres de estrellas y constelaciones famosas.",
+                                "En una estructura para contar historias profesionales con Situación, Tarea, Acción y Resultado."
+                            ],
+                            "correctAnswer": "En una estructura para contar historias profesionales con Situación, Tarea, Acción y Resultado.",
+                            "explanation": "La opción correcta es: En una estructura para contar historias profesionales con Situación, Tarea, Acción y Resultado."
+                        },
+                        {
+                            "text": "Una candidata aplica el método STAR para explicar cómo resolvió una auditoría sorpresa durante sus prácticas. ¿Qué parte del relato corresponde a la \"Acción\"?",
+                            "options": [
+                                "Mencionar que el jefe de contabilidad estaba de baja médica en ese momento.",
+                                "Describir que organizó los documentos, los digitalizó y creó un índice en Excel.",
+                                "Informar de que la empresa la felicitó y la auditoría fue un éxito rotundo.",
+                                "Explicar que su responsabilidad era tener listos los libros en 24 horas."
+                            ],
+                            "correctAnswer": "Describir que organizó los documentos, los digitalizó y creó un índice en Excel.",
+                            "explanation": "La opción correcta es: Describir que organizó los documentos, los digitalizó y creó un índice en Excel."
+                        },
+                        {
+                            "text": "¿Cómo se definen las \"habilidades blandas\" (soft skills) en comparación con los conocimientos técnicos en el entorno laboral?",
+                            "options": [
+                                "Son destrezas sociales y de comunicación que permiten sacar el máximo rendimiento al motor técnico.",
+                                "Son conocimientos específicos de un lenguaje de programación o de una normativa contable.",
+                                "Son rasgos de la personalidad que no se pueden mejorar ni entrenar con el tiempo.",
+                                "Son habilidades secundarias que solo se aplican en trabajos manuales o poco cualificados."
+                            ],
+                            "correctAnswer": "Son destrezas sociales y de comunicación que permiten sacar el máximo rendimiento al motor técnico.",
+                            "explanation": "La opción correcta es: Son destrezas sociales y de comunicación que permiten sacar el máximo rendimiento al motor técnico."
+                        },
+                        {
+                            "text": "¿Qué papel desempeñan las habilidades blandas (soft skills) en el éxito profesional a largo plazo de un técnico superior?",
+                            "options": [
+                                "Se limitan exclusivamente a la capacidad de hablar idiomas extranjeros en la oficina.",
+                                "Son habilidades irrelevantes si el trabajador tiene un dominio perfecto de las herramientas técnicas.",
+                                "Son el ingrediente que permite interactuar con los demás y gestionar el trabajo de forma excepcional.",
+                                "Son normas de etiqueta que solo se aplican durante la primera entrevista de trabajo."
+                            ],
+                            "correctAnswer": "Son el ingrediente que permite interactuar con los demás y gestionar el trabajo de forma excepcional.",
+                            "explanation": "La opción correcta es: Son el ingrediente que permite interactuar con los demás y gestionar el trabajo de forma excepcional."
+                        },
+                        {
+                            "text": "Un profesional utiliza la Inteligencia Emocional para no reaccionar por impulso ante una crítica de un compañero. ¿Cómo se denomina este pilar de la IE?",
+                            "options": [
+                                "Empatía cognitiva.",
+                                "Motivación intrínseca.",
+                                "Autogestión o autocontrol.",
+                                "Autoconocimiento emocional."
+                            ],
+                            "correctAnswer": "Autogestión o autocontrol.",
+                            "explanation": "La opción correcta es: Autogestión o autocontrol."
+                        },
+                        {
+                            "text": "¿Qué habilidad social permite a un trabajador ponerse en el lugar de un cliente enfadado para comprender su perspectiva antes de responder?",
+                            "options": [
+                                "Liderazgo autocrático.",
+                                "Autoconocimiento.",
+                                "Empatía.",
+                                "Asertividad agresiva."
+                            ],
+                            "correctAnswer": "Empatía.",
+                            "explanation": "La opción correcta es: Empatía."
+                        },
+                        {
+                            "text": "Estás en una reunión y quieres expresar una idea diferente a la de tu jefe de forma clara y respetuosa. ¿Qué estilo de comunicación estarías empleando?",
+                            "options": [
+                                "Comunicación pasiva, para evitar cualquier tipo de conflicto.",
+                                "Comunicación emocional, basada únicamente en los sentimientos del momento.",
+                                "Comunicación agresiva, para imponer tu criterio técnico sobre el resto.",
+                                "Comunicación asertiva, equilibrando tus necesidades con las de los demás."
+                            ],
+                            "correctAnswer": "Comunicación asertiva, equilibrando tus necesidades con las de los demás.",
+                            "explanation": "La opción correcta es: Comunicación asertiva, equilibrando tus necesidades con las de los demás."
+                        },
+                        {
+                            "text": "¿Cuál es una característica fundamental del lenguaje corporal de una persona que se comunica de forma asertiva?",
+                            "options": [
+                                "Mantener la mirada de forma natural y una postura abierta y segura.",
+                                "Hablar con un volumen de voz muy alto para que nadie pueda interrumpir.",
+                                "Cruzar los brazos y las piernas para proteger el espacio personal frente al reclutador.",
+                                "Evitar el contacto visual y mantener una postura encorvada para no molestar."
+                            ],
+                            "correctAnswer": "Mantener la mirada de forma natural y una postura abierta y segura.",
+                            "explanation": "La opción correcta es: Mantener la mirada de forma natural y una postura abierta y segura."
+                        },
+                        {
+                            "text": "Durante una dinámica de grupo, un compañero te interrumpe bruscamente. ¿Qué frase encaja con un \"guion asertivo\" para gestionar la situación?",
+                            "options": [
+                                "Perdona, tienes razón, habla tú que seguro que tu idea es mucho mejor.",
+                                "No decir nada y dejar de participar en la dinámica por el resto del tiempo.",
+                                "Cállate un momento, que todavía no he terminado de explicar mi parte.",
+                                "Permíteme terminar esta idea y enseguida escucho tu aportación."
+                            ],
+                            "correctAnswer": "Permíteme terminar esta idea y enseguida escucho tu aportación.",
+                            "explanation": "La opción correcta es: Permíteme terminar esta idea y enseguida escucho tu aportación."
+                        },
+                        {
+                            "text": "En un proceso de selección para Educación Infantil, ¿qué competencia técnica suele ser prioritaria mencionar en el currículum según el temario?",
+                            "options": [
+                                "La capacidad para realizar auditorías contables en centros educativos.",
+                                "El dominio de lenguajes de programación como Java o Python.",
+                                "El manejo avanzado de programas de diseño de campañas publicitarias.",
+                                "La formación en primeros auxilios y la comunicación con familias."
+                            ],
+                            "correctAnswer": "La formación en primeros auxilios y la comunicación con familias.",
+                            "explanation": "La opción correcta es: La formación en primeros auxilios y la comunicación con familias."
+                        },
+                        {
+                            "text": "Para los alumnos de Informática (DAW/DAM), ¿cuál es la mejor forma de que su \"código hable por ellos\" antes de la entrevista?",
+                            "options": [
+                                "Incluyendo en el CV un enlace a su perfil de GitHub con proyectos reales.",
+                                "Describiendo en la carta de presentación que son muy buenos programadores.",
+                                "Esperando a que el reclutador les pida hacer un examen el día de la entrevista.",
+                                "Adjuntando el código fuente impreso en papel junto al currículum vitae."
+                            ],
+                            "correctAnswer": "Incluyendo en el CV un enlace a su perfil de GitHub con proyectos reales.",
+                            "explanation": "La opción correcta es: Incluyendo en el CV un enlace a su perfil de GitHub con proyectos reales."
+                        },
+                        {
+                            "text": "¿Por qué se recomienda hablar desde el \"yo\" (por ejemplo: \"yo veo este punto de forma diferente\") en lugar de usar el \"tú\" en una negociación laboral?",
+                            "options": [
+                                "Porque es la forma gramaticalmente correcta de redactar una carta de presentación.",
+                                "Porque evita que la otra persona se sienta atacada y facilita el consenso profesional.",
+                                "Para dejar claro que el resto del equipo está equivocado y tú tienes la razón.",
+                                "Para demostrar que el candidato es una persona egocéntrica que solo piensa en sí misma."
+                            ],
+                            "correctAnswer": "Porque evita que la otra persona se sienta atacada y facilita el consenso profesional.",
+                            "explanation": "La opción correcta es: Porque evita que la otra persona se sienta atacada y facilita el consenso profesional."
+                        },
+                        {
+                            "text": "Independientemente de la especialidad profesional, ¿cuál es la mejor forma de demostrar el valor real de un proyecto o experiencia en el currículum o entrevista?",
+                            "options": [
+                                "Explicando lo difícil que fue aprobar el ciclo formativo de grado superior.",
+                                "Detallando el número exacto de horas que se pasó en el centro de trabajo.",
+                                "Aportando hitos cuantificables, resultados obtenidos o evidencias como un portfolio o enlace a trabajos.",
+                                "Enumerando las tareas diarias de forma cronológica sin mencionar ningún logro específico."
+                            ],
+                            "correctAnswer": "Aportando hitos cuantificables, resultados obtenidos o evidencias como un portfolio o enlace a trabajos.",
+                            "explanation": "La opción correcta es: Aportando hitos cuantificables, resultados obtenidos o evidencias como un portfolio o enlace a trabajos."
+                        },
+                        {
+                            "text": "¿Qué se recomienda hacer inmediatamente antes de una entrevista de trabajo para reducir los nervios y aumentar la seguridad?",
+                            "options": [
+                                "Llegar exactamente a la hora punta para no tener que esperar en la recepción.",
+                                "No prepararse nada para que las respuestas suenen más naturales e improvisadas.",
+                                "Memorizar palabra por palabra las respuestas de un guion estándar de internet.",
+                                "Ensayar en voz alta frente al espejo una estructura de \"pasado, presente y futuro\"."
+                            ],
+                            "correctAnswer": "Ensayar en voz alta frente al espejo una estructura de \"pasado, presente y futuro\".",
+                            "explanation": "La opción correcta es: Ensayar en voz alta frente al espejo una estructura de \"pasado, presente y futuro\"."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de los cuestionarios de personalidad en un proceso de selección empresarial?",
+                            "options": [
+                                "Explorar rasgos como la extroversión, la responsabilidad o la estabilidad emocional.",
+                                "Medir si el candidato sabe resolver problemas de matemáticas rápidamente.",
+                                "Decidir qué candidato tiene el carácter más gracioso para el equipo de trabajo.",
+                                "Comprobar si el aspirante tiene conocimientos sobre la normativa de seguridad social."
+                            ],
+                            "correctAnswer": "Explorar rasgos como la extroversión, la responsabilidad o la estabilidad emocional.",
+                            "explanation": "La opción correcta es: Explorar rasgos como la extroversión, la responsabilidad o la estabilidad emocional."
+                        },
+                        {
+                            "text": "En la estructura de una carta de presentación, ¿qué debe incluirse en el párrafo final según la lógica profesional?",
+                            "options": [
+                                "Un listado detallado de todas las notas obtenidas en el primer curso.",
+                                "La firma de los profesores que pueden dar referencias sobre el alumno.",
+                                "Una queja sobre la dificultad de encontrar empleo en la ciudad actual.",
+                                "Una invitación directa a mantener una entrevista personal con el seleccionador."
+                            ],
+                            "correctAnswer": "Una invitación directa a mantener una entrevista personal con el seleccionador.",
+                            "explanation": "La opción correcta es: Una invitación directa a mantener una entrevista personal con el seleccionador."
+                        },
+                        {
+                            "text": "¿Qué significa que una dinámica de grupo sea un \"ensayo general\" de un día real en la oficina?",
+                            "options": [
+                                "Que el resultado de la tarea es lo único que importa para ser contratado.",
+                                "Que los candidatos deben ir vestidos con ropa de teatro para actuar ante los jefes.",
+                                "Que la empresa observa cómo reaccionaría el candidato ante situaciones de trabajo real.",
+                                "Que se trata de una prueba eliminatoria donde solo puede quedar una persona."
+                            ],
+                            "correctAnswer": "Que la empresa observa cómo reaccionaría el candidato ante situaciones de trabajo real.",
+                            "explanation": "La opción correcta es: Que la empresa observa cómo reaccionaría el candidato ante situaciones de trabajo real."
+                        },
+                        {
+                            "text": "¿Qué actitud demuestra una \"escucha para entender\" durante una entrevista o reunión de trabajo?",
+                            "options": [
+                                "Interrumpir constantemente para demostrar que se tiene mucha iniciativa profesional.",
+                                "Reformular lo que la otra persona ha dicho para confirmar que se ha comprendido bien.",
+                                "Escuchar solo la mitad de la frase para empezar a preparar la respuesta rápidamente.",
+                                "Mirar hacia otro lado mientras el entrevistador habla para no parecer intimidante."
+                            ],
+                            "correctAnswer": "Reformular lo que la otra persona ha dicho para confirmar que se ha comprendido bien.",
+                            "explanation": "La opción correcta es: Reformular lo que la otra persona ha dicho para confirmar que se ha comprendido bien."
+                        },
+                        {
+                            "text": "Al terminar la unidad, se concluye que el éxito profesional no depende solo de la técnica. ¿Qué cambio de mentalidad define al profesional del siglo XXI?",
+                            "options": [
+                                "Reconocer que la habilidad más valiosa es saber trabajar con y para las personas.",
+                                "Priorizar la competitividad individual por encima de cualquier colaboración grupal.",
+                                "Centrarse en la memorización de datos y porcentajes de mercado para impresionar.",
+                                "Entender que los conocimientos técnicos son la única clave para ganar cualquier carrera."
+                            ],
+                            "correctAnswer": "Reconocer que la habilidad más valiosa es saber trabajar con y para las personas.",
+                            "explanation": "La opción correcta es: Reconocer que la habilidad más valiosa es saber trabajar con y para las personas."
+                        },
+                        {
+                            "text": "Conseguir que un edificio de oficinas abra sus puertas a un nuevo graduado depende de un factor estratégico final. ¿Cuál es?",
+                            "options": [
+                                "Tener la suerte de que el resto de los candidatos no se hayan preparado la entrevista.",
+                                "Fingir una personalidad diferente que encaje con lo que el jefe quiere oír.",
+                                "Ser la mejor versión de uno mismo utilizando el guion, la estructura y la inteligencia emocional.",
+                                "Poseer un currículum vitae con más de cinco páginas de formación complementaria."
+                            ],
+                            "correctAnswer": "Ser la mejor versión de uno mismo utilizando el guion, la estructura y la inteligencia emocional.",
+                            "explanation": "La opción correcta es: Ser la mejor versión de uno mismo utilizando el guion, la estructura y la inteligencia emocional."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 7,
+                    "title": "UT7: Marco legal, ética y análisis forense",
+                    "questions": [
+                        {
+                            "text": "¿Cómo se define técnicamente el análisis forense digital en el marco de una investigación?",
+                            "options": [
+                                "La obtención y evaluación rigurosa de datos electrónicos para convertirlos en pruebas válidas",
+                                "La redacción de políticas de privacidad para aplicaciones móviles",
+                                "La eliminación de virus y malware de un sistema infectado para restaurar su funcionamiento",
+                                "El diseño de infraestructuras de red resistentes a ataques de denegación de servicio"
+                            ],
+                            "correctAnswer": "La obtención y evaluación rigurosa de datos electrónicos para convertirlos en pruebas válidas",
+                            "explanation": "La opción marcada en verde en el material fuente es: La obtención y evaluación rigurosa de datos electrónicos para convertirlos en pruebas válidas."
+                        },
+                        {
+                            "text": "En una investigación forense, ¿qué característica de la evidencia digital obliga a seguir protocolos muy estrictos?",
+                            "options": [
+                                "Su gran tamaño, que impide realizar copias en dispositivos convencionales",
+                                "La obligatoriedad legal de cifrar todas las pruebas antes de entregarlas al juez",
+                                "Su naturaleza intangible, latente y extremadamente volátil",
+                                "El alto coste económico de las licencias de software necesarias para leer los archivos"
+                            ],
+                            "correctAnswer": "Su naturaleza intangible, latente y extremadamente volátil",
+                            "explanation": "La opción marcada en verde en el material fuente es: Su naturaleza intangible, latente y extremadamente volátil."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo principal de la cadena de custodia en el manejo de evidencias?",
+                            "options": [
+                                "Garantizar la autenticidad, integridad y fiabilidad de la prueba desde su obtención hasta el juicio",
+                                "Reducir el tiempo de respuesta ante incidentes para ahorrar costes a la empresa",
+                                "Asegurar que el atacante no pueda volver a entrar en el sistema",
+                                "Permitir que cualquier empleado de la empresa pueda revisar las pruebas recolectadas"
+                            ],
+                            "correctAnswer": "Garantizar la autenticidad, integridad y fiabilidad de la prueba desde su obtención hasta el juicio",
+                            "explanation": "La opción marcada en verde en el material fuente es: Garantizar la autenticidad, integridad y fiabilidad de la prueba desde su obtención hasta el juicio."
+                        },
+                        {
+                            "text": "Según la normativa RFC 3227, ¿cuál es el orden correcto para la recolección de evidencias en un sistema?",
+                            "options": [
+                                "Primero los discos duros, luego las copias de seguridad y finalmente la RAM",
+                                "Primero los datos más volátiles (RAM, caché) y después los menos volátiles (discos)",
+                                "Únicamente se deben recolectar los registros de red (logs) del cortafuegos",
+                                "Primero los archivos de texto y después los archivos de imagen o vídeo"
+                            ],
+                            "correctAnswer": "Primero los datos más volátiles (RAM, caché) y después los menos volátiles (discos)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Primero los datos más volátiles (RAM, caché) y después los menos volátiles (discos)."
+                        },
+                        {
+                            "text": "¿Qué técnica se utiliza en la fase de adquisición para asegurar que no se altera el dispositivo original?",
+                            "options": [
+                                "Realizar un recorte de pantalla de los archivos más importantes",
+                                "Mover los archivos del servidor a una carpeta comprimida con contraseña",
+                                "Elaborar una copia exacta \"bit a bit\" del soporte original",
+                                "Cambiar los permisos de usuario del disco para que sean de \"solo lectura\""
+                            ],
+                            "correctAnswer": "Elaborar una copia exacta \"bit a bit\" del soporte original",
+                            "explanation": "La opción marcada en verde en el material fuente es: Elaborar una copia exacta \"bit a bit\" del soporte original."
+                        },
+                        {
+                            "text": "¿Qué dispositivo de hardware es imprescindible conectar al disco original durante la copia forense para evitar escrituras accidentales?",
+                            "options": [
+                                "Un balanceador de carga",
+                                "Un bloqueador de escritura",
+                                "Un servidor de salto (Jump Server)",
+                                "Un diodo de datos industrial"
+                            ],
+                            "correctAnswer": "Un bloqueador de escritura",
+                            "explanation": "La opción marcada en verde en el material fuente es: Un bloqueador de escritura."
+                        },
+                        {
+                            "text": "¿Cuál es la función de la huella digital o \"hash\" (ej. SHA-256) en el análisis forense?",
+                            "options": [
+                                "Cifrar los datos para que el juez no pueda leerlos sin permiso",
+                                "Aumentar la velocidad de transferencia de los datos entre discos",
+                                "Comprimir la imagen forense para que ocupe menos espacio",
+                                "Servir como \"DNI\" de la prueba para verificar que no ha cambiado ni un solo bit"
+                            ],
+                            "correctAnswer": "Servir como \"DNI\" de la prueba para verificar que no ha cambiado ni un solo bit",
+                            "explanation": "La opción marcada en verde en el material fuente es: Servir como \"DNI\" de la prueba para verificar que no ha cambiado ni un solo bit."
+                        },
+                        {
+                            "text": "¿Cuál es la \"regla de oro\" que debe seguir un analista durante la fase de preservación?",
+                            "options": [
+                                "Compartir la copia de seguridad en una red Wi-Fi abierta para que otros peritos colaboren",
+                                "Borrar los datos del equipo sospechoso inmediatamente tras hacer la copia",
+                                "Nunca se analiza el original; siempre se trabaja sobre la copia forense",
+                                "Analizar siempre el dispositivo original para evitar errores de copia"
+                            ],
+                            "correctAnswer": "Nunca se analiza el original; siempre se trabaja sobre la copia forense",
+                            "explanation": "La opción marcada en verde en el material fuente es: Nunca se analiza el original; siempre se trabaja sobre la copia forense."
+                        },
+                        {
+                            "text": "¿Qué se busca garantizar mediante la documentación detallada de la metodología empleada en un informe?",
+                            "options": [
+                                "La confidencialidad de los datos personales de los clientes",
+                                "El cumplimiento de los objetivos comerciales de la organización",
+                                "La reproducibilidad de la investigación por parte de otros peritos",
+                                "La reducción de la potencia eléctrica consumida por los equipos de laboratorio"
+                            ],
+                            "correctAnswer": "La reproducibilidad de la investigación por parte de otros peritos",
+                            "explanation": "La opción marcada en verde en el material fuente es: La reproducibilidad de la investigación por parte de otros peritos."
+                        },
+                        {
+                            "text": "¿Cuál es la diferencia principal entre el informe ejecutivo y el informe técnico en un análisis forense?",
+                            "options": [
+                                "El técnico es gratuito y el ejecutivo requiere el pago de tasas judiciales",
+                                "El ejecutivo se escribe en inglés y el técnico obligatoriamente en castellano",
+                                "No hay diferencia, son dos copias del mismo documento con diferentes portadas",
+                                "El ejecutivo está dirigido a responsables no técnicos y el técnico detalla la metodología y resultados"
+                            ],
+                            "correctAnswer": "El ejecutivo está dirigido a responsables no técnicos y el técnico detalla la metodología y resultados",
+                            "explanation": "La opción marcada en verde en el material fuente es: El ejecutivo está dirigido a responsables no técnicos y el técnico detalla la metodología y resultados."
+                        },
+                        {
+                            "text": "¿Qué principio del RGPD establece que solo se deben recoger los datos estrictamente necesarios para una finalidad específica?",
+                            "options": [
+                                "Integridad y disponibilidad",
+                                "Limitación del plazo de conservación",
+                                "Licitud y transparencia",
+                                "Minimización de datos"
+                            ],
+                            "correctAnswer": "Minimización de datos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Minimización de datos."
+                        },
+                        {
+                            "text": "Según el principio de \"Responsabilidad proactiva\" (Accountability) del RGPD, ¿qué debe hacer una empresa?",
+                            "options": [
+                                "Esperar a que la autoridad le pida los datos para empezar a protegerlos",
+                                "Publicar todos los datos de sus clientes en la web para ser transparente",
+                                "Aplicar medidas técnicas y organizativas y ser capaz de demostrar que cumple la ley",
+                                "Contratar a un hacker para que ataque a la competencia"
+                            ],
+                            "correctAnswer": "Aplicar medidas técnicas y organizativas y ser capaz de demostrar que cumple la ley",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aplicar medidas técnicas y organizativas y ser capaz de demostrar que cumple la ley."
+                        },
+                        {
+                            "text": "¿Qué derecho permite a un ciudadano solicitar que sus datos sean eliminados cuando ya no son necesarios para el fin que se recogieron?",
+                            "options": [
+                                "Derecho de acceso",
+                                "Derecho de oposición a decisiones automatizadas",
+                                "Derecho de supresión (derecho al olvido)",
+                                "Derecho de portabilidad"
+                            ],
+                            "correctAnswer": "Derecho de supresión (derecho al olvido)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Derecho de supresión (derecho al olvido)."
+                        },
+                        {
+                            "text": "En el ámbito laboral español (LOPDGDD), ¿en qué consiste el derecho a la desconexión digital?",
+                            "options": [
+                                "En la capacidad del trabajador de borrar sus correos electrónicos cada día",
+                                "En la obligación de apagar todos los servidores de la empresa durante el fin de semana",
+                                "En la prohibición de usar ordenadores en las oficinas de administración",
+                                "En el respeto al tiempo de descanso de los trabajadores fuera de su jornada laboral"
+                            ],
+                            "correctAnswer": "En el respeto al tiempo de descanso de los trabajadores fuera de su jornada laboral",
+                            "explanation": "La opción marcada en verde en el material fuente es: En el respeto al tiempo de descanso de los trabajadores fuera de su jornada laboral."
+                        },
+                        {
+                            "text": "¿Bajo qué condición puede una empresa utilizar sistemas de geolocalización en los dispositivos de sus empleados?",
+                            "options": [
+                                "Puede hacerlo de forma oculta sin avisar para mejorar la productividad",
+                                "Debe informar previamente a los empleados sobre su uso y sus derechos asociados",
+                                "Está terminantemente prohibido en cualquier circunstancia laboral",
+                                "Solo si el empleado es directivo o tiene un cargo de alta responsabilidad"
+                            ],
+                            "correctAnswer": "Debe informar previamente a los empleados sobre su uso y sus derechos asociados",
+                            "explanation": "La opción marcada en verde en el material fuente es: Debe informar previamente a los empleados sobre su uso y sus derechos asociados."
+                        },
+                        {
+                            "text": "¿Qué restricción establece la LOPDGDD respecto a la grabación de sonidos y vídeos en el lugar de trabajo?",
+                            "options": [
+                                "Solo se puede grabar si las cámaras tienen una resolución superior a 4K",
+                                "Está prohibido grabar en zonas destinadas al descanso o esparcimiento de los trabajadores",
+                                "Se permite grabar en cualquier zona, incluidos los baños, por seguridad",
+                                "No se requiere informar a los empleados si las cámaras están a la vista"
+                            ],
+                            "correctAnswer": "Está prohibido grabar en zonas destinadas al descanso o esparcimiento de los trabajadores",
+                            "explanation": "La opción marcada en verde en el material fuente es: Está prohibido grabar en zonas destinadas al descanso o esparcimiento de los trabajadores."
+                        },
+                        {
+                            "text": "¿Cuál es uno de los objetivos principales de la Ley de Servicios Digitales (DSA) de la Unión Europea?",
+                            "options": [
+                                "Prohibir el uso de la inteligencia artificial en el desarrollo web",
+                                "Nacionalizar todas las plataformas de comercio electrónico",
+                                "Obligar a todos los usuarios a usar nombres reales en redes sociales",
+                                "Crear un espacio digital más seguro y proteger los derechos fundamentales de los usuarios"
+                            ],
+                            "correctAnswer": "Crear un espacio digital más seguro y proteger los derechos fundamentales de los usuarios",
+                            "explanation": "La opción marcada en verde en el material fuente es: Crear un espacio digital más seguro y proteger los derechos fundamentales de los usuarios."
+                        },
+                        {
+                            "text": "¿Qué práctica de diseño engañosa queda prohibida por la DSA para evitar la manipulación del usuario?",
+                            "options": [
+                                "Uso de colores corporativos llamativos",
+                                "Inclusión de vídeos en la página de inicio",
+                                "Patrones oscuros (dark patterns)",
+                                "Uso de menús desplegables en dispositivos móviles"
+                            ],
+                            "correctAnswer": "Patrones oscuros (dark patterns)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Patrones oscuros (dark patterns)."
+                        },
+                        {
+                            "text": "Según la DSA, ¿qué deben permitir las grandes plataformas respecto a sus algoritmos de recomendación?",
+                            "options": [
+                                "Deben cobrar una tasa mensual por cada recomendación personalizada",
+                                "Deben obligar al usuario a ver anuncios basados exclusivamente en datos sensibles",
+                                "Deben ocultar cómo funciona el algoritmo para proteger el secreto comercial",
+                                "Deben permitir que el usuario los desactive y elija ver contenido en orden cronológico"
+                            ],
+                            "correctAnswer": "Deben permitir que el usuario los desactive y elija ver contenido en orden cronológico",
+                            "explanation": "La opción marcada en verde en el material fuente es: Deben permitir que el usuario los desactive y elija ver contenido en orden cronológico."
+                        },
+                        {
+                            "text": "¿Qué diferencia fundamental existe entre la legalidad y la ética en la profesión informática?",
+                            "options": [
+                                "La legalidad es opcional y la ética es de cumplimiento obligatorio por contrato",
+                                "La ética solo se aplica en el desarrollo de videojuegos y no en sistemas críticos",
+                                "La ética se refiere a principios morales que pueden ir más allá de lo que marca la ley",
+                                "No hay diferencia; si algo es legal, automáticamente es ético"
+                            ],
+                            "correctAnswer": "La ética se refiere a principios morales que pueden ir más allá de lo que marca la ley",
+                            "explanation": "La opción marcada en verde en el material fuente es: La ética se refiere a principios morales que pueden ir más allá de lo que marca la ley."
+                        },
+                        {
+                            "text": "¿Qué prohíbe el código deontológico respecto a la relación con los clientes para evitar el \"cliente prisionero\"?",
+                            "options": [
+                                "Entregar el código fuente al finalizar el contrato",
+                                "Ofrecer descuentos por fidelidad a largo plazo",
+                                "Cobrar por horas de mantenimiento técnico una vez finalizado el proyecto",
+                                "Crear situaciones donde el cliente no pueda cambiar de proveedor por el diseño del software"
+                            ],
+                            "correctAnswer": "Crear situaciones donde el cliente no pueda cambiar de proveedor por el diseño del software",
+                            "explanation": "La opción marcada en verde en el material fuente es: Crear situaciones donde el cliente no pueda cambiar de proveedor por el diseño del software."
+                        },
+                        {
+                            "text": "En el ejercicio de sus funciones, ¿cuándo debe un administrador de sistemas acceder a recursos informáticos restringidos según los códigos éticos?",
+                            "options": [
+                                "Sólo cuando esté autorizado o sea estrictamente necesario para proteger el bien público",
+                                "Nunca, bajo ninguna circunstancia, ni siquiera con autorización",
+                                "Únicamente si el servidor está funcionando a baja velocidad",
+                                "Siempre que tenga curiosidad por conocer datos de personas famosas"
+                            ],
+                            "correctAnswer": "Sólo cuando esté autorizado o sea estrictamente necesario para proteger el bien público",
+                            "explanation": "La opción marcada en verde en el material fuente es: Sólo cuando esté autorizado o sea estrictamente necesario para proteger el bien público."
+                        },
+                        {
+                            "text": "¿Qué práctica técnica demuestra el compromiso con la ética de la privacidad desde la fase de construcción de un software?",
+                            "options": [
+                                "El uso de fuentes de gran tamaño para facilitar la lectura",
+                                "La eliminación de todos los sistemas de autenticación para agilizar el acceso",
+                                "El diseño de sistemas con trazabilidad de accesos (logs) y privacidad por diseño",
+                                "La externalización de la base de datos a países sin normativa de protección de datos"
+                            ],
+                            "correctAnswer": "El diseño de sistemas con trazabilidad de accesos (logs) y privacidad por diseño",
+                            "explanation": "La opción marcada en verde en el material fuente es: El diseño de sistemas con trazabilidad de accesos (logs) y privacidad por diseño."
+                        },
+                        {
+                            "text": "¿Qué acción ética es obligatoria para un técnico que detecta una brecha de seguridad o un intento de fraude en su empresa?",
+                            "options": [
+                                "Denunciar el incidente a través de los canales internos establecidos",
+                                "Guardar silencio para no alarmar a los compañeros",
+                                "Intentar contraatacar al hacker usando herramientas de ataque",
+                                "Publicar los detalles del fallo en foros de internet de forma anónima"
+                            ],
+                            "correctAnswer": "Denunciar el incidente a través de los canales internos establecidos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Denunciar el incidente a través de los canales internos establecidos."
+                        },
+                        {
+                            "text": "¿Qué medida forense previene que un atacante borre los datos de un dispositivo móvil de forma remota tras su incautación?",
+                            "options": [
+                                "Hacer múltiples llamadas al número para bloquear la línea",
+                                "Cambiar la contraseña de la cuenta de correo asociada",
+                                "Aislar el dispositivo en una jaula de Faraday o activar el modo avión",
+                                "Conectar el móvil a un cargador de carga rápida"
+                            ],
+                            "correctAnswer": "Aislar el dispositivo en una jaula de Faraday o activar el modo avión",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aislar el dispositivo en una jaula de Faraday o activar el modo avión."
+                        },
+                        {
+                            "text": "¿Cómo se denomina el documento que registra cada persona que ha tenido contacto con una prueba digital?",
+                            "options": [
+                                "Cadena de custodia",
+                                "Registro de propiedad intelectual",
+                                "Contrato de confidencialidad",
+                                "Hoja de servicios técnicos"
+                            ],
+                            "correctAnswer": "Cadena de custodia",
+                            "explanation": "La opción marcada en verde en el material fuente es: Cadena de custodia."
+                        },
+                        {
+                            "text": "¿Qué norma internacional (RFC) se suele seguir para determinar la prioridad en la recolección de evidencias volátiles?",
+                            "options": [
+                                "RFC 2616",
+                                "RFC 1918",
+                                "RFC 3227",
+                                "RFC 791"
+                            ],
+                            "correctAnswer": "RFC 3227",
+                            "explanation": "La opción marcada en verde en el material fuente es: RFC 3227."
+                        },
+                        {
+                            "text": "¿Qué principio ético se vulnera si un técnico accede a los historiales médicos de un hospital sin justificación profesional?",
+                            "options": [
+                                "Principio de secreto profesional y confidencialidad",
+                                "Principio de competencia desleal",
+                                "Principio de sostenibilidad ambiental",
+                                "Principio de eficiencia tecnológica"
+                            ],
+                            "correctAnswer": "Principio de secreto profesional y confidencialidad",
+                            "explanation": "La opción marcada en verde en el material fuente es: Principio de secreto profesional y confidencialidad."
+                        },
+                        {
+                            "text": "¿Qué ventaja aporta el uso de contenedores antiestáticos en el transporte de hardware incautado?",
+                            "options": [
+                                "Impide que el atacante localice el equipo mediante GPS",
+                                "Protege los componentes electrónicos de descargas que podrían dañar los datos",
+                                "Hace que el equipo sea más ligero y fácil de transportar",
+                                "Evita que el dispositivo se raye o pierda brillo"
+                            ],
+                            "correctAnswer": "Protege los componentes electrónicos de descargas que podrían dañar los datos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Protege los componentes electrónicos de descargas que podrían dañar los datos."
+                        },
+                        {
+                            "text": "¿Qué se entiende por \"Privacidad por diseño\" en el desarrollo de aplicaciones?",
+                            "options": [
+                                "Integrar controles de privacidad y protección de datos desde el inicio de la creación del sistema",
+                                "Permitir que solo el diseñador gráfico tenga acceso a la base de datos",
+                                "Añadir una página de términos y condiciones al final del proyecto",
+                                "Diseñar interfaces que sean visualmente privadas usando colores oscuros"
+                            ],
+                            "correctAnswer": "Integrar controles de privacidad y protección de datos desde el inicio de la creación del sistema",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integrar controles de privacidad y protección de datos desde el inicio de la creación del sistema."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

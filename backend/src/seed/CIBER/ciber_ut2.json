@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 2,
+                    "title": "UT2: Mecanismos de Seguridad Activa y Criptografía",
+                    "questions": [
+                        {
+                            "text": "¿Cuál es el orden correcto de las primeras etapas que sigue un atacante según el modelo de la cadena de matanza (Kill Chain)? Pregunta 1 Respuesta",
+                            "options": [
+                                "Instalación, Explotación y Comando",
+                                "Explotación, Preparación y Distribución",
+                                "Reconocimiento, Preparación y Distribución",
+                                "Distribución, Reconocimiento y Preparación"
+                            ],
+                            "correctAnswer": "Reconocimiento, Preparación y Distribución",
+                            "explanation": "La opción marcada en verde en el material fuente es: Reconocimiento, Preparación y Distribución."
+                        },
+                        {
+                            "text": "¿Qué sistema de seguridad activa se encarga de filtrar el tráfico de red entrante y saliente basándose en un conjunto de reglas predefinidas?",
+                            "options": [
+                                "Sistema de gestión de eventos (SIEM)",
+                                "Cortafuegos o Firewall",
+                                "Sistema de detección de intrusos (IDS)",
+                                "Función Hash"
+                            ],
+                            "correctAnswer": "Cortafuegos o Firewall",
+                            "explanation": "La opción marcada en verde en el material fuente es: Cortafuegos o Firewall."
+                        },
+                        {
+                            "text": "Un administrador de sistemas necesita detectar ataques complejos mediante la centralización y correlación de registros de múltiples fuentes. ¿Qué plataforma debe implementar?",
+                            "options": [
+                                "SIEM (Gestión de eventos e información de seguridad)",
+                                "IPS (Sistema de prevención de intrusos)",
+                                "Servidor de certificados digitales",
+                                "Algoritmo de cifrado simétrico"
+                            ],
+                            "correctAnswer": "SIEM (Gestión de eventos e información de seguridad)",
+                            "explanation": "La opción marcada en verde en el material fuente es: SIEM (Gestión de eventos e información de seguridad)."
+                        },
+                        {
+                            "text": "Durante un análisis de red, se detecta un intento de conexión desde una IP no autorizada. ¿Qué herramienta de prevención activa es capaz de bloquear físicamente este acceso antes de que cause daño?",
+                            "options": [
+                                "IPS (Sistema de prevención de intrusos)",
+                                "Función resumen SHA-256",
+                                "IDS (Sistema de detección de intrusos)",
+                                "Certificado digital cualificado"
+                            ],
+                            "correctAnswer": "IDS (Sistema de detección de intrusos)",
+                            "explanation": "La opción marcada en verde en el material fuente es: IDS (Sistema de detección de intrusos)."
+                        },
+                        {
+                            "text": "¿Qué principio de seguridad establece que una aplicación solo debe tener los permisos estrictamente necesarios para realizar su función?",
+                            "options": [
+                                "Mínimo privilegio",
+                                "Autenticación simple",
+                                "Disponibilidad total",
+                                "Seguridad por oscuridad"
+                            ],
+                            "correctAnswer": "Mínimo privilegio",
+                            "explanation": "La respuesta correcta fue confirmada por fuente docente: Mínimo privilegio."
+                        },
+                        {
+                            "text": "¿Cómo se define el malware de tipo troyano en un entorno profesional?",
+                            "options": [
+                                "Herramienta que registra exclusivamente las pulsaciones del teclado",
+                                "Código capaz de replicarse automáticamente por toda la red",
+                                "Programa que cifra los datos y exige un rescate económico",
+                                "Software que se disfraza de herramienta legítima para engañar al usuario"
+                            ],
+                            "correctAnswer": "Software que se disfraza de herramienta legítima para engañar al usuario",
+                            "explanation": "La opción marcada en verde en el material fuente es: Software que se disfraza de herramienta legítima para engañar al usuario."
+                        },
+                        {
+                            "text": "¿En qué consiste la técnica de detección antimalware denominada heurística?",
+                            "options": [
+                                "Analizar el comportamiento o la estructura del código para descubrir amenazas desconocidas",
+                                "Consultar una lista blanca de proveedores autorizados",
+                                "Bloquear archivos basándose únicamente en su nombre o extensión",
+                                "Comparar el archivo con una base de datos de firmas ya conocidas"
+                            ],
+                            "correctAnswer": "Analizar el comportamiento o la estructura del código para descubrir amenazas desconocidas",
+                            "explanation": "La opción marcada en verde en el material fuente es: Analizar el comportamiento o la estructura del código para descubrir amenazas desconocidas."
+                        },
+                        {
+                            "text": "Ante una infección confirmada por ransomware en un equipo de trabajo, ¿cuál debe ser la primera acción técnica a realizar?",
+                            "options": [
+                                "Realizar una copia de seguridad de los archivos ya cifrados",
+                                "Reiniciar el equipo para intentar limpiar la memoria RAM",
+                                "Pagar el rescate para recuperar las claves de descifrado",
+                                "Aislar el equipo de la red inmediatamente para evitar la propagación"
+                            ],
+                            "correctAnswer": "Aislar el equipo de la red inmediatamente para evitar la propagación",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aislar el equipo de la red inmediatamente para evitar la propagación."
+                        },
+                        {
+                            "text": "Un desarrollador de aplicaciones web (DAW) quiere asegurar que los datos introducidos en los formularios no contengan código malicioso. ¿Qué práctica debe aplicar?",
+                            "options": [
+                                "Segmentación de la red interna",
+                                "Uso de firmas digitales cualificadas",
+                                "Validación de las entradas de datos",
+                                "Implementación de un sistema SIEM"
+                            ],
+                            "correctAnswer": "Validación de las entradas de datos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Validación de las entradas de datos."
+                        },
+                        {
+                            "text": "¿Cuál es la característica principal del cifrado simétrico?",
+                            "options": [
+                                "Es mucho más lento que el cifrado asimétrico debido a su complejidad",
+                                "Emplea una única clave secreta tanto para cifrar como para descifrar",
+                                "No requiere el intercambio previo de claves entre emisor y receptor",
+                                "Utiliza una clave pública y otra privada vinculadas matemáticamente"
+                            ],
+                            "correctAnswer": "Emplea una única clave secreta tanto para cifrar como para descifrar",
+                            "explanation": "La opción marcada en verde en el material fuente es: Emplea una única clave secreta tanto para cifrar como para descifrar."
+                        },
+                        {
+                            "text": "¿Qué algoritmo de cifrado simétrico es el estándar actual recomendado para proteger el almacenamiento local de servidores?",
+                            "options": [
+                                "SHA-256",
+                                "AES (Advanced Encryption Standard)",
+                                "RSA",
+                                "MD5"
+                            ],
+                            "correctAnswer": "AES (Advanced Encryption Standard)",
+                            "explanation": "La opción marcada en verde en el material fuente es: AES (Advanced Encryption Standard)."
+                        },
+                        {
+                            "text": "¿Qué problema de seguridad resuelve principalmente el uso de la criptografía asimétrica?",
+                            "options": [
+                                "La necesidad de realizar copias de seguridad fuera de línea",
+                                "La dificultad de enviar una clave secreta sin que sea interceptada",
+                                "La baja velocidad de procesamiento en grandes volúmenes de datos",
+                                "El filtrado de paquetes en la capa de transporte"
+                            ],
+                            "correctAnswer": "La dificultad de enviar una clave secreta sin que sea interceptada",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad de enviar una clave secreta sin que sea interceptada."
+                        },
+                        {
+                            "text": "En un esquema de clave pública (asimétrico), ¿qué clave se utiliza para que cualquier usuario pueda cifrar un mensaje destinado al propietario?",
+                            "options": [
+                                "La clave privada del receptor",
+                                "La clave simétrica de sesión",
+                                "La clave pública del receptor",
+                                "La clave de integridad Hash"
+                            ],
+                            "correctAnswer": "La clave pública del receptor",
+                            "explanation": "La opción marcada en verde en el material fuente es: La clave pública del receptor."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de un algoritmo Hash como SHA-256 en la transmisión de archivos?",
+                            "options": [
+                                "Cifrar el contenido para que solo sea legible por usuarios autorizados",
+                                "Comprimir el archivo para que ocupe menos espacio en el servidor",
+                                "Generar una huella digital única para verificar la integridad del archivo",
+                                "Crear un túnel seguro mediante el protocolo TLS"
+                            ],
+                            "correctAnswer": "Generar una huella digital única para verificar la integridad del archivo",
+                            "explanation": "La opción marcada en verde en el material fuente es: Generar una huella digital única para verificar la integridad del archivo."
+                        },
+                        {
+                            "text": "¿Qué propiedad de la seguridad se garantiza cuando el \"hash\" de un archivo descargado coincide exactamente con el proporcionado por el fabricante?",
+                            "options": [
+                                "Disponibilidad",
+                                "Integridad",
+                                "Confidencialidad",
+                                "No repudio"
+                            ],
+                            "correctAnswer": "Integridad",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integridad."
+                        },
+                        {
+                            "text": "¿Qué técnica criptográfica se utiliza en los protocolos HTTPS (TLS) para combinar seguridad en el intercambio de claves y velocidad en la transmisión?",
+                            "options": [
+                                "Cifrado exclusivamente simétrico",
+                                "Cifrado exclusivamente asimétrico",
+                                "Comunicaciones híbridas",
+                                "Esteganografía de red"
+                            ],
+                            "correctAnswer": "Comunicaciones híbridas",
+                            "explanation": "La opción marcada en verde en el material fuente es: Comunicaciones híbridas."
+                        },
+                        {
+                            "text": "¿Qué mecanismo vincula de manera única a un firmante con los datos, garantizando su identidad y el no repudio?",
+                            "options": [
+                                "Lista de control de acceso (ACL)",
+                                "Firma digital",
+                                "Sistema de detección heurística",
+                                "Cortafuegos de aplicación"
+                            ],
+                            "correctAnswer": "Firma digital",
+                            "explanation": "La opción marcada en verde en el material fuente es: Firma digital."
+                        },
+                        {
+                            "text": "¿Qué entidad oficial es la encargada de expedir certificados digitales que vinculan la identidad de una persona con su clave pública?",
+                            "options": [
+                                "Administrador del sistema SIEM",
+                                "Desarrollador de la aplicación",
+                                "Autoridad de Certificación (AC)",
+                                "Proveedor de servicios de internet (ISP)"
+                            ],
+                            "correctAnswer": "Autoridad de Certificación (AC)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Autoridad de Certificación (AC)."
+                        },
+                        {
+                            "text": "Según la normativa europea eIDAS, ¿qué nivel de firma tiene el mismo valor jurídico que una firma manuscrita sobre papel?",
+                            "options": [
+                                "Casilla de aceptación de términos",
+                                "Firma electrónica cualificada",
+                                "Firma electrónica avanzada",
+                                "Firma electrónica simple"
+                            ],
+                            "correctAnswer": "Firma electrónica cualificada",
+                            "explanation": "La opción marcada en verde en el material fuente es: Firma electrónica cualificada."
+                        },
+                        {
+                            "text": "¿Qué fase de la Kill Chain se produce cuando el malware se comunica con el servidor del atacante para recibir órdenes remotas?",
+                            "options": [
+                                "Preparación",
+                                "Reconocimiento",
+                                "Explotación",
+                                "Comando y Control (C2)"
+                            ],
+                            "correctAnswer": "Comando y Control (C2)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Comando y Control (C2)."
+                        },
+                        {
+                            "text": "¿Qué vector de entrada de malware consiste en ofrecer una recompensa falsa o dejar dispositivos USB infectados para que las víctimas los usen?",
+                            "options": [
+                                "Smishing",
+                                "Spear phishing",
+                                "Baiting",
+                                "Phishing"
+                            ],
+                            "correctAnswer": "Baiting",
+                            "explanation": "La opción marcada en verde en el material fuente es: Baiting."
+                        },
+                        {
+                            "text": "Para verificar la integridad de un archivo en un sistema Linux, ¿qué comando se utiliza habitualmente?",
+                            "options": [
+                                "sha256sum",
+                                "ipconfig /all",
+                                "nmap -sV",
+                                "Get-FileHash"
+                            ],
+                            "correctAnswer": "sha256sum",
+                            "explanation": "La opción marcada en verde en el material fuente es: sha256sum."
+                        },
+                        {
+                            "text": "¿Qué componente de software se recomienda usar para el manejo seguro de secretos y credenciales en lugar de escribirlos en el código fuente?",
+                            "options": [
+                                "Almacenamiento en texto plano",
+                                "Variables de entorno protegidas o Vaults",
+                                "Comentarios en el código",
+                                "Archivos de configuración compartidos"
+                            ],
+                            "correctAnswer": "Variables de entorno protegidas o Vaults",
+                            "explanation": "La opción marcada en verde en el material fuente es: Variables de entorno protegidas o Vaults."
+                        },
+                        {
+                            "text": "Un técnico detecta que el antivirus bloquea un programa porque coincide con una \"huella\" registrada en su base de datos. ¿Qué tipo de detección es?",
+                            "options": [
+                                "Detección proactiva heurística",
+                                "Escaneo de puertos",
+                                "Detección reactiva por firmas",
+                                "Análisis de comportamiento"
+                            ],
+                            "correctAnswer": "Detección reactiva por firmas",
+                            "explanation": "La opción marcada en verde en el material fuente es: Detección reactiva por firmas."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes algoritmos de resumen (hash) se considera actualmente obsoleto debido a la posibilidad de encontrar colisiones?",
+                            "options": [
+                                "SHA-256",
+                                "MD5",
+                                "ECC",
+                                "SHA-512"
+                            ],
+                            "correctAnswer": "MD5",
+                            "explanation": "La opción marcada en verde en el material fuente es: MD5."
+                        },
+                        {
+                            "text": "¿Qué medida de seguridad lógica permite que, si un atacante compromete un equipo, no pueda acceder fácilmente al resto de la infraestructura?",
+                            "options": [
+                                "Uso de protocolos sin cifrar",
+                                "Cifrado de disco completo",
+                                "Autenticación simple de un factor",
+                                "Segmentación de la red"
+                            ],
+                            "correctAnswer": "Segmentación de la red",
+                            "explanation": "La opción marcada en verde en el material fuente es: Segmentación de la red."
+                        },
+                        {
+                            "text": "¿Qué funcionalidad añade el uso de una marca de tiempo en un proceso de firma digital?",
+                            "options": [
+                                "Eliminar la necesidad de una clave privada",
+                                "Aumentar la velocidad de cifrado simétrico",
+                                "Comprimir el documento firmado",
+                                "Identificar el momento exacto en el que se realizó la firma"
+                            ],
+                            "correctAnswer": "Identificar el momento exacto en el que se realizó la firma",
+                            "explanation": "La opción marcada en verde en el material fuente es: Identificar el momento exacto en el que se realizó la firma."
+                        },
+                        {
+                            "text": "¿Qué protocolo crea un túnel seguro para proteger la transmisión de datos a través de redes públicas?",
+                            "options": [
+                                "Telnet",
+                                "HTTP",
+                                "FTP",
+                                "VPN (Virtual Private Network)"
+                            ],
+                            "correctAnswer": "VPN (Virtual Private Network)",
+                            "explanation": "La opción marcada en verde en el material fuente es: VPN (Virtual Private Network)."
+                        },
+                        {
+                            "text": "En el contexto del desarrollo seguro, ¿qué organización proporciona guías y metodologías para evitar vulnerabilidades como la inyección SQL?",
+                            "options": [
+                                "ISO",
+                                "FNMT",
+                                "IANA",
+                                "OWASP"
+                            ],
+                            "correctAnswer": "OWASP",
+                            "explanation": "La opción marcada en verde en el material fuente es: OWASP."
+                        },
+                        {
+                            "text": "¿Qué acción es fundamental realizar periódicamente para asegurar que los planes de contingencia y copias de seguridad funcionan correctamente?",
+                            "options": [
+                                "Desactivación de los sistemas IDS para ahorrar recursos",
+                                "Cambio de los algoritmos de hash diariamente",
+                                "Simulacros de recuperación y pruebas de backups",
+                                "Instalación de software de fuentes no oficiales"
+                            ],
+                            "correctAnswer": "Simulacros de recuperación y pruebas de backups",
+                            "explanation": "La opción marcada en verde en el material fuente es: Simulacros de recuperación y pruebas de backups."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "SASP",
+            "name": "Sostenibilidad aplicada al sistema productivo",
+            "topics": [
+                {
+                    "number": 2,
+                    "title": "UT2: Retos Ambientales y Sociales",
+                    "questions": [
+                        {
+                            "text": "¿Cuál de las siguientes afirmaciones describe con mayor precisión la relación entre la superpoblación y la degradación ambiental? Pregunta 1 Respuesta",
+                            "options": [
+                                "La superpoblación no tiene un impacto significativo en la biodiversidad.",
+                                "La superpoblación incrementa la demanda de recursos, exacerbando la deforestación y la contaminación.",
+                                "La superpoblación se limita a aumentar el consumo de agua en zonas urbanas.",
+                                "La superpoblación sólo afecta la calidad de vida en áreas rurales."
+                            ],
+                            "correctAnswer": "La superpoblación incrementa la demanda de recursos, exacerbando la deforestación y la contaminación.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La superpoblación incrementa la demanda de recursos, exacerbando la deforestación y la contaminación.."
+                        },
+                        {
+                            "text": "¿Cuál es el principal riesgo asociado con el agotamiento de los acuíferos?",
+                            "options": [
+                                "Reducción de la capacidad agrícola debido a la falta de agua.",
+                                "Aumento en la contaminación del aire.",
+                                "Incremento en los niveles de CO2 en la atmósfera.",
+                                "Mayor riesgo de huracanes y tormentas severas."
+                            ],
+                            "correctAnswer": "Reducción de la capacidad agrícola debido a la falta de agua.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Reducción de la capacidad agrícola debido a la falta de agua.."
+                        },
+                        {
+                            "text": "En términos de contaminación, ¿qué impacto tiene la agricultura intensiva en las regiones de mayor riesgo?",
+                            "options": [
+                                "Mejora en la calidad del suelo debido a la rotación de cultivos.",
+                                "Disminución de la biodiversidad acuática debido a la contaminación del agua.",
+                                "Reducción en las emisiones de gases de efecto invernadero.",
+                                "Aumento exclusivo de la producción agrícola."
+                            ],
+                            "correctAnswer": "Disminución de la biodiversidad acuática debido a la contaminación del agua.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Disminución de la biodiversidad acuática debido a la contaminación del agua.."
+                        },
+                        {
+                            "text": "¿Cómo contribuye la deforestación a la alteración de los ciclos hidrológicos?",
+                            "options": [
+                                "Reduciendo la capacidad del suelo para retener agua, lo que provoca sequías e inundaciones.",
+                                "Promoviendo la formación de nuevos ríos y lagos.",
+                                "Aumentando la retención de agua en el suelo.",
+                                "Mejorando la capacidad del suelo para filtrar agua."
+                            ],
+                            "correctAnswer": "Reduciendo la capacidad del suelo para retener agua, lo que provoca sequías e inundaciones.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Reduciendo la capacidad del suelo para retener agua, lo que provoca sequías e inundaciones.."
+                        },
+                        {
+                            "text": "¿Cuál es una de las principales consecuencias de la sobreexplotación de acuíferos en áreas como California?",
+                            "options": [
+                                "Mejora en la producción agrícola.",
+                                "Racionamiento de agua y disminución de la productividad agrícola.",
+                                "Expansión de áreas urbanas debido a la disponibilidad de agua.",
+                                "Aumento en la población de especies acuáticas."
+                            ],
+                            "correctAnswer": "Racionamiento de agua y disminución de la productividad agrícola.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Racionamiento de agua y disminución de la productividad agrícola.."
+                        },
+                        {
+                            "text": "¿Qué estrategia podría ser más efectiva para prevenir la desertificación en áreas semiáridas?",
+                            "options": [
+                                "Aumentar la producción agrícola a través de la expansión de tierras de cultivo.",
+                                "Intensificar el uso de fertilizantes químicos para compensar la baja fertilidad del suelo.",
+                                "Implementar técnicas de siembra directa y agricultura de conservación para mejorar la estructura del suelo.",
+                                "Reducir la rotación de cultivos para mantener la humedad del suelo."
+                            ],
+                            "correctAnswer": "Implementar técnicas de siembra directa y agricultura de conservación para mejorar la estructura del suelo.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Implementar técnicas de siembra directa y agricultura de conservación para mejorar la estructura del suelo.."
+                        },
+                        {
+                            "text": "En el ámbito de la gestión de residuos, ¿qué barrera tecnológica limita actualmente la expansión del reciclaje de plásticos mixtos?",
+                            "options": [
+                                "La baja disponibilidad de plásticos mixtos en el mercado de reciclaje.",
+                                "La dificultad para separar diferentes tipos de plásticos en el flujo de residuos.",
+                                "La falta de legislación que obligue al reciclaje de plásticos mixtos.",
+                                "El alto costo de los productos fabricados a partir de plásticos reciclados."
+                            ],
+                            "correctAnswer": "La dificultad para separar diferentes tipos de plásticos en el flujo de residuos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad para separar diferentes tipos de plásticos en el flujo de residuos.."
+                        },
+                        {
+                            "text": "¿Cómo afecta el cambio climático a la seguridad hídrica en regiones que dependen de la nieve y el hielo para sus fuentes de agua?",
+                            "options": [
+                                "Mejora la calidad del agua debido a la menor cantidad de sedimentos en el deshielo.",
+                                "Disminuye la disponibilidad de agua en los meses de verano, aumentando la competencia por los recursos hídricos.",
+                                "Estabiliza el suministro de agua al reducir la variabilidad climática.",
+                                "Incrementa la disponibilidad de agua durante todo el año debido a un deshielo constante."
+                            ],
+                            "correctAnswer": "Disminuye la disponibilidad de agua en los meses de verano, aumentando la competencia por los recursos hídricos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Disminuye la disponibilidad de agua en los meses de verano, aumentando la competencia por los recursos hídricos.."
+                        },
+                        {
+                            "text": "¿Qué desafío principal enfrentan las políticas internacionales como REDD+ para lograr la reducción efectiva de la deforestación en países en desarrollo?",
+                            "options": [
+                                "El impacto negativo en la economía local debido a la prohibición de todas las actividades agrícolas en áreas forestales.",
+                                "La falta de voluntad política para implementar cambios en la legislación forestal.",
+                                "La dificultad de medir y verificar las reducciones reales de deforestación.",
+                                "La resistencia de las comunidades locales a participar en programas de conservación."
+                            ],
+                            "correctAnswer": "La dificultad de medir y verificar las reducciones reales de deforestación.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad de medir y verificar las reducciones reales de deforestación.."
+                        },
+                        {
+                            "text": "En el contexto de la movilidad sostenible, ¿qué impacto podría tener la electrificación del transporte en la demanda global de recursos naturales?",
+                            "options": [
+                                "Aumento en la demanda de metales como el litio y el cobalto, necesarios para la fabricación de baterías.",
+                                "Reducción de la demanda de metales raros debido a la disminución en la producción de vehículos eléctricos.",
+                                "Reducción de la extracción de petróleo y gas natural, con un impacto mínimo en otros recursos.",
+                                "Disminución en la necesidad de infraestructura de carga debido a la alta eficiencia de las baterías eléctricas."
+                            ],
+                            "correctAnswer": "Aumento en la demanda de metales como el litio y el cobalto, necesarios para la fabricación de baterías.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aumento en la demanda de metales como el litio y el cobalto, necesarios para la fabricación de baterías.."
+                        },
+                        {
+                            "text": "¿Qué problemática agrava la efectividad de las políticas de conservación de la biodiversidad en áreas protegidas?",
+                            "options": [
+                                "El enfoque exclusivo en especies carismáticas en detrimento de otras especies menos visibles.",
+                                "La falta de participación de las comunidades locales en la gestión de las áreas protegidas.",
+                                "La implementación de políticas de conservación estrictas que prohíban cualquier actividad humana en las áreas protegidas.",
+                                "La expansión de áreas agrícolas en las proximidades de las áreas protegidas."
+                            ],
+                            "correctAnswer": "La falta de participación de las comunidades locales en la gestión de las áreas protegidas.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La falta de participación de las comunidades locales en la gestión de las áreas protegidas.."
+                        },
+                        {
+                            "text": "En términos de adaptación al cambio climático, ¿qué desafío representa la variabilidad climática para la planificación a largo plazo en la agricultura?",
+                            "options": [
+                                "El incremento en la disponibilidad de agua debido a patrones de precipitación más constantes.",
+                                "La necesidad de aumentar el uso de fertilizantes para compensar la baja fertilidad de los suelos.",
+                                "La posibilidad de incrementar la producción mediante la diversificación de cultivos.",
+                                "La dificultad para predecir eventos climáticos extremos que pueden afectar la productividad."
+                            ],
+                            "correctAnswer": "La dificultad para predecir eventos climáticos extremos que pueden afectar la productividad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad para predecir eventos climáticos extremos que pueden afectar la productividad.."
+                        },
+                        {
+                            "text": "¿Qué implica el \"efecto rebote\" en el contexto de la eficiencia energética y cómo puede contrarrestarse?",
+                            "options": [
+                                "Disminución en la innovación tecnológica debido a la alta eficiencia alcanzada, contrarrestado mediante incentivos a la investigación y desarrollo.",
+                                "Aumento en la demanda de energía debido a la disminución en los precios de la energía, contrarrestado mediante políticas de tarifas progresivas.",
+                                "Aumento en la demanda de productos más eficientes, contrarrestado mediante la promoción de una cultura de bajo consumo.",
+                                "Reducción en la demanda de energía debido a la eficiencia, lo que lleva a un menor desarrollo de energías renovables, contrarrestado mediante subsidios a las renovables."
+                            ],
+                            "correctAnswer": "Aumento en la demanda de energía debido a la disminución en los precios de la energía, contrarrestado mediante políticas de tarifas progresivas.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aumento en la demanda de energía debido a la disminución en los precios de la energía, contrarrestado mediante políticas de tarifas progresivas.."
+                        },
+                        {
+                            "text": "¿Cuál es el principal reto en la implementación de tecnologías de captura y almacenamiento de carbono (CCS) en industrias pesadas?",
+                            "options": [
+                                "La falta de espacio geológico adecuado para el almacenamiento seguro del carbono.",
+                                "La dificultad para transportar el carbono capturado a los sitios de almacenamiento.",
+                                "La incapacidad de las tecnologías actuales para capturar más del 50% del CO2 emitido.",
+                                "A El costo extremadamente alto de la tecnología que la hace inviable económicamente sin subsidios."
+                            ],
+                            "correctAnswer": "A El costo extremadamente alto de la tecnología que la hace inviable económicamente sin subsidios.",
+                            "explanation": "La opción marcada en verde en el material fuente es: A El costo extremadamente alto de la tecnología que la hace inviable económicamente sin subsidios.."
+                        },
+                        {
+                            "text": "En la gestión de recursos naturales, ¿por qué es crítica la preservación de la biodiversidad en la agricultura de precisión?",
+                            "options": [
+                                "Porque mejora la eficiencia del uso de agua y fertilizantes en monocultivos.",
+                                "Porque la biodiversidad proporciona servicios ecosistémicos esenciales que mejoran la resiliencia de los sistemas agrícolas frente a perturbaciones.",
+                                "Porque reduce la necesidad de rotación de cultivos, lo que incrementa la productividad agrícola.",
+                                "Porque permite la polinización cruzada de cultivos que aumenta la resistencia a plagas."
+                            ],
+                            "correctAnswer": "Porque la biodiversidad proporciona servicios ecosistémicos esenciales que mejoran la resiliencia de los sistemas agrícolas frente a perturbaciones.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque la biodiversidad proporciona servicios ecosistémicos esenciales que mejoran la resiliencia de los sistemas agrícolas frente a perturbaciones.."
+                        },
+                        {
+                            "text": "¿Qué rol juega la agricultura de precisión en la mitigación de los impactos del cambio climático en la producción agrícola?",
+                            "options": [
+                                "Aumenta la expansión de tierras agrícolas al hacer más viable la agricultura en zonas marginales.",
+                                "Incrementa la dependencia de fertilizantes sintéticos, lo que exacerba la contaminación del suelo.",
+                                "Reduce la necesidad de diversificación de cultivos, lo que mejora la estabilidad económica de las explotaciones agrícolas.",
+                                "Permite un uso más eficiente de los recursos, reduciendo las emisiones de gases de efecto invernadero asociadas con la agricultura."
+                            ],
+                            "correctAnswer": "Permite un uso más eficiente de los recursos, reduciendo las emisiones de gases de efecto invernadero asociadas con la agricultura.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Permite un uso más eficiente de los recursos, reduciendo las emisiones de gases de efecto invernadero asociadas con la agricultura.."
+                        },
+                        {
+                            "text": "¿Cómo afecta la desertificación a la dinámica social en regiones propensas a este fenómeno?",
+                            "options": [
+                                "Mejora la cohesión social al unificar a las comunidades en la lucha contra la desertificación.",
+                                "Provoca desplazamientos de población y exacerba conflictos por recursos como el agua y la tierra.",
+                                "Reduce la migración interna al estabilizar la producción agrícola.",
+                                "Aumenta la estabilidad económica al concentrar la actividad agrícola en áreas irrigadas."
+                            ],
+                            "correctAnswer": "Provoca desplazamientos de población y exacerba conflictos por recursos como el agua y la tierra.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Provoca desplazamientos de población y exacerba conflictos por recursos como el agua y la tierra.."
+                        },
+                        {
+                            "text": "En términos de políticas internacionales, ¿qué factor limita la efectividad de los acuerdos multilaterales como el Convenio de Basilea?",
+                            "options": [
+                                "La prohibición de transporte transfronterizo de todos los tipos de residuos, que no considera las excepciones necesarias.",
+                                "La insuficiente aplicación de las normativas a nivel local en países en desarrollo.",
+                                "La falta de ratificación por parte de países clave en la gestión de residuos.",
+                                "La incapacidad de establecer mecanismos de sanción efectivos para los incumplimientos."
+                            ],
+                            "correctAnswer": "La falta de ratificación por parte de países clave en la gestión de residuos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La falta de ratificación por parte de países clave en la gestión de residuos.."
+                        },
+                        {
+                            "text": "¿Qué limitación presenta la implementación de programas de conservación de la biodiversidad, como CITES, en países con economías emergentes?",
+                            "options": [
+                                "El exceso de financiación disponible para programas de conservación que dificulta la implementación efectiva.",
+                                "La dependencia económica de actividades extractivas que amenazan especies protegidas.",
+                                "La falta de interés de las comunidades locales en la conservación de la biodiversidad.",
+                                "La escasa participación en el comercio internacional de especies que reduce los incentivos para la conservación."
+                            ],
+                            "correctAnswer": "La dependencia económica de actividades extractivas que amenazan especies protegidas.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dependencia económica de actividades extractivas que amenazan especies protegidas.."
+                        },
+                        {
+                            "text": "¿Cuál es la principal barrera para la transición hacia energías renovables en países desarrollados, según las tendencias actuales?",
+                            "options": [
+                                "La saturación del mercado de energía que impide nuevas inversiones en infraestructura energética.",
+                                "La resistencia política y económica de las industrias de combustibles fósiles.",
+                                "La falta de recursos naturales necesarios para la producción de energías renovables.",
+                                "El bajo costo inicial de las tecnologías renovables comparado con los combustibles fósiles."
+                            ],
+                            "correctAnswer": "La resistencia política y económica de las industrias de combustibles fósiles.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La resistencia política y económica de las industrias de combustibles fósiles.."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

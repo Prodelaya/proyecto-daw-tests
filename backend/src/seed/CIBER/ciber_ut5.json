@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 5,
+                    "title": "UT5: Seguridad en Dispositivos Móviles e Inalámbricos",
+                    "questions": [
+                        {
+                            "text": "¿Qué mejora técnica introduce el protocolo WPA3 frente a su predecesor para evitar ataques de diccionario fuera de línea?",
+                            "options": [
+                                "El intercambio de claves SAE (Simultaneous Authentication of Equals)",
+                                "El uso de claves estáticas de 104 bits",
+                                "El uso exclusivo de vectores de inicialización cortos",
+                                "La desactivación obligatoria del cifrado AES"
+                            ],
+                            "correctAnswer": "La desactivación obligatoria del cifrado AES",
+                            "explanation": "La opción marcada en verde en el material fuente es: La desactivación obligatoria del cifrado AES."
+                        },
+                        {
+                            "text": "Un técnico necesita configurar una red Wi-Fi empresarial donde cada empleado acceda con su propio usuario y contraseña personal. ¿Qué estándar debe implementar?",
+                            "options": [
+                                "Filtrado MAC estático",
+                                "WPA2-Personal (PSK)",
+                                "WEP con clave compartida",
+                                "IEEE 802.1X con servidor RADIUS"
+                            ],
+                            "correctAnswer": "IEEE 802.1X con servidor RADIUS",
+                            "explanation": "La opción marcada en verde en el material fuente es: IEEE 802.1X con servidor RADIUS."
+                        },
+                        {
+                            "text": "En el marco de control de acceso 802.1X, ¿cuál es la función del \"Authenticator\"?",
+                            "options": [
+                                "Generar los certificados digitales cualificados de la empresa",
+                                "Almacenar la base de datos de todos los usuarios VIP",
+                                "Solicitar el acceso enviando las credenciales del usuario",
+                                "Actuar como intermediario y mantener la puerta cerrada hasta la validación del servidor"
+                            ],
+                            "correctAnswer": "Actuar como intermediario y mantener la puerta cerrada hasta la validación del servidor",
+                            "explanation": "La opción marcada en verde en el material fuente es: Actuar como intermediario y mantener la puerta cerrada hasta la validación del servidor."
+                        },
+                        {
+                            "text": "¿Qué diferencia principal existe entre un sistema WIDS y un WIPS en la seguridad de redes inalámbricas?",
+                            "options": [
+                                "El WIDS detecta y avisa, mientras que el WIPS es capaz de bloquear o neutralizar la amenaza",
+                                "El WIDS es un hardware y el WIPS es un software gratuito",
+                                "El WIPS solo funciona en redes cableadas y el WIDS en redes Wi-Fi",
+                                "No hay diferencia técnica, son términos comerciales para el mismo cortafuegos"
+                            ],
+                            "correctAnswer": "El WIDS detecta y avisa, mientras que el WIPS es capaz de bloquear o neutralizar la amenaza",
+                            "explanation": "La opción marcada en verde en el material fuente es: El WIDS detecta y avisa, mientras que el WIPS es capaz de bloquear o neutralizar la amenaza."
+                        },
+                        {
+                            "text": "¿Cuál es el riesgo principal de mantener activado el protocolo WPS (Wi-Fi Protected Setup) en un router profesional?",
+                            "options": [
+                                "Obliga a cambiar la contraseña del Wi-Fi cada 24 horas",
+                                "Reduce la velocidad de la conexión a la mitad",
+                                "Permite a un atacante adivinar el PIN de acceso en pocos minutos",
+                                "Impide que los dispositivos móviles se conecten por Bluetooth"
+                            ],
+                            "correctAnswer": "Permite a un atacante adivinar el PIN de acceso en pocos minutos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Permite a un atacante adivinar el PIN de acceso en pocos minutos."
+                        },
+                        {
+                            "text": "¿Qué política empresarial permite a los empleados utilizar sus propios smartphones personales para acceder a recursos corporativos?",
+                            "options": [
+                                "Shadow IT",
+                                "Hardening de sistemas",
+                                "Segmentación física",
+                                "BYOD (Bring Your Own Device)"
+                            ],
+                            "correctAnswer": "BYOD (Bring Your Own Device)",
+                            "explanation": "La opción marcada en verde en el material fuente es: BYOD (Bring Your Own Device)."
+                        },
+                        {
+                            "text": "¿Cuál es la medida más efectiva para proteger el tráfico de datos cuando un empleado debe usar obligatoriamente una red Wi-Fi pública?",
+                            "options": [
+                                "Utilizar una conexión VPN para crear un túnel cifrado",
+                                "Desactivar el brillo de la pantalla",
+                                "Cambiar el nombre del dispositivo",
+                                "Borrar el historial del navegador después de usarlo"
+                            ],
+                            "correctAnswer": "Utilizar una conexión VPN para crear un túnel cifrado",
+                            "explanation": "La opción marcada en verde en el material fuente es: Utilizar una conexión VPN para crear un túnel cifrado."
+                        },
+                        {
+                            "text": "En el contexto de la seguridad IoT, ¿por qué la botnet \"Mirai\" logró comprometer miles de dispositivos como cámaras y routers?",
+                            "options": [
+                                "Porque los dispositivos no tenían conexión a internet",
+                                "Por el uso de contraseñas y usuarios por defecto que nunca fueron cambiados",
+                                "Por un fallo crítico en el protocolo de cifrado WPA3",
+                                "Por un pico de tensión en la red eléctrica global"
+                            ],
+                            "correctAnswer": "Por el uso de contraseñas y usuarios por defecto que nunca fueron cambiados",
+                            "explanation": "La opción marcada en verde en el material fuente es: Por el uso de contraseñas y usuarios por defecto que nunca fueron cambiados."
+                        },
+                        {
+                            "text": "¿Qué se entiende por \"firmware\" en un dispositivo de Internet de las Cosas (IoT)?",
+                            "options": [
+                                "El contrato legal que firma el usuario al comprar el equipo",
+                                "El servidor externo donde se guardan las copias de seguridad",
+                                "El software básico que controla directamente el hardware del dispositivo",
+                                "La carcasa de plástico que protege el sensor contra golpes"
+                            ],
+                            "correctAnswer": "El software básico que controla directamente el hardware del dispositivo",
+                            "explanation": "La opción marcada en verde en el material fuente es: El software básico que controla directamente el hardware del dispositivo."
+                        },
+                        {
+                            "text": "¿En qué consiste la técnica de \"tamper-proofing\" aplicada a dispositivos físicos de red?",
+                            "options": [
+                                "En cifrar los datos antes de enviarlos por la nube",
+                                "En actualizar el antivirus del servidor cada hora",
+                                "En ocultar el nombre de la red inalámbrica (SSID)",
+                                "En medidas diseñadas para detectar o impedir la manipulación física del hardware"
+                            ],
+                            "correctAnswer": "En medidas diseñadas para detectar o impedir la manipulación física del hardware",
+                            "explanation": "La opción marcada en verde en el material fuente es: En medidas diseñadas para detectar o impedir la manipulación física del hardware."
+                        },
+                        {
+                            "text": "¿Cuál es la principal vulnerabilidad del protocolo WEP que lo hace totalmente desaconsejable en entornos profesionales?",
+                            "options": [
+                                "La debilidad de sus vectores de inicialización (IV), que permite descifrar la clave en segundos",
+                                "La obligatoriedad de usar un servidor RADIUS externo",
+                                "Que solo es compatible con dispositivos fabricados antes de 2024",
+                                "El uso de contraseñas demasiado largas que ralentizan el router"
+                            ],
+                            "correctAnswer": "La debilidad de sus vectores de inicialización (IV), que permite descifrar la clave en segundos",
+                            "explanation": "La opción marcada en verde en el material fuente es: La debilidad de sus vectores de inicialización (IV), que permite descifrar la clave en segundos."
+                        },
+                        {
+                            "text": "En una arquitectura de red segura, ¿qué medida de \"Hardening\" se debe aplicar a los puntos de acceso Wi-Fi?",
+                            "options": [
+                                "Dejar el nombre de la red (SSID) como \"Admin_WiFi\" para identificarlo rápido",
+                                "Aumentar la potencia de emisión al máximo para cubrir más edificios",
+                                "Desactivar el cifrado para facilitar la conexión de dispositivos antiguos",
+                                "Cambiar las credenciales de administración por defecto y actualizar el firmware"
+                            ],
+                            "correctAnswer": "Cambiar las credenciales de administración por defecto y actualizar el firmware",
+                            "explanation": "La opción marcada en verde en el material fuente es: Cambiar las credenciales de administración por defecto y actualizar el firmware."
+                        },
+                        {
+                            "text": "¿Qué función cumple el protocolo EAP (Extensible Authentication Protocol) dentro del estándar 802.1X?",
+                            "options": [
+                                "Proporcionar un método flexible para transportar las credenciales entre el cliente y el servidor de autenticación",
+                                "Medir la distancia física entre el usuario y el router",
+                                "Cifrar los archivos almacenados en el disco duro del servidor",
+                                "Sustituir al protocolo IP para navegar por internet"
+                            ],
+                            "correctAnswer": "Proporcionar un método flexible para transportar las credenciales entre el cliente y el servidor de autenticación",
+                            "explanation": "La opción marcada en verde en el material fuente es: Proporcionar un método flexible para transportar las credenciales entre el cliente y el servidor de autenticación."
+                        },
+                        {
+                            "text": "¿Cuál es la principal recomendación técnica para mitigar los ataques de \"Gemelo Malvado\" (Evil Twin) en una empresa?",
+                            "options": [
+                                "Limitar el número de usuarios que pueden conectarse simultáneamente",
+                                "Usar cables de red de categoría 6 en lugar de Wi-Fi",
+                                "Implementar certificados digitales de servidor para que el cliente valide la identidad del AP",
+                                "Ocultar el SSID de todas las redes de la oficina"
+                            ],
+                            "correctAnswer": "Implementar certificados digitales de servidor para que el cliente valide la identidad del AP",
+                            "explanation": "La opción marcada en verde en el material fuente es: Implementar certificados digitales de servidor para que el cliente valide la identidad del AP."
+                        },
+                        {
+                            "text": "¿Qué ventaja ofrece el uso de bandas de 5 GHz o 6 GHz frente a la de 2,4 GHz en un entorno de oficina densamente poblado?",
+                            "options": [
+                                "Menor interferencia y mayor disponibilidad de canales no superpuestos",
+                                "Eliminación total de la necesidad de usar contraseñas",
+                                "Mayor alcance físico, permitiendo atravesar muros de carga con facilidad",
+                                "Compatibilidad con todos los dispositivos móviles del mercado sin excepción"
+                            ],
+                            "correctAnswer": "Menor interferencia y mayor disponibilidad de canales no superpuestos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Menor interferencia y mayor disponibilidad de canales no superpuestos."
+                        },
+                        {
+                            "text": "¿Qué herramienta técnica permite a una empresa gestionar de forma centralizada las políticas de seguridad, aplicaciones y borrado remoto de los móviles corporativos?",
+                            "options": [
+                                "Un sistema de archivos distribuido (DFS)",
+                                "Un balanceador de carga de red",
+                                "Un editor de código fuente en la nube",
+                                "Una solución MDM (Mobile Device Management)"
+                            ],
+                            "correctAnswer": "Una solución MDM (Mobile Device Management)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Una solución MDM (Mobile Device Management)."
+                        },
+                        {
+                            "text": "Al configurar un dispositivo IoT, ¿qué técnica de red se recomienda para evitar que un compromiso del sensor afecte a los servidores críticos de la empresa?",
+                            "options": [
+                                "Usar una IP pública estática para cada sensor",
+                                "Desactivar el firewall del router para evitar cortes de conexión",
+                                "Conectarlo a la misma VLAN que el servidor de bases de datos",
+                                "Aislar los dispositivos IoT en una VLAN o subred específica y estanca"
+                            ],
+                            "correctAnswer": "Aislar los dispositivos IoT en una VLAN o subred específica y estanca",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aislar los dispositivos IoT en una VLAN o subred específica y estanca."
+                        },
+                        {
+                            "text": "¿Qué es un ataque de \"Bluejacking\" en el contexto de la seguridad de proximidad?",
+                            "options": [
+                                "El envío de mensajes no solicitados a dispositivos con Bluetooth activado y visible",
+                                "El cifrado de la tarjeta SD de un teléfono para pedir un rescate",
+                                "El robo de todas las fotos de un smartphone mediante Wi-Fi",
+                                "La interceptación de llamadas de voz a través de la red 4G/5G"
+                            ],
+                            "correctAnswer": "El envío de mensajes no solicitados a dispositivos con Bluetooth activado y visible",
+                            "explanation": "La opción marcada en verde en el material fuente es: El envío de mensajes no solicitados a dispositivos con Bluetooth activado y visible."
+                        },
+                        {
+                            "text": "¿Por qué se considera que la ocultación del SSID no es una medida de seguridad efectiva por sí misma?",
+                            "options": [
+                                "Porque impide que los dispositivos modernos utilicen el cifrado WPA3",
+                                "Porque hace que el router consuma mucha más energía eléctrica",
+                                "Porque la ley prohíbe ocultar nombres de redes inalámbricas en España",
+                                "Porque cualquier escáner de red sencillo puede detectar la red cuando un cliente intenta conectarse"
+                            ],
+                            "correctAnswer": "Porque cualquier escáner de red sencillo puede detectar la red cuando un cliente intenta conectarse",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque cualquier escáner de red sencillo puede detectar la red cuando un cliente intenta conectarse."
+                        },
+                        {
+                            "text": "¿Qué protocolo de autenticación se utiliza habitualmente entre el punto de acceso (Authenticator) y el servidor de identidad en un entorno 802.1X?",
+                            "options": [
+                                "SMTP",
+                                "RADIUS",
+                                "HTTP",
+                                "FTP"
+                            ],
+                            "correctAnswer": "RADIUS",
+                            "explanation": "La opción marcada en verde en el material fuente es: RADIUS."
+                        },
+                        {
+                            "text": "¿Qué riesgo de seguridad específico introducen los dispositivos IoT de \"bajo coste\" en una infraestructura profesional?",
+                            "options": [
+                                "Que solo pueden conectarse mediante cables de fibra óptica",
+                                "Que sus baterías duran demasiado poco tiempo",
+                                "El uso excesivo de memoria RAM en los servidores de la empresa",
+                                "La falta de actualizaciones de seguridad y el uso de firmwares vulnerables"
+                            ],
+                            "correctAnswer": "La falta de actualizaciones de seguridad y el uso de firmwares vulnerables",
+                            "explanation": "La opción marcada en verde en el material fuente es: La falta de actualizaciones de seguridad y el uso de firmwares vulnerables."
+                        },
+                        {
+                            "text": "En una auditoría de redes inalámbricas, ¿qué significa realizar un \"Wardriving\"?",
+                            "options": [
+                                "Instalar cargadores para coches eléctricos en el parking de la empresa",
+                                "Localizar y analizar redes Wi-Fi vulnerables desde un vehículo en movimiento",
+                                "Comprobar la velocidad de carga de la web corporativa",
+                                "Limpiar físicamente los routers para evitar el sobrecalentamiento"
+                            ],
+                            "correctAnswer": "Localizar y analizar redes Wi-Fi vulnerables desde un vehículo en movimiento",
+                            "explanation": "La opción marcada en verde en el material fuente es: Localizar y analizar redes Wi-Fi vulnerables desde un vehículo en movimiento."
+                        },
+                        {
+                            "text": "¿Qué medida de protección para dispositivos móviles permite eliminar toda la información confidencial si el terminal es robado?",
+                            "options": [
+                                "Borrado remoto (Remote Wipe)",
+                                "Bloqueo por código PIN de 4 dígitos",
+                                "Activación del modo avión",
+                                "Notificación de batería baja"
+                            ],
+                            "correctAnswer": "Borrado remoto (Remote Wipe)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Borrado remoto (Remote Wipe)."
+                        },
+                        {
+                            "text": "¿Cuál es la configuración recomendada para el filtrado MAC en una red con cientos de usuarios dinámicos?",
+                            "options": [
+                                "No se recomienda como medida única, ya que las direcciones MAC se pueden suplantar fácilmente",
+                                "Es obligatoria para poder utilizar el protocolo WPA3",
+                                "Es la medida más segura y fácil de mantener en grandes empresas",
+                                "Debe aplicarse solo a los dispositivos que no tengan tarjeta de red Wi-Fi"
+                            ],
+                            "correctAnswer": "No se recomienda como medida única, ya que las direcciones MAC se pueden suplantar fácilmente",
+                            "explanation": "La opción marcada en verde en el material fuente es: No se recomienda como medida única, ya que las direcciones MAC se pueden suplantar fácilmente."
+                        },
+                        {
+                            "text": "¿Qué tipo de amenaza inalámbrica consiste en inundar el espectro radioeléctrico con ruido para impedir la conexión de los usuarios? Pregunta 25 Respuesta",
+                            "options": [
+                                "Ataque de fuerza bruta al PIN",
+                                "Phishing inalámbrico",
+                                "Inhibición de señal o Jamming",
+                                "Inyección SQL"
+                            ],
+                            "correctAnswer": "Inhibición de señal o Jamming",
+                            "explanation": "La opción marcada en verde en el material fuente es: Inhibición de señal o Jamming."
+                        },
+                        {
+                            "text": "¿Qué se recomienda hacer con las interfaces de red inalámbricas (Bluetooth, NFC) de un dispositivo móvil cuando no se están utilizando?",
+                            "options": [
+                                "Configurarlas en modo \"siempre visible\" para facilitar la conexión",
+                                "Mantenerlas siempre encendidas para recibir actualizaciones",
+                                "Borrar los controladores del sistema operativo",
+                                "Desactivarlas para reducir la superficie de ataque"
+                            ],
+                            "correctAnswer": "Desactivarlas para reducir la superficie de ataque",
+                            "explanation": "La opción marcada en verde en el material fuente es: Desactivarlas para reducir la superficie de ataque."
+                        },
+                        {
+                            "text": "En la gestión de dispositivos móviles, ¿qué es el \"Containerization\" o aislamiento por contenedores?",
+                            "options": [
+                                "Instalar solo una aplicación por cada carpeta del sistema",
+                                "Usar exclusivamente aplicaciones que pesen menos de 10 MB",
+                                "Meter los teléfonos en cajas metálicas para que no emitan ondas",
+                                "Separar los datos y aplicaciones personales de los corporativos en el mismo dispositivo"
+                            ],
+                            "correctAnswer": "Separar los datos y aplicaciones personales de los corporativos en el mismo dispositivo",
+                            "explanation": "La opción marcada en verde en el material fuente es: Separar los datos y aplicaciones personales de los corporativos en el mismo dispositivo."
+                        },
+                        {
+                            "text": "¿Qué protocolo de cifrado utiliza WPA2 en su versión más segura para proteger la confidencialidad de los datos?",
+                            "options": [
+                                "TKIP",
+                                "AES-CCMP",
+                                "RC4",
+                                "DES"
+                            ],
+                            "correctAnswer": "AES-CCMP",
+                            "explanation": "La opción marcada en verde en el material fuente es: AES-CCMP."
+                        },
+                        {
+                            "text": "¿Qué aspecto de la ciberseguridad IoT se ve comprometido si un sensor de temperatura envía datos falsos para detener una cadena de producción?",
+                            "options": [
+                                "Estética",
+                                "Integridad",
+                                "Privacidad",
+                                "Confidencialidad"
+                            ],
+                            "correctAnswer": "Integridad",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integridad."
+                        },
+                        {
+                            "text": "¿Cuál es el primer paso recomendado para un técnico que quiere securizar una red inalámbrica recién instalada?",
+                            "options": [
+                                "Configurar el router para que no pida contraseña a los directivos",
+                                "Realizar un escaneo de vulnerabilidades y cambiar la clave compartida por defecto",
+                                "Desactivar todos los logs de eventos para mejorar el rendimiento",
+                                "Imprimir la contraseña en carteles y pegarlos por toda la oficina"
+                            ],
+                            "correctAnswer": "Realizar un escaneo de vulnerabilidades y cambiar la clave compartida por defecto",
+                            "explanation": "La opción marcada en verde en el material fuente es: Realizar un escaneo de vulnerabilidades y cambiar la clave compartida por defecto."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

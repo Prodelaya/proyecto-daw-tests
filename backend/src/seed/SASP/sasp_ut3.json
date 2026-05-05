@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "SASP",
+            "name": "Sostenibilidad aplicada al sistema productivo",
+            "topics": [
+                {
+                    "number": 3,
+                    "title": "UT3: Sostenibilidad en el Desempeño Profesional y Personal",
+                    "questions": [
+                        {
+                            "text": "Principio del formulario ¿Cuál es el principal desafío para las empresas que intentan equilibrar la sostenibilidad con la rentabilidad económica según el documento?",
+                            "options": [
+                                "La presión constante para reducir costos sin comprometer la calidad.",
+                                "La falta de incentivos fiscales para la implementación de tecnologías verdes.",
+                                "La percepción del mercado sobre los productos sostenibles como de menor calidad.",
+                                "La dificultad para integrar prácticas sostenibles en la cadena de suministro global."
+                            ],
+                            "correctAnswer": "La dificultad para integrar prácticas sostenibles en la cadena de suministro global.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad para integrar prácticas sostenibles en la cadena de suministro global.."
+                        },
+                        {
+                            "text": "En el contexto del desempeño profesional, ¿cómo se aborda la relación entre sostenibilidad y competitividad en el documento?",
+                            "options": [
+                                "Se indica que la sostenibilidad y la competitividad son conceptos mutuamente excluyentes.",
+                                "Se argumenta que la sostenibilidad mejora la competitividad al alinear las operaciones con las demandas de los consumidores conscientes.",
+                                "Se sugiere que la sostenibilidad es irrelevante para la competitividad en mercados desarrollados.",
+                                "Se considera que la sostenibilidad reduce la competitividad debido al aumento de costos."
+                            ],
+                            "correctAnswer": "Se argumenta que la sostenibilidad mejora la competitividad al alinear las operaciones con las demandas de los consumidores conscientes.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Se argumenta que la sostenibilidad mejora la competitividad al alinear las operaciones con las demandas de los consumidores conscientes.."
+                        },
+                        {
+                            "text": "Según el documento, ¿cuál es la mayor barrera para la adopción de prácticas sostenibles en el entorno personal?",
+                            "options": [
+                                "La falta de conciencia sobre los impactos ambientales.",
+                                "La disponibilidad limitada de productos sostenibles en mercados locales.",
+                                "La creencia de que la sostenibilidad no tiene un impacto tangible en la vida diaria.",
+                                "La percepción de que las prácticas sostenibles son complicadas y difíciles de implementar."
+                            ],
+                            "correctAnswer": "La percepción de que las prácticas sostenibles son complicadas y difíciles de implementar.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La percepción de que las prácticas sostenibles son complicadas y difíciles de implementar.."
+                        },
+                        {
+                            "text": "En la evaluación de riesgos asociados a los ODS, ¿qué factor crítico podría socavar los esfuerzos de sostenibilidad de una empresa?",
+                            "options": [
+                                "El cambio constante en la demanda del mercado.",
+                                "La falta de apoyo gubernamental para iniciativas sostenibles.",
+                                "La dependencia excesiva de proveedores que no siguen prácticas sostenibles.",
+                                "La adopción de tecnologías sostenibles sin una planificación estratégica adecuada."
+                            ],
+                            "correctAnswer": "La dependencia excesiva de proveedores que no siguen prácticas sostenibles.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dependencia excesiva de proveedores que no siguen prácticas sostenibles.."
+                        },
+                        {
+                            "text": "¿Cuál es el rol de la responsabilidad social corporativa (RSC) en la mitigación de riesgos reputacionales según el documento?",
+                            "options": [
+                                "La RSC limita las oportunidades de negocio al enfocar recursos en iniciativas no rentables.",
+                                "La RSC actúa como un escudo legal para las empresas ante litigios ambientales.",
+                                "La RSC ayuda a prevenir riesgos reputacionales mediante la alineación con los ODS y la comunicación transparente de prácticas sostenibles.",
+                                "La RSC tiene un impacto limitado en la percepción pública debido a la falta de interés de los consumidores."
+                            ],
+                            "correctAnswer": "La RSC ayuda a prevenir riesgos reputacionales mediante la alineación con los ODS y la comunicación transparente de prácticas sostenibles.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La RSC ayuda a prevenir riesgos reputacionales mediante la alineación con los ODS y la comunicación transparente de prácticas sostenibles.."
+                        },
+                        {
+                            "text": "En relación con la movilidad sostenible, ¿qué desafío se destaca como el más significativo para las empresas que buscan reducir su huella de carbono?",
+                            "options": [
+                                "La complejidad de calcular y compensar las emisiones de carbono generadas por el transporte de empleados.",
+                                "La falta de infraestructura adecuada para el transporte público.",
+                                "La resistencia de los empleados a adoptar nuevas formas de movilidad.",
+                                "El alto costo inicial de los vehículos eléctricos."
+                            ],
+                            "correctAnswer": "El alto costo inicial de los vehículos eléctricos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El alto costo inicial de los vehículos eléctricos.."
+                        },
+                        {
+                            "text": "¿Cómo se relaciona la innovación en productos sostenibles con la expansión a nuevos mercados según el documento?",
+                            "options": [
+                                "La innovación en productos sostenibles limita la expansión a nuevos mercados debido a la falta de aceptación del consumidor.",
+                                "La expansión a nuevos mercados es irrelevante en la estrategia de productos sostenibles.",
+                                "La innovación en productos sostenibles solo es viable en mercados desarrollados con altos ingresos per cápita.",
+                                "La innovación en productos sostenibles facilita la entrada en mercados emergentes donde la sostenibilidad es un factor clave de diferenciación."
+                            ],
+                            "correctAnswer": "La innovación en productos sostenibles facilita la entrada en mercados emergentes donde la sostenibilidad es un factor clave de diferenciación.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La innovación en productos sostenibles facilita la entrada en mercados emergentes donde la sostenibilidad es un factor clave de diferenciación.."
+                        },
+                        {
+                            "text": "¿Qué estrategia se menciona como esencial para superar las barreras financieras en la adopción de prácticas sostenibles en el entorno personal?",
+                            "options": [
+                                "Optar por productos de bajo costo sin considerar su impacto ambiental.",
+                                "Aumentar el endeudamiento personal para financiar tecnologías verdes.",
+                                "Reducir el consumo de energía en el hogar mediante el uso de tecnologías obsoletas.",
+                                "Aprovechar los incentivos y subsidios gubernamentales para reducir el costo de la implementación."
+                            ],
+                            "correctAnswer": "Aprovechar los incentivos y subsidios gubernamentales para reducir el costo de la implementación.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aprovechar los incentivos y subsidios gubernamentales para reducir el costo de la implementación.."
+                        },
+                        {
+                            "text": "En términos de sostenibilidad en la cadena de suministro, ¿cuál es el principal riesgo identificado en el documento para las empresas?",
+                            "options": [
+                                "La sobre dependencia de tecnologías de automatización.",
+                                "La incapacidad de escalar las operaciones debido a la falta de proveedores sostenibles.",
+                                "El aumento de los costos operativos debido a la implementación de prácticas sostenibles.",
+                                "La falta de visibilidad en las prácticas de sostenibilidad de los proveedores."
+                            ],
+                            "correctAnswer": "La falta de visibilidad en las prácticas de sostenibilidad de los proveedores.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La falta de visibilidad en las prácticas de sostenibilidad de los proveedores.."
+                        },
+                        {
+                            "text": "En el contexto de la sostenibilidad personal, ¿cuál es la mayor oportunidad para reducir la huella ecológica según el documento?",
+                            "options": [
+                                "Aumentar el uso de combustibles fósiles en el transporte personal.",
+                                "Adoptar una dieta basada en plantas y reducir el consumo de productos de origen animal.",
+                                "Consumir productos importados para apoyar economías extranjeras.",
+                                "Incrementar el uso de dispositivos electrónicos de última generación."
+                            ],
+                            "correctAnswer": "Adoptar una dieta basada en plantas y reducir el consumo de productos de origen animal.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Adoptar una dieta basada en plantas y reducir el consumo de productos de origen animal.."
+                        },
+                        {
+                            "text": "¿Qué rol juega la formación continua en la adopción de prácticas sostenibles dentro de las empresas según el documento?",
+                            "options": [
+                                "La formación continua es secundaria y no tiene un impacto significativo en la adopción de prácticas sostenibles.",
+                                "La formación continua solo es relevante para los niveles gerenciales.",
+                                "Es innecesaria ya que las prácticas sostenibles se integran naturalmente en las operaciones diarias.",
+                                "Es crucial para mantener a los empleados actualizados sobre las últimas tendencias y tecnologías sostenibles."
+                            ],
+                            "correctAnswer": "Es crucial para mantener a los empleados actualizados sobre las últimas tendencias y tecnologías sostenibles.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Es crucial para mantener a los empleados actualizados sobre las últimas tendencias y tecnologías sostenibles.."
+                        },
+                        {
+                            "text": "En cuanto a la gestión de residuos, ¿qué estrategia se considera más efectiva para minimizar el impacto ambiental en el entorno laboral?",
+                            "options": [
+                                "Implementar un sistema de eliminación de residuos sin reciclaje.",
+                                "Centralizar la gestión de residuos en una única ubicación sin considerar el reciclaje.",
+                                "Fomentar la reutilización y el reciclaje en todas las áreas operativas, combinadas con la reducción en la generación de residuos desde la fuente.",
+                                "Subcontratar la gestión de residuos a empresas externas sin supervisión."
+                            ],
+                            "correctAnswer": "Fomentar la reutilización y el reciclaje en todas las áreas operativas, combinadas con la reducción en la generación de residuos desde la fuente.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Fomentar la reutilización y el reciclaje en todas las áreas operativas, combinadas con la reducción en la generación de residuos desde la fuente.."
+                        },
+                        {
+                            "text": "Según el documento, ¿cuál es el principal riesgo asociado con la falta de alineación de las estrategias empresariales con los ODS?",
+                            "options": [
+                                "La mayor facilidad para cumplir con las normativas ambientales.",
+                                "La mejora en la eficiencia operativa sin alineación con los ODS.",
+                                "La pérdida de acceso a financiamiento sostenible y reducción de competitividad en mercados globales.",
+                                "Aumento en la lealtad del cliente debido a prácticas insostenibles."
+                            ],
+                            "correctAnswer": "La pérdida de acceso a financiamiento sostenible y reducción de competitividad en mercados globales.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La pérdida de acceso a financiamiento sostenible y reducción de competitividad en mercados globales.."
+                        },
+                        {
+                            "text": "¿Cómo afecta la integración de la sostenibilidad en la vida personal al bienestar según el documento?",
+                            "options": [
+                                "Reduce la satisfacción personal debido a las restricciones impuestas por prácticas sostenibles.",
+                                "Contribuye a un mayor bienestar personal al promover hábitos de vida más saludables y equilibrados.",
+                                "Aumenta el estrés debido a la complejidad de implementar prácticas sostenibles.",
+                                "No tiene un impacto significativo en el bienestar personal. Retroalimentación La respuesta correcta es: Contribuye a un mayor bienestar personal al promover hábitos de vida más saludables y equilibrados."
+                            ],
+                            "correctAnswer": "Contribuye a un mayor bienestar personal al promover hábitos de vida más saludables y equilibrados.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Contribuye a un mayor bienestar personal al promover hábitos de vida más saludables y equilibrados.."
+                        },
+                        {
+                            "text": "En términos de innovación sostenible, ¿qué factor se menciona como crítico para asegurar el éxito en mercados emergentes?",
+                            "options": [
+                                "Alinear la innovación con las necesidades locales y los desafíos ambientales específicos de cada mercado.",
+                                "Enfocar la innovación únicamente en mercados desarrollados.",
+                                "Evitar la adaptación de productos a las condiciones locales.",
+                                "Reducir los costos de producción mediante la eliminación de estándares de sostenibilidad."
+                            ],
+                            "correctAnswer": "Alinear la innovación con las necesidades locales y los desafíos ambientales específicos de cada mercado.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Alinear la innovación con las necesidades locales y los desafíos ambientales específicos de cada mercado.."
+                        },
+                        {
+                            "text": "¿Qué impacto tienen las alianzas estratégicas en la promoción de la sostenibilidad según el documento?",
+                            "options": [
+                                "Facilitan el desarrollo de soluciones sostenibles compartiendo recursos y conocimientos entre los socios.",
+                                "Dificultan la implementación de prácticas sostenibles debido a la diversidad de intereses.",
+                                "Solo son útiles para empresas grandes con recursos significativos.",
+                                "No tienen un impacto tangible en la sostenibilidad corporativa."
+                            ],
+                            "correctAnswer": "Facilitan el desarrollo de soluciones sostenibles compartiendo recursos y conocimientos entre los socios.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Facilitan el desarrollo de soluciones sostenibles compartiendo recursos y conocimientos entre los socios.."
+                        },
+                        {
+                            "text": "En la evaluación de oportunidades para los ODS, ¿qué estrategia se menciona como fundamental para maximizar el impacto positivo en la sostenibilidad corporativa?",
+                            "options": [
+                                "Delegar la responsabilidad de los ODS a un departamento aislado sin interacción con las operaciones principales.",
+                                "Limitar las iniciativas de sostenibilidad a campañas de marketing.",
+                                "Integrar los ODS en la estrategia central de la empresa y alinearlos con las operaciones diarias.",
+                                "Ignorar los ODS para centrarse en los beneficios a corto plazo."
+                            ],
+                            "correctAnswer": "Integrar los ODS en la estrategia central de la empresa y alinearlos con las operaciones diarias.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integrar los ODS en la estrategia central de la empresa y alinearlos con las operaciones diarias.."
+                        },
+                        {
+                            "text": "¿Qué desafío se menciona como el más significativo para las empresas que buscan acceder a mercados sostenibles según el documento?",
+                            "options": [
+                                "La disponibilidad limitada de tecnologías sostenibles.",
+                                "La creciente competencia en mercados sostenibles que exige una diferenciación clara.",
+                                "La facilidad para cumplir con los estándares de sostenibilidad.",
+                                "La falta de demanda de productos sostenibles en mercados desarrollados."
+                            ],
+                            "correctAnswer": "La creciente competencia en mercados sostenibles que exige una diferenciación clara.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La creciente competencia en mercados sostenibles que exige una diferenciación clara.."
+                        },
+                        {
+                            "text": "¿Cuál es el principal riesgo reputacional para las empresas que no integran prácticas sostenibles en su operación según el documento?",
+                            "options": [
+                                "Incremento en la lealtad del cliente.",
+                                "Aumento en la satisfacción de los empleados.",
+                                "Mejora en la competitividad debido a la reducción de costos operativos.",
+                                "La percepción negativa por parte de consumidores y stakeholders, afectando su imagen de marca."
+                            ],
+                            "correctAnswer": "La percepción negativa por parte de consumidores y stakeholders, afectando su imagen de marca.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La percepción negativa por parte de consumidores y stakeholders, afectando su imagen de marca.."
+                        },
+                        {
+                            "text": "¿Qué enfoque se menciona como clave para asegurar la sostenibilidad en la cadena de suministro?",
+                            "options": [
+                                "Garantizar que todos los proveedores cumplan con los estándares de sostenibilidad de la empresa mediante auditorías regulares.",
+                                "Centrarse únicamente en la sostenibilidad interna sin involucrar a los proveedores.",
+                                "Minimizar la visibilidad en las prácticas de los proveedores para reducir costos.",
+                                "Subcontratar la responsabilidad de la sostenibilidad a terceros. Final del formulario"
+                            ],
+                            "correctAnswer": "Garantizar que todos los proveedores cumplan con los estándares de sostenibilidad de la empresa mediante auditorías regulares.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Garantizar que todos los proveedores cumplan con los estándares de sostenibilidad de la empresa mediante auditorías regulares.."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

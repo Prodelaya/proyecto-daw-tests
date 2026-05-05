@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 1,
+                    "title": "UT1: Fundamentos y Gestión de Vulnerabilidades",
+                    "questions": [
+                        {
+                            "text": "Una empresa sufre un ataque que impide a los empleados acceder a las bases de datos de clientes durante toda la jornada laboral. ¿Qué pilar del triángulo CIA se ha visto principalmente comprometido?",
+                            "options": [
+                                "Autenticación",
+                                "Disponibilidad",
+                                "Confidencialidad",
+                                "Integridad"
+                            ],
+                            "correctAnswer": "Disponibilidad",
+                            "explanation": "La opción marcada en verde en el material fuente es: Disponibilidad."
+                        },
+                        {
+                            "text": "En el contexto de la gestión de vulnerabilidades, ¿cómo se define técnicamente una vulnerabilidad?",
+                            "options": [
+                                "La probabilidad de que un atacante externo identifique un puerto abierto",
+                                "Cualquier evento accidental que puede causar daños a los activos de información",
+                                "El impacto económico resultante de una brecha de seguridad en la infraestructura",
+                                "Una debilidad o fallo en un sistema o diseño que puede ser explotado por una amenaza"
+                            ],
+                            "correctAnswer": "Una debilidad o fallo en un sistema o diseño que puede ser explotado por una amenaza",
+                            "explanation": "La opción marcada en verde en el material fuente es: Una debilidad o fallo en un sistema o diseño que puede ser explotado por una amenaza."
+                        },
+                        {
+                            "text": "Un técnico de seguridad detecta que un archivo de configuración ha sido modificado por un usuario no autorizado, aunque el sistema sigue funcionando. ¿Qué principio de seguridad se ha vulnerado?",
+                            "options": [
+                                "Integridad",
+                                "Confidencialidad",
+                                "Trazabilidad",
+                                "Disponibilidad"
+                            ],
+                            "correctAnswer": "Integridad",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integridad."
+                        },
+                        {
+                            "text": "Al configurar un nuevo servidor, se decide que los usuarios solo tengan los permisos estrictamente necesarios para realizar sus tareas. ¿Qué principio se está aplicando?",
+                            "options": [
+                                "Defensa en profundidad",
+                                "Seguridad por oscuridad",
+                                "Autenticación robusta",
+                                "Mínimo privilegio"
+                            ],
+                            "correctAnswer": "Mínimo privilegio",
+                            "explanation": "La opción marcada en verde en el material fuente es: Mínimo privilegio."
+                        },
+                        {
+                            "text": "¿Cuál es la principal diferencia entre una amenaza y un riesgo en el análisis de ciberseguridad?",
+                            "options": [
+                                "La amenaza es el daño causado y el riesgo es la vulnerabilidad técnica",
+                                "El riesgo es la herramienta utilizada por el atacante y la amenaza es el objetivo",
+                                "La amenaza es un factor externo o interno potencial y el riesgo es la probabilidad de que ocurra un daño",
+                                "No hay diferencia, ambos términos son sinónimos en la gestión de infraestructuras"
+                            ],
+                            "correctAnswer": "La amenaza es un factor externo o interno potencial y el riesgo es la probabilidad de que ocurra un daño",
+                            "explanation": "La opción marcada en verde en el material fuente es: La amenaza es un factor externo o interno potencial y el riesgo es la probabilidad de que ocurra un daño."
+                        },
+                        {
+                            "text": "¿Qué medida técnica asegura la confidencialidad de los datos almacenados en un dispositivo móvil de empresa en caso de pérdida?",
+                            "options": [
+                                "Uso de contraseñas de cuatro dígitos",
+                                "Copias de seguridad diarias",
+                                "Cifrado de los datos (Encryption)",
+                                "Instalación de un software antivirus"
+                            ],
+                            "correctAnswer": "Cifrado de los datos (Encryption)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Cifrado de los datos (Encryption)."
+                        },
+                        {
+                            "text": "¿Qué tipo de amenaza se caracteriza por ser un software malicioso que cifra los archivos y solicita un pago para su recuperación?",
+                            "options": [
+                                "Phishing",
+                                "Adware",
+                                "Spyware",
+                                "Ransomware"
+                            ],
+                            "correctAnswer": "Ransomware",
+                            "explanation": "La opción marcada en verde en el material fuente es: Ransomware."
+                        },
+                        {
+                            "text": "En el ciclo de gestión de vulnerabilidades, ¿en qué fase se determina el impacto y la urgencia de corrección de los fallos detectados?",
+                            "options": [
+                                "Priorización y análisis",
+                                "Identificación",
+                                "Remediación",
+                                "Verificación"
+                            ],
+                            "correctAnswer": "Priorización y análisis",
+                            "explanation": "La opción marcada en verde en el material fuente es: Priorización y análisis."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de un sistema de doble factor de autenticación (2FA/MFA)?",
+                            "options": [
+                                "Cifrar la comunicación entre el cliente y el servidor de aplicaciones",
+                                "Aumentar la velocidad de inicio de sesión en aplicaciones críticas",
+                                "Añadir una capa de seguridad adicional mediante algo que el usuario posee o es",
+                                "Sustituir completamente el uso de contraseñas alfanuméricas"
+                            ],
+                            "correctAnswer": "Añadir una capa de seguridad adicional mediante algo que el usuario posee o es",
+                            "explanation": "La opción marcada en verde en el material fuente es: Añadir una capa de seguridad adicional mediante algo que el usuario posee o es."
+                        },
+                        {
+                            "text": "Un atacante se hace pasar por un servicio técnico legítimo mediante correo electrónico para obtener credenciales. ¿Cómo se denomina esta técnica?",
+                            "options": [
+                                "Inyección SQL",
+                                "Ataque de fuerza bruta",
+                                "Ingeniería social o Phishing",
+                                "Denegación de servicio (DoS)"
+                            ],
+                            "correctAnswer": "Ingeniería social o Phishing",
+                            "explanation": "La opción marcada en verde en el material fuente es: Ingeniería social o Phishing."
+                        },
+                        {
+                            "text": "¿Qué protocolo es fundamental para garantizar la integridad y confidencialidad en las comunicaciones web?",
+                            "options": [
+                                "FTP",
+                                "HTTP",
+                                "Telnet",
+                                "HTTPS (SSL/TLS)"
+                            ],
+                            "correctAnswer": "HTTPS (SSL/TLS)",
+                            "explanation": "La opción marcada en verde en el material fuente es: HTTPS (SSL/TLS)."
+                        },
+                        {
+                            "text": "¿Qué nombre recibe la vulnerabilidad de la que el fabricante aún no tiene conocimiento ni existe un parche de seguridad disponible?",
+                            "options": [
+                                "Exploit de día cero (Zero-day)",
+                                "Error de desbordamiento de búfer",
+                                "Puerta trasera (Backdoor)",
+                                "Vulnerabilidad crítica"
+                            ],
+                            "correctAnswer": "Exploit de día cero (Zero-day)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Exploit de día cero (Zero-day)."
+                        },
+                        {
+                            "text": "Dentro de la seguridad física, ¿cuál de los siguientes elementos es un control de acceso biométrico?",
+                            "options": [
+                                "Un código PIN numérico",
+                                "Un lector de huella dactilar",
+                                "Una tarjeta de proximidad RFID",
+                                "Una llave maestra física"
+                            ],
+                            "correctAnswer": "Un lector de huella dactilar",
+                            "explanation": "La opción marcada en verde en el material fuente es: Un lector de huella dactilar."
+                        },
+                        {
+                            "text": "¿Qué práctica de seguridad consiste en ocultar información dentro de otros archivos de apariencia inofensiva?",
+                            "options": [
+                                "Criptografía",
+                                "Esteganografía",
+                                "Ofuscación de código",
+                                "Hashing"
+                            ],
+                            "correctAnswer": "Esteganografía",
+                            "explanation": "La opción marcada en verde en el material fuente es: Esteganografía."
+                        },
+                        {
+                            "text": "¿Qué estándar internacional se centra específicamente en los Sistemas de Gestión de Seguridad de la Información (SGSI)?",
+                            "options": [
+                                "ISO 9001",
+                                "ISO 50001",
+                                "ISO/IEC 27001",
+                                "ISO 14001"
+                            ],
+                            "correctAnswer": "ISO/IEC 27001",
+                            "explanation": "La opción marcada en verde en el material fuente es: ISO/IEC 27001."
+                        },
+                        {
+                            "text": "¿Qué objetivo persigue la realización de copias de seguridad fuera de línea (offline backups)?",
+                            "options": [
+                                "Facilitar el acceso compartido a los archivos desde cualquier ubicación",
+                                "Cumplir con la normativa de ahorro energético del centro de datos",
+                                "Mejorar la velocidad de restauración de datos en caliente",
+                                "Proteger los datos contra ataques de ransomware que cifran unidades conectadas"
+                            ],
+                            "correctAnswer": "Proteger los datos contra ataques de ransomware que cifran unidades conectadas",
+                            "explanation": "La opción marcada en verde en el material fuente es: Proteger los datos contra ataques de ransomware que cifran unidades conectadas."
+                        },
+                        {
+                            "text": "¿Cómo se denomina el proceso de transformar datos legibles en un formato ilegible mediante un algoritmo y una clave?",
+                            "options": [
+                                "Desfragmentación",
+                                "Compresión",
+                                "Indexación",
+                                "Cifrado"
+                            ],
+                            "correctAnswer": "Cifrado",
+                            "explanation": "La opción marcada en verde en el material fuente es: Cifrado."
+                        },
+                        {
+                            "text": "En una auditoría de seguridad, ¿qué herramienta se utiliza comúnmente para escanear puertos y servicios activos en una red?",
+                            "options": [
+                                "Wireshark",
+                                "John the Ripper",
+                                "Putty",
+                                "Nmap"
+                            ],
+                            "correctAnswer": "Nmap",
+                            "explanation": "La opción marcada en verde en el material fuente es: Nmap."
+                        },
+                        {
+                            "text": "¿Cuál es el propósito del principio de \"Seguridad por diseño\" (Security by Design)?",
+                            "options": [
+                                "Externalizar la seguridad a una empresa de diseño gráfico",
+                                "Diseñar interfaces de usuario que sean visualmente atractivas",
+                                "Añadir firewalls después de haber finalizado el desarrollo del software",
+                                "Integrar medidas de seguridad desde las fases iniciales de creación de un sistema"
+                            ],
+                            "correctAnswer": "Integrar medidas de seguridad desde las fases iniciales de creación de un sistema",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integrar medidas de seguridad desde las fases iniciales de creación de un sistema."
+                        },
+                        {
+                            "text": "¿Qué se entiende por \"superficie de ataque\" en una organización?",
+                            "options": [
+                                "La cantidad de ataques repelidos por el firewall en un mes",
+                                "El área física que ocupa el centro de datos principal",
+                                "El número total de empleados que utilizan ordenadores",
+                                "El conjunto de puntos donde un atacante puede intentar entrar o extraer datos"
+                            ],
+                            "correctAnswer": "El conjunto de puntos donde un atacante puede intentar entrar o extraer datos",
+                            "explanation": "La opción marcada en verde en el material fuente es: El conjunto de puntos donde un atacante puede intentar entrar o extraer datos."
+                        },
+                        {
+                            "text": "¿Qué característica diferencia a un ataque de Denegación de Servicio Distribuido (DDoS) de uno simple (DoS)?",
+                            "options": [
+                                "El cifrado de la información de la víctima",
+                                "El uso de una red de múltiples dispositivos infectados (botnets)",
+                                "La instalación de un troyano en el servidor principal",
+                                "El robo de secretos industriales mediante espionaje"
+                            ],
+                            "correctAnswer": "El uso de una red de múltiples dispositivos infectados (botnets)",
+                            "explanation": "La opción marcada en verde en el material fuente es: El uso de una red de múltiples dispositivos infectados (botnets)."
+                        },
+                        {
+                            "text": "¿Qué medida es más efectiva para mitigar el riesgo de que un empleado acceda a zonas restringidas del servidor sin autorización? Pregunta 22 Respuesta",
+                            "options": [
+                                "Cambiar el nombre del dominio de la empresa",
+                                "Actualizar el antivirus del servidor",
+                                "Aumentar el ancho de banda de la red",
+                                "Implementar listas de control de acceso (ACL) y roles"
+                            ],
+                            "correctAnswer": "Implementar listas de control de acceso (ACL) y roles",
+                            "explanation": "La opción marcada en verde en el material fuente es: Implementar listas de control de acceso (ACL) y roles."
+                        },
+                        {
+                            "text": "¿Qué término define la capacidad de asegurar que el emisor de un mensaje no pueda negar haberlo enviado?",
+                            "options": [
+                                "Confidencialidad",
+                                "Redundancia",
+                                "Disponibilidad",
+                                "No repudio"
+                            ],
+                            "correctAnswer": "No repudio",
+                            "explanation": "La opción marcada en verde en el material fuente es: No repudio."
+                        },
+                        {
+                            "text": "Un técnico debe aplicar un parche de seguridad en un servidor crítico. ¿Qué debe hacer primero según las buenas prácticas?",
+                            "options": [
+                                "Esperar a que el servidor falle para justificar el cambio",
+                                "Aplicar el parche directamente en producción durante el horario laboral",
+                                "Realizar una copia de seguridad y probar el parche en un entorno de preproducción",
+                                "Desinstalar el sistema operativo y volver a instalarlo con el parche"
+                            ],
+                            "correctAnswer": "Realizar una copia de seguridad y probar el parche en un entorno de preproducción",
+                            "explanation": "La opción marcada en verde en el material fuente es: Realizar una copia de seguridad y probar el parche en un entorno de preproducción."
+                        },
+                        {
+                            "text": "¿Cuál es la función del hashing en seguridad informática?",
+                            "options": [
+                                "Recuperar contraseñas perdidas mediante ingeniería inversa",
+                                "Cifrar archivos de gran tamaño para enviarlos por correo",
+                                "Generar una huella única para verificar que un archivo no ha sido alterado",
+                                "Comprimir datos para ahorrar espacio en disco"
+                            ],
+                            "correctAnswer": "Generar una huella única para verificar que un archivo no ha sido alterado",
+                            "explanation": "La opción marcada en verde en el material fuente es: Generar una huella única para verificar que un archivo no ha sido alterado."
+                        },
+                        {
+                            "text": "¿Qué se considera una vulnerabilidad de configuración?",
+                            "options": [
+                                "Un fallo en el diseño del microprocesador",
+                                "Un error de sintaxis en el código fuente de una aplicación",
+                                "Una inundación en la sala de servidores",
+                                "Mantener las contraseñas por defecto en un router de empresa"
+                            ],
+                            "correctAnswer": "Mantener las contraseñas por defecto en un router de empresa",
+                            "explanation": "La opción marcada en verde en el material fuente es: Mantener las contraseñas por defecto en un router de empresa."
+                        },
+                        {
+                            "text": "Correcta ¿Qué tipo de control es un muro perimetral o una cerradura en la puerta de un CPD?",
+                            "options": [
+                                "Control lógico",
+                                "Control administrativo",
+                                "Control de red",
+                                "Control físico"
+                            ],
+                            "correctAnswer": "Control físico",
+                            "explanation": "La opción marcada en verde en el material fuente es: Control físico."
+                        },
+                        {
+                            "text": "En la gestión de vulnerabilidades, ¿qué es la remediación?",
+                            "options": [
+                                "El proceso de identificar nuevos fallos en el sistema",
+                                "La acción de corregir o mitigar una vulnerabilidad detectada",
+                                "El informe final detallando el coste del ataque",
+                                "La contratación de un seguro contra ciber riesgos"
+                            ],
+                            "correctAnswer": "La acción de corregir o mitigar una vulnerabilidad detectada",
+                            "explanation": "La opción marcada en verde en el material fuente es: La acción de corregir o mitigar una vulnerabilidad detectada."
+                        },
+                        {
+                            "text": "¿Qué riesgo supone el fin del ciclo de vida (End of Life) de un sistema operativo?",
+                            "options": [
+                                "Un aumento desmesurado en el consumo de memoria RAM",
+                                "Que el ordenador dejará de encenderse inmediatamente",
+                                "La ausencia de actualizaciones de seguridad, dejando vulnerabilidades expuestas",
+                                "La obligación legal de cambiar todo el hardware de la oficina"
+                            ],
+                            "correctAnswer": "La ausencia de actualizaciones de seguridad, dejando vulnerabilidades expuestas",
+                            "explanation": "La opción marcada en verde en el material fuente es: La ausencia de actualizaciones de seguridad, dejando vulnerabilidades expuestas."
+                        },
+                        {
+                            "text": "¿Qué documento interno define las reglas y comportamientos que los empleados deben seguir para proteger los activos de la empresa?",
+                            "options": [
+                                "Organigrama de la empresa",
+                                "Política de Seguridad de la Información (PSI)",
+                                "Manual de hardware",
+                                "Contrato de mantenimiento externo"
+                            ],
+                            "correctAnswer": "Política de Seguridad de la Información (PSI)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Política de Seguridad de la Información (PSI)."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

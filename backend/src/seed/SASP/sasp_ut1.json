@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "SASP",
+            "name": "Sostenibilidad aplicada al sistema productivo",
+            "topics": [
+                {
+                    "number": 1,
+                    "title": "UT1: Desarrollo Sostenible y Sostenibilidad",
+                    "questions": [
+                        {
+                            "text": "¿Cuál es la principal crítica al concepto de desarrollo sostenible tal como fue definido en el Informe Brundtland de 1987?",
+                            "options": [
+                                "Su enfoque limitado únicamente en el aspecto ambiental",
+                                "La ambigüedad en la definición de \"necesidades\" y \"futuras generaciones\"",
+                                "La falta de mecanismos claros para su implementación",
+                                "Su énfasis excesivo en el crecimiento económico"
+                            ],
+                            "correctAnswer": "La ambigüedad en la definición de \"necesidades\" y \"futuras generaciones\"",
+                            "explanation": "La opción marcada en verde en el material fuente es: La ambigüedad en la definición de \"necesidades\" y \"futuras generaciones\"."
+                        },
+                        {
+                            "text": "En el contexto de la Cumbre de la Tierra de 1992, ¿qué rol juega la Agenda 21 en la implementación del desarrollo sostenible?",
+                            "options": [
+                                "Define metas específicas para reducir las emisiones de CO2",
+                                "Introduce sanciones para países que no cumplan con sus compromisos ambientales",
+                                "Establece un marco vinculante para los países firmantes",
+                                "Proporciona un plan de acción voluntario para promover el desarrollo sostenible"
+                            ],
+                            "correctAnswer": "Proporciona un plan de acción voluntario para promover el desarrollo sostenible",
+                            "explanation": "La opción marcada en verde en el material fuente es: Proporciona un plan de acción voluntario para promover el desarrollo sostenible."
+                        },
+                        {
+                            "text": "En relación con los ODS, ¿cómo se diferencia el enfoque del ODS 7 sobre energía de otras iniciativas previas sobre sostenibilidad energética?",
+                            "options": [
+                                "Excluye a los países en desarrollo de los objetivos de energía limpia",
+                                "Integra aspectos de accesibilidad económica y seguridad energética",
+                                "Se centra en la descarbonización sin considerar la seguridad energética",
+                                "Prioriza exclusivamente las fuentes de energía renovables"
+                            ],
+                            "correctAnswer": "Integra aspectos de accesibilidad económica y seguridad energética",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integra aspectos de accesibilidad económica y seguridad energética."
+                        },
+                        {
+                            "text": "¿Cuál es la crítica más común al Protocolo de Kioto en términos de su efectividad para abordar el cambio climático?",
+                            "options": [
+                                "Ignora las necesidades de adaptación de los países más vulnerables",
+                                "No reconoce el papel de las empresas en la reducción de emisiones",
+                                "No incluye compromisos vinculantes para los países desarrollados",
+                                "Permite que los países desarrollados compren derechos de emisión en lugar de reducir sus propias emisiones"
+                            ],
+                            "correctAnswer": "Permite que los países desarrollados compren derechos de emisión en lugar de reducir sus propias emisiones",
+                            "explanation": "La opción marcada en verde en el material fuente es: Permite que los países desarrollados compren derechos de emisión en lugar de reducir sus propias emisiones."
+                        },
+                        {
+                            "text": "En el marco del ASG, ¿cuál es el desafío principal al evaluar el \"Aspecto Social\" en empresas multinacionales?",
+                            "options": [
+                                "La variabilidad en las leyes laborales entre países",
+                                "La gestión de residuos en operaciones internacionales",
+                                "La dificultad para medir el impacto ambiental de las operaciones",
+                                "La falta de estándares internacionales para la gobernanza corporativa"
+                            ],
+                            "correctAnswer": "La variabilidad en las leyes laborales entre países",
+                            "explanation": "La opción marcada en verde en el material fuente es: La variabilidad en las leyes laborales entre países."
+                        },
+                        {
+                            "text": "En términos de sostenibilidad, ¿cómo se diferencia el enfoque del Convenio de Ramsar respecto a otros acuerdos ambientales internacionales?",
+                            "options": [
+                                "Introduce un sistema de comercio de derechos de conservación",
+                                "Obliga a los países a establecer áreas protegidas en todos los ecosistemas terrestres",
+                                "Promueve el uso racional de los humedales para evitar su degradación",
+                                "Se enfoca exclusivamente en la conservación de la biodiversidad marina"
+                            ],
+                            "correctAnswer": "Promueve el uso racional de los humedales para evitar su degradación",
+                            "explanation": "La opción marcada en verde en el material fuente es: Promueve el uso racional de los humedales para evitar su degradación."
+                        },
+                        {
+                            "text": "¿Qué implicación tiene la inclusión del principio de \"quien contamina paga\" en la legislación medioambiental europea?",
+                            "options": [
+                                "Introduce la responsabilidad financiera directa de las empresas por los daños ambientales causados",
+                                "Exime a los gobiernos de intervenir en casos de contaminación industrial",
+                                "Establece un marco para la redistribución equitativa de los ingresos fiscales",
+                                "Obliga a las empresas a financiar exclusivamente proyectos de sostenibilidad"
+                            ],
+                            "correctAnswer": "Introduce la responsabilidad financiera directa de las empresas por los daños ambientales causados",
+                            "explanation": "La opción marcada en verde en el material fuente es: Introduce la responsabilidad financiera directa de las empresas por los daños ambientales causados."
+                        },
+                        {
+                            "text": "¿Cuál es el mayor desafío para las empresas al intentar integrar los ODS en su estrategia empresarial, según el documento?",
+                            "options": [
+                                "El riesgo de pérdida de competitividad en mercados internacionales",
+                                "La falta de directrices claras y cuantificables para cada objetivo",
+                                "El alto costo inicial de implementación",
+                                "La competencia con otras prioridades financieras y operativas"
+                            ],
+                            "correctAnswer": "La falta de directrices claras y cuantificables para cada objetivo",
+                            "explanation": "La opción marcada en verde en el material fuente es: La falta de directrices claras y cuantificables para cada objetivo."
+                        },
+                        {
+                            "text": "¿Por qué la ISO 14001 es considerada una herramienta clave en la gestión ambiental empresarial?",
+                            "options": [
+                                "Ofrece un enfoque sistemático para mejorar el desempeño ambiental de la empresa",
+                                "Proporciona una certificación obligatoria para todas las empresas",
+                                "Establece un marco normativo para la compensación de carbono",
+                                "Permite a las empresas acceder automáticamente a fondos de inversión verde"
+                            ],
+                            "correctAnswer": "Ofrece un enfoque sistemático para mejorar el desempeño ambiental de la empresa",
+                            "explanation": "La opción marcada en verde en el material fuente es: Ofrece un enfoque sistemático para mejorar el desempeño ambiental de la empresa."
+                        },
+                        {
+                            "text": "¿Cuál es la principal diferencia entre la Directiva de Emisiones Industriales y el Protocolo de Kioto en términos de regulación ambiental?",
+                            "options": [
+                                "El Protocolo de Kioto se aplica exclusivamente a países en desarrollo",
+                                "El Protocolo establece un sistema de comercio de emisiones, mientras que la Directiva no",
+                                "La Directiva regula múltiples tipos de contaminación, mientras que el Protocolo se enfoca en emisiones de gases de efecto invernadero",
+                                "La Directiva de Emisiones Industriales establece objetivos vinculantes sólo para el aire"
+                            ],
+                            "correctAnswer": "La Directiva regula múltiples tipos de contaminación, mientras que el Protocolo se enfoca en emisiones de gases de efecto invernadero",
+                            "explanation": "La opción marcada en verde en el material fuente es: La Directiva regula múltiples tipos de contaminación, mientras que el Protocolo se enfoca en emisiones de gases de efecto invernadero."
+                        },
+                        {
+                            "text": "En términos de sostenibilidad empresarial, ¿qué significa el concepto de \"licencia social para operar\"?",
+                            "options": [
+                                "La aceptación y apoyo de la comunidad local hacia las actividades de una empresa",
+                                "La acreditación internacional para operar en mercados extranjeros",
+                                "La obtención de permisos gubernamentales para operaciones industriales",
+                                "La certificación de conformidad con las normativas medioambientales"
+                            ],
+                            "correctAnswer": "La aceptación y apoyo de la comunidad local hacia las actividades de una empresa",
+                            "explanation": "La opción marcada en verde en el material fuente es: La aceptación y apoyo de la comunidad local hacia las actividades de una empresa."
+                        },
+                        {
+                            "text": "¿Qué impacto tienen los derechos humanos en la implementación de los ODS, según la Agenda 2030?",
+                            "options": [
+                                "La integración de los derechos humanos asegura que los beneficios del desarrollo sean equitativos",
+                                "Los derechos humanos son un componente secundario en la mayoría de los ODS",
+                                "Los ODS priorizan la sostenibilidad ambiental por encima de los derechos humanos",
+                                "Los derechos humanos no están directamente relacionados con los ODS"
+                            ],
+                            "correctAnswer": "La integración de los derechos humanos asegura que los beneficios del desarrollo sean equitativos",
+                            "explanation": "La opción marcada en verde en el material fuente es: La integración de los derechos humanos asegura que los beneficios del desarrollo sean equitativos."
+                        },
+                        {
+                            "text": "¿Qué limitación presenta el Carbon Disclosure Project (CDP) en la evaluación del desempeño ambiental de las empresas?",
+                            "options": [
+                                "Solo es aplicable a empresas del sector energético",
+                                "No proporciona un marco estandarizado para la evaluación de riesgos climáticos",
+                                "Obliga a las empresas a revelar información financiera sensible",
+                                "Se centra exclusivamente en la huella de carbono, ignorando otros impactos ambientales"
+                            ],
+                            "correctAnswer": "Se centra exclusivamente en la huella de carbono, ignorando otros impactos ambientales",
+                            "explanation": "La opción marcada en verde en el material fuente es: Se centra exclusivamente en la huella de carbono, ignorando otros impactos ambientales."
+                        },
+                        {
+                            "text": "¿Cuál es la crítica más significativa a la implementación de la Agenda 2030 en el contexto empresarial?",
+                            "options": [
+                                "La tendencia a priorizar objetivos económicos sobre los ambientales y sociales",
+                                "La desconexión entre las políticas empresariales y los objetivos globales",
+                                "La falta de compromiso de los países en desarrollo",
+                                "La falta de recursos financieros disponibles para empresas pequeñas"
+                            ],
+                            "correctAnswer": "La tendencia a priorizar objetivos económicos sobre los ambientales y sociales",
+                            "explanation": "La opción marcada en verde en el material fuente es: La tendencia a priorizar objetivos económicos sobre los ambientales y sociales."
+                        },
+                        {
+                            "text": "En el contexto de la normativa española, ¿cuál es el objetivo principal de la Ley de Residuos y Suelos Contaminados?",
+                            "options": [
+                                "Establecer metas de emisiones para el sector transporte",
+                                "Regular la gestión de residuos y promover su valorización y reciclaje",
+                                "Fomentar la exportación de residuos industriales a terceros países",
+                                "Proteger la biodiversidad a través de la creación de áreas protegidas"
+                            ],
+                            "correctAnswer": "Regular la gestión de residuos y promover su valorización y reciclaje",
+                            "explanation": "La opción marcada en verde en el material fuente es: Regular la gestión de residuos y promover su valorización y reciclaje."
+                        },
+                        {
+                            "text": "¿Qué diferencia existe entre la implementación de la ISO 14001 y el Global Reporting Initiative (GRI) en una empresa?",
+                            "options": [
+                                "El GRI proporciona certificación, mientras que la ISO 14001 no",
+                                "La ISO 14001 se centra en la gestión ambiental, mientras que el GRI abarca informes de sostenibilidad más amplios",
+                                "El GRI está enfocado en empresas del sector energético, mientras que la ISO 14001 es aplicable a todos los sectores",
+                                "La ISO 14001 es obligatoria para todas las empresas, mientras que el GRI es voluntario"
+                            ],
+                            "correctAnswer": "La ISO 14001 se centra en la gestión ambiental, mientras que el GRI abarca informes de sostenibilidad más amplios",
+                            "explanation": "La opción marcada en verde en el material fuente es: La ISO 14001 se centra en la gestión ambiental, mientras que el GRI abarca informes de sostenibilidad más amplios."
+                        },
+                        {
+                            "text": "¿Cuál es el mayor desafío para las empresas en la aplicación de la Directiva de Responsabilidad Medioambiental en la UE?",
+                            "options": [
+                                "Establecer acuerdos con gobiernos locales para evitar sanciones",
+                                "Gestionar los costos asociados con la prevención y reparación de daños ambientales",
+                                "Cumplir con las normativas locales además de las directivas europeas",
+                                "Acceder a financiamiento para proyectos sostenibles"
+                            ],
+                            "correctAnswer": "Gestionar los costos asociados con la prevención y reparación de daños ambientales",
+                            "explanation": "La opción marcada en verde en el material fuente es: Gestionar los costos asociados con la prevención y reparación de daños ambientales."
+                        },
+                        {
+                            "text": "En la evaluación ASG, ¿por qué es crucial considerar la independencia del consejo de administración en la gobernanza corporativa?",
+                            "options": [
+                                "Para aumentar el valor de mercado de las acciones de la empresa",
+                                "Para cumplir con las normativas internacionales sobre derechos humanos",
+                                "Para evitar conflictos de interés y asegurar una toma de decisiones imparcial",
+                                "Para garantizar la diversidad en las decisiones empresariales"
+                            ],
+                            "correctAnswer": "Para evitar conflictos de interés y asegurar una toma de decisiones imparcial",
+                            "explanation": "La opción marcada en verde en el material fuente es: Para evitar conflictos de interés y asegurar una toma de decisiones imparcial."
+                        },
+                        {
+                            "text": "¿Qué rol juega el Pacto Verde Europeo en la transición hacia una economía sostenible en la UE?",
+                            "options": [
+                                "Proporciona un marco para que la UE logre la neutralidad climática para 2050",
+                                "Introduce incentivos para el uso de energías fósiles en sectores críticos",
+                                "Excluye a los países menos desarrollados de la UE de las regulaciones ambientales",
+                                "Establece metas a corto plazo para la reducción de emisiones industriales"
+                            ],
+                            "correctAnswer": "Proporciona un marco para que la UE logre la neutralidad climática para 2050",
+                            "explanation": "La opción marcada en verde en el material fuente es: Proporciona un marco para que la UE logre la neutralidad climática para 2050."
+                        },
+                        {
+                            "text": "¿Qué diferencia clave existe entre el enfoque de la Agenda 21 y la Agenda 2030 en el contexto del desarrollo sostenible?",
+                            "options": [
+                                "La Agenda 21 se enfoca en el desarrollo local, mientras que la Agenda 2030 es global",
+                                "La Agenda 21 es específica de los países en desarrollo, mientras que la Agenda 2030 aplica a todos los países",
+                                "La Agenda 21 establece objetivos vinculantes, mientras que la Agenda 2030 es voluntaria",
+                                "La Agenda 2030 incluye un enfoque más amplio en derechos humanos y desigualdad"
+                            ],
+                            "correctAnswer": "La Agenda 21 es específica de los países en desarrollo, mientras que la Agenda 2030 aplica a todos los países",
+                            "explanation": "La opción marcada en verde en el material fuente es: La Agenda 21 es específica de los países en desarrollo, mientras que la Agenda 2030 aplica a todos los países."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

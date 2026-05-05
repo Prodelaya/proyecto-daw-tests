@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "IPEII",
+            "name": "Itinerario Personal para la Empleabilidad II",
+            "topics": [
+                {
+                    "number": 3,
+                    "title": "UT3: Marco legal y relaciones laborales",
+                    "questions": [
+                        {
+                            "text": "Al revisar tu primer contrato, observas que existen diferentes niveles de normas. ¿Cuál de estas fuentes se sitúa en la cúspide de la pirámide legal y garantiza derechos como la huelga o la libertad de sindicación?",
+                            "options": [
+                                "El Convenio Colectivo del sector.",
+                                "La Constitución Española.",
+                                "El Estatuto de los Trabajadores.",
+                                "El contrato individual de trabajo."
+                            ],
+                            "correctAnswer": "La Constitución Española.",
+                            "explanation": "La opción correcta es: La Constitución Española."
+                        },
+                        {
+                            "text": "Un trabajador tiene dudas sobre qué norma aplicar porque el Estatuto de los Trabajadores dice una cosa y su contrato dice otra más beneficiosa. Según el principio de jerarquía, ¿cuál debe aplicarse?",
+                            "options": [
+                                "La norma más antigua, por considerarse la base de la relación laboral.",
+                                "Lo que decida el empresario de forma unilateral para evitar conflictos.",
+                                "Siempre la norma más favorable para la persona trabajadora.",
+                                "La norma dictada por el organismo de mayor rango, sin excepciones."
+                            ],
+                            "correctAnswer": "Siempre la norma más favorable para la persona trabajadora.",
+                            "explanation": "La opción correcta es: Siempre la norma más favorable para la persona trabajadora."
+                        },
+                        {
+                            "text": "¿Qué función principal cumple el convenio colectivo en sectores como la informática, el marketing o la educación?",
+                            "options": [
+                                "Sustituir íntegramente a las leyes estatales para crear un marco independiente.",
+                                "Establecer sanciones penales para los trabajadores que no cumplan sus objetivos.",
+                                "Adaptar la normativa general a las peculiaridades y necesidades de cada profesión.",
+                                "Eliminar los derechos básicos del Estatuto de los Trabajadores en favor de la empresa."
+                            ],
+                            "correctAnswer": "Adaptar la normativa general a las peculiaridades y necesidades de cada profesión.",
+                            "explanation": "La opción correcta es: Adaptar la normativa general a las peculiaridades y necesidades de cada profesión."
+                        },
+                        {
+                            "text": "Elena empieza a trabajar en una gestoría. Aunque todavía no ha firmado el documento físico, ya recibe órdenes y percibe un salario. ¿Qué presume la ley en este caso?",
+                            "options": [
+                                "Que Elena es una trabajadora autónoma que debe pagar su propia Seguridad Social.",
+                                "Que Elena está realizando un voluntariado no remunerado por tiempo indefinido.",
+                                "Que existe un contrato real de trabajo, aunque sea de forma verbal.",
+                                "Que no existe ninguna relación laboral hasta que el papel esté firmado por ambas partes."
+                            ],
+                            "correctAnswer": "Que existe un contrato real de trabajo, aunque sea de forma verbal.",
+                            "explanation": "La opción correcta es: Que existe un contrato real de trabajo, aunque sea de forma verbal."
+                        },
+                        {
+                            "text": "En el mercado laboral español, ¿cuál se considera la modalidad de contrato \"normal\" o de referencia, que no tiene una fecha de finalización predeterminada?",
+                            "options": [
+                                "Contrato de sustitución por paternidad.",
+                                "Contrato por circunstancias de la producción.",
+                                "Contrato de formación en alternancia.",
+                                "Contrato indefinido."
+                            ],
+                            "correctAnswer": "Contrato indefinido.",
+                            "explanation": "La opción correcta es: Contrato indefinido."
+                        },
+                        {
+                            "text": "Una empresa de eventos necesita contratar personal extra debido a un aumento inesperado de pedidos durante la campaña de Navidad. ¿Qué modalidad de contrato temporal es la adecuada?",
+                            "options": [
+                                "Contrato por circunstancias de la producción.",
+                                "Contrato de sustitución de un compañero de baja.",
+                                "Contrato fijo-discontinuo para tareas estructurales.",
+                                "Contrato de formación para la obtención de la práctica profesional."
+                            ],
+                            "correctAnswer": "Contrato por circunstancias de la producción.",
+                            "explanation": "La opción correcta es: Contrato por circunstancias de la producción."
+                        },
+                        {
+                            "text": "¿Qué sucede si un trabajador encadena varios contratos temporales y supera los 18 meses de trabajo en un periodo de 24 meses en la misma empresa?",
+                            "options": [
+                                "Se convierte automáticamente en trabajador con contrato indefinido.",
+                                "Se le debe realizar un nuevo contrato de formación para ampliar su perfil.",
+                                "Pierde el derecho a la indemnización por fin de contrato temporal.",
+                                "Debe abandonar la empresa obligatoriamente por un periodo de seis meses."
+                            ],
+                            "correctAnswer": "Se convierte automáticamente en trabajador con contrato indefinido.",
+                            "explanation": "La opción correcta es: Se convierte automáticamente en trabajador con contrato indefinido."
+                        },
+                        {
+                            "text": "Acabas de terminar tu ciclo formativo de grado superior y una empresa te ofrece tu primera experiencia real como titulado para aplicar la teoría a la práctica. ¿Cómo se llama este contrato?",
+                            "options": [
+                                "Contrato indefinido de apoyo a emprendedores.",
+                                "Contrato de sustitución por interinidad.",
+                                "Contrato para la obtención de la práctica profesional.",
+                                "Contrato de formación en alternancia."
+                            ],
+                            "correctAnswer": "Contrato para la obtención de la práctica profesional.",
+                            "explanation": "La opción correcta es: Contrato para la obtención de la práctica profesional."
+                        },
+                        {
+                            "text": "Un hotel de playa solo abre durante la temporada de verano y contrata siempre a las mismas personas año tras año. ¿Qué modalidad contractual garantiza la estabilidad y la antigüedad en este caso?",
+                            "options": [
+                                "Contrato de formación en alternancia.",
+                                "Contrato temporal por circunstancias de la producción.",
+                                "Contrato fijo-discontinuo.",
+                                "Contrato de sustitución con reserva de puesto."
+                            ],
+                            "correctAnswer": "Contrato fijo-discontinuo.",
+                            "explanation": "La opción correcta es: Contrato fijo-discontinuo."
+                        },
+                        {
+                            "text": "Por norma general en España, ¿cuál es la duración máxima de la jornada de trabajo ordinaria en promedio anual?",
+                            "options": [
+                                "35 horas semanales.",
+                                "48 horas semanales.",
+                                "40 horas semanales.",
+                                "45 horas semanales."
+                            ],
+                            "correctAnswer": "40 horas semanales.",
+                            "explanation": "La opción correcta es: 40 horas semanales."
+                        },
+                        {
+                            "text": "Un trabajador finaliza su turno un lunes a las 20:00 horas. ¿A qué hora puede empezar su siguiente jornada el martes como pronto, según el descanso mínimo legal?",
+                            "options": [
+                                "A las 08:00 horas, tras doce horas de descanso.",
+                                "A las 06:00 horas, tras diez horas de descanso.",
+                                "En cualquier momento, si el empresario lo solicita por urgencia.",
+                                "A las 09:00 horas, tras trece horas de descanso."
+                            ],
+                            "correctAnswer": "A las 08:00 horas, tras doce horas de descanso.",
+                            "explanation": "La opción correcta es: A las 08:00 horas, tras doce horas de descanso."
+                        },
+                        {
+                            "text": "Si tu jornada diaria continuada supera las 6 horas, ¿a qué descanso mínimo tienes derecho para tomar un café o merendar?",
+                            "options": [
+                                "15 minutos.",
+                                "30 minutos.",
+                                "10 minutos.",
+                                "60 minutos."
+                            ],
+                            "correctAnswer": "15 minutos.",
+                            "explanation": "La opción correcta es: 15 minutos."
+                        },
+                        {
+                            "text": "Una empresa te pide realizar horas extraordinarias para terminar un proyecto. ¿Cuál es el límite máximo de estas horas que puedes realizar al año?",
+                            "options": [
+                                "60 horas.",
+                                "40 horas.",
+                                "No existe límite siempre que se paguen correctamente.",
+                                "80 horas."
+                            ],
+                            "correctAnswer": "80 horas.",
+                            "explanation": "La opción correcta es: 80 horas."
+                        },
+                        {
+                            "text": "¿Qué establece la ley de forma tajante respecto a la realización de horas extraordinarias por parte de trabajadores menores de 18 años?",
+                            "options": [
+                                "Solo pueden hacerlas si se compensan con tiempo de descanso doble.",
+                                "Pueden realizarlas siempre que cuenten con permiso de sus padres.",
+                                "Se les permite hacer hasta un máximo de 40 horas al año.",
+                                "Tienen terminantemente prohibido realizar horas extraordinarias."
+                            ],
+                            "correctAnswer": "Tienen terminantemente prohibido realizar horas extraordinarias.",
+                            "explanation": "La opción correcta es: Tienen terminantemente prohibido realizar horas extraordinarias."
+                        },
+                        {
+                            "text": "¿Con cuánta antelación mínima debe avisar la empresa a un trabajador si decide aplicar una \"distribución irregular de la jornada\" (trabajar más unas semanas y menos otras)?",
+                            "options": [
+                                "Cinco días.",
+                                "24 horas.",
+                                "Quince días.",
+                                "48 horas."
+                            ],
+                            "correctAnswer": "Cinco días.",
+                            "explanation": "La opción correcta es: Cinco días."
+                        },
+                        {
+                            "text": "¿Cuál es el periodo mínimo de descanso semanal ininterrumpido al que tiene derecho cualquier trabajador?",
+                            "options": [
+                                "Doce horas entre jornada y jornada.",
+                                "Un día completo (24 horas).",
+                                "Dos días completos (48 horas).",
+                                "Un día y medio (36 horas)."
+                            ],
+                            "correctAnswer": "Un día y medio (36 horas).",
+                            "explanation": "La opción correcta es: Un día y medio (36 horas)."
+                        },
+                        {
+                            "text": "Un programador recibe parte de su remuneración a través de un seguro médico privado pagado por la empresa. ¿Cómo se denomina técnicamente esta percepción?",
+                            "options": [
+                                "Indemnización por gastos.",
+                                "Salario base.",
+                                "Salario en especie.",
+                                "Percepción no salarial."
+                            ],
+                            "correctAnswer": "Salario en especie.",
+                            "explanation": "La opción correcta es: Salario en especie."
+                        },
+                        {
+                            "text": "¿Qué diferencia fundamental existe entre un complemento salarial (como el de idiomas) y una dieta por desplazamiento?",
+                            "options": [
+                                "El complemento no cotiza a la Seguridad Social y la dieta sí.",
+                                "El complemento se paga en efectivo y la dieta siempre mediante transferencia.",
+                                "El complemento es un premio por el trabajo y la dieta es una devolución de un gasto realizado.",
+                                "No hay diferencia, ambos conceptos se consideran salario a todos los efectos."
+                            ],
+                            "correctAnswer": "El complemento es un premio por el trabajo y la dieta es una devolución de un gasto realizado.",
+                            "explanation": "La opción correcta es: El complemento es un premio por el trabajo y la dieta es una devolución de un gasto realizado."
+                        },
+                        {
+                            "text": "En la estructura de una nómina, ¿qué nombre recibe la suma de todas las cantidades ganadas antes de aplicar los descuentos de impuestos y Seguridad Social?",
+                            "options": [
+                                "Salario líquido.",
+                                "Salario neto.",
+                                "Salario bruto (o total devengado).",
+                                "Base de cotización."
+                            ],
+                            "correctAnswer": "Salario bruto (o total devengado).",
+                            "explanation": "La opción correcta es: Salario bruto (o total devengado)."
+                        },
+                        {
+                            "text": "¿Cuál es el destino del descuento por \"Contingencias Comunes\" que aparece en todas las nóminas?",
+                            "options": [
+                                "Aportar fondos para el pago de las prestaciones por desempleo.",
+                                "Financiar exclusivamente los cursos de formación profesional del sector.",
+                                "Cubrir situaciones de enfermedad común, accidente no laboral y la futura jubilación.",
+                                "Pagar el seguro de accidentes de tráfico de la empresa."
+                            ],
+                            "correctAnswer": "Cubrir situaciones de enfermedad común, accidente no laboral y la futura jubilación.",
+                            "explanation": "La opción correcta es: Cubrir situaciones de enfermedad común, accidente no laboral y la futura jubilación."
+                        },
+                        {
+                            "text": "El Mecanismo de Equidad Intergeneracional (MEI) es un concepto nuevo en las nóminas. ¿Cuál es su objetivo?",
+                            "options": [
+                                "Financiar las bajas por paternidad y maternidad de la empresa.",
+                                "Asegurar la sostenibilidad del sistema de pensiones a largo plazo.",
+                                "Pagar los ordenadores nuevos de los trabajadores más jóvenes.",
+                                "Compensar a los trabajadores que tienen hijos a su cargo."
+                            ],
+                            "correctAnswer": "Asegurar la sostenibilidad del sistema de pensiones a largo plazo.",
+                            "explanation": "La opción correcta es: Asegurar la sostenibilidad del sistema de pensiones a largo plazo."
+                        },
+                        {
+                            "text": "¿Qué debe comprobar un trabajador a jornada completa respecto al Salario Mínimo Interprofesional (SMI)?",
+                            "options": [
+                                "Que el SMI solo se aplica si el convenio colectivo no dice otra cosa.",
+                                "Que el SMI es la cantidad máxima que se puede cobrar en España.",
+                                "Que ninguna empresa le pague menos de la cifra marcada legalmente para su jornada.",
+                                "Que su salario líquido sea exactamente igual al SMI."
+                            ],
+                            "correctAnswer": "Que ninguna empresa le pague menos de la cifra marcada legalmente para su jornada.",
+                            "explanation": "La opción correcta es: Que ninguna empresa le pague menos de la cifra marcada legalmente para su jornada."
+                        },
+                        {
+                            "text": "Si una empresa decide trasladar tu centro de trabajo a otra provincia y esto te supone un perjuicio real, ¿qué derecho te asiste según la ley?",
+                            "options": [
+                                "Ninguno, el trabajador debe aceptar los cambios de la empresa sin rechistar.",
+                                "El derecho a pedir una baja médica por estrés de forma automática.",
+                                "El derecho a rescindir el contrato con una indemnización de 20 días por año trabajado.",
+                                "El derecho a trabajar desde casa de forma indefinida sin reducción de sueldo."
+                            ],
+                            "correctAnswer": "El derecho a rescindir el contrato con una indemnización de 20 días por año trabajado.",
+                            "explanation": "La opción correcta es: El derecho a rescindir el contrato con una indemnización de 20 días por año trabajado."
+                        },
+                        {
+                            "text": "¿Qué ocurre con la relación laboral durante una \"suspensión del contrato\" (como una baja médica o un permiso por nacimiento)?",
+                            "options": [
+                                "El trabajador pierde su antigüedad en la empresa durante ese periodo.",
+                                "El vínculo se mantiene vivo, pero se \"pausan\" el trabajo y el pago del salario.",
+                                "El contrato desaparece y hay que firmar uno nuevo al regresar.",
+                                "La empresa puede contratar a otra persona de forma indefinida para ese puesto."
+                            ],
+                            "correctAnswer": "El vínculo se mantiene vivo, pero se \"pausan\" el trabajo y el pago del salario.",
+                            "explanation": "La opción correcta es: El vínculo se mantiene vivo, pero se \"pausan\" el trabajo y el pago del salario."
+                        },
+                        {
+                            "text": "Un trabajador solicita una excedencia para cuidar de su hijo. ¿Durante cuánto tiempo tiene reserva de su puesto de trabajo original?",
+                            "options": [
+                                "Durante los primeros cuatro meses.",
+                                "Hasta que el niño cumpla los dieciocho años.",
+                                "Durante el primer año.",
+                                "No existe reserva de puesto en las excedencias voluntarias."
+                            ],
+                            "correctAnswer": "Durante el primer año.",
+                            "explanation": "La opción correcta es: Durante el primer año."
+                        },
+                        {
+                            "text": "Al finalizar una relación laboral, ¿cómo se llama el documento que liquida las cantidades pendientes (vacaciones no disfrutadas, pagas extra, etc.)?",
+                            "options": [
+                                "Nómina de atrasos.",
+                                "Certificado de empresa.",
+                                "Finiquito.",
+                                "Carta de despido."
+                            ],
+                            "correctAnswer": "Finiquito.",
+                            "explanation": "La opción correcta es: Finiquito."
+                        },
+                        {
+                            "text": "Si un trabajador decide marcharse voluntariamente de la empresa (dimisión) respetando el preaviso, ¿a qué tiene derecho económicamente?",
+                            "options": [
+                                "A cobrar la prestación por desempleo de forma inmediata.",
+                                "A una indemnización de 33 días por año trabajado.",
+                                "Al finiquito (vacaciones y pagas extra), pero no a una indemnización.",
+                                "Solo a los días trabajados ese mes, perdiendo las pagas extra."
+                            ],
+                            "correctAnswer": "Al finiquito (vacaciones y pagas extra), pero no a una indemnización.",
+                            "explanation": "La opción correcta es: Al finiquito (vacaciones y pagas extra), pero no a una indemnización."
+                        },
+                        {
+                            "text": "¿Qué consecuencia puede tener para el trabajador no respetar el plazo de preaviso al presentar una baja voluntaria?",
+                            "options": [
+                                "Que la empresa le descuente del finiquito los días de preaviso no cumplidos.",
+                                "Que la empresa le denuncie ante un juzgado penal.",
+                                "Ninguna, el preaviso es solo una recomendación de cortesía.",
+                                "Que no pueda volver a trabajar en el mismo sector durante dos años."
+                            ],
+                            "correctAnswer": "Que la empresa le descuente del finiquito los días de preaviso no cumplidos.",
+                            "explanation": "La opción correcta es: Que la empresa le descuente del finiquito los días de preaviso no cumplidos."
+                        },
+                        {
+                            "text": "Si un trabajador no está de acuerdo con los cálculos del finiquito que le entrega la empresa al terminar, ¿cómo debe firmar el documento?",
+                            "options": [
+                                "No debe firmar nada bajo ninguna circunstancia.",
+                                "Debe pedir a un compañero que firme en su lugar como testigo.",
+                                "Debe firmar con su nombre y añadir la frase \"no conforme\".",
+                                "Debe firmar normalmente y reclamar después sin ninguna anotación."
+                            ],
+                            "correctAnswer": "Debe firmar con su nombre y añadir la frase \"no conforme\".",
+                            "explanation": "La opción correcta es: Debe firmar con su nombre y añadir la frase \"no conforme\"."
+                        },
+                        {
+                            "text": "En un contrato temporal por circunstancias de la producción que llega a su fin, ¿cuál es la indemnización que corresponde legalmente al trabajador?",
+                            "options": [
+                                "12 días de salario por cada año trabajado.",
+                                "Una mensualidad completa independientemente del tiempo trabajado.",
+                                "20 días de salario por cada año trabajado.",
+                                "No tiene derecho a ninguna indemnización por ser temporal."
+                            ],
+                            "correctAnswer": "12 días de salario por cada año trabajado.",
+                            "explanation": "La opción correcta es: 12 días de salario por cada año trabajado."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

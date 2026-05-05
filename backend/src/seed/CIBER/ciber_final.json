@@ -1,0 +1,456 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 8,
+                    "title": "Test Final Ciberseguridad",
+                    "questions": [
+                        {
+                            "text": "Una empresa sufre un ataque que impide a los empleados acceder a las bases de datos de clientes durante toda la jornada laboral. ¿Qué pilar del triángulo CIA se ha visto principalmente comprometido?",
+                            "options": [
+                                "Integridad",
+                                "Disponibilidad",
+                                "Autenticación",
+                                "Confidencialidad"
+                            ],
+                            "correctAnswer": "Disponibilidad",
+                            "explanation": "La opción marcada en verde en el material fuente es: Disponibilidad."
+                        },
+                        {
+                            "text": "Al configurar un nuevo servidor, se decide que los usuarios solo tengan los permisos estrictamente necesarios para realizar sus tareas. ¿Qué principio se está aplicando?",
+                            "options": [
+                                "Seguridad por oscuridad",
+                                "Autenticación robusta",
+                                "Defensa en profundidad",
+                                "Mínimo privilegio"
+                            ],
+                            "correctAnswer": "Mínimo privilegio",
+                            "explanation": "La opción marcada en verde en el material fuente es: Mínimo privilegio."
+                        },
+                        {
+                            "text": "¿Cuál es la principal diferencia entre una amenaza y un riesgo en el análisis de ciberseguridad?",
+                            "options": [
+                                "La amenaza es un factor externo o interno potencial y el riesgo es la probabilidad de que ocurra un daño",
+                                "El riesgo es la herramienta utilizada por el atacante y la amenaza es el objetivo",
+                                "No hay diferencia, ambos términos son sinónimos en la gestión de infraestructuras",
+                                "La amenaza es el daño causado y el riesgo es la vulnerabilidad técnica"
+                            ],
+                            "correctAnswer": "La amenaza es un factor externo o interno potencial y el riesgo es la probabilidad de que ocurra un daño",
+                            "explanation": "La opción marcada en verde en el material fuente es: La amenaza es un factor externo o interno potencial y el riesgo es la probabilidad de que ocurra un daño."
+                        },
+                        {
+                            "text": "En el ciclo de gestión de vulnerabilidades, ¿en qué fase se determina el impacto y la urgencia de corrección de los fallos detectados?",
+                            "options": [
+                                "Verificación",
+                                "Identificación",
+                                "Priorización y análisis",
+                                "Remediación"
+                            ],
+                            "correctAnswer": "Priorización y análisis",
+                            "explanation": "La opción marcada en verde en el material fuente es: Priorización y análisis."
+                        },
+                        {
+                            "text": "¿Qué sistema de seguridad activa se encarga de filtrar el tráfico de red entrante y saliente basándose en un conjunto de reglas predefinidas?",
+                            "options": [
+                                "Sistema de gestión de eventos (SIEM)",
+                                "Función Hash",
+                                "Cortafuegos o Firewall",
+                                "Sistema de detección de intrusos (IDS)"
+                            ],
+                            "correctAnswer": "Cortafuegos o Firewall",
+                            "explanation": "La opción marcada en verde en el material fuente es: Cortafuegos o Firewall."
+                        },
+                        {
+                            "text": "Un administrador de sistemas necesita detectar ataques complejos mediante la centralización y correlación de registros de múltiples fuentes. ¿Qué plataforma debe implementar?",
+                            "options": [
+                                "Algoritmo de cifrado simétrico",
+                                "SIEM (Gestión de eventos e información de seguridad)",
+                                "IPS (Sistema de prevención de intrusos)",
+                                "Servidor de certificados digitales"
+                            ],
+                            "correctAnswer": "SIEM (Gestión de eventos e información de seguridad)",
+                            "explanation": "La opción marcada en verde en el material fuente es: SIEM (Gestión de eventos e información de seguridad)."
+                        },
+                        {
+                            "text": "¿Qué algoritmo de cifrado simétrico es el estándar actual recomendado para proteger el almacenamiento local de servidores?",
+                            "options": [
+                                "RSA",
+                                "AES (Advanced Encryption Standard)",
+                                "SHA-256",
+                                "MD5"
+                            ],
+                            "correctAnswer": "AES (Advanced Encryption Standard)",
+                            "explanation": "La opción marcada en verde en el material fuente es: AES (Advanced Encryption Standard)."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de un algoritmo Hash como SHA-256 en la transmisión de archivos?",
+                            "options": [
+                                "Cifrar el contenido para que solo sea legible por usuarios autorizados",
+                                "Generar una huella digital única para verificar la integridad del archivo",
+                                "Crear un túnel seguro mediante el protocolo TLS",
+                                "Comprimir el archivo para que ocupe menos espacio en el servidor"
+                            ],
+                            "correctAnswer": "Generar una huella digital única para verificar la integridad del archivo",
+                            "explanation": "La opción marcada en verde en el material fuente es: Generar una huella digital única para verificar la integridad del archivo."
+                        },
+                        {
+                            "text": "¿Cuál es la premisa fundamental del modelo de seguridad \"Zero Trust\" (Confianza Cero)?",
+                            "options": [
+                                "Eliminar la necesidad de usar contraseñas en los servidores internos",
+                                "Permitir el acceso total a los administradores sin necesidad de autenticación",
+                                "Confiar automáticamente en cualquier dispositivo que esté dentro de la red local",
+                                "No confiar en nadie por defecto y verificar continuamente cada solicitud de acceso"
+                            ],
+                            "correctAnswer": "No confiar en nadie por defecto y verificar continuamente cada solicitud de acceso",
+                            "explanation": "La opción marcada en verde en el material fuente es: No confiar en nadie por defecto y verificar continuamente cada solicitud de acceso."
+                        },
+                        {
+                            "text": "¿Qué es una Zona Desmilitarizada (DMZ) en una arquitectura de red?",
+                            "options": [
+                                "Una red aislada que aloja servidores que deben ser visibles desde el exterior",
+                                "Una red interna donde se guardan las bases de datos críticas de clientes",
+                                "Un segmento de red sin ningún tipo de protección o cortafuegos",
+                                "La red Wi-Fi gratuita destinada a las visitas de la empresa"
+                            ],
+                            "correctAnswer": "Una red aislada que aloja servidores que deben ser visibles desde el exterior",
+                            "explanation": "La opción marcada en verde en el material fuente es: Una red aislada que aloja servidores que deben ser visibles desde el exterior."
+                        },
+                        {
+                            "text": "¿Qué tecnología permite crear un túnel cifrado sobre una red pública para conectar de forma segura a teletrabajadores?",
+                            "options": [
+                                "Red de área local (LAN)",
+                                "Protocolo HTTP",
+                                "Red Privada Virtual (VPN)",
+                                "Sistema de nombres de dominio (DNS)"
+                            ],
+                            "correctAnswer": "Red Privada Virtual (VPN)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Red Privada Virtual (VPN)."
+                        },
+                        {
+                            "text": "¿Qué es una pasarela de acceso o servidor de salto (Jump Server)?",
+                            "options": [
+                                "Un dispositivo que aumenta la señal Wi-Fi en oficinas grandes",
+                                "Un router que no tiene configurada ninguna contraseña",
+                                "Un servidor que distribuye automáticamente virus en la red",
+                                "Un intermediario que gestiona y autentica las conexiones antes de permitir tocar sistemas críticos"
+                            ],
+                            "correctAnswer": "Un intermediario que gestiona y autentica las conexiones antes de permitir tocar sistemas críticos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Un intermediario que gestiona y autentica las conexiones antes de permitir tocar sistemas críticos."
+                        },
+                        {
+                            "text": "¿Qué mide el indicador RTO (Recovery Time Objective)?",
+                            "options": [
+                                "La cantidad de datos que la empresa puede permitirse perder medida en tiempo",
+                                "La distancia física entre el centro de datos principal y el de respaldo",
+                                "El coste total de los servidores necesarios para montar un sitio caliente",
+                                "El tiempo máximo que un servicio puede estar inactivo antes de que las consecuencias sean inaceptables"
+                            ],
+                            "correctAnswer": "El tiempo máximo que un servicio puede estar inactivo antes de que las consecuencias sean inaceptables",
+                            "explanation": "La opción marcada en verde en el material fuente es: El tiempo máximo que un servicio puede estar inactivo antes de que las consecuencias sean inaceptables."
+                        },
+                        {
+                            "text": "¿Qué ventaja técnica ofrece la regla de respaldo 3-2-1?",
+                            "options": [
+                                "Reduce el coste de almacenamiento al eliminar la necesidad de copias en la nube",
+                                "Garantiza la resiliencia al diversificar soportes y mantener una copia fuera de la ubicación principal",
+                                "Permite que los usuarios finales gestionen sus propias copias de seguridad sin supervisión",
+                                "Asegura que los datos estén siempre en el mismo servidor para facilitar el acceso rápido"
+                            ],
+                            "correctAnswer": "Garantiza la resiliencia al diversificar soportes y mantener una copia fuera de la ubicación principal",
+                            "explanation": "La opción marcada en verde en el material fuente es: Garantiza la resiliencia al diversificar soportes y mantener una copia fuera de la ubicación principal."
+                        },
+                        {
+                            "text": "¿Qué es el proceso de \"failover\" o conmutación por error?",
+                            "options": [
+                                "La transferencia automática de la carga de trabajo a un servidor secundario si el principal cae",
+                                "El aumento de la latencia en la red debido a un exceso de usuarios conectados",
+                                "La desconexión programada de los sistemas para realizar tareas de limpieza física",
+                                "El borrado accidental de datos durante una actualización de software"
+                            ],
+                            "correctAnswer": "La transferencia automática de la carga de trabajo a un servidor secundario si el principal cae",
+                            "explanation": "La opción marcada en verde en el material fuente es: La transferencia automática de la carga de trabajo a un servidor secundario si el principal cae."
+                        },
+                        {
+                            "text": "Un administrador de sistemas realiza una copia de seguridad que incluye absolutamente todo el contenido del sistema. ¿De qué tipo de copia se trata?",
+                            "options": [
+                                "Copia espejo",
+                                "Copia incremental",
+                                "Copia diferencial",
+                                "Copia completa"
+                            ],
+                            "correctAnswer": "Copia completa",
+                            "explanation": "La opción marcada en verde en el material fuente es: Copia completa."
+                        },
+                        {
+                            "text": "¿Qué mejora técnica introduce el protocolo WPA3 frente a su predecesor para evitar ataques de diccionario fuera de línea?",
+                            "options": [
+                                "El intercambio de claves SAE (Simultaneous Authentication of Equals)",
+                                "La desactivación obligatoria del cifrado AES",
+                                "El uso exclusivo de vectores de inicialización cortos",
+                                "El uso de claves estáticas de 104 bits"
+                            ],
+                            "correctAnswer": "El intercambio de claves SAE (Simultaneous Authentication of Equals)",
+                            "explanation": "La opción marcada en verde en el material fuente es: El intercambio de claves SAE (Simultaneous Authentication of Equals)."
+                        },
+                        {
+                            "text": "Un técnico necesita configurar una red WiFi empresarial donde cada empleado acceda con su propio usuario y contraseña personal. ¿Qué estándar debe implementar?",
+                            "options": [
+                                "IEEE 802.1X con servidor RADIUS",
+                                "WEP con clave compartida",
+                                "WPA2-Personal (PSK)",
+                                "Filtrado MAC estático"
+                            ],
+                            "correctAnswer": "IEEE 802.1X con servidor RADIUS",
+                            "explanation": "La opción marcada en verde en el material fuente es: IEEE 802.1X con servidor RADIUS."
+                        },
+                        {
+                            "text": "¿Qué política empresarial permite a los empleados utilizar sus propios smartphones personales para acceder a recursos corporativos?",
+                            "options": [
+                                "Shadow IT",
+                                "Hardening de sistemas",
+                                "Segmentación física",
+                                "BYOD (Bring Your Own Device)"
+                            ],
+                            "correctAnswer": "BYOD (Bring Your Own Device)",
+                            "explanation": "La opción marcada en verde en el material fuente es: BYOD (Bring Your Own Device)."
+                        },
+                        {
+                            "text": "¿Qué herramienta técnica permite a una empresa gestionar de forma centralizada las políticas de seguridad, aplicaciones y borrado remoto de los móviles corporativos?",
+                            "options": [
+                                "Una solución MDM (Mobile Device Management)",
+                                "Un sistema de archivos distribuido (DFS)",
+                                "Un balanceador de carga de red",
+                                "Un editor de código fuente en la nube"
+                            ],
+                            "correctAnswer": "Una solución MDM (Mobile Device Management)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Una solución MDM (Mobile Device Management)."
+                        },
+                        {
+                            "text": "En el contexto del desarrollo de software, ¿en qué consiste la estrategia de \"desplazamiento a la izquierda\" (shift-left)?",
+                            "options": [
+                                "En mover las auditorías de seguridad a las etapas más tardías del proyecto",
+                                "En priorizar la velocidad de entrega sobre la calidad del código fuente",
+                                "En desplazar la infraestructura de servidores a nubes públicas extranjeras",
+                                "En realizar pruebas y auditorías de seguridad en las etapas más tempranas del desarrollo"
+                            ],
+                            "correctAnswer": "En realizar pruebas y auditorías de seguridad en las etapas más tempranas del desarrollo",
+                            "explanation": "La opción marcada en verde en el material fuente es: En realizar pruebas y auditorías de seguridad en las etapas más tempranas del desarrollo."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de las herramientas de análisis de código estático (SAST)?",
+                            "options": [
+                                "Medir el tiempo de respuesta del servidor ante un alto volumen de usuarios",
+                                "Ejecutar la aplicación en un entorno de pruebas para ver cómo responde",
+                                "Simular un ataque real desde el exterior de la red corporativa",
+                                "Inspeccionar cada línea del código fuente sin ejecutarlo para detectar errores de codificación"
+                            ],
+                            "correctAnswer": "Inspeccionar cada línea del código fuente sin ejecutarlo para detectar errores de codificación",
+                            "explanation": "La opción marcada en verde en el material fuente es: Inspeccionar cada línea del código fuente sin ejecutarlo para detectar errores de codificación."
+                        },
+                        {
+                            "text": "Según el estándar OWASP, ¿qué riesgo representa la categoría A01 – Pérdida de control de acceso?",
+                            "options": [
+                                "El envío de contraseñas por protocolos no cifrados como HTTP",
+                                "La falta de parches de seguridad en el sistema operativo del servidor",
+                                "El uso de una base de datos antigua que no soporta consultas parametrizadas",
+                                "La posibilidad de que usuarios accedan a funciones o datos para los que no tienen permiso"
+                            ],
+                            "correctAnswer": "La posibilidad de que usuarios accedan a funciones o datos para los que no tienen permiso",
+                            "explanation": "La opción marcada en verde en el material fuente es: La posibilidad de que usuarios accedan a funciones o datos para los que no tienen permiso."
+                        },
+                        {
+                            "text": "¿Cuál es la medida más profesional y efectiva para prevenir inyecciones SQL?",
+                            "options": [
+                                "Desactivar el uso de bases de datos en la aplicación",
+                                "Usar concatenación de cadenas de texto en el código",
+                                "Implementar consultas parametrizadas o sentencias preparadas",
+                                "Pedir a los usuarios que no escriban caracteres especiales"
+                            ],
+                            "correctAnswer": "Implementar consultas parametrizadas o sentencias preparadas",
+                            "explanation": "La opción marcada en verde en el material fuente es: Implementar consultas parametrizadas o sentencias preparadas."
+                        },
+                        {
+                            "text": "¿Cómo se define técnicamente el análisis forense digital en el marco de una investigación?",
+                            "options": [
+                                "La redacción de políticas de privacidad para aplicaciones móviles",
+                                "El diseño de infraestructuras de red resistentes a ataques de denegación de servicio",
+                                "La eliminación de virus y malware de un sistema infectado para restaurar su funcionamiento",
+                                "La obtención y evaluación rigurosa de datos electrónicos para convertirlos en pruebas válidas"
+                            ],
+                            "correctAnswer": "La obtención y evaluación rigurosa de datos electrónicos para convertirlos en pruebas válidas",
+                            "explanation": "La opción marcada en verde en el material fuente es: La obtención y evaluación rigurosa de datos electrónicos para convertirlos en pruebas válidas."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo principal de la cadena de custodia en el manejo de evidencias?",
+                            "options": [
+                                "Asegurar que el atacante no pueda volver a entrar en el sistema",
+                                "Reducir el tiempo de respuesta ante incidentes para ahorrar costes a la empresa",
+                                "Garantizar la autenticidad, integridad y fiabilidad de la prueba desde su obtención hasta el juicio",
+                                "Permitir que cualquier empleado de la empresa pueda revisar las pruebas recolectadas"
+                            ],
+                            "correctAnswer": "Garantizar la autenticidad, integridad y fiabilidad de la prueba desde su obtención hasta el juicio",
+                            "explanation": "La opción marcada en verde en el material fuente es: Garantizar la autenticidad, integridad y fiabilidad de la prueba desde su obtención hasta el juicio."
+                        },
+                        {
+                            "text": "¿Qué dispositivo de hardware es imprescindible conectar al disco original durante la copia forense para evitar escrituras accidentales?",
+                            "options": [
+                                "Un balanceador de carga",
+                                "Un bloqueador de escritura",
+                                "Un diodo de datos industrial",
+                                "Un servidor de salto (Jump Server)"
+                            ],
+                            "correctAnswer": "Un bloqueador de escritura",
+                            "explanation": "La opción marcada en verde en el material fuente es: Un bloqueador de escritura."
+                        },
+                        {
+                            "text": "¿Qué principio del RGPD establece que solo se deben recoger los datos estrictamente necesarios para una finalidad específica?",
+                            "options": [
+                                "Integridad y disponibilidad",
+                                "Minimización de datos",
+                                "Licitud y transparencia",
+                                "Limitación del plazo de conservación"
+                            ],
+                            "correctAnswer": "Minimización de datos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Minimización de datos."
+                        },
+                        {
+                            "text": "¿Qué prohíbe el código deontológico respecto a la relación con los clientes para evitar el \"cliente prisionero\"?",
+                            "options": [
+                                "Cobrar por horas de mantenimiento técnico una vez finalizado el proyecto",
+                                "Ofrecer descuentos por fidelidad a largo plazo",
+                                "Entregar el código fuente al finalizar el contrato",
+                                "Crear situaciones donde el cliente no pueda cambiar de proveedor por el diseño del software"
+                            ],
+                            "correctAnswer": "Crear situaciones donde el cliente no pueda cambiar de proveedor por el diseño del software",
+                            "explanation": "La opción marcada en verde en el material fuente es: Crear situaciones donde el cliente no pueda cambiar de proveedor por el diseño del software."
+                        },
+                        {
+                            "text": "¿Qué se entiende por \"Privacidad por diseño\" en el desarrollo de aplicaciones?",
+                            "options": [
+                                "Añadir una página de términos y condiciones al final del proyecto",
+                                "Diseñar interfaces que sean visualmente privadas usando colores oscuros",
+                                "Integrar controles de privacidad y protección de datos desde el inicio de la creación del sistema",
+                                "Permitir que solo el diseñador gráfico tenga acceso a la base de datos"
+                            ],
+                            "correctAnswer": "Integrar controles de privacidad y protección de datos desde el inicio de la creación del sistema",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integrar controles de privacidad y protección de datos desde el inicio de la creación del sistema."
+                        },
+                        {
+                            "text": "¿Qué práctica técnica de administración (DAM) asegura que los sistemas críticos no funcionen con vulnerabilidades conocidas y corregidas por el fabricante?",
+                            "options": [
+                                "Reinstalación completa del hardware cada seis meses",
+                                "Uso de servidores con procesadores de generación anterior",
+                                "Desactivación de las actualizaciones automáticas por precaución",
+                                "Gestión de parches (Patch management) mediante ventanas de mantenimiento"
+                            ],
+                            "correctAnswer": "Gestión de parches (Patch management) mediante ventanas de mantenimiento",
+                            "explanation": "La opción marcada en verde en el material fuente es: Gestión de parches (Patch management) mediante ventanas de mantenimiento."
+                        },
+                        {
+                            "text": "En una arquitectura de red moderna, ¿qué técnica permite aplicar políticas de seguridad granulares a nivel de carga de trabajo individual para limitar el movimiento lateral?",
+                            "options": [
+                                "Aumento de la velocidad de los switches",
+                                "Micro-segmentación",
+                                "Cortafuegos perimetral único",
+                                "Uso de cables de red blindados"
+                            ],
+                            "correctAnswer": "Micro-segmentación",
+                            "explanation": "La opción marcada en verde en el material fuente es: Micro-segmentación."
+                        },
+                        {
+                            "text": "¿Qué ventaja operativa ofrece el uso de \"Backups inmutables\" frente a ataques de ransomware?",
+                            "options": [
+                                "Son archivos que ocupan cero bytes en el almacenamiento del servidor",
+                                "Impiden que cualquier proceso, incluido el malware, pueda modificar o borrar la copia durante un tiempo",
+                                "Permiten borrar los archivos antiguos de forma más rápida",
+                                "No requieren una clave de cifrado para ser restaurados"
+                            ],
+                            "correctAnswer": "Impiden que cualquier proceso, incluido el malware, pueda modificar o borrar la copia durante un tiempo",
+                            "explanation": "La opción marcada en verde en el material fuente es: Impiden que cualquier proceso, incluido el malware, pueda modificar o borrar la copia durante un tiempo."
+                        },
+                        {
+                            "text": "¿Qué análisis debe realizar una organización para identificar qué procesos son críticos y cuántas pérdidas económicas supondría su interrupción?",
+                            "options": [
+                                "Análisis de impacto en el negocio (BIA)",
+                                "Auditoría de inventario de hardware",
+                                "Análisis de vulnerabilidades web",
+                                "Prueba de rendimiento de la base de datos"
+                            ],
+                            "correctAnswer": "Análisis de impacto en el negocio (BIA)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Análisis de impacto en el negocio (BIA)."
+                        },
+                        {
+                            "text": "¿Cuál es la función de un sistema de gestión de secretos (Vault) en un entorno de desarrollo seguro (DAW)?",
+                            "options": [
+                                "Almacenar las fotos de perfil de los empleados en alta resolución",
+                                "Gestionar y proteger claves de API y contraseñas fuera del código fuente",
+                                "Bloquear el acceso físico a la sala de servidores",
+                                "Comprimir el código fuente para que se envíe más rápido a producción"
+                            ],
+                            "correctAnswer": "Gestionar y proteger claves de API y contraseñas fuera del código fuente",
+                            "explanation": "La opción marcada en verde en el material fuente es: Gestionar y proteger claves de API y contraseñas fuera del código fuente."
+                        },
+                        {
+                            "text": "En el contexto de la Ley de Servicios Digitales (DSA), ¿qué derecho tiene el usuario respecto a la moderación de contenidos en grandes plataformas?",
+                            "options": [
+                                "Derecho a usar la cuenta de otro usuario si la suya es bloqueada",
+                                "Derecho a que la plataforma le pague por cada mensaje publicado",
+                                "Derecho a que su contenido nunca sea borrado bajo ninguna circunstancia",
+                                "Derecho a recibir una explicación clara y a impugnar la decisión de retirada de su contenido"
+                            ],
+                            "correctAnswer": "Derecho a recibir una explicación clara y a impugnar la decisión de retirada de su contenido",
+                            "explanation": "La opción marcada en verde en el material fuente es: Derecho a recibir una explicación clara y a impugnar la decisión de retirada de su contenido."
+                        },
+                        {
+                            "text": "¿Qué tipo de análisis forense se encarga de recuperar evidencias de la memoria volátil de un sistema antes de que se apague?",
+                            "options": [
+                                "Análisis de costes de licencias de software",
+                                "Análisis de memoria RAM o forense en vivo (Live forensics)",
+                                "Análisis de integridad de cables de fibra óptica",
+                                "Análisis de disco duro (Post-mortem)"
+                            ],
+                            "correctAnswer": "Análisis de memoria RAM o forense en vivo (Live forensics)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Análisis de memoria RAM o forense en vivo (Live forensics)."
+                        },
+                        {
+                            "text": "¿Qué técnica de validación de seguridad consiste en enviar datos aleatorios o malformados a una aplicación para ver si falla o revela errores?",
+                            "options": [
+                                "Fuzzing o pruebas de robustez",
+                                "Compilación cruzada",
+                                "Documentación de código",
+                                "Unit testing"
+                            ],
+                            "correctAnswer": "Fuzzing o pruebas de robustez",
+                            "explanation": "La opción marcada en verde en el material fuente es: Fuzzing o pruebas de robustez."
+                        },
+                        {
+                            "text": "¿Cuál es el rol principal del Delegado de Protección de Datos (DPO) en una empresa según el RGPD?",
+                            "options": [
+                                "Supervisar el cumplimiento de la normativa y actuar como punto de contacto con la autoridad de control",
+                                "Reparar los ordenadores portátiles de los empleados",
+                                "Programar los firewalls de la red interna",
+                                "Realizar las copias de seguridad incrementales cada noche"
+                            ],
+                            "correctAnswer": "Supervisar el cumplimiento de la normativa y actuar como punto de contacto con la autoridad de control",
+                            "explanation": "La opción marcada en verde en el material fuente es: Supervisar el cumplimiento de la normativa y actuar como punto de contacto con la autoridad de control."
+                        },
+                        {
+                            "text": "Durante una entrevista de trabajo, si detectas un fallo de inyección en un código que te muestran, ¿cuál es el término técnico que demuestra mayor madurez profesional?",
+                            "options": [
+                                "\"Deberían cambiar el color de la interfaz para que parezca más segura\"",
+                                "\"El servidor necesita más memoria para que no le roben los datos\"",
+                                "\"Falta aplicar una validación por lista blanca y consultas parametrizadas\"",
+                                "\"Eso es un error de escritura\""
+                            ],
+                            "correctAnswer": "\"Falta aplicar una validación por lista blanca y consultas parametrizadas\"",
+                            "explanation": "La opción marcada en verde en el material fuente es: \"Falta aplicar una validación por lista blanca y consultas parametrizadas\"."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "SASP",
+            "name": "Sostenibilidad aplicada al sistema productivo",
+            "topics": [
+                {
+                    "number": 5,
+                    "title": "UT5: Plan de Sostenibilidad en la Empresa",
+                    "questions": [
+                        {
+                            "text": "¿Cuál es el principal riesgo de no integrar los criterios ASG en la estrategia empresarial, según el documento?",
+                            "options": [
+                                "Reducción del impacto ambiental positivo sin afectar las operaciones diarias.",
+                                "Pérdida de competitividad en mercados locales.",
+                                "Daño a la reputación, desincentivo a inversores y aumento en los costos de financiamiento.",
+                                "Incremento de la presión regulatoria sin repercusiones en los resultados financieros."
+                            ],
+                            "correctAnswer": "Daño a la reputación, desincentivo a inversores y aumento en los costos de financiamiento.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Daño a la reputación, desincentivo a inversores y aumento en los costos de financiamiento.."
+                        },
+                        {
+                            "text": "Según el documento, ¿cómo pueden las certificaciones ASG influir en la percepción de los mercados internacionales?",
+                            "options": [
+                                "Mejoran la percepción de los mercados emergentes pero no tienen impacto en los desarrollados.",
+                                "Crean barreras regulatorias que impiden el comercio internacional de productos.",
+                                "Reducen la necesidad de cumplir con normativas locales en mercados internacionales.",
+                                "Incrementan la confianza en la empresa y facilitan el acceso a mercados que priorizan la sostenibilidad."
+                            ],
+                            "correctAnswer": "Incrementan la confianza en la empresa y facilitan el acceso a mercados que priorizan la sostenibilidad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Incrementan la confianza en la empresa y facilitan el acceso a mercados que priorizan la sostenibilidad.."
+                        },
+                        {
+                            "text": "En el contexto de la sostenibilidad empresarial, ¿qué implica la transparencia en la gobernanza, más allá del cumplimiento normativo?",
+                            "options": [
+                                "La divulgación de información limitada sobre las prácticas de sostenibilidad para evitar la competencia.",
+                                "La publicación de planes de sostenibilidad sin comprometerse a objetivos medibles.",
+                                "La elaboración de reportes financieros que incluyan indicadores de sostenibilidad únicamente cuando sea solicitado por los reguladores.",
+                                "La integración de los intereses de los stakeholders en la toma de decisiones y la rendición de cuentas constante sobre los impactos sociales y ambientales."
+                            ],
+                            "correctAnswer": "La integración de los intereses de los stakeholders en la toma de decisiones y la rendición de cuentas constante sobre los impactos sociales y ambientales.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La integración de los intereses de los stakeholders en la toma de decisiones y la rendición de cuentas constante sobre los impactos sociales y ambientales.."
+                        },
+                        {
+                            "text": "¿Qué desafío crítico enfrentan las empresas al implementar la gestión de la cadena de suministro sostenible según el documento?",
+                            "options": [
+                                "La falta de interés de los proveedores en adoptar prácticas sostenibles.",
+                                "La resistencia de los consumidores a pagar precios más altos por productos sostenibles.",
+                                "La imposibilidad de medir el impacto ambiental de los productos en el ciclo de vida completo.",
+                                "La dificultad para asegurar la trazabilidad y transparencia en cada etapa de la cadena de suministro."
+                            ],
+                            "correctAnswer": "La dificultad para asegurar la trazabilidad y transparencia en cada etapa de la cadena de suministro.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad para asegurar la trazabilidad y transparencia en cada etapa de la cadena de suministro.."
+                        },
+                        {
+                            "text": "En el análisis de los criterios ASG, ¿cuál es el factor clave que diferencia a la certificación SA8000 de otras certificaciones ASG?",
+                            "options": [
+                                "La SA8000 certifica la eficiencia energética de las operaciones de la empresa.",
+                                "La SA8000 está centrada en las condiciones laborales y derechos humanos, garantizando altos estándares sociales.",
+                                "La SA8000 evalúa el desempeño financiero de la empresa en relación con la sostenibilidad.",
+                                "La SA8000 se enfoca exclusivamente en la reducción de emisiones de carbono."
+                            ],
+                            "correctAnswer": "La SA8000 está centrada en las condiciones laborales y derechos humanos, garantizando altos estándares sociales.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La SA8000 está centrada en las condiciones laborales y derechos humanos, garantizando altos estándares sociales.."
+                        },
+                        {
+                            "text": "¿Cómo impacta la falta de un plan de sostenibilidad bien estructurado en la relación con los inversores, según el documento?",
+                            "options": [
+                                "Mejora las relaciones con los inversores al reducir el enfoque en la transparencia operativa.",
+                                "No tiene impacto significativo en la relación con los inversores si la empresa cumple con los requisitos mínimos regulatorios.",
+                                "Genera incertidumbre en los inversores, incrementando la percepción de riesgo y reduciendo el acceso a capital a largo plazo.",
+                                "Aumenta la confianza de los inversores debido a la flexibilidad en las operaciones."
+                            ],
+                            "correctAnswer": "Genera incertidumbre en los inversores, incrementando la percepción de riesgo y reduciendo el acceso a capital a largo plazo.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Genera incertidumbre en los inversores, incrementando la percepción de riesgo y reduciendo el acceso a capital a largo plazo.."
+                        },
+                        {
+                            "text": "Según el documento, ¿cuál es una de las razones clave por las que las ecoetiquetas de tercera parte son más valoradas que las de primera y segunda parte?",
+                            "options": [
+                                "Porque son otorgadas por organismos independientes que garantizan la imparcialidad y credibilidad del etiquetado.",
+                                "Porque las ecoetiquetas de tercera parte son emitidas directamente por los gobiernos.",
+                                "Porque permiten el acceso a incentivos fiscales sin la necesidad de auditorías externas.",
+                                "Porque no requieren verificaciones de auditoría por parte de la empresa."
+                            ],
+                            "correctAnswer": "Porque son otorgadas por organismos independientes que garantizan la imparcialidad y credibilidad del etiquetado.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque son otorgadas por organismos independientes que garantizan la imparcialidad y credibilidad del etiquetado.."
+                        },
+                        {
+                            "text": "En términos de sostenibilidad, ¿cómo puede una empresa alinear sus estrategias con las expectativas de los clientes y los grupos de interés?",
+                            "options": [
+                                "Aumentando los precios de productos sostenibles sin realizar cambios operacionales.",
+                                "Rediseñando productos solo cuando la regulación lo exija.",
+                                "Limitando la comunicación sobre sostenibilidad a campañas de marketing esporádicas.",
+                                "Incorporando principios de sostenibilidad en el diseño de productos y servicios, garantizando que los mismos estén alineados con los valores de los clientes y stakeholders."
+                            ],
+                            "correctAnswer": "Incorporando principios de sostenibilidad en el diseño de productos y servicios, garantizando que los mismos estén alineados con los valores de los clientes y stakeholders.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Incorporando principios de sostenibilidad en el diseño de productos y servicios, garantizando que los mismos estén alineados con los valores de los clientes y stakeholders.."
+                        },
+                        {
+                            "text": "¿Qué implicación crítica tiene la incorrecta asignación de recursos en un plan de sostenibilidad según el documento?",
+                            "options": [
+                                "Aumenta el compromiso de los empleados al reducir las exigencias operacionales.",
+                                "Facilita la expansión de prácticas sostenibles al reducir costos operativos.",
+                                "Mejora la eficiencia operativa al evitar gastos innecesarios.",
+                                "Provoca que las estrategias de sostenibilidad no se implementen adecuadamente, afectando los resultados a largo plazo y la credibilidad de la empresa."
+                            ],
+                            "correctAnswer": "Provoca que las estrategias de sostenibilidad no se implementen adecuadamente, afectando los resultados a largo plazo y la credibilidad de la empresa.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Provoca que las estrategias de sostenibilidad no se implementen adecuadamente, afectando los resultados a largo plazo y la credibilidad de la empresa.."
+                        },
+                        {
+                            "text": "En el contexto de la certificación GRI (Global Reporting Initiative), ¿qué desafío plantea la recopilación de datos ASG?",
+                            "options": [
+                                "La incapacidad de las empresas para presentar datos financieros junto a los informes ASG.",
+                                "La abundancia de datos ASG disponibles, lo que dificulta la elección de los indicadores más relevantes.",
+                                "La falta de herramientas tecnológicas para recopilar y verificar datos ASG de manera precisa y consistente.",
+                                "La falta de regulaciones que exijan la presentación de informes de sostenibilidad."
+                            ],
+                            "correctAnswer": "La falta de herramientas tecnológicas para recopilar y verificar datos ASG de manera precisa y consistente.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La falta de herramientas tecnológicas para recopilar y verificar datos ASG de manera precisa y consistente.."
+                        },
+                        {
+                            "text": "En la gestión de stakeholders, ¿cuál es el principal riesgo de no involucrar adecuadamente a los empleados en el plan de sostenibilidad, según el documento?",
+                            "options": [
+                                "El plan de sostenibilidad puede perder legitimidad, ya que los empleados no estarán comprometidos con su implementación, lo que afectará su éxito.",
+                                "Los empleados pueden exigir salarios más altos por participar en iniciativas sostenibles.",
+                                "Los empleados influirán directamente en las decisiones estratégicas, reduciendo el control de la dirección.",
+                                "Los empleados se verán obligados a adoptar prácticas sostenibles, reduciendo su satisfacción laboral."
+                            ],
+                            "correctAnswer": "El plan de sostenibilidad puede perder legitimidad, ya que los empleados no estarán comprometidos con su implementación, lo que afectará su éxito.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El plan de sostenibilidad puede perder legitimidad, ya que los empleados no estarán comprometidos con su implementación, lo que afectará su éxito.."
+                        },
+                        {
+                            "text": "En la creación de un plan de sostenibilidad, ¿qué papel juegan los indicadores clave de desempeño (KPIs) para garantizar la mejora continua, según el documento?",
+                            "options": [
+                                "Los KPIs facilitan el monitoreo del progreso hacia los objetivos de sostenibilidad y permiten realizar ajustes estratégicos basados en datos medibles.",
+                                "Los KPIs sirven para asegurar que se cumplan los objetivos financieros, aunque no estén alineados con los objetivos de sostenibilidad.",
+                                "Los KPIs evitan que las empresas necesiten reportar públicamente sobre su desempeño ASG.",
+                                "Los KPIs permiten justificar inversiones en sostenibilidad sin necesidad de evaluaciones periódicas."
+                            ],
+                            "correctAnswer": "Los KPIs facilitan el monitoreo del progreso hacia los objetivos de sostenibilidad y permiten realizar ajustes estratégicos basados en datos medibles.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Los KPIs facilitan el monitoreo del progreso hacia los objetivos de sostenibilidad y permiten realizar ajustes estratégicos basados en datos medibles.."
+                        },
+                        {
+                            "text": "En el proceso de análisis de los stakeholders, ¿cómo puede una matriz de priorización ayudar a una empresa a gestionar eficientemente los recursos según el documento?",
+                            "options": [
+                                "Permite que la empresa delegue toda la responsabilidad de sostenibilidad en sus proveedores.",
+                                "Reduce la cantidad de recursos asignados a iniciativas de sostenibilidad al enfocarse solo en clientes e inversores.",
+                                "Permite que la empresa identifique los stakeholders con mayor urgencia, asignando recursos adecuados para satisfacer sus expectativas sin comprometer otras áreas.",
+                                "Facilita la identificación de stakeholders menos influyentes, eliminando la necesidad de involucrarlos en el plan."
+                            ],
+                            "correctAnswer": "Permite que la empresa identifique los stakeholders con mayor urgencia, asignando recursos adecuados para satisfacer sus expectativas sin comprometer otras áreas.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Permite que la empresa identifique los stakeholders con mayor urgencia, asignando recursos adecuados para satisfacer sus expectativas sin comprometer otras áreas.."
+                        },
+                        {
+                            "text": "En términos de eco etiquetado, ¿cuál es el mayor riesgo para una empresa que utiliza ecoetiquetas de primera parte sin certificación independiente, según el documento?",
+                            "options": [
+                                "Reducción del valor agregado de los productos en mercados internacionales.",
+                                "Daño a la reputación de la empresa y pérdida de confianza por parte de los consumidores y reguladores, al carecer de una verificación independiente.",
+                                "Mejora de la percepción pública sin necesidad de certificación adicional.",
+                                "Incremento en los costos de producción debido a la implementación de estándares ambientales más estrictos."
+                            ],
+                            "correctAnswer": "Daño a la reputación de la empresa y pérdida de confianza por parte de los consumidores y reguladores, al carecer de una verificación independiente.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Daño a la reputación de la empresa y pérdida de confianza por parte de los consumidores y reguladores, al carecer de una verificación independiente.."
+                        },
+                        {
+                            "text": "Según el documento, ¿qué factor clave diferencia un plan de sostenibilidad exitoso de uno que falla en su implementación?",
+                            "options": [
+                                "La flexibilidad para posponer la implementación de objetivos sostenibles.",
+                                "La participación activa y el compromiso de los grupos de interés clave desde la fase de planificación hasta la implementación.",
+                                "La reducción de costos operativos sin comprometer la sostenibilidad.",
+                                "La cantidad de recursos destinados a marketing de sostenibilidad."
+                            ],
+                            "correctAnswer": "La participación activa y el compromiso de los grupos de interés clave desde la fase de planificación hasta la implementación.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La participación activa y el compromiso de los grupos de interés clave desde la fase de planificación hasta la implementación.."
+                        },
+                        {
+                            "text": "En cuanto a la normativa, ¿por qué es crítico que un plan de sostenibilidad esté alineado con regulaciones internacionales, según el documento?",
+                            "options": [
+                                "Porque garantiza que la empresa pueda operar sin supervisión externa en cualquier mercado.",
+                                "Porque facilita la eliminación de prácticas sostenibles no requeridas por la ley.",
+                                "Porque asegura que la empresa pueda operar en múltiples mercados sin enfrentar sanciones regulatorias o pérdida de acceso a financiamiento internacional.",
+                                "Porque permite que la empresa ignore las regulaciones locales cuando opera internacionalmente."
+                            ],
+                            "correctAnswer": "Porque asegura que la empresa pueda operar en múltiples mercados sin enfrentar sanciones regulatorias o pérdida de acceso a financiamiento internacional.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque asegura que la empresa pueda operar en múltiples mercados sin enfrentar sanciones regulatorias o pérdida de acceso a financiamiento internacional.."
+                        },
+                        {
+                            "text": "¿Qué desafío plantea la integración de objetivos ASG en la toma de decisiones estratégicas a nivel corporativo según el documento?",
+                            "options": [
+                                "La integración de los objetivos ASG asegura una reducción inmediata de costos en todas las áreas de la empresa.",
+                                "Los objetivos ASG facilitan la automatización de procesos, lo que elimina la necesidad de gestión operativa.",
+                                "Los objetivos ASG aumentan las ganancias a corto plazo sin restricciones operativas.",
+                                "Los objetivos ASG requieren un enfoque a largo plazo que puede entrar en conflicto con las expectativas de rentabilidad a corto plazo de los accionistas."
+                            ],
+                            "correctAnswer": "Los objetivos ASG requieren un enfoque a largo plazo que puede entrar en conflicto con las expectativas de rentabilidad a corto plazo de los accionistas.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Los objetivos ASG requieren un enfoque a largo plazo que puede entrar en conflicto con las expectativas de rentabilidad a corto plazo de los accionistas.."
+                        },
+                        {
+                            "text": "¿Cómo se asegura la mejora continua en un plan de sostenibilidad empresarial, según el análisis del documento?",
+                            "options": [
+                                "Mediante la revisión periódica y actualización de los objetivos basados en nuevos desafíos y cambios en las expectativas de los stakeholders.",
+                                "Limitando la revisión del plan a cada cinco años para evitar ajustes innecesarios.",
+                                "Reemplazando los objetivos ASG por metas puramente financieras cuando los resultados no se alcanzan.",
+                                "Aumentando el enfoque en la expansión de mercados internacionales sin comprometer la sostenibilidad."
+                            ],
+                            "correctAnswer": "Mediante la revisión periódica y actualización de los objetivos basados en nuevos desafíos y cambios en las expectativas de los stakeholders.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Mediante la revisión periódica y actualización de los objetivos basados en nuevos desafíos y cambios en las expectativas de los stakeholders.."
+                        },
+                        {
+                            "text": "¿Qué rol desempeña la comunicación transparente en la implementación de un plan de sostenibilidad, según el documento?",
+                            "options": [
+                                "Reducir la necesidad de interacción con los stakeholders al publicar un informe cada cinco años.",
+                                "Evitar que los stakeholders cuestionen las decisiones de la empresa.",
+                                "Facilitar la obtención de financiamiento sin necesidad de presentar indicadores de desempeño.",
+                                "Asegurar que los grupos de interés estén informados sobre los avances y desafíos, manteniendo su confianza y apoyo en el proceso."
+                            ],
+                            "correctAnswer": "Asegurar que los grupos de interés estén informados sobre los avances y desafíos, manteniendo su confianza y apoyo en el proceso.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Asegurar que los grupos de interés estén informados sobre los avances y desafíos, manteniendo su confianza y apoyo en el proceso.."
+                        },
+                        {
+                            "text": "En relación con la asignación de recursos, ¿qué impacto tiene una mala asignación en la implementación de estrategias sostenibles según el documento?",
+                            "options": [
+                                "Reduce la dependencia de la empresa en fuentes de financiamiento externas.",
+                                "Impide que se logren los objetivos clave, afectando negativamente el desempeño y la credibilidad del plan de sostenibilidad.",
+                                "Facilita el enfoque en estrategias a corto plazo que impulsan resultados inmediatos.",
+                                "Mejora la eficiencia operativa al minimizar los costos en áreas no críticas."
+                            ],
+                            "correctAnswer": "Impide que se logren los objetivos clave, afectando negativamente el desempeño y la credibilidad del plan de sostenibilidad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Impide que se logren los objetivos clave, afectando negativamente el desempeño y la credibilidad del plan de sostenibilidad.."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

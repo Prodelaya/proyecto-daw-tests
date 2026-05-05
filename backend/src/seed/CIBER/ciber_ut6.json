@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 6,
+                    "title": "UT6: Desarrollo Seguro y Estándares OWASP",
+                    "questions": [
+                        {
+                            "text": "¿Qué define al ciclo de vida de desarrollo seguro (SSDLC) frente al modelo de desarrollo tradicional?",
+                            "options": [
+                                "La realización de pruebas de rendimiento una vez finalizado el producto",
+                                "La integración de actividades y controles de seguridad en todas las fases del desarrollo",
+                                "La delegación de la seguridad únicamente al departamento legal de la empresa",
+                                "El uso exclusivo de lenguajes de programación de bajo nivel para evitar virus"
+                            ],
+                            "correctAnswer": "La integración de actividades y controles de seguridad en todas las fases del desarrollo",
+                            "explanation": "La opción marcada en verde en el material fuente es: La integración de actividades y controles de seguridad en todas las fases del desarrollo."
+                        },
+                        {
+                            "text": "¿En el contexto del desarrollo de software, en qué consiste la estrategia de \"desplazamiento a la izquierda\" (shift-left)?",
+                            "options": [
+                                "En realizar pruebas y auditorías de seguridad en las etapas más tempranas del desarrollo",
+                                "En mover las auditorías de seguridad a las etapas más tardías del proyecto",
+                                "En priorizar la velocidad de entrega sobre la calidad del código fuente",
+                                "En desplazar la infraestructura de servidores a nubes públicas extranjeras"
+                            ],
+                            "correctAnswer": "En realizar pruebas y auditorías de seguridad en las etapas más tempranas del desarrollo",
+                            "explanation": "La opción marcada en verde en el material fuente es: En realizar pruebas y auditorías de seguridad en las etapas más tempranas del desarrollo."
+                        },
+                        {
+                            "text": "Según el marco de desarrollo seguro (SSDF) del NIST, ¿qué objetivo persigue el bloque de \"Preparar a la organización\" (PO)?",
+                            "options": [
+                                "Buscar fallos de forma continua y corregir la causa raíz de los errores",
+                                "Usar componentes fiables y realizar análisis estáticos de código",
+                                "Definir requisitos basados en normativas y asignar responsabilidades claras",
+                                "Controlar quién accede al código fuente mediante firmas digitales"
+                            ],
+                            "correctAnswer": "Definir requisitos basados en normativas y asignar responsabilidades claras",
+                            "explanation": "La opción marcada en verde en el material fuente es: Definir requisitos basados en normativas y asignar responsabilidades claras."
+                        },
+                        {
+                            "text": "¿Qué actividad se realiza dentro del bloque \"Proteger el software\" (PS) del marco SSDF?",
+                            "options": [
+                                "Restauración del servicio mediante un proceso de rollback inmediato",
+                                "Definición de los costes de licenciamiento de los servidores de bases de datos",
+                                "Formación técnica del personal en metodologías ágiles de trabajo",
+                                "Verificación de la integridad de cada versión del software y control de acceso al código"
+                            ],
+                            "correctAnswer": "Verificación de la integridad de cada versión del software y control de acceso al código",
+                            "explanation": "La opción marcada en verde en el material fuente es: Verificación de la integridad de cada versión del software y control de acceso al código."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de las herramientas de análisis de código estático (SAST)?",
+                            "options": [
+                                "Inspeccionar cada línea del código fuente sin ejecutarlo para detectar errores de codificación",
+                                "Medir el tiempo de respuesta del servidor ante un alto volumen de usuarios",
+                                "Ejecutar la aplicación en un entorno de pruebas para ver cómo responde",
+                                "Simular un ataque real desde el exterior de la red corporativa"
+                            ],
+                            "correctAnswer": "Inspeccionar cada línea del código fuente sin ejecutarlo para detectar errores de codificación",
+                            "explanation": "La opción marcada en verde en el material fuente es: Inspeccionar cada línea del código fuente sin ejecutarlo para detectar errores de codificación."
+                        },
+                        {
+                            "text": "En la metodología SSDLC, ¿qué se busca durante la fase de \"Diseño\"?",
+                            "options": [
+                                "Escribir la documentación técnica del manual de usuario final",
+                                "Revisar que las librerías externas no tengan vulnerabilidades conocidas",
+                                "Crear el modelado de amenazas e integrar la seguridad en la arquitectura del sistema",
+                                "Publicar la aplicación en el entorno de producción para los clientes"
+                            ],
+                            "correctAnswer": "Crear el modelado de amenazas e integrar la seguridad en la arquitectura del sistema",
+                            "explanation": "La opción marcada en verde en el material fuente es: Crear el modelado de amenazas e integrar la seguridad en la arquitectura del sistema."
+                        },
+                        {
+                            "text": "¿Qué medida técnica asegura que una actualización de software no ha sido alterada durante su distribución?",
+                            "options": [
+                                "El uso de un balanceador de carga en el servidor de descargas",
+                                "La validación del tipo de dato en los formularios de la web",
+                                "El cambio del puerto por defecto del protocolo de transferencia",
+                                "La implementación de una firma digital única en el paquete de despliegue"
+                            ],
+                            "correctAnswer": "La implementación de una firma digital única en el paquete de despliegue",
+                            "explanation": "La opción marcada en verde en el material fuente es: La implementación de una firma digital única en el paquete de despliegue."
+                        },
+                        {
+                            "text": "¿Cómo se denomina el proceso de volver instantáneamente a la última versión estable del software tras detectar un fallo crítico en producción?",
+                            "options": [
+                                "Rollback",
+                                "Canonicalización",
+                                "Merge",
+                                "Pentesting"
+                            ],
+                            "correctAnswer": "Rollback",
+                            "explanation": "La opción marcada en verde en el material fuente es: Rollback."
+                        },
+                        {
+                            "text": "Según el estándar OWASP, ¿qué riesgo representa la categoría A01 – Pérdida de control de acceso?",
+                            "options": [
+                                "La falta de parches de seguridad en el sistema operativo del servidor",
+                                "El envío de contraseñas por protocolos no cifrados como HTTP",
+                                "El uso de una base de datos antigua que no soporta consultas parametrizadas",
+                                "La posibilidad de que usuarios accedan a funciones o datos para los que no tienen permiso"
+                            ],
+                            "correctAnswer": "La posibilidad de que usuarios accedan a funciones o datos para los que no tienen permiso",
+                            "explanation": "La opción marcada en verde en el material fuente es: La posibilidad de que usuarios accedan a funciones o datos para los que no tienen permiso."
+                        },
+                        {
+                            "text": "Un técnico detecta que puede ver facturas de otros clientes simplemente modificando el ID de la URL. ¿Ante qué vulnerabilidad de OWASP se encuentra?",
+                            "options": [
+                                "Fallos criptográficos",
+                                "Pérdida de control de acceso",
+                                "Diseño inseguro",
+                                "SSRF (Falsificación de solicitudes)"
+                            ],
+                            "correctAnswer": "Pérdida de control de acceso",
+                            "explanation": "La opción marcada en verde en el material fuente es: Pérdida de control de acceso."
+                        },
+                        {
+                            "text": "¿Cuál es la consecuencia principal de sufrir \"Fallos criptográficos\" (A02) en una aplicación web?",
+                            "options": [
+                                "La base de datos deja de responder ante consultas legítimas",
+                                "El bloqueo del acceso de los administradores al panel de control",
+                                "La exposición de datos sensibles por falta de cifrado o uso de algoritmos débiles",
+                                "La ejecución de comandos del sistema operativo por parte de un usuario externo"
+                            ],
+                            "correctAnswer": "La exposición de datos sensibles por falta de cifrado o uso de algoritmos débiles",
+                            "explanation": "La opción marcada en verde en el material fuente es: La exposición de datos sensibles por falta de cifrado o uso de algoritmos débiles."
+                        },
+                        {
+                            "text": "¿Qué práctica de seguridad previene que un atacante intercepte credenciales en una red Wi-Fi pública?",
+                            "options": [
+                                "Incrementar la memoria RAM de los equipos de oficina",
+                                "Usar contraseñas compuestas únicamente por números",
+                                "Configurar el servidor para que utilice solo el protocolo HTTPS",
+                                "Desactivar el registro de actividad de los usuarios"
+                            ],
+                            "correctAnswer": "Configurar el servidor para que utilice solo el protocolo HTTPS",
+                            "explanation": "La opción marcada en verde en el material fuente es: Configurar el servidor para que utilice solo el protocolo HTTPS."
+                        },
+                        {
+                            "text": "¿Cuándo se produce una vulnerabilidad de \"Inyección\" (A03)?",
+                            "options": [
+                                "Cuando datos no confiables se envían a un intérprete como parte de un comando o consulta",
+                                "Cuando la aplicación no monitoriza quién entra en el sistema",
+                                "Cuando se permite recuperar una contraseña mediante una pregunta sencilla",
+                                "Cuando se utilizan componentes que ya no reciben soporte del fabricante"
+                            ],
+                            "correctAnswer": "Cuando datos no confiables se envían a un intérprete como parte de un comando o consulta",
+                            "explanation": "La opción marcada en verde en el material fuente es: Cuando datos no confiables se envían a un intérprete como parte de un comando o consulta."
+                        },
+                        {
+                            "text": "¿Qué diferencia a un \"Diseño inseguro\" (A04) de un error de codificación?",
+                            "options": [
+                                "El diseño inseguro se debe a una arquitectura de seguridad deficiente desde la fase de planificación",
+                                "No hay diferencia, ambos términos se refieren a fallos en la base de datos",
+                                "El diseño inseguro solo afecta a la interfaz visual de la aplicación",
+                                "El diseño inseguro se soluciona siempre con un parche de software rápido"
+                            ],
+                            "correctAnswer": "El diseño inseguro se debe a una arquitectura de seguridad deficiente desde la fase de planificación",
+                            "explanation": "La opción marcada en verde en el material fuente es: El diseño inseguro se debe a una arquitectura de seguridad deficiente desde la fase de planificación."
+                        },
+                        {
+                            "text": "Un servidor mantiene las contraseñas de fábrica y tiene activos servicios innecesarios. ¿Qué categoría de OWASP describe este riesgo?",
+                            "options": [
+                                "Inyección SQL",
+                                "Falsificación de solicitudes del lado del servidor",
+                                "Configuración de seguridad incorrecta",
+                                "Fallos en la integridad del software"
+                            ],
+                            "correctAnswer": "Configuración de seguridad incorrecta",
+                            "explanation": "La opción marcada en verde en el material fuente es: Configuración de seguridad incorrecta."
+                        },
+                        {
+                            "text": "¿Qué riesgo conlleva el uso de componentes vulnerables y desactualizados (A06)?",
+                            "options": [
+                                "La imposibilidad de traducir la aplicación a otros idiomas",
+                                "Un aumento en el consumo de ancho de banda de la red",
+                                "La pérdida de la garantía del hardware del servidor",
+                                "El aprovechamiento de vulnerabilidades conocidas en librerías o frameworks por parte de atacantes"
+                            ],
+                            "correctAnswer": "El aprovechamiento de vulnerabilidades conocidas en librerías o frameworks por parte de atacantes",
+                            "explanation": "La opción marcada en verde en el material fuente es: El aprovechamiento de vulnerabilidades conocidas en librerías o frameworks por parte de atacantes."
+                        },
+                        {
+                            "text": "¿En qué consiste el ataque de \"Credential Stuffing\"?",
+                            "options": [
+                                "En interceptar el tráfico de red de una empresa mediante un gemelo malvado",
+                                "En inyectar código malicioso en los campos de búsqueda de una web",
+                                "En usar miles de contraseñas robadas en otros sitios para intentar entrar en una aplicación",
+                                "En bloquear el acceso al servidor mediante un ataque de denegación de servicio"
+                            ],
+                            "correctAnswer": "En usar miles de contraseñas robadas en otros sitios para intentar entrar en una aplicación",
+                            "explanation": "La opción marcada en verde en el material fuente es: En usar miles de contraseñas robadas en otros sitios para intentar entrar en una aplicación."
+                        },
+                        {
+                            "text": "¿Qué vulnerabilidad se centra en el riesgo de que el código sea modificado maliciosamente durante su actualización (A08)?",
+                            "options": [
+                                "Diseño inseguro",
+                                "Fallos en la integridad del software y los datos",
+                                "Inyección NoSQL",
+                                "Fallos criptográficos"
+                            ],
+                            "correctAnswer": "Fallos en la integridad del software y los datos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Fallos en la integridad del software y los datos."
+                        },
+                        {
+                            "text": "¿Por qué es crítico evitar los \"Fallos en el registro y monitoreo\" (A09)?",
+                            "options": [
+                                "Porque ocupan demasiado espacio en el disco duro del servidor",
+                                "Porque el Reglamento General de Protección de Datos prohíbe guardar logs",
+                                "Porque impiden detectar ataques a tiempo y conocer cómo se realizaron",
+                                "Porque ralentizan la velocidad de procesamiento de la CPU"
+                            ],
+                            "correctAnswer": "Porque impiden detectar ataques a tiempo y conocer cómo se realizaron",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque impiden detectar ataques a tiempo y conocer cómo se realizaron."
+                        },
+                        {
+                            "text": "¿Qué ocurre en una vulnerabilidad de Falsificación de solicitudes del lado del servidor (SSRF)?",
+                            "options": [
+                                "El usuario pierde el acceso a su cuenta por un error de contraseña",
+                                "El servidor es engañado para realizar solicitudes a recursos internos no expuestos a internet",
+                                "Se borran todas las tablas de la base de datos de forma accidental",
+                                "El atacante suplanta la identidad de un empleado mediante ingeniería social"
+                            ],
+                            "correctAnswer": "El servidor es engañado para realizar solicitudes a recursos internos no expuestos a internet",
+                            "explanation": "La opción marcada en verde en el material fuente es: El servidor es engañado para realizar solicitudes a recursos internos no expuestos a internet."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo de la validación de entradas en el desarrollo seguro?",
+                            "options": [
+                                "Comprimir los datos para que el servidor trabaje más rápido",
+                                "Asegurar que solo datos con el formato, tipo y longitud adecuados ingresan en el sistema",
+                                "Permitir que cualquier usuario pueda escribir comandos en los formularios",
+                                "Traducir el contenido de la web a diferentes alfabetos de forma automática"
+                            ],
+                            "correctAnswer": "Asegurar que solo datos con el formato, tipo y longitud adecuados ingresan en el sistema",
+                            "explanation": "La opción marcada en verde en el material fuente es: Asegurar que solo datos con el formato, tipo y longitud adecuados ingresan en el sistema."
+                        },
+                        {
+                            "text": "¿Por qué se recomienda el uso de \"listas blancas\" en la validación de datos?",
+                            "options": [
+                                "Porque son obligatorias por la normativa de calidad de software ISO 9001",
+                                "Porque eliminan la necesidad de usar protocolos de cifrado en la red",
+                                "Porque facilitan la entrada de cualquier tipo de código malicioso para pruebas",
+                                "Porque permiten definir los caracteres permitidos, siendo más seguro que intentar adivinar los peligrosos"
+                            ],
+                            "correctAnswer": "Porque permiten definir los caracteres permitidos, siendo más seguro que intentar adivinar los peligrosos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque permiten definir los caracteres permitidos, siendo más seguro que intentar adivinar los peligrosos."
+                        },
+                        {
+                            "text": "¿Qué proceso técnico consiste en convertir los datos a su forma más simple y estándar para evitar engaños con caracteres extraños?",
+                            "options": [
+                                "Compilación",
+                                "Canonicalización o normalización",
+                                "Replicación",
+                                "Ofuscación"
+                            ],
+                            "correctAnswer": "Canonicalización o normalización",
+                            "explanation": "La opción marcada en verde en el material fuente es: Canonicalización o normalización."
+                        },
+                        {
+                            "text": "Un atacante introduce ' OR '1'='1' -- en un formulario de acceso. ¿Qué intenta conseguir?",
+                            "options": [
+                                "Realizar una inyección de comandos del sistema operativo",
+                                "Alterar la lógica de la consulta SQL para entrar sin saber la contraseña",
+                                "Monitorizar el tráfico de red de otros usuarios",
+                                "Cifrar los archivos del servidor para pedir un rescate"
+                            ],
+                            "correctAnswer": "Alterar la lógica de la consulta SQL para entrar sin saber la contraseña",
+                            "explanation": "La opción marcada en verde en el material fuente es: Alterar la lógica de la consulta SQL para entrar sin saber la contraseña."
+                        },
+                        {
+                            "text": "En una inyección de comandos, ¿para qué se suele utilizar el punto y coma (;) en sistemas tipo Linux?",
+                            "options": [
+                                "Para cifrar el nombre de usuario antes de enviarlo",
+                                "Para validar que el correo electrónico tiene un formato correcto",
+                                "Para finalizar la conexión con el servidor de bases de datos",
+                                "Para separar dos comandos y ejecutar el segundo de forma maliciosa"
+                            ],
+                            "correctAnswer": "Para separar dos comandos y ejecutar el segundo de forma maliciosa",
+                            "explanation": "La opción marcada en verde en el material fuente es: Para separar dos comandos y ejecutar el segundo de forma maliciosa."
+                        },
+                        {
+                            "text": "¿Cuál es la medida más profesional y efectiva para prevenir inyecciones SQL?",
+                            "options": [
+                                "Pedir a los usuarios que no escriban caracteres especiales",
+                                "Implementar consultas parametrizadas o sentencias preparadas",
+                                "Usar concatenación de cadenas de texto en el código",
+                                "Desactivar el uso de bases de datos en la aplicación"
+                            ],
+                            "correctAnswer": "Implementar consultas parametrizadas o sentencias preparadas",
+                            "explanation": "La opción marcada en verde en el material fuente es: Implementar consultas parametrizadas o sentencias preparadas."
+                        },
+                        {
+                            "text": "¿Cómo funciona una consulta parametrizada a nivel técnico?",
+                            "options": [
+                                "Cifra los datos del usuario usando una clave pública compartida",
+                                "Define la estructura de la orden SQL con marcadores y envía los datos por separado",
+                                "Envía la consulta a través de un túnel VPN exclusivo",
+                                "Mezcla el código y los datos en una sola frase de texto para que el servidor la interprete"
+                            ],
+                            "correctAnswer": "Define la estructura de la orden SQL con marcadores y envía los datos por separado",
+                            "explanation": "La opción marcada en verde en el material fuente es: Define la estructura de la orden SQL con marcadores y envía los datos por separado."
+                        },
+                        {
+                            "text": "¿Qué ventaja ofrece el uso de un ORM (Object-Relational Mapping) en términos de seguridad?",
+                            "options": [
+                                "Aumenta la resolución de las imágenes mostradas en la web",
+                                "Reduce el coste de la factura eléctrica del centro de datos",
+                                "Permite que el servidor funcione sin necesidad de estar conectado a internet",
+                                "Evita por diseño la construcción de consultas dinámicas vulnerables a inyección"
+                            ],
+                            "correctAnswer": "Evita por diseño la construcción de consultas dinámicas vulnerables a inyección",
+                            "explanation": "La opción marcada en verde en el material fuente es: Evita por diseño la construcción de consultas dinámicas vulnerables a inyección."
+                        },
+                        {
+                            "text": "¿Qué rol desempeña el administrador de sistemas (DAM) en la prevención de inyecciones?",
+                            "options": [
+                                "Escribir cada línea del código fuente de la aplicación web",
+                                "Atender las llamadas de soporte técnico de los clientes finales",
+                                "Configurar cortafuegos de aplicaciones (WAF) con reglas que bloqueen estos ataques",
+                                "Diseñar los logotipos y la identidad visual de la empresa"
+                            ],
+                            "correctAnswer": "Configurar cortafuegos de aplicaciones (WAF) con reglas que bloqueen estos ataques",
+                            "explanation": "La opción marcada en verde en el material fuente es: Configurar cortafuegos de aplicaciones (WAF) con reglas que bloqueen estos ataques."
+                        },
+                        {
+                            "text": "Durante una entrevista técnica, si un reclutador te muestra un fragmento de código donde las variables se unen directamente a una consulta SQL mediante concatenación de texto, ¿cuál es la respuesta que demuestra un perfil técnico maduro y contratable?",
+                            "options": [
+                                "Sugerir el aumento de la capacidad de procesamiento del servidor para ejecutar la consulta más rápido",
+                                "Indicar que la seguridad del código es responsabilidad exclusiva del departamento legal",
+                                "Identificar el riesgo de inyección SQL y proponer el uso de consultas parametrizadas o un ORM seguro",
+                                "Proponer el cambio de la base de datos por un archivo de texto plano para mayor sencillez"
+                            ],
+                            "correctAnswer": "Identificar el riesgo de inyección SQL y proponer el uso de consultas parametrizadas o un ORM seguro",
+                            "explanation": "La opción marcada en verde en el material fuente es: Identificar el riesgo de inyección SQL y proponer el uso de consultas parametrizadas o un ORM seguro."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

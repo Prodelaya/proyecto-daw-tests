@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "IPEII",
+            "name": "Itinerario Personal para la Empleabilidad II",
+            "topics": [
+                {
+                    "number": 6,
+                    "title": "UT6: IA en la búsqueda de empleo",
+                    "questions": [
+                        {
+                            "text": "Estás enviando tu currículum a varias empresas pero no recibes ninguna respuesta. Sospechas que tu documento no está pasando los filtros automáticos iniciales. ¿Qué acción proactiva deberías realizar con ayuda de la IA?",
+                            "options": [
+                                "Pedir a la IA que redacte una carta de queja a los departamentos de recursos humanos.",
+                                "Dejar de usar el currículum y centrarte solo en las llamadas telefónicas personales.",
+                                "Enviar el mismo archivo en formato imagen para que los algoritmos no puedan leerlo.",
+                                "Usar IA para identificar y añadir palabras clave relevantes de la oferta en tu CV."
+                            ],
+                            "correctAnswer": "Usar IA para identificar y añadir palabras clave relevantes de la oferta en tu CV.",
+                            "explanation": "La opción correcta es: Usar IA para identificar y añadir palabras clave relevantes de la oferta en tu CV."
+                        },
+                        {
+                            "text": "En el contexto de los procesos de selección modernos, ¿qué es técnicamente un sistema ATS (Applicant Tracking System)?",
+                            "options": [
+                                "Una base de datos protegida donde los trabajadores guardan sus nóminas mensuales.",
+                                "Un robot físico que realiza las entrevistas presenciales en las oficinas centrales.",
+                                "Un software que filtra y analiza automáticamente las solicitudes buscando palabras clave.",
+                                "Un portal de empleo exclusivo para trabajadores del sector público y funcionarios."
+                            ],
+                            "correctAnswer": "Un software que filtra y analiza automáticamente las solicitudes buscando palabras clave.",
+                            "explanation": "La opción correcta es: Un software que filtra y analiza automáticamente las solicitudes buscando palabras clave."
+                        },
+                        {
+                            "text": "Quieres mejorar tu currículum asegurándote de que el vocabulario técnico sea el que demanda el mercado actual de tu sector. ¿Qué tipo de herramienta de IA es la más adecuada para esta tarea de auditoría?",
+                            "options": [
+                                "Un auditor de CV que dé una puntuación al documento y sugiera términos ausentes.",
+                                "Un generador de imágenes para crear una foto de perfil más creativa.",
+                                "Un simulador de entrevistas que grabe tu voz para analizar el tono de tu discurso.",
+                                "Un gestor de correo electrónico que envíe el currículum a cientos de empresas."
+                            ],
+                            "correctAnswer": "Un auditor de CV que dé una puntuación al documento y sugiera términos ausentes.",
+                            "explanation": "La opción correcta es: Un auditor de CV que dé una puntuación al documento y sugiera términos ausentes."
+                        },
+                        {
+                            "text": "Durante la redacción de tu perfil profesional, una herramienta de IA te sugiere añadir una competencia técnica que aún no dominas pero que suena muy bien. ¿Cómo debes actuar según los principios de veracidad?",
+                            "options": [
+                                "Añadirla solo en la carta de presentación, pero no en el documento principal del CV.",
+                                "Ponerla en el currículum y empezar a estudiarla el día antes de la entrevista.",
+                                "Ignorar la sugerencia de la IA y reflejar únicamente los logros y habilidades reales.",
+                                "Incluirla en el currículum, ya que la IA sabe mejor lo que buscan las empresas."
+                            ],
+                            "correctAnswer": "Ignorar la sugerencia de la IA y reflejar únicamente los logros y habilidades reales.",
+                            "explanation": "La opción correcta es: Ignorar la sugerencia de la IA y reflejar únicamente los logros y habilidades reales."
+                        },
+                        {
+                            "text": "La Unión Europea ha establecido un marco normativo para asegurar que el uso de la tecnología en el empleo sea ético. ¿Cómo se llama esta regulación mencionada en la unidad?",
+                            "options": [
+                                "AI Act (Reglamento de Inteligencia Artificial).",
+                                "Convenio Colectivo para la Transformación Tecnológica.",
+                                "Estatuto Global de los Trabajadores Digitales.",
+                                "Ley de Protección de Datos de Carácter Personal."
+                            ],
+                            "correctAnswer": "AI Act (Reglamento de Inteligencia Artificial).",
+                            "explanation": "La opción correcta es: AI Act (Reglamento de Inteligencia Artificial)."
+                        },
+                        {
+                            "text": "Un candidato desea que su currículum destaque visualmente pero, a la vez, sea \"amigable\" para los sistemas de seguimiento de las empresas. ¿Qué debería priorizar al elegir una plantilla?",
+                            "options": [
+                                "Un diseño muy complejo con muchos gráficos y colores para impresionar al ojo humano.",
+                                "Un documento escrito a mano y escaneado para demostrar una personalidad auténtica.",
+                                "Un archivo de vídeo donde explique su experiencia sin usar ningún documento de texto.",
+                                "Una estructura limpia y profesional diseñada específicamente para superar filtros ATS."
+                            ],
+                            "correctAnswer": "Una estructura limpia y profesional diseñada específicamente para superar filtros ATS.",
+                            "explanation": "La opción correcta es: Una estructura limpia y profesional diseñada específicamente para superar filtros ATS."
+                        },
+                        {
+                            "text": "¿Cuál es la definición técnica de \"prompt\" en el ámbito de la Inteligencia Artificial aplicada a la búsqueda de empleo?",
+                            "options": [
+                                "La instrucción o pregunta que se le da a un sistema de IA para generar una respuesta.",
+                                "El nombre del algoritmo que decide quién es el mejor candidato para un puesto.",
+                                "Una medida de tiempo que indica cuánto tarda un reclutador en leer un currículum.",
+                                "Un error de programación que impide que la IA responda correctamente."
+                            ],
+                            "correctAnswer": "La instrucción o pregunta que se le da a un sistema de IA para generar una respuesta.",
+                            "explanation": "La opción correcta es: La instrucción o pregunta que se le da a un sistema de IA para generar una respuesta."
+                        },
+                        {
+                            "text": "Necesitas que la IA te ayude a adaptar tu carta de presentación a una oferta concreta. ¿Cuál es el enfoque más efectivo para obtener una respuesta útil y no genérica?",
+                            "options": [
+                                "Copiar y pegar todo tu currículum diez veces seguidas sin dar ninguna instrucción.",
+                                "Proporcionar instrucciones detalladas que incluyan tu rol, el sector y el tono deseado.",
+                                "Pedirle a la IA de forma breve: \"hazme una carta de presentación estándar\".",
+                                "Solicitar a la IA que busque por ti en internet ofertas de empleo de cualquier sector."
+                            ],
+                            "correctAnswer": "Proporcionar instrucciones detalladas que incluyan tu rol, el sector y el tono deseado.",
+                            "explanation": "La opción correcta es: Proporcionar instrucciones detalladas que incluyan tu rol, el sector y el tono deseado."
+                        },
+                        {
+                            "text": "Estás preparando una entrevista para una empresa que destaca por sus valores de sostenibilidad. ¿Cómo puede ayudarte la IA a personalizar tu propuesta de valor?",
+                            "options": [
+                                "Sintetizando la misión y valores de la empresa para que puedas alinear tu discurso.",
+                                "Creando una identidad falsa en redes sociales que encaje con la cultura de la empresa.",
+                                "Inventando historias sobre tu participación en proyectos ecológicos que no realizaste.",
+                                "Generando un documento que critique la falta de sostenibilidad de otras empresas rivales."
+                            ],
+                            "correctAnswer": "Sintetizando la misión y valores de la empresa para que puedas alinear tu discurso.",
+                            "explanation": "La opción correcta es: Sintetizando la misión y valores de la empresa para que puedas alinear tu discurso."
+                        },
+                        {
+                            "text": "Según la normativa de transparencia y responsabilidad, ¿qué papel debe jugar el \"filtro humano\" al usar herramientas de IA?",
+                            "options": [
+                                "Consiste en revisar y reescribir los resultados de la IA para que reflejen tu voz y ética.",
+                                "Sirve exclusivamente para corregir las faltas de ortografía que la IA suele cometer.",
+                                "Es un proceso opcional que solo deben realizar los candidatos con poca experiencia.",
+                                "Debe ser eliminado, ya que la IA es más objetiva y comete menos errores que las personas."
+                            ],
+                            "correctAnswer": "Consiste en revisar y reescribir los resultados de la IA para que reflejen tu voz y ética.",
+                            "explanation": "La opción correcta es: Consiste en revisar y reescribir los resultados de la IA para que reflejen tu voz y ética."
+                        },
+                        {
+                            "text": "Eres un profesional técnico que quiere explicar un proyecto complejo en su currículum para que un reclutador de recursos humanos entienda su impacto. ¿Qué le pedirías a la IA?",
+                            "options": [
+                                "Que oculte los detalles técnicos para que el currículum parezca más sencillo.",
+                                "Que redacte el proyecto usando términos muy académicos para parecer más inteligente.",
+                                "Que traduzca el código de programación o las tareas técnicas a logros de negocio.",
+                                "Que busque a otra persona en LinkedIn que haya hecho lo mismo y copie su texto."
+                            ],
+                            "correctAnswer": "Que traduzca el código de programación o las tareas técnicas a logros de negocio.",
+                            "explanation": "La opción correcta es: Que traduzca el código de programación o las tareas técnicas a logros de negocio."
+                        },
+                        {
+                            "text": "Para redactar un prompt efectivo que optimice un perfil profesional, la unidad recomienda definir cuatro pilares. ¿Cuál de estos es uno de ellos?",
+                            "options": [
+                                "El presupuesto máximo que la empresa está dispuesta a pagar por el puesto.",
+                                "El rol o la persona desde la que debe actuar la Inteligencia Artificial.",
+                                "La lista de todos los contactos personales que tienes en la red social LinkedIn.",
+                                "El nombre del antiguo jefe para que la IA pueda imitar su estilo de redacción."
+                            ],
+                            "correctAnswer": "El rol o la persona desde la que debe actuar la Inteligencia Artificial.",
+                            "explanation": "La opción correcta es: El rol o la persona desde la que debe actuar la Inteligencia Artificial."
+                        },
+                        {
+                            "text": "Estás practicando con un simulador de entrevistas y te preguntan por una situación difícil que resolviste en tus prácticas. ¿Qué metodología debes usar para estructurar tu respuesta?",
+                            "options": [
+                                "Método de improvisación libre para sonar más natural y espontáneo ante la máquina.",
+                                "Método de respuesta cerrada, limitándote a decir \"sí\" o \"no\" a las preguntas.",
+                                "Método cronológico inverso, empezando por el final de la historia y yendo al inicio.",
+                                "Método STAR (Situación, Tarea, Acción y Resultado)."
+                            ],
+                            "correctAnswer": "Método STAR (Situación, Tarea, Acción y Resultado).",
+                            "explanation": "La opción correcta es: Método STAR (Situación, Tarea, Acción y Resultado)."
+                        },
+                        {
+                            "text": "Un simulador de entrevistas con IA te ofrece una evaluación tras una sesión de práctica. ¿Cuál es la mayor utilidad de este tipo de retroalimentación?",
+                            "options": [
+                                "Identificar muletillas, mejorar la estructura de las frases y ganar confianza.",
+                                "Garantizar que serás contratado de forma indefinida sin pasar por más procesos.",
+                                "Saber exactamente qué día y a qué hora te van a llamar para la entrevista real.",
+                                "Sustituir la necesidad de investigar a la empresa por tu propia cuenta."
+                            ],
+                            "correctAnswer": "Identificar muletillas, mejorar la estructura de las frases y ganar confianza.",
+                            "explanation": "La opción correcta es: Identificar muletillas, mejorar la estructura de las frases y ganar confianza."
+                        },
+                        {
+                            "text": "Al utilizar plataformas de IA para preparar tu búsqueda de empleo, ¿qué precaución ética y de seguridad debes mantener?",
+                            "options": [
+                                "No usar nunca tu nombre real para que la IA no pueda identificarte profesionalmente.",
+                                "Compartir los datos de contacto de tus antiguos jefes para que la IA los analice.",
+                                "Revisar las políticas de privacidad y evitar compartir información excesivamente sensible.",
+                                "Pagar siempre la versión premium para asegurar que la información es 100% veraz."
+                            ],
+                            "correctAnswer": "Revisar las políticas de privacidad y evitar compartir información excesivamente sensible.",
+                            "explanation": "La opción correcta es: Revisar las políticas de privacidad y evitar compartir información excesivamente sensible."
+                        },
+                        {
+                            "text": "Quieres aplicar a una escuela bilingüe y también a una empresa tecnológica. ¿Cómo te ayuda la \"hiper-personalización\" con IA?",
+                            "options": [
+                                "Generando versiones específicas del CV que destaquen las habilidades que cada centro busca.",
+                                "Enviando correos electrónicos masivos con el mismo asunto a ambas organizaciones.",
+                                "Creando un currículum único y muy largo que sirva para cualquier tipo de sector laboral.",
+                                "Buscando quién es el dueño de cada empresa para enviarle un mensaje personal al móvil."
+                            ],
+                            "correctAnswer": "Generando versiones específicas del CV que destaquen las habilidades que cada centro busca.",
+                            "explanation": "La opción correcta es: Generando versiones específicas del CV que destaquen las habilidades que cada centro busca."
+                        },
+                        {
+                            "text": "¿En qué consiste la \"Ingeniería de Prompts\" (Prompt Engineering) aplicada al mercado de trabajo?",
+                            "options": [
+                                "En la reparación física de los servidores donde se aloja la Inteligencia Artificial.",
+                                "En el arte de diseñar instrucciones óptimas para obtener respuestas de alta calidad de la IA.",
+                                "En un título universitario necesario para trabajar en el sector de los recursos humanos.",
+                                "En un programa de ordenador que envía automáticamente solicitudes de empleo."
+                            ],
+                            "correctAnswer": "En el arte de diseñar instrucciones óptimas para obtener respuestas de alta calidad de la IA.",
+                            "explanation": "La opción correcta es: En el arte de diseñar instrucciones óptimas para obtener respuestas de alta calidad de la IA."
+                        },
+                        {
+                            "text": "Un candidato nota que su resumen profesional suena robótico tras usar una IA. ¿Cuál es el \"filtro humano\" que debe aplicar según la unidad?",
+                            "options": [
+                                "Reescribir el resultado para que suene a él mismo y mantenga su autenticidad.",
+                                "Dejar el texto como está, porque los reclutadores ya están acostumbrados a la IA.",
+                                "Borrar todo el texto y volver a pedirle a la IA que lo haga de forma diferente.",
+                                "Pedir a un amigo que lo lea para que le dé su aprobación antes de enviarlo."
+                            ],
+                            "correctAnswer": "Reescribir el resultado para que suene a él mismo y mantenga su autenticidad.",
+                            "explanation": "La opción correcta es: Reescribir el resultado para que suene a él mismo y mantenga su autenticidad."
+                        },
+                        {
+                            "text": "Tienes una entrevista técnica la próxima semana y te sientes muy nervioso. ¿Qué herramienta de IA te permite simular un \"role-play\" con un entrevistador virtual?",
+                            "options": [
+                                "Un generador de texto para cartas de presentación como Zety o Enhancv.",
+                                "Un simulador de entrevistas integrado en redes profesionales o plataformas especializadas.",
+                                "Un sistema ATS que analice tu currículum en busca de errores ortográficos.",
+                                "Un traductor automático que convierta tus respuestas a otros idiomas extranjeros."
+                            ],
+                            "correctAnswer": "Un simulador de entrevistas integrado en redes profesionales o plataformas especializadas.",
+                            "explanation": "La opción correcta es: Un simulador de entrevistas integrado en redes profesionales o plataformas especializadas."
+                        },
+                        {
+                            "text": "¿Cuál es el principal beneficio de usar herramientas como ResumeWorded antes de inscribirse en una oferta de empleo?",
+                            "options": [
+                                "Asegurar que el currículum pasará el filtro de los porteros digitales o ATS.",
+                                "Registrar automáticamente el currículum en todas las oficinas de empleo de España.",
+                                "Ocultar los periodos de tiempo en los que el candidato no ha estado trabajando.",
+                                "Conseguir que la empresa te pague un salario por encima del convenio colectivo."
+                            ],
+                            "correctAnswer": "Asegurar que el currículum pasará el filtro de los porteros digitales o ATS.",
+                            "explanation": "La opción correcta es: Asegurar que el currículum pasará el filtro de los porteros digitales o ATS."
+                        },
+                        {
+                            "text": "Estás en una entrevista real y te das cuenta de que estás repitiendo de memoria una respuesta que te dio la IA. ¿Qué riesgo corres según el temario?",
+                            "options": [
+                                "Que el reclutador piense que eres una persona muy inteligente por usar tecnología.",
+                                "Que la empresa te obligue a trabajar exclusivamente con esa herramienta de IA.",
+                                "Perder la conexión humana y la espontaneidad que busca el entrevistador.",
+                                "Que la IA te denuncie por plagio al detectar que estás usando sus propias palabras."
+                            ],
+                            "correctAnswer": "Perder la conexión humana y la espontaneidad que busca el entrevistador.",
+                            "explanation": "La opción correcta es: Perder la conexión humana y la espontaneidad que busca el entrevistador."
+                        },
+                        {
+                            "text": "¿Qué significa que la IA sea un \"amplificador del talento\" y no un sustituto del candidato?",
+                            "options": [
+                                "Que la IA ayuda a diseñar el mapa y afilar la herramienta, pero tú diriges tu carrera.",
+                                "Que la tecnología hará todo el trabajo por ti mientras tú descansas en casa.",
+                                "Que las empresas solo contratarán a personas que tengan un título en IA.",
+                                "Que los candidatos que usen IA cobrarán el doble de salario que los que no la usen."
+                            ],
+                            "correctAnswer": "Que la IA ayuda a diseñar el mapa y afilar la herramienta, pero tú diriges tu carrera.",
+                            "explanation": "La opción correcta es: Que la IA ayuda a diseñar el mapa y afilar la herramienta, pero tú diriges tu carrera."
+                        },
+                        {
+                            "text": "Si al redactar una instrucción para la IA incluyes que esta debe \"comportarse como un experto en selección de personal con 15 años de experiencia\", ¿cuál de los cuatro pilares del prompt detallado estás definiendo?",
+                            "options": [
+                                "El objetivo específico de la tarea a realizar.",
+                                "El rol o identidad que debe asumir el sistema.",
+                                "El contexto y sector profesional del puesto.",
+                                "El estilo de lenguaje del documento final."
+                            ],
+                            "correctAnswer": "El rol o identidad que debe asumir el sistema.",
+                            "explanation": "La opción correcta es: El rol o identidad que debe asumir el sistema."
+                        },
+                        {
+                            "text": "¿Qué ventaja ofrece el simulador de Cruz Roja para los estudiantes que buscan su primer empleo?",
+                            "options": [
+                                "Ofrece un contrato de trabajo inmediato al terminar todas las sesiones de práctica.",
+                                "Permite practicar entrevistas de forma gratuita y adaptada al currículum del alumno.",
+                                "Permite conocer las preguntas del examen oficial de grado superior de cada ciclo.",
+                                "Sustituye a la entrevista presencial real en las empresas de mayor prestigio."
+                            ],
+                            "correctAnswer": "Permite practicar entrevistas de forma gratuita y adaptada al currículum del alumno.",
+                            "explanation": "La opción correcta es: Permite practicar entrevistas de forma gratuita y adaptada al currículum del alumno."
+                        },
+                        {
+                            "text": "LinkedIn ofrece una función de \"Interview Prep\" para sus usuarios. ¿Cuál es su característica más avanzada?",
+                            "options": [
+                                "Te dice exactamente cuánto dinero debes pedir de salario en esa empresa concreta.",
+                                "Te permite saber qué otros candidatos se han presentado a la misma oferta que tú.",
+                                "Envía una grabación de tu práctica directamente al jefe de recursos humanos.",
+                                "Realiza preguntas de seguimiento basadas en las respuestas anteriores que has dado."
+                            ],
+                            "correctAnswer": "Realiza preguntas de seguimiento basadas en las respuestas anteriores que has dado.",
+                            "explanation": "La opción correcta es: Realiza preguntas de seguimiento basadas en las respuestas anteriores que has dado."
+                        },
+                        {
+                            "text": "Quieres practicar una entrevista en inglés o francés para una oferta internacional. ¿Qué herramienta mencionada permite cambiar el idioma de la práctica?",
+                            "options": [
+                                "Las plataformas de diseño de currículos como Canva o Word.",
+                                "El simulador de entrevistas de la Cruz Roja.",
+                                "El registro de denominación negativa del Registro Mercantil.",
+                                "Los sistemas de seguimiento de candidatos (ATS) de las multinacionales."
+                            ],
+                            "correctAnswer": "El simulador de entrevistas de la Cruz Roja.",
+                            "explanation": "La opción correcta es: El simulador de entrevistas de la Cruz Roja."
+                        },
+                        {
+                            "text": "¿A qué se refiere el concepto de \"Ingeniería de Prompts\" como la \"nueva gramática profesional\"?",
+                            "options": [
+                                "A la necesidad de estudiar ingeniería para poder encontrar cualquier trabajo hoy día.",
+                                "A la habilidad de saber comunicarse con las máquinas para obtener mejores resultados.",
+                                "Al uso de términos técnicos complejos para que el currículum sea más difícil de leer.",
+                                "A la traducción de las leyes laborales españolas al lenguaje de programación Python."
+                            ],
+                            "correctAnswer": "A la habilidad de saber comunicarse con las máquinas para obtener mejores resultados.",
+                            "explanation": "La opción correcta es: A la habilidad de saber comunicarse con las máquinas para obtener mejores resultados."
+                        },
+                        {
+                            "text": "Al preparar una entrevista con IA, se recomienda no memorizar respuestas. ¿Qué es lo que sí se debe entrenar según la unidad?",
+                            "options": [
+                                "La estructura de los mensajes y la seguridad al comunicar tus logros reales.",
+                                "La técnica de evitar las preguntas difíciles cambiando de tema constantemente.",
+                                "La capacidad de hablar más rápido que el entrevistador para demostrar agilidad.",
+                                "El uso de palabras técnicas que no entiendes para parecer más experimentado."
+                            ],
+                            "correctAnswer": "La estructura de los mensajes y la seguridad al comunicar tus logros reales.",
+                            "explanation": "La opción correcta es: La estructura de los mensajes y la seguridad al comunicar tus logros reales."
+                        },
+                        {
+                            "text": "Al usar un simulador de IA para practicar una entrevista, recibes una crítica sobre que tus respuestas son incompletas. ¿Qué estrategia técnica del temario ayuda a construir respuestas detalladas y con impacto sobre tus logros?",
+                            "options": [
+                                "La aplicación del AI Act para evitar sesgos algorítmicos.",
+                                "La revisión de la voz para que el texto suene a ti mismo.",
+                                "El uso del método STAR (Situación, Tarea, Acción y Resultado).",
+                                "La ingeniería de prompts para identificar palabras clave."
+                            ],
+                            "correctAnswer": "El uso del método STAR (Situación, Tarea, Acción y Resultado).",
+                            "explanation": "La opción correcta es: El uso del método STAR (Situación, Tarea, Acción y Resultado)."
+                        },
+                        {
+                            "text": "¿Cuál es la lección final de la unidad sobre el futuro de la búsqueda de empleo en la era de la IA?",
+                            "options": [
+                                "Que la tecnología sustituirá a los reclutadores humanos en menos de cinco años.",
+                                "Que no hace falta prepararse si se tiene una buena herramienta de inteligencia artificial.",
+                                "Que el currículum en papel volverá a ser la herramienta más importante de todas.",
+                                "Que el futuro profesional es de quienes dominen la IA para potenciar su propia voz."
+                            ],
+                            "correctAnswer": "Que el futuro profesional es de quienes dominen la IA para potenciar su propia voz.",
+                            "explanation": "La opción correcta es: Que el futuro profesional es de quienes dominen la IA para potenciar su propia voz."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

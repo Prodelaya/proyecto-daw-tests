@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "IPEII",
+            "name": "Itinerario Personal para la Empleabilidad II",
+            "topics": [
+                {
+                    "number": 5,
+                    "title": "UT5: Proyecto de emprendimiento y economía social",
+                    "questions": [
+                        {
+                            "text": "Un estudiante observa que en su barrio hay muchas personas mayores que necesitan ayuda con la administración electrónica y decide diseñar un servicio de asesoría digital. ¿Qué capacidad está demostrando según la unidad?",
+                            "options": [
+                                "Cumplimiento de las normas de seguridad social obligatorias.",
+                                "Capacidad de ahorro financiero para inversiones futuras.",
+                                "Iniciativa emprendedora para detectar y aprovechar oportunidades.",
+                                "Habilidad para la programación de software complejo."
+                            ],
+                            "correctAnswer": "Iniciativa emprendedora para detectar y aprovechar oportunidades.",
+                            "explanation": "La opción correcta es: Iniciativa emprendedora para detectar y aprovechar oportunidades."
+                        },
+                        {
+                            "text": "¿Cómo se define formalmente la iniciativa emprendedora en el contexto profesional?",
+                            "options": [
+                                "La técnica de marketing para vender productos a precios muy bajos.",
+                                "La obligación de trabajar por cuenta propia para evitar tener un jefe.",
+                                "El proceso de solicitar un préstamo bancario para cubrir deudas personales.",
+                                "La capacidad de convertir oportunidades en proyectos viables mediante la creatividad."
+                            ],
+                            "correctAnswer": "La capacidad de convertir oportunidades en proyectos viables mediante la creatividad.",
+                            "explanation": "La opción correcta es: La capacidad de convertir oportunidades en proyectos viables mediante la creatividad."
+                        },
+                        {
+                            "text": "Sara quiere abrir una consultoría y utiliza el \"Business Model Canvas\" (Lienzo de Modelo de Negocio). ¿Cuál es la función principal de esta herramienta?",
+                            "options": [
+                                "Sustituir legalmente a la escritura pública de constitución ante notario.",
+                                "Registrar la marca comercial en la Oficina Española de Patentes y Marcas.",
+                                "Plasmar en un solo lienzo cómo la empresa genera valor y es rentable.",
+                                "Calcular el salario exacto de cada uno de los empleados de la empresa."
+                            ],
+                            "correctAnswer": "Plasmar en un solo lienzo cómo la empresa genera valor y es rentable.",
+                            "explanation": "La opción correcta es: Plasmar en un solo lienzo cómo la empresa genera valor y es rentable."
+                        },
+                        {
+                            "text": "En el centro del Business Model Canvas se encuentra la \"propuesta de valor\". ¿A qué se refiere este concepto fundamental?",
+                            "options": [
+                                "Al precio más bajo del mercado que podemos ofrecer a los clientes.",
+                                "A la lista de tareas administrativas que realiza el auxiliar cada día.",
+                                "Al conjunto de beneficios únicos que resuelven un problema del cliente.",
+                                "A la suma de todo el dinero que los socios han aportado al negocio."
+                            ],
+                            "correctAnswer": "Al conjunto de beneficios únicos que resuelven un problema del cliente.",
+                            "explanation": "La opción correcta es: Al conjunto de beneficios únicos que resuelven un problema del cliente."
+                        },
+                        {
+                            "text": "¿Qué representa el concepto de \"know-how\" (saber hacer) dentro de un proyecto de emprendimiento?",
+                            "options": [
+                                "La dirección física del local donde se ubica la empresa.",
+                                "El conjunto de conocimientos prácticos y habilidades difíciles de copiar.",
+                                "El título académico oficial que se cuelga en la pared de la oficina.",
+                                "El nombre comercial que hemos elegido para nuestra agencia o escuela."
+                            ],
+                            "correctAnswer": "El conjunto de conocimientos prácticos y habilidades difíciles de copiar.",
+                            "explanation": "La opción correcta es: El conjunto de conocimientos prácticos y habilidades difíciles de copiar."
+                        },
+                        {
+                            "text": "Al diseñar el modelo de negocio, un profesional clasifica su \"know-how\" como un recurso clave de un tipo específico. ¿Cuál es?",
+                            "options": [
+                                "Recurso financiero o de liquidez inmediata.",
+                                "Recurso humano de carácter temporal.",
+                                "Recurso intelectual.",
+                                "Recurso físico o de infraestructura básica."
+                            ],
+                            "correctAnswer": "Recurso intelectual.",
+                            "explanation": "La opción correcta es: Recurso intelectual."
+                        },
+                        {
+                            "text": "Una futura educadora infantil detecta la oportunidad de crear una ludoteca con una pedagogía única. ¿Qué herramienta de pensamiento divergente debería usar primero para generar muchas ideas sin censura?",
+                            "options": [
+                                "El análisis financiero de rentabilidad.",
+                                "El registro de la denominación social.",
+                                "La lluvia de ideas (brainstorming).",
+                                "La redacción del plan de negocio detallado."
+                            ],
+                            "correctAnswer": "La lluvia de ideas (brainstorming).",
+                            "explanation": "La opción correcta es: La lluvia de ideas (brainstorming)."
+                        },
+                        {
+                            "text": "¿Cuál es la regla de oro durante una sesión de lluvia de ideas (brainstorming) para que sea efectiva?",
+                            "options": [
+                                "Criticar inmediatamente las ideas que parezcan poco realistas o caras.",
+                                "Permitir que solo el socio con más capital aporte soluciones.",
+                                "Filtrar las ideas para que todas cumplan con la normativa legal vigente.",
+                                "Priorizar la cantidad de ideas sobre la calidad, sin juzgarlas en ese momento."
+                            ],
+                            "correctAnswer": "Priorizar la cantidad de ideas sobre la calidad, sin juzgarlas en ese momento.",
+                            "explanation": "La opción correcta es: Priorizar la cantidad de ideas sobre la calidad, sin juzgarlas en ese momento."
+                        },
+                        {
+                            "text": "El \"Design Thinking\" es una metodología de creación de soluciones. ¿En qué se diferencia de otros métodos tradicionales?",
+                            "options": [
+                                "Se basa exclusivamente en el análisis de los costes de producción.",
+                                "Prioriza la rapidez de la venta por encima de la utilidad del producto.",
+                                "Pone siempre las necesidades del usuario humano en el centro del proceso.",
+                                "Solo puede ser utilizada por programadores de software o diseñadores."
+                            ],
+                            "correctAnswer": "Pone siempre las necesidades del usuario humano en el centro del proceso.",
+                            "explanation": "La opción correcta es: Pone siempre las necesidades del usuario humano en el centro del proceso."
+                        },
+                        {
+                            "text": "Un grupo de emprendedores crea una versión rápida y barata de su aplicación para probarla con usuarios reales. ¿En qué etapa del Design Thinking se encuentran?",
+                            "options": [
+                                "Prototipado.",
+                                "Definición.",
+                                "Empatía.",
+                                "Ideación."
+                            ],
+                            "correctAnswer": "Prototipado.",
+                            "explanation": "La opción correcta es: Prototipado."
+                        },
+                        {
+                            "text": "¿Qué ventaja ofrece el uso del \"storytelling\" al presentar un proyecto de emprendimiento a posibles inversores o clientes?",
+                            "options": [
+                                "Sustituye la necesidad de realizar un análisis financiero serio.",
+                                "Conecta emocionalmente con el público y hace que la propuesta sea memorable.",
+                                "Permite ocultar los fallos del modelo de negocio mediante historias ficticias.",
+                                "Es un requisito legal para obtener el NIF provisional de la empresa."
+                            ],
+                            "correctAnswer": "Conecta emocionalmente con el público y hace que la propuesta sea memorable.",
+                            "explanation": "La opción correcta es: Conecta emocionalmente con el público y hace que la propuesta sea memorable."
+                        },
+                        {
+                            "text": "Si el Canvas es el mapa rápido de una idea, ¿qué representa el \"Plan de Negocio\"?",
+                            "options": [
+                                "Un resumen de una sola página para redes sociales como Instagram.",
+                                "El documento que acredita el alta en la Seguridad Social (RETA).",
+                                "La lista de contactos personales que pueden prestarnos dinero.",
+                                "Una hoja de ruta maestra detallada con datos sólidos y análisis financiero."
+                            ],
+                            "correctAnswer": "Una hoja de ruta maestra detallada con datos sólidos y análisis financiero.",
+                            "explanation": "La opción correcta es: Una hoja de ruta maestra detallada con datos sólidos y análisis financiero."
+                        },
+                        {
+                            "text": "En el análisis financiero de un plan de negocio, ¿qué indica el concepto de \"punto muerto\" o umbral de rentabilidad?",
+                            "options": [
+                                "El total de la inversión inicial necesaria para comprar los ordenadores.",
+                                "El momento en que la empresa decide cerrar por falta de beneficios.",
+                                "La cantidad mínima que hay que vender para no perder dinero (ingresos igual a gastos).",
+                                "El porcentaje de impuestos que hay que pagar al final del año fiscal."
+                            ],
+                            "correctAnswer": "La cantidad mínima que hay que vender para no perder dinero (ingresos igual a gastos).",
+                            "explanation": "La opción correcta es: La cantidad mínima que hay que vender para no perder dinero (ingresos igual a gastos)."
+                        },
+                        {
+                            "text": "¿Por qué se dice que los inversores invierten en personas tanto como en ideas al revisar el apartado de \"organización\" de un plan de negocio?",
+                            "options": [
+                                "Porque la estructura del equipo y sus funciones determinan la viabilidad del proyecto.",
+                                "Porque prefieren contratar a familiares de los socios fundadores.",
+                                "Porque el banco obliga a que todos los socios tengan la misma edad.",
+                                "Porque es el apartado donde se especifica el sueldo de los directivos."
+                            ],
+                            "correctAnswer": "Porque la estructura del equipo y sus funciones determinan la viabilidad del proyecto.",
+                            "explanation": "La opción correcta es: Porque la estructura del equipo y sus funciones determinan la viabilidad del proyecto."
+                        },
+                        {
+                            "text": "¿Cuál es la prioridad fundamental de las empresas que forman parte de la \"economía social\"?",
+                            "options": [
+                                "Obtener el máximo beneficio económico para los inversores externos.",
+                                "Sustituir al Estado en la prestación de servicios públicos gratuitos.",
+                                "Poner a las personas y al interés colectivo por encima del beneficio puro.",
+                                "Evitar el pago de impuestos mediante la creación de cooperativas."
+                            ],
+                            "correctAnswer": "Poner a las personas y al interés colectivo por encima del beneficio puro.",
+                            "explanation": "La opción correcta es: Poner a las personas y al interés colectivo por encima del beneficio puro."
+                        },
+                        {
+                            "text": "Tres informáticos montan una cooperativa de trabajo asociado. ¿Cómo se toman las decisiones importantes en este modelo empresarial?",
+                            "options": [
+                                "Las decisiones las toma un jefe externo contratado por los socios.",
+                                "Se gestiona democráticamente: cada persona tiene un voto.",
+                                "El socio que más dinero aportó al inicio tiene el voto de mayor peso.",
+                                "Solo pueden votar los socios que tengan más de cinco años de experiencia."
+                            ],
+                            "correctAnswer": "Se gestiona democráticamente: cada persona tiene un voto.",
+                            "explanation": "La opción correcta es: Se gestiona democráticamente: cada persona tiene un voto."
+                        },
+                        {
+                            "text": "¿Qué caracteriza principalmente a una cooperativa de trabajo asociado?",
+                            "options": [
+                                "Su fin principal es dar empleo a sus propios socios en condiciones justas.",
+                                "Solo puede operar en el sector de la agricultura o la ganadería.",
+                                "Es una empresa que no puede generar beneficios económicos ni ventas.",
+                                "Todos los socios deben ser obligatoriamente familiares entre sí."
+                            ],
+                            "correctAnswer": "Su fin principal es dar empleo a sus propios socios en condiciones justas.",
+                            "explanation": "La opción correcta es: Su fin principal es dar empleo a sus propios socios en condiciones justas."
+                        },
+                        {
+                            "text": "Si varios profesionales del marketing se unen para compartir una oficina y herramientas de diseño caras que por separado no podrían pagar, ¿qué tipo de cooperativa podrían formar?",
+                            "options": [
+                                "Sociedad laboral limitada.",
+                                "Cooperativa de enseñanza concertada.",
+                                "Cooperativa de consumo responsable.",
+                                "Cooperativa de servicios."
+                            ],
+                            "correctAnswer": "Cooperativa de servicios.",
+                            "explanation": "La opción correcta es: Cooperativa de servicios."
+                        },
+                        {
+                            "text": "¿Cuál es el requisito de propiedad necesario para que una empresa mercantil pueda calificarse como \"sociedad laboral\"?",
+                            "options": [
+                                "Que los trabajadores no cobren salario, sino que solo reciban beneficios.",
+                                "Que la empresa cotice obligatoriamente en la bolsa de valores.",
+                                "Que el 100% de las acciones pertenezca a un solo socio capitalista.",
+                                "Que la mayoría del capital social pertenezca a los trabajadores fijos."
+                            ],
+                            "correctAnswer": "Que la mayoría del capital social pertenezca a los trabajadores fijos.",
+                            "explanation": "La opción correcta es: Que la mayoría del capital social pertenezca a los trabajadores fijos."
+                        },
+                        {
+                            "text": "En una sociedad laboral, la ley limita el poder de los socios individuales para mantener el equilibrio. ¿Qué restricción existe sobre las acciones?",
+                            "options": [
+                                "Ningún socio puede poseer acciones de la empresa si no es trabajador.",
+                                "Todos los socios deben tener exactamente el mismo número de acciones.",
+                                "Ningún socio puede tener más de un tercio del capital social.",
+                                "Las acciones solo pueden venderse a familiares de primer grado."
+                            ],
+                            "correctAnswer": "Ningún socio puede tener más de un tercio del capital social.",
+                            "explanation": "La opción correcta es: Ningún socio puede tener más de un tercio del capital social."
+                        },
+                        {
+                            "text": "Al elegir la forma jurídica, el temario compara la decisión con elegir un vehículo. ¿Cuándo sería recomendable optar por una Sociedad Limitada frente a ser autónomo?",
+                            "options": [
+                                "Cuando hay varios socios y se quiere proteger el patrimonio personal ante deudas.",
+                                "Cuando no se tiene capital inicial y se busca la máxima rapidez en el alta.",
+                                "Cuando la actividad de la empresa no va a generar ningún tipo de ingreso.",
+                                "Cuando el emprendedor quiere trabajar solo y no tener ninguna responsabilidad legal."
+                            ],
+                            "correctAnswer": "Cuando hay varios socios y se quiere proteger el patrimonio personal ante deudas.",
+                            "explanation": "La opción correcta es: Cuando hay varios socios y se quiere proteger el patrimonio personal ante deudas."
+                        },
+                        {
+                            "text": "¿Qué documento oficial acredita que el nombre que has elegido para tu empresa no lo está usando nadie más en España?",
+                            "options": [
+                                "El alta en el Registro Especial de Trabajadores Autónomos.",
+                                "La certificación negativa de denominación social.",
+                                "El NIF provisional de la Agencia Tributaria.",
+                                "La escritura pública de constitución ante notario."
+                            ],
+                            "correctAnswer": "La certificación negativa de denominación social.",
+                            "explanation": "La opción correcta es: La certificación negativa de denominación social."
+                        },
+                        {
+                            "text": "¿Qué trámite otorga a una sociedad su \"personalidad jurídica\", permitiéndole firmar contratos y tener deudas de forma independiente a sus socios?",
+                            "options": [
+                                "El diseño del logotipo y la marca por parte de un experto en marketing.",
+                                "La firma de la escritura de constitución y su inscripción en el Registro Mercantil.",
+                                "La realización de la primera venta a un cliente de la localidad.",
+                                "El alquiler de una oficina o local comercial en un centro de innovación."
+                            ],
+                            "correctAnswer": "La firma de la escritura de constitución y su inscripción en el Registro Mercantil.",
+                            "explanation": "La opción correcta es: La firma de la escritura de constitución y su inscripción en el Registro Mercantil."
+                        },
+                        {
+                            "text": "¿Cuál es la principal ventaja del sistema CIRCE para un emprendedor que quiere poner en marcha su negocio rápidamente?",
+                            "options": [
+                                "Permite realizar los trámites de constitución de forma telemática y unificada.",
+                                "Ofrece préstamos a fondo perdido sin necesidad de devolver el dinero.",
+                                "Elimina la obligación de pagar impuestos durante los primeros cinco años.",
+                                "Proporciona clientes de forma automática a través de una base de datos pública."
+                            ],
+                            "correctAnswer": "Permite realizar los trámites de constitución de forma telemática y unificada.",
+                            "explanation": "La opción correcta es: Permite realizar los trámites de constitución de forma telemática y unificada."
+                        },
+                        {
+                            "text": "¿Qué es el DUE (Documento Único Electrónico) en el proceso de creación de una empresa?",
+                            "options": [
+                                "Un carné de identidad que el empresario debe llevar siempre encima.",
+                                "La factura que emite el notario por sus servicios de asesoramiento legal.",
+                                "Un super-formulario que concentra la información para todos los organismos públicos.",
+                                "El contrato de trabajo que firman los socios entre ellos de forma privada."
+                            ],
+                            "correctAnswer": "Un super-formulario que concentra la información para todos los organismos públicos.",
+                            "explanation": "La opción correcta es: Un super-formulario que concentra la información para todos los organismos públicos."
+                        },
+                        {
+                            "text": "Para un profesional de Marketing o Informática que decide trabajar solo desde casa, ¿cuál es la vía más rápida y sencilla para empezar a facturar?",
+                            "options": [
+                                "Crear una Sociedad Laboral con un capital mínimo de 60.000 euros.",
+                                "Darse de alta como empresario individual (autónomo).",
+                                "Esperar a que el PAE le asigne una forma jurídica de forma obligatoria.",
+                                "Constituir una Cooperativa de Trabajo Asociado con otros freelancers."
+                            ],
+                            "correctAnswer": "Darse de alta como empresario individual (autónomo).",
+                            "explanation": "La opción correcta es: Darse de alta como empresario individual (autónomo)."
+                        },
+                        {
+                            "text": "¿Qué organismo es el encargado de proteger la propiedad intelectual y el registro de marcas en España?",
+                            "options": [
+                                "La Oficina Española de Patentes y Marcas.",
+                                "El Punto de Atención al Emprendedor (PAE).",
+                                "El Registro de Sociedades Cooperativas.",
+                                "La Tesorería General de la Seguridad Social."
+                            ],
+                            "correctAnswer": "La Oficina Española de Patentes y Marcas.",
+                            "explanation": "La opción correcta es: La Oficina Española de Patentes y Marcas."
+                        },
+                        {
+                            "text": "¿En qué consiste la \"capitalización de la prestación por desempleo\" para un nuevo emprendedor?",
+                            "options": [
+                                "En un descuento en la cuota de autónomos durante toda la vida laboral.",
+                                "En la obligación de contratar a otros desempleados del mismo sector.",
+                                "En una multa que hay que pagar por dejar de buscar trabajo por cuenta ajena.",
+                                "En recibir todo el dinero del paro de golpe para invertirlo en el negocio."
+                            ],
+                            "correctAnswer": "En recibir todo el dinero del paro de golpe para invertirlo en el negocio.",
+                            "explanation": "La opción correcta es: En recibir todo el dinero del paro de golpe para invertirlo en el negocio."
+                        },
+                        {
+                            "text": "Según la experiencia de crisis anteriores, ¿por qué el modelo de economía social se considera especialmente resiliente?",
+                            "options": [
+                                "Porque no necesitan capital inicial para empezar a operar en el mercado.",
+                                "Porque priorizan salvar el empleo y cuidar a las personas antes que el beneficio.",
+                                "Porque solo funcionan en sectores tecnológicos que nunca sufren crisis.",
+                                "Porque sus empresas suelen estar exentas de cumplir las normativas de seguridad."
+                            ],
+                            "correctAnswer": "Porque priorizan salvar el empleo y cuidar a las personas antes que el beneficio.",
+                            "explanation": "La opción correcta es: Porque priorizan salvar el empleo y cuidar a las personas antes que el beneficio."
+                        },
+                        {
+                            "text": "Al finalizar la unidad, ¿qué actitud define mejor el éxito de un proyecto de emprendimiento más allá del \"papeleo\"?",
+                            "options": [
+                                "La capacidad de copiar exactamente lo que hace la competencia más exitosa.",
+                                "Construir un proyecto con alma que solucione una necesidad real de la sociedad.",
+                                "Tener el plan de negocio más largo y complejo de todo el sector profesional.",
+                                "Conseguir la mayor cantidad de ayudas públicas sin arriesgar dinero propio."
+                            ],
+                            "correctAnswer": "Construir un proyecto con alma que solucione una necesidad real de la sociedad.",
+                            "explanation": "La opción correcta es: Construir un proyecto con alma que solucione una necesidad real de la sociedad."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

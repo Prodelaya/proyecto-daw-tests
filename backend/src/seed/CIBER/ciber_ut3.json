@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 3,
+                    "title": "UT3: Seguridad Perimetral y Accesos Remotos",
+                    "questions": [
+                        {
+                            "text": "¿Cómo se define el proceso de fortificación de red en un entorno corporativo?",
+                            "options": [
+                                "La instalación masiva de software antivirus en todos los equipos de usuario",
+                                "El proceso de reducir la superficie de ataque mediante segmentación y control de tráfico",
+                                "El aumento del ancho de banda para permitir más conexiones simultáneas",
+                                "La sustitución de todos los cables de red por fibra óptica para evitar interferencias"
+                            ],
+                            "correctAnswer": "El proceso de reducir la superficie de ataque mediante segmentación y control de tráfico",
+                            "explanation": "La opción marcada en verde en el material fuente es: El proceso de reducir la superficie de ataque mediante segmentación y control de tráfico."
+                        },
+                        {
+                            "text": "En el modelo jerárquico de red, ¿cuál es la función principal del Nivel 3,5 o DMZ industrial?",
+                            "options": [
+                                "Actuar como una zona neutral que separa la red de fábrica (OT) de la red de oficina (IT)",
+                                "Gestionar exclusivamente las facturas y el correo electrónico de la empresa",
+                                "Almacenar las copias de seguridad históricas de toda la organización",
+                                "Ejecutar directamente las órdenes en los brazos robóticos y sensores"
+                            ],
+                            "correctAnswer": "Actuar como una zona neutral que separa la red de fábrica (OT) de la red de oficina (IT)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Actuar como una zona neutral que separa la red de fábrica (OT) de la red de oficina (IT)."
+                        },
+                        {
+                            "text": "¿Qué dispositivo de hardware permite que la información fluya en una única dirección física, impidiendo cualquier comunicación en sentido contrario?",
+                            "options": [
+                                "Diodo de datos",
+                                "Cortafuegos de nueva generación (NGFW)",
+                                "Servidor de salto (Jump Server)",
+                                "Concentrador de VPN"
+                            ],
+                            "correctAnswer": "Diodo de datos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Diodo de datos."
+                        },
+                        {
+                            "text": "Una empresa aplica múltiples capas de seguridad (políticas, firewalls, cifrado) para que, si una falla, la siguiente detenga la amenaza. ¿Cómo se denomina esta estrategia?",
+                            "options": [
+                                "Confianza implícita",
+                                "Seguridad por oscuridad",
+                                "Defensa en profundidad",
+                                "Perímetro único"
+                            ],
+                            "correctAnswer": "Defensa en profundidad",
+                            "explanation": "La opción marcada en verde en el material fuente es: Defensa en profundidad."
+                        },
+                        {
+                            "text": "¿Cuál es la premisa fundamental del modelo de seguridad \"Zero Trust\" (Confianza Cero)?",
+                            "options": [
+                                "Eliminar la necesidad de usar contraseñas en los servidores internos",
+                                "No confiar en nadie por defecto y verificar continuamente cada solicitud de acceso",
+                                "Permitir el acceso total a los administradores sin necesidad de autenticación",
+                                "Confiar automáticamente en cualquier dispositivo que esté dentro de la red local"
+                            ],
+                            "correctAnswer": "No confiar en nadie por defecto y verificar continuamente cada solicitud de acceso",
+                            "explanation": "La opción marcada en verde en el material fuente es: No confiar en nadie por defecto y verificar continuamente cada solicitud de acceso."
+                        },
+                        {
+                            "text": "¿Qué es una Zona Desmilitarizada (DMZ) en una arquitectura de red?",
+                            "options": [
+                                "Un segmento de red sin ningún tipo de protección o cortafuegos",
+                                "La red Wi-Fi gratuita destinada a las visitas de la empresa",
+                                "Una red aislada que aloja servidores que deben ser visibles desde el exterior",
+                                "Una red interna donde se guardan las bases de datos críticas de clientes"
+                            ],
+                            "correctAnswer": "Una red aislada que aloja servidores que deben ser visibles desde el exterior",
+                            "explanation": "La opción marcada en verde en el material fuente es: Una red aislada que aloja servidores que deben ser visibles desde el exterior."
+                        },
+                        {
+                            "text": "En una arquitectura de DMZ, ¿cuál es la configuración de \"cortafuegos en cascada\"?",
+                            "options": [
+                                "El uso de un cortafuegos externo hacia internet y otro interno hacia la red corporativa",
+                                "La conexión de todos los servidores en una misma subred sin filtros",
+                                "La desactivación de las reglas de filtrado durante las horas de mantenimiento",
+                                "El uso de un solo equipo para separar internet de la red interna"
+                            ],
+                            "correctAnswer": "El uso de un cortafuegos externo hacia internet y otro interno hacia la red corporativa",
+                            "explanation": "La opción marcada en verde en el material fuente es: El uso de un cortafuegos externo hacia internet y otro interno hacia la red corporativa."
+                        },
+                        {
+                            "text": "¿Qué diferencia principal existe entre un dispositivo UTM y un NGFW?",
+                            "options": [
+                                "El UTM requiere obligatoriamente el uso de diodos de datos y el NGFW no",
+                                "El UTM combina múltiples funciones en un hardware; el NGFW ofrece inspección profunda de aplicaciones y mayor rendimiento",
+                                "El NGFW no incluye funciones de cortafuegos, mientras que el UTM sí",
+                                "El UTM es solo para redes domésticas y el NGFW es para grandes empresas"
+                            ],
+                            "correctAnswer": "El UTM combina múltiples funciones en un hardware; el NGFW ofrece inspección profunda de aplicaciones y mayor rendimiento",
+                            "explanation": "La opción marcada en verde en el material fuente es: El UTM combina múltiples funciones en un hardware; el NGFW ofrece inspección profunda de aplicaciones y mayor rendimiento."
+                        },
+                        {
+                            "text": "¿Qué tecnología permite crear un túnel cifrado sobre una red pública para conectar de forma segura a teletrabajadores?",
+                            "options": [
+                                "Red Privada Virtual (VPN)",
+                                "Red de área local (LAN)",
+                                "Sistema de nombres de dominio (DNS)",
+                                "Protocolo HTTP"
+                            ],
+                            "correctAnswer": "Red Privada Virtual (VPN)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Red Privada Virtual (VPN)."
+                        },
+                        {
+                            "text": "Un técnico debe configurar una VPN que sea muy compatible y use IPSec para el cifrado. ¿Qué protocolo debería elegir?",
+                            "options": [
+                                "HTTP",
+                                "L2TP/IPSec",
+                                "FTP",
+                                "Telnet"
+                            ],
+                            "correctAnswer": "L2TP/IPSec",
+                            "explanation": "La opción marcada en verde en el material fuente es: L2TP/IPSec."
+                        },
+                        {
+                            "text": "¿Por qué el protocolo SSTP es eficaz para atravesar cortafuegos restrictivos?",
+                            "options": [
+                                "Porque requiere una conexión directa por cable serie",
+                                "Porque utiliza el puerto 443, el mismo que el tráfico web seguro (HTTPS)",
+                                "Porque es un protocolo de nivel físico que no usa puertos",
+                                "Porque no utiliza ningún tipo de cifrado"
+                            ],
+                            "correctAnswer": "Porque utiliza el puerto 443, el mismo que el tráfico web seguro (HTTPS)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque utiliza el puerto 443, el mismo que el tráfico web seguro (HTTPS)."
+                        },
+                        {
+                            "text": "¿Cuál es la opción preferida por los profesionales para entornos de alto riesgo debido a su flexibilidad y uso de cifrado AES-256?",
+                            "options": [
+                                "RDP simple",
+                                "OpenVPN",
+                                "WEP",
+                                "PPTP"
+                            ],
+                            "correctAnswer": "OpenVPN",
+                            "explanation": "La opción marcada en verde en el material fuente es: OpenVPN."
+                        },
+                        {
+                            "text": "¿Qué práctica consiste en obligar a que todo el tráfico del teletrabajador pase por el filtro de seguridad de la empresa, desactivando el acceso directo a internet?",
+                            "options": [
+                                "Desactivación del acceso no tunelizado",
+                                "Acceso implícito",
+                                "Split-tunneling",
+                                "Segmentación por colores"
+                            ],
+                            "correctAnswer": "Desactivación del acceso no tunelizado",
+                            "explanation": "La opción marcada en verde en el material fuente es: Desactivación del acceso no tunelizado."
+                        },
+                        {
+                            "text": "¿Cuál es la medida de seguridad más importante para evitar el acceso no autorizado a una VPN si se roban las credenciales?",
+                            "options": [
+                                "Usar un cable de red más largo",
+                                "Cambiar el nombre del servidor VPN",
+                                "Aumentar la velocidad de la conexión",
+                                "Activar la Autenticación Multifactor (MFA)"
+                            ],
+                            "correctAnswer": "Activar la Autenticación Multifactor (MFA)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Activar la Autenticación Multifactor (MFA)."
+                        },
+                        {
+                            "text": "¿Qué es una pasarela de acceso o servidor de salto (Jump Server)?",
+                            "options": [
+                                "Un intermediario que gestiona y autentica las conexiones antes de permitir tocar sistemas críticos",
+                                "Un router que no tiene configurada ninguna contraseña",
+                                "Un dispositivo que aumenta la señal Wi-Fi en oficinas grandes",
+                                "Un servidor que distribuye automáticamente virus en la red"
+                            ],
+                            "correctAnswer": "Un intermediario que gestiona y autentica las conexiones antes de permitir tocar sistemas críticos",
+                            "explanation": "La opción marcada en verde en el material fuente es: Un intermediario que gestiona y autentica las conexiones antes de permitir tocar sistemas críticos."
+                        },
+                        {
+                            "text": "Al usar Escritorio Remoto (RDP) profesionalmente, ¿cuál es la recomendación de seguridad fundamental?",
+                            "options": [
+                                "Dejar el puerto 3389 abierto directamente hacia internet",
+                                "Usar siempre la cuenta de \"Administrador\" por defecto",
+                                "Combinarlo siempre con una conexión VPN para doble cifrado",
+                                "Desactivar la autenticación de usuario para ganar velocidad"
+                            ],
+                            "correctAnswer": "Combinarlo siempre con una conexión VPN para doble cifrado",
+                            "explanation": "La opción marcada en verde en el material fuente es: Combinarlo siempre con una conexión VPN para doble cifrado."
+                        },
+                        {
+                            "text": "¿Qué función cumple la Autenticación a Nivel de Red (NLA) en un entorno de acceso remoto?",
+                            "options": [
+                                "Comprimir los datos para que el ratón se mueva más rápido",
+                                "Obligar al usuario a identificarse antes de que el servidor muestre la pantalla de inicio",
+                                "Permitir el acceso sin necesidad de conocer la dirección IP",
+                                "Aumentar la resolución de la pantalla remota"
+                            ],
+                            "correctAnswer": "Obligar al usuario a identificarse antes de que el servidor muestre la pantalla de inicio",
+                            "explanation": "La opción marcada en verde en el material fuente es: Obligar al usuario a identificarse antes de que el servidor muestre la pantalla de inicio."
+                        },
+                        {
+                            "text": "¿Cuál es la diferencia operativa entre un IDS y un IPS?",
+                            "options": [
+                                "El IPS es un software gratuito y el IDS es un hardware caro",
+                                "No hay diferencia, son dos nombres para el mismo programa antivirus",
+                                "El IDS bloquea el ataque y el IPS solo lo observa",
+                                "El IDS detecta y alerta; el IPS es capaz de bloquear automáticamente los paquetes maliciosos"
+                            ],
+                            "correctAnswer": "El IDS detecta y alerta; el IPS es capaz de bloquear automáticamente los paquetes maliciosos",
+                            "explanation": "La opción marcada en verde en el material fuente es: El IDS detecta y alerta; el IPS es capaz de bloquear automáticamente los paquetes maliciosos."
+                        },
+                        {
+                            "text": "¿Qué plataforma se encarga de recopilar y analizar registros (logs) de diferentes sistemas para encontrar relaciones entre eventos sospechosos?",
+                            "options": [
+                                "UTM",
+                                "SIEM",
+                                "DMZ",
+                                "VLAN"
+                            ],
+                            "correctAnswer": "SIEM",
+                            "explanation": "La opción marcada en verde en el material fuente es: SIEM."
+                        },
+                        {
+                            "text": "En la gestión de incidentes, ¿qué significa \"domar los falsos positivos\"?",
+                            "options": [
+                                "Borrar todos los registros de seguridad cada mañana",
+                                "Permitir que cualquier usuario entre en el servidor sin avisar",
+                                "Configurar el sistema para que lance alertas cada segundo",
+                                "Ajustar las herramientas para que solo avisen de eventos que son realmente peligrosos e importantes"
+                            ],
+                            "correctAnswer": "Ajustar las herramientas para que solo avisen de eventos que son realmente peligrosos e importantes",
+                            "explanation": "La opción marcada en verde en el material fuente es: Ajustar las herramientas para que solo avisen de eventos que son realmente peligrosos e importantes."
+                        },
+                        {
+                            "text": "¿Qué nivel del modelo Purdue corresponde a los controladores (PLC) que dan órdenes directas a las máquinas?",
+                            "options": [
+                                "Nivel 5",
+                                "Nivel 0",
+                                "Nivel 1",
+                                "Nivel 4"
+                            ],
+                            "correctAnswer": "Nivel 1",
+                            "explanation": "La opción marcada en verde en el material fuente es: Nivel 1."
+                        },
+                        {
+                            "text": "¿Cómo se denomina el movimiento de un atacante que, tras entrar en un equipo de la oficina, intenta saltar a los sistemas de control de producción?",
+                            "options": [
+                                "Salto vertical",
+                                "Túnel inverso",
+                                "Acceso público",
+                                "Movimiento lateral"
+                            ],
+                            "correctAnswer": "Movimiento lateral",
+                            "explanation": "La opción marcada en verde en el material fuente es: Movimiento lateral."
+                        },
+                        {
+                            "text": "En la clasificación de redes por colores, ¿qué zona suele requerir vigilancia 24/7 y reglas más restrictivas?",
+                            "options": [
+                                "Zona Roja",
+                                "Zona Ámbar",
+                                "Zona Verde",
+                                "Zona Blanca"
+                            ],
+                            "correctAnswer": "Zona Roja",
+                            "explanation": "La opción marcada en verde en el material fuente es: Zona Roja."
+                        },
+                        {
+                            "text": "¿Cuál es la principal ventaja de utilizar cortafuegos de fabricantes distintos en una arquitectura en cascada?",
+                            "options": [
+                                "Evita tener que configurar reglas de acceso",
+                                "Permite que la red funcione al doble de velocidad",
+                                "Si uno tiene una vulnerabilidad conocida, el otro sigue protegiendo el sistema",
+                                "Es más barato de mantener"
+                            ],
+                            "correctAnswer": "Si uno tiene una vulnerabilidad conocida, el otro sigue protegiendo el sistema",
+                            "explanation": "La opción marcada en verde en el material fuente es: Si uno tiene una vulnerabilidad conocida, el otro sigue protegiendo el sistema."
+                        },
+                        {
+                            "text": "¿Qué sucede si se activa la función \"DMZ\" en un router doméstico estándar?",
+                            "options": [
+                                "Se cifran automáticamente todas las llamadas telefónicas de la casa",
+                                "Se crea un entorno de seguridad industrial de nivel profesional",
+                                "El router se apaga por seguridad",
+                                "Se expone el dispositivo interno directamente a internet sin protección alguna"
+                            ],
+                            "correctAnswer": "Se expone el dispositivo interno directamente a internet sin protección alguna",
+                            "explanation": "La opción marcada en verde en el material fuente es: Se expone el dispositivo interno directamente a internet sin protección alguna."
+                        },
+                        {
+                            "text": "¿Qué característica define a la \"resiliencia\" en ciberseguridad?",
+                            "options": [
+                                "La capacidad de evitar el 100% de los ataques existentes",
+                                "El uso de contraseñas de más de 50 caracteres",
+                                "La capacidad de un sistema para resistir, recuperarse y adaptarse ante un incidente",
+                                "La obligación de no conectar nunca los servidores a internet"
+                            ],
+                            "correctAnswer": "La capacidad de un sistema para resistir, recuperarse y adaptarse ante un incidente",
+                            "explanation": "La opción marcada en verde en el material fuente es: La capacidad de un sistema para resistir, recuperarse y adaptarse ante un incidente."
+                        },
+                        {
+                            "text": "¿Qué principio establece que un usuario teletrabajador solo debe ver los servidores que necesita para su tarea y no toda la red corporativa?",
+                            "options": [
+                                "Disponibilidad total",
+                                "Confianza adaptativa",
+                                "Mínimo privilegio",
+                                "Seguridad por diseño"
+                            ],
+                            "correctAnswer": "Mínimo privilegio",
+                            "explanation": "La opción marcada en verde en el material fuente es: Mínimo privilegio."
+                        },
+                        {
+                            "text": "¿Qué protocolo de VPN se considera la \"navaja suiza\" por ser de código abierto, flexible y muy seguro?",
+                            "options": [
+                                "OpenVPN",
+                                "POP3",
+                                "HTTP",
+                                "Telnet"
+                            ],
+                            "correctAnswer": "OpenVPN",
+                            "explanation": "La opción marcada en verde en el material fuente es: OpenVPN."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo de realizar simulacros de respuesta a incidentes y pruebas de copias de seguridad?",
+                            "options": [
+                                "Gastar el presupuesto sobrante del departamento de IT",
+                                "Cumplir con los requisitos estéticos de la oficina",
+                                "Asegurar que la organización es capaz de recuperarse rápidamente ante un desastre real",
+                                "Entretener a los empleados durante la jornada laboral"
+                            ],
+                            "correctAnswer": "Asegurar que la organización es capaz de recuperarse rápidamente ante un desastre real",
+                            "explanation": "La opción marcada en verde en el material fuente es: Asegurar que la organización es capaz de recuperarse rápidamente ante un desastre real."
+                        },
+                        {
+                            "text": "¿Qué enfoque de seguridad actual valida cada solicitud de acceso según la identidad y el contexto, sin confiar nunca por defecto?",
+                            "options": [
+                                "Zero Trust (Confianza Cero)",
+                                "Segmentación física única",
+                                "Acceso abierto",
+                                "Perímetro tradicional"
+                            ],
+                            "correctAnswer": "Zero Trust (Confianza Cero)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Zero Trust (Confianza Cero)."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

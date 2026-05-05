@@ -1,0 +1,236 @@
+{
+    "subjects": [
+        {
+            "code": "SASP",
+            "name": "Sostenibilidad aplicada al sistema productivo",
+            "topics": [
+                {
+                    "number": 4,
+                    "title": "UT4: Economía Circular",
+                    "questions": [
+                        {
+                            "text": "Principio del formulario ¿Cuál es el principio fundamental de la economía circular que difiere más radicalmente de la economía lineal?",
+                            "options": [
+                                "La producción masiva de bienes para satisfacer la demanda global.",
+                                "El enfoque en el cierre de ciclos de materiales mediante la reutilización y el reciclaje.",
+                                "El desecho controlado de residuos en vertederos especializados.",
+                                "La extracción continua de recursos naturales como base del crecimiento económico."
+                            ],
+                            "correctAnswer": "El enfoque en el cierre de ciclos de materiales mediante la reutilización y el reciclaje.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El enfoque en el cierre de ciclos de materiales mediante la reutilización y el reciclaje.."
+                        },
+                        {
+                            "text": "En el modelo de economía circular, ¿qué papel juega el diseño para la durabilidad en la reducción de residuos?",
+                            "options": [
+                                "Aumenta la demanda de materias primas vírgenes al hacer que los productos sean más complejos.",
+                                "Facilita la extensión del ciclo de vida de los productos, reduciendo la necesidad de fabricar nuevos bienes.",
+                                "Limita la capacidad de los productos para ser reciclados al final de su vida útil.",
+                                "Obliga a los consumidores a reemplazar los productos con mayor frecuencia debido a fallas anticipadas."
+                            ],
+                            "correctAnswer": "Facilita la extensión del ciclo de vida de los productos, reduciendo la necesidad de fabricar nuevos bienes.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Facilita la extensión del ciclo de vida de los productos, reduciendo la necesidad de fabricar nuevos bienes.."
+                        },
+                        {
+                            "text": "Según el documento, ¿cuál es una de las mayores barreras para la implementación del enfoque 7R en las industrias manufactureras?",
+                            "options": [
+                                "La dificultad para encontrar materiales reciclables de alta calidad.",
+                                "La resistencia del mercado a aceptar productos rediseñados.",
+                                "La falta de normativa que obligue a las empresas a seguir prácticas sostenibles.",
+                                "El alto costo de la energía renovable comparado con los combustibles fósiles."
+                            ],
+                            "correctAnswer": "La dificultad para encontrar materiales reciclables de alta calidad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad para encontrar materiales reciclables de alta calidad.."
+                        },
+                        {
+                            "text": "¿Cómo contribuye la obsolescencia programada a la economía lineal según el análisis del documento?",
+                            "options": [
+                                "Fomenta la reutilización y reciclaje de productos en lugar de su descarte.",
+                                "Reduce la cantidad de residuos electrónicos al promover la actualización continua de productos.",
+                                "Aumenta la generación de residuos al diseñar productos con una vida útil limitada que deben ser reemplazados con frecuencia.",
+                                "Aumenta la eficiencia en el uso de recursos al optimizar el ciclo de vida de los productos."
+                            ],
+                            "correctAnswer": "Aumenta la generación de residuos al diseñar productos con una vida útil limitada que deben ser reemplazados con frecuencia.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aumenta la generación de residuos al diseñar productos con una vida útil limitada que deben ser reemplazados con frecuencia.."
+                        },
+                        {
+                            "text": "En la transición de una economía lineal a una circular, ¿qué estrategia se menciona como crucial para reducir la huella ecológica global?",
+                            "options": [
+                                "Promover el consumismo para mantener la estabilidad económica.",
+                                "Reducir la durabilidad de los productos para estimular el crecimiento del mercado de reposición.",
+                                "Aumentar la extracción de recursos naturales para satisfacer la demanda creciente.",
+                                "Implementar el ecodiseño para minimizar el impacto ambiental desde la fase de diseño del producto."
+                            ],
+                            "correctAnswer": "Implementar el ecodiseño para minimizar el impacto ambiental desde la fase de diseño del producto.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Implementar el ecodiseño para minimizar el impacto ambiental desde la fase de diseño del producto.."
+                        },
+                        {
+                            "text": "¿Qué impacto tiene la recuperación de materiales en la sostenibilidad según el enfoque 7R descrito en el documento?",
+                            "options": [
+                                "Permite la extracción de valor de productos al final de su vida útil, reduciendo la necesidad de nuevos recursos.",
+                                "Dificulta el reciclaje al mezclar materiales incompatibles.",
+                                "No tiene un impacto significativo en la economía circular.",
+                                "Aumenta la dependencia de recursos no renovables."
+                            ],
+                            "correctAnswer": "Permite la extracción de valor de productos al final de su vida útil, reduciendo la necesidad de nuevos recursos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Permite la extracción de valor de productos al final de su vida útil, reduciendo la necesidad de nuevos recursos.."
+                        },
+                        {
+                            "text": "En términos de sostenibilidad, ¿qué ventaja ofrece el rediseño de productos frente a la simple reducción de materiales según el enfoque 7R?",
+                            "options": [
+                                "Reduce la posibilidad de reutilización al hacer los productos más frágiles.",
+                                "Optimiza los productos para que sean más fácilmente reparables y reciclables, prolongando su vida útil.",
+                                "Limita la capacidad de innovación al restringir el uso de materiales avanzados.",
+                                "Aumenta la complejidad del reciclaje al final del ciclo de vida del producto."
+                            ],
+                            "correctAnswer": "Optimiza los productos para que sean más fácilmente reparables y reciclables, prolongando su vida útil.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Optimiza los productos para que sean más fácilmente reparables y reciclables, prolongando su vida útil.."
+                        },
+                        {
+                            "text": "Según el documento, ¿cuál es uno de los desafíos más significativos al aplicar el análisis del ciclo de vida (ACV) a productos en una economía circular?",
+                            "options": [
+                                "La resistencia de los consumidores a aceptar productos reciclados.",
+                                "La dificultad para obtener datos precisos sobre la disposición final de los productos.",
+                                "La falta de herramientas para medir el impacto ambiental en cada etapa del ciclo de vida.",
+                                "La incapacidad para evaluar correctamente el impacto social de los productos."
+                            ],
+                            "correctAnswer": "La dificultad para obtener datos precisos sobre la disposición final de los productos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad para obtener datos precisos sobre la disposición final de los productos.."
+                        },
+                        {
+                            "text": "En el contexto de la economía verde, ¿qué sinergia se menciona entre la economía circular y la energía renovable según el documento?",
+                            "options": [
+                                "Ambas limitan el crecimiento económico al imponer restricciones en el uso de recursos.",
+                                "La economía circular depende completamente de las energías renovables para ser viable.",
+                                "Las energías renovables proporcionan la base energética necesaria para mantener los ciclos de materiales en la economía circular sin aumentar las emisiones de carbono.",
+                                "La economía verde favorece la producción lineal para mantener la eficiencia operativa."
+                            ],
+                            "correctAnswer": "Las energías renovables proporcionan la base energética necesaria para mantener los ciclos de materiales en la economía circular sin aumentar las emisiones de carbono.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Las energías renovables proporcionan la base energética necesaria para mantener los ciclos de materiales en la economía circular sin aumentar las emisiones de carbono.."
+                        },
+                        {
+                            "text": "¿Cuál es el impacto del consumismo en la sostenibilidad del modelo de economía lineal según el análisis del documento?",
+                            "options": [
+                                "Reduce la necesidad de nuevos recursos al reciclar constantemente productos desechados.",
+                                "Aumenta la extracción excesiva de recursos y la generación masiva de residuos, exacerbando los problemas de sostenibilidad.",
+                                "El consumismo facilita la transición a una economía circular al aumentar la demanda de productos sostenibles.",
+                                "Promueve la estabilidad económica al evitar la sobreproducción."
+                            ],
+                            "correctAnswer": "Aumenta la extracción excesiva de recursos y la generación masiva de residuos, exacerbando los problemas de sostenibilidad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aumenta la extracción excesiva de recursos y la generación masiva de residuos, exacerbando los problemas de sostenibilidad.."
+                        },
+                        {
+                            "text": "En el análisis del documento, ¿qué rol juega la obsolescencia programada en la economía lineal y su efecto en la sostenibilidad?",
+                            "options": [
+                                "Extiende la vida útil de los productos, reduciendo la necesidad de nuevas materias primas.",
+                                "Facilita el reciclaje al asegurar que todos los productos tengan componentes fácilmente desmontables.",
+                                "Aumenta la generación de residuos y la demanda de recursos naturales al diseñar productos con una vida útil limitada.",
+                                "No tiene un impacto significativo en la sostenibilidad ni en la economía lineal."
+                            ],
+                            "correctAnswer": "Aumenta la generación de residuos y la demanda de recursos naturales al diseñar productos con una vida útil limitada.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aumenta la generación de residuos y la demanda de recursos naturales al diseñar productos con una vida útil limitada.."
+                        },
+                        {
+                            "text": "¿Qué ventaja competitiva clave se menciona para las empresas que adoptan el ecodiseño en el contexto de la economía circular?",
+                            "options": [
+                                "La reducción inmediata de costos operativos al eliminar por completo la necesidad de materias primas vírgenes.",
+                                "La creación de productos de menor calidad pero más baratos, lo que facilita su entrada en mercados emergentes.",
+                                "La diferenciación en el mercado al ofrecer productos sostenibles que atraen a consumidores conscientes y preocupados por el medio ambiente.",
+                                "La simplificación de la cadena de suministro al reducir la variedad de materiales utilizados."
+                            ],
+                            "correctAnswer": "La diferenciación en el mercado al ofrecer productos sostenibles que atraen a consumidores conscientes y preocupados por el medio ambiente.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La diferenciación en el mercado al ofrecer productos sostenibles que atraen a consumidores conscientes y preocupados por el medio ambiente.."
+                        },
+                        {
+                            "text": "En términos de producción y consumo, ¿cuál es la principal diferencia entre la economía lineal y la economía circular según el documento?",
+                            "options": [
+                                "La economía circular depende exclusivamente de la energía no renovable, mientras que la economía lineal favorece las energías renovables.",
+                                "La economía lineal se basa en la producción masiva y el desecho de residuos, mientras que la economía circular busca cerrar los ciclos de materiales y minimizar los residuos.",
+                                "La economía lineal es más flexible y adaptable a los cambios del mercado que la economía circular.",
+                                "La economía lineal maximiza la eficiencia energética, mientras que la economía circular prioriza la reducción de costos."
+                            ],
+                            "correctAnswer": "La economía lineal se basa en la producción masiva y el desecho de residuos, mientras que la economía circular busca cerrar los ciclos de materiales y minimizar los residuos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La economía lineal se basa en la producción masiva y el desecho de residuos, mientras que la economía circular busca cerrar los ciclos de materiales y minimizar los residuos.."
+                        },
+                        {
+                            "text": "¿Qué estrategia se menciona como fundamental para mitigar el impacto de la obsolescencia programada en la economía circular?",
+                            "options": [
+                                "Rediseñar productos para facilitar su reparación, actualización y prolongar su vida útil.",
+                                "Fomentar el reciclaje de productos obsoletos sin considerar su reparación.",
+                                "Promover la obsolescencia programada para mantener la demanda de productos nuevos.",
+                                "Incrementar la producción para compensar la disminución de la durabilidad de los productos."
+                            ],
+                            "correctAnswer": "Rediseñar productos para facilitar su reparación, actualización y prolongar su vida útil.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Rediseñar productos para facilitar su reparación, actualización y prolongar su vida útil.."
+                        },
+                        {
+                            "text": "En el contexto de la economía circular, ¿cómo se evalúa la efectividad de un proyecto de ecodiseño según el documento?",
+                            "options": [
+                                "Exclusivamente por su capacidad de reducir los costos de producción.",
+                                "Por su capacidad de generar mayores beneficios económicos sin considerar su impacto ambiental.",
+                                "Por la cantidad de nuevos recursos necesarios para su producción.",
+                                "Por la mejora en la eficiencia energética durante el uso del producto y la minimización de residuos a lo largo de su ciclo de vida."
+                            ],
+                            "correctAnswer": "Por la mejora en la eficiencia energética durante el uso del producto y la minimización de residuos a lo largo de su ciclo de vida.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Por la mejora en la eficiencia energética durante el uso del producto y la minimización de residuos a lo largo de su ciclo de vida.."
+                        },
+                        {
+                            "text": "¿Qué enfoque se considera clave para reducir el impacto ambiental de los productos al final de su vida útil en la economía circular?",
+                            "options": [
+                                "Imitar el acceso de los consumidores a servicios de reparación.",
+                                "Incrementar la producción de nuevos productos para sustituir a los antiguos.",
+                                "Aumentar el uso de materiales no reciclables para mejorar la calidad del producto.",
+                                "Diseñar productos que sean fácilmente reciclables y que puedan reincorporarse al ciclo productivo."
+                            ],
+                            "correctAnswer": "Diseñar productos que sean fácilmente reciclables y que puedan reincorporarse al ciclo productivo.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Diseñar productos que sean fácilmente reciclables y que puedan reincorporarse al ciclo productivo.."
+                        },
+                        {
+                            "text": "En la economía verde, ¿cómo se describen las interacciones entre la sostenibilidad ambiental y el crecimiento económico según el documento?",
+                            "options": [
+                                "Como antagonistas donde la sostenibilidad limita el crecimiento económico.",
+                                "Como independientes donde la sostenibilidad no tiene impacto en el crecimiento económico.",
+                                "Como irrelevantes en el contexto de la economía global.",
+                                "Como complementarias donde la sostenibilidad ambiental impulsa un crecimiento económico más equitativo y duradero."
+                            ],
+                            "correctAnswer": "Como complementarias donde la sostenibilidad ambiental impulsa un crecimiento económico más equitativo y duradero.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Como complementarias donde la sostenibilidad ambiental impulsa un crecimiento económico más equitativo y duradero.."
+                        },
+                        {
+                            "text": "¿Qué desafíos plantea la economía circular para la gestión de la cadena de suministro según el documento?",
+                            "options": [
+                                "La reducción de la variedad de proveedores disponibles debido a las restricciones ambientales.",
+                                "La complejidad de integrar la sostenibilidad en todas las etapas de la cadena de suministro, desde la extracción de materias primas hasta la disposición final.",
+                                "La disminución de la eficiencia operativa al incorporar prácticas de sostenibilidad.",
+                                "La necesidad de incrementar los costos logísticos al reciclar materiales de baja calidad."
+                            ],
+                            "correctAnswer": "La complejidad de integrar la sostenibilidad en todas las etapas de la cadena de suministro, desde la extracción de materias primas hasta la disposición final.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La complejidad de integrar la sostenibilidad en todas las etapas de la cadena de suministro, desde la extracción de materias primas hasta la disposición final.."
+                        },
+                        {
+                            "text": "En el análisis del ciclo de vida (ACV), ¿cuál es el principal objetivo al aplicar este enfoque a productos en la economía circular?",
+                            "options": [
+                                "Aumentar la complejidad del proceso productivo para mejorar la durabilidad del producto.",
+                                "Limitar el acceso de los consumidores a productos de larga duración.",
+                                "Maximizar el uso de materiales vírgenes en la producción.",
+                                "Evaluar y minimizar el impacto ambiental en cada etapa del ciclo de vida del producto, desde la extracción de recursos hasta su disposición final."
+                            ],
+                            "correctAnswer": "Evaluar y minimizar el impacto ambiental en cada etapa del ciclo de vida del producto, desde la extracción de recursos hasta su disposición final.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Evaluar y minimizar el impacto ambiental en cada etapa del ciclo de vida del producto, desde la extracción de recursos hasta su disposición final.."
+                        },
+                        {
+                            "text": "Según el documento, ¿qué rol desempeña el consumidor en la transición hacia una economía circular?",
+                            "options": [
+                                "Un rol crucial al elegir productos diseñados para ser sostenibles y apoyar prácticas de reciclaje y reutilización.",
+                                "Ningún rol significativo ya que las empresas son las únicas responsables de la sostenibilidad.",
+                                "Un rol pasivo donde las decisiones de compra no influyen en el modelo económico.",
+                                "Un rol limitado a la aceptación de productos más baratos y menos duraderos. Final del formulario"
+                            ],
+                            "correctAnswer": "Un rol crucial al elegir productos diseñados para ser sostenibles y apoyar prácticas de reciclaje y reutilización.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Un rol crucial al elegir productos diseñados para ser sostenibles y apoyar prácticas de reciclaje y reutilización.."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

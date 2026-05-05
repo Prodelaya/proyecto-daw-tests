@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 4,
+                    "title": "UT4: Continuidad de Negocio y Recuperación",
+                    "questions": [
+                        {
+                            "text": "¿Cómo se define la continuidad de negocio en el ámbito de la ciberseguridad?",
+                            "options": [
+                                "El proceso de contratar seguros que cubran las pérdidas económicas tras un ciberataque.",
+                                "La monitorización exclusiva de las redes sociales de la empresa para evitar daños reputacionales.",
+                                "El conjunto de planes para mantener los servicios activos o restablecerlos rápido tras un incidente grave.",
+                                "La capacidad de evitar cualquier tipo de incidencia técnica mediante el uso de antivirus."
+                            ],
+                            "correctAnswer": "El conjunto de planes para mantener los servicios activos o restablecerlos rápido tras un incidente grave.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El conjunto de planes para mantener los servicios activos o restablecerlos rápido tras un incidente grave.."
+                        },
+                        {
+                            "text": "Un administrador de sistemas realiza una copia de seguridad que incluye absolutamente todo el contenido del sistema. ¿De qué tipo de copia se trata?",
+                            "options": [
+                                "Copia completa",
+                                "Copia incremental",
+                                "Copia espejo",
+                                "Copia diferencial"
+                            ],
+                            "correctAnswer": "Copia completa",
+                            "explanation": "La opción marcada en verde en el material fuente es: Copia completa."
+                        },
+                        {
+                            "text": "¿Cuál es la característica principal de una copia de seguridad incremental?",
+                            "options": [
+                                "Duplica los datos en tiempo real en una segunda unidad física idéntica.",
+                                "Requiere el mismo espacio de almacenamiento que una copia completa en cada ejecución.",
+                                "Almacena únicamente los cambios realizados desde la última copia, ya sea completa o incremental.",
+                                "Guarda todos los cambios realizados desde la última copia completa realizada."
+                            ],
+                            "correctAnswer": "Almacena únicamente los cambios realizados desde la última copia, ya sea completa o incremental.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Almacena únicamente los cambios realizados desde la última copia, ya sea completa o incremental.."
+                        },
+                        {
+                            "text": "En una estrategia de backup diferencial (copia diferencial), ¿qué elementos son necesarios para realizar una restauración completa del sistema?",
+                            "options": [
+                                "La última copia completa y todas las copias incrementales diarias.",
+                                "Todas las copias diferenciales realizadas desde el inicio del año.",
+                                "La última copia completa y la última copia diferencial realizada.",
+                                "Únicamente la última copia diferencial realizada el día anterior."
+                            ],
+                            "correctAnswer": "La última copia completa y la última copia diferencial realizada.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La última copia completa y la última copia diferencial realizada.."
+                        },
+                        {
+                            "text": "¿Qué ventaja técnica ofrece la regla de respaldo 3-2-1?",
+                            "options": [
+                                "Garantiza la resiliencia al diversificar soportes y mantener una copia fuera de la ubicación principal.",
+                                "Reduce el coste de almacenamiento al eliminar la necesidad de copias en la nube.",
+                                "Asegura que los datos estén siempre en el mismo servidor para facilitar el acceso rápido.",
+                                "Permite que los usuarios finales gestionen sus propias copias de seguridad sin supervisión."
+                            ],
+                            "correctAnswer": "Garantiza la resiliencia al diversificar soportes y mantener una copia fuera de la ubicación principal.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Garantiza la resiliencia al diversificar soportes y mantener una copia fuera de la ubicación principal.."
+                        },
+                        {
+                            "text": "¿Qué riesgo presenta la técnica de copia espejo (RAID 1) frente a un ataque de ransomware?",
+                            "options": [
+                                "El virus cifra los datos en el disco principal y el error se réplica al instante en la copia.",
+                                "Requiere una conexión a internet de alta velocidad de forma obligatoria.",
+                                "La velocidad de escritura es demasiado lenta para entornos de producción.",
+                                "No permite la recuperación de datos si el servidor físico se apaga accidentalmente."
+                            ],
+                            "correctAnswer": "El virus cifra los datos en el disco principal y el error se réplica al instante en la copia.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El virus cifra los datos en el disco principal y el error se réplica al instante en la copia.."
+                        },
+                        {
+                            "text": "¿Qué beneficio aporta el uso de \"copias frías\" en soportes desconectados de la red?",
+                            "options": [
+                                "Permiten una restauración automática en milisegundos sin intervención humana.",
+                                "Facilitan la edición colaborativa de documentos en tiempo real.",
+                                "Actúan como un búnker contra el ransomware al no estar accesibles para el malware.",
+                                "Son el soporte más económico para realizar copias completas cada hora."
+                            ],
+                            "correctAnswer": "Actúan como un búnker contra el ransomware al no estar accesibles para el malware.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Actúan como un búnker contra el ransomware al no estar accesibles para el malware.."
+                        },
+                        {
+                            "text": "¿Cuál es la función principal de un Plan de Recuperación ante Desastres (DRP)?",
+                            "options": [
+                                "Comprobar la velocidad de la conexión a internet de los empleados en teletrabajo.",
+                                "Definir las vacaciones del personal técnico tras un periodo de mucho trabajo.",
+                                "Elaborar el presupuesto anual para la compra de nuevos ordenadores de oficina.",
+                                "Detallar los pasos técnicos para restablecer sistemas e información tras un incidente grave."
+                            ],
+                            "correctAnswer": "Detallar los pasos técnicos para restablecer sistemas e información tras un incidente grave.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Detallar los pasos técnicos para restablecer sistemas e información tras un incidente grave.."
+                        },
+                        {
+                            "text": "¿Qué mide el indicador RTO (Recovery Time Objective)?",
+                            "options": [
+                                "La distancia física entre el centro de datos principal y el de respaldo.",
+                                "La cantidad de datos que la empresa puede permitirse perder medida en tiempo.",
+                                "El tiempo máximo que un servicio puede estar inactivo antes de que las consecuencias sean inaceptables.",
+                                "El coste total de los servidores necesarios para montar un sitio caliente."
+                            ],
+                            "correctAnswer": "El tiempo máximo que un servicio puede estar inactivo antes de que las consecuencias sean inaceptables.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El tiempo máximo que un servicio puede estar inactivo antes de que las consecuencias sean inaceptables.."
+                        },
+                        {
+                            "text": "Si una empresa determina que su RPO (Recovery Point Objective) es de 15 minutos, ¿qué implica esto para sus backups?",
+                            "options": [
+                                "Que el personal técnico tiene 15 minutos para llegar a la oficina en caso de emergencia.",
+                                "Que el sistema debe tardar como máximo 15 minutos en volver a funcionar tras un fallo.",
+                                "Que los datos solo se guardan si el servidor ha estado encendido más de 15 minutos.",
+                                "Que las copias de seguridad o replicaciones deben realizarse al menos cada 15 minutos."
+                            ],
+                            "correctAnswer": "Que las copias de seguridad o replicaciones deben realizarse al menos cada 15 minutos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Que las copias de seguridad o replicaciones deben realizarse al menos cada 15 minutos.."
+                        },
+                        {
+                            "text": "¿Qué define a un \"sitio caliente\" (hot site) como centro de contingencia?",
+                            "options": [
+                                "Un solar vacío con suministro eléctrico donde se deben instalar servidores nuevos.",
+                                "Un servidor que se mantiene a alta temperatura para mejorar su rendimiento.",
+                                "Una oficina con muebles pero sin ningún tipo de equipamiento informático.",
+                                "Un centro alternativo con infraestructura y datos sincronizados casi en tiempo real."
+                            ],
+                            "correctAnswer": "Un centro alternativo con infraestructura y datos sincronizados casi en tiempo real.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Un centro alternativo con infraestructura y datos sincronizados casi en tiempo real.."
+                        },
+                        {
+                            "text": "¿Cuál es el inconveniente principal de un \"sitio frío\" (cold site) en una estrategia de recuperación?",
+                            "options": [
+                                "Es el modelo más caro debido al mantenimiento constante de los equipos.",
+                                "No permite guardar copias de seguridad en formato físico.",
+                                "Requiere que los datos estén sincronizados al milisegundo con la sede principal.",
+                                "La restauración puede llevar días o semanas al tener que instalar todo el hardware y software."
+                            ],
+                            "correctAnswer": "La restauración puede llevar días o semanas al tener que instalar todo el hardware y software.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La restauración puede llevar días o semanas al tener que instalar todo el hardware y software.."
+                        },
+                        {
+                            "text": "¿Cómo se define la alta disponibilidad (HA) en infraestructuras críticas?",
+                            "options": [
+                                "La conexión de todos los equipos de la empresa a una misma red Wi-Fi pública.",
+                                "La capacidad de un sistema para estar operativo casi sin interrupciones y ser siempre accesible.",
+                                "El uso de un único servidor de gran potencia para gestionar todo el tráfico de la red.",
+                                "La obligación de que los empleados estén disponibles 24 horas al día para llamadas."
+                            ],
+                            "correctAnswer": "La capacidad de un sistema para estar operativo casi sin interrupciones y ser siempre accesible.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La capacidad de un sistema para estar operativo casi sin interrupciones y ser siempre accesible.."
+                        },
+                        {
+                            "text": "¿Cuál es la diferencia fundamental entre redundancia y alta disponibilidad?",
+                            "options": [
+                                "La alta disponibilidad es solo para el software y la redundancia es solo para el hardware.",
+                                "La redundancia es la duplicación de piezas; la alta disponibilidad es el resultado de gestionar esos fallos.",
+                                "No hay diferencia; ambos términos significan exactamente lo mismo en informática.",
+                                "La redundancia garantiza que nunca habrá fallos, mientras que la alta disponibilidad los oculta."
+                            ],
+                            "correctAnswer": "La redundancia es la duplicación de piezas; la alta disponibilidad es el resultado de gestionar esos fallos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La redundancia es la duplicación de piezas; la alta disponibilidad es el resultado de gestionar esos fallos.."
+                        },
+                        {
+                            "text": "¿Qué objetivo se persigue al eliminar los \"puntos únicos de fallo\" (single points of failure)?",
+                            "options": [
+                                "Reducir el gasto en componentes de hardware duplicados para ahorrar costes.",
+                                "Simplificar la red para que sea más fácil de administrar por una sola persona.",
+                                "Permitir que los servidores funcionen sin necesidad de sistemas de ventilación.",
+                                "Asegurar que el fallo de una sola pieza no detenga la operación de todo el sistema."
+                            ],
+                            "correctAnswer": "Asegurar que el fallo de una sola pieza no detenga la operación de todo el sistema.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Asegurar que el fallo de una sola pieza no detenga la operación de todo el sistema.."
+                        },
+                        {
+                            "text": "¿Qué es el proceso de \"failover\" o conmutación por error?",
+                            "options": [
+                                "El borrado accidental de datos durante una actualización de software.",
+                                "El aumento de la latencia en la red debido a un exceso de usuarios conectados.",
+                                "La transferencia automática de la carga de trabajo a un servidor secundario si el principal cae.",
+                                "La desconexión programada de los sistemas para realizar tareas de limpieza física."
+                            ],
+                            "correctAnswer": "La transferencia automática de la carga de trabajo a un servidor secundario si el principal cae.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La transferencia automática de la carga de trabajo a un servidor secundario si el principal cae.."
+                        },
+                        {
+                            "text": "En una configuración de clúster activa-activa, ¿cómo se comportan los servidores?",
+                            "options": [
+                                "Solo el servidor principal tiene acceso a la base de datos de la empresa.",
+                                "Los servidores se turnan para trabajar cada 12 horas exactas.",
+                                "Ambos servidores trabajan simultáneamente repartiendo la carga de trabajo.",
+                                "Un servidor trabaja mientras el otro permanece apagado hasta que hay un fallo."
+                            ],
+                            "correctAnswer": "Ambos servidores trabajan simultáneamente repartiendo la carga de trabajo.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Ambos servidores trabajan simultáneamente repartiendo la carga de trabajo.."
+                        },
+                        {
+                            "text": "¿Qué función cumple un balanceador de carga (Load Balancer) en una arquitectura de alta disponibilidad?",
+                            "options": [
+                                "Aumentar la tensión eléctrica de los servidores para que procesen más rápido.",
+                                "Realizar copias de seguridad completas de forma automática cada hora.",
+                                "Actuar como punto de entrada y distribuir el tráfico de forma equitativa entre varios servidores.",
+                                "Encriptar los archivos del sistema para evitar que los empleados los borren."
+                            ],
+                            "correctAnswer": "Actuar como punto de entrada y distribuir el tráfico de forma equitativa entre varios servidores.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Actuar como punto de entrada y distribuir el tráfico de forma equitativa entre varios servidores.."
+                        },
+                        {
+                            "text": "¿En qué consiste el diseño de aplicaciones \"stateless\" (sin estado)?",
+                            "options": [
+                                "En crear aplicaciones que no requieren una conexión a internet para funcionar.",
+                                "En eliminar el uso de bases de datos para mejorar la velocidad de carga.",
+                                "En desarrollar programas que no tienen ningún tipo de interfaz gráfica para el usuario.",
+                                "En programar software que no guarde información crítica dentro del propio servidor."
+                            ],
+                            "correctAnswer": "En programar software que no guarde información crítica dentro del propio servidor.",
+                            "explanation": "La opción marcada en verde en el material fuente es: En programar software que no guarde información crítica dentro del propio servidor.."
+                        },
+                        {
+                            "text": "¿Qué ventaja ofrece la replicación en streaming para una base de datos PostgreSQL?",
+                            "options": [
+                                "Mantiene nodos secundarios con copias exactas de la información al milisegundo.",
+                                "Permite ver vídeos de formación técnica directamente desde la consola de comandos.",
+                                "Reduce el tamaño de los archivos de datos mediante técnicas de compresión de audio.",
+                                "Evita que sea necesario realizar backups fuera de línea según la regla 3-2-1."
+                            ],
+                            "correctAnswer": "Mantiene nodos secundarios con copias exactas de la información al milisegundo.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Mantiene nodos secundarios con copias exactas de la información al milisegundo.."
+                        },
+                        {
+                            "text": "¿Qué protocolo de redundancia industrial envía cada paquete de datos simultáneamente por dos redes independientes?",
+                            "options": [
+                                "Protocolo de resolución de nombres (DNS)",
+                                "Protocolo de redundancia en paralelo (PRP)",
+                                "HTTP",
+                                "Protocolo de transferencia de archivos (FTP)"
+                            ],
+                            "correctAnswer": "Protocolo de redundancia en paralelo (PRP)",
+                            "explanation": "La opción marcada en verde en el material fuente es: Protocolo de redundancia en paralelo (PRP)."
+                        },
+                        {
+                            "text": "¿Cómo garantiza la supervivencia de los datos una topología en anillo con el protocolo HSR?",
+                            "options": [
+                                "Eliminando todos los cortafuegos de la red para que el tráfico fluya más rápido.",
+                                "Almacenando la información exclusivamente en dispositivos de memoria USB.",
+                                "Obligando a los usuarios a cambiar su contraseña cada vez que el paquete da una vuelta.",
+                                "Haciendo que los paquetes circulen en ambos sentidos a la vez por el anillo."
+                            ],
+                            "correctAnswer": "Haciendo que los paquetes circulen en ambos sentidos a la vez por el anillo.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Haciendo que los paquetes circulen en ambos sentidos a la vez por el anillo.."
+                        },
+                        {
+                            "text": "¿Qué representa el objetivo de disponibilidad de los \"cinco nueves\" (99,999%)?",
+                            "options": [
+                                "Que el sistema solo puede estar inactivo unos 5 minutos en todo un año.",
+                                "Que la empresa tiene cinco servidores de respaldo por cada servidor principal.",
+                                "Que el 99% de las copias de seguridad se realizan de forma manual.",
+                                "Que se han detectado cinco vulnerabilidades críticas en el último análisis."
+                            ],
+                            "correctAnswer": "Que el sistema solo puede estar inactivo unos 5 minutos en todo un año.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Que el sistema solo puede estar inactivo unos 5 minutos en todo un año.."
+                        },
+                        {
+                            "text": "¿Qué mide la métrica MTBF (Mean Time Between Failures)?",
+                            "options": [
+                                "El tiempo medio que se tarda en reparar un sistema tras una avería.",
+                                "La cantidad de dinero que se pierde por cada minuto de inactividad.",
+                                "El número de ataques de denegación de servicio recibidos al mes.",
+                                "El tiempo medio que transcurre entre un fallo y el siguiente."
+                            ],
+                            "correctAnswer": "El tiempo medio que transcurre entre un fallo y el siguiente.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El tiempo medio que transcurre entre un fallo y el siguiente.."
+                        },
+                        {
+                            "text": "¿Qué objetivo se busca al reducir el MTTR (Mean Time To Repair)?",
+                            "options": [
+                                "Incrementar la distancia física entre los racks de servidores en el centro de datos.",
+                                "Reducir el número de copias de seguridad completas que se realizan cada semana.",
+                                "Minimizar el tiempo necesario para volver a poner el sistema en marcha tras una rotura.",
+                                "Aumentar el tiempo que los técnicos pasan formándose en nuevas tecnologías."
+                            ],
+                            "correctAnswer": "Minimizar el tiempo necesario para volver a poner el sistema en marcha tras una rotura.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Minimizar el tiempo necesario para volver a poner el sistema en marcha tras una rotura.."
+                        },
+                        {
+                            "text": "¿Para qué se utilizan herramientas de orquestación como Kubernetes en la continuidad de negocio?",
+                            "options": [
+                                "Para bloquear el acceso a internet de los empleados durante la jornada laboral.",
+                                "Para enviar correos electrónicos de forma masiva a los clientes de la base de datos.",
+                                "Para diseñar logotipos y materiales de marketing para la empresa tecnológica.",
+                                "Para detectar si un contenedor falla y levantar uno nuevo automáticamente en otro servidor."
+                            ],
+                            "correctAnswer": "Para detectar si un contenedor falla y levantar uno nuevo automáticamente en otro servidor.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Para detectar si un contenedor falla y levantar uno nuevo automáticamente en otro servidor.."
+                        },
+                        {
+                            "text": "¿Qué es la redundancia geográfica en el despliegue de aplicaciones?",
+                            "options": [
+                                "Limitar el acceso a la aplicación solo a los usuarios que vivan cerca de la oficina.",
+                                "Alojar copias del sistema en centros de datos situados en diferentes ciudades o regiones.",
+                                "Traducir el código fuente del software a todos los idiomas de la Unión Europea.",
+                                "Usar cables de red de diferentes colores según el país donde se fabriquen."
+                            ],
+                            "correctAnswer": "Alojar copias del sistema en centros de datos situados en diferentes ciudades o regiones.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Alojar copias del sistema en centros de datos situados en diferentes ciudades o regiones.."
+                        },
+                        {
+                            "text": "¿Por qué es fundamental realizar simulacros de restauración periódicamente?",
+                            "options": [
+                                "Para que el personal de la oficina aprenda a usar el extintor de incendios.",
+                                "Para justificar el aumento de la factura de la luz ante la dirección de la empresa.",
+                                "Para verificar que las copias de seguridad son realmente legibles y el plan de recuperación funciona.",
+                                "Para cumplir con los requisitos estéticos de las auditorías de diseño gráfico."
+                            ],
+                            "correctAnswer": "Para verificar que las copias de seguridad son realmente legibles y el plan de recuperación funciona.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Para verificar que las copias de seguridad son realmente legibles y el plan de recuperación funciona.."
+                        },
+                        {
+                            "text": "En el contexto de DAW, ¿qué herramienta facilita mantener un historial constante del código como medida de seguridad?",
+                            "options": [
+                                "Photoshop",
+                                "Git",
+                                "Excel",
+                                "PowerPoint"
+                            ],
+                            "correctAnswer": "Git",
+                            "explanation": "La opción marcada en verde en el material fuente es: Git."
+                        },
+                        {
+                            "text": "¿Qué se entiende por resiliencia en ciberseguridad?",
+                            "options": [
+                                "La compra de equipos informáticos de última generación todos los meses.",
+                                "La capacidad de un sistema para resistir, absorber, recuperarse y adaptarse ante incidentes.",
+                                "La desconexión total de los servidores de internet para evitar ataques externos.",
+                                "El uso de contraseñas que contengan exclusivamente números y letras minúsculas."
+                            ],
+                            "correctAnswer": "La capacidad de un sistema para resistir, absorber, recuperarse y adaptarse ante incidentes.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La capacidad de un sistema para resistir, absorber, recuperarse y adaptarse ante incidentes.."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "IPEII",
+            "name": "Itinerario Personal para la Empleabilidad II",
+            "topics": [
+                {
+                    "number": 4,
+                    "title": "UT4: Seguridad social y protección al trabajador",
+                    "questions": [
+                        {
+                            "text": "Una profesional de la educación infantil comienza su primer trabajo y se pregunta qué es exactamente la Seguridad Social. Según el temario, ¿cuál es la mejor forma de definir este sistema?",
+                            "options": [
+                                "Un conjunto de normas para que las empresas gestionen sus beneficios anuales.",
+                                "Una base de datos donde se registran únicamente los contratos temporales.",
+                                "Un impuesto obligatorio que solo sirve para financiar la sanidad pública y los hospitales.",
+                                "Un seguro colectivo que garantiza prevención y auxilio ante situaciones de necesidad."
+                            ],
+                            "correctAnswer": "Un seguro colectivo que garantiza prevención y auxilio ante situaciones de necesidad.",
+                            "explanation": "La opción correcta es: Un seguro colectivo que garantiza prevención y auxilio ante situaciones de necesidad."
+                        },
+                        {
+                            "text": "En el sistema español existen diferentes \"cajones\" o regímenes según la actividad profesional. Si un graduado en Marketing es contratado por una agencia de publicidad, ¿en qué régimen se integrará?",
+                            "options": [
+                                "Régimen Especial de Trabajadores Autónomos (RETA).",
+                                "Régimen de universalidad para becarios y estudiantes en prácticas.",
+                                "Sistema Especial de Artistas y profesionales creativos.",
+                                "Régimen General, que protege a quienes trabajan por cuenta ajena."
+                            ],
+                            "correctAnswer": "Régimen General, que protege a quienes trabajan por cuenta ajena.",
+                            "explanation": "La opción correcta es: Régimen General, que protege a quienes trabajan por cuenta ajena."
+                        },
+                        {
+                            "text": "Un desarrollador de aplicaciones (DAM/DAW) decide establecerse por su cuenta como freelance. ¿Qué implicación tiene esto respecto a su protección social?",
+                            "options": [
+                                "Sigue perteneciendo al Régimen General pero con una cuota reducida.",
+                                "La Seguridad Social le cubre automáticamente sin necesidad de realizar pagos mensuales.",
+                                "Debe inscribirse en el RETA y él mismo es el responsable de sus cotizaciones.",
+                                "No tiene obligación de cotizar, pero pierde el derecho a la asistencia sanitaria."
+                            ],
+                            "correctAnswer": "Debe inscribirse en el RETA y él mismo es el responsable de sus cotizaciones.",
+                            "explanation": "La opción correcta es: Debe inscribirse en el RETA y él mismo es el responsable de sus cotizaciones."
+                        },
+                        {
+                            "text": "El sistema de Seguridad Social se basa en principios fundamentales. ¿A qué se refiere el principio de \"solidaridad\" mencionado en la Ley General de la Seguridad Social?",
+                            "options": [
+                                "A que todas las empresas deben pagar la misma cantidad de impuestos sin importar su tamaño.",
+                                "A que cada trabajador solo recibe las ayudas que él mismo ha pagado individualmente.",
+                                "A que las personas con mayores ingresos ayudan a sostener a quienes más lo necesitan.",
+                                "A que los estudiantes tienen prohibido acceder a las prestaciones contributivas."
+                            ],
+                            "correctAnswer": "A que las personas con mayores ingresos ayudan a sostener a quienes más lo necesitan.",
+                            "explanation": "La opción correcta es: A que las personas con mayores ingresos ayudan a sostener a quienes más lo necesitan."
+                        },
+                        {
+                            "text": "Para que un técnico de Administración y Finanzas pueda gestionar correctamente el alta de un nuevo compañero, ¿cuándo debe tramitarla legalmente ante la Seguridad Social?",
+                            "options": [
+                                "Durante los primeros quince días naturales tras la firma del contrato.",
+                                "Al finalizar el primer mes de trabajo para comprobar si el empleado encaja.",
+                                "Siempre antes de que el trabajador comience efectivamente su actividad.",
+                                "El mismo día que el trabajador empieza a realizar sus tareas en la oficina."
+                            ],
+                            "correctAnswer": "Siempre antes de que el trabajador comience efectivamente su actividad.",
+                            "explanation": "La opción correcta es: Siempre antes de que el trabajador comience efectivamente su actividad."
+                        },
+                        {
+                            "text": "Un programador revisa su nómina y ve el concepto de \"Base de Cotización\". Según la analogía del temario, ¿qué importancia tiene este dato para su futuro?",
+                            "options": [
+                                "Es el código numérico que identifica a la empresa ante el Ministerio de Trabajo.",
+                                "Indica el número de días que el trabajador tiene derecho a vacaciones pagadas.",
+                                "Es el \"tamaño de la pizza\" del sueldo sobre el que se calculan sus futuras prestaciones.",
+                                "Es una cifra irrelevante que solo sirve para calcular el impuesto del IRPF."
+                            ],
+                            "correctAnswer": "Es el \"tamaño de la pizza\" del sueldo sobre el que se calculan sus futuras prestaciones.",
+                            "explanation": "La opción correcta es: Es el \"tamaño de la pizza\" del sueldo sobre el que se calculan sus futuras prestaciones."
+                        },
+                        {
+                            "text": "¿Quién asume la mayor parte del coste económico de las cotizaciones a la Seguridad Social en un contrato de trabajo por cuenta ajena?",
+                            "options": [
+                                "Mutuas colaboradoras, que financian el sistema para evitar accidentes.",
+                                "El Estado, a través de las aportaciones de los impuestos generales.",
+                                "El trabajador, a quien se le resta el total de la cuota de su salario neto.",
+                                "La empresa, que asume el porcentaje más alto de la aportación mensual."
+                            ],
+                            "correctAnswer": "La empresa, que asume el porcentaje más alto de la aportación mensual.",
+                            "explanation": "La opción correcta es: La empresa, que asume el porcentaje más alto de la aportación mensual."
+                        },
+                        {
+                            "text": "Como futuro profesional, se te recomienda revisar periódicamente un documento específico a través de la sede electrónica. ¿Cuál es la mejor forma de comprobar que tus empresas te han dado de alta correctamente?",
+                            "options": [
+                                "Consultando el saldo de tu cuenta bancaria el día de cobro de la nómina.",
+                                "Solicitando el contrato de trabajo original cada vez que cambies de proyecto.",
+                                "Llamando por teléfono al departamento de recursos humanos de tu primera empresa.",
+                                "Revisando el Informe de Vida Laboral al menos una vez al año."
+                            ],
+                            "correctAnswer": "Revisando el Informe de Vida Laboral al menos una vez al año.",
+                            "explanation": "La opción correcta es: Revisando el Informe de Vida Laboral al menos una vez al año."
+                        },
+                        {
+                            "text": "¿Qué debe hacer un técnico superior si detecta que su empresa lo ha dado de alta en un grupo de cotización inferior al que le corresponde por su título?",
+                            "options": [
+                                "Nada, ya que el grupo de cotización no influye en las prestaciones futuras.",
+                                "Esperar a terminar el contrato para solicitar una compensación económica al Estado.",
+                                "Reclamar la corrección, pues de ello dependerá la cuantía de su jubilación o paro.",
+                                "Darse de alta como autónomo para compensar la diferencia de cotización."
+                            ],
+                            "correctAnswer": "Reclamar la corrección, pues de ello dependerá la cuantía de su jubilación o paro.",
+                            "explanation": "La opción correcta es: Reclamar la corrección, pues de ello dependerá la cuantía de su jubilación o paro."
+                        },
+                        {
+                            "text": "Imagina que un diseñador gráfico sufre una lesión fuera del horario laboral que le impide trabajar temporalmente. ¿Cómo se denomina la prestación que sustituye a su sueldo en esta situación?",
+                            "options": [
+                                "Incapacidad Temporal (IT).",
+                                "Subsidio por cese de actividad involuntario.",
+                                "Ingreso Mínimo Vital por enfermedad.",
+                                "Incapacidad Permanente Total."
+                            ],
+                            "correctAnswer": "Incapacidad Temporal (IT).",
+                            "explanation": "La opción correcta es: Incapacidad Temporal (IT)."
+                        },
+                        {
+                            "text": "Una educadora infantil se queda embarazada y su médico determina que el ruido constante en el aula es peligroso para su salud. Si no puede ser reubicada, ¿qué derecho puede ejercer?",
+                            "options": [
+                                "Solicitar la prestación por riesgo durante el embarazo, cobrando el 100% de su base.",
+                                "Solicitar el Ingreso Mínimo Vital hasta que nazca el bebé.",
+                                "Pedir una excedencia voluntaria sin derecho a percibir ninguna cuantía económica.",
+                                "Renunciar a su puesto de trabajo para cobrar la prestación por desempleo."
+                            ],
+                            "correctAnswer": "Solicitar la prestación por riesgo durante el embarazo, cobrando el 100% de su base.",
+                            "explanation": "La opción correcta es: Solicitar la prestación por riesgo durante el embarazo, cobrando el 100% de su base."
+                        },
+                        {
+                            "text": "En el año 2026, ¿cuál es la duración establecida para el permiso por nacimiento y cuidado de menor para cada progenitor?",
+                            "options": [
+                                "16 semanas ininterrumpidas para ambos progenitores por igual.",
+                                "6 meses de permiso retribuido únicamente para la madre biológica.",
+                                "19 semanas de permiso para dar la bienvenida al nuevo miembro de la familia.",
+                                "12 semanas para la madre y 4 semanas para el otro progenitor."
+                            ],
+                            "correctAnswer": "19 semanas de permiso para dar la bienvenida al nuevo miembro de la familia.",
+                            "explanation": "La opción correcta es: 19 semanas de permiso para dar la bienvenida al nuevo miembro de la familia."
+                        },
+                        {
+                            "text": "Luis es un programador que acaba de terminar su contrato de un año. ¿Qué requisito de cotización mínima debe cumplir para acceder al nivel contributivo del paro?",
+                            "options": [
+                                "Haber trabajado un mínimo de 360 días dentro de los últimos seis años.",
+                                "Haber cotizado al menos 180 días en los últimos dos años de vida laboral.",
+                                "No se exige tiempo mínimo si el despido ha sido por causas económicas objetivas.",
+                                "Haber cotizado al menos cinco años ininterrumpidos en la misma empresa."
+                            ],
+                            "correctAnswer": "Haber trabajado un mínimo de 360 días dentro de los últimos seis años.",
+                            "explanation": "La opción correcta es: Haber trabajado un mínimo de 360 días dentro de los últimos seis años."
+                        },
+                        {
+                            "text": "¿Qué sucede con la cuantía de la prestación por desempleo (el paro) a medida que pasa el tiempo, según el cálculo general?",
+                            "options": [
+                                "Baja del 70% al 50% de la base a partir del día 181 de cobro.",
+                                "Se reduce mensualmente un 5% como penalización por no encontrar trabajo.",
+                                "Se mantiene fija al 100% de la base reguladora hasta que el trabajador encuentre empleo.",
+                                "Sube del 50% al 70% a partir del séptimo mes para incentivar la formación."
+                            ],
+                            "correctAnswer": "Baja del 70% al 50% de la base a partir del día 181 de cobro.",
+                            "explanation": "La opción correcta es: Baja del 70% al 50% de la base a partir del día 181 de cobro."
+                        },
+                        {
+                            "text": "Una persona mayor de 65 años que nunca ha podido trabajar ni cotizar se encuentra sin recursos económicos. ¿Qué tipo de ayuda ofrece el sistema para asegurar su dignidad?",
+                            "options": [
+                                "Pensión no contributiva de jubilación.",
+                                "Subsidio por desempleo para mayores de 52 años.",
+                                "Prestación contributiva por jubilación anticipada.",
+                                "Ingreso Mínimo Vital para trabajadores autónomos en crisis."
+                            ],
+                            "correctAnswer": "Pensión no contributiva de jubilación.",
+                            "explanation": "La opción correcta es: Pensión no contributiva de jubilación."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad principal del Ingreso Mínimo Vital (IMV) dentro del sistema de protección social?",
+                            "options": [
+                                "Sustituir a la prestación por desempleo cuando esta se agota de forma definitiva.",
+                                "Premiar a los trabajadores que tienen los sueldos más bajos del sector servicios.",
+                                "Pagar los gastos de transporte y dietas de los desempleados que buscan trabajo.",
+                                "Prevenir el riesgo de pobreza y exclusión social garantizando un nivel mínimo de rentas."
+                            ],
+                            "correctAnswer": "Prevenir el riesgo de pobreza y exclusión social garantizando un nivel mínimo de rentas.",
+                            "explanation": "La opción correcta es: Prevenir el riesgo de pobreza y exclusión social garantizando un nivel mínimo de rentas."
+                        },
+                        {
+                            "text": "Un profesional del marketing que trabaja por su cuenta (RETA) quiere saber si tiene derecho a algo similar al \"paro\". ¿Existe esta protección para los autónomos?",
+                            "options": [
+                                "Sí, se denomina \"cese de actividad\" y protege al autónomo si tiene pérdidas graves.",
+                                "No, el paro es una prestación exclusiva del Régimen General de trabajadores asalariados.",
+                                "Sí, pero solo si contrata un seguro privado adicional fuera de la Seguridad Social.",
+                                "No, los autónomos solo tienen derecho a la jubilación y a la asistencia médica."
+                            ],
+                            "correctAnswer": "Sí, se denomina \"cese de actividad\" y protege al autónomo si tiene pérdidas graves.",
+                            "explanation": "La opción correcta es: Sí, se denomina \"cese de actividad\" y protege al autónomo si tiene pérdidas graves."
+                        },
+                        {
+                            "text": "¿Qué es el Mecanismo de Equidad Intergeneracional (MEI) que aparece en las cotizaciones de 2026?",
+                            "options": [
+                                "Una ayuda económica para los abuelos que cuidan de sus nietos.",
+                                "Una aportación extra destinada a fortalecer y asegurar las pensiones futuras.",
+                                "Un fondo para pagar los ordenadores y material tecnológico de las empresas.",
+                                "Un descuento que se aplica solo a los trabajadores menores de 21 años."
+                            ],
+                            "correctAnswer": "Una aportación extra destinada a fortalecer y asegurar las pensiones futuras.",
+                            "explanation": "La opción correcta es: Una aportación extra destinada a fortalecer y asegurar las pensiones futuras."
+                        },
+                        {
+                            "text": "Alicia trabaja en una oficina de administración y Óscar es desarrollador freelance. ¿Cuál es la principal diferencia en la gestión de su Seguridad Social?",
+                            "options": [
+                                "Alicia no tiene derecho a jubilación y Óscar sí por ser su propio jefe.",
+                                "La empresa de Alicia gestiona todo, mientras que Óscar debe gestionar sus propios pagos.",
+                                "Alicia tiene sanidad privada pagada por el Estado y Óscar debe pagarla de su bolsillo.",
+                                "Óscar paga menos impuestos que Alicia porque los autónomos no cotizan por desempleo."
+                            ],
+                            "correctAnswer": "La empresa de Alicia gestiona todo, mientras que Óscar debe gestionar sus propios pagos.",
+                            "explanation": "La opción correcta es: La empresa de Alicia gestiona todo, mientras que Óscar debe gestionar sus propios pagos."
+                        },
+                        {
+                            "text": "¿Cuál es el plazo máximo que tiene un trabajador para solicitar la prestación por desempleo tras finalizar su contrato de trabajo?",
+                            "options": [
+                                "15 días hábiles desde que termina la relación laboral.",
+                                "30 días naturales, coincidiendo con el fin del mes de devengo.",
+                                "5 días naturales desde el último día trabajado.",
+                                "No hay plazo, se puede solicitar en cualquier momento mientras se esté en el paro."
+                            ],
+                            "correctAnswer": "15 días hábiles desde que termina la relación laboral.",
+                            "explanation": "La opción correcta es: 15 días hábiles desde que termina la relación laboral."
+                        },
+                        {
+                            "text": "Al darte de alta como autónomo (RETA), debes elegir una entidad para gestionar tus posibles bajas por accidente o enfermedad. ¿Cómo se llaman estas entidades?",
+                            "options": [
+                                "Mutuas colaboradoras con la Seguridad Social.",
+                                "Agencias de Seguros de Vida.",
+                                "Tesorería General de Hacienda Pública.",
+                                "Servicios Públicos de Empleo Estatal (SEPE)."
+                            ],
+                            "correctAnswer": "Mutuas colaboradoras con la Seguridad Social.",
+                            "explanation": "La opción correcta es: Mutuas colaboradoras con la Seguridad Social."
+                        },
+                        {
+                            "text": "Un técnico de administración debe calcular cuánto aporta un trabajador de su nómina para \"Contingencias Comunes\". En 2025/2026, ¿cuál es el porcentaje del trabajador?",
+                            "options": [
+                                "Un 0,10%, que se utiliza para financiar la formación profesional.",
+                                "Un 1,15%, destinado exclusivamente al fondo de desempleo.",
+                                "Un 23,60%, que es la parte más grande de la pizza.",
+                                "Un 4,70%, que es la parte que se resta directamente del salario bruto."
+                            ],
+                            "correctAnswer": "Un 4,70%, que es la parte que se resta directamente del salario bruto.",
+                            "explanation": "La opción correcta es: Un 4,70%, que es la parte que se resta directamente del salario bruto."
+                        },
+                        {
+                            "text": "¿Qué requisito de edad se menciona para cobrar la prestación por nacimiento sin haber cotizado nada previamente?",
+                            "options": [
+                                "Ser mayor de 45 años y encontrarse en situación de desempleo de larga duración.",
+                                "Tener entre 21 y 26 años y estar estudiando un ciclo de FP.",
+                                "Ser menor de 21 años en la fecha del parto.",
+                                "No importa la edad, el nacimiento siempre da derecho a cobro sin cotización previa."
+                            ],
+                            "correctAnswer": "Ser menor de 21 años en la fecha del parto.",
+                            "explanation": "La opción correcta es: Ser menor de 21 años en la fecha del parto."
+                        },
+                        {
+                            "text": "¿Cuál de los siguientes conceptos de cotización es asumido exclusivamente por la empresa y no resta nada de la nómina del trabajador?",
+                            "options": [
+                                "Mecanismo de Equidad Intergeneracional (MEI).",
+                                "Contingencias Comunes.",
+                                "Desempleo y Formación Profesional.",
+                                "FOGASA (Fondo de Garantía Salarial)."
+                            ],
+                            "correctAnswer": "FOGASA (Fondo de Garantía Salarial).",
+                            "explanation": "La opción correcta es: FOGASA (Fondo de Garantía Salarial)."
+                        },
+                        {
+                            "text": "Un trabajador por cuenta propia (autónomo) debe comunicar sus ingresos reales periódicamente a la Seguridad Social. ¿Para qué sirve este trámite en 2026?",
+                            "options": [
+                                "Para que la policía compruebe que no está trabajando en la economía sumergida.",
+                                "Para solicitar la devolución del IVA de sus facturas de marketing o informática.",
+                                "Para que su cuota mensual se ajuste de forma flexible a lo que realmente gana.",
+                                "Para poder contratar a familiares de hasta segundo grado de consanguinidad."
+                            ],
+                            "correctAnswer": "Para que su cuota mensual se ajuste de forma flexible a lo que realmente gana.",
+                            "explanation": "La opción correcta es: Para que su cuota mensual se ajuste de forma flexible a lo que realmente gana."
+                        },
+                        {
+                            "text": "¿Qué ocurre si un empresario no da de alta a un trabajador en la Seguridad Social antes de que este empiece a trabajar?",
+                            "options": [
+                                "No pasa nada, siempre que se tramite el alta durante la primera semana de empleo.",
+                                "El empresario incumple un compromiso legal grave y el trabajador queda desprotegido.",
+                                "El trabajador pierde todos sus derechos de asistencia médica de forma permanente.",
+                                "La Seguridad Social multa al trabajador por trabajar sin el permiso correspondiente."
+                            ],
+                            "correctAnswer": "El empresario incumple un compromiso legal grave y el trabajador queda desprotegido.",
+                            "explanation": "La opción correcta es: El empresario incumple un compromiso legal grave y el trabajador queda desprotegido."
+                        },
+                        {
+                            "text": "¿Cómo se financian las prestaciones \"no contributivas\", como el Ingreso Mínimo Vital?",
+                            "options": [
+                                "Exclusivamente con las cuotas que pagan los trabajadores autónomos cada mes.",
+                                "Con las aportaciones del Estado procedentes de los impuestos generales de todos.",
+                                "Con los beneficios anuales que obtienen las Mutuas colaboradoras.",
+                                "Con el dinero que se resta de las nóminas de los funcionarios públicos."
+                            ],
+                            "correctAnswer": "Con las aportaciones del Estado procedentes de los impuestos generales de todos.",
+                            "explanation": "La opción correcta es: Con las aportaciones del Estado procedentes de los impuestos generales de todos."
+                        },
+                        {
+                            "text": "Juan es programador y trabaja desde casa para varios clientes. Al elegir su base de cotización en el RETA, se le recomienda no elegir siempre la mínima. ¿Por qué?",
+                            "options": [
+                                "Porque la base mínima solo es obligatoria para los menores de 30 años.",
+                                "Porque su cuota mensual sería demasiado alta y no podría pagar el alquiler.",
+                                "Porque su futura pensión y sus ayudas en caso de enfermedad dependen de lo aportado hoy.",
+                                "Porque la base máxima le garantiza una devolución de impuestos al final del año."
+                            ],
+                            "correctAnswer": "Porque su futura pensión y sus ayudas en caso de enfermedad dependen de lo aportado hoy.",
+                            "explanation": "La opción correcta es: Porque su futura pensión y sus ayudas en caso de enfermedad dependen de lo aportado hoy."
+                        },
+                        {
+                            "text": "Más allá de recibir el salario cada mes, ¿por qué es fundamental que un profesional de cualquier sector verifique que su empresa lo ha dado de alta en el grupo de cotización correcto según su titulación?",
+                            "options": [
+                                "Porque el grupo de cotización determina el horario de entrada y salida obligatorio según el convenio colectivo.",
+                                "Porque de ese grupo depende el número de días de vacaciones que el trabajador puede disfrutar al año.",
+                                "Porque es la única forma de garantizar que el contrato se convierta automáticamente en indefinido tras seis meses.",
+                                "Porque la cuantía de las futuras prestaciones, como la jubilación o el desempleo, depende directamente de este dato."
+                            ],
+                            "correctAnswer": "Porque la cuantía de las futuras prestaciones, como la jubilación o el desempleo, depende directamente de este dato.",
+                            "explanation": "La opción correcta es: Porque la cuantía de las futuras prestaciones, como la jubilación o el desempleo, depende directamente de este dato."
+                        },
+                        {
+                            "text": "Al finalizar la unidad, ¿qué conclusión se extrae sobre la importancia de la Seguridad Social para un graduado de FP?",
+                            "options": [
+                                "Que es una inversión en tranquilidad y un registro de derechos para el futuro.",
+                                "Que solo es útil para las personas que tienen trabajos peligrosos o de riesgo.",
+                                "Que es un gasto innecesario que reduce el poder adquisitivo del trabajador joven.",
+                                "Que es un misterio administrativo que solo deben conocer los gestores."
+                            ],
+                            "correctAnswer": "Que es una inversión en tranquilidad y un registro de derechos para el futuro.",
+                            "explanation": "La opción correcta es: Que es una inversión en tranquilidad y un registro de derechos para el futuro."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

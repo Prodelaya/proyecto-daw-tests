@@ -1,0 +1,346 @@
+{
+    "subjects": [
+        {
+            "code": "IPEII",
+            "name": "Itinerario Personal para la Empleabilidad II",
+            "topics": [
+                {
+                    "number": 1,
+                    "title": "UT1: Acceso al mercado de trabajo y marca personal",
+                    "questions": [
+                        {
+                            "text": "Al analizar el entorno económico actual en España, un estudiante de cualquier ciclo formativo debe comprender el peso del sector servicios. ¿Cuál es la característica principal de este sector en la economía nacional?",
+                            "options": [
+                                "Es el motor principal de la economía y engloba la mayoría de las actividades de consumo y empleo.",
+                                "Su actividad principal es la extracción de recursos naturales como la agricultura y la pesca.",
+                                "Se centra exclusivamente en la transformación de materias primas en productos industriales.",
+                                "Genera productos tangibles que se almacenan antes de llegar al cliente final."
+                            ],
+                            "correctAnswer": "Es el motor principal de la economía y engloba la mayoría de las actividades de consumo y empleo.",
+                            "explanation": "La opción correcta es: Es el motor principal de la economía y engloba la mayoría de las actividades de consumo y empleo."
+                        },
+                        {
+                            "text": "Un profesional que desea entender por qué hay puestos de trabajo que no se cubren a pesar de haber personas desempleadas está analizando la \"brecha de competencias\". ¿Cómo se define este concepto?",
+                            "options": [
+                                "Es el desacuerdo salarial entre lo que ofrece la empresa y lo que pide el candidato.",
+                                "Es la falta de títulos universitarios en sectores que solo requieren formación profesional.",
+                                "Es la distancia física que existe entre el domicilio del trabajador y la oficina de la empresa.",
+                                "Es la diferencia entre las habilidades que tienen los trabajadores y las que las empresas realmente necesitan."
+                            ],
+                            "correctAnswer": "Es la diferencia entre las habilidades que tienen los trabajadores y las que las empresas realmente necesitan.",
+                            "explanation": "La opción correcta es: Es la diferencia entre las habilidades que tienen los trabajadores y las que las empresas realmente necesitan."
+                        },
+                        {
+                            "text": "Ante el auge de la Inteligencia Artificial, el temario propone una actitud específica para mejorar la empleabilidad. ¿Cuál es el enfoque correcto según la unidad?",
+                            "options": [
+                                "Ignorar estas herramientas hasta que sean obligatorias por normativa legal.",
+                                "Considerar la IA como un \"copiloto\" que permite realizar tareas de forma más eficiente y rápida.",
+                                "Especializarse únicamente en tareas manuales para evitar el uso de cualquier tecnología.",
+                                "Ver la IA como una amenaza inevitable que sustituirá todos los puestos de trabajo creativos."
+                            ],
+                            "correctAnswer": "Considerar la IA como un \"copiloto\" que permite realizar tareas de forma más eficiente y rápida.",
+                            "explanation": "La opción correcta es: Considerar la IA como un \"copiloto\" que permite realizar tareas de forma más eficiente y rápida."
+                        },
+                        {
+                            "text": "Al construir un perfil profesional, no solo cuentan los conocimientos técnicos. ¿Qué otros elementos forman parte de este \"ADN laboral\"?",
+                            "options": [
+                                "Únicamente la experiencia en empresas del mismo sector.",
+                                "La red de contactos personales ajenos al entorno de trabajo.",
+                                "Exclusivamente la lista de títulos académicos y certificados obtenidos.",
+                                "Las competencias personales, valores, habilidades transversales y ética."
+                            ],
+                            "correctAnswer": "Las competencias personales, valores, habilidades transversales y ética.",
+                            "explanation": "La opción correcta es: Las competencias personales, valores, habilidades transversales y ética."
+                        },
+                        {
+                            "text": "El análisis DAFO es una herramienta esencial para el autoconocimiento. ¿Qué representan las \"Debilidades\" en este análisis?",
+                            "options": [
+                                "Habilidades técnicas en las que somos expertos y nos diferencian de los demás.",
+                                "Aspectos internos del propio profesional que suponen un freno o punto de mejora.",
+                                "Situaciones positivas del entorno que debemos aprovechar para encontrar empleo.",
+                                "Factores externos del mercado que pueden perjudicar nuestra carrera profesional."
+                            ],
+                            "correctAnswer": "Aspectos internos del propio profesional que suponen un freno o punto de mejora.",
+                            "explanation": "La opción correcta es: Aspectos internos del propio profesional que suponen un freno o punto de mejora."
+                        },
+                        {
+                            "text": "Un graduado observa que en su sector se están produciendo muchas jubilaciones, lo que generará nuevas vacantes. Dentro de un análisis DAFO, ¿cómo se clasifica este factor?",
+                            "options": [
+                                "Como una oportunidad externa que ofrece el mercado.",
+                                "Como una debilidad de la estructura de la empresa.",
+                                "Como una fortaleza interna del candidato.",
+                                "Como una amenaza que pone en riesgo la estabilidad del sector."
+                            ],
+                            "correctAnswer": "Como una oportunidad externa que ofrece el mercado.",
+                            "explanation": "La opción correcta es: Como una oportunidad externa que ofrece el mercado."
+                        },
+                        {
+                            "text": "Las competencias transversales son comparadas en el temario con los suministros de una mochila de montaña. ¿Por qué son vitales en entornos complejos?",
+                            "options": [
+                                "Porque permiten llegar a la meta cuando los conocimientos técnicos por sí solos no son suficientes.",
+                                "Porque sirven para rellenar el currículum cuando no se tiene experiencia previa.",
+                                "Porque sustituyen por completo la necesidad de tener conocimientos técnicos.",
+                                "Porque son las únicas que figuran en el título oficial de Grado Superior."
+                            ],
+                            "correctAnswer": "Porque permiten llegar a la meta cuando los conocimientos técnicos por sí solos no son suficientes.",
+                            "explanation": "La opción correcta es: Porque permiten llegar a la meta cuando los conocimientos técnicos por sí solos no son suficientes."
+                        },
+                        {
+                            "text": "¿A qué se refiere el término \"marca personal\" en el contexto de la búsqueda de empleo?",
+                            "options": [
+                                "A la huella o sensación que dejamos en los demás y que nos hace únicos y valiosos.",
+                                "Al diseño de un logotipo y colores que el candidato debe usar en sus redes sociales.",
+                                "Al nombre de la empresa para la que el candidato ha trabajado anteriormente.",
+                                "A la creación de un personaje ficticio para impresionar a los reclutadores."
+                            ],
+                            "correctAnswer": "A la huella o sensación que dejamos en los demás y que nos hace únicos y valiosos.",
+                            "explanation": "La opción correcta es: A la huella o sensación que dejamos en los demás y que nos hace únicos y valiosos."
+                        },
+                        {
+                            "text": "Al desarrollar una marca personal sólida, ¿cuál es el primer paso estratégico que se debe dar?",
+                            "options": [
+                                "Publicar anuncios pagados en redes sociales para ganar visibilidad.",
+                                "El autoconocimiento para definir el propósito y aquello en lo que se destaca.",
+                                "Cambiar la fotografía del perfil personal por una imagen corporativa de una empresa famosa.",
+                                "Enviar el currículum a todas las agencias de selección de la ciudad."
+                            ],
+                            "correctAnswer": "El autoconocimiento para definir el propósito y aquello en lo que se destaca.",
+                            "explanation": "La opción correcta es: El autoconocimiento para definir el propósito y aquello en lo que se destaca."
+                        },
+                        {
+                            "text": "En una red profesional como LinkedIn, el \"titular profesional\" es fundamental. ¿Qué debe incluir idealmente?",
+                            "options": [
+                                "Una lista de todas las empresas donde el candidato ha realizado prácticas.",
+                                "Únicamente la palabra \"Estudiante\" o \"En búsqueda activa\".",
+                                "Palabras clave que definan la especialidad y el valor que aporta el profesional.",
+                                "La dirección completa del domicilio y el número de teléfono personal."
+                            ],
+                            "correctAnswer": "Palabras clave que definan la especialidad y el valor que aporta el profesional.",
+                            "explanation": "La opción correcta es: Palabras clave que definan la especialidad y el valor que aporta el profesional."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo principal de redactar un \"extracto\" o resumen en el perfil de LinkedIn?",
+                            "options": [
+                                "Contar la trayectoria y logros en primera persona para explicar cómo se aporta valor.",
+                                "Criticar las experiencias negativas en trabajos anteriores.",
+                                "Poner un enlace a las redes sociales personales de ocio y tiempo libre.",
+                                "Listar todas las asignaturas cursadas durante el ciclo formativo."
+                            ],
+                            "correctAnswer": "Contar la trayectoria y logros en primera persona para explicar cómo se aporta valor.",
+                            "explanation": "La opción correcta es: Contar la trayectoria y logros en primera persona para explicar cómo se aporta valor."
+                        },
+                        {
+                            "text": "El concepto de \"humanizar\" la marca personal implica una acción específica en redes profesionales. ¿En qué consiste?",
+                            "options": [
+                                "Etiquetar a desconocidos en publicaciones para forzar la interacción.",
+                                "Compartir historias reales, reflexiones o cómo se resolvió un problema técnico.",
+                                "Publicar fotos de las vacaciones para generar cercanía personal.",
+                                "Copiar y pegar noticias de otros profesionales sin añadir ningún comentario."
+                            ],
+                            "correctAnswer": "Compartir historias reales, reflexiones o cómo se resolvió un problema técnico.",
+                            "explanation": "La opción correcta es: Compartir historias reales, reflexiones o cómo se resolvió un problema técnico."
+                        },
+                        {
+                            "text": "Al buscar empleo, es fundamental entender qué son los portales de empleo. ¿Cuál es su función técnica?",
+                            "options": [
+                                "Gestionar exclusivamente las prestaciones por desempleo de los trabajadores.",
+                                "Servir de punto de encuentro digital entre empresas con vacantes y profesionales con talento.",
+                                "Actuar como oficinas físicas donde se firman los contratos de trabajo.",
+                                "Ofrecer cursos de formación gratuitos financiados por la Unión Europea."
+                            ],
+                            "correctAnswer": "Servir de punto de encuentro digital entre empresas con vacantes y profesionales con talento.",
+                            "explanation": "La opción correcta es: Servir de punto de encuentro digital entre empresas con vacantes y profesionales con talento."
+                        },
+                        {
+                            "text": "¿Qué diferencia a un portal de empleo especializado de uno generalista?",
+                            "options": [
+                                "El especializado cobra una cuota mensual al candidato y el generalista es gratuito.",
+                                "No existe diferencia real, ambos muestran las mismas ofertas de todas las empresas.",
+                                "El especializado se enfoca en sectores técnicos concretos para \"afinar el tiro\" en la búsqueda.",
+                                "El generalista solo ofrece puestos de trabajo para personas sin titulación."
+                            ],
+                            "correctAnswer": "El especializado se enfoca en sectores técnicos concretos para \"afinar el tiro\" en la búsqueda.",
+                            "explanation": "La opción correcta es: El especializado se enfoca en sectores técnicos concretos para \"afinar el tiro\" en la búsqueda."
+                        },
+                        {
+                            "text": "El \"mercado oculto de trabajo\" representa una gran parte de las oportunidades laborales. ¿Cómo se define?",
+                            "options": [
+                                "Son puestos de trabajo ilegales que no cumplen con la normativa laboral.",
+                                "Son vacantes que las empresas no anuncian públicamente y se cubren por contactos o recomendaciones.",
+                                "Son ofertas que solo se publican en periódicos impresos de ámbito local.",
+                                "Es el conjunto de trabajos que requieren viajar al extranjero de forma permanente."
+                            ],
+                            "correctAnswer": "Son vacantes que las empresas no anuncian públicamente y se cubren por contactos o recomendaciones.",
+                            "explanation": "La opción correcta es: Son vacantes que las empresas no anuncian públicamente y se cubren por contactos o recomendaciones."
+                        },
+                        {
+                            "text": "La autocandidatura es una herramienta poderosa para acceder al mercado oculto. ¿En qué consiste esta técnica?",
+                            "options": [
+                                "En pedir a un amigo que entregue nuestro currículum en su lugar de trabajo.",
+                                "En presentarse a una empresa que nos interesa sin que exista una oferta publicada previa.",
+                                "En esperar a que una empresa nos llame tras ver nuestro perfil en una base de datos pública.",
+                                "En inscribirse en todas las ofertas de un portal de empleo de forma automática."
+                            ],
+                            "correctAnswer": "En presentarse a una empresa que nos interesa sin que exista una oferta publicada previa.",
+                            "explanation": "La opción correcta es: En presentarse a una empresa que nos interesa sin que exista una oferta publicada previa."
+                        },
+                        {
+                            "text": "Para que una autocandidatura sea efectiva, ¿qué paso previo es imprescindible realizar?",
+                            "options": [
+                                "Enviar el currículum a través de un servicio de mensajería urgente sin previo aviso.",
+                                "Imprimir cien copias del currículum estándar para repartirlas por el polígono industrial.",
+                                "Llamar por teléfono diariamente a la recepción de la empresa para preguntar por el jefe.",
+                                "Investigar a fondo la empresa y personalizar la propuesta según sus retos específicos."
+                            ],
+                            "correctAnswer": "Investigar a fondo la empresa y personalizar la propuesta según sus retos específicos.",
+                            "explanation": "La opción correcta es: Investigar a fondo la empresa y personalizar la propuesta según sus retos específicos."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad última de un \"elevator pitch\" laboral?",
+                            "options": [
+                                "Solicitar formalmente un aumento de sueldo antes de empezar a trabajar.",
+                                "Rellenar el espacio vacío en la parte inferior del currículum vitae.",
+                                "Convencer al reclutador en menos de 30 segundos de que mereces una llamada o entrevista.",
+                                "Explicar detalladamente todos los proyectos realizados en el instituto."
+                            ],
+                            "correctAnswer": "Convencer al reclutador en menos de 30 segundos de que mereces una llamada o entrevista.",
+                            "explanation": "La opción correcta es: Convencer al reclutador en menos de 30 segundos de que mereces una llamada o entrevista."
+                        },
+                        {
+                            "text": "El temario recomienda convertirse en un \"arqueólogo\" del sector profesional. ¿Qué significa esto para la empleabilidad?",
+                            "options": [
+                                "Que el trabajo ideal es algo que ya no existe y hay que descubrir por qué desapareció.",
+                                "Que hay que investigar a fondo las tendencias, líderes y habilidades mejor pagadas del sector.",
+                                "Que se debe buscar empleo únicamente en empresas con más de cincuenta años de antigüedad.",
+                                "Que el alumno debe buscar trabajos relacionados con la historia y el patrimonio."
+                            ],
+                            "correctAnswer": "Que hay que investigar a fondo las tendencias, líderes y habilidades mejor pagadas del sector.",
+                            "explanation": "La opción correcta es: Que hay que investigar a fondo las tendencias, líderes y habilidades mejor pagadas del sector."
+                        },
+                        {
+                            "text": "En el diseño del currículum, se recomienda \"cuantificar logros\". ¿Cómo puede hacerlo un estudiante sin experiencia laboral previa?",
+                            "options": [
+                                "Poniendo la nota media de todas las asignaturas del ciclo en letras grandes.",
+                                "Inventando cifras de ventas de empresas famosas del sector.",
+                                "Utilizando datos de sus proyectos académicos, como porcentajes de mejora o alcance de un blog.",
+                                "Indicando el número de horas totales que ha pasado estudiando en la biblioteca."
+                            ],
+                            "correctAnswer": "Utilizando datos de sus proyectos académicos, como porcentajes de mejora o alcance de un blog.",
+                            "explanation": "La opción correcta es: Utilizando datos de sus proyectos académicos, como porcentajes de mejora o alcance de un blog."
+                        },
+                        {
+                            "text": "¿Qué importancia tiene la \"identidad visual\" en la marca personal digital?",
+                            "options": [
+                                "Es una herramienta para ocultar la falta de competencias técnicas.",
+                                "Sirve para que el perfil profesional sea coherente y proyecte una imagen cuidada.",
+                                "Es irrelevante, ya que lo único que importa es el contenido del currículum.",
+                                "Obliga al candidato a vestir siempre de traje en todas sus fotografías."
+                            ],
+                            "correctAnswer": "Sirve para que el perfil profesional sea coherente y proyecte una imagen cuidada.",
+                            "explanation": "La opción correcta es: Sirve para que el perfil profesional sea coherente y proyecte una imagen cuidada."
+                        },
+                        {
+                            "text": "El networking o red de contactos es una estrategia clave. ¿Dónde se puede realizar de forma efectiva según la unidad?",
+                            "options": [
+                                "En ferias de empleo, hackathones, eventos profesionales y redes como LinkedIn.",
+                                "Exclusivamente en cenas familiares y eventos sociales de ocio.",
+                                "Únicamente a través del correo electrónico corporativo de la actual empresa.",
+                                "En cualquier lugar donde se pueda entregar un currículum en papel sin hablar con nadie."
+                            ],
+                            "correctAnswer": "En ferias de empleo, hackathones, eventos profesionales y redes como LinkedIn.",
+                            "explanation": "La opción correcta es: En ferias de empleo, hackathones, eventos profesionales y redes como LinkedIn."
+                        },
+                        {
+                            "text": "¿Qué significa que una propuesta de valor sea una \"promesa de valor\" y no una lista de tareas?",
+                            "options": [
+                                "Que el candidato promete trabajar más horas que los demás empleados.",
+                                "Que el currículum solo incluye cosas que el candidato hará en el futuro.",
+                                "Que el perfil se enfoca en las soluciones que el profesional puede aportar a la empresa.",
+                                "Que la empresa promete un salario alto antes de ver los resultados del trabajador."
+                            ],
+                            "correctAnswer": "Que el perfil se enfoca en las soluciones que el profesional puede aportar a la empresa.",
+                            "explanation": "La opción correcta es: Que el perfil se enfoca en las soluciones que el profesional puede aportar a la empresa."
+                        },
+                        {
+                            "text": "La \"economía digital\" ha cambiado las reglas del juego laboral. ¿Cuál es una ventaja de los contratos en este ámbito mencionada en el texto?",
+                            "options": [
+                                "Que no se requiere ninguna formación previa para acceder a los puestos.",
+                                "Que todos los trabajos se realizan obligatoriamente de forma presencial.",
+                                "Que la mayoría de los contratos en sectores informáticos y tecnológicos son indefinidos.",
+                                "Que el salario es el mismo para todos los trabajadores independientemente de su puesto."
+                            ],
+                            "correctAnswer": "Que la mayoría de los contratos en sectores informáticos y tecnológicos son indefinidos.",
+                            "explanation": "La opción correcta es: Que la mayoría de los contratos en sectores informáticos y tecnológicos son indefinidos."
+                        },
+                        {
+                            "text": "El teletrabajo se menciona como una oportunidad de éxito. ¿Qué permite esta modalidad a un profesional especializado?",
+                            "options": [
+                                "Evitar el contacto con otros compañeros y no realizar reuniones de equipo.",
+                                "Trabajar desde cualquier lugar para empresas situadas en otras ciudades o países.",
+                                "Cobrar el doble de salario por ahorrar los costes de desplazamiento de la empresa.",
+                                "No tener que cumplir ningún horario ni entregar los proyectos en plazo."
+                            ],
+                            "correctAnswer": "Trabajar desde cualquier lugar para empresas situadas en otras ciudades o países.",
+                            "explanation": "La opción correcta es: Trabajar desde cualquier lugar para empresas situadas en otras ciudades o países."
+                        },
+                        {
+                            "text": "En la búsqueda de empleo, ¿por qué es importante seguir a líderes de la industria en redes sociales?",
+                            "options": [
+                                "Para copiar sus publicaciones y publicarlas como si fueran propias.",
+                                "Para entender qué habilidades están demandando las empresas y anticiparse a las tendencias.",
+                                "Porque es un requisito obligatorio para validar el perfil de LinkedIn.",
+                                "Para intentar conseguir su número de teléfono personal y llamarles."
+                            ],
+                            "correctAnswer": "Para entender qué habilidades están demandando las empresas y anticiparse a las tendencias.",
+                            "explanation": "La opción correcta es: Para entender qué habilidades están demandando las empresas y anticiparse a las tendencias."
+                        },
+                        {
+                            "text": "Al realizar un seguimiento tras enviar una autocandidatura, ¿cuál es el canal recomendado para demostrar interés real?",
+                            "options": [
+                                "Realizar un contacto educado a través de LinkedIn para reforzar la propuesta.",
+                                "Escribir comentarios negativos en la web de la empresa si no responden rápido.",
+                                "Enviar flores a la oficina del responsable de recursos humanos.",
+                                "Presentarse en la puerta de la empresa sin cita previa todos los lunes."
+                            ],
+                            "correctAnswer": "Realizar un contacto educado a través de LinkedIn para reforzar la propuesta.",
+                            "explanation": "La opción correcta es: Realizar un contacto educado a través de LinkedIn para reforzar la propuesta."
+                        },
+                        {
+                            "text": "¿Qué actitud define mejor a un profesional con una marca personal \"auténtica\"?",
+                            "options": [
+                                "La que evita hablar de sus proyectos personales para parecer más serio.",
+                                "La que comunica su valor real, sus pasiones y su forma única de trabajar.",
+                                "La que cambia su forma de ser dependiendo de la empresa que le entrevista.",
+                                "La que proyecta una imagen de éxito constante ocultando cualquier fallo."
+                            ],
+                            "correctAnswer": "La que comunica su valor real, sus pasiones y su forma única de trabajar.",
+                            "explanation": "La opción correcta es: La que comunica su valor real, sus pasiones y su forma única de trabajar."
+                        },
+                        {
+                            "text": "¿Cuál es el cambio fundamental en el rol del profesional cuando decide dejar de ser un espectador y aplicar herramientas de empleabilidad como el análisis DAFO, el networking y la marca personal?",
+                            "options": [
+                                "Se vuelve un profesional que delega la responsabilidad de su búsqueda en terceras personas.",
+                                "Se transforma en un candidato que solo depende de las ofertas gestionadas por servicios públicos.",
+                                "Se convierte en un experto técnico que ignora las tendencias de su entorno laboral.",
+                                "Pasa a ser el estratega de su propia carrera, capaz de leer el mapa del empleo y anticiparse."
+                            ],
+                            "correctAnswer": "Pasa a ser el estratega de su propia carrera, capaz de leer el mapa del empleo y anticiparse.",
+                            "explanation": "La opción correcta es: Pasa a ser el estratega de su propia carrera, capaz de leer el mapa del empleo y anticiparse."
+                        },
+                        {
+                            "text": "Conseguir un puesto de trabajo alineado con el perfil profesional no es una cuestión de azar. ¿Qué combinación de factores resulta determinante para el éxito en la inserción laboral real?",
+                            "options": [
+                                "Combinar de forma estratégica el autoconocimiento, la marca personal y la proactividad.",
+                                "Poseer exclusivamente el título oficial con la calificación más alta de la promoción.",
+                                "Priorizar únicamente las competencias técnicas específicas y descartar las habilidades transversales.",
+                                "Esperar a que la situación económica del país reduzca la competencia de forma natural."
+                            ],
+                            "correctAnswer": "Combinar de forma estratégica el autoconocimiento, la marca personal y la proactividad.",
+                            "explanation": "La opción correcta es: Combinar de forma estratégica el autoconocimiento, la marca personal y la proactividad."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
