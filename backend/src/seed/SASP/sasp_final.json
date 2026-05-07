@@ -1,0 +1,456 @@
+{
+    "subjects": [
+        {
+            "code": "SASP",
+            "name": "Sostenibilidad aplicada al sistema productivo",
+            "topics": [
+                {
+                    "number": 6,
+                    "title": "Final: Examen Integrador de Sostenibilidad",
+                    "questions": [
+                        {
+                            "text": "¿Cuál es la principal crítica al concepto de desarrollo sostenible tal como fue definido en el Informe Brundtland de 1987?",
+                            "options": [
+                                "La ambigüedad en la definición de \"necesidades\" y \"futuras generaciones\".",
+                                "La falta de mecanismos claros para su implementación.",
+                                "Su enfoque limitado únicamente en el aspecto ambiental.",
+                                "Su énfasis excesivo en el crecimiento económico."
+                            ],
+                            "correctAnswer": "La ambigüedad en la definición de \"necesidades\" y \"futuras generaciones\".",
+                            "explanation": "La opción marcada en verde en el material fuente es: La ambigüedad en la definición de \"necesidades\" y \"futuras generaciones\".."
+                        },
+                        {
+                            "text": "En relación con los ODS, ¿cómo se diferencia el enfoque del ODS 7 sobre energía de otras iniciativas previas sobre sostenibilidad energética?",
+                            "options": [
+                                "Integra aspectos de accesibilidad económica y seguridad energética.",
+                                "Prioriza exclusivamente las fuentes de energía renovables.",
+                                "Excluye a los países en desarrollo de los objetivos de energía limpia.",
+                                "Se centra en la descarbonización sin considerar la seguridad energética."
+                            ],
+                            "correctAnswer": "Integra aspectos de accesibilidad económica y seguridad energética.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Integra aspectos de accesibilidad económica y seguridad energética.."
+                        },
+                        {
+                            "text": "En términos de sostenibilidad, ¿cómo se diferencia el enfoque del Convenio de Ramsar respecto a otros acuerdos ambientales internacionales?",
+                            "options": [
+                                "Promueve el uso racional de los humedales para evitar su degradación.",
+                                "Introduce un sistema de comercio de derechos de conservación.",
+                                "Obliga a los países a establecer áreas protegidas en todos los ecosistemas terrestres.",
+                                "Se enfoca exclusivamente en la conservación de la biodiversidad marina."
+                            ],
+                            "correctAnswer": "Promueve el uso racional de los humedales para evitar su degradación.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Promueve el uso racional de los humedales para evitar su degradación.."
+                        },
+                        {
+                            "text": "¿Qué implicación tiene la inclusión del principio de \"quien contamina paga\" en la legislación medioambiental europea?",
+                            "options": [
+                                "Obliga a las empresas a financiar exclusivamente proyectos de sostenibilidad.",
+                                "Establece un marco para la redistribución equitativa de los ingresos fiscales.",
+                                "Introduce la responsabilidad financiera directa de las empresas por los daños ambientales causados.",
+                                "Exime a los gobiernos de intervenir en casos de contaminación industrial."
+                            ],
+                            "correctAnswer": "Introduce la responsabilidad financiera directa de las empresas por los daños ambientales causados.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Introduce la responsabilidad financiera directa de las empresas por los daños ambientales causados.."
+                        },
+                        {
+                            "text": "En el marco del ASG, ¿cuál es el desafío principal al evaluar el \"Aspecto Social\" en empresas multinacionales?",
+                            "options": [
+                                "La dificultad para medir el impacto ambiental de las operaciones.",
+                                "La falta de estándares internacionales para la gobernanza corporativa.",
+                                "La gestión de residuos en operaciones internacionales.",
+                                "La variabilidad en las leyes laborales entre países."
+                            ],
+                            "correctAnswer": "La variabilidad en las leyes laborales entre países.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La variabilidad en las leyes laborales entre países.."
+                        },
+                        {
+                            "text": "¿Cuál es la crítica más común al Protocolo de Kioto en términos de su efectividad para abordar el cambio climático?",
+                            "options": [
+                                "No reconoce el papel de las empresas en la reducción de emisiones.",
+                                "Permite que los países desarrollados compren derechos de emisión en lugar de reducir sus propias emisiones.",
+                                "No incluye compromisos vinculantes para los países desarrollados.",
+                                "Ignora las necesidades de adaptación de los países más vulnerables."
+                            ],
+                            "correctAnswer": "Permite que los países desarrollados compren derechos de emisión en lugar de reducir sus propias emisiones.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Permite que los países desarrollados compren derechos de emisión en lugar de reducir sus propias emisiones.."
+                        },
+                        {
+                            "text": "¿Por qué la ISO 14001 es considerada una herramienta clave en la gestión ambiental empresarial?",
+                            "options": [
+                                "Permite a las empresas acceder automáticamente a fondos de inversión verde.",
+                                "Ofrece un enfoque sistemático para mejorar el desempeño ambiental de la empresa.",
+                                "Proporciona una certificación obligatoria para todas las empresas.",
+                                "Establece un marco normativo para la compensación de carbono."
+                            ],
+                            "correctAnswer": "Ofrece un enfoque sistemático para mejorar el desempeño ambiental de la empresa.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Ofrece un enfoque sistemático para mejorar el desempeño ambiental de la empresa.."
+                        },
+                        {
+                            "text": "En términos de sostenibilidad empresarial, ¿qué significa el concepto de \"licencia social para operar\"?",
+                            "options": [
+                                "La obtención de permisos gubernamentales para operaciones industriales.",
+                                "La certificación de conformidad con las normativas medioambientales.",
+                                "La acreditación internacional para operar en mercados extranjeros.",
+                                "La aceptación y apoyo de la comunidad local hacia las actividades de una empresa."
+                            ],
+                            "correctAnswer": "La aceptación y apoyo de la comunidad local hacia las actividades de una empresa.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La aceptación y apoyo de la comunidad local hacia las actividades de una empresa.."
+                        },
+                        {
+                            "text": "En términos de adaptación al cambio climático, ¿qué desafío representa la variabilidad climática para la planificación a largo plazo en la agricultura?",
+                            "options": [
+                                "La necesidad de aumentar el uso de fertilizantes para compensar la baja fertilidad de los suelos.",
+                                "La posibilidad de incrementar la producción mediante la diversificación de cultivos.",
+                                "La dificultad para predecir eventos climáticos extremos que pueden afectar la productividad.",
+                                "El incremento en la disponibilidad de agua debido a patrones de precipitación más constantes."
+                            ],
+                            "correctAnswer": "La dificultad para predecir eventos climáticos extremos que pueden afectar la productividad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La dificultad para predecir eventos climáticos extremos que pueden afectar la productividad.."
+                        },
+                        {
+                            "text": "¿Qué implica el \"efecto rebote\" en el contexto de la eficiencia energética y cómo puede contrarrestarse?",
+                            "options": [
+                                "Aumento en la demanda de productos más eficientes, contrarrestado mediante la promoción de una cultura de bajo consumo.",
+                                "Disminución en la innovación tecnológica debido a la alta eficiencia alcanzada, contrarrestado mediante incentivos a la investigación y desarrollo.",
+                                "Reducción en la demanda de energía debido a la eficiencia, lo que lleva a un menor desarrollo de energías renovables, contrarrestado mediante subsidios a las renovables.",
+                                "Aumento en la demanda de energía debido a la disminución en los precios de la energía, contrarrestado mediante políticas de tarifas progresivas."
+                            ],
+                            "correctAnswer": "Aumento en la demanda de energía debido a la disminución en los precios de la energía, contrarrestado mediante políticas de tarifas progresivas.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Aumento en la demanda de energía debido a la disminución en los precios de la energía, contrarrestado mediante políticas de tarifas progresivas.."
+                        },
+                        {
+                            "text": "¿Cuál es el papel principal de la economía circular en la transición hacia un desarrollo sostenible?",
+                            "options": [
+                                "Reducir el desperdicio mediante la reutilización, reciclaje y prolongación del ciclo de vida de los productos.",
+                                "Favorecer únicamente a los países desarrollados en la gestión de residuos.",
+                                "Incrementar el consumo de recursos para estimular la economía.",
+                                "Limitar la innovación tecnológica en la producción de bienes."
+                            ],
+                            "correctAnswer": "Reducir el desperdicio mediante la reutilización, reciclaje y prolongación del ciclo de vida de los productos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Reducir el desperdicio mediante la reutilización, reciclaje y prolongación del ciclo de vida de los productos.."
+                        },
+                        {
+                            "text": "¿Qué significa el concepto de \"neutralidad climática\" en el marco del Acuerdo de París?",
+                            "options": [
+                                "La eliminación completa de las emisiones de gases de efecto invernadero.",
+                                "La compensación económica a países en desarrollo por los daños climáticos.",
+                                "La reducción de emisiones únicamente en el sector energético.",
+                                "El equilibrio entre las emisiones generadas y las absorbidas por sumideros naturales o tecnológicos."
+                            ],
+                            "correctAnswer": "El equilibrio entre las emisiones generadas y las absorbidas por sumideros naturales o tecnológicos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El equilibrio entre las emisiones generadas y las absorbidas por sumideros naturales o tecnológicos.."
+                        },
+                        {
+                            "text": "En el contexto del ASG, ¿qué aspecto refleja la \"G\" y por qué es crucial para los inversionistas?",
+                            "options": [
+                                "La gobernanza, ya que garantiza la transparencia, la ética y la rendición de cuentas en la gestión empresarial.",
+                                "La generación de empleo, como indicador de responsabilidad social.",
+                                "La gestión ambiental, porque mide la huella de carbono de la empresa.",
+                                "La globalización, debido a la expansión de mercados internacionales."
+                            ],
+                            "correctAnswer": "La gobernanza, ya que garantiza la transparencia, la ética y la rendición de cuentas en la gestión empresarial.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La gobernanza, ya que garantiza la transparencia, la ética y la rendición de cuentas en la gestión empresarial.."
+                        },
+                        {
+                            "text": "¿Por qué la biodiversidad es un elemento esencial dentro de los Objetivos de Desarrollo Sostenible?",
+                            "options": [
+                                "Porque reemplaza la necesidad de políticas de adaptación climática.",
+                                "Porque sustenta servicios ecosistémicos clave que impactan en múltiples ODS como alimentación, salud y agua.",
+                                "Porque está aislada del crecimiento económico.",
+                                "Porque únicamente contribuye al ODS 15 (Vida de ecosistemas terrestres)."
+                            ],
+                            "correctAnswer": "Porque sustenta servicios ecosistémicos clave que impactan en múltiples ODS como alimentación, salud y agua.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque sustenta servicios ecosistémicos clave que impactan en múltiples ODS como alimentación, salud y agua.."
+                        },
+                        {
+                            "text": "En la práctica empresarial, ¿qué representa el riesgo reputacional vinculado a la sostenibilidad?",
+                            "options": [
+                                "La imposibilidad de acceder a créditos bancarios por malas prácticas ambientales.",
+                                "La pérdida de licencias legales para operar.",
+                                "El costo de implementar nuevas tecnologías verdes.",
+                                "El impacto negativo en la imagen pública y en la confianza de los consumidores por prácticas no sostenibles."
+                            ],
+                            "correctAnswer": "El impacto negativo en la imagen pública y en la confianza de los consumidores por prácticas no sostenibles.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El impacto negativo en la imagen pública y en la confianza de los consumidores por prácticas no sostenibles.."
+                        },
+                        {
+                            "text": "¿Cuál es la limitación más señalada en el uso de indicadores como el PIB para medir el desarrollo sostenible?",
+                            "options": [
+                                "Que mide tanto el consumo como la inversión.",
+                                "Que incluye sectores no productivos como los servicios.",
+                                "Que no refleja el comercio exterior.",
+                                "Que no incorpora los costos ambientales ni el bienestar social en su cálculo."
+                            ],
+                            "correctAnswer": "Que no incorpora los costos ambientales ni el bienestar social en su cálculo.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Que no incorpora los costos ambientales ni el bienestar social en su cálculo.."
+                        },
+                        {
+                            "text": "En relación con la sostenibilidad urbana, ¿qué caracteriza a una \"ciudad inteligente\" en comparación con modelos urbanos tradicionales?",
+                            "options": [
+                                "La integración de tecnologías para optimizar recursos, movilidad y calidad de vida reduciendo impactos ambientales.",
+                                "El reemplazo completo de infraestructuras convencionales por energías renovables.",
+                                "Su énfasis en el crecimiento poblacional acelerado.",
+                                "La exclusión de la participación ciudadana en la toma de decisiones."
+                            ],
+                            "correctAnswer": "La integración de tecnologías para optimizar recursos, movilidad y calidad de vida reduciendo impactos ambientales.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La integración de tecnologías para optimizar recursos, movilidad y calidad de vida reduciendo impactos ambientales.."
+                        },
+                        {
+                            "text": "¿Cómo contribuyen los bonos verdes al financiamiento de la sostenibilidad?",
+                            "options": [
+                                "Se enfocan exclusivamente en la responsabilidad social corporativa.",
+                                "Funcionan como subsidios directos de los gobiernos a empresas contaminantes.",
+                                "Dirigen capital hacia proyectos con beneficios ambientales verificables, como energías renovables y eficiencia energética.",
+                                "Se utilizan únicamente para financiar proyectos de energías fósiles limpias."
+                            ],
+                            "correctAnswer": "Dirigen capital hacia proyectos con beneficios ambientales verificables, como energías renovables y eficiencia energética.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Dirigen capital hacia proyectos con beneficios ambientales verificables, como energías renovables y eficiencia energética.."
+                        },
+                        {
+                            "text": "En el marco de la adaptación al cambio climático, ¿qué papel cumplen las soluciones basadas en la naturaleza (SbN)?",
+                            "options": [
+                                "La promoción de monocultivos agrícolas como medida de seguridad alimentaria.",
+                                "La sustitución de infraestructuras tradicionales por urbanización masiva.",
+                                "La expansión de actividades extractivas en áreas protegidas.",
+                                "El uso de ecosistemas y procesos naturales para aumentar la resiliencia frente a eventos climáticos extremos."
+                            ],
+                            "correctAnswer": "El uso de ecosistemas y procesos naturales para aumentar la resiliencia frente a eventos climáticos extremos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: El uso de ecosistemas y procesos naturales para aumentar la resiliencia frente a eventos climáticos extremos.."
+                        },
+                        {
+                            "text": "¿Por qué la medición de la huella hídrica se ha vuelto un indicador clave para las empresas?",
+                            "options": [
+                                "Porque reemplaza los reportes financieros tradicionales en temas de sostenibilidad.",
+                                "Porque facilita el cálculo de los ingresos derivados del comercio de agua.",
+                                "Porque permite identificar el consumo de agua directa e indirecta y su impacto en la sostenibilidad de la cadena de valor.",
+                                "Porque determina el costo exacto del agua en cada país."
+                            ],
+                            "correctAnswer": "Porque permite identificar el consumo de agua directa e indirecta y su impacto en la sostenibilidad de la cadena de valor.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque permite identificar el consumo de agua directa e indirecta y su impacto en la sostenibilidad de la cadena de valor.."
+                        },
+                        {
+                            "text": "¿Qué diferencia principal existe entre mitigación y adaptación en el contexto del cambio climático?",
+                            "options": [
+                                "La mitigación se aplica solo en países desarrollados, la adaptación en países en desarrollo.",
+                                "La mitigación se relaciona con políticas sociales y la adaptación con políticas ambientales.",
+                                "La mitigación es una acción voluntaria, la adaptación es obligatoria por tratados internacionales.",
+                                "La mitigación busca reducir las emisiones de GEI, mientras que la adaptación se centra en ajustarse a los impactos ya presentes o inevitables."
+                            ],
+                            "correctAnswer": "La mitigación busca reducir las emisiones de GEI, mientras que la adaptación se centra en ajustarse a los impactos ya presentes o inevitables.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La mitigación busca reducir las emisiones de GEI, mientras que la adaptación se centra en ajustarse a los impactos ya presentes o inevitables.."
+                        },
+                        {
+                            "text": "¿Qué rol juegan los Principios de Inversión Responsable (PRI) en las decisiones financieras?",
+                            "options": [
+                                "Eliminan la necesidad de reportar indicadores de sostenibilidad.",
+                                "Se limitan únicamente al cumplimiento legal en materia ambiental.",
+                                "Incorporan factores ambientales, sociales y de gobernanza en las inversiones para reducir riesgos y generar valor sostenible.",
+                                "Obligan a las empresas a priorizar el corto plazo."
+                            ],
+                            "correctAnswer": "Incorporan factores ambientales, sociales y de gobernanza en las inversiones para reducir riesgos y generar valor sostenible.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Incorporan factores ambientales, sociales y de gobernanza en las inversiones para reducir riesgos y generar valor sostenible.."
+                        },
+                        {
+                            "text": "En el marco del concepto de sostenibilidad, ¿qué significa el triple resultado o \"triple bottom line\"?",
+                            "options": [
+                                "El incremento de utilidades anuales.",
+                                "La integración de tres dimensiones: económica, social y ambiental para evaluar el desempeño empresarial.",
+                                "La medición del PIB en términos nominales y reales.",
+                                "La combinación de innovación y competitividad empresarial."
+                            ],
+                            "correctAnswer": "La integración de tres dimensiones: económica, social y ambiental para evaluar el desempeño empresarial.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La integración de tres dimensiones: económica, social y ambiental para evaluar el desempeño empresarial.."
+                        },
+                        {
+                            "text": "¿Por qué las energías renovables son consideradas un pilar en la transición energética sostenible?",
+                            "options": [
+                                "Porque son la única fuente de energía utilizada en países desarrollados.",
+                                "Porque reducen la dependencia de combustibles fósiles y disminuyen las emisiones de gases de efecto invernadero.",
+                                "Porque incrementan el consumo de recursos no renovables.",
+                                "Porque sustituyen completamente a la energía nuclear en el corto plazo."
+                            ],
+                            "correctAnswer": "Porque reducen la dependencia de combustibles fósiles y disminuyen las emisiones de gases de efecto invernadero.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque reducen la dependencia de combustibles fósiles y disminuyen las emisiones de gases de efecto invernadero.."
+                        },
+                        {
+                            "text": "¿Cuál es el riesgo de no cumplir con las regulaciones internacionales de sostenibilidad en mercados globales?",
+                            "options": [
+                                "La imposibilidad de acceder a ciertos mercados, sanciones regulatorias y pérdida de competitividad.",
+                                "La reducción de costos operativos.",
+                                "El fortalecimiento automático de la cadena de suministro.",
+                                "La mejora de la reputación empresarial."
+                            ],
+                            "correctAnswer": "La imposibilidad de acceder a ciertos mercados, sanciones regulatorias y pérdida de competitividad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La imposibilidad de acceder a ciertos mercados, sanciones regulatorias y pérdida de competitividad.."
+                        },
+                        {
+                            "text": "En términos de gestión ambiental, ¿qué representa el análisis de ciclo de vida (ACV) de un producto?",
+                            "options": [
+                                "El análisis de la rentabilidad del producto en diferentes mercados.",
+                                "La medición del tiempo de vida útil de los productos de consumo.",
+                                "La evaluación de impactos ambientales en todas las etapas: producción, uso y disposición final.",
+                                "El costo financiero del producto a lo largo del tiempo."
+                            ],
+                            "correctAnswer": "La evaluación de impactos ambientales en todas las etapas: producción, uso y disposición final.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La evaluación de impactos ambientales en todas las etapas: producción, uso y disposición final.."
+                        },
+                        {
+                            "text": "¿Cómo se relaciona la Agenda 2030 con los planes nacionales de sostenibilidad?",
+                            "options": [
+                                "Impide la participación del sector privado en proyectos de sostenibilidad.",
+                                "Se limita exclusivamente a los países miembros de la Unión Europea.",
+                                "Proporciona un marco global que los países adaptan en sus estrategias y políticas internas.",
+                                "Sustituye todas las políticas nacionales de desarrollo."
+                            ],
+                            "correctAnswer": "Proporciona un marco global que los países adaptan en sus estrategias y políticas internas.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Proporciona un marco global que los países adaptan en sus estrategias y políticas internas.."
+                        },
+                        {
+                            "text": "En el ámbito social del ASG, ¿qué indicador es más relevante para evaluar el compromiso de una empresa?",
+                            "options": [
+                                "Las condiciones laborales justas, inclusión, diversidad y respeto a los derechos humanos.",
+                                "El cumplimiento de normas fiscales internacionales.",
+                                "La cantidad de productos innovadores lanzados al mercado.",
+                                "El nivel de inversión extranjera recibida."
+                            ],
+                            "correctAnswer": "Las condiciones laborales justas, inclusión, diversidad y respeto a los derechos humanos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Las condiciones laborales justas, inclusión, diversidad y respeto a los derechos humanos.."
+                        },
+                        {
+                            "text": "¿Por qué los stakeholders son esenciales en la implementación de un plan de sostenibilidad?",
+                            "options": [
+                                "Porque sustituyen a la dirección de la empresa en la toma de decisiones.",
+                                "Porque eliminan la necesidad de certificaciones externas.",
+                                "Porque influyen en las decisiones y su apoyo es clave para la legitimidad y éxito del plan.",
+                                "Porque financian directamente todas las iniciativas de sostenibilidad."
+                            ],
+                            "correctAnswer": "Porque influyen en las decisiones y su apoyo es clave para la legitimidad y éxito del plan.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque influyen en las decisiones y su apoyo es clave para la legitimidad y éxito del plan.."
+                        },
+                        {
+                            "text": "¿Qué función cumplen los reportes de sostenibilidad bajo el estándar GRI?",
+                            "options": [
+                                "Comunicar de manera transparente el desempeño ambiental, social y de gobernanza a los stakeholders.",
+                                "Sustituir los reportes financieros anuales de la empresa.",
+                                "Reducir los impuestos corporativos en mercados internacionales.",
+                                "Garantizar el crecimiento económico inmediato de la empresa."
+                            ],
+                            "correctAnswer": "Comunicar de manera transparente el desempeño ambiental, social y de gobernanza a los stakeholders.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Comunicar de manera transparente el desempeño ambiental, social y de gobernanza a los stakeholders.."
+                        },
+                        {
+                            "text": "¿Cuál es el principal objetivo de los bonos verdes en el financiamiento sostenible?",
+                            "options": [
+                                "Garantizar rendimientos más altos que los bonos tradicionales.",
+                                "Cubrir exclusivamente proyectos sociales.",
+                                "Financiar proyectos que generen beneficios ambientales, como energías renovables o eficiencia energética.",
+                                "Sustituir las inversiones en capital humano."
+                            ],
+                            "correctAnswer": "Financiar proyectos que generen beneficios ambientales, como energías renovables o eficiencia energética.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Financiar proyectos que generen beneficios ambientales, como energías renovables o eficiencia energética.."
+                        },
+                        {
+                            "text": "¿Qué elemento clave distingue a los Objetivos de Desarrollo Sostenible (ODS) de iniciativas anteriores?",
+                            "options": [
+                                "Su prioridad exclusiva en crecimiento económico.",
+                                "Su enfoque únicamente ambiental.",
+                                "Su aplicación restringida a países en vías de desarrollo.",
+                                "Su carácter universal, aplicable a todos los países, y su integración de aspectos económicos, sociales y ambientales."
+                            ],
+                            "correctAnswer": "Su carácter universal, aplicable a todos los países, y su integración de aspectos económicos, sociales y ambientales.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Su carácter universal, aplicable a todos los países, y su integración de aspectos económicos, sociales y ambientales.."
+                        },
+                        {
+                            "text": "En la gestión de riesgos ASG, ¿cuál es la consecuencia de no considerar los riesgos climáticos en la planeación empresarial?",
+                            "options": [
+                                "Reducción de la transparencia corporativa.",
+                                "Exposición a pérdidas financieras y operativas por fenómenos climáticos extremos.",
+                                "Aumento automático de la confianza de los inversionistas.",
+                                "Incremento inmediato en la productividad."
+                            ],
+                            "correctAnswer": "Exposición a pérdidas financieras y operativas por fenómenos climáticos extremos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Exposición a pérdidas financieras y operativas por fenómenos climáticos extremos.."
+                        },
+                        {
+                            "text": "¿Qué caracteriza a la economía circular en comparación con el modelo lineal tradicional?",
+                            "options": [
+                                "Promover la reutilización, reciclaje y reducción de residuos para mantener los recursos en uso el mayor tiempo posible.",
+                                "Eliminar la innovación en procesos de producción.",
+                                "Enfocarse solo en el reciclaje de materiales plásticos.",
+                                "Incrementar la extracción de materias primas."
+                            ],
+                            "correctAnswer": "Promover la reutilización, reciclaje y reducción de residuos para mantener los recursos en uso el mayor tiempo posible.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Promover la reutilización, reciclaje y reducción de residuos para mantener los recursos en uso el mayor tiempo posible.."
+                        },
+                        {
+                            "text": "¿Qué impacto tiene la falta de políticas de diversidad e inclusión en una empresa, según el enfoque ASG?",
+                            "options": [
+                                "Mejora la reputación global.",
+                                "Reduce la necesidad de capacitación laboral.",
+                                "Afecta negativamente la innovación, el compromiso de los empleados y la percepción pública.",
+                                "Incrementa la competitividad en mercados internacionales."
+                            ],
+                            "correctAnswer": "Afecta negativamente la innovación, el compromiso de los empleados y la percepción pública.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Afecta negativamente la innovación, el compromiso de los empleados y la percepción pública.."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo principal de los informes TCFD (Task Force on Climate-related Financial Disclosures)?",
+                            "options": [
+                                "Divulgar riesgos y oportunidades relacionados con el clima para informar decisiones financieras.",
+                                "Garantizar que todas las empresas reciban financiamiento internacional.",
+                                "Sustituir la información financiera tradicional por reportes ambientales.",
+                                "Eliminar la necesidad de cumplir con regulaciones locales."
+                            ],
+                            "correctAnswer": "Divulgar riesgos y oportunidades relacionados con el clima para informar decisiones financieras.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Divulgar riesgos y oportunidades relacionados con el clima para informar decisiones financieras.."
+                        },
+                        {
+                            "text": "En términos de gobernanza, ¿qué práctica fortalece más la sostenibilidad empresarial?",
+                            "options": [
+                                "Enfocarse únicamente en los resultados financieros trimestrales.",
+                                "Concentrar todas las decisiones en la alta dirección.",
+                                "Reducir la comunicación con los grupos de interés.",
+                                "Fomentar la transparencia, la rendición de cuentas y la participación activa de los stakeholders."
+                            ],
+                            "correctAnswer": "Fomentar la transparencia, la rendición de cuentas y la participación activa de los stakeholders.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Fomentar la transparencia, la rendición de cuentas y la participación activa de los stakeholders.."
+                        },
+                        {
+                            "text": "¿Qué relación existe entre innovación tecnológica y sostenibilidad?",
+                            "options": [
+                                "La innovación tecnológica puede generar soluciones que reduzcan impactos ambientales y mejoren la eficiencia de recursos.",
+                                "Son áreas independientes que no se relacionan entre sí.",
+                                "La innovación tecnológica siempre incrementa el impacto ambiental.",
+                                "La innovación tecnológica solo afecta la dimensión económica."
+                            ],
+                            "correctAnswer": "La innovación tecnológica puede generar soluciones que reduzcan impactos ambientales y mejoren la eficiencia de recursos.",
+                            "explanation": "La opción marcada en verde en el material fuente es: La innovación tecnológica puede generar soluciones que reduzcan impactos ambientales y mejoren la eficiencia de recursos.."
+                        },
+                        {
+                            "text": "¿Por qué la transparencia es fundamental en los reportes de sostenibilidad?",
+                            "options": [
+                                "Porque sustituye las regulaciones internacionales.",
+                                "Porque asegura la reducción automática de costos.",
+                                "Porque incrementa directamente la rentabilidad en el corto plazo.",
+                                "Porque genera confianza en stakeholders, facilita la toma de decisiones y demuestra compromiso real."
+                            ],
+                            "correctAnswer": "Porque genera confianza en stakeholders, facilita la toma de decisiones y demuestra compromiso real.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Porque genera confianza en stakeholders, facilita la toma de decisiones y demuestra compromiso real.."
+                        },
+                        {
+                            "text": "¿Qué papel cumplen las auditorías externas en el contexto de la sostenibilidad empresarial?",
+                            "options": [
+                                "Sustituir la gestión interna de sostenibilidad.",
+                                "Aumentar la complejidad de los procesos internos.",
+                                "Reducir la interacción con los grupos de interés.",
+                                "Verificar de manera independiente la veracidad y credibilidad de los reportes de sostenibilidad."
+                            ],
+                            "correctAnswer": "Verificar de manera independiente la veracidad y credibilidad de los reportes de sostenibilidad.",
+                            "explanation": "La opción marcada en verde en el material fuente es: Verificar de manera independiente la veracidad y credibilidad de los reportes de sostenibilidad.."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
