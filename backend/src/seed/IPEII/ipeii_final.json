@@ -1,0 +1,456 @@
+{
+    "subjects": [
+        {
+            "code": "IPEII",
+            "name": "Itinerario Personal para la Empleabilidad II",
+            "topics": [
+                {
+                    "number": 7,
+                    "title": "Final: Test final de Empleabilidad",
+                    "questions": [
+                        {
+                            "text": "Dentro del ecosistema económico español, ¿cómo se define técnicamente el concepto de estructura productiva?",
+                            "options": [
+                                "Es la suma de las exportaciones e importaciones de productos tangibles realizada en un año natural.",
+                                "Es el departamento de una empresa encargado de atender a los clientes y gestionar las ventas directas.",
+                                "Es el conjunto de leyes que regulan exclusivamente los contratos indefinidos en el sector tecnológico.",
+                                "Es el esqueleto que sostiene la economía, determinado por el conjunto de sectores que sostienen la riqueza."
+                            ],
+                            "correctAnswer": "Es el esqueleto que sostiene la economía, determinado por el conjunto de sectores que sostienen la riqueza.",
+                            "explanation": "La opción correcta es: Es el esqueleto que sostiene la economía, determinado por el conjunto de sectores que sostienen la riqueza.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Una startup en Sevilla necesita urgentemente un experto en ciberseguridad, pero solo recibe currículums de informáticos sin especialización técnica. ¿Cómo se denomina este fenómeno?",
+                            "options": [
+                                "Digitalización de la hostelería.",
+                                "Mercado oculto de trabajo.",
+                                "Brecha de competencias.",
+                                "Tasa de desempleo friccional."
+                            ],
+                            "correctAnswer": "Brecha de competencias.",
+                            "explanation": "La opción correcta es: Brecha de competencias.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Al realizar un análisis DAFO, ¿cuál es la diferencia fundamental entre las debilidades y las amenazas?",
+                            "options": [
+                                "Las debilidades son internas del profesional y las amenazas son factores externos del mercado.",
+                                "Las debilidades se refieren al salario y las amenazas a la competencia entre compañeros.",
+                                "Las debilidades son situaciones del pasado y las amenazas son riesgos del futuro.",
+                                "No hay diferencia, ambos términos se refieren a los puntos negativos del currículum."
+                            ],
+                            "correctAnswer": "Las debilidades son internas del profesional y las amenazas son factores externos del mercado.",
+                            "explanation": "La opción correcta es: Las debilidades son internas del profesional y las amenazas son factores externos del mercado.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Un profesional deja una impresión duradera en una entrevista de trabajo debido a su forma de comunicar y sus valores. ¿Cómo se define formalmente esta \"huella\"?",
+                            "options": [
+                                "Marca personal.",
+                                "Reputación online negativa.",
+                                "Perfil profesional técnico.",
+                                "Identidad visual corporativa."
+                            ],
+                            "correctAnswer": "Marca personal.",
+                            "explanation": "La opción correcta es: Marca personal.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Laura acaba de terminar su ciclo formativo y, aunque tiene formación y ha hecho voluntariado, carece de experiencia laboral previa con contrato. ¿Qué tipo de currículum le resultaría más útil para destacar sus habilidades?",
+                            "options": [
+                                "El currículum cronológico inverso, para mostrar las fechas más recientes.",
+                                "Un currículum mixto, centrado exclusivamente en los nombres de las empresas.",
+                                "Un currículum ciego, donde no aparezca ninguna formación académica.",
+                                "El currículum funcional o temático, centrado en bloques de competencias."
+                            ],
+                            "correctAnswer": "El currículum funcional o temático, centrado en bloques de competencias.",
+                            "explanation": "La opción correcta es: El currículum funcional o temático, centrado en bloques de competencias.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿En qué consiste el \"Método STAR\" para responder preguntas sobre competencias durante una entrevista de trabajo?",
+                            "options": [
+                                "En una técnica para memorizar nombres de estrellas y constelaciones famosas.",
+                                "En una estructura para contar historias profesionales con Situación, Tarea, Acción y Resultado.",
+                                "En una lista de cinco fortalezas que el candidato debe repetir constantemente.",
+                                "En un sistema para evaluar el salario mínimo profesional de un sector técnico."
+                            ],
+                            "correctAnswer": "En una estructura para contar historias profesionales con Situación, Tarea, Acción y Resultado.",
+                            "explanation": "La opción correcta es: En una estructura para contar historias profesionales con Situación, Tarea, Acción y Resultado.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Un profesional utiliza la Inteligencia Emocional para no reaccionar por impulso ante una crítica de un compañero. ¿Cómo se denomina este pilar de la IE?",
+                            "options": [
+                                "Autogestión o autocontrol.",
+                                "Motivación intrínseca.",
+                                "Autoconocimiento emocional.",
+                                "Empatía cognitiva."
+                            ],
+                            "correctAnswer": "Autogestión o autocontrol.",
+                            "explanation": "La opción correcta es: Autogestión o autocontrol.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Durante una dinámica de grupo, un compañero te interrumpe bruscamente. ¿Qué frase encaja con un \"guion asertivo\" para gestionar la situación?",
+                            "options": [
+                                "No decir nada y dejar de participar en la dinámica por el resto del tiempo.",
+                                "Permíteme terminar esta idea y enseguida escucho tu aportación.",
+                                "Perdona, tienes razón, habla tú que seguro que tu idea es mucho mejor.",
+                                "Cállate un momento, que todavía no he terminado de explicar mi parte."
+                            ],
+                            "correctAnswer": "Permíteme terminar esta idea y enseguida escucho tu aportación.",
+                            "explanation": "La opción correcta es: Permíteme terminar esta idea y enseguida escucho tu aportación.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Un trabajador tiene dudas sobre qué norma aplicar porque el Estatuto de los Trabajadores dice una cosa y su contrato dice otra más beneficiosa. ¿Qué principio debe aplicarse?",
+                            "options": [
+                                "La norma dictada por el organismo de mayor rango, sin excepciones.",
+                                "La norma más antigua, por considerarse la base de la relación laboral.",
+                                "Lo que decida el empresario de forma unilateral para evitar conflictos.",
+                                "Siempre la norma más favorable para la persona trabajadora."
+                            ],
+                            "correctAnswer": "Siempre la norma más favorable para la persona trabajadora.",
+                            "explanation": "La opción correcta es: Siempre la norma más favorable para la persona trabajadora.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Qué sucede si un trabajador encadena varios contratos temporales y supera los 18 meses de trabajo en un periodo de 24 meses en la misma empresa?",
+                            "options": [
+                                "Pierde el derecho a la indemnización por fin de contrato temporal.",
+                                "Debe abandonar la empresa obligatoriamente por un periodo de seis meses.",
+                                "Se convierte automáticamente en trabajador con contrato indefinido.",
+                                "Se le debe realizar un nuevo contrato de formación para ampliar su perfil."
+                            ],
+                            "correctAnswer": "Se convierte automáticamente en trabajador con contrato indefinido.",
+                            "explanation": "La opción correcta es: Se convierte automáticamente en trabajador con contrato indefinido.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Un trabajador finaliza su turno un lunes a las 20:00 horas. ¿A qué hora puede empezar su siguiente jornada el martes como pronto, según el descanso mínimo legal?",
+                            "options": [
+                                "A las 08:00 horas, tras doce horas de descanso.",
+                                "A las 06:00 horas, tras diez horas de descanso.",
+                                "A las 09:00 horas, tras trece horas de descanso.",
+                                "En cualquier momento, si el empresario lo solicita por urgencia."
+                            ],
+                            "correctAnswer": "A las 08:00 horas, tras doce horas de descanso.",
+                            "explanation": "La opción correcta es: A las 08:00 horas, tras doce horas de descanso.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Al finalizar una relación laboral, ¿cómo se llama el documento que liquida las cantidades pendientes (vacaciones no disfrutadas, pagas extra, etc.)?",
+                            "options": [
+                                "Nómina de atrasos.",
+                                "Certificado de empresa.",
+                                "Finiquito.",
+                                "Carta de despido."
+                            ],
+                            "correctAnswer": "Finiquito.",
+                            "explanation": "La opción correcta es: Finiquito.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Una profesional de la educación infantil comienza su primer trabajo y se pregunta qué es exactamente la Seguridad Social. Según el temario, ¿cuál es la mejor forma de definir este sistema?",
+                            "options": [
+                                "Un seguro colectivo que garantiza prevención y auxilio ante situaciones de necesidad.",
+                                "Un impuesto obligatorio que solo sirve para financiar la sanidad pública y los hospitales.",
+                                "Un conjunto de normas para que las empresas gestionen sus beneficios anuales.",
+                                "Una base de datos donde se registran únicamente los contratos temporales."
+                            ],
+                            "correctAnswer": "Un seguro colectivo que garantiza prevención y auxilio ante situaciones de necesidad.",
+                            "explanation": "La opción correcta es: Un seguro colectivo que garantiza prevención y auxilio ante situaciones de necesidad.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Un programador revisa su nómina y ve el concepto de \"Base de Cotización\". ¿Qué importancia tiene este dato para sus futuras prestaciones?",
+                            "options": [
+                                "Es la cuantía económica sobre la que se calculan las aportaciones para el paro o jubilación.",
+                                "Es el código numérico que identifica a la empresa ante el Ministerio de Trabajo.",
+                                "Indica el número de días que el trabajador tiene derecho a vacaciones pagadas.",
+                                "Es una cifra irrelevante que solo sirve para calcular el impuesto del IRPF."
+                            ],
+                            "correctAnswer": "Es la cuantía económica sobre la que se calculan las aportaciones para el paro o jubilación.",
+                            "explanation": "La opción correcta es: Es la cuantía económica sobre la que se calculan las aportaciones para el paro o jubilación.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "En el año 2026, ¿cuál es la duración establecida para el permiso por nacimiento y cuidado de menor para cada progenitor?",
+                            "options": [
+                                "6 meses de permiso retribuido únicamente para la madre biológica.",
+                                "19 semanas de permiso para dar la bienvenida al nuevo miembro de la familia.",
+                                "12 semanas para la madre y 4 semanas para el otro progenitor.",
+                                "16 semanas ininterrumpidas para ambos progenitores por igual."
+                            ],
+                            "correctAnswer": "19 semanas de permiso para dar la bienvenida al nuevo miembro de la familia.",
+                            "explanation": "La opción correcta es: 19 semanas de permiso para dar la bienvenida al nuevo miembro de la familia.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad principal del Ingreso Mínimo Vital (IMV) dentro del sistema de protección social?",
+                            "options": [
+                                "Pagar los gastos de transporte y dietas de los desempleados que buscan trabajo.",
+                                "Prevenir el riesgo de pobreza y exclusión social garantizando un nivel mínimo de rentas.",
+                                "Sustituir a la prestación por desempleo cuando esta se agota de forma definitiva.",
+                                "Premiar a los trabajadores que tienen los sueldos más bajos del sector servicios."
+                            ],
+                            "correctAnswer": "Prevenir el riesgo de pobreza y exclusión social garantizando un nivel mínimo de rentas.",
+                            "explanation": "La opción correcta es: Prevenir el riesgo de pobreza y exclusión social garantizando un nivel mínimo de rentas.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "En el centro del Business Model Canvas se encuentra la \"propuesta de valor\". ¿A qué se refiere este concepto fundamental?",
+                            "options": [
+                                "A la lista de tareas administrativas que realiza el auxiliar cada día.",
+                                "A la suma de todo el dinero que los socios han aportado al negocio.",
+                                "Al conjunto de beneficios únicos que resuelven un problema del cliente.",
+                                "Al precio más bajo del mercado que podemos ofrecer a los clientes."
+                            ],
+                            "correctAnswer": "Al conjunto de beneficios únicos que resuelven un problema del cliente.",
+                            "explanation": "La opción correcta es: Al conjunto de beneficios únicos que resuelven un problema del cliente.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "En el análisis financiero de un plan de negocio, ¿qué indica el concepto de \"punto muerto\" o umbral de rentabilidad?",
+                            "options": [
+                                "El porcentaje de impuestos que hay que pagar al final del año fiscal.",
+                                "El total de la inversión inicial necesaria para comprar los ordenadores.",
+                                "El momento en que la empresa decide cerrar por falta de beneficios.",
+                                "La cantidad mínima que hay que vender para no perder dinero (ingresos igual a gastos)."
+                            ],
+                            "correctAnswer": "La cantidad mínima que hay que vender para no perder dinero (ingresos igual a gastos).",
+                            "explanation": "La opción correcta es: La cantidad mínima que hay que vender para no perder dinero (ingresos igual a gastos).. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Tres informáticos montan una cooperativa de trabajo asociado. ¿Cómo se toman las decisiones importantes en este modelo empresarial?",
+                            "options": [
+                                "Solo pueden votar los socios que tengan más de cinco años de experiencia.",
+                                "El socio que más dinero aportó al inicio tiene el voto de mayor peso.",
+                                "Las decisiones las toma un jefe externo contratado por los socios.",
+                                "Se gestiona democráticamente: cada persona tiene un voto."
+                            ],
+                            "correctAnswer": "Se gestiona democráticamente: cada persona tiene un voto.",
+                            "explanation": "La opción correcta es: Se gestiona democráticamente: cada persona tiene un voto.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Qué es el DUE (Documento Único Electrónico) en el proceso de creación de una empresa?",
+                            "options": [
+                                "Un super-formulario que concentra la información para todos los organismos públicos.",
+                                "El contrato de trabajo que firman los socios entre ellos de forma privada.",
+                                "Un carné de identidad que el empresario debe llevar siempre encima.",
+                                "La factura que emite el notario por sus servicios de asesoramiento legal."
+                            ],
+                            "correctAnswer": "Un super-formulario que concentra la información para todos los organismos públicos.",
+                            "explanation": "La opción correcta es: Un super-formulario que concentra la información para todos los organismos públicos.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "La mayor parte de las vacantes laborales no se publican en portales de empleo, sino que se gestionan internamente. ¿Cómo se denomina técnicamente este ámbito de oportunidades?",
+                            "options": [
+                                "Mercado de transparencia total.",
+                                "Red de empleo público subvencionado.",
+                                "Mercado oculto de trabajo.",
+                                "Sector de contratación directa oficial."
+                            ],
+                            "correctAnswer": "Mercado oculto de trabajo.",
+                            "explanation": "La opción correcta es: Mercado oculto de trabajo.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Por qué el networking es considerado una herramienta estratégica para la inserción laboral de cualquier graduado de FP?",
+                            "options": [
+                                "Porque garantiza un aumento de sueldo inmediato al ser recomendado por un amigo.",
+                                "Porque sustituye la necesidad de tener un título oficial o competencias técnicas.",
+                                "Porque facilita el acceso a información y vacantes que no son visibles públicamente.",
+                                "Porque permite delegar la responsabilidad de buscar empleo en otras personas."
+                            ],
+                            "correctAnswer": "Porque facilita el acceso a información y vacantes que no son visibles públicamente.",
+                            "explanation": "La opción correcta es: Porque facilita el acceso a información y vacantes que no son visibles públicamente.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Antes de acudir a una entrevista de trabajo, se recomienda realizar una investigación profunda sobre la organización. ¿Qué beneficio aporta esta acción?",
+                            "options": [
+                                "Es obligatorio por ley presentar un informe de investigación al entrevistador.",
+                                "Permite criticar la estrategia de la competencia durante la entrevista.",
+                                "Sirve para saber qué empleados de la empresa tienen el sueldo más alto.",
+                                "Ayuda a alinear tu propuesta de valor con los retos y cultura de la empresa."
+                            ],
+                            "correctAnswer": "Ayuda a alinear tu propuesta de valor con los retos y cultura de la empresa.",
+                            "explanation": "La opción correcta es: Ayuda a alinear tu propuesta de valor con los retos y cultura de la empresa.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Qué impacto tiene la comunicación no verbal (postura, mirada, gestos) durante un proceso de selección presencial o por videollamada?",
+                            "options": [
+                                "Solo es importante en los procesos de selección para el sector del marketing.",
+                                "Es irrelevante, ya que los seleccionadores solo escuchan las palabras del candidato.",
+                                "Refuerza la coherencia del mensaje y proyecta seguridad y profesionalidad.",
+                                "Sirve para ocultar la falta de conocimientos técnicos sobre el puesto."
+                            ],
+                            "correctAnswer": "Refuerza la coherencia del mensaje y proyecta seguridad y profesionalidad.",
+                            "explanation": "La opción correcta es: Refuerza la coherencia del mensaje y proyecta seguridad y profesionalidad.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Si un profesional desea resaltar sus proyectos personales y logros por encima de su historial de fechas, ¿qué estructura de currículum debe elegir?",
+                            "options": [
+                                "Currículum ciego sin fotografía.",
+                                "Currículum europeo estándar.",
+                                "Currículum funcional o temático.",
+                                "Currículum cronológico directo."
+                            ],
+                            "correctAnswer": "Currículum funcional o temático.",
+                            "explanation": "La opción correcta es: Currículum funcional o temático.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Si una empresa decide trasladar tu centro de trabajo a otra ciudad de forma permanente y esto te causa un perjuicio, ¿qué derecho tienes según la ley?",
+                            "options": [
+                                "El contrato se suspende automáticamente durante dos años con reserva de puesto.",
+                                "Estás obligado a aceptar el cambio sin ninguna compensación.",
+                                "Puedes rescindir el contrato y recibir una indemnización por año trabajado.",
+                                "Tienes derecho a que la empresa te compre una vivienda en la nueva ciudad."
+                            ],
+                            "correctAnswer": "Puedes rescindir el contrato y recibir una indemnización por año trabajado.",
+                            "explanation": "La opción correcta es: Puedes rescindir el contrato y recibir una indemnización por año trabajado.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "En la estructura de una nómina profesional, ¿cuál es la diferencia entre el salario base y los complementos salariales?",
+                            "options": [
+                                "El salario base nunca tiene deducciones y los complementos se restan íntegramente.",
+                                "El base es para contratos indefinidos y los complementos para contratos temporales.",
+                                "El base es la cantidad fija por categoría y los complementos se suman por circunstancias específicas.",
+                                "El salario base lo fija el Gobierno y los complementos los fija el sindicato."
+                            ],
+                            "correctAnswer": "El base es la cantidad fija por categoría y los complementos se suman por circunstancias específicas.",
+                            "explanation": "La opción correcta es: El base es la cantidad fija por categoría y los complementos se suman por circunstancias específicas.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Qué documento legal actúa como la \"norma madre\" para los derechos y deberes de todos los empleados en España?",
+                            "options": [
+                                "El Reglamento Interno de la Empresa.",
+                                "La Ley de Propiedad Intelectual Digital.",
+                                "El Estatuto de los Trabajadores.",
+                                "El Código de Comercio de Sociedades."
+                            ],
+                            "correctAnswer": "El Estatuto de los Trabajadores.",
+                            "explanation": "La opción correcta es: El Estatuto de los Trabajadores.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Cuál es la importancia de consultar el informe de Vida Laboral emitido por la Seguridad Social?",
+                            "options": [
+                                "Sirve para que el trabajador pueda ver qué empresas han consultado su perfil de LinkedIn.",
+                                "Es un requisito para poder viajar fuera de la Unión Europea por motivos de ocio.",
+                                "Permite verificar que las empresas han dado de alta al trabajador por el tiempo y jornada reales.",
+                                "Informa sobre el número de hijos y la situación familiar del trabajador para el IRPF."
+                            ],
+                            "correctAnswer": "Permite verificar que las empresas han dado de alta al trabajador por el tiempo y jornada reales.",
+                            "explanation": "La opción correcta es: Permite verificar que las empresas han dado de alta al trabajador por el tiempo y jornada reales.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "En el sistema de protección social español, ¿cuál es la diferencia principal entre una prestación contributiva y una no contributiva?",
+                            "options": [
+                                "La contributiva exige haber cotizado previamente y la no contributiva se da por necesidad social.",
+                                "La contributiva se financia con impuestos y la no contributiva con cuotas de autónomos.",
+                                "La contributiva es para jóvenes y la no contributiva es exclusiva para personas mayores.",
+                                "No hay diferencia, son dos nombres para referirse al subsidio por desempleo."
+                            ],
+                            "correctAnswer": "La contributiva exige haber cotizado previamente y la no contributiva se da por necesidad social.",
+                            "explanation": "La opción correcta es: La contributiva exige haber cotizado previamente y la no contributiva se da por necesidad social.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Por qué la base de cotización de un trabajador es determinante para su seguridad económica futura?",
+                            "options": [
+                                "Porque indica el número de horas extras que el trabajador puede hacer a la semana.",
+                                "Porque determina el precio que el trabajador debe pagar por su seguro médico privado.",
+                                "Porque es el código que permite acceder a los descuentos en transporte público.",
+                                "Porque es la referencia para calcular el importe de bajas, desempleo y jubilación."
+                            ],
+                            "correctAnswer": "Porque es la referencia para calcular el importe de bajas, desempleo y jubilación.",
+                            "explanation": "La opción correcta es: Porque es la referencia para calcular el importe de bajas, desempleo y jubilación.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Qué utilidad tiene presentar un Plan de Negocio detallado ante un banco o un inversor externo?",
+                            "options": [
+                                "Cumplir con la obligación legal de registrar todas las ideas creativas.",
+                                "Asegurar que el emprendedor no tendrá que pagar impuestos los primeros años.",
+                                "Sustituir la necesidad de tener socios trabajadores dentro de la empresa.",
+                                "Demostrar que el proyecto ha sido analizado y es financieramente viable."
+                            ],
+                            "correctAnswer": "Demostrar que el proyecto ha sido analizado y es financieramente viable.",
+                            "explanation": "La opción correcta es: Demostrar que el proyecto ha sido analizado y es financieramente viable.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Cuál es un valor central de la economía social que la diferencia de los modelos empresariales tradicionales?",
+                            "options": [
+                                "La prioridad de las personas y del fin social sobre el beneficio económico.",
+                                "La obligación de que todos los productos vendidos sean gratuitos para la comunidad.",
+                                "La maximización de beneficios para los socios que no trabajan en la empresa.",
+                                "La prohibición de utilizar tecnología avanzada o inteligencia artificial en el trabajo."
+                            ],
+                            "correctAnswer": "La prioridad de las personas y del fin social sobre el beneficio económico.",
+                            "explanation": "La opción correcta es: La prioridad de las personas y del fin social sobre el beneficio económico.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Qué implica que una empresa (como una Sociedad Limitada o Cooperativa) adquiera \"personalidad jurídica\" tras su registro?",
+                            "options": [
+                                "Que el nombre de la empresa debe incluir obligatoriamente el apellido del fundador.",
+                                "Que la empresa solo puede contratar a personas que tengan un perfil técnico superior.",
+                                "Que los socios ya no tienen que ir a trabajar porque la empresa funciona sola.",
+                                "Que la empresa es un sujeto de derechos y obligaciones independiente de sus dueños."
+                            ],
+                            "correctAnswer": "Que la empresa es un sujeto de derechos y obligaciones independiente de sus dueños.",
+                            "explanation": "La opción correcta es: Que la empresa es un sujeto de derechos y obligaciones independiente de sus dueños.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "En el reclutamiento actual, ¿qué función cumple un sistema ATS (Applicant Tracking System)?",
+                            "options": [
+                                "Es un software que filtra currículos buscando palabras clave y competencias específicas.",
+                                "Es una IA que realiza videollamadas automáticas para descartar candidatos por su voz.",
+                                "Es una red social privada donde solo entran los jefes de las grandes empresas.",
+                                "Es un programa que calcula el salario mínimo que debe cobrar cada candidato."
+                            ],
+                            "correctAnswer": "Es un software que filtra currículos buscando palabras clave y competencias específicas.",
+                            "explanation": "La opción correcta es: Es un software que filtra currículos buscando palabras clave y competencias específicas.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Respecto a la ética y el uso de la IA en la búsqueda de empleo, ¿qué responsabilidad tiene el candidato según la normativa europea?",
+                            "options": [
+                                "Debe garantizar la veracidad de la información y usar la IA solo como apoyo.",
+                                "Está obligado a declarar en su currículum el nombre del software de IA que ha utilizado.",
+                                "No tiene ninguna responsabilidad, ya que la culpa de los errores es del algoritmo.",
+                                "Debe permitir que la IA invente datos para mejorar su competitividad en el mercado."
+                            ],
+                            "correctAnswer": "Debe garantizar la veracidad de la información y usar la IA solo como apoyo.",
+                            "explanation": "La opción correcta es: Debe garantizar la veracidad de la información y usar la IA solo como apoyo.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Cuál es el objetivo principal de utilizar simuladores de entrevista basados en Inteligencia Artificial?",
+                            "options": [
+                                "Memorizar las respuestas exactas que el entrevistador quiere escuchar.",
+                                "Entrenar la estructura de los mensajes, reducir la ansiedad y recibir feedback objetivo.",
+                                "Sustituir la entrevista presencial real para no tener que desplazarse a la oficina.",
+                                "Engañar a los sistemas ATS para que el currículum parezca perfecto."
+                            ],
+                            "correctAnswer": "Entrenar la estructura de los mensajes, reducir la ansiedad y recibir feedback objetivo.",
+                            "explanation": "La opción correcta es: Entrenar la estructura de los mensajes, reducir la ansiedad y recibir feedback objetivo.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "En la era digital, ¿qué se entiende por \"Ingeniería de Prompts\" aplicada al desarrollo profesional?",
+                            "options": [
+                                "La construcción física de los servidores que alojan la inteligencia artificial.",
+                                "La programación de códigos complejos exclusivamente en lenguaje Java o Python.",
+                                "El estudio de las leyes de patentes para proteger los inventos tecnológicos.",
+                                "La habilidad de diseñar instrucciones precisas para obtener los mejores resultados de la IA."
+                            ],
+                            "correctAnswer": "La habilidad de diseñar instrucciones precisas para obtener los mejores resultados de la IA.",
+                            "explanation": "La opción correcta es: La habilidad de diseñar instrucciones precisas para obtener los mejores resultados de la IA.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "Correcta",
+                            "options": [
+                                "Cambiando la fecha de nacimiento del candidato para que parezca más joven.",
+                                "Enviando el currículum miles de veces a la misma empresa para llamar la atención.",
+                                "Detectando las palabras clave esenciales de la oferta para integrarlas en el perfil.",
+                                "Eliminando del currículum cualquier mención a la falta de experiencia laboral."
+                            ],
+                            "correctAnswer": "Detectando las palabras clave esenciales de la oferta para integrarlas en el perfil.",
+                            "explanation": "La opción correcta es: Detectando las palabras clave esenciales de la oferta para integrarlas en el perfil.. Esta opción aparece marcada en verde en el material fuente."
+                        },
+                        {
+                            "text": "¿Por qué se afirma que el \"filtro humano\" es imprescindible a pesar del avance de la tecnología en el empleo?",
+                            "options": [
+                                "Porque los sistemas de IA se apagan automáticamente si no detectan a un humano cerca.",
+                                "Porque los currículos escritos por humanos siempre tienen menos errores que los de la IA.",
+                                "Porque solo el humano puede aportar la autenticidad, empatía y criterio final necesarios.",
+                                "Porque la ley prohíbe que las máquinas tomen decisiones sobre la contratación."
+                            ],
+                            "correctAnswer": "Porque solo el humano puede aportar la autenticidad, empatía y criterio final necesarios.",
+                            "explanation": "La opción correcta es: Porque solo el humano puede aportar la autenticidad, empatía y criterio final necesarios.. Esta opción aparece marcada en verde en el material fuente."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
