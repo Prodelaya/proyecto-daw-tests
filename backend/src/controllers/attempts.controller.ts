@@ -74,6 +74,7 @@ export const submitAttempt = async (req: Request, res: Response) => {
       
       return {
         questionId: question.id,
+        questionText: question.text,
         userAnswer: answer.userAnswer,
         correctAnswer: question.correctAnswer,
         correct: isCorrect,

@@ -112,7 +112,8 @@ export default function Results() {
         {/* Lista de Preguntas */}
         <div className="space-y-4">
           {questionResults.map((result: {
-            questionId: string;
+            questionId: number;
+            questionText: string;
             correct: boolean;
             userAnswer: string;
             correctAnswer: string;
@@ -132,6 +133,9 @@ export default function Results() {
                 <div className="flex-1">
                   <p className="font-semibold text-gray-800 dark:text-white mb-2 transition-colors duration-200">
                     Pregunta {index + 1}
+                  </p>
+                  <p className="text-base text-gray-700 dark:text-gray-300 leading-relaxed transition-colors duration-200">
+                    {result.questionText}
                   </p>
                 </div>
               </div>

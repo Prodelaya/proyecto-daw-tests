@@ -51,10 +51,11 @@ export interface Answer {
  * Resultado detallado de una pregunta
  * 
  * Viene del backend tras submitAttempt
- * Incluye correctAnswer para mostrar en pantalla de resultados
+ * Incluye questionText y correctAnswer para mostrar en pantalla de resultados
  */
 export interface QuestionResult {
   questionId: number;
+  questionText: string;
   userAnswer: string;
   correctAnswer: string;
   correct: boolean;
