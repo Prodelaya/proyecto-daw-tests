@@ -1,0 +1,181 @@
+{
+    "subjects": [
+        {
+            "code": "CIBER",
+            "name": "Ciberseguridad",
+            "topics": [
+                {
+                    "number": 9,
+                    "title": "Quiz Alejandro Ciberseguridad",
+                    "questions": [
+                        {
+                            "text": "En una plataforma de gestión de historiales clínicos, un atacante consigue acceder sin autorización a los datos de varios pacientes, incluyendo información médica sensible. Sin embargo, no realiza ninguna modificación en los registros ni provoca interrupciones en el funcionamiento del sistema, que continúa siendo accesible para los usuarios legítimos. Desde el punto de vista de los principios fundamentales de la seguridad de la información, ¿qué pilar se ha visto comprometido de forma directa?",
+                            "options": [
+                                "Integridad",
+                                "Disponibilidad",
+                                "Confidencialidad",
+                                "Autenticación"
+                            ],
+                            "correctAnswer": "Confidencialidad",
+                            "explanation": "La opción correcta señala la confidencialidad, porque el problema descrito es el acceso no autorizado a información sensible, no su modificación ni la caída del servicio."
+                        },
+                        {
+                            "text": "Una empresa detecta una vulnerabilidad crítica en su servidor web que permite la ejecución remota de código sin necesidad de autenticación previa por parte del atacante, con posibilidad de control total sobre el sistema afectado. La vulnerabilidad presenta una puntuación CVSS de 9.8, considerada crítica. ¿Cuál es la actuación más adecuada desde el punto de vista de la gestión de vulnerabilidades?",
+                            "options": [
+                                "Incluir la vulnerabilidad en el calendario de mantenimiento periódico",
+                                "Monitorizar el sistema sin aplicar medidas hasta detectar explotación real",
+                                "Aplicar medidas de mitigación de forma inmediata y proceder al parcheo urgente",
+                                "Ignorar la vulnerabilidad mientras no existan ataques confirmados"
+                            ],
+                            "correctAnswer": "Aplicar medidas de mitigación de forma inmediata y proceder al parcheo urgente",
+                            "explanation": "La respuesta correcta exige mitigación inmediata y parcheo urgente porque una vulnerabilidad crítica con ejecución remota de código implica un riesgo operativo alto."
+                        },
+                        {
+                            "text": "En un entorno corporativo, varios empleados reciben correos electrónicos que simulan ser del departamento de soporte técnico solicitando sus credenciales de acceso mediante un enlace fraudulento. Algunos usuarios introducen su contraseña en dicho enlace. ¿Qué medida técnica es más eficaz para evitar que el atacante pueda acceder posteriormente a los sistemas utilizando esas credenciales comprometidas?",
+                            "options": [
+                                "Cambiar las contraseñas de forma periódica",
+                                "Filtrar direcciones MAC en la red interna",
+                                "Implementar autenticación multifactor en los sistemas de acceso",
+                                "Bloquear el acceso a correos electrónicos externos"
+                            ],
+                            "correctAnswer": "Implementar autenticación multifactor en los sistemas de acceso",
+                            "explanation": "Es correcta porque la autenticación multifactor añade una barrera adicional aunque la contraseña haya sido comprometida."
+                        },
+                        {
+                            "text": "Durante un ataque informático, un software malicioso ya instalado en un equipo intenta comunicarse con un servidor remoto controlado por el atacante para recibir instrucciones adicionales y enviar información comprometida. Si el sistema de seguridad bloquea este tráfico saliente, ¿qué fase del modelo de ataque se está interrumpiendo?",
+                            "options": [
+                                "Reconocimiento",
+                                "Entrega",
+                                "Explotación",
+                                "Comando y control"
+                            ],
+                            "correctAnswer": "Comando y control",
+                            "explanation": "Es correcta porque la comunicación con un servidor remoto del atacante para recibir órdenes corresponde a la fase de comando y control."
+                        },
+                        {
+                            "text": "Una organización implementa un sistema de seguridad que analiza el tráfico de red en tiempo real y, además de detectar patrones sospechosos, es capaz de bloquear automáticamente las conexiones maliciosas sin intervención humana. ¿Qué tipo de sistema corresponde a esta descripción?",
+                            "options": [
+                                "Sistema de detección de intrusos (IDS)",
+                                "Sistema de prevención de intrusos (IPS)",
+                                "Cortafuegos tradicional basado en reglas",
+                                "Sistema de gestión de eventos (SIEM)"
+                            ],
+                            "correctAnswer": "Sistema de prevención de intrusos (IPS)",
+                            "explanation": "Es correcta porque un IPS no solo detecta tráfico malicioso, sino que puede bloquearlo automáticamente."
+                        },
+                        {
+                            "text": "En una aplicación web que requiere comunicaciones seguras, se utiliza cifrado asimétrico durante el establecimiento inicial de la conexión para intercambiar claves, y posteriormente se emplea cifrado simétrico para transmitir los datos. ¿Cuál es la razón técnica principal de este enfoque híbrido?",
+                            "options": [
+                                "El cifrado asimétrico no es seguro para proteger datos",
+                                "El cifrado simétrico no permite autenticar usuarios",
+                                "El cifrado asimétrico es computacionalmente más costoso y menos eficiente para grandes volúmenes de datos",
+                                "El cifrado simétrico no garantiza la confidencialidad"
+                            ],
+                            "correctAnswer": "El cifrado asimétrico es computacionalmente más costoso y menos eficiente para grandes volúmenes de datos",
+                            "explanation": "Es correcta porque el cifrado asimétrico se usa para el intercambio inicial de claves y el simétrico resulta más eficiente para transmitir grandes volúmenes de datos."
+                        },
+                        {
+                            "text": "En entornos industriales, se diseña una arquitectura de red que incluye una zona intermedia destinada a separar la red corporativa (IT) de los sistemas de control industrial (OT), con el objetivo de reducir la superficie de ataque y controlar las comunicaciones entre ambas. ¿Cómo se denomina esta zona en el modelo Purdue?",
+                            "options": [
+                                "Nivel 1",
+                                "Nivel 2",
+                                "Nivel 3.5 (zona desmilitarizada industrial)",
+                                "Nivel 5"
+                            ],
+                            "correctAnswer": "Nivel 3.5 (zona desmilitarizada industrial)",
+                            "explanation": "Es correcta porque en el modelo Purdue la zona intermedia entre IT y OT se identifica como nivel 3.5 o DMZ industrial."
+                        },
+                        {
+                            "text": "Una empresa permite el acceso remoto de sus empleados a los sistemas internos mediante el uso de OpenVPN, utilizando cifrado robusto (AES-256) y autenticación multifactor. ¿Cuál es la principal ventaja de esta solución desde el punto de vista de la seguridad?",
+                            "options": [
+                                "Reduce la latencia de la conexión",
+                                "Elimina la necesidad de utilizar cortafuegos en la red",
+                                "Garantiza la confidencialidad de los datos en tránsito y una autenticación fuerte del usuario",
+                                "Sustituye completamente la infraestructura de red interna"
+                            ],
+                            "correctAnswer": "Garantiza la confidencialidad de los datos en tránsito y una autenticación fuerte del usuario",
+                            "explanation": "Es correcta porque la autenticación multifactor añade una barrera adicional aunque la contraseña haya sido comprometida."
+                        },
+                        {
+                            "text": "En una infraestructura con sistemas críticos, se implementa un servidor de salto como único punto de acceso para los administradores. Este servidor actúa como intermediario obligatorio antes de acceder a los sistemas finales. ¿Cuál es el objetivo principal de esta arquitectura?",
+                            "options": [
+                                "Incrementar la velocidad de acceso a los sistemas internos",
+                                "Evitar el uso de mecanismos de cifrado en las conexiones",
+                                "Centralizar, controlar y auditar todos los accesos a los sistemas sensibles",
+                                "Sustituir completamente el uso de redes privadas virtuales"
+                            ],
+                            "correctAnswer": "Centralizar, controlar y auditar todos los accesos a los sistemas sensibles",
+                            "explanation": "Es correcta porque un servidor de salto concentra el acceso administrativo, facilitando control, autenticación y auditoría."
+                        },
+                        {
+                            "text": "Una empresa adopta la estrategia de copias de seguridad conocida como regla 3-2-1, manteniendo tres copias de los datos, en dos tipos de soporte diferentes y una copia almacenada fuera de la ubicación principal. ¿Qué problema principal pretende mitigar esta estrategia?",
+                            "options": [
+                                "La lentitud en el acceso a los datos",
+                                "El elevado coste del almacenamiento",
+                                "La pérdida de datos ante fallos físicos, errores humanos o ciberataques",
+                                "La congestión del tráfico de red"
+                            ],
+                            "correctAnswer": "La pérdida de datos ante fallos físicos, errores humanos o ciberataques",
+                            "explanation": "Es correcta porque la regla 3-2-1 reduce el riesgo de pérdida de datos combinando varias copias, soportes distintos y una copia externa."
+                        },
+                        {
+                            "text": "En la planificación de recuperación ante desastres, se define un indicador que establece la cantidad máxima de datos que una organización puede permitirse perder en caso de incidente. ¿Qué indicador corresponde a esta definición?",
+                            "options": [
+                                "RTO",
+                                "SLA",
+                                "RPO",
+                                "MTBF"
+                            ],
+                            "correctAnswer": "RPO",
+                            "explanation": "Es correcta porque el RPO define cuánta pérdida de datos, medida en tiempo, puede tolerar la organización tras un incidente."
+                        },
+                        {
+                            "text": "El protocolo WPA3 introduce el mecanismo de autenticación SAE (Simultaneous Authentication of Equals) como mejora respecto a WPA2. ¿Qué vulnerabilidad principal soluciona esta mejora?",
+                            "options": [
+                                "La baja velocidad de conexión en redes inalámbricas",
+                                "La posibilidad de realizar ataques de diccionario offline sobre contraseñas capturadas",
+                                "La ausencia de cifrado en las comunicaciones Wi-Fi",
+                                "La incompatibilidad con dispositivos antiguos"
+                            ],
+                            "correctAnswer": "La posibilidad de realizar ataques de diccionario offline sobre contraseñas capturadas",
+                            "explanation": "Es correcta porque SAE dificulta los ataques de diccionario offline sobre contraseñas capturadas, una debilidad asociada a WPA2-PSK."
+                        },
+                        {
+                            "text": "En un sistema de autenticación basado en el estándar 802.1X, intervienen diferentes componentes con funciones específicas. ¿Cuál es el encargado de validar las credenciales del usuario antes de permitir el acceso a la red?",
+                            "options": [
+                                "El supplicant (dispositivo cliente)",
+                                "El authenticator (switch o punto de acceso)",
+                                "El servidor RADIUS",
+                                "El router de la red"
+                            ],
+                            "correctAnswer": "El servidor RADIUS",
+                            "explanation": "Es correcta porque en 802.1X el servidor RADIUS valida las credenciales antes de autorizar el acceso a la red."
+                        },
+                        {
+                            "text": "En el desarrollo de aplicaciones web, el uso de consultas parametrizadas en lugar de concatenar cadenas para construir sentencias SQL es una práctica recomendada de seguridad. ¿Cuál es la razón técnica que justifica esta recomendación?",
+                            "options": [
+                                "Elimina la necesidad de utilizar bases de datos",
+                                "Separa el código SQL de los datos introducidos por el usuario, evitando que estos se interpreten como instrucciones",
+                                "Filtra automáticamente las direcciones IP de los usuarios",
+                                "Codifica toda la interfaz de la aplicación"
+                            ],
+                            "correctAnswer": "Separa el código SQL de los datos introducidos por el usuario, evitando que estos se interpreten como instrucciones",
+                            "explanation": "Es correcta porque las consultas parametrizadas separan instrucciones SQL y datos de usuario, evitando que la entrada se interprete como código."
+                        },
+                        {
+                            "text": "En un proceso de análisis forense digital, se realiza una copia bit a bit de un disco duro antes de comenzar el análisis del contenido. ¿Cuál es la razón principal de esta práctica?",
+                            "options": [
+                                "Aumentar la velocidad del análisis",
+                                "Reducir el tamaño de los datos almacenados",
+                                "Preservar la evidencia original sin alteraciones para mantener su validez legal",
+                                "Facilitar la copia de archivos relevantes"
+                            ],
+                            "correctAnswer": "Preservar la evidencia original sin alteraciones para mantener su validez legal",
+                            "explanation": "Es correcta porque una copia bit a bit permite analizar sin alterar la evidencia original y conserva su validez legal."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

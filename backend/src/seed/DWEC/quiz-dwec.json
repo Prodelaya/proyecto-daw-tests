@@ -1,0 +1,181 @@
+{
+    "subjects": [
+        {
+            "code": "DWEC",
+            "name": "Desarrollo Web en Entorno Cliente",
+            "topics": [
+                {
+                    "number": 9,
+                    "title": "Quiz Alejandro Desarrollo Web en Entorno Cliente",
+                    "questions": [
+                        {
+                            "text": "En el diseño de la funcionalidad “Reprogramar cita” en una aplicación web, se define un flujo en el que el cliente valida datos básicos (formato de fecha y campos obligatorios) antes de enviar una solicitud HTTP al servidor, que posteriormente aplica lógica de negocio y persiste los cambios. ¿Cuál es la justificación técnica más correcta de este reparto de responsabilidades?",
+                            "options": [
+                                "El cliente debe encargarse de toda la lógica para reducir carga del servidor",
+                                "El servidor solo debe responder con datos sin aplicar validaciones",
+                                "El cliente mejora la experiencia de usuario con validaciones rápidas, mientras el servidor garantiza integridad y seguridad",
+                                "Ambos deben validar exactamente lo mismo por redundancia innecesaria"
+                            ],
+                            "correctAnswer": "El cliente mejora la experiencia de usuario con validaciones rápidas, mientras el servidor garantiza integridad y seguridad",
+                            "explanation": "Es correcta porque JavaScript permite añadir comportamiento e interacción en el lado del cliente."
+                        },
+                        {
+                            "text": "En una aplicación web que utiliza HTML5 semántico, se decide sustituir una estructura basada en múltiples  por elementos como , ,  y . ¿Cuál es el principal beneficio técnico de esta decisión?",
+                            "options": [
+                                "Mejora únicamente el diseño visual sin impacto estructural",
+                                "Reduce el tamaño del archivo HTML de forma significativa",
+                                "Mejora la accesibilidad, el SEO y la mantenibilidad del DOM",
+                                "Permite ejecutar JavaScript más rápido"
+                            ],
+                            "correctAnswer": "Mejora la accesibilidad, el SEO y la mantenibilidad del DOM",
+                            "explanation": "Es correcta porque responde a un criterio básico de accesibilidad y usabilidad de interfaces web."
+                        },
+                        {
+                            "text": "En el desarrollo de un catálogo con carrito en JavaScript, se observa que la operación “5” + 5 produce un resultado inesperado para el cálculo de totales. ¿Qué explica correctamente este comportamiento?",
+                            "options": [
+                                "JavaScript convierte automáticamente todo a número",
+                                "JavaScript concatena strings cuando uno de los operandos es texto",
+                                "El operador + siempre suma valores numéricos",
+                                "Es un error del navegador"
+                            ],
+                            "correctAnswer": "JavaScript concatena strings cuando uno de los operandos es texto",
+                            "explanation": "Es correcta porque JavaScript permite añadir comportamiento e interacción en el lado del cliente."
+                        },
+                        {
+                            "text": "En una implementación con XMLHttpRequest para filtrar productos sin recargar la página, se decide procesar la respuesta solo cuando readyState === 4 y status === 200. ¿Por qué es necesario este control?",
+                            "options": [
+                                "Para evitar ejecutar código antes de que la respuesta esté completa y sea válida",
+                                "Porque readyState 4 indica que el navegador ha iniciado la petición",
+                                "Porque status 200 indica error del servidor",
+                                "Para mejorar el diseño visual de la interfaz"
+                            ],
+                            "correctAnswer": "Para evitar ejecutar código antes de que la respuesta esté completa y sea válida",
+                            "explanation": "Es correcta porque la opción «Para evitar ejecutar código antes de que la respuesta esté completa y sea válida» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "En el diseño de un sistema de datos para un e-commerce, se decide almacenar pedidos en una base de datos relacional (SQL) y las fichas de producto en una base de datos documental (NoSQL). ¿Cuál es la razón principal de esta decisión?",
+                            "options": [
+                                "SQL es más rápido en todos los casos",
+                                "NoSQL no permite almacenar datos complejos",
+                                "SQL garantiza integridad transaccional y NoSQL aporta flexibilidad en atributos variables",
+                                "Ambos sistemas se utilizan sin criterio técnico"
+                            ],
+                            "correctAnswer": "SQL garantiza integridad transaccional y NoSQL aporta flexibilidad en atributos variables",
+                            "explanation": "Es correcta porque las consultas parametrizadas separan instrucciones SQL y datos de usuario, evitando que la entrada se interprete como código."
+                        },
+                        {
+                            "text": "En una aplicación web que consume una API mediante Fetch, se implementa el siguiente patrón: comprobar response.ok, procesar con response.json() y capturar errores con catch. ¿Qué objetivo principal cumple esta estructura?",
+                            "options": [
+                                "Reducir el tamaño de la respuesta del servidor",
+                                "Gestionar correctamente el flujo de éxito y error en la comunicación asíncrona",
+                                "Evitar el uso de JSON en la aplicación",
+                                "Sustituir completamente el backend"
+                            ],
+                            "correctAnswer": "Gestionar correctamente el flujo de éxito y error en la comunicación asíncrona",
+                            "explanation": "Es correcta porque JSON representa datos estructurados mediante pares clave-valor y listas, siendo habitual en el intercambio web."
+                        },
+                        {
+                            "text": "En un sistema que expone datos en JSON y XML desde un endpoint, se elige JSON como formato principal para el cliente web moderno. ¿Cuál es la razón más adecuada?",
+                            "options": [
+                                "JSON es más seguro que XML por definición",
+                                "JSON es más compacto y fácil de procesar en JavaScript",
+                                "XML no puede representar estructuras complejas",
+                                "JSON sustituye completamente a XML en todos los sistemas"
+                            ],
+                            "correctAnswer": "JSON es más compacto y fácil de procesar en JavaScript",
+                            "explanation": "Es correcta porque JavaScript permite añadir comportamiento e interacción en el lado del cliente."
+                        },
+                        {
+                            "text": "Durante la validación de un sitio web con herramientas del W3C, se detectan errores en la jerarquía de encabezados y atributos alt ausentes en imágenes. ¿Qué impacto tiene corregir estos problemas?",
+                            "options": [
+                                "Solo mejora la estética visual",
+                                "Mejora la accesibilidad, compatibilidad y posicionamiento SEO",
+                                "Reduce el uso de JavaScript",
+                                "Elimina la necesidad de CSS"
+                            ],
+                            "correctAnswer": "Mejora la accesibilidad, compatibilidad y posicionamiento SEO",
+                            "explanation": "Es correcta porque responde a un criterio básico de accesibilidad y usabilidad de interfaces web."
+                        },
+                        {
+                            "text": "En el diseño de una interfaz de usuario, se implementa feedback visual inmediato (estado de carga, mensajes de error y éxito) en formularios. ¿Qué principio de diseño de interfaces se está aplicando principalmente?",
+                            "options": [
+                                "Minimalismo visual",
+                                "Feedback y prevención de errores",
+                                "Optimización de base de datos",
+                                "Reducción de latencia"
+                            ],
+                            "correctAnswer": "Feedback y prevención de errores",
+                            "explanation": "Es correcta porque en React el estado y JSX permiten renderizar la interfaz en función de los datos del componente."
+                        },
+                        {
+                            "text": "En una aplicación web con listas dinámicas de productos, se utiliza delegación de eventos en lugar de asignar un listener a cada botón individual. ¿Cuál es la principal ventaja de esta técnica?",
+                            "options": [
+                                "Permite evitar el uso de funciones",
+                                "Mejora la mantenibilidad y el rendimiento en elementos dinámicos",
+                                "Elimina la necesidad de DOM",
+                                "Hace innecesario el uso de variables"
+                            ],
+                            "correctAnswer": "Mejora la mantenibilidad y el rendimiento en elementos dinámicos",
+                            "explanation": "Es correcta porque la opción «Mejora la mantenibilidad y el rendimiento en elementos dinámicos» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "En un sistema AJAX con Fetch, se implementa AbortController para cancelar solicitudes cuando el usuario sigue escribiendo en un buscador. ¿Qué mejora principal aporta esta técnica?",
+                            "options": [
+                                "Aumenta el tamaño de las respuestas",
+                                "Evita resultados obsoletos y mejora la experiencia de usuario",
+                                "Reduce la necesidad de usar JSON",
+                                "Elimina errores del servidor"
+                            ],
+                            "correctAnswer": "Evita resultados obsoletos y mejora la experiencia de usuario",
+                            "explanation": "Es correcta porque fetch trabaja con promesas y permite gestionar respuestas asíncronas de peticiones HTTP."
+                        },
+                        {
+                            "text": "En una arquitectura cliente-servidor, se identifica como riesgo el “punto único de fallo” en el servidor. ¿Cuál es la medida más adecuada para mitigarlo?",
+                            "options": [
+                                "Aumentar el tamaño del cliente",
+                                "Reducir el número de usuarios",
+                                "Implementar redundancia y conmutación por error",
+                                "Eliminar el servidor"
+                            ],
+                            "correctAnswer": "Implementar redundancia y conmutación por error",
+                            "explanation": "Es correcta porque JavaScript permite añadir comportamiento e interacción en el lado del cliente."
+                        },
+                        {
+                            "text": "En el diseño responsive mobile-first, se define una grid fluida con unidades relativas y media queries para adaptar el layout. ¿Cuál es el objetivo principal de este enfoque?",
+                            "options": [
+                                "Diseñar primero para escritorio",
+                                "Garantizar adaptación progresiva desde móvil a pantallas mayores",
+                                "Evitar el uso de CSS",
+                                "Reducir el número de componentes"
+                            ],
+                            "correctAnswer": "Garantizar adaptación progresiva desde móvil a pantallas mayores",
+                            "explanation": "Es correcta porque permite adaptar la interfaz a distintos tamaños de pantalla."
+                        },
+                        {
+                            "text": "En el acceso a bases de datos desde una aplicación web, se utilizan consultas parametrizadas en lugar de concatenar strings. ¿Qué problema de seguridad se está evitando directamente?",
+                            "options": [
+                                "Ataques de denegación de servicio",
+                                "Inyección SQL",
+                                "Pérdida de datos por concurrencia",
+                                "Errores de red"
+                            ],
+                            "correctAnswer": "Inyección SQL",
+                            "explanation": "Es correcta porque las consultas parametrizadas separan instrucciones SQL y datos de usuario, evitando que la entrada se interprete como código."
+                        },
+                        {
+                            "text": "En el uso de herramientas como DevTools del navegador, se analizan aspectos como el árbol DOM, el rendimiento y el flujo de red. ¿Cuál es el principal valor profesional de estas herramientas en el desarrollo frontend?",
+                            "options": [
+                                "Sustituir el uso de código",
+                                "Permitir diseñar sin conocimientos técnicos",
+                                "Detectar problemas reales de rendimiento, estructura y comportamiento en tiempo de ejecución",
+                                "Eliminar la necesidad de pruebas"
+                            ],
+                            "correctAnswer": "Detectar problemas reales de rendimiento, estructura y comportamiento en tiempo de ejecución",
+                            "explanation": "Es correcta porque la opción «Detectar problemas reales de rendimiento, estructura y comportamiento en tiempo de ejecución» responde de forma directa al concepto planteado en el enunciado."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

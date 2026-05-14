@@ -1,0 +1,181 @@
+{
+    "subjects": [
+        {
+            "code": "DAW",
+            "name": "Despliegue de aplicaciones web",
+            "topics": [
+                {
+                    "number": 8,
+                    "title": "Quiz Alejandro Despliegue de aplicaciones web",
+                    "questions": [
+                        {
+                            "text": "¿Qué archivo del sistema se modifica para que el dominio inventario.local apunte a la IP local?",
+                            "options": [
+                                "httpd.conf",
+                                "my.ini",
+                                "hosts",
+                                "php.ini"
+                            ],
+                            "correctAnswer": "hosts",
+                            "explanation": "Es correcta porque la opción «hosts» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad principal de configurar un Virtual Host en Apache?",
+                            "options": [
+                                "aumentar la velocidad del procesador",
+                                "permitir múltiples dominios con configuraciones independientes en un mismo servidor",
+                                "sustituir el archivo .htaccess",
+                                "crear automáticamente bases de datos"
+                            ],
+                            "correctAnswer": "permitir múltiples dominios con configuraciones independientes en un mismo servidor",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "Si no se descomenta la inclusión de httpd-vhosts.conf en httpd.conf, ¿qué ocurrirá?",
+                            "options": [
+                                "apache no iniciará",
+                                "el certificado ssl dejará de funcionar",
+                                "el host virtual no se cargará correctamente",
+                                "se bloqueará el acceso a mysql"
+                            ],
+                            "correctAnswer": "el host virtual no se cargará correctamente",
+                            "explanation": "Es correcta porque la opción «el host virtual no se cargará correctamente» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "¿Qué directiva se ajusta para limitar el número máximo de peticiones simultáneas atendidas por Apache?",
+                            "options": [
+                                "keepalive",
+                                "cacheroot",
+                                "maxrequestworkers",
+                                "timeout"
+                            ],
+                            "correctAnswer": "maxrequestworkers",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué módulos deben habilitarse para activar la caché en disco en Apache?",
+                            "options": [
+                                "mod_ssl y mod_rewrite",
+                                "mod_php y mod_status",
+                                "mod_cache y mod_cache_disk",
+                                "mod_proxy y mod_headers"
+                            ],
+                            "correctAnswer": "mod_cache y mod_cache_disk",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué herramienta se utiliza para generar un certificado SSL autofirmado para habilitar HTTPS en un entorno de pruebas?",
+                            "options": [
+                                "phpmyadmin",
+                                "openssl",
+                                "git",
+                                "apache benchmark"
+                            ],
+                            "correctAnswer": "openssl",
+                            "explanation": "Es correcta porque HTTPS/TLS usa certificados para cifrar la comunicación y verificar la identidad del sitio."
+                        },
+                        {
+                            "text": "Para que el archivo .htaccess funcione dentro de un directorio en Apache, ¿qué directiva debe estar habilitada?",
+                            "options": [
+                                "allowoverride all",
+                                "require all granted",
+                                "servername localhost",
+                                "options indexes"
+                            ],
+                            "correctAnswer": "allowoverride all",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué herramienta de consola permite generar el archivo de credenciales para autenticación básica en Apache?",
+                            "options": [
+                                "openssl",
+                                "htpasswd",
+                                "mysql",
+                                "netstat"
+                            ],
+                            "correctAnswer": "htpasswd",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué técnica se recomienda en PHP para prevenir inyecciones SQL?",
+                            "options": [
+                                "concatenar variables en la consulta",
+                                "usar consultas preparadas con pdo o mysqli",
+                                "aplicar estilos css al formulario",
+                                "cambiar el puerto de mysql"
+                            ],
+                            "correctAnswer": "usar consultas preparadas con pdo o mysqli",
+                            "explanation": "Es correcta porque las consultas parametrizadas separan instrucciones SQL y datos de usuario, evitando que la entrada se interprete como código."
+                        },
+                        {
+                            "text": "¿Qué herramienta se emplea para realizar pruebas básicas de carga en un servidor web?",
+                            "options": [
+                                "wireshark",
+                                "jenkins",
+                                "apache benchmark",
+                                "docker"
+                            ],
+                            "correctAnswer": "apache benchmark",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué archivo de configuración principal de Apache contiene las directivas globales del servidor?",
+                            "options": [
+                                "httpd.conf",
+                                "php.ini",
+                                "my.cnf",
+                                "hosts"
+                            ],
+                            "correctAnswer": "httpd.conf",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué directiva de Apache se utiliza para definir el directorio raíz desde el que se sirven los archivos de un sitio web?",
+                            "options": [
+                                "servername",
+                                "documentroot",
+                                "directoryindex",
+                                "alias"
+                            ],
+                            "correctAnswer": "documentroot",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué puerto se utiliza por defecto para conexiones HTTP en un servidor web?",
+                            "options": [
+                                "21",
+                                "22",
+                                "80",
+                                "443"
+                            ],
+                            "correctAnswer": "80",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué archivo se utiliza en Apache para definir la página que se carga por defecto al acceder a un directorio?",
+                            "options": [
+                                "index.php",
+                                "directoryindex",
+                                "default.conf",
+                                "welcome.html"
+                            ],
+                            "correctAnswer": "directoryindex",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        },
+                        {
+                            "text": "¿Qué ocurre si el puerto 80 ya está siendo utilizado por otro servicio cuando se intenta iniciar Apache?",
+                            "options": [
+                                "apache cambia automáticamente de puerto",
+                                "apache se inicia sin errores",
+                                "apache no podrá iniciarse correctamente",
+                                "apache desactiva el servicio que usa el puerto"
+                            ],
+                            "correctAnswer": "apache no podrá iniciarse correctamente",
+                            "explanation": "Es correcta porque describe la función propia del servidor web dentro del despliegue de aplicaciones."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

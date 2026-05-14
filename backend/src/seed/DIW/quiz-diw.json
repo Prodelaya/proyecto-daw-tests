@@ -1,0 +1,181 @@
+{
+    "subjects": [
+        {
+            "code": "DIW",
+            "name": "Diseño de Interfaces Web",
+            "topics": [
+                {
+                    "number": 11,
+                    "title": "Quiz Alejandro Diseño de Interfaces Web",
+                    "questions": [
+                        {
+                            "text": "En el diseño de una interfaz responsiva para una tienda online, ¿qué decisión refleja mejor una correcta adaptación al entorno móvil?",
+                            "options": [
+                                "mantener diseño horizontal",
+                                "reorganizar en una sola columna con menú simplificado",
+                                "reducir tamaños sin cambiar estructura",
+                                "eliminar contenido visual"
+                            ],
+                            "correctAnswer": "reorganizar en una sola columna con menú simplificado",
+                            "explanation": "Es correcta porque la opción «reorganizar en una sola columna con menú simplificado» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "En un mapa de navegación bien diseñado para una web de comercio electrónico, ¿qué elemento es clave para mejorar la experiencia de usuario?",
+                            "options": [
+                                "menús redundantes",
+                                "elementos clave visibles como búsqueda y carrito",
+                                "ocultar categorías",
+                                "eliminar iconos"
+                            ],
+                            "correctAnswer": "elementos clave visibles como búsqueda y carrito",
+                            "explanation": "Es correcta porque la opción «elementos clave visibles como búsqueda y carrito» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "En el uso combinado de CSS en línea, interno y externo, ¿cuál es la principal desventaja del estilo en línea?",
+                            "options": [
+                                "no permite estilos",
+                                "menor prioridad",
+                                "dificulta mantenimiento y reutilización",
+                                "incompatibilidad"
+                            ],
+                            "correctAnswer": "dificulta mantenimiento y reutilización",
+                            "explanation": "Es correcta porque la opción «dificulta mantenimiento y reutilización» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "Al diseñar una hoja de estilos específica para impresión, ¿cuál es la finalidad principal de usar media='print'?",
+                            "options": [
+                                "animaciones",
+                                "rendimiento",
+                                "adaptar contenido para impresión",
+                                "modificar javascript"
+                            ],
+                            "correctAnswer": "adaptar contenido para impresión",
+                            "explanation": "Es correcta porque la opción «adaptar contenido para impresión» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "¿Qué función tiene el atributo alt en imágenes?",
+                            "options": [
+                                "mejorar calidad",
+                                "acelerar carga",
+                                "mejorar accesibilidad",
+                                "aplicar estilos"
+                            ],
+                            "correctAnswer": "mejorar accesibilidad",
+                            "explanation": "Es correcta porque responde a un criterio básico de accesibilidad y usabilidad de interfaces web."
+                        },
+                        {
+                            "text": "¿Qué hace loading=‘lazy’ en imágenes?",
+                            "options": [
+                                "mejora diseño",
+                                "activa animaciones",
+                                "retrasa carga de imágenes",
+                                "mejora resolución"
+                            ],
+                            "correctAnswer": "retrasa carga de imágenes",
+                            "explanation": "Es correcta porque la opción «retrasa carga de imágenes» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "En la integración de audio en una página web, ¿qué función cumple el atributo controls?",
+                            "options": [
+                                "edición",
+                                "reproducción automática",
+                                "mostrar controles de usuario",
+                                "mejorar sonido"
+                            ],
+                            "correctAnswer": "mostrar controles de usuario",
+                            "explanation": "Es correcta porque la opción «mostrar controles de usuario» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "¿Qué ventaja tienen transformaciones CSS como scale o rotate?",
+                            "options": [
+                                "mayor complejidad",
+                                "mejor rendimiento",
+                                "uso exclusivo en svg",
+                                "sustituyen javascript"
+                            ],
+                            "correctAnswer": "mejor rendimiento",
+                            "explanation": "Es correcta porque la opción «mejor rendimiento» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "Cuando se sincroniza una animación con un sonido mediante JavaScript, ¿qué acción es clave para garantizar la coherencia temporal?",
+                            "options": [
+                                "reducir duración de la animación",
+                                "reiniciar audio antes de reproducirlo en cada interacción",
+                                "eliminar transiciones css",
+                                "usar solo eventos de scroll"
+                            ],
+                            "correctAnswer": "reiniciar audio antes de reproducirlo en cada interacción",
+                            "explanation": "Es correcta porque JavaScript permite añadir comportamiento e interacción en el lado del cliente."
+                        },
+                        {
+                            "text": "Estás optimizando el espacio en pantalla de una aplicación móvil y necesitas que el usuario elija una opción de una lista sin ocupar mucho sitio. ¿Qué etiqueta HTML es la adecuada para este propósito?",
+                            "options": [
+                                "<button>",
+                                "<select>",
+                                "<iframe>",
+                                "<video>"
+                            ],
+                            "correctAnswer": "<select>",
+                            "explanation": "Es correcta porque la opción «b) <select>» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "¿Por qué es importante utilizar un contenedor con proporción, por ejemplo 16:9, al incrustar vídeos responsivos?",
+                            "options": [
+                                "reducir tamaño",
+                                "mantener proporción",
+                                "mejorar calidad",
+                                "activar controles"
+                            ],
+                            "correctAnswer": "mantener proporción",
+                            "explanation": "Es correcta porque los contenedores empaquetan la aplicación y sus dependencias en un entorno reproducible."
+                        },
+                        {
+                            "text": "En una auditoría de accesibilidad basada en WCAG, ¿qué principio se vulnera si una web no puede navegarse con teclado?",
+                            "options": [
+                                "perceptible",
+                                "operable",
+                                "comprensible",
+                                "robusto"
+                            ],
+                            "correctAnswer": "operable",
+                            "explanation": "Es correcta porque responde a un criterio básico de accesibilidad y usabilidad de interfaces web."
+                        },
+                        {
+                            "text": "En pruebas heurísticas de usabilidad, si un usuario no recibe confirmación tras enviar un formulario, ¿qué principio se está incumpliendo?",
+                            "options": [
+                                "flexibilidad",
+                                "visibilidad del estado del sistema",
+                                "prevención de errores",
+                                "diseño estético"
+                            ],
+                            "correctAnswer": "visibilidad del estado del sistema",
+                            "explanation": "Es correcta porque en React el estado y JSX permiten renderizar la interfaz en función de los datos del componente."
+                        },
+                        {
+                            "text": "En el diseño UX de una plataforma de adopción de mascotas, ¿qué elemento favorece una arquitectura de la información clara?",
+                            "options": [
+                                "contenido sin estructura",
+                                "organización en categorías",
+                                "ocultar navegación",
+                                "solo texto"
+                            ],
+                            "correctAnswer": "organización en categorías",
+                            "explanation": "Es correcta porque la opción «organización en categorías» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "En una landing page orientada a conversión, ¿qué estrategia aumenta la probabilidad de que el usuario complete un formulario?",
+                            "options": [
+                                "enlaces externos",
+                                "cta visibles y claros",
+                                "ocultar formulario",
+                                "bajo contraste"
+                            ],
+                            "correctAnswer": "cta visibles y claros",
+                            "explanation": "Es correcta porque la opción «cta visibles y claros» responde de forma directa al concepto planteado en el enunciado."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

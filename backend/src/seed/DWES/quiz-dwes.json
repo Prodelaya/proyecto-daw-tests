@@ -1,0 +1,181 @@
+{
+    "subjects": [
+        {
+            "code": "DWES",
+            "name": "Desarrollo Web en Entorno Servidor",
+            "topics": [
+                {
+                    "number": 10,
+                    "title": "Quiz Alejandro Desarrollo Web en Entorno Servidor",
+                    "questions": [
+                        {
+                            "text": "En un entorno típico de desarrollo web con PHP usando VS Code y un servidor local, ¿dónde se ejecuta el código PHP y qué recibe el navegador?",
+                            "options": [
+                                "el navegador ejecuta directamente el php",
+                                "el php se ejecuta en el servidor y el navegador recibe html, css y javascript",
+                                "el php se ejecuta en el cliente si el archivo es .php",
+                                "el php se ejecuta en el editor de código"
+                            ],
+                            "correctAnswer": "el php se ejecuta en el servidor y el navegador recibe html, css y javascript",
+                            "explanation": "Es correcta porque HTML estructura el contenido y CSS define su presentación visual."
+                        },
+                        {
+                            "text": "En PHP, ¿para qué se utiliza principalmente la superglobal $_POST?",
+                            "options": [
+                                "para guardar variables internas del servidor",
+                                "para recoger datos enviados desde un formulario con método post",
+                                "para mostrar contenido html",
+                                "para conectarse automáticamente a una base de datos"
+                            ],
+                            "correctAnswer": "para recoger datos enviados desde un formulario con método post",
+                            "explanation": "Es correcta porque se ajusta al funcionamiento habitual de PHP y del acceso a datos en aplicaciones web del lado servidor."
+                        },
+                        {
+                            "text": "En PHP, ¿qué función se utiliza para mostrar información en pantalla durante una prueba rápida?",
+                            "options": [
+                                "print()",
+                                "show()",
+                                "display()",
+                                "echo()"
+                            ],
+                            "correctAnswer": "print()",
+                            "explanation": "Es correcta porque se ajusta al funcionamiento habitual de PHP y del acceso a datos en aplicaciones web del lado servidor."
+                        },
+                        {
+                            "text": "¿Cuál es la finalidad principal de phpMyAdmin en un entorno de desarrollo con PHP?",
+                            "options": [
+                                "editor de código php",
+                                "interfaz web para administrar bases de datos mysql o mariadb",
+                                "servidor de ejecución php",
+                                "extensión de depuración"
+                            ],
+                            "correctAnswer": "interfaz web para administrar bases de datos mysql o mariadb",
+                            "explanation": "Es correcta porque las consultas parametrizadas separan instrucciones SQL y datos de usuario, evitando que la entrada se interprete como código."
+                        },
+                        {
+                            "text": "En SQL, ¿qué sentencia se utiliza para insertar un nuevo registro en una tabla?",
+                            "options": [
+                                "add into",
+                                "insert into",
+                                "put into",
+                                "update into"
+                            ],
+                            "correctAnswer": "insert into",
+                            "explanation": "Es correcta porque las consultas parametrizadas separan instrucciones SQL y datos de usuario, evitando que la entrada se interprete como código."
+                        },
+                        {
+                            "text": "En Bootstrap, ¿qué clase permite que un elemento ocupe toda la fila en pantallas pequeñas y la mitad en pantallas medianas?",
+                            "options": [
+                                "col-6 col-md-12",
+                                "col-12 col-md-6",
+                                "row-12 row-md-6",
+                                "container-12 container-md-6"
+                            ],
+                            "correctAnswer": "col-12 col-md-6",
+                            "explanation": "Es correcta porque permite adaptar la interfaz a distintos tamaños de pantalla."
+                        },
+                        {
+                            "text": "¿Cuál es la forma correcta de mostrar una variable dentro de JSX en React?",
+                            "options": [
+                                "variable",
+                                "${variable}",
+                                "{variable}",
+                                "(variable)"
+                            ],
+                            "correctAnswer": "{variable}",
+                            "explanation": "Es correcta porque en React el estado y JSX permiten renderizar la interfaz en función de los datos del componente."
+                        },
+                        {
+                            "text": "¿Qué ventaja aporta usar static $pdo dentro de una función de conexión en PHP?",
+                            "options": [
+                                "crea automáticamente la base de datos",
+                                "evita abrir múltiples conexiones a la base de datos",
+                                "convierte consultas en preparadas",
+                                "encripta contraseñas"
+                            ],
+                            "correctAnswer": "evita abrir múltiples conexiones a la base de datos",
+                            "explanation": "Es correcta porque se ajusta al funcionamiento habitual de PHP y del acceso a datos en aplicaciones web del lado servidor."
+                        },
+                        {
+                            "text": "En PHP, ¿qué hace la función isset()?",
+                            "options": [
+                                "comprueba si una variable es numérica",
+                                "verifica si una variable está definida y no es null",
+                                "convierte una variable en string",
+                                "elimina una variable"
+                            ],
+                            "correctAnswer": "verifica si una variable está definida y no es null",
+                            "explanation": "Es correcta porque se ajusta al funcionamiento habitual de PHP y del acceso a datos en aplicaciones web del lado servidor."
+                        },
+                        {
+                            "text": "En HTML, ¿qué atributo especifica la URL a la que se envían los datos de un formulario?",
+                            "options": [
+                                "method",
+                                "action",
+                                "target",
+                                "href"
+                            ],
+                            "correctAnswer": "action",
+                            "explanation": "Es correcta porque la opción «action» responde de forma directa al concepto planteado en el enunciado."
+                        },
+                        {
+                            "text": "En JavaScript, ¿qué devuelve typeof null?",
+                            "options": [
+                                "null",
+                                "undefined",
+                                "object",
+                                "boolean"
+                            ],
+                            "correctAnswer": "object",
+                            "explanation": "Es correcta porque JavaScript permite añadir comportamiento e interacción en el lado del cliente."
+                        },
+                        {
+                            "text": "En SQL, ¿qué cláusula se utiliza para filtrar resultados tras aplicar funciones de agregación?",
+                            "options": [
+                                "where",
+                                "filter",
+                                "having",
+                                "group by"
+                            ],
+                            "correctAnswer": "having",
+                            "explanation": "Es correcta porque las consultas parametrizadas separan instrucciones SQL y datos de usuario, evitando que la entrada se interprete como código."
+                        },
+                        {
+                            "text": "En PHP, ¿qué ocurre si se accede a $_GET[‘id’] y no existe ese parámetro?",
+                            "options": [
+                                "devuelve 0",
+                                "devuelve false sin errores",
+                                "genera una advertencia si no se controla",
+                                "detiene la ejecución"
+                            ],
+                            "correctAnswer": "genera una advertencia si no se controla",
+                            "explanation": "Es correcta porque se ajusta al funcionamiento habitual de PHP y del acceso a datos en aplicaciones web del lado servidor."
+                        },
+                        {
+                            "text": "En Bootstrap, ¿qué clase permite centrar horizontalmente un elemento mediante márgenes automáticos?",
+                            "options": [
+                                "text-center",
+                                "align-center",
+                                "mx-auto",
+                                "justify-center"
+                            ],
+                            "correctAnswer": "mx-auto",
+                            "explanation": "Es correcta porque permite adaptar la interfaz a distintos tamaños de pantalla."
+                        },
+                        {
+                            "text": "En React, ¿qué hook se utiliza para gestionar el estado en un componente funcional?",
+                            "options": [
+                                "useEffect",
+                                "useState",
+                                "useContext",
+                                "useReducer"
+                            ],
+                            "correctAnswer": "useState",
+                            "explanation": "Es correcta porque en React el estado y JSX permiten renderizar la interfaz en función de los datos del componente."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
