@@ -1,0 +1,456 @@
+{
+  "subjects": [
+    {
+      "code": "SGE",
+      "name": "Sistema de gestión empresarial",
+      "topics": [
+        {
+          "number": 1,
+          "title": "TEST FINAL SGE",
+          "questions": [
+            {
+              "text": "En el contexto de la gestión empresarial, ¿qué representan las siglas ERP?",
+              "options": [
+                "External Relationship Protocol",
+                "Efficient Revenue Process",
+                "Enterprise Resource Planning",
+                "Essential Recovery Program"
+              ],
+              "correctAnswer": "Enterprise Resource Planning",
+              "explanation": "La respuesta correcta es «Enterprise Resource Planning» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Cuál es la función principal de los Sistemas de Gestión de Relaciones con Clientes (CRM)?",
+              "options": [
+                "Administrar los servidores físicos y la infraestructura de red de la empresa",
+                "Gestionar y optimizar las relaciones con los clientes desde la adquisición hasta la retención",
+                "Automatizar la cadena de suministro y la logística de almacén",
+                "Controlar el registro de nóminas y los recursos humanos internos"
+              ],
+              "correctAnswer": "Gestionar y optimizar las relaciones con los clientes desde la adquisición hasta la retención",
+              "explanation": "La respuesta correcta es «Gestionar y optimizar las relaciones con los clientes desde la adquisición hasta la retención» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Cuál es la diferencia clave en el enfoque de un CRM frente a un ERP?",
+              "options": [
+                "No existe diferencia, son dos nombres para el mismo tipo de software",
+                "El CRM es para grandes empresas y el ERP solo para PYMES",
+                "El ERP es siempre en la nube y el CRM es siempre local",
+                "El CRM se enfoca en relaciones externas y el ERP en la eficiencia interna"
+              ],
+              "correctAnswer": "El CRM se enfoca en relaciones externas y el ERP en la eficiencia interna",
+              "explanation": "La respuesta correcta es «El CRM se enfoca en relaciones externas y el ERP en la eficiencia interna» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Una empresa decide instalar solo los módulos de Ventas y Facturación de Odoo. ¿A qué ventaja técnica corresponde esta acción?",
+              "options": [
+                "Costo de mantenimiento",
+                "Modularidad",
+                "Interfaz intuitiva",
+                "Código abierto"
+              ],
+              "correctAnswer": "Modularidad",
+              "explanation": "La respuesta correcta es «Modularidad» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "En el contexto legal de la tecnología, ¿qué define principalmente a una licencia de software propietario?",
+              "options": [
+                "La obligatoriedad de que el código sea público para toda la comunidad",
+                "Las restricciones impuestas por el titular de los derechos de autor",
+                "La gratuidad total del producto independientemente de su uso comercial",
+                "La libertad absoluta para distribuir copias de seguridad a terceros"
+              ],
+              "correctAnswer": "Las restricciones impuestas por el titular de los derechos de autor",
+              "explanation": "La respuesta correcta es «Las restricciones impuestas por el titular de los derechos de autor» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Durante el asistente de instalación de Odoo en un equipo local, ¿qué componentes deben marcarse para una instalación completa inicial?",
+              "options": [
+                "Nginx WebServer como componente obligatorio y único",
+                "Solo el Ghostscript interpreter para visualización de archivos",
+                "Odoo Server y PostgreSQL Database",
+                "Únicamente el servidor de aplicaciones sin base de datos"
+              ],
+              "correctAnswer": "Odoo Server y PostgreSQL Database",
+              "explanation": "La respuesta correcta es «Odoo Server y PostgreSQL Database» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "El departamento de ventas quiere transformar presupuestos confirmados en facturas. ¿Qué módulo permite específicamente la creación de presupuestos?",
+              "options": [
+                "Módulo de ventas",
+                "Módulo de flota",
+                "Módulo de contabilidad",
+                "Módulo de selección de personal"
+              ],
+              "correctAnswer": "Módulo de ventas",
+              "explanation": "La respuesta correcta es «Módulo de ventas» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Cuál es la característica principal de una arquitectura cliente/servidor?",
+              "options": [
+                "El cliente aloja la base de datos y el servidor solo la interfaz",
+                "No permite el acceso desde dispositivos móviles o tablets",
+                "Involucra al menos dos tipos de máquinas: clientes y servidor",
+                "Todos los recursos hardware están en una computadora personal aislada"
+              ],
+              "correctAnswer": "Involucra al menos dos tipos de máquinas: clientes y servidor",
+              "explanation": "La respuesta correcta es «Involucra al menos dos tipos de máquinas: clientes y servidor» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un analista de datos necesita recuperar información específica de las ventas del último trimestre almacenada en el ERP. ¿Qué lenguaje es el más utilizado para gestionar estas bases de datos relacionales?",
+              "options": [
+                "HTML",
+                "Java",
+                "Python",
+                "SQL"
+              ],
+              "correctAnswer": "SQL",
+              "explanation": "La respuesta correcta es «SQL» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Una empresa utiliza Odoo y desea examinar en profundidad la información de sus clientes mediante una herramienta gráfica que facilite la gestión de PostgreSQL. ¿Cuál se menciona en el temario?",
+              "options": [
+                "Adobe Acrobat",
+                "Microsoft Excel",
+                "MySQL Workbench",
+                "pgAdmin"
+              ],
+              "correctAnswer": "pgAdmin",
+              "explanation": "La respuesta correcta es «pgAdmin» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "En el entorno de un ERP, ¿qué componente actúa como interfaz para que los usuarios introduzcan o modifiquen datos, como detalles de pedidos?",
+              "options": [
+                "Informe",
+                "Script de automatización",
+                "Formulario",
+                "Exportación CSV"
+              ],
+              "correctAnswer": "Formulario",
+              "explanation": "La respuesta correcta es «Formulario» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Cuál es la diferencia principal entre un formulario y un informe según el material de la unidad?",
+              "options": [
+                "El formulario es un archivo PDF y el informe es una base de datos",
+                "No hay diferencia, ambos términos se usan indistintamente",
+                "El formulario es para leer y el informe para escribir",
+                "El formulario permite ingresar datos y el informe los presenta de forma comprensible"
+              ],
+              "correctAnswer": "El formulario permite ingresar datos y el informe los presenta de forma comprensible",
+              "explanation": "La respuesta correcta es «El formulario permite ingresar datos y el informe los presenta de forma comprensible» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un desarrollador de Odoo recibe la tarea de insertar un nuevo contacto en el sistema de manera programática. ¿Qué instrucción debe utilizar para esta operación?",
+              "options": [
+                "write(vals)",
+                "create(vals)",
+                "search(args)",
+                "browse(ids)"
+              ],
+              "correctAnswer": "create(vals)",
+              "explanation": "La respuesta correcta es «create(vals)» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un analista necesita filtrar una lista de facturas para encontrar aquellas que superan los 1000 euros y están en estado \"pendiente\". ¿Qué método de Odoo es el más adecuado para esta búsqueda?",
+              "options": [
+                "search(args)",
+                "name_get()",
+                "fields_get(keys)",
+                "exists()"
+              ],
+              "correctAnswer": "search(args)",
+              "explanation": "La respuesta correcta es «search(args)» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un desarrollador desea implementar una lógica que se ejecute automáticamente en el navegador en cuanto el usuario cambie el valor de un campo de selección. ¿Qué método debe definir para esto?",
+              "options": [
+                "filtered(func)",
+                "mapped(func)",
+                "onchange(fields)",
+                "sorted(key)"
+              ],
+              "correctAnswer": "onchange(fields)",
+              "explanation": "La respuesta correcta es «onchange(fields)» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Para que un componente de software manipule datos de forma efectiva, debe ser capaz de realizar operaciones básicas sobre los registros. ¿Cómo se conoce habitualmente al conjunto de operaciones: crear, leer, actualizar y eliminar?",
+              "options": [
+                "Protocolos de transferencia",
+                "Operaciones CRUD",
+                "Ciclo de vida del software",
+                "Operaciones RESTful"
+              ],
+              "correctAnswer": "Operaciones CRUD",
+              "explanation": "La respuesta correcta es «Operaciones CRUD» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Una empresa modifica la forma en que su ERP interactúa con un sistema logístico externo. ¿A qué concepto se refiere esta acción?",
+              "options": [
+                "Adaptación del sistema",
+                "Personalización superficial",
+                "Respaldo de base de datos",
+                "Migración de servidor"
+              ],
+              "correctAnswer": "Adaptación del sistema",
+              "explanation": "La respuesta correcta es «Adaptación del sistema» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Cuál es la característica principal que define a la \"personalización\" frente a la \"adaptación\" según el temario?",
+              "options": [
+                "Se refiere al ajuste de características sin alterar el código del software",
+                "Solo puede realizarse en sistemas que no sean de código abierto",
+                "Es un proceso que elimina las funciones existentes del ERP",
+                "Requiere siempre la reescritura total del código fuente del software"
+              ],
+              "correctAnswer": "Se refiere al ajuste de características sin alterar el código del software",
+              "explanation": "La respuesta correcta es «Se refiere al ajuste de características sin alterar el código del software» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Qué son técnicamente los procedimientos almacenados en el servidor?",
+              "options": [
+                "Discos duros externos donde se guardan los manuales de usuario",
+                "Carpetas físicas donde se archivan las facturas impresas",
+                "Dispositivos de seguridad que bloquean el acceso al edificio",
+                "Scripts que se ejecutan en la base de datos para automatizar tareas"
+              ],
+              "correctAnswer": "Scripts que se ejecutan en la base de datos para automatizar tareas",
+              "explanation": "La respuesta correcta es «Scripts que se ejecutan en la base de datos para automatizar tareas» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un desarrollador crea una carpeta llamada \"libreria\" dentro del directorio \"addons\". ¿Qué archivo debe crear obligatoriamente para definir la información básica del módulo?",
+              "options": [
+                "index.html",
+                "manifest.py",
+                "views.xml",
+                "models.py"
+              ],
+              "correctAnswer": "manifest.py",
+              "explanation": "La respuesta correcta es «manifest.py» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Una gran multinacional requiere un sistema ERP que soporte operaciones financieras complejas y cumplimiento normativo en 20 países. ¿Qué factor de empleabilidad es crítico al elegir una solución?",
+              "options": [
+                "La popularidad de soluciones como SAP ERP u Oracle ERP Cloud para corporaciones globales",
+                "El color de los iconos de la interfaz de usuario",
+                "El número de descargas gratuitas del software en foros de Internet",
+                "La posibilidad de usar el software sin una base de datos relacional"
+              ],
+              "correctAnswer": "La popularidad de soluciones como SAP ERP u Oracle ERP Cloud para corporaciones globales",
+              "explanation": "La respuesta correcta es «La popularidad de soluciones como SAP ERP u Oracle ERP Cloud para corporaciones globales» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Al integrar un ERP con un CRM, ¿qué beneficio directo mejora la empleabilidad del personal de atención al cliente?",
+              "options": [
+                "La reducción obligatoria del sueldo por automatización de tareas",
+                "La eliminación de la necesidad de usar correos electrónicos",
+                "El acceso en tiempo real a detalles de envío o historial de pedidos",
+                "La capacidad de borrar registros de clientes sin supervisión"
+              ],
+              "correctAnswer": "El acceso en tiempo real a detalles de envío o historial de pedidos",
+              "explanation": "La respuesta correcta es «El acceso en tiempo real a detalles de envío o historial de pedidos» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un técnico de soporte instala Odoo en un entorno donde el antivirus bloquea la creación de servicios. ¿Qué medida preventiva menciona la UT2 para la instalación?",
+              "options": [
+                "Cambiar el lenguaje de programación de Odoo a C++",
+                "Instalar Odoo en un equipo sin sistema operativo",
+                "Solicitar la desactivación temporal de los sistemas de protección antivirus",
+                "Comprar un nuevo servidor con hardware de Apple"
+              ],
+              "correctAnswer": "Solicitar la desactivación temporal de los sistemas de protección antivirus",
+              "explanation": "La respuesta correcta es «Solicitar la desactivación temporal de los sistemas de protección antivirus» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "En el mercado laboral de DAM, ¿por qué es valioso que un desarrollador conozca el modelo \"Enterprise\" de Odoo?",
+              "options": [
+                "Porque es la única versión que funciona en Linux",
+                "Porque es totalmente gratuito para cualquier número de usuarios",
+                "Porque incluye funciones y soporte adicionales requeridos por muchas empresas",
+                "Porque no requiere el uso de archivos XML para las vistas"
+              ],
+              "correctAnswer": "Porque incluye funciones y soporte adicionales requeridos por muchas empresas",
+              "explanation": "La respuesta correcta es «Porque incluye funciones y soporte adicionales requeridos por muchas empresas» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un experto en BI (Business Intelligence) utiliza el proceso ETL. ¿Qué significan estas siglas fundamentales para la gestión de datos?",
+              "options": [
+                "Extract, Transform, Load",
+                "Error, Trace, Log",
+                "Entry, Total, Level",
+                "Element, Table, List"
+              ],
+              "correctAnswer": "Extract, Transform, Load",
+              "explanation": "La respuesta correcta es «Extract, Transform, Load» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "En pgAdmin, un desarrollador utiliza la función sum(amount_total) en una consulta SQL. ¿Qué objetivo profesional tiene este cálculo?",
+              "options": [
+                "Obtener el valor monetario total de las ventas para análisis financiero",
+                "Cambiar el nombre de la tabla de facturas automáticamente",
+                "Contar el número total de clientes registrados",
+                "Listar los nombres de los productos en orden alfabético"
+              ],
+              "correctAnswer": "Obtener el valor monetario total de las ventas para análisis financiero",
+              "explanation": "La respuesta correcta es «Obtener el valor monetario total de las ventas para análisis financiero» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Qué atajo de teclado es esencial para que un administrativo genere rápidamente la versión impresa de un informe en el navegador?",
+              "options": [
+                "Ctrl + S",
+                "Ctrl + P",
+                "Ctrl + Alt + Del",
+                "Alt + F4"
+              ],
+              "correctAnswer": "Ctrl + P",
+              "explanation": "La respuesta correcta es «Ctrl + P» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Al automatizar tareas en Odoo, ¿qué archivo de Python se encarga de decirle al sistema que trate la carpeta del módulo como un paquete importable?",
+              "options": [
+                "init.py",
+                "models.py",
+                "views.py",
+                "manifest.py"
+              ],
+              "correctAnswer": "init.py",
+              "explanation": "La respuesta correcta es «init.py» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un desarrollador utiliza la instrucción sudo() en un método de Odoo. ¿Cuál es la implicación técnica más importante para la seguridad?",
+              "options": [
+                "Ejecuta el método ignorando las reglas de seguridad actuales del usuario",
+                "Reduce la velocidad de ejecución de la consulta a la mitad",
+                "Cierra la sesión de todos los usuarios conectados al sistema",
+                "Traduce el código de Python a lenguaje SQL automáticamente"
+              ],
+              "correctAnswer": "Ejecuta el método ignorando las reglas de seguridad actuales del usuario",
+              "explanation": "La respuesta correcta es «Ejecuta el método ignorando las reglas de seguridad actuales del usuario» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "En el desarrollo profesional, ¿por qué se utiliza el método ensure_one() antes de procesar un registro?",
+              "options": [
+                "Para verificar que el conjunto de registros contenga exactamente un elemento y evitar errores",
+                "Para garantizar que el sistema siempre tenga conexión a Internet",
+                "Para borrar todos los registros excepto el primero de la lista",
+                "Para duplicar el registro en una tabla de seguridad externa"
+              ],
+              "correctAnswer": "Para verificar que el conjunto de registros contenga exactamente un elemento y evitar errores",
+              "explanation": "La respuesta correcta es «Para verificar que el conjunto de registros contenga exactamente un elemento y evitar errores» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un consultor ERP aconseja a una empresa no modificar los módulos estándar. ¿Qué técnica de empleabilidad recomienda para añadir funciones?",
+              "options": [
+                "Crear un módulo personalizado que herede la funcionalidad",
+                "Escribir las nuevas funciones en papel y escanearlas",
+                "Editar directamente los archivos en la carpeta de sistema de Windows",
+                "Desinstalar el ERP y programar uno desde cero en Java"
+              ],
+              "correctAnswer": "Crear un módulo personalizado que herede la funcionalidad",
+              "explanation": "La respuesta correcta es «Crear un módulo personalizado que herede la funcionalidad» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Al definir un modelo en Python para Odoo, ¿qué clase se debe heredar para que el sistema cree automáticamente la tabla en PostgreSQL?",
+              "options": [
+                "models.Model",
+                "models.TransientModel",
+                "models.AbstractModel",
+                "models.View"
+              ],
+              "correctAnswer": "models.Model",
+              "explanation": "La respuesta correcta es «models.Model» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Cuál es el impacto de la arquitectura modular de Odoo en los costes de una empresa pequeña?",
+              "options": [
+                "Obliga a pagar por cada clic que realiza el usuario en el sistema",
+                "Elimina los costes de electricidad al funcionar sin servidores",
+                "Aumenta los costes al obligar a comprar hardware de mainframe",
+                "Permite seleccionar solo los módulos necesarios, reduciendo complejidad y costes"
+              ],
+              "correctAnswer": "Permite seleccionar solo los módulos necesarios, reduciendo complejidad y costes",
+              "explanation": "La respuesta correcta es «Permite seleccionar solo los módulos necesarios, reduciendo complejidad y costes» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Una empresa detecta errores en la entrada de datos de sus comerciales. ¿Qué adaptación de interfaz mejoraría la calidad de la información?",
+              "options": [
+                "Adición de validaciones para asegurar que los datos cumplan requisitos",
+                "Eliminar todos los campos obligatorios de los formularios",
+                "Desactivar el uso del ratón en la aplicación",
+                "Cambiar el color de fondo de los formularios a rojo"
+              ],
+              "correctAnswer": "Adición de validaciones para asegurar que los datos cumplan requisitos",
+              "explanation": "La respuesta correcta es «Adición de validaciones para asegurar que los datos cumplan requisitos» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Qué beneficio tiene la integración de Odoo con un software externo de gestión de inventarios?",
+              "options": [
+                "Borrar los datos de ventas de forma aleatoria para liberar espacio",
+                "Impedir que los proveedores vean los pedidos de compra",
+                "Optimizar el flujo de trabajo y mejorar la eficiencia operativa",
+                "Duplicar el trabajo manual de los empleados"
+              ],
+              "correctAnswer": "Optimizar el flujo de trabajo y mejorar la eficiencia operativa",
+              "explanation": "La respuesta correcta es «Optimizar el flujo de trabajo y mejorar la eficiencia operativa» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "En la creación de un informe en Odoo, ¿qué tecnología se utiliza para definir la plantilla visual que genera el PDF?",
+              "options": [
+                "QWeb (basado en XML)",
+                "CSS plano",
+                "Microsoft Word",
+                "Adobe Flash"
+              ],
+              "correctAnswer": "QWeb (basado en XML)",
+              "explanation": "La respuesta correcta es «QWeb (basado en XML)» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Qué paso técnico es obligatorio tras realizar cambios en los archivos XML de un módulo para que se reflejen en la interfaz de Odoo?",
+              "options": [
+                "Borrar el historial de navegación de todos los usuarios",
+                "Cambiar la resolución de pantalla del servidor",
+                "Reiniciar el router de la empresa",
+                "Actualizar el módulo desde el menú de Aplicaciones"
+              ],
+              "correctAnswer": "Actualizar el módulo desde el menú de Aplicaciones",
+              "explanation": "La respuesta correcta es «Actualizar el módulo desde el menú de Aplicaciones» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Un analista necesita exportar datos para usarlos en una hoja de cálculo. ¿Qué botón de la interfaz de Odoo debe pulsar tras seleccionar los registros?",
+              "options": [
+                "Agrupar por",
+                "Acción (y luego Exportar)",
+                "Favoritos",
+                "Filtros"
+              ],
+              "correctAnswer": "Acción (y luego Exportar)",
+              "explanation": "La respuesta correcta es «Acción (y luego Exportar)» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "¿Qué técnica permite a una empresa adaptar su ERP a procesos cambiantes sin depender exclusivamente del proveedor original?",
+              "options": [
+                "La prohibición de que los empleados sugieran mejoras",
+                "El aprovechamiento del código abierto para realizar modificaciones propias",
+                "El uso de sistemas que no permiten la creación de módulos",
+                "El uso de software de código cerrado"
+              ],
+              "correctAnswer": "El aprovechamiento del código abierto para realizar modificaciones propias",
+              "explanation": "La respuesta correcta es «El aprovechamiento del código abierto para realizar modificaciones propias» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            },
+            {
+              "text": "Al finalizar el despliegue de un nuevo componente, ¿por qué es vital el monitoreo continuo?",
+              "options": [
+                "Para evitar que los usuarios aprendan a usar la nueva función",
+                "Para cobrar más horas de mantenimiento al cliente",
+                "Para detectar fallos imprevistos y asegurar la estabilidad tras el despliegue",
+                "Para borrar el código fuente una vez que el sistema funciona"
+              ],
+              "correctAnswer": "Para detectar fallos imprevistos y asegurar la estabilidad tras el despliegue",
+              "explanation": "La respuesta correcta es «Para detectar fallos imprevistos y asegurar la estabilidad tras el despliegue» porque corresponde al concepto o procedimiento de sistemas de gestión empresarial planteado en la pregunta."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
