@@ -1,0 +1,456 @@
+{
+  "subjects": [
+    {
+      "code": "PMDM",
+      "name": "Programación multimedia y dispositivos móviles",
+      "topics": [
+        {
+          "number": 1,
+          "title": "TEST FINAL PMDM",
+          "questions": [
+            {
+              "text": "Estás investigando los orígenes de la tecnología móvil. Según la historia documentada, ¿qué hito marcó el ingeniero Martin Cooper en 1973?",
+              "options": [
+                "El lanzamiento del primer iPhone",
+                "La creación de la primera red de datos móviles",
+                "El desarrollo del primer teléfono móvil conocido como DynaTAC",
+                "La invención de la pantalla táctil capacitiva"
+              ],
+              "correctAnswer": "El desarrollo del primer teléfono móvil conocido como DynaTAC",
+              "explanation": "La opción correcta es «El desarrollo del primer teléfono móvil conocido como DynaTAC» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Un usuario reporta que su batería se agota muy rápido al usar tu app. Basándote en las limitaciones de hardware móvil, ¿a qué se debe principalmente?",
+              "options": [
+                "Al uso excesivo de almacenamiento en la nube",
+                "A que la aplicación demanda intensamente recursos de CPU, GPU, red o pantalla",
+                "A la falta de actualizaciones de seguridad",
+                "A una mala conexión con la tienda de aplicaciones"
+              ],
+              "correctAnswer": "A que la aplicación demanda intensamente recursos de CPU, GPU, red o pantalla",
+              "explanation": "La opción correcta es «A que la aplicación demanda intensamente recursos de CPU, GPU, red o pantalla» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Te han encargado un proyecto nativo específicamente para dispositivos Android. ¿Cuál es el IDE oficial proporcionado por Google?",
+              "options": [
+                "Visual Studio",
+                "Xcode",
+                "Android Studio",
+                "Eclipse"
+              ],
+              "correctAnswer": "Android Studio",
+              "explanation": "La opción correcta es «Android Studio» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Tu aplicación Android ha perdido el foco (otra ventana la cubre parcialmente) pero sigue visible. Según el ciclo de vida, ¿qué método denota este estado?",
+              "options": [
+                "onStop()",
+                "onPause()",
+                "onDestroy()",
+                "onStart()"
+              ],
+              "correctAnswer": "onPause()",
+              "explanation": "La opción correcta es «onPause()» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Antes de iniciar el desarrollo del código, necesitas mostrar a los interesados una vista previa interactiva. ¿Qué fase del proceso aborda esta necesidad?",
+              "options": [
+                "Desarrollo de Prototipos",
+                "Despliegue",
+                "Preverificación",
+                "Mantenimiento"
+              ],
+              "correctAnswer": "Desarrollo de Prototipos",
+              "explanation": "La opción correcta es «Desarrollo de Prototipos» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás configurando PhoneGap. ¿Qué archivo debes modificar para definir las características específicas de la app, como el nombre y los permisos?",
+              "options": [
+                "index.html",
+                "config.xml",
+                "style.css",
+                "main.js"
+              ],
+              "correctAnswer": "config.xml",
+              "explanation": "La opción correcta es «config.xml» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Al probar tu aplicación PhoneGap, fallan las peticiones a internet. ¿Qué plugin debes instalar para gestionar la política de acceso a redes?",
+              "options": [
+                "cordova-plugin-camera",
+                "cordova-plugin-whitelist",
+                "cordova-plugin-network-information",
+                "cordova-plugin-device"
+              ],
+              "correctAnswer": "cordova-plugin-whitelist",
+              "explanation": "La opción correcta es «cordova-plugin-whitelist» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Quieres generar el archivo instalable final para Android. ¿Qué comando ejecutas en la consola?",
+              "options": [
+                "phonegap run browser",
+                "phonegap serve",
+                "phonegap build android",
+                "phonegap install windows"
+              ],
+              "correctAnswer": "phonegap build android",
+              "explanation": "La opción correcta es «phonegap build android» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás clasificando una aplicación de realidad virtual (VR). Según el nivel de interactividad, ¿cómo se define este contenido?",
+              "options": [
+                "Contenido estático",
+                "Contenido interactivo",
+                "Contenido de transmisión lineal",
+                "Contenido analógico"
+              ],
+              "correctAnswer": "Contenido interactivo",
+              "explanation": "La opción correcta es «Contenido interactivo» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Dado que PhoneGap no tiene bibliotecas multimedia nativas integradas, ¿qué arquitectura utiliza para acceder a la cámara o el micrófono?",
+              "options": [
+                "Una arquitectura basada en plugins a través de JavaScript",
+                "Compilación nativa en C++",
+                "Conexión directa al kernel Linux",
+                "Streaming desde la nube"
+              ],
+              "correctAnswer": "Una arquitectura basada en plugins a través de JavaScript",
+              "explanation": "La opción correcta es «Una arquitectura basada en plugins a través de JavaScript» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En el código para capturar video, deseas restringir la grabación a un solo clip. ¿Qué opción pasas en la configuración?",
+              "options": [
+                "{ limit: 1 }",
+                "{ quality: 100 }",
+                "{ filter: 'bw' }",
+                "{ audio: false }"
+              ],
+              "correctAnswer": "{ limit: 1 }",
+              "explanation": "La opción correcta es «{ limit: 1 }» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás depurando una app Cordova en un dispositivo Android. ¿Qué herramienta de escritorio utilizas conectando el móvil por USB?",
+              "options": [
+                "Safari DevTools",
+                "Chrome DevTools",
+                "Firefox Inspector",
+                "Notepad++"
+              ],
+              "correctAnswer": "Chrome DevTools",
+              "explanation": "La opción correcta es «Chrome DevTools» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Cuál es el mecanismo central de un videojuego que gestiona la entrada, actualiza el estado y renderiza la pantalla continuamente?",
+              "options": [
+                "El sistema de guardado",
+                "El bucle principal del juego",
+                "La IA",
+                "La interfaz estática"
+              ],
+              "correctAnswer": "El bucle principal del juego",
+              "explanation": "La opción correcta es «El bucle principal del juego» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Para dibujar gráficos 2D en la web usando HTML5, ¿qué tecnología proporciona el espacio de dibujo y la API necesaria?",
+              "options": [
+                "WebGL puro",
+                "Canvas",
+                "CSS Grid",
+                "Apache Cordova"
+              ],
+              "correctAnswer": "Canvas",
+              "explanation": "La opción correcta es «Canvas» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás evaluando motores de juego. ¿Cuál es conocido por usar C# y ser muy popular tanto para 2D como 3D?",
+              "options": [
+                "Unreal Engine",
+                "Unity",
+                "GameMaker",
+                "Godot"
+              ],
+              "correctAnswer": "Unity",
+              "explanation": "La opción correcta es «Unity» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En la representación de una escena, ¿a qué se refiere la \"representación lógica\"?",
+              "options": [
+                "A cómo se visualizan los píxeles",
+                "A la estructuración y organización de los datos de la escena en el código (variables, estados)",
+                "Al diseño artístico",
+                "A la música de fondo"
+              ],
+              "correctAnswer": "A la estructuración y organización de los datos de la escena en el código (variables, estados)",
+              "explanation": "La opción correcta es «A la estructuración y organización de los datos de la escena en el código (variables, estados)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Cuál es el primer paso formal para establecer la lógica de un videojuego nuevo?",
+              "options": [
+                "Diseñar la IA avanzada",
+                "Diseñar las reglas que regirán su funcionamiento",
+                "Comprar licencias de software",
+                "Contratar actores"
+              ],
+              "correctAnswer": "Diseñar las reglas que regirán su funcionamiento",
+              "explanation": "La opción correcta es «Diseñar las reglas que regirán su funcionamiento» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En el desarrollo de videojuegos, ¿qué son los \"objetos\"?",
+              "options": [
+                "Solo los ítems recolectables",
+                "Entidades con propiedades y comportamientos específicos (personajes, elementos interactivos)",
+                "Archivos de código fuente",
+                "Dispositivos físicos"
+              ],
+              "correctAnswer": "Entidades con propiedades y comportamientos específicos (personajes, elementos interactivos)",
+              "explanation": "La opción correcta es «Entidades con propiedades y comportamientos específicos (personajes, elementos interactivos)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué son los shaders o instrucciones gráficas?",
+              "options": [
+                "Manuales de usuario",
+                "Componentes que controlan la representación de la superficie de un objeto (luz, textura, color)",
+                "Comandos de trucos",
+                "Scripts de sonido"
+              ],
+              "correctAnswer": "Componentes que controlan la representación de la superficie de un objeto (luz, textura, color)",
+              "explanation": "La opción correcta es «Componentes que controlan la representación de la superficie de un objeto (luz, textura, color)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Cuál es una función clave del sonido en los videojuegos además de la ambientación?",
+              "options": [
+                "Aumentar el tamaño de la descarga",
+                "Proporcionar retroalimentación (feedback) al jugador sobre sus acciones",
+                "Reemplazar a los gráficos",
+                "Ninguna, es decorativo"
+              ],
+              "correctAnswer": "Proporcionar retroalimentación (feedback) al jugador sobre sus acciones",
+              "explanation": "La opción correcta es «Proporcionar retroalimentación (feedback) al jugador sobre sus acciones» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Analizando la evolución de los smartphones, ¿qué cambio fundamental introdujo el lanzamiento del iPhone en 2007?",
+              "options": [
+                "La inclusión de teclado físico obligatorio",
+                "Transformó el móvil de herramienta de comunicación a plataforma multimedia con interfaz táctil",
+                "Fue el primer teléfono con batería extraíble",
+                "Introdujo la tecnología 5G"
+              ],
+              "correctAnswer": "Transformó el móvil de herramienta de comunicación a plataforma multimedia con interfaz táctil",
+              "explanation": "La opción correcta es «Transformó el móvil de herramienta de comunicación a plataforma multimedia con interfaz táctil» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás configurando un emulador en Android Studio. ¿Qué herramienta interna debes utilizar para crear y gestionar los dispositivos virtuales?",
+              "options": [
+                "Gradle Build Tool",
+                "AVD Manager (Android Virtual Device Manager)",
+                "Logcat",
+                "SDK Manager"
+              ],
+              "correctAnswer": "AVD Manager (Android Virtual Device Manager)",
+              "explanation": "La opción correcta es «AVD Manager (Android Virtual Device Manager)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Si necesitas modificar una aplicación existente, ¿cuál es el paso lógico tras realizar los cambios en el código fuente?",
+              "options": [
+                "Desinstalar el IDE",
+                "Volver a compilar la aplicación para generar los binarios actualizados (APK/IPA)",
+                "Borrar el repositorio Git",
+                "Cambiar el sistema operativo del ordenador"
+              ],
+              "correctAnswer": "Volver a compilar la aplicación para generar los binarios actualizados (APK/IPA)",
+              "explanation": "La opción correcta es «Volver a compilar la aplicación para generar los binarios actualizados (APK/IPA)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué limitación específica afecta a las apps en zonas rurales y debe ser considerada en el diseño?",
+              "options": [
+                "La falta de pantallas táctiles",
+                "La inestabilidad o falta de conexión a Internet (Desconexión)",
+                "La incompatibilidad con el idioma",
+                "El exceso de memoria RAM"
+              ],
+              "correctAnswer": "La inestabilidad o falta de conexión a Internet (Desconexión)",
+              "explanation": "La opción correcta es «La inestabilidad o falta de conexión a Internet (Desconexión)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En el desarrollo híbrido, ¿qué es PhoneGap/Cordova esencialmente?",
+              "options": [
+                "Un sistema operativo nuevo",
+                "Un marco de trabajo que permite crear apps móviles usando tecnologías web estándar (HTML, CSS, JS)",
+                "Un editor de imágenes avanzado",
+                "Un lenguaje de programación nativo similar a Swift"
+              ],
+              "correctAnswer": "Un marco de trabajo que permite crear apps móviles usando tecnologías web estándar (HTML, CSS, JS)",
+              "explanation": "La opción correcta es «Un marco de trabajo que permite crear apps móviles usando tecnologías web estándar (HTML, CSS, JS)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué función cumple la \"Capa de WebView\" en la arquitectura de una app PhoneGap?",
+              "options": [
+                "Ejecuta código C++ nativo directamente",
+                "Actúa como un puente, empaquetando la aplicación web en una vista de navegador nativa",
+                "Gestiona la base de datos SQL externa",
+                "Proporciona conexión 5G gratuita"
+              ],
+              "correctAnswer": "Actúa como un puente, empaquetando la aplicación web en una vista de navegador nativa",
+              "explanation": "La opción correcta es «Actúa como un puente, empaquetando la aplicación web en una vista de navegador nativa» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Si deseas persistir datos sencillos (como el nombre de usuario) entre sesiones en una app híbrida, ¿qué objeto de JavaScript es ideal?",
+              "options": [
+                "window.sessionStorage",
+                "localStorage",
+                "document.cookie",
+                "console.log"
+              ],
+              "correctAnswer": "localStorage",
+              "explanation": "La opción correcta es «localStorage» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué evento es crítico esperar antes de ejecutar cualquier código que interactúe con el hardware del dispositivo en Cordova?",
+              "options": [
+                "window.onload",
+                "deviceready",
+                "document.ready",
+                "click"
+              ],
+              "correctAnswer": "deviceready",
+              "explanation": "La opción correcta es «deviceready» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Necesitas abrir una página web externa sin salir de tu aplicación móvil híbrida. ¿Qué plugin utilizas?",
+              "options": [
+                "Cordova Camera",
+                "Cordova InAppBrowser",
+                "Cordova File",
+                "Cordova Network"
+              ],
+              "correctAnswer": "Cordova InAppBrowser",
+              "explanation": "La opción correcta es «Cordova InAppBrowser» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Al utilizar la etiqueta HTML5 <video>, ¿qué atributo debes añadir para que el usuario pueda pausar y reproducir el contenido?",
+              "options": [
+                "autoplay",
+                "controls",
+                "loop",
+                "muted"
+              ],
+              "correctAnswer": "controls",
+              "explanation": "La opción correcta es «controls» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué herramienta se recomienda en el temario para generar documentación técnica automática a partir de comentarios en código JavaScript?",
+              "options": [
+                "JavaDoc",
+                "JSDoc",
+                "Swagger",
+                "PHPDoc"
+              ],
+              "correctAnswer": "JSDoc",
+              "explanation": "La opción correcta es «JSDoc» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En la clase Media de Cordova, además de reproducir audio, ¿qué otra funcionalidad principal ofrece?",
+              "options": [
+                "Edición de ondas de sonido",
+                "Grabación de audio",
+                "Transcripción de voz a texto",
+                "Mezcla de DJ en tiempo real"
+              ],
+              "correctAnswer": "Grabación de audio",
+              "explanation": "La opción correcta es «Grabación de audio» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué componente de un motor de juegos se encarga de calcular la gravedad, fricción y colisiones?",
+              "options": [
+                "El motor de Renderizado",
+                "El motor de Física",
+                "El motor de Audio",
+                "El motor de Red"
+              ],
+              "correctAnswer": "El motor de Física",
+              "explanation": "La opción correcta es «El motor de Física» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás dibujando en Canvas. ¿Qué comando utilizas para dibujar un rectángulo relleno de color?",
+              "options": [
+                "ctx.strokeRect()",
+                "ctx.fillRect()",
+                "ctx.drawRect()",
+                "ctx.makeRect()"
+              ],
+              "correctAnswer": "ctx.fillRect()",
+              "explanation": "La opción correcta es «ctx.fillRect()» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué motor de juegos de código abierto utiliza un sistema de \"nodos\" y un lenguaje propio llamado GDScript?",
+              "options": [
+                "Unity",
+                "Godot",
+                "Unreal Engine",
+                "CryEngine"
+              ],
+              "correctAnswer": "Godot",
+              "explanation": "La opción correcta es «Godot» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En Canvas 2D no existe una cámara real. ¿Cómo se simula el movimiento de cámara?",
+              "options": [
+                "Moviendo el monitor del usuario",
+                "Desplazando todos los objetos del mundo en la dirección opuesta al movimiento deseado",
+                "Rotando el dispositivo móvil",
+                "No se puede simular"
+              ],
+              "correctAnswer": "Desplazando todos los objetos del mundo en la dirección opuesta al movimiento deseado",
+              "explanation": "La opción correcta es «Desplazando todos los objetos del mundo en la dirección opuesta al movimiento deseado» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Al diseñar la Inteligencia Artificial (IA) de un Personaje No Jugador (PNJ), ¿qué define su comportamiento básico?",
+              "options": [
+                "La calidad de sus texturas",
+                "Algoritmos que dictan desde patrones de movimiento hasta la toma de decisiones",
+                "El sonido que hace al caminar",
+                "Su posición inicial en el array"
+              ],
+              "correctAnswer": "Algoritmos que dictan desde patrones de movimiento hasta la toma de decisiones",
+              "explanation": "La opción correcta es «Algoritmos que dictan desde patrones de movimiento hasta la toma de decisiones» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué función cumple el \"Entorno\" o fondo en un videojuego?",
+              "options": [
+                "Rellenar espacio en disco",
+                "Proporcionar contexto, ambientación y realismo al espacio de juego",
+                "Ocultar al personaje principal",
+                "Bloquear la visión del jugador"
+              ],
+              "correctAnswer": "Proporcionar contexto, ambientación y realismo al espacio de juego",
+              "explanation": "La opción correcta es «Proporcionar contexto, ambientación y realismo al espacio de juego» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué lenguajes se mencionan específicamente para escribir Shaders avanzados en gráficos 3D?",
+              "options": [
+                "HTML y XML",
+                "GLSL y HLSL",
+                "Python y Ruby",
+                "SQL y PHP"
+              ],
+              "correctAnswer": "GLSL y HLSL",
+              "explanation": "La opción correcta es «GLSL y HLSL» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En la lógica de un juego de memoria (parejas), si el jugador selecciona dos cartas diferentes, ¿qué debe ocurrir?",
+              "options": [
+                "El juego termina",
+                "Se vuelven a voltear (ocultar) tras un breve retraso y se emite un sonido de error",
+                "Se suman puntos automáticamente",
+                "Las cartas desaparecen del tablero"
+              ],
+              "correctAnswer": "Se vuelven a voltear (ocultar) tras un breve retraso y se emite un sonido de error",
+              "explanation": "La opción correcta es «Se vuelven a voltear (ocultar) tras un breve retraso y se emite un sonido de error» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

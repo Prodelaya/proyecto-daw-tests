@@ -1,0 +1,456 @@
+{
+  "subjects": [
+    {
+      "code": "PSP",
+      "name": "Programación de servicios y procesos",
+      "topics": [
+        {
+          "number": 1,
+          "title": "TEST FINAL PSP",
+          "questions": [
+            {
+              "text": "¿Cuál es la definición técnica más precisa de un \"proceso\" en el contexto de un sistema operativo?",
+              "options": [
+                "Un archivo almacenado en el disco duro listo para ser usado",
+                "Una instancia de un programa en ejecución con su propio espacio de memoria",
+                "Un conjunto de hilos que comparten las mismas variables globales",
+                "Un servicio que se ejecuta en segundo plano sin intervención del usuario"
+              ],
+              "correctAnswer": "Una instancia de un programa en ejecución con su propio espacio de memoria",
+              "explanation": "La opción correcta es «Una instancia de un programa en ejecución con su propio espacio de memoria» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En la planificación de procesos, ¿qué significa que un proceso pase del estado \"Ejecutándose\" al estado \"Listo\"?",
+              "options": [
+                "Que ha terminado su ejecución y está liberando memoria",
+                "Que ha ocurrido un error grave y debe reiniciarse",
+                "Que el planificador del SO lo ha pausado temporalmente para dar turno a otro proceso (apropiación)",
+                "Que está esperando una respuesta de entrada/salida (I/O)"
+              ],
+              "correctAnswer": "Que el planificador del SO lo ha pausado temporalmente para dar turno a otro proceso (apropiación)",
+              "explanation": "La opción correcta es «Que el planificador del SO lo ha pausado temporalmente para dar turno a otro proceso (apropiación)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Cuál es la principal diferencia entre programación concurrente y programación paralela?",
+              "options": [
+                "La concurrente usa múltiples CPUs y la paralela solo una",
+                "La paralela solo se aplica a sistemas distribuidos en red",
+                "La paralela ejecuta tareas literalmente al mismo tiempo (múltiples núcleos), mientras que la concurrente gestiona el progreso de varias tareas intercalándolas",
+                "No hay diferencia, son sinónimos exactos"
+              ],
+              "correctAnswer": "La paralela ejecuta tareas literalmente al mismo tiempo (múltiples núcleos), mientras que la concurrente gestiona el progreso de varias tareas intercalándolas",
+              "explanation": "La opción correcta es «La paralela ejecuta tareas literalmente al mismo tiempo (múltiples núcleos), mientras que la concurrente gestiona el progreso de varias tareas intercalándolas» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás utilizando la clase ProcessBuilder en Java. ¿Para qué sirve principalmente esta clase?",
+              "options": [
+                "Para crear nuevos hilos ligeros dentro de la JVM",
+                "Para gestionar la creación y ejecución de procesos externos del sistema operativo",
+                "Para compilar el código fuente de la aplicación",
+                "Para sincronizar el acceso a variables compartidas"
+              ],
+              "correctAnswer": "Para gestionar la creación y ejecución de procesos externos del sistema operativo",
+              "explanation": "La opción correcta es «Para gestionar la creación y ejecución de procesos externos del sistema operativo» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué característica distingue a un \"Servicio\" de un proceso de usuario normal?",
+              "options": [
+                "Los servicios siempre tienen interfaz gráfica",
+                "Los servicios se ejecutan en segundo plano y no suelen interactuar directamente con el usuario",
+                "Los servicios no consumen memoria RAM",
+                "Los servicios solo pueden ejecutarse en sistemas Linux"
+              ],
+              "correctAnswer": "Los servicios se ejecutan en segundo plano y no suelen interactuar directamente con el usuario",
+              "explanation": "La opción correcta es «Los servicios se ejecutan en segundo plano y no suelen interactuar directamente con el usuario» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En el contexto de Java, ¿qué framework está diseñado específicamente para aprovechar la programación paralela dividiendo tareas grandes en subtareas más pequeñas (divide y vencerás)?",
+              "options": [
+                "java.net.Socket",
+                "SwingWorker",
+                "Fork/Join",
+                "ProcessBuilder"
+              ],
+              "correctAnswer": "Fork/Join",
+              "explanation": "La opción correcta es «Fork/Join» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Si un proceso padre crea un proceso hijo, ¿qué comparten por defecto en la mayoría de los sistemas operativos modernos?",
+              "options": [
+                "Comparten toda la memoria RAM automáticamente",
+                "Comparten las variables locales de la pila",
+                "No comparten memoria; el hijo es una copia independiente (aunque puede heredar descriptores de archivo)",
+                "Comparten los registros de la CPU en tiempo real"
+              ],
+              "correctAnswer": "No comparten memoria; el hijo es una copia independiente (aunque puede heredar descriptores de archivo)",
+              "explanation": "La opción correcta es «No comparten memoria; el hijo es una copia independiente (aunque puede heredar descriptores de archivo)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué elemento del Bloque de Control de Proceso (PCB) es fundamental para reanudar un proceso exactamente donde se quedó tras un cambio de contexto?",
+              "options": [
+                "El nombre del archivo ejecutable",
+                "La fecha de creación del proceso",
+                "El contador de programa y los registros de la CPU guardados",
+                "La lista de usuarios autorizados"
+              ],
+              "correctAnswer": "El contador de programa y los registros de la CPU guardados",
+              "explanation": "La opción correcta es «El contador de programa y los registros de la CPU guardados» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Cuál es la ventaja principal de usar hilos (threads) frente a procesos para realizar tareas simultáneas?",
+              "options": [
+                "Los hilos están totalmente aislados y son más seguros",
+                "Los hilos son más ligeros y comparten el mismo espacio de memoria, facilitando la comunicación",
+                "Los hilos no pueden sufrir condiciones de carrera",
+                "Los hilos funcionan incluso si la JVM se detiene"
+              ],
+              "correctAnswer": "Los hilos son más ligeros y comparten el mismo espacio de memoria, facilitando la comunicación",
+              "explanation": "La opción correcta es «Los hilos son más ligeros y comparten el mismo espacio de memoria, facilitando la comunicación» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En Java, ¿qué efecto tiene aplicar la palabra clave synchronized a un método?",
+              "options": [
+                "Hace que el método se ejecute en un hilo separado automáticamente",
+                "Aumenta la prioridad del hilo que lo ejecuta",
+                "Garantiza la exclusión mutua, permitiendo que solo un hilo acceda al método a la vez",
+                "Convierte el hilo en un hilo demonio"
+              ],
+              "correctAnswer": "Garantiza la exclusión mutua, permitiendo que solo un hilo acceda al método a la vez",
+              "explanation": "La opción correcta es «Garantiza la exclusión mutua, permitiendo que solo un hilo acceda al método a la vez» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué condición define una situación de \"Interbloqueo\" (Deadlock)?",
+              "options": [
+                "Un hilo termina su ejecución inesperadamente",
+                "Dos hilos intentan escribir en la misma variable a la vez",
+                "Dos o más hilos se quedan esperando indefinidamente a que el otro libere un recurso que necesitan",
+                "Un hilo consume el 100% de la CPU en un bucle infinito"
+              ],
+              "correctAnswer": "Dos o más hilos se quedan esperando indefinidamente a que el otro libere un recurso que necesitan",
+              "explanation": "La opción correcta es «Dos o más hilos se quedan esperando indefinidamente a que el otro libere un recurso que necesitan» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué ocurre si invocas el método run() de un hilo directamente en lugar de start()?",
+              "options": [
+                "Se lanza una excepción de tiempo de ejecución",
+                "El código se ejecuta secuencialmente en el hilo actual, no en un nuevo hilo",
+                "El hilo se inicia en modo demonio",
+                "El sistema operativo crea un nuevo proceso independiente"
+              ],
+              "correctAnswer": "El código se ejecuta secuencialmente en el hilo actual, no en un nuevo hilo",
+              "explanation": "La opción correcta es «El código se ejecuta secuencialmente en el hilo actual, no en un nuevo hilo» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué caracteriza a un \"hilo demonio\" (daemon thread) en Java?",
+              "options": [
+                "Tiene la máxima prioridad de ejecución",
+                "No puede acceder a variables compartidas",
+                "La JVM termina su ejecución si solo quedan hilos demonio vivos (no impide la salida del programa)",
+                "Se utiliza exclusivamente para encriptación de datos"
+              ],
+              "correctAnswer": "La JVM termina su ejecución si solo quedan hilos demonio vivos (no impide la salida del programa)",
+              "explanation": "La opción correcta es «La JVM termina su ejecución si solo quedan hilos demonio vivos (no impide la salida del programa)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás utilizando un ExecutorService con un pool de hilos fijo (newFixedThreadPool(3)). Si envías 10 tareas, ¿qué sucede?",
+              "options": [
+                "Se crean 10 hilos temporales para atenderlas todas a la vez",
+                "Se ejecutan 3 tareas y las otras 7 se descartan",
+                "Se ejecutan 3 tareas simultáneamente y las otras 7 esperan en una cola a que se libere un hilo",
+                "El programa lanza un error de \"Out of Memory\""
+              ],
+              "correctAnswer": "Se ejecutan 3 tareas simultáneamente y las otras 7 esperan en una cola a que se libere un hilo",
+              "explanation": "La opción correcta es «Se ejecutan 3 tareas simultáneamente y las otras 7 esperan en una cola a que se libere un hilo» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Para qué sirven los métodos wait() y notify() de la clase Object?",
+              "options": [
+                "Para pausar y reanudar la ejecución de procesos del sistema",
+                "Para coordinar y comunicar hilos que comparten un recurso (mecanismo de espera y notificación)",
+                "Para iniciar y detener servicios de red",
+                "Para medir el tiempo de ejecución de un hilo"
+              ],
+              "correctAnswer": "Para coordinar y comunicar hilos que comparten un recurso (mecanismo de espera y notificación)",
+              "explanation": "La opción correcta es «Para coordinar y comunicar hilos que comparten un recurso (mecanismo de espera y notificación)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué rango de prioridades manejan los hilos en Java?",
+              "options": [
+                "De 0 a 100",
+                "De 1 (MIN_PRIORITY) a 10 (MAX_PRIORITY)",
+                "De -10 a 10",
+                "Java no permite establecer prioridades"
+              ],
+              "correctAnswer": "De 1 (MIN_PRIORITY) a 10 (MAX_PRIORITY)",
+              "explanation": "La opción correcta es «De 1 (MIN_PRIORITY) a 10 (MAX_PRIORITY)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué dos datos son imprescindibles para definir un socket y establecer una conexión de red?",
+              "options": [
+                "La dirección MAC y el protocolo",
+                "El nombre del dominio y la contraseña",
+                "La dirección IP y el número de puerto",
+                "La máscara de subred y la puerta de enlace"
+              ],
+              "correctAnswer": "La dirección IP y el número de puerto",
+              "explanation": "La opción correcta es «La dirección IP y el número de puerto» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Por qué se prefiere el protocolo UDP sobre TCP para aplicaciones de streaming de video en tiempo real?",
+              "options": [
+                "Porque UDP garantiza que no se pierda ningún píxel",
+                "Porque UDP es más rápido al no requerir establecimiento de conexión ni confirmación de paquetes",
+                "Porque UDP encripta los datos automáticamente",
+                "Porque TCP no soporta transmisión de video"
+              ],
+              "correctAnswer": "Porque UDP es más rápido al no requerir establecimiento de conexión ni confirmación de paquetes",
+              "explanation": "La opción correcta es «Porque UDP es más rápido al no requerir establecimiento de conexión ni confirmación de paquetes» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En el modelo Cliente-Servidor mediante sockets, ¿cuál es la función del método bind() en el lado del servidor?",
+              "options": [
+                "Conectarse a un servidor remoto",
+                "Aceptar una petición entrante",
+                "Vincular el socket a una dirección IP y un puerto específicos en la máquina local",
+                "Enviar los datos al cliente"
+              ],
+              "correctAnswer": "Vincular el socket a una dirección IP y un puerto específicos en la máquina local",
+              "explanation": "La opción correcta es «Vincular el socket a una dirección IP y un puerto específicos en la máquina local» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Si un servidor ejecuta socket_accept(), ¿en qué estado se queda el proceso si no hay clientes intentando conectarse?",
+              "options": [
+                "Bloqueado (esperando) hasta que llegue una conexión",
+                "Termina inmediatamente devolviendo false",
+                "Consume el 100% de la CPU en un bucle activo",
+                "Lanza una excepción de timeout"
+              ],
+              "correctAnswer": "Bloqueado (esperando) hasta que llegue una conexión",
+              "explanation": "La opción correcta es «Bloqueado (esperando) hasta que llegue una conexión» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué es un \"puerto bien conocido\" (well-known port)?",
+              "options": [
+                "Un puerto que ha sido hackeado recientemente",
+                "Un puerto en el rango 0-1023 reservado para servicios estándar (como HTTP en el 80)",
+                "Un puerto dinámico asignado aleatoriamente al cliente",
+                "Un puerto físico del router"
+              ],
+              "correctAnswer": "Un puerto en el rango 0-1023 reservado para servicios estándar (como HTTP en el 80)",
+              "explanation": "La opción correcta es «Un puerto en el rango 0-1023 reservado para servicios estándar (como HTTP en el 80)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En el ciclo de vida de un socket servidor TCP, ¿cuál es el orden correcto de llamadas?",
+              "options": [
+                "Accept -> Listen -> Bind -> Create",
+                "Create -> Bind -> Listen -> Accept",
+                "Connect -> Write -> Read -> Close",
+                "Bind -> Connect -> Listen -> Create"
+              ],
+              "correctAnswer": "Create -> Bind -> Listen -> Accept",
+              "explanation": "La opción correcta es «Create -> Bind -> Listen -> Accept» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Para qué se utiliza la herramienta Telnet en el contexto de pruebas de sockets?",
+              "options": [
+                "Para encriptar la conexión",
+                "Para compilar el código del servidor",
+                "Para conectarse manualmente a un puerto y enviar/recibir texto plano para verificar el servicio",
+                "Para escanear todos los puertos abiertos de una red"
+              ],
+              "correctAnswer": "Para conectarse manualmente a un puerto y enviar/recibir texto plano para verificar el servicio",
+              "explanation": "La opción correcta es «Para conectarse manualmente a un puerto y enviar/recibir texto plano para verificar el servicio» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué función de PHP se utiliza para leer datos que llegan a través de un socket conectado?",
+              "options": [
+                "socket_write()",
+                "socket_bind()",
+                "socket_read()",
+                "echo"
+              ],
+              "correctAnswer": "socket_read()",
+              "explanation": "La opción correcta es «socket_read()» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Cuál es la diferencia fundamental entre el protocolo HTTP y el protocolo FTP?",
+              "options": [
+                "HTTP es seguro y FTP no",
+                "HTTP usa TCP y FTP usa UDP",
+                "HTTP está orientado a la transferencia de hipertexto (web) y FTP a la transferencia de archivos",
+                "HTTP no permite enviar archivos"
+              ],
+              "correctAnswer": "HTTP está orientado a la transferencia de hipertexto (web) y FTP a la transferencia de archivos",
+              "explanation": "La opción correcta es «HTTP está orientado a la transferencia de hipertexto (web) y FTP a la transferencia de archivos» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás diseñando una API. ¿Qué formato de intercambio de datos es más ligero y habitual en arquitecturas REST?",
+              "options": [
+                "XML",
+                "JSON",
+                "HTML",
+                "CSV"
+              ],
+              "correctAnswer": "JSON",
+              "explanation": "La opción correcta es «JSON» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué método HTTP se considera \"idempotente\" y se utiliza típicamente para solicitar información sin modificar el servidor?",
+              "options": [
+                "POST",
+                "GET",
+                "DELETE",
+                "CONNECT"
+              ],
+              "correctAnswer": "GET",
+              "explanation": "La opción correcta es «GET» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué significa recibir un código de estado HTTP 404?",
+              "options": [
+                "La solicitud fue exitosa",
+                "Error interno del servidor",
+                "Recurso no encontrado",
+                "Acceso no autorizado"
+              ],
+              "correctAnswer": "Recurso no encontrado",
+              "explanation": "La opción correcta es «Recurso no encontrado» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué protocolo utilizarías para enviar correos electrónicos desde tu aplicación?",
+              "options": [
+                "POP3",
+                "IMAP",
+                "SMTP",
+                "SNMP"
+              ],
+              "correctAnswer": "SMTP",
+              "explanation": "La opción correcta es «SMTP» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué ventaja ofrece el protocolo SSH frente a Telnet para la administración remota?",
+              "options": [
+                "SSH es más rápido",
+                "SSH tiene interfaz gráfica",
+                "SSH encripta toda la comunicación, incluyendo las credenciales de acceso",
+                "SSH no requiere autenticación"
+              ],
+              "correctAnswer": "SSH encripta toda la comunicación, incluyendo las credenciales de acceso",
+              "explanation": "La opción correcta es «SSH encripta toda la comunicación, incluyendo las credenciales de acceso» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué función cumple un servidor DNS en una red?",
+              "options": [
+                "Asignar direcciones IP a los ordenadores",
+                "Traducir nombres de dominio legibles (ej: https://www.google.com/search?q=google.com) a direcciones IP numéricas",
+                "Filtrar el tráfico malicioso (Firewall)",
+                "Almacenar páginas web"
+              ],
+              "correctAnswer": "Traducir nombres de dominio legibles (ej: https://www.google.com/search?q=google.com) a direcciones IP numéricas",
+              "explanation": "La opción correcta es «Traducir nombres de dominio legibles (ej: https://www.google.com/search?q=google.com) a direcciones IP numéricas» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En el contexto de IoT (Internet de las Cosas), ¿qué protocolo ligero de mensajería publicación/suscripción es el estándar?",
+              "options": [
+                "HTTP",
+                "FTP",
+                "MQTT",
+                "SOAP"
+              ],
+              "correctAnswer": "MQTT",
+              "explanation": "La opción correcta es «MQTT» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Cuál es la principal característica de la criptografía simétrica?",
+              "options": [
+                "Utiliza dos claves: una pública y una privada",
+                "Utiliza la misma clave tanto para encriptar como para desencriptar",
+                "No utiliza claves, solo algoritmos de hash",
+                "Solo sirve para firmar documentos"
+              ],
+              "correctAnswer": "Utiliza la misma clave tanto para encriptar como para desencriptar",
+              "explanation": "La opción correcta es «Utiliza la misma clave tanto para encriptar como para desencriptar» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué propiedad de seguridad garantiza el uso de una función Hash (como SHA-256) sobre un archivo?",
+              "options": [
+                "Confidencialidad (nadie puede leerlo)",
+                "Integridad (verificar que no ha sido modificado)",
+                "Disponibilidad (que siempre sea accesible)",
+                "Anonimato (no se sabe quién lo creó)"
+              ],
+              "correctAnswer": "Integridad (verificar que no ha sido modificado)",
+              "explanation": "La opción correcta es «Integridad (verificar que no ha sido modificado)» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué técnica es la más efectiva para prevenir ataques de Inyección SQL en una base de datos?",
+              "options": [
+                "Usar firewalls de red",
+                "Encriptar la base de datos",
+                "Usar consultas preparadas (Prepared Statements) con parámetros vinculados",
+                "Ocultar los mensajes de error de la base de datos"
+              ],
+              "correctAnswer": "Usar consultas preparadas (Prepared Statements) con parámetros vinculados",
+              "explanation": "La opción correcta es «Usar consultas preparadas (Prepared Statements) con parámetros vinculados» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "En una comunicación HTTPS, ¿qué papel juega el Certificado Digital?",
+              "options": [
+                "Comprimir los datos para que viajen más rápido",
+                "Validar la identidad del servidor y proporcionar la clave pública para iniciar el cifrado",
+                "Almacenar las contraseñas de los usuarios",
+                "Evitar ataques de denegación de servicio (DDoS)"
+              ],
+              "correctAnswer": "Validar la identidad del servidor y proporcionar la clave pública para iniciar el cifrado",
+              "explanation": "La opción correcta es «Validar la identidad del servidor y proporcionar la clave pública para iniciar el cifrado» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿En qué consiste el principio de seguridad del \"Mínimo Privilegio\"?",
+              "options": [
+                "En que todos los usuarios deben ser administradores para evitar errores de permisos",
+                "En otorgar a cada usuario o proceso únicamente los permisos necesarios para realizar su tarea",
+                "En usar contraseñas cortas y fáciles de recordar",
+                "En no instalar antivirus para no ralentizar el sistema"
+              ],
+              "correctAnswer": "En otorgar a cada usuario o proceso únicamente los permisos necesarios para realizar su tarea",
+              "explanation": "La opción correcta es «En otorgar a cada usuario o proceso únicamente los permisos necesarios para realizar su tarea» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué algoritmo se utiliza comúnmente para el intercambio seguro de claves en un canal inseguro (Criptografía Asimétric",
+              "options": [
+                "?a) AES",
+                "RSA",
+                "MD5",
+                "RC4"
+              ],
+              "correctAnswer": "RSA",
+              "explanation": "La opción correcta es «RSA» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "¿Qué garantiza la \"Firma Digital\" en un documento?",
+              "options": [
+                "Que el documento está encriptado y es secreto",
+                "Que el documento no tiene virus",
+                "Autenticidad (origen) e Integridad (no modificado), proporcionando no repudio",
+                "Que el documento se destruirá después de leerlo"
+              ],
+              "correctAnswer": "Autenticidad (origen) e Integridad (no modificado), proporcionando no repudio",
+              "explanation": "La opción correcta es «Autenticidad (origen) e Integridad (no modificado), proporcionando no repudio» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            },
+            {
+              "text": "Estás usando la función password_hash() de PHP. ¿Qué hace internamente para aumentar la seguridad además de aplicar el algoritmo de hash?",
+              "options": [
+                "Enviar la contraseña por email al administrador",
+                "Generar y aplicar un \"salt\" aleatorio automáticamente",
+                "Guardar la contraseña en un archivo de texto plano",
+                "Encriptar la contraseña con una clave simétrica reversible"
+              ],
+              "correctAnswer": "Generar y aplicar un \"salt\" aleatorio automáticamente",
+              "explanation": "La opción correcta es «Generar y aplicar un \"salt\" aleatorio automáticamente» porque es el concepto, herramienta o comportamiento que corresponde directamente al caso planteado."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
