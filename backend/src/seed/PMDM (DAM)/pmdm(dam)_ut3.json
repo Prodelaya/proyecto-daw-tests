@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PMDM",
+      "name": "Programación multimedia y dispositivos móviles",
+      "topics": [
+        {
+          "number": 3,
+          "title": "UT3",
+          "questions": [
+            {
+              "text": "¿Por qué la industria prefiere el contenido multimedia digital frente al analógico?",
+              "options": [
+                "Debido a su facilidad de distribución, modificación y manipulación.",
+                "Porque el contenido digital ocupa mucho más espacio físico.",
+                "Porque el contenido analógico no permite el uso de color.",
+                "Porque el contenido analógico requiere hardware más costoso."
+              ],
+              "correctAnswer": "Debido a su facilidad de distribución, modificación y manipulación.",
+              "explanation": "La respuesta correcta es: Debido a su facilidad de distribución, modificación y manipulación."
+            },
+            {
+              "text": "¿Cómo se define una aplicación de realidad virtual con manipulación de objetos según su interactividad?",
+              "options": [
+                "Contenido de transmisión lineal.",
+                "Contenido estático.",
+                "Contenido interactivo.",
+                "Contenido analógico puro."
+              ],
+              "correctAnswer": "Contenido interactivo.",
+              "explanation": "La respuesta correcta es: Contenido interactivo."
+            },
+            {
+              "text": "¿Qué factores técnicos críticos implica integrar vídeos 4K en una app móvil?",
+              "options": [
+                "Mayor espacio de almacenamiento y mayores requerimientos de ancho de banda.",
+                "Falta de soporte de color.",
+                "Incompatibilidad con texto.",
+                "Imposibilidad de usar vídeos en móviles."
+              ],
+              "correctAnswer": "Mayor espacio de almacenamiento y mayores requerimientos de ancho de banda.",
+              "explanation": "La respuesta correcta es: Mayor espacio de almacenamiento y mayores requerimientos de ancho de banda."
+            },
+            {
+              "text": "¿Qué características se valoran en entornos multimedia para principiantes?",
+              "options": [
+                "Interfaz intuitiva, guías de ayuda integradas y tutoriales.",
+                "Carecer de comunidad de usuarios.",
+                "Uso exclusivo de línea de comandos.",
+                "Requerir hardware de alto rendimiento."
+              ],
+              "correctAnswer": "Interfaz intuitiva, guías de ayuda integradas y tutoriales.",
+              "explanation": "La respuesta correcta es: Interfaz intuitiva, guías de ayuda integradas y tutoriales."
+            },
+            {
+              "text": "¿Qué realidad financiera presentan los entornos de desarrollo multimedia?",
+              "options": [
+                "No existen opciones de código abierto.",
+                "Los de pago tienen menos funciones.",
+                "El coste puede oscilar desde gratuito hasta varios miles de euros.",
+                "Todos son siempre gratuitos."
+              ],
+              "correctAnswer": "El coste puede oscilar desde gratuito hasta varios miles de euros.",
+              "explanation": "La respuesta correcta es: El coste puede oscilar desde gratuito hasta varios miles de euros."
+            },
+            {
+              "text": "¿Qué entorno es adecuado para crear videojuegos interactivos multimedia?",
+              "options": [
+                "Adobe Reader.",
+                "Visual Studio Code.",
+                "Unity.",
+                "Microsoft Word."
+              ],
+              "correctAnswer": "Unity.",
+              "explanation": "La respuesta correcta es: Unity."
+            },
+            {
+              "text": "¿Qué arquitectura usa PhoneGap para acceder a capacidades multimedia nativas?",
+              "options": [
+                "Arquitectura basada en plugins mediante interfaces JavaScript.",
+                "Compilación nativa en C++.",
+                "Transmisión por satélite.",
+                "Conexión directa al kernel."
+              ],
+              "correctAnswer": "Arquitectura basada en plugins mediante interfaces JavaScript.",
+              "explanation": "La respuesta correcta es: Arquitectura basada en plugins mediante interfaces JavaScript."
+            },
+            {
+              "text": "¿Qué plugin informa sobre la orientación del dispositivo?",
+              "options": [
+                "Geolocation.",
+                "Device Orientation.",
+                "Barcode Scanner.",
+                "Vibration."
+              ],
+              "correctAnswer": "Device Orientation.",
+              "explanation": "La respuesta correcta es: Device Orientation."
+            },
+            {
+              "text": "¿Qué plugin permite abrir enlaces web en una ventana emergente dentro de la app?",
+              "options": [
+                "Contacts.",
+                "Device Motion.",
+                "InAppBrowser.",
+                "SQLite."
+              ],
+              "correctAnswer": "InAppBrowser.",
+              "explanation": "La respuesta correcta es: InAppBrowser."
+            },
+            {
+              "text": "¿Qué representan onSuccess y onFail en navigator.camera.getPicture()?",
+              "options": [
+                "Callbacks de éxito y error.",
+                "Librerías externas.",
+                "Variables de resolución.",
+                "Comandos de flash."
+              ],
+              "correctAnswer": "Callbacks de éxito y error.",
+              "explanation": "La respuesta correcta es: Callbacks de éxito y error."
+            },
+            {
+              "text": "¿Qué proyecto se recomienda tras la discontinuación de PhoneGap?",
+              "options": [
+                "Apache Cordova.",
+                "React Native.",
+                "Flutter.",
+                "Xamarin."
+              ],
+              "correctAnswer": "Apache Cordova.",
+              "explanation": "La respuesta correcta es: Apache Cordova."
+            },
+            {
+              "text": "¿Qué comando instala Cordova globalmente con npm?",
+              "options": [
+                "cordova run windows",
+                "git clone cordova",
+                "npm install -g cordova",
+                "apt-get install android-studio"
+              ],
+              "correctAnswer": "npm install -g cordova",
+              "explanation": "La respuesta correcta es: npm install -g cordova"
+            },
+            {
+              "text": "¿Qué plugin permite almacenar vídeos en el sistema de archivos?",
+              "options": [
+                "cordova-plugin-vibration",
+                "cordova-plugin-splashscreen",
+                "cordova-plugin-file",
+                "cordova-plugin-battery-status"
+              ],
+              "correctAnswer": "cordova-plugin-file",
+              "explanation": "La respuesta correcta es: cordova-plugin-file"
+            },
+            {
+              "text": "En el código de tu aplicación de video, utilizas navigator.device.capture.captureVideo. Si deseas restringir la grabación a un solo clip, ¿qué opción debes pasar en el objeto de configuración?",
+              "options": [
+                "{ filter: 'bw' }",
+                "{ audio: false }",
+                "{ limit: 1 }",
+                "{ quality: 100 }"
+              ],
+              "correctAnswer": "{ limit: 1 }",
+              "explanation": "La respuesta correcta es: { limit: 1 }"
+            },
+            {
+              "text": "¿Qué evento confirma que la escritura de un archivo ha finalizado correctamente?",
+              "options": [
+                "fileWriter.onprogress",
+                "fileWriter.onwriteend",
+                "fileWriter.onabort",
+                "fileWriter.onstart"
+              ],
+              "correctAnswer": "fileWriter.onwriteend",
+              "explanation": "La respuesta correcta es: fileWriter.onwriteend"
+            },
+            {
+              "text": "¿Para qué sirven los callbacks de readEntries()?",
+              "options": [
+                "Convertir vídeos.",
+                "Gestionan el éxito y error al listar entradas del directorio.",
+                "Borrar archivos.",
+                "Enviar archivos a la nube."
+              ],
+              "correctAnswer": "Gestionan el éxito y error al listar entradas del directorio.",
+              "explanation": "La respuesta correcta es: Gestionan el éxito y error al listar entradas del directorio."
+            },
+            {
+              "text": "¿Qué evento debe esperarse antes de usar APIs de Cordova?",
+              "options": [
+                "window.onload",
+                "deviceready",
+                "click",
+                "document.ready"
+              ],
+              "correctAnswer": "deviceready",
+              "explanation": "La respuesta correcta es: deviceready"
+            },
+            {
+              "text": "¿Qué eventos emite la clase Media?",
+              "options": [
+                "play, pause, stop y record.",
+                "open, close, minimize.",
+                "click, hover, focus.",
+                "connect, disconnect, timeout."
+              ],
+              "correctAnswer": "play, pause, stop y record.",
+              "explanation": "La respuesta correcta es: play, pause, stop y record."
+            },
+            {
+              "text": "¿Cuál es la función de un error callback en la captura de vídeo?",
+              "options": [
+                "Aumentar velocidad del procesador.",
+                "Ignorar el problema.",
+                "Informar al usuario o reintentar la operación.",
+                "Borrar historial."
+              ],
+              "correctAnswer": "Informar al usuario o reintentar la operación.",
+              "explanation": "La respuesta correcta es: Informar al usuario o reintentar la operación."
+            },
+            {
+              "text": "¿Qué DestinationType maneja la imagen como archivo?",
+              "options": [
+                "Camera.DestinationType.CLOUD_PATH",
+                "Camera.DestinationType.NATIVE_URI",
+                "Camera.DestinationType.FILE_URI",
+                "Camera.DestinationType.DATA_URL"
+              ],
+              "correctAnswer": "Camera.DestinationType.FILE_URI",
+              "explanation": "La respuesta correcta es: Camera.DestinationType.FILE_URI"
+            },
+            {
+              "text": "Para guardar una foto capturada en un directorio específico llamado 'PhotoApp', utilizas fileSystem.getDirectory. ¿Qué parámetro asegura que el directorio se cree si no existe?",
+              "options": [
+                "{ force: false }",
+                "{ exclusive: true }",
+                "{ create: true }",
+                "{ hidden: true }"
+              ],
+              "correctAnswer": "{ create: true }",
+              "explanation": "La respuesta correcta es: { create: true }"
+            },
+            {
+              "text": "Estás construyendo un reproductor de video básico utilizando tecnologías web estándar dentro de Cordova. ¿Qué etiquetas HTML5 utilizarías?",
+              "options": [
+                "<movie> y <sound>",
+                "<video> y <audio>",
+                "<media> y <stream>",
+                "<flash> y <applet>"
+              ],
+              "correctAnswer": "<video> y <audio>",
+              "explanation": "La respuesta correcta es: <video> y <audio>"
+            },
+            {
+              "text": "Tienes un elemento <video id=\"my-video\"> en tu HTML. ¿Qué código JavaScript utilizarías para iniciar la reproducción de este medio?",
+              "options": [
+                "document.getElementById(\"my-video\").run();",
+                "document.getElementById(\"my-video\").execute();",
+                "document.getElementById(\"my-video\").start();",
+                "document.getElementById(\"my-video\").play();"
+              ],
+              "correctAnswer": "document.getElementById(\"my-video\").play();",
+              "explanation": "La respuesta correcta es: document.getElementById(\"my-video\").play();"
+            },
+            {
+              "text": "¿Qué plugin permite reproducir vídeos en streaming?",
+              "options": [
+                "cordova-plugin-streaming-media",
+                "cordova-plugin-netflix",
+                "cordova-plugin-video-editor",
+                "cordova-plugin-youtube"
+              ],
+              "correctAnswer": "cordova-plugin-streaming-media",
+              "explanation": "La respuesta correcta es: cordova-plugin-streaming-media"
+            },
+            {
+              "text": "¿Para qué sirve user-scalable=no en el viewport?",
+              "options": [
+                "Permitir zoom infinito.",
+                "Evitar que el usuario escale la interfaz.",
+                "Cambiar color de fondo.",
+                "Permitir rotación libre."
+              ],
+              "correctAnswer": "Evitar que el usuario escale la interfaz.",
+              "explanation": "La respuesta correcta es: Evitar que el usuario escale la interfaz."
+            },
+            {
+              "text": "¿Qué herramienta se usa para depurar Cordova en Android por USB?",
+              "options": [
+                "Firefox.",
+                "Bloc de notas.",
+                "Safari.",
+                "Herramientas de desarrollador de Chrome."
+              ],
+              "correctAnswer": "Herramientas de desarrollador de Chrome.",
+              "explanation": "La respuesta correcta es: Herramientas de desarrollador de Chrome."
+            },
+            {
+              "text": "¿Qué navegador permite depurar apps iOS en Mac?",
+              "options": [
+                "Edge.",
+                "Chrome.",
+                "Safari.",
+                "Opera."
+              ],
+              "correctAnswer": "Safari.",
+              "explanation": "La respuesta correcta es: Safari."
+            },
+            {
+              "text": "¿Qué plugin permite ver console.log en la terminal?",
+              "options": [
+                "cordova-plugin-debug",
+                "cordova-plugin-logger",
+                "cordova-plugin-console",
+                "cordova-plugin-terminal"
+              ],
+              "correctAnswer": "cordova-plugin-console",
+              "explanation": "La respuesta correcta es: cordova-plugin-console"
+            },
+            {
+              "text": "¿En qué deben centrarse los comentarios del código?",
+              "options": [
+                "Copiar el manual.",
+                "En explicar por qué se hace algo.",
+                "Listar programadores.",
+                "Explicar cada línea."
+              ],
+              "correctAnswer": "En explicar por qué se hace algo.",
+              "explanation": "La respuesta correcta es: En explicar por qué se hace algo."
+            },
+            {
+              "text": "¿Qué herramienta genera documentación desde comentarios JavaScript?",
+              "options": [
+                "Swagger.",
+                "PHPDoc.",
+                "JavaDoc.",
+                "JSDoc."
+              ],
+              "correctAnswer": "JSDoc.",
+              "explanation": "La respuesta correcta es: JSDoc."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

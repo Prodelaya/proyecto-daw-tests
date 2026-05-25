@@ -1,0 +1,335 @@
+{
+  "subjects": [
+    {
+      "code": "AD",
+      "name": "Acceso a datos",
+      "topics": [
+        {
+          "number": 1,
+          "title": "UT1",
+          "questions": [
+            {
+              "text": "En un taller de electrónica en Bilbao, Sonia debe preparar un entorno mínimo para compilar C en un PC con Windows 10 sin conexión a internet en el turno de la tarde. ¿Qué medida preventiva le asegura poder instalar MinGW al llegar?",
+              "options": [
+                "Descargar previamente el instalador y los paquetes necesarios en un USB",
+                "Descargar solo el “mingw-get-setup.exe” sin dependencias",
+                "Pedir a TI que active PowerShell Remoting",
+                "Confiar en que Windows trae GCC preinstalado"
+              ],
+              "correctAnswer": "Descargar previamente el instalador y los paquetes necesarios en un USB",
+              "explanation": "La respuesta correcta es: Descargar previamente el instalador y los paquetes necesarios en un USB"
+            },
+            {
+              "text": "¿Qué característica hace que C sea idóneo para programar sistemas de bajo nivel?",
+              "options": [
+                "Tipado dinámico",
+                "Modelo de objetos estricto",
+                "Recolector de basura integrado",
+                "Acceso directo a memoria y bajo coste de abstracción"
+              ],
+              "correctAnswer": "Acceso directo a memoria y bajo coste de abstracción",
+              "explanation": "La respuesta correcta es: Acceso directo a memoria y bajo coste de abstracción"
+            },
+            {
+              "text": "Tienes hola.c con printf(\"¡Hola Mundo!\\n\");. ¿Qué comando genera el ejecutable hola.exe en Windows con MinGW?",
+              "options": [
+                "gcc hola.c -o hola.exe",
+                "clang hola.c -o hola",
+                "gcc -O2 hola.exe hola.c",
+                "gcc hola.c -c"
+              ],
+              "correctAnswer": "gcc hola.c -o hola.exe",
+              "explanation": "La respuesta correcta es: gcc hola.c -o hola.exe"
+            },
+            {
+              "text": "En una empresa de Zaragoza, Pedro instala MinGW pero al abrir CMD gcc --version no funciona. ¿Qué acción desbloquea su uso desde cualquier carpeta?",
+              "options": [
+                "Añadir C:\\MinGW\\bin a la variable de entorno PATH del sistema",
+                "Cambiar a PowerShell 7",
+                "Ejecutar CMD como administrador siempre",
+                "Instalar Notepad++"
+              ],
+              "correctAnswer": "Añadir C:\\MinGW\\bin a la variable de entorno PATH del sistema",
+              "explanation": "La respuesta correcta es: Añadir C:\\MinGW\\bin a la variable de entorno PATH del sistema"
+            },
+            {
+              "text": "¿Qué paquete es imprescindible en una instalación básica de MinGW para compilar en C?",
+              "options": [
+                "mingw32-python",
+                "mingw32-dotnet",
+                "mingw32-base",
+                "mingw32-make-only"
+              ],
+              "correctAnswer": "mingw32-base",
+              "explanation": "La respuesta correcta es: mingw32-base"
+            },
+            {
+              "text": "En una pyme de logística en Valencia, Ana va a guardar logs diarios. Busca un modo de apertura que cree el archivo si no existe y añada al final si existe. ¿Qué modo elige?",
+              "options": [
+                "\"w\"",
+                "\"r\"",
+                "\"rb\"",
+                "\"a\""
+              ],
+              "correctAnswer": "\"a\"",
+              "explanation": "La respuesta correcta es: \"a\""
+            },
+            {
+              "text": "En C, ¿qué devuelve fopen cuando no puede abrir un archivo?",
+              "options": [
+                "-1",
+                "NULL",
+                "0",
+                "Una cadena vacía"
+              ],
+              "correctAnswer": "NULL",
+              "explanation": "La respuesta correcta es: NULL"
+            },
+            {
+              "text": "Debes escribir texto formateado a un archivo abierto en FILE *fp. ¿Qué función es la adecuada?",
+              "options": [
+                "scanf",
+                "fwrite",
+                "fread",
+                "fprintf"
+              ],
+              "correctAnswer": "fprintf",
+              "explanation": "La respuesta correcta es: fprintf"
+            },
+            {
+              "text": "¿Qué modo de apertura evita truncar un archivo existente al escribir bytes?",
+              "options": [
+                "\"ab\"",
+                "\"rb\"",
+                "\"w\"",
+                "\"wb\""
+              ],
+              "correctAnswer": "\"ab\"",
+              "explanation": "La respuesta correcta es: \"ab\""
+            },
+            {
+              "text": "En un servicio técnico de Madrid, cierras un archivo y el sistema devuelve un valor distinto de 0. ¿Qué significa?",
+              "options": [
+                "Cierre correcto",
+                "Se alcanzó EOF",
+                "El archivo nunca se abrió",
+                "Se produjo un error al cerrar el archivo"
+              ],
+              "correctAnswer": "Se produjo un error al cerrar el archivo",
+              "explanation": "La respuesta correcta es: Se produjo un error al cerrar el archivo"
+            },
+            {
+              "text": "En una clínica de Sevilla, Laura procesa mediciones desde datos.txt línea a línea para un informe. ¿Qué forma de acceso encaja mejor por simplicidad y formato predecible?",
+              "options": [
+                "Base de datos relacional",
+                "Acceso secuencial",
+                "Acceso aleatorio",
+                "Mapeo de memoria"
+              ],
+              "correctAnswer": "Acceso secuencial",
+              "explanation": "La respuesta correcta es: Acceso secuencial"
+            },
+            {
+              "text": "¿Qué función posiciona el cursor de archivo para lectura/escritura aleatoria en C?",
+              "options": [
+                "ftell",
+                "fseek",
+                "fflush",
+                "rewind"
+              ],
+              "correctAnswer": "fseek",
+              "explanation": "La respuesta correcta es: fseek"
+            },
+            {
+              "text": "Quieres leer un float en la posición 2 (tercer elemento) de un archivo binario de float. ¿Qué combinación es correcta?",
+              "options": [
+                "ftell(fp, &x); fread(&x, 1, sizeof(float), fp);",
+                "rewind(fp); fread(&x, 3, sizeof(float), fp);",
+                "fseek(fp, 2, SEEK_SET); fscanf(fp, \"%f\", &x);",
+                "fseek(fp, 2*sizeof(float), SEEK_SET); fread(&x, sizeof(float), 1, fp);"
+              ],
+              "correctAnswer": "fseek(fp, 2*sizeof(float), SEEK_SET); fread(&x, sizeof(float), 1, fp);",
+              "explanation": "La respuesta correcta es: fseek(fp, 2*sizeof(float), SEEK_SET); fread(&x, sizeof(float), 1, fp);"
+            },
+            {
+              "text": "En una empresa de videojuegos de Barcelona, el equipo guarda texturas y audio. ¿Qué modo de trabajo con archivos prioriza rendimiento en E/S y tamaño?",
+              "options": [
+                "CSV con fscanf",
+                "JSON con fprintf",
+                "Texto con fprintf/fscanf",
+                "Binario con fread/fwrite"
+              ],
+              "correctAnswer": "Binario con fread/fwrite",
+              "explanation": "La respuesta correcta es: Binario con fread/fwrite"
+            },
+            {
+              "text": "¿Qué ventaja ofrece el acceso mediante base de datos frente a ficheros planos en una aplicación empresarial?",
+              "options": [
+                "No requiere conexión",
+                "Menor complejidad de instalación",
+                "Escalabilidad y eficiencia en consultas complejas",
+                "Evita manejar errores"
+              ],
+              "correctAnswer": "Escalabilidad y eficiencia en consultas complejas",
+              "explanation": "La respuesta correcta es: Escalabilidad y eficiencia en consultas complejas"
+            },
+            {
+              "text": "En un almacén de Vigo, te piden listar nombres de ficheros de un directorio para una auditoría rápida. ¿Qué usas para abrir el directorio?",
+              "options": [
+                "readdir",
+                "fopen",
+                "opendir",
+                "stat"
+              ],
+              "correctAnswer": "opendir",
+              "explanation": "La respuesta correcta es: opendir"
+            },
+            {
+              "text": "¿Qué estructura devuelve readdir para iterar entradas de un directorio?",
+              "options": [
+                "struct dirent",
+                "DIR",
+                "FILE",
+                "struct stat"
+              ],
+              "correctAnswer": "struct dirent",
+              "explanation": "La respuesta correcta es: struct dirent"
+            },
+            {
+              "text": "Vas a obtener tamaño y fecha de modificación de un archivo concreto. ¿Qué llamada te da ese detalle?",
+              "options": [
+                "stat",
+                "readdir",
+                "ftell",
+                "perror"
+              ],
+              "correctAnswer": "stat",
+              "explanation": "La respuesta correcta es: stat"
+            },
+            {
+              "text": "En una consultora de Bilbao, un becario captura el código de error al fallar una operación con archivos. ¿Dónde lo recupera según la biblioteca estándar?",
+              "options": [
+                "Variable global errno",
+                "ferrorno()",
+                "errno en FILE",
+                "fp->errorCode"
+              ],
+              "correctAnswer": "Variable global errno",
+              "explanation": "La respuesta correcta es: Variable global errno"
+            },
+            {
+              "text": "¿Qué tipo representa un directorio abierto devuelto por opendir?",
+              "options": [
+                "FILE*",
+                "void*",
+                "struct stat*",
+                "DIR*"
+              ],
+              "correctAnswer": "DIR*",
+              "explanation": "La respuesta correcta es: DIR*"
+            },
+            {
+              "text": "En una pyme de retail en A Coruña, Marta guarda recibos como texto y luego los presenta en pantalla. ¿Qué flujo es más natural para este caso?",
+              "options": [
+                "Basado en caracteres (fprintf/fscanf/fgets)",
+                "Basado en bytes (fread/fwrite)",
+                "Solo mapeo de memoria",
+                "Acceso aleatorio binario"
+              ],
+              "correctAnswer": "Basado en caracteres (fprintf/fscanf/fgets)",
+              "explanation": "La respuesta correcta es: Basado en caracteres (fprintf/fscanf/fgets)"
+            },
+            {
+              "text": "¿Qué función lee una línea de texto de un fichero a un buffer?",
+              "options": [
+                "getline_s",
+                "fread",
+                "fgets",
+                "scanf"
+              ],
+              "correctAnswer": "fgets",
+              "explanation": "La respuesta correcta es: fgets"
+            },
+            {
+              "text": "Debes crear ejemplo.txt y escribir “¡Hola, mundo!”. ¿Qué secuencia es correcta?",
+              "options": [
+                "fopen(\"ejemplo.txt\",\"w\"); fprintf; fclose",
+                "fopen(\"ejemplo.txt\",\"a\"); fscanf; fclose",
+                "fopen(\"ejemplo.txt\",\"rb\"); fwrite; fclose",
+                "fopen(\"ejemplo.txt\",\"r\"); fprintf; fclose"
+              ],
+              "correctAnswer": "fopen(\"ejemplo.txt\",\"w\"); fprintf; fclose",
+              "explanation": "La respuesta correcta es: fopen(\"ejemplo.txt\",\"w\"); fprintf; fclose"
+            },
+            {
+              "text": "En una startup de datos en Málaga, quieren leer un archivo binario de registros fijos con máxima eficiencia. ¿Qué enfoque usarías?",
+              "options": [
+                "fprintf y fscanf",
+                "scanf y puts",
+                "fgets y printf",
+                "fread y fwrite con buffers"
+              ],
+              "correctAnswer": "fread y fwrite con buffers",
+              "explanation": "La respuesta correcta es: fread y fwrite con buffers"
+            },
+            {
+              "text": "¿Qué describe mejor la diferencia entre flujos por caracteres y por bytes en C?",
+              "options": [
+                "Depende del sistema operativo",
+                "Ambos son idénticos",
+                "Caracteres para texto; bytes para binario",
+                "Caracteres para binario; bytes para texto"
+              ],
+              "correctAnswer": "Caracteres para texto; bytes para binario",
+              "explanation": "La respuesta correcta es: Caracteres para texto; bytes para binario"
+            },
+            {
+              "text": "En una imprenta de Madrid, un operario intenta abrir un archivo que no existe y el programa se cierra sin mensaje. ¿Qué práctica mejora el diagnóstico?",
+              "options": [
+                "Ejecutar rewind antes de leer",
+                "Comprobar si fopen devuelve NULL y usar perror para informar",
+                "Poner fflush tras fopen",
+                "Ignorar el error y continuar"
+              ],
+              "correctAnswer": "Comprobar si fopen devuelve NULL y usar perror para informar",
+              "explanation": "La respuesta correcta es: Comprobar si fopen devuelve NULL y usar perror para informar"
+            },
+            {
+              "text": "¿Qué función detecta el final de archivo tras una lectura?",
+              "options": [
+                "fseek",
+                "fpos",
+                "feof",
+                "fclose"
+              ],
+              "correctAnswer": "feof",
+              "explanation": "La respuesta correcta es: feof"
+            },
+            {
+              "text": "Has leído de un archivo y sospechas un problema de E/S. ¿Qué función confirma si hubo error en la operación previa?",
+              "options": [
+                "ferror",
+                "errno",
+                "perror",
+                "ftell"
+              ],
+              "correctAnswer": "ferror",
+              "explanation": "La respuesta correcta es: ferror"
+            },
+            {
+              "text": "¿Qué devuelve fclose en caso de cierre correcto?",
+              "options": [
+                "1",
+                "0",
+                "NULL",
+                "-1"
+              ],
+              "correctAnswer": "0",
+              "explanation": "La respuesta correcta es: 0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

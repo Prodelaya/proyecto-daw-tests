@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "AD",
+      "name": "Acceso a datos",
+      "topics": [
+        {
+          "number": 5,
+          "title": "UT5",
+          "questions": [
+            {
+              "text": "En una editorial digital de Valencia el catálogo cambia a menudo y deben compartir datos con terceros. Buscan un almacenamiento que mantenga estructura jerárquica y tolere cambios de esquema. ¿Qué propones?",
+              "options": [
+                "Tablas relacionales muy normalizadas",
+                "JSON en hojas de cálculo",
+                "Base de datos nativa XML para guardar documentos y consultarlos con XPath/XQuery",
+                "Ficheros CSV con separadores"
+              ],
+              "correctAnswer": "Base de datos nativa XML para guardar documentos y consultarlos con XPath/XQuery",
+              "explanation": "La respuesta correcta es: Base de datos nativa XML para guardar documentos y consultarlos con XPath/XQuery"
+            },
+            {
+              "text": "En un integrador de Madrid necesitan intercambiar datos entre sistemas muy distintos. ¿Qué ventaja práctica aporta XML?",
+              "options": [
+                "Es binario y difícil de leer",
+                "Solo funciona en Windows",
+                "Exige un esquema fijo e inmutable",
+                "Etiquetas auto-descriptivas y portabilidad entre plataformas"
+              ],
+              "correctAnswer": "Etiquetas auto-descriptivas y portabilidad entre plataformas",
+              "explanation": "La respuesta correcta es: Etiquetas auto-descriptivas y portabilidad entre plataformas"
+            },
+            {
+              "text": "¿Qué condición mínima debe cumplir un documento XML bien formado?",
+              "options": [
+                "Cierre opcional de etiquetas",
+                "Un único elemento raíz que contenga todo el documento",
+                "Prohibición de atributos",
+                "Varios elementos raíz si hay comentarios"
+              ],
+              "correctAnswer": "Un único elemento raíz que contenga todo el documento",
+              "explanation": "La respuesta correcta es: Un único elemento raíz que contenga todo el documento"
+            },
+            {
+              "text": "En un proyecto científico de Bilbao se manejan estructuras que cambian con frecuencia. ¿Por qué una BD XML encaja mejor que una relacional?",
+              "options": [
+                "Porque no requiere copias de seguridad",
+                "Porque admite datos jerárquicos y semiestructurados sin rediseñar tablas",
+                "Porque no usa índices",
+                "Porque sustituye cualquier validación"
+              ],
+              "correctAnswer": "Porque admite datos jerárquicos y semiestructurados sin rediseñar tablas",
+              "explanation": "La respuesta correcta es: Porque admite datos jerárquicos y semiestructurados sin rediseñar tablas"
+            },
+            {
+              "text": "¿Qué ofrecen las bases de datos XML nativas además del almacenamiento?",
+              "options": [
+                "Índices específicos de nodos y lenguajes de consulta como XPath/XQuery/XSLT",
+                "Únicamente SQL estándar",
+                "Bloqueo de transacciones",
+                "Solo edición manual de ficheros"
+              ],
+              "correctAnswer": "Índices específicos de nodos y lenguajes de consulta como XPath/XQuery/XSLT",
+              "explanation": "La respuesta correcta es: Índices específicos de nodos y lenguajes de consulta como XPath/XQuery/XSLT"
+            },
+            {
+              "text": "En un CMS corporativo de Sevilla quieren validar la estructura y tipos antes de cargar documentos. ¿Qué incluirías?",
+              "options": [
+                "Un script de formateo",
+                "Un esquema XSD o DTD para validar estructura y tipos",
+                "Un CSV auxiliar",
+                "Un README con ejemplos"
+              ],
+              "correctAnswer": "Un esquema XSD o DTD para validar estructura y tipos",
+              "explanation": "La respuesta correcta es: Un esquema XSD o DTD para validar estructura y tipos"
+            },
+            {
+              "text": "Para historiales clínicos con jerarquías profundas, ¿qué rol juega la validación de esquemas?",
+              "options": [
+                "Obliga a plano sin anidamiento",
+                "Garantiza consistencia y reglas de negocio en la carga",
+                "Hace los documentos ilegibles",
+                "Evita el uso de índices"
+              ],
+              "correctAnswer": "Garantiza consistencia y reglas de negocio en la carga",
+              "explanation": "La respuesta correcta es: Garantiza consistencia y reglas de negocio en la carga"
+            },
+            {
+              "text": "En un portal de contenidos de Zaragoza piden búsqueda por texto y filtros por etiquetas. ¿Qué ayuda en BD XML nativa?",
+              "options": [
+                "Solo tablas hash",
+                "Exportar siempre a CSV",
+                "Índices de texto y de camino (path) para acelerar consultas",
+                "Desactivar validación"
+              ],
+              "correctAnswer": "Índices de texto y de camino (path) para acelerar consultas",
+              "explanation": "La respuesta correcta es: Índices de texto y de camino (path) para acelerar consultas"
+            },
+            {
+              "text": "Un equipo de Málaga quiere un motor ligero, abierto y rápido para colecciones XML. ¿Qué recomendarías?",
+              "options": [
+                "BaseX como base de datos XML nativa ligera",
+                "Un SGBD relacional con blobs",
+                "Un gestor documental propietario",
+                "Un data lake sin índices"
+              ],
+              "correctAnswer": "BaseX como base de datos XML nativa ligera",
+              "explanation": "La respuesta correcta es: BaseX como base de datos XML nativa ligera"
+            },
+            {
+              "text": "Debes procesar un XML de logs muy grande en un servidor con poca RAM y emitir resultados a medida que se lee. ¿Qué parser usar?",
+              "options": [
+                "DOM cargando todo en memoria",
+                "SAX por eventos y bajo consumo de memoria",
+                "Un ORM relacional",
+                "Un editor de texto"
+              ],
+              "correctAnswer": "SAX por eventos y bajo consumo de memoria",
+              "explanation": "La respuesta correcta es: SAX por eventos y bajo consumo de memoria"
+            },
+            {
+              "text": "En una herramienta de edición de Zaragoza se necesita insertar nodos y mover subárboles de forma visual. ¿Qué parser facilita estas operaciones?",
+              "options": [
+                "Expresiones regulares",
+                "SAX de solo lectura",
+                "DOM, trabajando con el árbol en memoria",
+                "Lectura secuencial sin árbol"
+              ],
+              "correctAnswer": "DOM, trabajando con el árbol en memoria",
+              "explanation": "La respuesta correcta es: DOM, trabajando con el árbol en memoria"
+            },
+            {
+              "text": "¿Para qué utilizas XPath al trabajar con ficheros XML?",
+              "options": [
+                "Para localizar y extraer nodos navegando por la jerarquía",
+                "Para compilar ejecutables",
+                "Para versionar en Git",
+                "Para cifrar documentos"
+              ],
+              "correctAnswer": "Para localizar y extraer nodos navegando por la jerarquía",
+              "explanation": "La respuesta correcta es: Para localizar y extraer nodos navegando por la jerarquía"
+            },
+            {
+              "text": "En un backend Java quieren convertir documentos XML a objetos de dominio y viceversa con anotaciones. ¿Qué técnica aplicarías?",
+              "options": [
+                "Plantillas HTML",
+                "LINQ to SQL",
+                "Sockets UDP",
+                "Vinculación (binding) con JAXB u otra librería de binding"
+              ],
+              "correctAnswer": "Vinculación (binding) con JAXB u otra librería de binding",
+              "explanation": "La respuesta correcta es: Vinculación (binding) con JAXB u otra librería de binding"
+            },
+            {
+              "text": "¿Qué diferencia práctica separa DOM de SAX?",
+              "options": [
+                "DOM construye un árbol en memoria; SAX emite eventos secuenciales",
+                "SAX crea el árbol, DOM emite eventos",
+                "SAX permite editar nodos en el árbol directamente",
+                "Ambos requieren leer todo antes de procesar"
+              ],
+              "correctAnswer": "DOM construye un árbol en memoria; SAX emite eventos secuenciales",
+              "explanation": "La respuesta correcta es: DOM construye un árbol en memoria; SAX emite eventos secuenciales"
+            },
+            {
+              "text": "En un proceso ETL debes extraer solo ciertos elementos de miles de documentos. ¿Qué técnica agiliza la selección?",
+              "options": [
+                "Deshabilitar índices",
+                "Exportar a texto plano",
+                "Cortar y pegar manual",
+                "Expresiones XPath para filtrar nodos objetivo"
+              ],
+              "correctAnswer": "Expresiones XPath para filtrar nodos objetivo",
+              "explanation": "La respuesta correcta es: Expresiones XPath para filtrar nodos objetivo"
+            },
+            {
+              "text": "Antes de arrancar BaseX en Windows, ¿qué requisito de entorno debes verificar?",
+              "options": [
+                "Un navegador específico",
+                "Tener Docker sí o sí",
+                "Una instalación de Java funcional",
+                "IIS activo"
+              ],
+              "correctAnswer": "Una instalación de Java funcional",
+              "explanation": "La respuesta correcta es: Una instalación de Java funcional"
+            },
+            {
+              "text": "En A Coruña, Lucía quiere iniciar la interfaz gráfica de BaseX desde la carpeta bin en Windows. ¿Qué ejecutable corresponde?",
+              "options": [
+                "basexd.bat",
+                "basexgui.bat",
+                "start.bat",
+                "basexserver.bat"
+              ],
+              "correctAnswer": "basexgui.bat",
+              "explanation": "La respuesta correcta es: basexgui.bat"
+            },
+            {
+              "text": "Para cargar un XML en una base nueva con BaseX GUI, ¿qué primer paso harías?",
+              "options": [
+                "Escribir SQL en el editor",
+                "Reiniciar el servidor",
+                "Crear una tabla manual",
+                "Database → New y seleccionar el documento fuente"
+              ],
+              "correctAnswer": "Database → New y seleccionar el documento fuente",
+              "explanation": "La respuesta correcta es: Database → New y seleccionar el documento fuente"
+            },
+            {
+              "text": "¿Para qué sirven los índices en bases nativas XML como BaseX?",
+              "options": [
+                "Para impedir concurrencia",
+                "Para desactivar validaciones",
+                "Para convertir XQuery a SQL",
+                "Para acelerar consultas y operaciones sobre nodos"
+              ],
+              "correctAnswer": "Para acelerar consultas y operaciones sobre nodos",
+              "explanation": "La respuesta correcta es: Para acelerar consultas y operaciones sobre nodos"
+            },
+            {
+              "text": "Al arrancar BaseX aparece un error sobre la máquina virtual. ¿Qué desbloquea el arranque?",
+              "options": [
+                "Crear un usuario administrador",
+                "Cambiar el puerto HTTP",
+                "Instalar/configurar Java y su variable de entorno",
+                "Borrar caché del navegador"
+              ],
+              "correctAnswer": "Instalar/configurar Java y su variable de entorno",
+              "explanation": "La respuesta correcta es: Instalar/configurar Java y su variable de entorno"
+            },
+            {
+              "text": "En una app de Valencia la lógica necesita consultar documentos XML ya cargados y crear nuevos a partir de resultados. ¿Qué lenguaje usarías?",
+              "options": [
+                "XQuery (basado en XPath, permite consultas y construcción de resultados)",
+                "SQL92",
+                "GraphQL puro",
+                "Regex"
+              ],
+              "correctAnswer": "XQuery (basado en XPath, permite consultas y construcción de resultados)",
+              "explanation": "La respuesta correcta es: XQuery (basado en XPath, permite consultas y construcción de resultados)"
+            },
+            {
+              "text": "¿Qué describe correctamente la estructura FLWOR de XQuery?",
+              "options": [
+                "Fetch, Loop, Window, Offset, Result",
+                "From, List, When, Order, Render",
+                "For, Let, Where, Order by, Return",
+                "Files, Load, Write, Optimize, Return"
+              ],
+              "correctAnswer": "For, Let, Where, Order by, Return",
+              "explanation": "La respuesta correcta es: For, Let, Where, Order by, Return"
+            },
+            {
+              "text": "En un departamento de recursos humanos piden ordenar empleados alfabéticamente en una consulta. ¿Qué parte de FLWOR se usa?",
+              "options": [
+                "order by",
+                "where",
+                "let",
+                "return"
+              ],
+              "correctAnswer": "order by",
+              "explanation": "La respuesta correcta es: order by"
+            },
+            {
+              "text": "Para evaluar “todo o nada” al escribir varios documentos en una BD XML, ¿qué soporte es relevante?",
+              "options": [
+                "Caché del navegador",
+                "Transacciones en el gestor XML",
+                "Un editor de texto",
+                "Eliminar índices"
+              ],
+              "correctAnswer": "Transacciones en el gestor XML",
+              "explanation": "La respuesta correcta es: Transacciones en el gestor XML"
+            },
+            {
+              "text": "En un intercambio B2B de Sevilla, el cliente exige validar estructura y tipos antes de aceptar el XML. ¿Qué entregas junto al documento?",
+              "options": [
+                "Una hoja de estilo CSS",
+                "Un PDF con capturas",
+                "Un XSD que defina elementos, atributos y restricciones",
+                "Un README"
+              ],
+              "correctAnswer": "Un XSD que defina elementos, atributos y restricciones",
+              "explanation": "La respuesta correcta es: Un XSD que defina elementos, atributos y restricciones"
+            },
+            {
+              "text": "Un repositorio de investigación quiere buscar por autor y por título con rapidez. ¿Qué configuración ayuda?",
+              "options": [
+                "Guardar en binario",
+                "Comprimir en ZIP",
+                "Deshabilitar índices",
+                "Crear índices apropiados (por ejemplo, de texto y de atributos) en la BD XML"
+              ],
+              "correctAnswer": "Crear índices apropiados (por ejemplo, de texto y de atributos) en la BD XML",
+              "explanation": "La respuesta correcta es: Crear índices apropiados (por ejemplo, de texto y de atributos) en la BD XML"
+            },
+            {
+              "text": "En un flujo de integración, ¿qué ventaja tiene usar una BD XML nativa en lugar de archivos sueltos?",
+              "options": [
+                "Requiere un esquema relacional previo",
+                "Impide escalado",
+                "Evita cualquier validación",
+                "Ofrece motor de consultas, transacciones, índices y seguridad centralizada"
+              ],
+              "correctAnswer": "Ofrece motor de consultas, transacciones, índices y seguridad centralizada",
+              "explanation": "La respuesta correcta es: Ofrece motor de consultas, transacciones, índices y seguridad centralizada"
+            },
+            {
+              "text": "En un proyecto de Zaragoza, el equipo necesita transformar documentos XML a una salida específica de informes. ¿Qué tecnología complementaria considerarías?",
+              "options": [
+                "XSLT para transformar árboles XML",
+                "CSS Grid",
+                "WebSockets",
+                "S/MIME"
+              ],
+              "correctAnswer": "XSLT para transformar árboles XML",
+              "explanation": "La respuesta correcta es: XSLT para transformar árboles XML"
+            },
+            {
+              "text": "Para desarrollar una aplicación que gestione documentos XML (crear, editar, consultar), ¿qué fases no deberías saltarte?",
+              "options": [
+                "Solo pruebas manuales",
+                "Solo codificar",
+                "Omitir pruebas de rendimiento",
+                "Análisis de requisitos, diseño de esquemas, implementación, pruebas y despliegue"
+              ],
+              "correctAnswer": "Análisis de requisitos, diseño de esquemas, implementación, pruebas y despliegue",
+              "explanation": "La respuesta correcta es: Análisis de requisitos, diseño de esquemas, implementación, pruebas y despliegue"
+            },
+            {
+              "text": "¿Qué papel juega el “binding” en aplicaciones empresariales con XML?",
+              "options": [
+                "Sustituye a la validación",
+                "Desactiva esquemas",
+                "Reemplaza XPath",
+                "Mapea entre documentos XML y objetos del lenguaje (p. ej., clases Java/C"
+              ],
+              "correctAnswer": "Mapea entre documentos XML y objetos del lenguaje (p. ej., clases Java/C",
+              "explanation": "La respuesta correcta es: Mapea entre documentos XML y objetos del lenguaje (p. ej., clases Java/C"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

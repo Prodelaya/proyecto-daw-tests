@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PMDM",
+      "name": "Programación multimedia y dispositivos móviles",
+      "topics": [
+        {
+          "number": 1,
+          "title": "UT1",
+          "questions": [
+            {
+              "text": "¿Qué hito marcó el ingeniero Martin Cooper en 1973, aunque su comercialización tardó una década más?",
+              "options": [
+                "La invención de la pantalla táctil capacitiva.",
+                "El lanzamiento del primer sistema operativo Symbian.",
+                "La creación de la primera red de datos móviles.",
+                "El desarrollo del primer teléfono móvil conocido como DynaTAC."
+              ],
+              "correctAnswer": "El desarrollo del primer teléfono móvil conocido como DynaTAC.",
+              "explanation": "La respuesta correcta es: El desarrollo del primer teléfono móvil conocido como DynaTAC."
+            },
+            {
+              "text": "¿Qué característica funcional destacaba en los móviles de los años 90 además de las llamadas?",
+              "options": [
+                "La capacidad de reproducir videos en alta definición.",
+                "El envío de mensajes de texto (SMS) y la inclusión de juegos.",
+                "La instalación de tiendas de aplicaciones de terceros.",
+                "La navegación completa por internet vía Wi-Fi."
+              ],
+              "correctAnswer": "El envío de mensajes de texto (SMS) y la inclusión de juegos.",
+              "explanation": "La respuesta correcta es: El envío de mensajes de texto (SMS) y la inclusión de juegos."
+            },
+            {
+              "text": "¿Qué cambio fundamental introdujo el iPhone de Apple en 2007 en la percepción de los smartphones?",
+              "options": [
+                "Introdujo el teclado físico QWERTY como estándar obligatorio.",
+                "Permitió por primera vez la batería extraíble en todos los modelos.",
+                "Pasaron de ser herramientas de comunicación a plataformas multimedia capaces de navegar y ejecutar apps.",
+                "Fue el primer dispositivo en permitir el envío de correos electrónicos."
+              ],
+              "correctAnswer": "Pasaron de ser herramientas de comunicación a plataformas multimedia capaces de navegar y ejecutar apps.",
+              "explanation": "La respuesta correcta es: Pasaron de ser herramientas de comunicación a plataformas multimedia capaces de navegar y ejecutar apps."
+            },
+            {
+              "text": "¿Qué desafío principal enfrentas al desarrollar una app para zonas rurales con cobertura intermitente?",
+              "options": [
+                "El sobrecalentamiento del procesador gráfico.",
+                "La desconexión, ya que muchas apps requieren internet estable para funcionar correctamente.",
+                "La incompatibilidad con tarjetas SD.",
+                "La falta de soporte para pantallas táctiles."
+              ],
+              "correctAnswer": "La desconexión, ya que muchas apps requieren internet estable para funcionar correctamente.",
+              "explanation": "La respuesta correcta es: La desconexión, ya que muchas apps requieren internet estable para funcionar correctamente."
+            },
+            {
+              "text": "¿A qué se debe principalmente el rápido consumo de batería en apps exigentes como la realidad aumentada?",
+              "options": [
+                "A la falta de actualizaciones de seguridad del sistema operativo.",
+                "A que la aplicación demanda intensamente recursos de CPU, GPU, red o pantalla.",
+                "A una mala conexión con la tienda de aplicaciones.",
+                "Al uso excesivo de espacio de almacenamiento interno."
+              ],
+              "correctAnswer": "A que la aplicación demanda intensamente recursos de CPU, GPU, red o pantalla.",
+              "explanation": "La respuesta correcta es: A que la aplicación demanda intensamente recursos de CPU, GPU, red o pantalla."
+            },
+            {
+              "text": "¿Qué limitación persiste en el almacenamiento de dispositivos móviles de gama baja?",
+              "options": [
+                "Las tarjetas SD no son compatibles con Android.",
+                "Las aplicaciones modernas exigen un mínimo de 1TB de espacio.",
+                "El almacenamiento interno siempre es más lento que el externo.",
+                "No todas las aplicaciones pueden trasladarse al almacenamiento externo (tarjeta SD)."
+              ],
+              "correctAnswer": "No todas las aplicaciones pueden trasladarse al almacenamiento externo (tarjeta SD).",
+              "explanation": "La respuesta correcta es: No todas las aplicaciones pueden trasladarse al almacenamiento externo (tarjeta SD)."
+            },
+            {
+              "text": "¿Cómo se denominan los entornos que integran escritura, compilación y depuración de código?",
+              "options": [
+                "Entornos de Ejecución Java (JRE).",
+                "Gestores de Bases de Datos (DBMS).",
+                "Sistemas de Control de Versiones (VCS).",
+                "Entornos Integrados de Trabajo (IDE)."
+              ],
+              "correctAnswer": "Entornos Integrados de Trabajo (IDE).",
+              "explanation": "La respuesta correcta es: Entornos Integrados de Trabajo (IDE)."
+            },
+            {
+              "text": "¿Cuál es el IDE oficial para el desarrollo nativo de aplicaciones Android?",
+              "options": [
+                "Eclipse.",
+                "Android Studio.",
+                "Visual Studio.",
+                "Xcode."
+              ],
+              "correctAnswer": "Android Studio.",
+              "explanation": "La respuesta correcta es: Android Studio."
+            },
+            {
+              "text": "¿Qué entorno de trabajo es el oficial para desarrollar aplicaciones en el ecosistema Apple?",
+              "options": [
+                "IntelliJ IDEA.",
+                "Xcode.",
+                "Android Studio.",
+                "PhoneGap."
+              ],
+              "correctAnswer": "Xcode.",
+              "explanation": "La respuesta correcta es: Xcode."
+            },
+            {
+              "text": "¿Qué elemento reutilizable permite integrar funcionalidades como bases de datos sin programarlas desde cero?",
+              "options": [
+                "Un emulador de hardware.",
+                "Un sistema operativo nuevo.",
+                "Un perfil de configuración XML.",
+                "Un módulo o biblioteca de software."
+              ],
+              "correctAnswer": "Un módulo o biblioteca de software.",
+              "explanation": "La respuesta correcta es: Un módulo o biblioteca de software."
+            },
+            {
+              "text": "¿Qué biblioteca Android es recomendable para cargar imágenes de forma eficiente?",
+              "options": [
+                "Alamofire.",
+                "Retrofit.",
+                "Room.",
+                "Glide."
+              ],
+              "correctAnswer": "Glide.",
+              "explanation": "La respuesta correcta es: Glide."
+            },
+            {
+              "text": "¿Qué framework de Google permite desarrollar apps multiplataforma con un único código base?",
+              "options": [
+                "Xamarin.",
+                "Android SDK.",
+                "Swift.",
+                "Flutter."
+              ],
+              "correctAnswer": "Flutter.",
+              "explanation": "La respuesta correcta es: Flutter."
+            },
+            {
+              "text": "¿Qué ventaja principal ofrece PhoneGap a los desarrolladores web?",
+              "options": [
+                "Permite crear aplicaciones móviles usando HTML, CSS y JavaScript.",
+                "Permite usar C",
+                "Proporciona una interfaz nativa sin esfuerzo.",
+                "No requiere instalación ni uso de consola."
+              ],
+              "correctAnswer": "Permite crear aplicaciones móviles usando HTML, CSS y JavaScript.",
+              "explanation": "La respuesta correcta es: Permite crear aplicaciones móviles usando HTML, CSS y JavaScript."
+            },
+            {
+              "text": "¿Cuál es la función de la capa WebView en una aplicación PhoneGap?",
+              "options": [
+                "Proporcionar las API nativas del sistema operativo.",
+                "Servir como base de datos local.",
+                "Gestionar la compilación del código C++.",
+                "Empaquetar la aplicación web en una vista de navegador nativa, actuando como puente."
+              ],
+              "correctAnswer": "Empaquetar la aplicación web en una vista de navegador nativa, actuando como puente.",
+              "explanation": "La respuesta correcta es: Empaquetar la aplicación web en una vista de navegador nativa, actuando como puente."
+            },
+            {
+              "text": "¿Qué herramienta debes tener instalada antes de PhoneGap en Windows 11?",
+              "options": [
+                "Python y pip.",
+                "Node.js y npm.",
+                "Docker y Kubernetes.",
+                "Ruby y Gems."
+              ],
+              "correctAnswer": "Node.js y npm.",
+              "explanation": "La respuesta correcta es: Node.js y npm."
+            },
+            {
+              "text": "¿Qué variable de entorno define la ruta del Kit de Desarrollo de Java?",
+              "options": [
+                "ANDROID_SDK_ROOT.",
+                "NODE_PATH.",
+                "GRADLE_USER.",
+                "JAVA_HOME."
+              ],
+              "correctAnswer": "JAVA_HOME.",
+              "explanation": "La respuesta correcta es: JAVA_HOME."
+            },
+            {
+              "text": "¿Qué comando permite comprobar la versión instalada de PhoneGap?",
+              "options": [
+                "java -version",
+                "npm list",
+                "phonegap status",
+                "phonegap -v"
+              ],
+              "correctAnswer": "phonegap -v",
+              "explanation": "La respuesta correcta es: phonegap -v"
+            },
+            {
+              "text": "¿Qué herramienta permite simular un dispositivo móvil en un ordenador?",
+              "options": [
+                "Un compilador cruzado.",
+                "Un depurador de red.",
+                "Un emulador.",
+                "Un ofuscador de código."
+              ],
+              "correctAnswer": "Un emulador.",
+              "explanation": "La respuesta correcta es: Un emulador."
+            },
+            {
+              "text": "¿Qué herramienta de Android Studio permite crear y gestionar dispositivos virtuales?",
+              "options": [
+                "SDK Manager.",
+                "Logcat.",
+                "AVD Manager.",
+                "Gradle Build Tool."
+              ],
+              "correctAnswer": "AVD Manager.",
+              "explanation": "La respuesta correcta es: AVD Manager."
+            },
+            {
+              "text": "¿Qué emulador Android de terceros es conocido por su mayor velocidad e integración por plugin?",
+              "options": [
+                "Genymotion.",
+                "Xcode Simulator.",
+                "Docker Mobile.",
+                "Windows Phone Emulator."
+              ],
+              "correctAnswer": "Genymotion.",
+              "explanation": "La respuesta correcta es: Genymotion."
+            },
+            {
+              "text": "¿Qué emulador gratuito y popular requiere una cuenta Google para descargar apps?",
+              "options": [
+                "Hyper-V.",
+                "TestFlight.",
+                "CocoaTouch.",
+                "BlueStacks."
+              ],
+              "correctAnswer": "BlueStacks.",
+              "explanation": "La respuesta correcta es: BlueStacks."
+            },
+            {
+              "text": "¿Dónde se definen las configuraciones específicas de una app PhoneGap?",
+              "options": [
+                "En el archivo config.xml.",
+                "En el panel de control de Windows.",
+                "En el archivo index.html.",
+                "En la consola de comandos."
+              ],
+              "correctAnswer": "En el archivo config.xml.",
+              "explanation": "La respuesta correcta es: En el archivo config.xml."
+            },
+            {
+              "text": "¿Qué comando crea un nuevo proyecto PhoneGap llamado miTienda?",
+              "options": [
+                "phonegap start miTienda",
+                "phonegap create miTienda",
+                "npm new miTienda",
+                "android create miTienda"
+              ],
+              "correctAnswer": "phonegap create miTienda",
+              "explanation": "La respuesta correcta es: phonegap create miTienda"
+            },
+            {
+              "text": "¿Qué comando inicia el servidor local de desarrollo en PhoneGap?",
+              "options": [
+                "phonegap build",
+                "phonegap serve",
+                "phonegap deploy",
+                "phonegap run"
+              ],
+              "correctAnswer": "phonegap serve",
+              "explanation": "La respuesta correcta es: phonegap serve"
+            },
+            {
+              "text": "¿Qué comando genera los ejecutables finales en PhoneGap?",
+              "options": [
+                "phonegap make",
+                "phonegap install",
+                "phonegap export",
+                "phonegap build"
+              ],
+              "correctAnswer": "phonegap build",
+              "explanation": "La respuesta correcta es: phonegap build"
+            },
+            {
+              "text": "¿Qué método del ciclo de vida Android se ejecuta al crear la aplicación?",
+              "options": [
+                "onCreate().",
+                "onStart().",
+                "onResume().",
+                "onDestroy()."
+              ],
+              "correctAnswer": "onCreate().",
+              "explanation": "La respuesta correcta es: onCreate()."
+            },
+            {
+              "text": "¿En qué estado está una app Android visible pero sin foco?",
+              "options": [
+                "Pausa / onPause().",
+                "Destrucción / onDestroy().",
+                "Inicio / onStart().",
+                "Parada / onStop()."
+              ],
+              "correctAnswer": "Pausa / onPause().",
+              "explanation": "La respuesta correcta es: Pausa / onPause()."
+            },
+            {
+              "text": "¿Qué clase base gestiona el ciclo de vida de vistas en iOS?",
+              "options": [
+                "IntentService.",
+                "UIViewController.",
+                "Activity.",
+                "Fragment."
+              ],
+              "correctAnswer": "UIViewController.",
+              "explanation": "La respuesta correcta es: UIViewController."
+            },
+            {
+              "text": "¿Qué acción implica la fase de modificación de una app además de corregir errores?",
+              "options": [
+                "Borrar todo el código y reescribirlo.",
+                "Cambiar el sistema operativo del teléfono.",
+                "Eliminar la app de la tienda.",
+                "Volver a compilar la aplicación tras los cambios."
+              ],
+              "correctAnswer": "Volver a compilar la aplicación tras los cambios.",
+              "explanation": "La respuesta correcta es: Volver a compilar la aplicación tras los cambios."
+            },
+            {
+              "text": "¿Cuál es el paso final tras compilar una app que ha superado todas las pruebas?",
+              "options": [
+                "Volver a la fase de diseño.",
+                "Implementar o desplegar la aplicación.",
+                "Desinstalar el IDE.",
+                "Realizar un commit sin guardar cambios."
+              ],
+              "correctAnswer": "Implementar o desplegar la aplicación.",
+              "explanation": "La respuesta correcta es: Implementar o desplegar la aplicación."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

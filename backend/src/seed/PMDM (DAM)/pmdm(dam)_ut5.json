@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PMDM",
+      "name": "Programación multimedia y dispositivos móviles",
+      "topics": [
+        {
+          "number": 5,
+          "title": "UT5",
+          "questions": [
+            {
+              "text": "Al comenzar el desarrollo de un videojuego, ¿qué elemento se define como el \"núcleo operativo\" que comprende las reglas, interacciones y condiciones de victoria o derrota?",
+              "options": [
+                "La base de datos de puntuaciones.",
+                "La interfaz de usuario.",
+                "La lógica del juego.",
+                "El motor gráfico."
+              ],
+              "correctAnswer": "La lógica del juego.",
+              "explanation": "La respuesta correcta es: La lógica del juego."
+            },
+            {
+              "text": "Antes de escribir código, es imperativo tener una visión clara del concepto. ¿Cuál es el primer paso formal para establecer la lógica de un videojuego según el temario?",
+              "options": [
+                "El diseño de la inteligencia artificial.",
+                "La compra de licencias de software.",
+                "La contratación de actores de doblaje.",
+                "El diseño de las reglas que regirán su funcionamiento."
+              ],
+              "correctAnswer": "El diseño de las reglas que regirán su funcionamiento.",
+              "explanation": "La respuesta correcta es: El diseño de las reglas que regirán su funcionamiento."
+            },
+            {
+              "text": "Una vez definidas las reglas, se debe determinar cómo el jugador controla el juego (ej: controlar un personaje, recolectar objetos). ¿A qué concepto se refiere esta fase?",
+              "options": [
+                "Depuración.",
+                "Interactividad.",
+                "Compilación.",
+                "Renderizado."
+              ],
+              "correctAnswer": "Interactividad.",
+              "explanation": "La respuesta correcta es: Interactividad."
+            },
+            {
+              "text": "En el diseño de la Inteligencia Artificial (IA) para personajes no jugadores (PNJ), ¿qué rango de complejidad se menciona?",
+              "options": [
+                "La IA siempre debe ser indistinguible de un humano.",
+                "Solo se aplica a juegos de ajedrez.",
+                "No se utiliza IA en juegos móviles.",
+                "Desde patrones de movimiento simples hasta algoritmos complejos de toma de decisiones."
+              ],
+              "correctAnswer": "Desde patrones de movimiento simples hasta algoritmos complejos de toma de decisiones.",
+              "explanation": "La respuesta correcta es: Desde patrones de movimiento simples hasta algoritmos complejos de toma de decisiones."
+            },
+            {
+              "text": "Una vez establecida la lógica básica, ¿qué etapa es vital para asegurar que funciona según lo previsto y proporcionar una experiencia atractiva?",
+              "options": [
+                "La fase de marketing y ventas.",
+                "La fase de traducción de textos.",
+                "La fase de prueba y ajuste.",
+                "La fase de empaquetado final."
+              ],
+              "correctAnswer": "La fase de prueba y ajuste.",
+              "explanation": "La respuesta correcta es: La fase de prueba y ajuste."
+            },
+            {
+              "text": "Al desarrollar juegos tridimensionales, los principios lógicos básicos se mantienen, pero surgen consideraciones adicionales. ¿Qué elemento específico es necesario incorporar al diseñar el movimiento de personajes en 3D?",
+              "options": [
+                "El soporte para gafas de realidad virtual obligatoriamente.",
+                "El uso exclusivo de ratón y teclado.",
+                "La eliminación de la interfaz de usuario.",
+                "La física en tres dimensiones."
+              ],
+              "correctAnswer": "La física en tres dimensiones.",
+              "explanation": "La respuesta correcta es: La física en tres dimensiones."
+            },
+            {
+              "text": "En el ejemplo del juego \"Snake\" (la serpiente), ¿cuál es la regla fundamental que determina el fin del juego?",
+              "options": [
+                "Si el jugador suelta la pantalla táctil.",
+                "Si la serpiente deja de comer por 10 segundos.",
+                "Si la serpiente colisiona con su propio cuerpo o con los límites del tablero.",
+                "Si la puntuación supera los 100 puntos."
+              ],
+              "correctAnswer": "Si la serpiente colisiona con su propio cuerpo o con los límites del tablero.",
+              "explanation": "La respuesta correcta es: Si la serpiente colisiona con su propio cuerpo o con los límites del tablero."
+            },
+            {
+              "text": "Para la implementación técnica del juego \"Snake\" descrita, ¿qué función específica cumple Apache Cordova?",
+              "options": [
+                "Dibujar los gráficos vectoriales de la serpiente.",
+                "Capturar las entradas táctiles del usuario para controlar la dirección.",
+                "Generar la música de fondo procedimentalmente.",
+                "Gestionar la base de datos SQL de usuarios."
+              ],
+              "correctAnswer": "Capturar las entradas táctiles del usuario para controlar la dirección.",
+              "explanation": "La respuesta correcta es: Capturar las entradas táctiles del usuario para controlar la dirección."
+            },
+            {
+              "text": "En el desarrollo de videojuegos, ¿qué se entiende por \"objetos\"?",
+              "options": [
+                "Entidades con propiedades y comportamientos específicos (personajes, elementos interactivos o estáticos).",
+                "Los archivos de código fuente del proyecto.",
+                "Los dispositivos físicos donde se juega.",
+                "Únicamente los ítems que se pueden recoger del suelo."
+              ],
+              "correctAnswer": "Entidades con propiedades y comportamientos específicos (personajes, elementos interactivos o estáticos).",
+              "explanation": "La respuesta correcta es: Entidades con propiedades y comportamientos específicos (personajes, elementos interactivos o estáticos)."
+            },
+            {
+              "text": "¿Qué función principal cumple el entorno o fondo de un juego bien diseñado?",
+              "options": [
+                "Ocultar los errores de programación.",
+                "Proporcionar contexto, ambientación y profundidad para hacer el mundo más inmersivo.",
+                "Servir únicamente como relleno de color sólido.",
+                "Aumentar el consumo de batería del dispositivo."
+              ],
+              "correctAnswer": "Proporcionar contexto, ambientación y profundidad para hacer el mundo más inmersivo.",
+              "explanation": "La respuesta correcta es: Proporcionar contexto, ambientación y profundidad para hacer el mundo más inmersivo."
+            },
+            {
+              "text": "En el código del juego \"Snake\", se define la variable blockSize. ¿Cuál es su propósito?",
+              "options": [
+                "Determinar el tamaño de los bloques que componen la serpiente y la manzana.",
+                "Establecer el volumen del sonido.",
+                "Controlar la velocidad de los frames por segundo.",
+                "Definir el color de fondo."
+              ],
+              "correctAnswer": "Determinar el tamaño de los bloques que componen la serpiente y la manzana.",
+              "explanation": "La respuesta correcta es: Determinar el tamaño de los bloques que componen la serpiente y la manzana."
+            },
+            {
+              "text": "Analizando la función startGame() del ejemplo \"Snake\", ¿qué acción realiza intervalId = setInterval(draw, 100)?",
+              "options": [
+                "Reinicia la puntuación a 100.",
+                "Pausa el juego durante 100 segundos.",
+                "Dibuja la serpiente una sola vez.",
+                "Crea un bucle de juego que llama a la función de dibujo cada 100 milisegundos."
+              ],
+              "correctAnswer": "Crea un bucle de juego que llama a la función de dibujo cada 100 milisegundos.",
+              "explanation": "La respuesta correcta es: Crea un bucle de juego que llama a la función de dibujo cada 100 milisegundos."
+            },
+            {
+              "text": "En la función draw() del juego \"Snake\", ¿qué hace la instrucción ctx.clearRect(0, 0, canvas.width, canvas.height) al inicio?",
+              "options": [
+                "Guarda la partida en la memoria.",
+                "Borra el contenido anterior del canvas para dibujar el nuevo fotograma.",
+                "Dibuja el borde del tablero.",
+                "Cambia el color de la serpiente a transparente."
+              ],
+              "correctAnswer": "Borra el contenido anterior del canvas para dibujar el nuevo fotograma.",
+              "explanation": "La respuesta correcta es: Borra el contenido anterior del canvas para dibujar el nuevo fotograma."
+            },
+            {
+              "text": "¿Cómo detecta el código del juego \"Snake\" si la cabeza de la serpiente colisiona con su propio cuerpo?",
+              "options": [
+                "No implementa detección de colisión con el cuerpo.",
+                "Usando un sensor de proximidad del hardware.",
+                "Verificando si la cabeza está fuera del canvas.",
+                "Usando snake.find para ver si alguna celda del cuerpo tiene las mismas coordenadas que la cabeza."
+              ],
+              "correctAnswer": "Usando snake.find para ver si alguna celda del cuerpo tiene las mismas coordenadas que la cabeza.",
+              "explanation": "La respuesta correcta es: Usando snake.find para ver si alguna celda del cuerpo tiene las mismas coordenadas que la cabeza."
+            },
+            {
+              "text": "En la función handleTouchMove del juego \"Snake\", se calcula xDiff y yDiff. ¿Qué determina la condición Math.abs(xDiff) > Math.abs(yDiff)?",
+              "options": [
+                "Si el deslizamiento fue más horizontal que vertical.",
+                "Si la pantalla está invertida.",
+                "Si el toque fue muy corto.",
+                "Si el usuario presionó con dos dedos."
+              ],
+              "correctAnswer": "Si el deslizamiento fue más horizontal que vertical.",
+              "explanation": "La respuesta correcta es: Si el deslizamiento fue más horizontal que vertical."
+            },
+            {
+              "text": "¿Qué son las \"instrucciones gráficas\" o shaders en el contexto del desarrollo de videojuegos?",
+              "options": [
+                "Scripts para la inteligencia artificial.",
+                "Comandos de la consola para trucos.",
+                "Manuales impresos que vienen con el juego.",
+                "Componentes que controlan la representación de la superficie de un objeto (color, textura, iluminación)."
+              ],
+              "correctAnswer": "Componentes que controlan la representación de la superficie de un objeto (color, textura, iluminación).",
+              "explanation": "La respuesta correcta es: Componentes que controlan la representación de la superficie de un objeto (color, textura, iluminación)."
+            },
+            {
+              "text": "En los juegos 3D, los shaders tienen una complejidad mayor que en 2D. ¿Qué aspecto adicional controlan principalmente?",
+              "options": [
+                "Cómo la luz interactúa con la superficie del objeto (sombras, reflejos, refracciones).",
+                "La traducción de los textos.",
+                "La velocidad de conexión a internet.",
+                "La disposición de los botones en el menú."
+              ],
+              "correctAnswer": "Cómo la luz interactúa con la superficie del objeto (sombras, reflejos, refracciones).",
+              "explanation": "La respuesta correcta es: Cómo la luz interactúa con la superficie del objeto (sombras, reflejos, refracciones)."
+            },
+            {
+              "text": "¿Qué lenguajes de programación especializados se mencionan para escribir instrucciones gráficas (shaders)?",
+              "options": [
+                "HTML y CSS.",
+                "Java y Kotlin.",
+                "GLSL (OpenGL) y HLSL (DirectX).",
+                "Python y Ruby."
+              ],
+              "correctAnswer": "GLSL (OpenGL) y HLSL (DirectX).",
+              "explanation": "La respuesta correcta es: GLSL (OpenGL) y HLSL (DirectX)."
+            },
+            {
+              "text": "Si trabajas con Canvas en un entorno 2D, ¿qué tipo de propiedades gráficas puedes especificar típicamente mediante la API?",
+              "options": [
+                "Color, opacidad y transformaciones sencillas.",
+                "Trazado de rayos en tiempo real.",
+                "Físicas de fluidos complejas.",
+                "Volumetría de nubes avanzada."
+              ],
+              "correctAnswer": "Color, opacidad y transformaciones sencillas.",
+              "explanation": "La respuesta correcta es: Color, opacidad y transformaciones sencillas."
+            },
+            {
+              "text": "El sonido en un videojuego no es solo estético. ¿Qué funciones cumple según el temario?",
+              "options": [
+                "Establecer la atmósfera, dar retroalimentación y actuar como señales de eventos.",
+                "Ninguna, es opcional y decorativo.",
+                "Aumentar el tamaño del archivo de instalación.",
+                "Reemplazar a los gráficos en juegos para ciegos exclusivamente."
+              ],
+              "correctAnswer": "Establecer la atmósfera, dar retroalimentación y actuar como señales de eventos.",
+              "explanation": "La respuesta correcta es: Establecer la atmósfera, dar retroalimentación y actuar como señales de eventos."
+            },
+            {
+              "text": "¿Cuál es el primer paso en el proceso de incorporación de sonido a un juego?",
+              "options": [
+                "La programación de la API de audio.",
+                "La grabación de voces.",
+                "La compra de altavoces de alta calidad.",
+                "El Diseño de Sonido (definir qué sonidos se requieren)."
+              ],
+              "correctAnswer": "El Diseño de Sonido (definir qué sonidos se requieren).",
+              "explanation": "La respuesta correcta es: El Diseño de Sonido (definir qué sonidos se requieren)."
+            },
+            {
+              "text": "Una vez integrados los sonidos, ¿por qué es indispensable la fase de \"Pruebas y Ajustes\"?",
+              "options": [
+                "Para asegurar su correcto funcionamiento, cohesión y ajustar niveles o sincronización.",
+                "Para convertir todos los archivos a formato MP3.",
+                "Para comprobar que los archivos de sonido tienen derechos de autor.",
+                "Para asegurar que los sonidos se escuchen al máximo volumen siempre."
+              ],
+              "correctAnswer": "Para asegurar su correcto funcionamiento, cohesión y ajustar niveles o sincronización.",
+              "explanation": "La respuesta correcta es: Para asegurar su correcto funcionamiento, cohesión y ajustar niveles o sincronización."
+            },
+            {
+              "text": "En el proyecto final (Juego de Memoria), ¿qué comportamiento tienen las cartas al iniciar la aplicación?",
+              "options": [
+                "Se eliminan del tablero.",
+                "Se reorganizan (mezclan) aleatoriamente.",
+                "Se muestran todas boca arriba.",
+                "Se organizan alfabéticamente."
+              ],
+              "correctAnswer": "Se reorganizan (mezclan) aleatoriamente.",
+              "explanation": "La respuesta correcta es: Se reorganizan (mezclan) aleatoriamente."
+            },
+            {
+              "text": "En el código del Juego de Memoria, ¿cómo se crean los objetos de sonido para los efectos (error, acierto, ganador)?",
+              "options": [
+                "Usando una librería externa compleja.",
+                "Usando new Audio('ruta_del_archivo').",
+                "Usando document.createElement('audio').",
+                "No se usan objetos, se reproducen desde el HTML."
+              ],
+              "correctAnswer": "Usando new Audio('ruta_del_archivo').",
+              "explanation": "La respuesta correcta es: Usando new Audio('ruta_del_archivo')."
+            },
+            {
+              "text": "En el Juego de Memoria, se utiliza cardArray.sort(() => 0.5 - Math.random()). ¿Qué logra esta línea de código?",
+              "options": [
+                "Ordenar las cartas por nombre.",
+                "Eliminar la mitad de las cartas.",
+                "Mezclar el arreglo de tarjetas de forma aleatoria.",
+                "Duplicar las cartas para crear pares."
+              ],
+              "correctAnswer": "Mezclar el arreglo de tarjetas de forma aleatoria.",
+              "explanation": "La respuesta correcta es: Mezclar el arreglo de tarjetas de forma aleatoria."
+            },
+            {
+              "text": "En la función createBoard del Juego de Memoria, se asigna src a img/blank.png. ¿Qué representa esto?",
+              "options": [
+                "El fondo del tablero.",
+                "Una imagen de error si no carga.",
+                "La imagen oculta de la carta (reverso).",
+                "La imagen frontal de la carta."
+              ],
+              "correctAnswer": "La imagen oculta de la carta (reverso).",
+              "explanation": "La respuesta correcta es: La imagen oculta de la carta (reverso)."
+            },
+            {
+              "text": "¿Qué atributo HTML se utiliza en el Juego de Memoria para vincular cada elemento de imagen (img) con su índice en el arreglo de datos?",
+              "options": [
+                "data-id",
+                "alt",
+                "id",
+                "class"
+              ],
+              "correctAnswer": "data-id",
+              "explanation": "La respuesta correcta es: data-id"
+            },
+            {
+              "text": "En la función checkForMatch, ¿qué condición confirma que el usuario ha encontrado un par?",
+              "options": [
+                "if (cardsChosen.length === 2)",
+                "if (optionOneId == optionTwoId)",
+                "if (cardsChosen[0] === cardsChosen[1])",
+                "if (score > 10)"
+              ],
+              "correctAnswer": "if (cardsChosen[0] === cardsChosen[1])",
+              "explanation": "La respuesta correcta es: if (cardsChosen[0] === cardsChosen[1])"
+            },
+            {
+              "text": "Si el jugador selecciona la misma tarjeta dos veces (mismo ID), ¿qué hace el código del Juego de Memoria?",
+              "options": [
+                "Resta puntos al jugador.",
+                "Voltea la tarjeta de nuevo y alerta \"Has seleccionado la misma imagen!\".",
+                "Termina el juego inmediatamente.",
+                "Lo cuenta como un acierto."
+              ],
+              "correctAnswer": "Voltea la tarjeta de nuevo y alerta \"Has seleccionado la misma imagen!\".",
+              "explanation": "La respuesta correcta es: Voltea la tarjeta de nuevo y alerta \"Has seleccionado la misma imagen!\"."
+            },
+            {
+              "text": "Cuando se encuentra un par coincidente (checkForMatch), ¿qué se hace con los \"event listeners\" de esas cartas?",
+              "options": [
+                "Se cambia el evento a 'dblclick'.",
+                "Se mantienen activos por si el usuario quiere volver a verlas.",
+                "Se eliminan (removeEventListener) para que ya no se puedan seleccionar.",
+                "Se duplican para aumentar la dificultad."
+              ],
+              "correctAnswer": "Se eliminan (removeEventListener) para que ya no se puedan seleccionar.",
+              "explanation": "La respuesta correcta es: Se eliminan (removeEventListener) para que ya no se puedan seleccionar."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

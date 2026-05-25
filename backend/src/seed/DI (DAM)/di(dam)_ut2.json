@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 2,
+          "title": "UT2",
+          "questions": [
+            {
+              "text": "En un equipo de desarrollo que necesita trabajar simultáneamente con lenguajes como C#, Python y TypeScript bajo un mismo ecosistema de Microsoft, ¿cuál es el entorno de desarrollo integrado (IDE) principal que deben instalar?",
+              "options": [
+                "SQL Server Management Studio",
+                "Visual Studio Code exclusivamente",
+                "Notepad++ con plugins",
+                "Visual Studio"
+              ],
+              "correctAnswer": "Visual Studio",
+              "explanation": "La respuesta correcta es: Visual Studio"
+            },
+            {
+              "text": "Un desarrollador junior necesita agilizar la escritura de código y reducir errores sintácticos mientras escribe sus clases. ¿Qué funcionalidad del editor de código debe aprovechar para obtener sugerencias automáticas y completado de código?",
+              "options": [
+                "Depuración paso a paso",
+                "Refactorización global",
+                "Compilación en tiempo real",
+                "IntelliSense"
+              ],
+              "correctAnswer": "IntelliSense",
+              "explanation": "La respuesta correcta es: IntelliSense"
+            },
+            {
+              "text": "Para gestionar los cambios en el código fuente y facilitar la colaboración entre varios miembros del equipo en un proyecto grande, ¿qué característica integrada en Visual Studio debe configurarse?",
+              "options": [
+                "El gestor de paquetes NuGet",
+                "El control de versiones (Git/GitHub)",
+                "El diseñador de interfaces",
+                "El explorador de servidores"
+              ],
+              "correctAnswer": "El control de versiones (Git/GitHub)",
+              "explanation": "La respuesta correcta es: El control de versiones (Git/GitHub)"
+            },
+            {
+              "text": "La empresa ha decidido expandir su software de gestión para que funcione no solo en Windows, sino también en Linux y macOS. ¿Qué capacidad del IDE facilita este tipo de implementación?",
+              "options": [
+                "La depuración de memoria exclusiva",
+                "La integración con bases de datos locales",
+                "El desarrollo multiplataforma",
+                "El diseño de Windows Forms clásico"
+              ],
+              "correctAnswer": "El desarrollo multiplataforma",
+              "explanation": "La respuesta correcta es: El desarrollo multiplataforma"
+            },
+            {
+              "text": "Dos desarrolladores necesitan trabajar en tiempo real sobre el mismo archivo de código para solucionar un error crítico antes del despliegue. ¿Qué herramienta de colaboración ofrece Visual Studio para este propósito?",
+              "options": [
+                "Team Foundation Server local",
+                "Azure DevOps Boards",
+                "Visual Studio Live Share",
+                "GitHub Actions"
+              ],
+              "correctAnswer": "Visual Studio Live Share",
+              "explanation": "La respuesta correcta es: Visual Studio Live Share"
+            },
+            {
+              "text": "Si el departamento de innovación desea comenzar a desarrollar videojuegos integrando motores gráficos profesionales, ¿con qué motor se integra principalmente Visual Studio para facilitar esta tarea?",
+              "options": [
+                "Godot Engine",
+                "Unreal Engine exclusivamente",
+                "CryEngine",
+                "Unity"
+              ],
+              "correctAnswer": "Unity",
+              "explanation": "La respuesta correcta es: Unity"
+            },
+            {
+              "text": "Al organizar el trabajo de un nuevo cliente que requiere una aplicación de escritorio y una biblioteca de clases compartida, ¿cómo se debe estructurar jerárquicamente el trabajo en Visual Studio?",
+              "options": [
+                "Creando dos soluciones independientes sin relación",
+                "Creando una solución que agrupe ambos proyectos",
+                "Utilizando solo archivos sueltos sin proyecto",
+                "Creando un proyecto que contenga una solución dentro"
+              ],
+              "correctAnswer": "Creando una solución que agrupe ambos proyectos",
+              "explanation": "La respuesta correcta es: Creando una solución que agrupe ambos proyectos"
+            },
+            {
+              "text": "Un líder técnico necesita revisar la configuración de compilación y las versiones del framework de una aplicación específica dentro de la solución. ¿Qué archivo debe inspeccionar para encontrar esta información en un proyecto de C#?",
+              "options": [
+                "El archivo .sln",
+                "El archivo .config",
+                "El archivo .csproj",
+                "El archivo Program.cs"
+              ],
+              "correctAnswer": "El archivo .csproj",
+              "explanation": "La respuesta correcta es: El archivo .csproj"
+            },
+            {
+              "text": "Para iniciar el desarrollo de una herramienta de automatización simple sin interfaz gráfica que se ejecute en la línea de comandos, ¿qué tipo de proyecto se debe seleccionar al crearlo en Visual Studio?",
+              "options": [
+                "Aplicación de consola",
+                "Aplicación de Windows Forms",
+                "Proyecto de prueba unitaria",
+                "Biblioteca de clases"
+              ],
+              "correctAnswer": "Aplicación de consola",
+              "explanation": "La respuesta correcta es: Aplicación de consola"
+            },
+            {
+              "text": "Una vez escrito el código de una calculadora básica, ¿qué acción debe realizar el programador para compilar y verificar el funcionamiento del programa inmediatamente?",
+              "options": [
+                "Presionar F12 para ir a la definición",
+                "Iniciar la depuración (F5 o botón Iniciar)",
+                "Exportar el proyecto a un archivo ZIP",
+                "Guardar todos los archivos y cerrar el IDE"
+              ],
+              "correctAnswer": "Iniciar la depuración (F5 o botón Iniciar)",
+              "explanation": "La respuesta correcta es: Iniciar la depuración (F5 o botón Iniciar)"
+            },
+            {
+              "text": "Si un desarrollador observa que el archivo de solución (.sln) ha desaparecido, ¿qué elemento pierde principalmente?",
+              "options": [
+                "El código fuente de los archivos .cs",
+                "Las bibliotecas externas referenciadas",
+                "Las imágenes y recursos del proyecto",
+                "La configuración y relación entre los proyectos agrupados"
+              ],
+              "correctAnswer": "La configuración y relación entre los proyectos agrupados",
+              "explanation": "La respuesta correcta es: La configuración y relación entre los proyectos agrupados"
+            },
+            {
+              "text": "Al crear una aplicación de consola nueva, el IDE genera automáticamente un archivo llamado \"Program.cs\". ¿Qué función cumple este archivo en la estructura del proyecto?",
+              "options": [
+                "Gestiona las conexiones a base de datos",
+                "Almacena las variables globales del sistema",
+                "Contiene el punto de entrada principal (método Main)",
+                "Define la interfaz gráfica de usuario"
+              ],
+              "correctAnswer": "Contiene el punto de entrada principal (método Main)",
+              "explanation": "La respuesta correcta es: Contiene el punto de entrada principal (método Main)"
+            },
+            {
+              "text": "En un proyecto de Windows Forms, un diseñador ha modificado la posición de los botones visualmente. ¿En qué archivo se actualiza automáticamente el código que define estas propiedades visuales e inicializaciones?",
+              "options": [
+                "En el archivo de recursos .resx",
+                "En el archivo Program.cs",
+                "En el archivo Formulario.Designer.cs",
+                "En el archivo Formulario.cs principal"
+              ],
+              "correctAnswer": "En el archivo Formulario.Designer.cs",
+              "explanation": "La respuesta correcta es: En el archivo Formulario.Designer.cs"
+            },
+            {
+              "text": "Para que la aplicación responda cuando un usuario hace clic en un botón \"Guardar\", ¿qué mecanismo debe implementar el desarrollador en el código del formulario?",
+              "options": [
+                "Una variable estática global",
+                "Un bucle infinito de espera",
+                "Una consulta SQL directa",
+                "Un manejador de eventos"
+              ],
+              "correctAnswer": "Un manejador de eventos",
+              "explanation": "La respuesta correcta es: Un manejador de eventos"
+            },
+            {
+              "text": "El equipo de diseño ha entregado los nuevos logotipos e iconos corporativos para la aplicación. ¿En qué ubicación del proyecto es recomendable almacenar y gestionar estos archivos para acceder a ellos en tiempo de ejecución?",
+              "options": [
+                "En una carpeta oculta del sistema",
+                "En la carpeta bin/debug",
+                "Directamente en el escritorio del desarrollador",
+                "En la carpeta Recursos o Properties"
+              ],
+              "correctAnswer": "En la carpeta Recursos o Properties",
+              "explanation": "La respuesta correcta es: En la carpeta Recursos o Properties"
+            },
+            {
+              "text": "Si el proyecto necesita utilizar una biblioteca de terceros para generar PDFs que no está incluida en el framework base, ¿dónde debe registrarse esta dependencia en el Explorador de Soluciones?",
+              "options": [
+                "En el código fuente del método Main",
+                "En la sección de Referencias",
+                "En el archivo de configuración de usuario",
+                "En la sección de Formularios"
+              ],
+              "correctAnswer": "En la sección de Referencias",
+              "explanation": "La respuesta correcta es: En la sección de Referencias"
+            },
+            {
+              "text": "Un desarrollador necesita separar la lógica de negocio (cálculos matemáticos complejos) de la interfaz visual del formulario. ¿Cuál es la práctica estructural correcta según el modelo de proyecto?",
+              "options": [
+                "Poner el código en el archivo Designer.cs",
+                "Crear clases lógicas separadas (ej. Clase1.cs)",
+                "Escribir todo el código dentro del evento del botón",
+                "Escribir la lógica en el archivo de configuración"
+              ],
+              "correctAnswer": "Crear clases lógicas separadas (ej. Clase1.cs)",
+              "explanation": "La respuesta correcta es: Crear clases lógicas separadas (ej. Clase1.cs)"
+            },
+            {
+              "text": "Al crear un nuevo formulario personalizado para una ventana de login, ¿de qué clase base del sistema debe heredar obligatoriamente para funcionar como una ventana?",
+              "options": [
+                "System.Data.Entity",
+                "System.Windows.Forms.Form",
+                "System.Console",
+                "System.IO.File"
+              ],
+              "correctAnswer": "System.Windows.Forms.Form",
+              "explanation": "La respuesta correcta es: System.Windows.Forms.Form"
+            },
+            {
+              "text": "Para desarrollar una aplicación de escritorio clásica para entornos corporativos internos donde se requiere arrastrar y soltar controles visualmente de forma rápida, ¿qué tecnología y diseñador de Visual Studio es el más adecuado?",
+              "options": [
+                "Blazor Server",
+                "Node.js console",
+                "ASP.NET Core MVC",
+                "Windows Forms"
+              ],
+              "correctAnswer": "Windows Forms",
+              "explanation": "La respuesta correcta es: Windows Forms"
+            },
+            {
+              "text": "Se requiere crear una interfaz de usuario moderna, con gráficos vectoriales y escalable para diferentes resoluciones de pantalla en Windows. ¿Qué tecnología que utiliza XAML debe elegir el equipo?",
+              "options": [
+                "Windows Forms heredado",
+                "HTML5 estático",
+                "WPF (Windows Presentation Foundation)",
+                "Aplicación de consola avanzada"
+              ],
+              "correctAnswer": "WPF (Windows Presentation Foundation)",
+              "explanation": "La respuesta correcta es: WPF (Windows Presentation Foundation)"
+            },
+            {
+              "text": "La empresa necesita una aplicación móvil que funcione nativamente tanto en los teléfonos Android de los comerciales como en los iPhone de los directivos, compartiendo la mayor cantidad de código C# posible. ¿Qué framework se debe utilizar?",
+              "options": [
+                "Windows Forms Mobile",
+                "UWP (Universal Windows Platform)",
+                "Xamarin.Forms",
+                "Java Nativo"
+              ],
+              "correctAnswer": "Xamarin.Forms",
+              "explanation": "La respuesta correcta es: Xamarin.Forms"
+            },
+            {
+              "text": "Un equipo de desarrolladores de C# quiere construir una aplicación web interactiva (SPA) sin tener que reescribir toda la lógica en JavaScript. ¿Qué tecnología web de Microsoft les permite usar C# en el navegador?",
+              "options": [
+                "PHP clásico",
+                "Angular con TypeScript",
+                "React.js",
+                "Blazor"
+              ],
+              "correctAnswer": "Blazor",
+              "explanation": "La respuesta correcta es: Blazor"
+            },
+            {
+              "text": "Si el objetivo es desarrollar una aplicación que se ejecute indistintamente en un PC con Windows 10, una tableta Surface y un dispositivo IoT con Windows, ¿qué plataforma de diseño debe seleccionarse?",
+              "options": [
+                "Visual Basic 6.0",
+                "MS-DOS Batch scripting",
+                "UWP (Universal Windows Platform)",
+                "Win32 API clásica"
+              ],
+              "correctAnswer": "UWP (Universal Windows Platform)",
+              "explanation": "La respuesta correcta es: UWP (Universal Windows Platform)"
+            },
+            {
+              "text": "Un programador necesita herramientas de análisis de código específicas para un lenguaje poco común que no viene instalado por defecto en Visual Studio. ¿Cómo debe proceder para añadir esta funcionalidad?",
+              "options": [
+                "Reinstalando el sistema operativo",
+                "Comprando una licencia nueva de Visual Studio",
+                "Editando el registro de Windows manualmente",
+                "Utilizando el Administrador de extensiones"
+              ],
+              "correctAnswer": "Utilizando el Administrador de extensiones",
+              "explanation": "La respuesta correcta es: Utilizando el Administrador de extensiones"
+            },
+            {
+              "text": "Durante la fase de pruebas, un desarrollador necesita detener la ejecución del programa exactamente antes de que se realice un cálculo crítico para verificar los datos. ¿Qué herramienta debe colocar en esa línea de código?",
+              "options": [
+                "Un comentario de texto",
+                "Un bucle while infinito",
+                "Un punto de interrupción (Breakpoint)",
+                "Una instrucción de impresión en consola"
+              ],
+              "correctAnswer": "Un punto de interrupción (Breakpoint)",
+              "explanation": "La respuesta correcta es: Un punto de interrupción (Breakpoint)"
+            },
+            {
+              "text": "Al estar detenido en un punto de interrupción, el desarrollador quiere ver cómo cambia el valor de una variable específica \"totalVentas\" sin buscarla en toda la lista de locales. ¿Qué ventana de depuración es la más eficiente para esto?",
+              "options": [
+                "El Explorador de soluciones",
+                "La ventana de Salida (Output)",
+                "La lista de errores",
+                "La ventana de Inspección (Watch)"
+              ],
+              "correctAnswer": "La ventana de Inspección (Watch)",
+              "explanation": "La respuesta correcta es: La ventana de Inspección (Watch)"
+            },
+            {
+              "text": "Se está depurando una función principal y se llega a una línea que llama a un método auxiliar `CalcularImpuesto()`. Si el desarrollador quiere entrar a revisar línea por línea lo que ocurre dentro de ese método auxiliar, ¿qué comando debe usar?",
+              "options": [
+                "Paso a paso por instrucciones (Step Over - F10)",
+                "Continuar ejecución (F5)",
+                "Detener depuración (Shift+F5)",
+                "Paso a paso en profundidad (Step Into - F11)"
+              ],
+              "correctAnswer": "Paso a paso en profundidad (Step Into - F11)",
+              "explanation": "La respuesta correcta es: Paso a paso en profundidad (Step Into - F11)"
+            },
+            {
+              "text": "Si un programa se cierra inesperadamente con un error y el desarrollador necesita saber la secuencia exacta de métodos que se llamaron antes de llegar al fallo, ¿qué ventana debe consultar?",
+              "options": [
+                "La ventana de Pila de llamadas (Call Stack)",
+                "La ventana de Puntos de interrupción",
+                "La ventana de Propiedades",
+                "El diseñador de formularios"
+              ],
+              "correctAnswer": "La ventana de Pila de llamadas (Call Stack)",
+              "explanation": "La respuesta correcta es: La ventana de Pila de llamadas (Call Stack)"
+            },
+            {
+              "text": "Durante la depuración, se desea ejecutar una línea de código simple para evaluar una expresión matemática al vuelo sin modificar el código fuente ni detener la sesión. ¿Qué ventana permite esta interacción inmediata?",
+              "options": [
+                "La ventana de Código",
+                "La ventana Inmediato (Immediate)",
+                "La ventana de Referencias",
+                "La ventana de Diagnóstico"
+              ],
+              "correctAnswer": "La ventana Inmediato (Immediate)",
+              "explanation": "La respuesta correcta es: La ventana Inmediato (Immediate)"
+            },
+            {
+              "text": "Para evitar que la aplicación se cierre abruptamente cuando un usuario introduce texto en un campo numérico (Error en tiempo de ejecución), ¿qué estructura de control de errores se debe implementar en el código?",
+              "options": [
+                "Variables constantes",
+                "Bloques Try-Catch (Manejo de excepciones)",
+                "Un comentario explicativo",
+                "Un reinicio automático del PC"
+              ],
+              "correctAnswer": "Bloques Try-Catch (Manejo de excepciones)",
+              "explanation": "La respuesta correcta es: Bloques Try-Catch (Manejo de excepciones)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PSP",
+      "name": "Programación de servicios y procesos",
+      "topics": [
+        {
+          "number": 3,
+          "title": "UT3",
+          "questions": [
+            {
+              "text": "Estás configurando una red y necesitas definir el conjunto de reglas que permitirán a dos ordenadores comunicarse entre sí para transmitir información de manera ordenada. ¿Cómo se denomina técnicamente a este conjunto de reglas?",
+              "options": [
+                "Protocolo de comunicación.",
+                "API de Sockets.",
+                "Modelo Cliente-Servidor.",
+                "Entorno XAMPP."
+              ],
+              "correctAnswer": "Protocolo de comunicación.",
+              "explanation": "La respuesta correcta es: Protocolo de comunicación."
+            },
+            {
+              "text": "En el contexto de los modelos de comunicación entre aplicaciones, ¿qué caracteriza principalmente al modelo \"peer-to-peer\" (P2P) frente al modelo cliente-servidor?",
+              "options": [
+                "Solo existe un servidor central que controla todo.",
+                "Se utiliza exclusivamente para enviar correos electrónicos.",
+                "Requiere obligatoriamente el uso del protocolo UDP.",
+                "Todos los nodos son iguales y pueden actuar como cliente o servidor."
+              ],
+              "correctAnswer": "Todos los nodos son iguales y pueden actuar como cliente o servidor.",
+              "explanation": "La respuesta correcta es: Todos los nodos son iguales y pueden actuar como cliente o servidor."
+            },
+            {
+              "text": "Vas a desarrollar una aplicación de chat donde la fiabilidad de la entrega de los mensajes es crítica; no se puede perder ningún mensaje. ¿Qué protocolo de transporte debes elegir?",
+              "options": [
+                "HTTP, porque es el protocolo de la web.",
+                "UDP, porque es más rápido.",
+                "IP, porque gestiona las direcciones.",
+                "TCP, porque es orientado a la conexión y fiable."
+              ],
+              "correctAnswer": "TCP, porque es orientado a la conexión y fiable.",
+              "explanation": "La respuesta correcta es: TCP, porque es orientado a la conexión y fiable."
+            },
+            {
+              "text": "Un navegador web envía una solicitud a un servidor para cargar una página. En términos de programación de sockets, ¿qué rol está desempeñando el navegador en esta interacción?",
+              "options": [
+                "Nodo pasivo.",
+                "Socket de datagrama.",
+                "Servidor de aplicaciones.",
+                "Cliente."
+              ],
+              "correctAnswer": "Cliente.",
+              "explanation": "La respuesta correcta es: Cliente."
+            },
+            {
+              "text": "¿Qué dos elementos fundamentales definen un socket y permiten identificar de forma única una aplicación específica en una máquina dentro de una red?",
+              "options": [
+                "La dirección MAC y el nombre del usuario.",
+                "La dirección IP y el número de puerto.",
+                "El protocolo HTTP y la URL.",
+                "El sistema operativo y la versión del navegador."
+              ],
+              "correctAnswer": "La dirección IP y el número de puerto.",
+              "explanation": "La respuesta correcta es: La dirección IP y el número de puerto."
+            },
+            {
+              "text": "Estás desarrollando una aplicación de streaming de video en tiempo real donde la velocidad es prioritaria sobre la integridad perfecta de los datos (es tolerable perder algún paquete). ¿Qué tipo de socket deberías utilizar?",
+              "options": [
+                "Socket de flujo (Stream Socket).",
+                "Socket seguro (SSL).",
+                "Socket de datagrama (Datagram Socket).",
+                "Socket de archivo."
+              ],
+              "correctAnswer": "Socket de datagrama (Datagram Socket).",
+              "explanation": "La respuesta correcta es: Socket de datagrama (Datagram Socket)."
+            },
+            {
+              "text": "Al configurar un servidor web Apache en XAMPP, observas que por defecto escucha solicitudes HTTP. ¿Cuál es el puerto estándar que utiliza para este protocolo?",
+              "options": [
+                "8080.",
+                "21.",
+                "443.",
+                "80."
+              ],
+              "correctAnswer": "80.",
+              "explanation": "La respuesta correcta es: 80."
+            },
+            {
+              "text": "En el entorno de programación de sockets, ¿qué funcionalidad principal ofrece una API (Interfaz de Programación de Aplicaciones) al desarrollador?",
+              "options": [
+                "Proporcionar una interfaz gráfica para el usuario final.",
+                "Convertir automáticamente el código de Python a PHP.",
+                "Interactuar con el sistema operativo para abrir, usar y cerrar conexiones de red.",
+                "Garantizar que la conexión a internet nunca se caiga."
+              ],
+              "correctAnswer": "Interactuar con el sistema operativo para abrir, usar y cerrar conexiones de red.",
+              "explanation": "La respuesta correcta es: Interactuar con el sistema operativo para abrir, usar y cerrar conexiones de red."
+            },
+            {
+              "text": "Estás trabajando con PHP en XAMPP y decides utilizar la \"Extension de Sockets\" en lugar de \"Stream Sockets\". ¿Qué característica define a esta extensión?",
+              "options": [
+                "Ofrece una interfaz de bajo nivel para crear y manipular sockets.",
+                "Es incompatible con XAMPP.",
+                "Proporciona una interfaz de alto nivel muy sencilla.",
+                "Solo permite crear clientes, no servidores."
+              ],
+              "correctAnswer": "Ofrece una interfaz de bajo nivel para crear y manipular sockets.",
+              "explanation": "La respuesta correcta es: Ofrece una interfaz de bajo nivel para crear y manipular sockets."
+            },
+            {
+              "text": "Un compañero intenta ejecutar un script de sockets en PHP pero recibe un error de función no definida. Le indicas que debe habilitar la extensión en el archivo de configuración. ¿Cómo se llama este archivo?",
+              "options": [
+                "config.sys.",
+                "apache.conf.",
+                "php.ini.",
+                "sockets.dll."
+              ],
+              "correctAnswer": "php.ini.",
+              "explanation": "La respuesta correcta es: php.ini."
+            },
+            {
+              "text": "Para habilitar la extensión de sockets en el archivo de configuración de PHP, encuentras la línea ;extension=sockets. ¿Qué acción concreta debes realizar sobre esa línea?",
+              "options": [
+                "Cambiar la palabra \"sockets\" por \"activado\".",
+                "Borrar la línea completa.",
+                "Quitar el punto y coma (;) del inicio para descomentarla.",
+                "Añadir dos puntos al final."
+              ],
+              "correctAnswer": "Quitar el punto y coma (;) del inicio para descomentarla.",
+              "explanation": "La respuesta correcta es: Quitar el punto y coma (;) del inicio para descomentarla."
+            },
+            {
+              "text": "Estás escribiendo un script en Python para comunicaciones en red. ¿Cuál es el nombre del módulo estándar que debes importar para trabajar con las funciones de bajo nivel de sockets?",
+              "options": [
+                "net.",
+                "pyconnect.",
+                "communication.",
+                "socket."
+              ],
+              "correctAnswer": "socket.",
+              "explanation": "La respuesta correcta es: socket."
+            },
+            {
+              "text": "Antes de poder probar la conexión a tu servidor de sockets manualmente desde la línea de comandos de Windows, necesitas instalar una característica opcional del sistema. ¿Cuál es esta herramienta mencionada en la unidad?",
+              "options": [
+                "Cliente SSH.",
+                "Cliente Telnet.",
+                "Herramientas de desarrollo de Linux.",
+                "Servidor FTP."
+              ],
+              "correctAnswer": "Cliente Telnet.",
+              "explanation": "La respuesta correcta es: Cliente Telnet."
+            },
+            {
+              "text": "En el ciclo de vida de un socket en PHP, ¿ cuál es el primer paso obligatorio antes de poder realizar cualquier otra operación de red?",
+              "options": [
+                "Enlazar el puerto.",
+                "Aceptar una conexión.",
+                "Escuchar conexiones.",
+                "Crear el socket con socket_create."
+              ],
+              "correctAnswer": "Crear el socket con socket_create.",
+              "explanation": "La respuesta correcta es: Crear el socket con socket_create."
+            },
+            {
+              "text": "Estás programando la parte del servidor. Una vez creado el socket, necesitas asignarle una IP y un puerto específicos en la máquina local. ¿Qué función de PHP realiza esta tarea?",
+              "options": [
+                "socket_listen().",
+                "socket_connect().",
+                "socket_assign().",
+                "socket_bind()."
+              ],
+              "correctAnswer": "socket_bind().",
+              "explanation": "La respuesta correcta es: socket_bind()."
+            },
+            {
+              "text": "Si estás desarrollando la parte del cliente en una comunicación por sockets TCP, ¿cuál es la función que utilizas para iniciar la comunicación con el servidor?",
+              "options": [
+                "socket_connect().",
+                "socket_accept().",
+                "socket_bind().",
+                "socket_listen()."
+              ],
+              "correctAnswer": "socket_connect().",
+              "explanation": "La respuesta correcta es: socket_connect()."
+            },
+            {
+              "text": "En el código del servidor, utilizas la función socket_listen($sock, 3). ¿Qué indica el número \"3\" en este contexto?",
+              "options": [
+                "El número de segundos a esperar antes de cerrar.",
+                "La versión del protocolo IP.",
+                "El número máximo de conexiones pendientes en la cola.",
+                "El número de puerto a escuchar."
+              ],
+              "correctAnswer": "El número máximo de conexiones pendientes en la cola.",
+              "explanation": "La respuesta correcta es: El número máximo de conexiones pendientes en la cola."
+            },
+            {
+              "text": "Tu servidor de sockets debe ser capaz de atender peticiones continuamente sin detenerse después de la primera. ¿Qué estructura de control es fundamental implementar en el código para lograr esto?",
+              "options": [
+                "Un bloque try-catch.",
+                "Un condicional if.",
+                "Una función recursiva simple.",
+                "Un bucle infinito (como while(true))."
+              ],
+              "correctAnswer": "Un bucle infinito (como while(true)).",
+              "explanation": "La respuesta correcta es: Un bucle infinito (como while(true))."
+            },
+            {
+              "text": "Al ejecutar un script de servidor de sockets en PHP con XAMPP, ¿cuál es el método correcto para ponerlo en marcha?",
+              "options": [
+                "Acceder a la URL del archivo desde el navegador web.",
+                "Abrir el archivo .php haciendo doble clic sobre él.",
+                "Ejecutar el script desde la línea de comandos (CMD) usando el ejecutable de PHP.",
+                "Reiniciar el servicio de Apache desde el panel de control."
+              ],
+              "correctAnswer": "Ejecutar el script desde la línea de comandos (CMD) usando el ejecutable de PHP.",
+              "explanation": "La respuesta correcta es: Ejecutar el script desde la línea de comandos (CMD) usando el ejecutable de PHP."
+            },
+            {
+              "text": "En la función socket_create(AF_INET, SOCK_STREAM, 0), ¿qué indica el parámetro SOCK_STREAM?",
+              "options": [
+                "Que se utilizará el protocolo TCP.",
+                "Que se utilizará el protocolo UDP.",
+                "Que el socket es de solo lectura.",
+                "Que se usará una dirección IPv6."
+              ],
+              "correctAnswer": "Que se utilizará el protocolo TCP.",
+              "explanation": "La respuesta correcta es: Que se utilizará el protocolo TCP."
+            },
+            {
+              "text": "Una vez establecida la conexión, tu servidor necesita enviar una respuesta al cliente. ¿Qué función de PHP utilizas para transmitir los datos a través del socket?",
+              "options": [
+                "socket_send_to().",
+                "socket_push().",
+                "echo.",
+                "socket_write()."
+              ],
+              "correctAnswer": "socket_write().",
+              "explanation": "La respuesta correcta es: socket_write()."
+            },
+            {
+              "text": "Estás programando la lectura de datos en el servidor. Utilizas socket_read($accept, 1024). ¿Qué representa el número 1024?",
+              "options": [
+                "La cantidad máxima de bytes que se leerán del socket.",
+                "El ID del socket.",
+                "El tiempo de espera en milisegundos.",
+                "El puerto de origen."
+              ],
+              "correctAnswer": "La cantidad máxima de bytes que se leerán del socket.",
+              "explanation": "La respuesta correcta es: La cantidad máxima de bytes que se leerán del socket."
+            },
+            {
+              "text": "Si la función socket_read devuelve false dentro del bucle de lectura de tu servidor, ¿qué significa esto generalmente?",
+              "options": [
+                "Que ha ocurrido un error grave en el sistema operativo.",
+                "Que el servidor está saturado.",
+                "Que el cliente ha cerrado la conexión.",
+                "Que el mensaje está vacío."
+              ],
+              "correctAnswer": "Que el cliente ha cerrado la conexión.",
+              "explanation": "La respuesta correcta es: Que el cliente ha cerrado la conexión."
+            },
+            {
+              "text": "En el ejemplo del \"chat espejo\" o servidor de echo, ¿cuál es la lógica principal que ejecuta el servidor tras recibir un mensaje?",
+              "options": [
+                "Borrar el mensaje inmediatamente por seguridad.",
+                "Reenviar el mensaje a otro servidor.",
+                "Guardar el mensaje en una base de datos MySQL.",
+                "Responder al cliente enviándole exactamente el mismo mensaje que recibió."
+              ],
+              "correctAnswer": "Responder al cliente enviándole exactamente el mismo mensaje que recibió.",
+              "explanation": "La respuesta correcta es: Responder al cliente enviándole exactamente el mismo mensaje que recibió."
+            },
+            {
+              "text": "Al inicio del script del servidor PHP se incluye la línea set_time_limit(0);. ¿Cuál es su propósito en este contexto?",
+              "options": [
+                "Evitar que el script se detenga por superar el tiempo máximo de ejecución predeterminado de PHP.",
+                "Establecer la zona horaria a GMT+0.",
+                "Limitar la ejecución a 0 segundos.",
+                "Resetear el reloj del sistema."
+              ],
+              "correctAnswer": "Evitar que el script se detenga por superar el tiempo máximo de ejecución predeterminado de PHP.",
+              "explanation": "La respuesta correcta es: Evitar que el script se detenga por superar el tiempo máximo de ejecución predeterminado de PHP."
+            },
+            {
+              "text": "Para probar tu servidor de sockets usando Telnet, abres la consola y escribes telnet localhost 9999. ¿Qué sucede si el servidor no está en ejecución en ese momento?",
+              "options": [
+                "La conexión falla y se muestra un error de conexión.",
+                "Windows se reinicia.",
+                "Se abre una conexión en espera.",
+                "Telnet inicia el servidor automáticamente."
+              ],
+              "correctAnswer": "La conexión falla y se muestra un error de conexión.",
+              "explanation": "La respuesta correcta es: La conexión falla y se muestra un error de conexión."
+            },
+            {
+              "text": "En el código del cliente, después de enviar un mensaje con socket_write, inmediatamente se llama a socket_read. ¿Por qué se hace esto?",
+              "options": [
+                "Para verificar que el mensaje se envió.",
+                "Para esperar y leer la respuesta que envía el servidor.",
+                "Es un error de programación.",
+                "Para limpiar el buffer de salida."
+              ],
+              "correctAnswer": "Para esperar y leer la respuesta que envía el servidor.",
+              "explanation": "La respuesta correcta es: Para esperar y leer la respuesta que envía el servidor."
+            },
+            {
+              "text": "Cuando una comunicación ha finalizado definitivamente, ¿qué función se debe llamar para liberar los recursos del sistema asociados al socket?",
+              "options": [
+                "socket_close().",
+                "socket_end().",
+                "socket_delete().",
+                "socket_exit()."
+              ],
+              "correctAnswer": "socket_close().",
+              "explanation": "La respuesta correcta es: socket_close()."
+            },
+            {
+              "text": "Si desarrollas un cliente de sockets en PHP para ser ejecutado desde el navegador web, ¿qué limitación principal podrías encontrar frente a ejecutarlo en consola?",
+              "options": [
+                "No se pueden usar sockets en scripts web.",
+                "El navegador no soporta PHP.",
+                "La velocidad de transferencia es menor.",
+                "El tiempo de espera del navegador podría agotarse si la conexión es larga."
+              ],
+              "correctAnswer": "El tiempo de espera del navegador podría agotarse si la conexión es larga.",
+              "explanation": "La respuesta correcta es: El tiempo de espera del navegador podría agotarse si la conexión es larga."
+            },
+            {
+              "text": "El servidor de chat básico implementado en la unidad tiene una limitación importante respecto a su capacidad de atención. ¿Cuál es?",
+              "options": [
+                "No maneja múltiples conexiones de clientes simultáneamente de forma asíncrona.",
+                "No puede enviar texto, solo números.",
+                "Solo funciona en Linux.",
+                "Requiere una licencia de pago de PHP."
+              ],
+              "correctAnswer": "No maneja múltiples conexiones de clientes simultáneamente de forma asíncrona.",
+              "explanation": "La respuesta correcta es: No maneja múltiples conexiones de clientes simultáneamente de forma asíncrona."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

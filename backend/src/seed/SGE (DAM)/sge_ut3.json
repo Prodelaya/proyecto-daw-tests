@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "SGE",
+      "name": "Sistema de gestión empresarial",
+      "topics": [
+        {
+          "number": 3,
+          "title": "UT3",
+          "questions": [
+            {
+              "text": "Un analista de datos necesita recuperar información específica de las ventas del último trimestre almacenada en el ERP. ¿Qué lenguaje es el más utilizado para gestionar estas bases de datos relacionales?",
+              "options": [
+                "Java",
+                "HTML",
+                "SQL",
+                "Python"
+              ],
+              "correctAnswer": "SQL",
+              "explanation": "La respuesta correcta es: SQL"
+            },
+            {
+              "text": "En el contexto de los sistemas de gestión, ¿qué función cumple primordialmente el lenguaje SQL?",
+              "options": [
+                "Diseñar la interfaz gráfica de usuario para dispositivos móviles",
+                "Configurar la velocidad de conexión a la red local de la empresa",
+                "Traducir el contenido del ERP a diferentes idiomas automáticamente",
+                "Ejecutar operaciones como selección, actualización e inserción de registros"
+              ],
+              "correctAnswer": "Ejecutar operaciones como selección, actualización e inserción de registros",
+              "explanation": "La respuesta correcta es: Ejecutar operaciones como selección, actualización e inserción de registros"
+            },
+            {
+              "text": "Una empresa utiliza Odoo y desea examinar en profundidad la información de sus clientes mediante una herramienta gráfica que facilite la gestión de PostgreSQL. ¿Cuál se menciona en el temario?",
+              "options": [
+                "Adobe Acrobat",
+                "MySQL Workbench",
+                "pgAdmin",
+                "Microsoft Excel"
+              ],
+              "correctAnswer": "pgAdmin",
+              "explanation": "La respuesta correcta es: pgAdmin"
+            },
+            {
+              "text": "Tras instalar Odoo en un equipo con Windows 11, un técnico observa que no puede realizar consultas directas a la base de datos. ¿Qué componente se incorpora por defecto para gestionar los datos?",
+              "options": [
+                "MongoDB",
+                "Postgres",
+                "SQLite",
+                "Oracle Database"
+              ],
+              "correctAnswer": "Postgres",
+              "explanation": "La respuesta correcta es: Postgres"
+            },
+            {
+              "text": "Al configurar una nueva conexión en pgAdmin, el administrador debe indicar dónde se encuentra el servidor. Si el servidor PostgreSQL está en la misma máquina, ¿qué dirección debe escribir?",
+              "options": [
+                "odoo.com",
+                "192.168.1.1",
+                "localhost",
+                "remotehost"
+              ],
+              "correctAnswer": "localhost",
+              "explanation": "La respuesta correcta es: localhost"
+            },
+            {
+              "text": "Un desarrollador está configurando pgAdmin y llega al campo del puerto. ¿Cuál es el valor predeterminado que debe dejar a menos que se haya cambiado en la instalación?",
+              "options": [
+                "5432",
+                "443",
+                "8080",
+                "3306"
+              ],
+              "correctAnswer": "5432",
+              "explanation": "La respuesta correcta es: 5432"
+            },
+            {
+              "text": "Para guardar la configuración de un servidor en pgAdmin tras introducir el usuario y la contraseña, ¿qué botón debe pulsar el usuario?",
+              "options": [
+                "Reset",
+                "Cancel",
+                "Save",
+                "Properties"
+              ],
+              "correctAnswer": "Save",
+              "explanation": "La respuesta correcta es: Save"
+            },
+            {
+              "text": "Una empresa quiere ver la lista de bases de datos disponibles en su servidor a través de pgAdmin. ¿Qué paso debe seguir en el panel del navegador?",
+              "options": [
+                "Abrir el archivo de configuración del sistema operativo",
+                "Pulsar la tecla F5 sin seleccionar ningún elemento",
+                "Hacer clic en el signo \"+\" junto a \"Databases\"",
+                "Seleccionar la opción \"Delete/Drop\""
+              ],
+              "correctAnswer": "Hacer clic en el signo \"+\" junto a \"Databases\"",
+              "explanation": "La respuesta correcta es: Hacer clic en el signo \"+\" junto a \"Databases\""
+            },
+            {
+              "text": "Un técnico desea realizar una consulta rápida a la base de datos de Odoo desde pgAdmin sin usar scripts externos. ¿Qué herramienta debe seleccionar al hacer clic derecho sobre la base de datos?",
+              "options": [
+                "Grant Wizard",
+                "Query Tool",
+                "Backup",
+                "Restore"
+              ],
+              "correctAnswer": "Query Tool",
+              "explanation": "La respuesta correcta es: Query Tool"
+            },
+            {
+              "text": "Un usuario escribe la sentencia: SELECT table_name FROM information_schema.tables; ¿Cómo debe ejecutarla en pgAdmin para ver los resultados?",
+              "options": [
+                "Haciendo doble clic en la tabla",
+                "Presionando la tecla F5",
+                "Reiniciando el servidor de Odoo",
+                "Presionando la tecla F1"
+              ],
+              "correctAnswer": "Presionando la tecla F5",
+              "explanation": "La respuesta correcta es: Presionando la tecla F5"
+            },
+            {
+              "text": "Al realizar cambios directos en la base de datos de Odoo con SQL, ¿qué precaución fundamental recomienda el temario?",
+              "options": [
+                "Desinstalar el antivirus de forma permanente",
+                "Cambiar el color de la interfaz de pgAdmin",
+                "Hacer una copia de seguridad antes de cambios importantes",
+                "Aumentar la resolución de la pantalla del equipo"
+              ],
+              "correctAnswer": "Hacer una copia de seguridad antes de cambios importantes",
+              "explanation": "La respuesta correcta es: Hacer una copia de seguridad antes de cambios importantes"
+            },
+            {
+              "text": "En el entorno de un ERP, ¿qué componente actúa como interfaz para que los usuarios introduzcan o modifiquen datos, como detalles de pedidos?",
+              "options": [
+                "Exportación CSV",
+                "Informe",
+                "Formulario",
+                "Script de automatización"
+              ],
+              "correctAnswer": "Formulario",
+              "explanation": "La respuesta correcta es: Formulario"
+            },
+            {
+              "text": "Un administrativo del departamento comercial crea un nuevo cliente en el módulo CRM de Odoo. ¿Con qué sistema se conecta este formulario en el backend para almacenar los datos?",
+              "options": [
+                "Firebase",
+                "SAP HANA",
+                "PostgreSQL",
+                "Microsoft Access"
+              ],
+              "correctAnswer": "PostgreSQL",
+              "explanation": "La respuesta correcta es: PostgreSQL"
+            },
+            {
+              "text": "¿Cuál es la diferencia principal entre un formulario y un informe según el material de la unidad?",
+              "options": [
+                "El formulario es para leer y el informe para escribir",
+                "El formulario permite ingresar datos y el informe los presenta de forma comprensible",
+                "El formulario es un archivo PDF y el informe es una base de datos",
+                "No hay diferencia, ambos términos se usan indistintamente"
+              ],
+              "correctAnswer": "El formulario permite ingresar datos y el informe los presenta de forma comprensible",
+              "explanation": "La respuesta correcta es: El formulario permite ingresar datos y el informe los presenta de forma comprensible"
+            },
+            {
+              "text": "El gerente de una empresa necesita una visión clara de las ventas mensuales usando gráficos y tablas. ¿Qué herramienta de Odoo debe utilizar?",
+              "options": [
+                "Consola de comandos de Windows",
+                "Generación de informes",
+                "Formulario de contacto",
+                "Editor de código Python"
+              ],
+              "correctAnswer": "Generación de informes",
+              "explanation": "La respuesta correcta es: Generación de informes"
+            },
+            {
+              "text": "Para verificar que un cliente creado en el CRM se guardó correctamente, un técnico usa SQL. ¿Qué tabla debe consultar para ver los socios o clientes?",
+              "options": [
+                "product_template",
+                "sale_order",
+                "res_partner",
+                "crm_lead"
+              ],
+              "correctAnswer": "res_partner",
+              "explanation": "La respuesta correcta es: res_partner"
+            },
+            {
+              "text": "Un usuario desea ver todos los detalles de todos los registros de la tabla de socios comerciales. ¿Qué consulta SQL es la correcta?",
+              "options": [
+                "SELECT * FROM res_partner;",
+                "EXTRACT DATA res_partner;",
+                "SHOW partner_details;",
+                "GET ALL FROM res_partner;"
+              ],
+              "correctAnswer": "SELECT * FROM res_partner;",
+              "explanation": "La respuesta correcta es: SELECT * FROM res_partner;"
+            },
+            {
+              "text": "En el módulo de Ventas de Odoo, el usuario accede a la barra de navegación superior para personalizar su visión de los datos. ¿Qué opción debe elegir?",
+              "options": [
+                "Mi flujo de ventas",
+                "Configuración",
+                "Informes",
+                "Aplicaciones"
+              ],
+              "correctAnswer": "Informes",
+              "explanation": "La respuesta correcta es: Informes"
+            },
+            {
+              "text": "Al generar un informe de ventas en Odoo, el usuario desea ver el valor monetario total. ¿Qué medida debe seleccionar en el panel de personalización?",
+              "options": [
+                "Descuento %",
+                "Total",
+                "Cant. Por Entregar",
+                "Peso bruto"
+              ],
+              "correctAnswer": "Total",
+              "explanation": "La respuesta correcta es: Total"
+            },
+            {
+              "text": "Para comprobar el valor total de las ventas de un cliente específico en pgAdmin, el usuario debe usar una función de agregado. ¿Cuál es la correcta?",
+              "options": [
+                "sum(amount_total)",
+                "count(amount_total)",
+                "total(amount_total)",
+                "average(amount_total)"
+              ],
+              "correctAnswer": "sum(amount_total)",
+              "explanation": "La respuesta correcta es: sum(amount_total)"
+            },
+            {
+              "text": "Una empresa necesita transferir su lista de clientes a un sistema de análisis externo. ¿Cómo se denomina este proceso de transferencia a un medio externo?",
+              "options": [
+                "Automatización",
+                "Sincronización",
+                "Importación",
+                "Exportación"
+              ],
+              "correctAnswer": "Exportación",
+              "explanation": "La respuesta correcta es: Exportación"
+            },
+            {
+              "text": "Un analista necesita los datos en un formato de valores separados por comas para procesarlos con un script sencillo. ¿Qué formato debe elegir?",
+              "options": [
+                "SQL",
+                "EXE",
+                "CSV",
+                "PDF"
+              ],
+              "correctAnswer": "CSV",
+              "explanation": "La respuesta correcta es: CSV"
+            },
+            {
+              "text": "Para exportar la lista de clientes desde la interfaz de Odoo, ¿qué menú desplegable debe abrir el usuario tras seleccionar los registros?",
+              "options": [
+                "Favoritos",
+                "Agrupar por",
+                "Filtros",
+                "Acción"
+              ],
+              "correctAnswer": "Acción",
+              "explanation": "La respuesta correcta es: Acción"
+            },
+            {
+              "text": "Un administrativo necesita enviar el informe de ventas por correo electrónico en un formato que no sea editable y mantenga el diseño visual. ¿Qué opción es la más adecuada?",
+              "options": [
+                "Copiar y pegar en un chat",
+                "Generar un archivo CSV",
+                "Exportar a Excel",
+                "Imprimir o descargar como PDF"
+              ],
+              "correctAnswer": "Imprimir o descargar como PDF",
+              "explanation": "La respuesta correcta es: Imprimir o descargar como PDF"
+            },
+            {
+              "text": "En Odoo, para generar la versión descargable de un informe visual rápidamente, ¿qué combinación de teclas se menciona?",
+              "options": [
+                "Alt + F4",
+                "Ctrl + Z",
+                "Ctrl + C",
+                "Ctrl + P"
+              ],
+              "correctAnswer": "Ctrl + P",
+              "explanation": "La respuesta correcta es: Ctrl + P"
+            },
+            {
+              "text": "La cantidad de datos de una organización es abrumadora y el gerente quiere reducir errores humanos en su gestión. ¿Qué técnica debe aplicar?",
+              "options": [
+                "Uso exclusivo de formularios en papel",
+                "Eliminación de los registros antiguos mensualmente",
+                "Automatización de la extracción de datos",
+                "Contratación de más personal de entrada de datos"
+              ],
+              "correctAnswer": "Automatización de la extracción de datos",
+              "explanation": "La respuesta correcta es: Automatización de la extracción de datos"
+            },
+            {
+              "text": "¿Qué siglas definen el proceso de extraer, transformar y cargar datos en un sistema de análisis?",
+              "options": [
+                "SQL",
+                "API",
+                "CRM",
+                "ETL"
+              ],
+              "correctAnswer": "ETL",
+              "explanation": "La respuesta correcta es: ETL"
+            },
+            {
+              "text": "Un desarrollador de Odoo quiere ejecutar tareas en intervalos regulares, como enviar un informe cada mañana. ¿Qué característica integrada debe configurar?",
+              "options": [
+                "Herramienta de consulta SQL",
+                "Menú de favoritos",
+                "Trabajos programados",
+                "Filtros de búsqueda"
+              ],
+              "correctAnswer": "Trabajos programados",
+              "explanation": "La respuesta correcta es: Trabajos programados"
+            },
+            {
+              "text": "Para crear un módulo de automatización en Odoo llamado \"auto_report\", ¿qué archivo es obligatorio para definir los metadatos y dependencias?",
+              "options": [
+                "manifest.py",
+                "report.py",
+                "init.py",
+                "models.py"
+              ],
+              "correctAnswer": "manifest.py",
+              "explanation": "La respuesta correcta es: manifest.py"
+            },
+            {
+              "text": "Se ha programado una lógica en Python para buscar órdenes de venta creadas el día anterior. ¿Qué módulo de Odoo se usa para ejecutar este código diariamente de forma automática?",
+              "options": [
+                "Gestión de inventarios",
+                "Facturación",
+                "Tablero de mandos",
+                "Acciones Automatizadas"
+              ],
+              "correctAnswer": "Acciones Automatizadas",
+              "explanation": "La respuesta correcta es: Acciones Automatizadas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

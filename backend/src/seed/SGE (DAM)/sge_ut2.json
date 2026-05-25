@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "SGE",
+      "name": "Sistema de gestión empresarial",
+      "topics": [
+        {
+          "number": 2,
+          "title": "UT2",
+          "questions": [
+            {
+              "text": "Una empresa desea implementar un software que le permita estudiar y modificar su estructura interna para adaptarlo a un proceso de fabricación muy específico. ¿Qué tipo de licencia sería la más adecuada?",
+              "options": [
+                "Licencia de demostración con funcionalidades bloqueadas",
+                "Licencia de uso temporal sin acceso a código",
+                "Licencia de software de código abierto o libre",
+                "Licencia de software propietario con restricciones de uso"
+              ],
+              "correctAnswer": "Licencia de software de código abierto o libre",
+              "explanation": "La respuesta correcta es: Licencia de software de código abierto o libre"
+            },
+            {
+              "text": "En el contexto legal de la tecnología, ¿qué define principalmente a una licencia de software propietario?",
+              "options": [
+                "Las restricciones impuestas por el titular de los derechos de autor",
+                "La gratuidad total del producto independientemente de su uso comercial",
+                "La libertad absoluta para distribuir copias de seguridad a terceros",
+                "La obligatoriedad de que el código sea público para toda la comunidad"
+              ],
+              "correctAnswer": "Las restricciones impuestas por el titular de los derechos de autor",
+              "explanation": "La respuesta correcta es: Las restricciones impuestas por el titular de los derechos de autor"
+            },
+            {
+              "text": "El departamento de TI de una startup está comparando licencias FOSS. ¿Cuál de los siguientes ejemplos corresponde a este grupo?",
+              "options": [
+                "Licencia comercial de pago por uso",
+                "Licencia Pública General de GNU (GPL)",
+                "Contrato de confidencialidad de código cerrado",
+                "Licencia de suscripción empresarial privativa"
+              ],
+              "correctAnswer": "Licencia Pública General de GNU (GPL)",
+              "explanation": "La respuesta correcta es: Licencia Pública General de GNU (GPL)"
+            },
+            {
+              "text": "Al elegir Odoo para una empresa, el equipo técnico destaca la ventaja de su comunidad de desarrolladores. ¿Cómo impacta esto directamente en el sistema?",
+              "options": [
+                "En la imposibilidad de realizar modificaciones privadas en el código",
+                "En la obligación de pagar una cuota a cada desarrollador externo",
+                "En una mayor seguridad al haber más personas corrigiendo vulnerabilidades",
+                "En la ralentización de las actualizaciones críticas del fabricante"
+              ],
+              "correctAnswer": "En una mayor seguridad al haber más personas corrigiendo vulnerabilidades",
+              "explanation": "La respuesta correcta es: En una mayor seguridad al haber más personas corrigiendo vulnerabilidades"
+            },
+            {
+              "text": "¿Qué diferencia principal existe entre la versión común de Odoo y su versión \"Enterprise\"?",
+              "options": [
+                "La versión Enterprise es la única que permite el acceso al código fuente",
+                "La versión Enterprise incluye funciones y soporte adicionales de pago",
+                "La versión común no puede instalarse en sistemas operativos Windows",
+                "La versión Enterprise prohíbe el uso de módulos de contabilidad"
+              ],
+              "correctAnswer": "La versión Enterprise incluye funciones y soporte adicionales de pago",
+              "explanation": "La respuesta correcta es: La versión Enterprise incluye funciones y soporte adicionales de pago"
+            },
+            {
+              "text": "Un centro educativo necesita instalar Odoo en Windows 11 para sus alumnos. ¿Cuál es el primer paso técnico recomendado?",
+              "options": [
+                "Descargar el paquete de instalación desde el sitio web oficial",
+                "Comprar una licencia de servidor de bases de datos externa",
+                "Desactivar permanentemente todos los cortafuegos de la red",
+                "Formatear el disco duro en una partición exclusiva para Linux"
+              ],
+              "correctAnswer": "Descargar el paquete de instalación desde el sitio web oficial",
+              "explanation": "La respuesta correcta es: Descargar el paquete de instalación desde el sitio web oficial"
+            },
+            {
+              "text": "Durante el asistente de instalación de Odoo en un equipo local, ¿qué componentes deben marcarse para una instalación completa inicial?",
+              "options": [
+                "Odoo Server y PostgreSQL Database",
+                "Solo el Ghostscript interpreter para visualización de archivos",
+                "Únicamente el servidor de aplicaciones sin base de datos",
+                "Nginx WebServer como componente obligatorio y único"
+              ],
+              "correctAnswer": "Odoo Server y PostgreSQL Database",
+              "explanation": "La respuesta correcta es: Odoo Server y PostgreSQL Database"
+            },
+            {
+              "text": "Al configurar la conexión a la base de datos durante la instalación, ¿cuál es el puerto por defecto que utiliza PostgreSQL?",
+              "options": [
+                "443",
+                "5432",
+                "3306",
+                "8080"
+              ],
+              "correctAnswer": "5432",
+              "explanation": "La respuesta correcta es: 5432"
+            },
+            {
+              "text": "Al ejecutar Odoo por primera vez, el sistema genera una \"Master Password\". ¿Para qué se utiliza principalmente esta credencial?",
+              "options": [
+                "Para futuras operaciones críticas sobre las bases de datos",
+                "Para cifrar los correos electrónicos enviados desde el CRM",
+                "Para que los clientes externos puedan realizar pedidos en la web",
+                "Para validar la conexión a Internet del servidor de aplicaciones"
+              ],
+              "correctAnswer": "Para futuras operaciones críticas sobre las bases de datos",
+              "explanation": "La respuesta correcta es: Para futuras operaciones críticas sobre las bases de datos"
+            },
+            {
+              "text": "Una empresa de servicios quiere empezar a utilizar Odoo. ¿Qué acción debe realizar tras completar la instalación y acceder por primera vez?",
+              "options": [
+                "Borrar todos los archivos temporales de la carpeta System32",
+                "Instalar obligatoriamente todos los módulos disponibles en el mercado",
+                "Crear una nueva base de datos introduciendo los detalles de la empresa",
+                "Desinstalar el sistema operativo para liberar memoria RAM"
+              ],
+              "correctAnswer": "Crear una nueva base de datos introduciendo los detalles de la empresa",
+              "explanation": "La respuesta correcta es: Crear una nueva base de datos introduciendo los detalles de la empresa"
+            },
+            {
+              "text": "¿Cuál es el objetivo principal de los módulos que componen un sistema ERP-CRM?",
+              "options": [
+                "Separar físicamente los datos de cada departamento para evitar robos",
+                "Operar de forma integrada para optimizar las operaciones comerciales",
+                "Eliminar la necesidad de utilizar bases de datos relacionales",
+                "Reducir la capacidad de procesamiento de los servidores centrales"
+              ],
+              "correctAnswer": "Operar de forma integrada para optimizar las operaciones comerciales",
+              "explanation": "La respuesta correcta es: Operar de forma integrada para optimizar las operaciones comerciales"
+            },
+            {
+              "text": "Un gestor de almacén necesita controlar las entradas y salidas de mercancía. ¿En qué módulo del ERP se encuentran estas funcionalidades?",
+              "options": [
+                "Módulo de recursos humanos",
+                "Módulo de inventario",
+                "Módulo de marketing por email",
+                "Módulo de fabricación"
+              ],
+              "correctAnswer": "Módulo de inventario",
+              "explanation": "La respuesta correcta es: Módulo de inventario"
+            },
+            {
+              "text": "El departamento de ventas quiere transformar presupuestos confirmados en facturas. ¿Qué módulo permite específicamente la creación de presupuestos?",
+              "options": [
+                "Módulo de flota",
+                "Módulo de contabilidad",
+                "Módulo de selección de personal",
+                "Módulo de ventas"
+              ],
+              "correctAnswer": "Módulo de ventas",
+              "explanation": "La respuesta correcta es: Módulo de ventas"
+            },
+            {
+              "text": "¿Qué ventaja ofrece la integración nativa de módulos en un sistema como Odoo?",
+              "options": [
+                "Disponer de una única fuente de verdad para todos los datos",
+                "Aumentar el número de contraseñas necesarias para el personal",
+                "Evitar que el módulo de ventas se comunique con el de inventario",
+                "Poder usar cada módulo con una base de datos diferente"
+              ],
+              "correctAnswer": "Disponer de una única fuente de verdad para todos los datos",
+              "explanation": "La respuesta correcta es: Disponer de una única fuente de verdad para todos los datos"
+            },
+            {
+              "text": "Una consultoría con un solo trabajador necesita el ERP para tareas básicas sin red. ¿Qué arquitectura sería la más sencilla de implementar?",
+              "options": [
+                "Cluster de servidores en alta disponibilidad",
+                "Instalación monopuesto en una única máquina",
+                "Arquitectura cliente/servidor distribuida",
+                "Red de área extensa con acceso remoto obligatorio"
+              ],
+              "correctAnswer": "Instalación monopuesto en una única máquina",
+              "explanation": "La respuesta correcta es: Instalación monopuesto en una única máquina"
+            },
+            {
+              "text": "¿Cuál es la característica principal de una arquitectura cliente/servidor?",
+              "options": [
+                "No permite el acceso desde dispositivos móviles o tablets",
+                "Todos los recursos hardware están en una computadora personal aislada",
+                "Involucra al menos dos tipos de máquinas: clientes y servidor",
+                "El cliente aloja la base de datos y el servidor solo la interfaz"
+              ],
+              "correctAnswer": "Involucra al menos dos tipos de máquinas: clientes y servidor",
+              "explanation": "La respuesta correcta es: Involucra al menos dos tipos de máquinas: clientes y servidor"
+            },
+            {
+              "text": "Una empresa con sedes en diferentes ciudades elige una configuración cliente/servidor para Odoo. ¿Qué beneficio técnico es el más relevante?",
+              "options": [
+                "Permite que el sistema funcione sin un gestor de bases de datos",
+                "Facilita el acceso remoto al sistema desde cualquier lugar con Internet",
+                "Reduce la necesidad de realizar copias de seguridad del servidor",
+                "Impide que los usuarios vean la información en tiempo real"
+              ],
+              "correctAnswer": "Facilita el acceso remoto al sistema desde cualquier lugar con Internet",
+              "explanation": "La respuesta correcta es: Facilita el acceso remoto al sistema desde cualquier lugar con Internet"
+            },
+            {
+              "text": "Durante la implantación, el consultor debe ajustar el ERP a las políticas de la empresa. ¿A qué proceso se refiere esta tarea?",
+              "options": [
+                "A la actualización obligatoria del hardware cada mes",
+                "A la configuración de módulos instalados según necesidades específicas",
+                "Al borrado de todos los registros históricos de los clientes",
+                "A la desinstalación de los controladores de red del servidor"
+              ],
+              "correctAnswer": "A la configuración de módulos instalados según necesidades específicas",
+              "explanation": "La respuesta correcta es: A la configuración de módulos instalados según necesidades específicas"
+            },
+            {
+              "text": "En el módulo de recursos humanos, ¿qué tipo de ajustes se suelen realizar durante la configuración?",
+              "options": [
+                "Ajustar las políticas de vacaciones y evaluación de desempeño",
+                "Definir los planes de cuentas y periodos fiscales",
+                "Configurar las reglas de precios y descuentos de ventas",
+                "Establecer las rutas de fabricación y órdenes de trabajo"
+              ],
+              "correctAnswer": "Ajustar las políticas de vacaciones y evaluación de desempeño",
+              "explanation": "La respuesta correcta es: Ajustar las políticas de vacaciones y evaluación de desempeño"
+            },
+            {
+              "text": "Una librería quiere vender libros electrónicos por descarga. ¿Qué debe especificar en la sección de \"Unidades de Medida\"?",
+              "options": [
+                "La dirección física de cada cliente que compra el producto",
+                "Las unidades de venta, como \"por descarga\" para libros electrónicos",
+                "El peso total de los servidores donde se alojan los archivos",
+                "El número de empleados que tiene el departamento de sistemas"
+              ],
+              "correctAnswer": "Las unidades de venta, como \"por descarga\" para libros electrónicos",
+              "explanation": "La respuesta correcta es: Las unidades de venta, como \"por descarga\" para libros electrónicos"
+            },
+            {
+              "text": "¿Por qué se recomienda probar las configuraciones en un entorno de prueba antes de pasarlas a producción?",
+              "options": [
+                "Para que los usuarios no se acostumbren a las nuevas funciones",
+                "Porque el sistema de producción no permite realizar cambios manuales",
+                "Para evitar interrupciones accidentales en las operaciones diarias",
+                "Para aumentar artificialmente el tiempo de entrega del proyecto"
+              ],
+              "correctAnswer": "Para evitar interrupciones accidentales en las operaciones diarias",
+              "explanation": "La respuesta correcta es: Para evitar interrupciones accidentales en las operaciones diarias"
+            },
+            {
+              "text": "En el módulo de facturación de Odoo, el administrador activa la opción \"Enviar correo electrónico\". ¿Cuál es el propósito de esta configuración?",
+              "options": [
+                "Bloquear el acceso del departamento de contabilidad al sistema",
+                "Automatizar el envío de la factura al cliente de forma digital",
+                "Enviar publicidad de otras empresas a los clientes",
+                "Guardar una copia de la factura en el disco duro personal del usuario"
+              ],
+              "correctAnswer": "Automatizar el envío de la factura al cliente de forma digital",
+              "explanation": "La respuesta correcta es: Automatizar el envío de la factura al cliente de forma digital"
+            },
+            {
+              "text": "Una empresa nota que las facturas no se generan automáticamente al confirmar ventas. ¿Qué paso de la configuración podría haberse omitido?",
+              "options": [
+                "La instalación de un nuevo sistema operativo en los clientes",
+                "La desactivación del módulo de inventario",
+                "El cambio de la contraseña del administrador del sistema",
+                "La sincronización de los módulos de Ventas y Facturación"
+              ],
+              "correctAnswer": "La sincronización de los módulos de Ventas y Facturación",
+              "explanation": "La respuesta correcta es: La sincronización de los módulos de Ventas y Facturación"
+            },
+            {
+              "text": "¿Qué proceso garantiza que el sistema proporcione los beneficios y resultados esperados por la empresa?",
+              "options": [
+                "La verificación del correcto funcionamiento del ERP-CRM",
+                "La limitación del número de transacciones diarias del sistema",
+                "La ocultación de errores a los usuarios finales",
+                "La compra del hardware más caro del mercado"
+              ],
+              "correctAnswer": "La verificación del correcto funcionamiento del ERP-CRM",
+              "explanation": "La respuesta correcta es: La verificación del correcto funcionamiento del ERP-CRM"
+            },
+            {
+              "text": "El equipo de calidad realiza pruebas para comprobar si se pueden crear pedidos de venta sin errores. ¿Qué tipo de prueba están ejecutando?",
+              "options": [
+                "Pruebas de rendimiento de carga masiva",
+                "Pruebas de funcionalidad de características específicas",
+                "Entrevista de percepción de interfaz de usuario",
+                "Auditoría de hardware de red externo"
+              ],
+              "correctAnswer": "Pruebas de funcionalidad de características específicas",
+              "explanation": "La respuesta correcta es: Pruebas de funcionalidad de características específicas"
+            },
+            {
+              "text": "Se quiere comprobar que, al realizar una venta, el stock disminuye correctamente en el almacén. ¿Cómo se denomina este tipo de verificación?",
+              "options": [
+                "Verificación de compatibilidad con navegadores antiguos",
+                "Prueba de integración entre módulos",
+                "Prueba de seguridad de contraseñas",
+                "Auditoría de limpieza de código fuente"
+              ],
+              "correctAnswer": "Prueba de integración entre módulos",
+              "explanation": "La respuesta correcta es: Prueba de integración entre módulos"
+            },
+            {
+              "text": "¿Qué aspecto evalúan las pruebas de rendimiento en un sistema ERP?",
+              "options": [
+                "La belleza estética de los gráficos e informes generados",
+                "El número de idiomas en los que está traducido el manual",
+                "La cantidad de módulos que han sido desinstalados por el usuario",
+                "La capacidad del sistema para manejar la carga de trabajo prevista"
+              ],
+              "correctAnswer": "La capacidad del sistema para manejar la carga de trabajo prevista",
+              "explanation": "La respuesta correcta es: La capacidad del sistema para manejar la carga de trabajo prevista"
+            },
+            {
+              "text": "Durante una auditoría, el técnico decide hablar con los empleados que usan el sistema a diario. ¿A qué procedimiento corresponde esto?",
+              "options": [
+                "Entrevistas con los usuarios para recopilar percepciones",
+                "Revisión técnica de las configuraciones del cortafuegos",
+                "Examen de registros y reportes generados",
+                "Prueba de estrés de la base de datos PostgreSQL"
+              ],
+              "correctAnswer": "Entrevistas con los usuarios para recopilar percepciones",
+              "explanation": "La respuesta correcta es: Entrevistas con los usuarios para recopilar percepciones"
+            },
+            {
+              "text": "¿Qué herramienta de Odoo facilita la identificación de problemas en el rendimiento del sistema?",
+              "options": [
+                "La amplia gama de informes y análisis que ofrece",
+                "El código secreto de recuperación de bases de datos",
+                "El juego de datos de prueba incluido en la instalación",
+                "El manual de usuario impreso en papel"
+              ],
+              "correctAnswer": "La amplia gama de informes y análisis que ofrece",
+              "explanation": "La respuesta correcta es: La amplia gama de informes y análisis que ofrece"
+            },
+            {
+              "text": "Se ha creado un producto de prueba llamado \"Ensayo sobre la ceguera\" con un precio de 1,00€. ¿Cuál es el paso final para verificar el flujo completo?",
+              "options": [
+                "Cambiar el nombre de la empresa en el perfil de administrador",
+                "Apagar el servidor para ver si los datos se pierden",
+                "Generar y revisar la factura de prueba en el módulo de Facturación",
+                "Borrar el producto inmediatamente después de crearlo"
+              ],
+              "correctAnswer": "Generar y revisar la factura de prueba en el módulo de Facturación",
+              "explanation": "La respuesta correcta es: Generar y revisar la factura de prueba en el módulo de Facturación"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

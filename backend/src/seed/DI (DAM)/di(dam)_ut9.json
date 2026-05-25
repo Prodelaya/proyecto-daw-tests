@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 9,
+          "title": "UT9",
+          "questions": [
+            {
+              "text": "En una empresa de desarrollo, un programador senior abandona el proyecto repentinamente. El nuevo integrante logra retomar el trabajo rápidamente gracias a los registros históricos del código. ¿Qué valor de la documentación se evidencia aquí?",
+              "options": [
+                "Comunicación",
+                "Continuidad",
+                "Transparencia",
+                "Responsabilidad"
+              ],
+              "correctAnswer": "Continuidad",
+              "explanation": "La respuesta correcta es: Continuidad"
+            },
+            {
+              "text": "Un equipo técnico necesita entender la arquitectura interna del sistema, los algoritmos y las bibliotecas utilizadas para realizar una migración. ¿Qué tipo de documentación deben consultar?",
+              "options": [
+                "Guía de inicio rápido",
+                "Documentación de usuario",
+                "Preguntas frecuentes (FAQ)",
+                "Documentación técnica"
+              ],
+              "correctAnswer": "Documentación técnica",
+              "explanation": "La respuesta correcta es: Documentación técnica"
+            },
+            {
+              "text": "Se busca automatizar la generación de documentación para un proyecto en Java a partir de los comentarios en el código fuente. ¿Qué herramienta estándar debe utilizar el equipo?",
+              "options": [
+                "Swagger",
+                "Javadoc",
+                "Sphinx",
+                "MkDocs"
+              ],
+              "correctAnswer": "Javadoc",
+              "explanation": "La respuesta correcta es: Javadoc"
+            },
+            {
+              "text": "El departamento de soporte recibe constantes llamadas de clientes preguntando cómo realizar tareas básicas en la aplicación. ¿Qué tipo de documentación es probable que sea deficiente o inexistente?",
+              "options": [
+                "Guía de desarrollo",
+                "Documentación de usuario",
+                "Referencia de API",
+                "Documentación del código"
+              ],
+              "correctAnswer": "Documentación de usuario",
+              "explanation": "La respuesta correcta es: Documentación de usuario"
+            },
+            {
+              "text": "El equipo de mantenimiento realiza una revisión del código para detectar y corregir problemas de seguridad antes de que ocurra un fallo real. ¿Qué tipo de mantenimiento están realizando?",
+              "options": [
+                "Correctivo",
+                "Preventivo",
+                "Adaptativo",
+                "Perfectivo"
+              ],
+              "correctAnswer": "Preventivo",
+              "explanation": "La respuesta correcta es: Preventivo"
+            },
+            {
+              "text": "En un proyecto con equipos distribuidos en diferentes zonas horarias, es difícil mantener reuniones sincrónicas. ¿Cuál es el rol principal de la documentación en este escenario?",
+              "options": [
+                "Facilitar la comunicación asíncrona y el registro de decisiones",
+                "Generar manuales de usuario automáticamente",
+                "Eliminar la necesidad de control de versiones",
+                "Cumplir requisitos legales"
+              ],
+              "correctAnswer": "Facilitar la comunicación asíncrona y el registro de decisiones",
+              "explanation": "La respuesta correcta es: Facilitar la comunicación asíncrona y el registro de decisiones"
+            },
+            {
+              "text": "Al redactar la documentación técnica, ¿qué elemento es crucial para ayudar a los nuevos desarrolladores a configurar el entorno y las dependencias?",
+              "options": [
+                "La sección de FAQ",
+                "El historial de versiones",
+                "La guía de instalación",
+                "El glosario"
+              ],
+              "correctAnswer": "La guía de instalación",
+              "explanation": "La respuesta correcta es: La guía de instalación"
+            },
+            {
+              "text": "Se está desarrollando una API REST y se necesita una herramienta que permita documentarla y probarla interactivamente al mismo tiempo. ¿Cuál es la opción estándar de la industria?",
+              "options": [
+                "Doxygen",
+                "GitBook",
+                "Swagger/OpenAPI",
+                "Read the Docs"
+              ],
+              "correctAnswer": "Swagger/OpenAPI",
+              "explanation": "La respuesta correcta es: Swagger/OpenAPI"
+            },
+            {
+              "text": "Un desarrollador escribe código que funciona, pero las variables se llaman \"a\", \"b\" y \"x\", lo que dificulta su lectura por otros compañeros. ¿Qué buena práctica de codificación se está violando?",
+              "options": [
+                "Pruebas unitarias",
+                "Refactorización",
+                "Claridad y legibilidad (nombres significativos)",
+                "Uso de control de versiones"
+              ],
+              "correctAnswer": "Claridad y legibilidad (nombres significativos)",
+              "explanation": "La respuesta correcta es: Claridad y legibilidad (nombres significativos)"
+            },
+            {
+              "text": "El equipo decide reestructurar el código para hacerlo más limpio y mantenible sin cambiar su comportamiento externo. ¿Cómo se denomina técnicamente a este proceso?",
+              "options": [
+                "Depuración",
+                "Refactorización",
+                "Documentación",
+                "Compilación"
+              ],
+              "correctAnswer": "Refactorización",
+              "explanation": "La respuesta correcta es: Refactorización"
+            },
+            {
+              "text": "Se ha añadido una nueva funcionalidad crítica al software. Según las buenas prácticas, ¿cuándo debe actualizarse la documentación correspondiente?",
+              "options": [
+                "Al finalizar el año fiscal",
+                "Durante el proceso de desarrollo e implementación de la funcionalidad",
+                "Nunca, el código se documenta solo",
+                "Solo cuando un usuario reporte un error"
+              ],
+              "correctAnswer": "Durante el proceso de desarrollo e implementación de la funcionalidad",
+              "explanation": "La respuesta correcta es: Durante el proceso de desarrollo e implementación de la funcionalidad"
+            },
+            {
+              "text": "La gerencia duda en invertir en documentación de usuario detallada. ¿Cuál es una desventaja reconocida de este tipo de documentación si no se gestiona bien?",
+              "options": [
+                "Mejora la experiencia del usuario",
+                "Puede volverse obsoleta rápidamente y es costosa de mantener",
+                "Aumenta las llamadas a soporte técnico",
+                "Facilita la venta del producto"
+              ],
+              "correctAnswer": "Puede volverse obsoleta rápidamente y es costosa de mantener",
+              "explanation": "La respuesta correcta es: Puede volverse obsoleta rápidamente y es costosa de mantener"
+            },
+            {
+              "text": "Un equipo quiere crear un sitio web de documentación estática y navegable utilizando archivos Markdown sencillos. ¿Qué herramienta es adecuada para este propósito?",
+              "options": [
+                "Swagger",
+                "MkDocs",
+                "Javadoc",
+                "Doxygen"
+              ],
+              "correctAnswer": "MkDocs",
+              "explanation": "La respuesta correcta es: MkDocs"
+            },
+            {
+              "text": "En un proyecto para una entidad gubernamental, se exige un registro exacto de quién tomó cada decisión de diseño y cuándo. ¿Qué función cumple la documentación en este contexto?",
+              "options": [
+                "Responsabilidad y transparencia",
+                "Optimización",
+                "Escalabilidad",
+                "Continuidad"
+              ],
+              "correctAnswer": "Responsabilidad y transparencia",
+              "explanation": "La respuesta correcta es: Responsabilidad y transparencia"
+            },
+            {
+              "text": "Un usuario reporta un error crítico (bug) en el sistema de facturación que impide generar cobros. El equipo técnico interviene para solucionarlo de inmediato. ¿Qué tipo de mantenimiento es este?",
+              "options": [
+                "Actualización de características",
+                "Corrección de errores (Correctivo)",
+                "Mantenimiento preventivo",
+                "Mejoras y optimización"
+              ],
+              "correctAnswer": "Corrección de errores (Correctivo)",
+              "explanation": "La respuesta correcta es: Corrección de errores (Correctivo)"
+            },
+            {
+              "text": "Un nuevo desarrollador tarda semanas en ser productivo porque no entiende cómo contribuir al proyecto. ¿Qué documento específico debería haber consultado o existido?",
+              "options": [
+                "FAQ de usuario",
+                "Manual de usuario",
+                "Glosario de términos",
+                "Guía de desarrollo (Contributing guidelines)"
+              ],
+              "correctAnswer": "Guía de desarrollo (Contributing guidelines)",
+              "explanation": "La respuesta correcta es: Guía de desarrollo (Contributing guidelines)"
+            },
+            {
+              "text": "Al documentar una API para terceros, ¿qué información es indispensable incluir para que puedan consumirla correctamente?",
+              "options": [
+                "Los nombres de los desarrolladores",
+                "La estructura de carpetas del servidor",
+                "El historial de correos del equipo",
+                "Puntos finales (endpoints), parámetros y formatos de respuesta"
+              ],
+              "correctAnswer": "Puntos finales (endpoints), parámetros y formatos de respuesta",
+              "explanation": "La respuesta correcta es: Puntos finales (endpoints), parámetros y formatos de respuesta"
+            },
+            {
+              "text": "Se necesita generar documentación técnica para un proyecto que combina código en C++ y C#. ¿Qué herramienta es capaz de manejar múltiples lenguajes y generar salida en HTML?",
+              "options": [
+                "Swagger",
+                "Javadoc",
+                "GitBook",
+                "Doxygen"
+              ],
+              "correctAnswer": "Doxygen",
+              "explanation": "La respuesta correcta es: Doxygen"
+            },
+            {
+              "text": "Un manual técnico entrega explicaciones sobre la arquitectura del servidor a un usuario final que solo quiere saber cómo imprimir un reporte. ¿Qué principio de documentación se ha ignorado?",
+              "options": [
+                "Actualización",
+                "Precisión",
+                "Organización",
+                "Dirigida al público objetivo"
+              ],
+              "correctAnswer": "Dirigida al público objetivo",
+              "explanation": "La respuesta correcta es: Dirigida al público objetivo"
+            },
+            {
+              "text": "El sistema operativo de los servidores se ha actualizado y la aplicación requiere ajustes para seguir funcionando correctamente. ¿Qué categoría de mantenimiento se aplica?",
+              "options": [
+                "Garantía de compatibilidad (Adaptativo)",
+                "Correctivo",
+                "Preventivo",
+                "Documental"
+              ],
+              "correctAnswer": "Garantía de compatibilidad (Adaptativo)",
+              "explanation": "La respuesta correcta es: Garantía de compatibilidad (Adaptativo)"
+            },
+            {
+              "text": "Se descubre que la documentación describe una funcionalidad que fue eliminada hace seis meses, confundiendo a los usuarios. ¿Qué principio básico de la documentación falló?",
+              "options": [
+                "Complejidad",
+                "Claridad",
+                "Estilo",
+                "Precisión y actualización"
+              ],
+              "correctAnswer": "Precisión y actualización",
+              "explanation": "La respuesta correcta es: Precisión y actualización"
+            },
+            {
+              "text": "Para ayudar a los usuarios a familiarizarse rápidamente con el software sin leer todo el manual, ¿qué sección se debe incluir en la documentación?",
+              "options": [
+                "Guía de inicio rápido",
+                "Arquitectura del sistema",
+                "Licencia de software",
+                "Referencia de API"
+              ],
+              "correctAnswer": "Guía de inicio rápido",
+              "explanation": "La respuesta correcta es: Guía de inicio rápido"
+            },
+            {
+              "text": "Un equipo de código abierto busca una plataforma gratuita para alojar su documentación generada con Sphinx o MkDocs. ¿Qué servicio es el más habitual?",
+              "options": [
+                "Excel",
+                "Read the Docs",
+                "Notepad++",
+                "Microsoft Word Online"
+              ],
+              "correctAnswer": "Read the Docs",
+              "explanation": "La respuesta correcta es: Read the Docs"
+            },
+            {
+              "text": "¿Cuál es el riesgo principal de mantener una documentación desactualizada o incorrecta en un entorno laboral?",
+              "options": [
+                "Puede ser peor que no tener documentación, induciendo a errores",
+                "Que ocupe mucho espacio en disco",
+                "Que el código se compile más lento",
+                "Que los usuarios aprendan demasiado rápido"
+              ],
+              "correctAnswer": "Puede ser peor que no tener documentación, induciendo a errores",
+              "explanation": "La respuesta correcta es: Puede ser peor que no tener documentación, induciendo a errores"
+            },
+            {
+              "text": "En la documentación, se utilizan términos como \"Widget\", \"API\" y \"Backend\". Para asegurar que todos los lectores los entiendan, ¿qué sección se debe añadir?",
+              "options": [
+                "Instalación",
+                "Glosario",
+                "Introducción",
+                "Solución de problemas"
+              ],
+              "correctAnswer": "Glosario",
+              "explanation": "La respuesta correcta es: Glosario"
+            },
+            {
+              "text": "Se utiliza Git para el código, pero la documentación se guarda en archivos Word compartidos por correo, provocando desincronización. ¿Qué buena práctica resolvería esto?",
+              "options": [
+                "Integrar la documentación en el sistema de control de versiones",
+                "Dejar de documentar",
+                "Usar solo comentarios en el código",
+                "Imprimir la documentación"
+              ],
+              "correctAnswer": "Integrar la documentación en el sistema de control de versiones",
+              "explanation": "La respuesta correcta es: Integrar la documentación en el sistema de control de versiones"
+            },
+            {
+              "text": "¿Cuál es una fuente valiosa y directa para identificar qué partes de la documentación de usuario necesitan mejoras o aclaraciones?",
+              "options": [
+                "El feedback de los usuarios",
+                "El código fuente",
+                "El compilador",
+                "La intuición del desarrollador"
+              ],
+              "correctAnswer": "El feedback de los usuarios",
+              "explanation": "La respuesta correcta es: El feedback de los usuarios"
+            },
+            {
+              "text": "Se desea crear un sitio web estático moderno para documentar el proyecto, que incluya blog y páginas adicionales, usando una herramienta basada en React. ¿Cuál es la opción mencionada?",
+              "options": [
+                "Docusaurus",
+                "Swagger",
+                "Doxygen",
+                "Javadoc"
+              ],
+              "correctAnswer": "Docusaurus",
+              "explanation": "La respuesta correcta es: Docusaurus"
+            },
+            {
+              "text": "Un programador comenta cada línea de código explicando \"qué\" hace (ej: \"suma 1 a i\"), en lugar de \"por qué\" lo hace. ¿Es esto una buena práctica?",
+              "options": [
+                "No, los comentarios deben explicar el propósito y razonamiento, no lo evidente",
+                "Sí, cuantos más comentarios mejor",
+                "No, el código nunca debe tener comentarios",
+                "Sí, es obligatorio para Javadoc"
+              ],
+              "correctAnswer": "No, los comentarios deben explicar el propósito y razonamiento, no lo evidente",
+              "explanation": "La respuesta correcta es: No, los comentarios deben explicar el propósito y razonamiento, no lo evidente"
+            },
+            {
+              "text": "¿Qué efecto tiene una documentación técnica de alta calidad sobre el proceso de incorporación (onboarding) de nuevos empleados?",
+              "options": [
+                "Reemplaza la necesidad de saber programar",
+                "Lo hace más lento y burocrático",
+                "No tiene ningún efecto",
+                "Ayuda a la formación y reduce la curva de aprendizaje"
+              ],
+              "correctAnswer": "Ayuda a la formación y reduce la curva de aprendizaje",
+              "explanation": "La respuesta correcta es: Ayuda a la formación y reduce la curva de aprendizaje"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

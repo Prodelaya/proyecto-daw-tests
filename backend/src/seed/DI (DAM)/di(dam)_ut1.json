@@ -1,0 +1,335 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 1,
+          "title": "UT1",
+          "questions": [
+            {
+              "text": "Un programador junior te pregunta por qué C# 1.0, lanzado en 2002, fue tan fundamental. ¿Qué característica clave de esa versión inicial, que sigue siendo esencial hoy, le mencionarías?",
+              "options": [
+                "La introducción de tipos anónimos y expresiones lambda.",
+                "La implementación de LINQ (Language Integrated Query).",
+                "La capacidad de programación asíncrona con async y await.",
+                "La presencia de características básicas como clases, interfaces y manejo de excepciones."
+              ],
+              "correctAnswer": "La presencia de características básicas como clases, interfaces y manejo de excepciones.",
+              "explanation": "La respuesta correcta es: La presencia de características básicas como clases, interfaces y manejo de excepciones."
+            },
+            {
+              "text": "¿Cuál fue la principal innovación introducida en C# 3.0 (2007) que facilitó enormemente el trabajo y consulta de datos directamente en el lenguaje?",
+              "options": [
+                "LINQ (Language Integrated Query).",
+                "La programación dinámica.",
+                "Los inicializadores de propiedades automáticas.",
+                "Los tipos de datos genéricos."
+              ],
+              "correctAnswer": "LINQ (Language Integrated Query).",
+              "explanation": "La respuesta correcta es: LINQ (Language Integrated Query)."
+            },
+            {
+              "text": "Un compañero está migrando un proyecto antiguo y encuentra código que utiliza profusamente async y await para gestionar operaciones de entrada/salida sin bloqueo. ¿A partir de qué versión de C# (lanzada en 2012) se introdujeron estas palabras clave?",
+              "options": [
+                "C# 4.0",
+                "C# 6.0",
+                "C# 3.0",
+                "C# 5.0"
+              ],
+              "correctAnswer": "C# 5.0",
+              "explanation": "La respuesta correcta es: C# 5.0"
+            },
+            {
+              "text": "Durante una revisión de código, ves que un colega utiliza \"clases de registro\" (record classes) para un objeto de transferencia de datos inmutable. ¿Esta característica, que facilita la manipulación de datos, fue introducida en qué versión de C#?",
+              "options": [
+                "C# 8.0",
+                "C# 7.0",
+                "C# 9.0",
+                "C# 12"
+              ],
+              "correctAnswer": "C# 9.0",
+              "explanation": "La respuesta correcta es: C# 9.0"
+            },
+            {
+              "text": "Tu equipo está considerando actualizar a .NET 8 y aprovechar las nuevas características de C# 12. ¿Cuál de las siguientes es una de las novedades introducidas en C# 12?",
+              "options": [
+                "Métodos de extensión y expresiones lambda.",
+                "Constructores primarios para clases y estructuras.",
+                "La recolección automática de basura (garbage collection).",
+                "Tipos de datos genéricos y métodos parciales."
+              ],
+              "correctAnswer": "Constructores primarios para clases y estructuras.",
+              "explanation": "La respuesta correcta es: Constructores primarios para clases y estructuras."
+            },
+            {
+              "text": "Estás explicando a un becario por qué C# ayuda a prevenir errores comunes en tiempo de ejecución. Mencionas que el tipo de una variable se verifica en tiempo de compilación y no puede cambiar. ¿A qué característica te refieres?",
+              "options": [
+                "Interoperabilidad.",
+                "Gestión Automática de Memoria.",
+                "Programación Orientada a Objetos (OOP).",
+                "Tipado Estático y Fuerte."
+              ],
+              "correctAnswer": "Tipado Estático y Fuerte.",
+              "explanation": "La respuesta correcta es: Tipado Estático y Fuerte."
+            },
+            {
+              "text": "¿Qué componente fundamental de C# y la plataforma .NET se encarga de gestionar eficientemente la asignación y liberación de memoria, reduciendo las fugas de memoria?",
+              "options": [
+                "El compilador JIT (Just-In-Time).",
+                "La Task Parallel Library (TPL).",
+                "LINQ (Language Integrated Query).",
+                "La recolección automática de basura (garbage collection)."
+              ],
+              "correctAnswer": "La recolección automática de basura (garbage collection).",
+              "explanation": "La respuesta correcta es: La recolección automática de basura (garbage collection)."
+            },
+            {
+              "text": "Un desarrollador necesita integrar una biblioteca nativa de alto rendimiento escrita en C++ en su aplicación C#. ¿Qué característica principal de C# le facilita esta integración con código no gestionado o COM?",
+              "options": [
+                "La compatibilidad con .NET.",
+                "La interoperabilidad.",
+                "El tipado estático.",
+                "El desarrollo basado en componentes."
+              ],
+              "correctAnswer": "La interoperabilidad.",
+              "explanation": "La respuesta correcta es: La interoperabilidad."
+            },
+            {
+              "text": "Un jefe de proyecto decide usar C# para una nueva aplicación empresarial que debe funcionar tanto en servidores Linux como en estaciones de trabajo Windows. ¿Qué evolución de .NET permite este desarrollo multiplataforma?",
+              "options": [
+                ".NET Core (y su evolución a .NET 5 y posteriores).",
+                "El soporte para componentes COM.",
+                ".NET Framework 1.0",
+                "La introducción de async y await."
+              ],
+              "correctAnswer": ".NET Core (y su evolución a .NET 5 y posteriores).",
+              "explanation": "La respuesta correcta es: .NET Core (y su evolución a .NET 5 y posteriores)."
+            },
+            {
+              "text": "¿Qué principio de la Programación Orientada a Objetos (OOP), fundamental en C#, permite modelar sistemas complejos encapsulando datos y comportamientos relacionados dentro de \"objetos\"?",
+              "options": [
+                "La interoperabilidad con C++.",
+                "El desarrollo multiplataforma.",
+                "La gestión automática de memoria.",
+                "El encapsulamiento (como parte de la OOP)."
+              ],
+              "correctAnswer": "El encapsulamiento (como parte de la OOP).",
+              "explanation": "La respuesta correcta es: El encapsulamiento (como parte de la OOP)."
+            },
+            {
+              "text": "Un nuevo programador en tu equipo no entiende por qué su aplicación de consola no se ejecuta. Ha escrito varias clases, pero falta el punto de inicio obligatorio. ¿Qué método específico es esencial para que se inicie la aplicación?",
+              "options": [
+                "El método Main.",
+                "La directiva using System;",
+                "El constructor de la clase.",
+                "La declaración del namespace."
+              ],
+              "correctAnswer": "El método Main.",
+              "explanation": "La respuesta correcta es: El método Main."
+            },
+            {
+              "text": "En la parte superior de un archivo C#, encuentras la línea using System;. ¿Cuál es el propósito principal de esta directiva?",
+              "options": [
+                "Definir el nombre de la aplicación.",
+                "Permitir el uso de tipos definidos en el espacio de nombres System sin especificar el nombre completo.",
+                "Iniciar la ejecución del programa.",
+                "Declarar una nueva clase para el programa."
+              ],
+              "correctAnswer": "Permitir el uso de tipos definidos en el espacio de nombres System sin especificar el nombre completo.",
+              "explanation": "La respuesta correcta es: Permitir el uso de tipos definidos en el espacio de nombres System sin especificar el nombre completo."
+            },
+            {
+              "text": "Para evitar conflictos de nombres y organizar lógicamente las clases Cliente y Pedido en un proyecto grande, ¿qué agrupación lógica de C# deberías utilizar para contenerlas?",
+              "options": [
+                "Un espacio de nombres (namespace).",
+                "Un ensamblado.",
+                "Una directiva using.",
+                "Un método Main."
+              ],
+              "correctAnswer": "Un espacio de nombres (namespace).",
+              "explanation": "La respuesta correcta es: Un espacio de nombres (namespace)."
+            },
+            {
+              "text": "Revisando el código de un compañero, ves una definición que empieza con class Program. ¿Cuál es la función principal de una \"clase\" en C#?",
+              "options": [
+                "Importar bibliotecas externas.",
+                "Actuar como punto de entrada de la aplicación.",
+                "Definir la estructura y el comportamiento de los objetos.",
+                "Agrupar lógicamente otras clases bajo un nombre común."
+              ],
+              "correctAnswer": "Definir la estructura y el comportamiento de los objetos.",
+              "explanation": "La respuesta correcta es: Definir la estructura y el comportamiento de los objetos."
+            },
+            {
+              "text": "Un desarrollador está creando una aplicación financiera que requiere cálculos monetarios con 28-29 dígitos de precisión. ¿Qué tipo de dato de punto flotante debe elegir para evitar errores de redondeo?",
+              "options": [
+                "double",
+                "float",
+                "long",
+                "decimal"
+              ],
+              "correctAnswer": "decimal",
+              "explanation": "La respuesta correcta es: decimal"
+            },
+            {
+              "text": "En C#, los tipos de datos se dividen en dos categorías principales que determinan cómo se almacenan en la memoria y cómo se comportan. ¿Cuáles son estas dos categorías?",
+              "options": [
+                "Estáticos y Dinámicos.",
+                "Enteros y Flotantes.",
+                "Tipos de valor y Tipos de referencia.",
+                "Públicos y Privados."
+              ],
+              "correctAnswer": "Tipos de valor y Tipos de referencia.",
+              "explanation": "La respuesta correcta es: Tipos de valor y Tipos de referencia."
+            },
+            {
+              "text": "Necesitas almacenar un contador para las iteraciones de un bucle que nunca superará el valor de 200. ¿Qué tipo de dato entero sin signo es el más eficiente en términos de memoria para este propósito?",
+              "options": [
+                "byte",
+                "sbyte",
+                "int",
+                "short"
+              ],
+              "correctAnswer": "byte",
+              "explanation": "La respuesta correcta es: byte"
+            },
+            {
+              "text": "Estás depurando un código y encuentras una variable declarada como object que almacena un número. Aunque esto es posible, ¿qué desventaja principal tiene el uso excesivo del tipo object?",
+              "options": [
+                "Requiere menos memoria que los tipos específicos.",
+                "No puede ser utilizado en colecciones o matrices.",
+                "No puede almacenar tipos de referencia como string.",
+                "Implica conversiones de tipo y aumenta la posibilidad de errores en tiempo de ejecución."
+              ],
+              "correctAnswer": "Implica conversiones de tipo y aumenta la posibilidad de errores en tiempo de ejecución.",
+              "explanation": "La respuesta correcta es: Implica conversiones de tipo y aumenta la posibilidad de errores en tiempo de ejecución."
+            },
+            {
+              "text": "¿Cómo se declara una variable en C# para asegurar que su valor no pueda ser modificado después de la inicialización, convirtiéndola en una constante?",
+              "options": [
+                "Asignando un valor en la misma línea de la declaración.",
+                "Usando la palabra clave const antes del tipo de dato.",
+                "Usando la palabra clave readonly en lugar del tipo.",
+                "Usando la palabra clave static antes del tipo."
+              ],
+              "correctAnswer": "Usando la palabra clave const antes del tipo de dato.",
+              "explanation": "La respuesta correcta es: Usando la palabra clave const antes del tipo de dato."
+            },
+            {
+              "text": "Un programador intenta modificar un valor declarado como const double PI = 3.14159; asignándole PI = 3.14; dentro de un método. ¿Por qué fallará esta operación?",
+              "options": [
+                "Porque las constantes solo pueden ser de tipo int.",
+                "Porque la nueva asignación tiene menos precisión decimal.",
+                "Porque el valor de una constante se fija en tiempo de compilación y no puede cambiar.",
+                "Porque PI es un tipo double y no puede ser modificado."
+              ],
+              "correctAnswer": "Porque el valor de una constante se fija en tiempo de compilación y no puede cambiar.",
+              "explanation": "La respuesta correcta es: Porque el valor de una constante se fija en tiempo de compilación y no puede cambiar."
+            },
+            {
+              "text": "¿Qué operador de comparación se utiliza en una estructura if para comprobar si dos variables, a y b, son exactamente iguales en valor?",
+              "options": [
+                "a && b",
+                "a = b",
+                "a == b",
+                "a != b"
+              ],
+              "correctAnswer": "a == b",
+              "explanation": "La respuesta correcta es: a == b"
+            },
+            {
+              "text": "Tienes una variable int contador = 10; y necesitas sumarle 5, asignando el resultado a la misma variable. ¿Cuál es la forma abreviada de contador = contador + 5; usando un operador de asignación compuesta?",
+              "options": [
+                "contador ++ 5;",
+                "contador && 5;",
+                "contador += 5;",
+                "contador =+ 5;"
+              ],
+              "correctAnswer": "contador += 5;",
+              "explanation": "La respuesta correcta es: contador += 5;"
+            },
+            {
+              "text": "Un programador necesita asignar un valor predeterminado \"Desconocido\" a una variable string nombre solo si esta variable resulta ser nula. ¿Qué operador de coalescencia nula permite hacer esto de forma concisa?",
+              "options": [
+                "nombre ?? \"Desconocido\"",
+                "nombre ? \"Desconocido\"",
+                "? \"Desconocido\"",
+                "nombre !! \"Desconocido\""
+              ],
+              "correctAnswer": "nombre ?? \"Desconocido\"",
+              "explanation": "La respuesta correcta es: nombre ?? \"Desconocido\""
+            },
+            {
+              "text": "¿Cuál es la función del operador lógico && (AND lógico) cuando se utiliza en una expresión booleana, como if (condicion1 && condicion2)?",
+              "options": [
+                "Devuelve verdadero solo si ambas condiciones son verdaderas.",
+                "Devuelve verdadero si al menos una de las condiciones es verdadera.",
+                "Devuelve verdadero solo si la primera condición es verdadera.",
+                "Invierte el resultado de la expresión booleana."
+              ],
+              "correctAnswer": "Devuelve verdadero solo si ambas condiciones son verdaderas.",
+              "explanation": "La respuesta correcta es: Devuelve verdadero solo si ambas condiciones son verdaderas."
+            },
+            {
+              "text": "Analiza la siguiente expresión que utiliza el operador ternario: string mensaje = (edad >= 18) ? \"Adulto\" : \"Menor\";. Si la variable edad tiene el valor 20, ¿qué valor se asignará a mensaje?",
+              "options": [
+                "\"Adulto\"",
+                "\"Menor\"",
+                "null",
+                "La expresión causará un error."
+              ],
+              "correctAnswer": "\"Adulto\"",
+              "explanation": "La respuesta correcta es: \"Adulto\""
+            },
+            {
+              "text": "Un desarrollador necesita ejecutar un bloque de código si una variable edad es menor de 18, y un bloque de código diferente si es 18 o mayor. ¿Qué estructura condicional es la más adecuada para esta decisión binaria?",
+              "options": [
+                "if-else",
+                "for",
+                "do-while",
+                "switch"
+              ],
+              "correctAnswer": "if-else",
+              "explanation": "La respuesta correcta es: if-else"
+            },
+            {
+              "text": "¿Cuál es la diferencia principal entre un bucle while y un bucle do-while en C#?",
+              "options": [
+                "while se ejecuta un número fijo de veces, do-while no.",
+                "do-while ejecuta su bloque de código al menos una vez, while puede no ejecutarlo nunca.",
+                "do-while solo funciona con colecciones, while con condiciones booleanas.",
+                "while evalúa la condición al final, do-while al principio."
+              ],
+              "correctAnswer": "do-while ejecuta su bloque de código al menos una vez, while puede no ejecutarlo nunca.",
+              "explanation": "La respuesta correcta es: do-while ejecuta su bloque de código al menos una vez, while puede no ejecutarlo nunca."
+            },
+            {
+              "text": "Necesitas iterar sobre cada objeto Cliente en una List<Cliente> llamada clientes para imprimir sus nombres. ¿Qué bucle es el más adecuado y limpio para recorrer todos los elementos de esta colección sin gestionar un índice numérico?",
+              "options": [
+                "foreach",
+                "while",
+                "do-while",
+                "for"
+              ],
+              "correctAnswer": "foreach",
+              "explanation": "La respuesta correcta es: foreach"
+            },
+            {
+              "text": "Durante la ejecución de un bucle for que itera 100 veces, necesitas detener completamente la ejecución del bucle si se encuentra un valor específico (ej. if (i == 50)). ¿Qué instrucción de salto debes usar para salir del bucle inmediatamente?",
+              "options": [
+                "return",
+                "continue",
+                "goto",
+                "break"
+              ],
+              "correctAnswer": "break",
+              "explanation": "La respuesta correcta es: break"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

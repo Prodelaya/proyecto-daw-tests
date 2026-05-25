@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PMDM",
+      "name": "Programación multimedia y dispositivos móviles",
+      "topics": [
+        {
+          "number": 2,
+          "title": "UT2",
+          "questions": [
+            {
+              "text": "¿Qué otra acción crucial debes realizar en la fase de Planificación e Investigación para entender el entorno del proyecto?",
+              "options": [
+                "Escribir el código fuente preliminar en Java.",
+                "Configurar el servidor de base de datos.",
+                "Realizar una investigación de mercado para entender a usuarios y competidores.",
+                "Diseñar los iconos finales de la interfaz."
+              ],
+              "correctAnswer": "Realizar una investigación de mercado para entender a usuarios y competidores.",
+              "explanation": "La respuesta correcta es: Realizar una investigación de mercado para entender a usuarios y competidores."
+            },
+            {
+              "text": "¿Qué herramientas de software específicas para UI/UX se utilizan en la fase de diseño?",
+              "options": [
+                "InVision y Marvel.",
+                "Appium y Espresso.",
+                "Android Studio y Xcode.",
+                "Sketch, Adobe XD o Figma."
+              ],
+              "correctAnswer": "Sketch, Adobe XD o Figma.",
+              "explanation": "La respuesta correcta es: Sketch, Adobe XD o Figma."
+            },
+            {
+              "text": "¿Qué fase permite mostrar una vista previa interactiva de la aplicación para recibir retroalimentación?",
+              "options": [
+                "Desarrollo de Prototipos.",
+                "Preverificación.",
+                "Despliegue.",
+                "Mantenimiento."
+              ],
+              "correctAnswer": "Desarrollo de Prototipos.",
+              "explanation": "La respuesta correcta es: Desarrollo de Prototipos."
+            },
+            {
+              "text": "¿Qué tipo de herramientas permiten desarrollar apps multiplataforma con un solo código base?",
+              "options": [
+                "Herramientas para aplicaciones híbridas.",
+                "Herramientas de prototipado.",
+                "Herramientas para aplicaciones web puras.",
+                "Herramientas para aplicaciones nativas."
+              ],
+              "correctAnswer": "Herramientas para aplicaciones híbridas.",
+              "explanation": "La respuesta correcta es: Herramientas para aplicaciones híbridas."
+            },
+            {
+              "text": "¿Qué tecnologías se usan para desarrollar una aplicación web responsiva?",
+              "options": [
+                "C# y .NET.",
+                "HTML, CSS y JavaScript.",
+                "Swift y Objective-C.",
+                "Kotlin y Java."
+              ],
+              "correctAnswer": "HTML, CSS y JavaScript.",
+              "explanation": "La respuesta correcta es: HTML, CSS y JavaScript."
+            },
+            {
+              "text": "¿Qué herramientas son adecuadas para la fase de pruebas automáticas?",
+              "options": [
+                "SQLite y LocalStorage.",
+                "PhoneGap y Cordova.",
+                "Google Play y App Store.",
+                "Appium, Espresso o XCUITest."
+              ],
+              "correctAnswer": "Appium, Espresso o XCUITest.",
+              "explanation": "La respuesta correcta es: Appium, Espresso o XCUITest."
+            },
+            {
+              "text": "¿Cómo se procesa el código JavaScript en PhoneGap durante el desarrollo?",
+              "options": [
+                "Se ignora y solo se usa HTML.",
+                "Se preverifica en código de bytes.",
+                "Es un lenguaje interpretado que se traduce en tiempo de ejecución.",
+                "Se traduce a código máquina antes de instalarse."
+              ],
+              "correctAnswer": "Es un lenguaje interpretado que se traduce en tiempo de ejecución.",
+              "explanation": "La respuesta correcta es: Es un lenguaje interpretado que se traduce en tiempo de ejecución."
+            },
+            {
+              "text": "¿Qué ocurre con la fase de Preverificación al trabajar con PhoneGap?",
+              "options": [
+                "No es relevante para una aplicación PhoneGap.",
+                "Es obligatoria para usar GPS.",
+                "Se realiza en la nube de Adobe.",
+                "Es el paso más crítico de seguridad."
+              ],
+              "correctAnswer": "No es relevante para una aplicación PhoneGap.",
+              "explanation": "La respuesta correcta es: No es relevante para una aplicación PhoneGap."
+            },
+            {
+              "text": "¿Qué acción se realiza en la fase de empaquetado para Android en PhoneGap?",
+              "options": [
+                "Se sube el código a un servidor FTP.",
+                "Se minifica el CSS.",
+                "Se genera un .exe para Windows.",
+                "Se crea un archivo .apk con la app y sus recursos."
+              ],
+              "correctAnswer": "Se crea un archivo .apk con la app y sus recursos.",
+              "explanation": "La respuesta correcta es: Se crea un archivo .apk con la app y sus recursos."
+            },
+            {
+              "text": "¿Qué plugin permite controlar los accesos de red en PhoneGap?",
+              "options": [
+                "cordova-plugin-device.",
+                "cordova-plugin-network-information.",
+                "cordova-plugin-camera.",
+                "cordova-plugin-whitelist."
+              ],
+              "correctAnswer": "cordova-plugin-whitelist.",
+              "explanation": "La respuesta correcta es: cordova-plugin-whitelist."
+            },
+            {
+              "text": "¿Cómo se llama la política de seguridad configurada mediante una etiqueta meta en HTML?",
+              "options": [
+                "Secure Sockets Layer (SSL).",
+                "Content Security Policy (CSP).",
+                "Cross-Origin Resource Sharing (CORS).",
+                "HTTPS Strict Transport Security (HSTS)."
+              ],
+              "correctAnswer": "Content Security Policy (CSP).",
+              "explanation": "La respuesta correcta es: Content Security Policy (CSP)."
+            },
+            {
+              "text": "¿Qué etiqueta XML permite acceso a cualquier URL en config.xml?",
+              "options": [
+                "<network allow=\"true\" />",
+                "<link href=\"*\" />",
+                "<source url=\"*\" />",
+                "<access origin=\"*\" /> *"
+              ],
+              "correctAnswer": "<access origin=\"*\" /> *",
+              "explanation": "La respuesta correcta es: <access origin=\"*\" /> *"
+            },
+            {
+              "text": "¿Qué preferencia define la versión mínima del SDK Android soportada?",
+              "options": [
+                "android-maxSdkVersion",
+                "android-targetSdkVersion",
+                "android-versionCode",
+                "android-minSdkVersion"
+              ],
+              "correctAnswer": "android-minSdkVersion",
+              "explanation": "La respuesta correcta es: android-minSdkVersion"
+            },
+            {
+              "text": "¿Qué comando compila la aplicación PhoneGap para Android?",
+              "options": [
+                "phonegap run browser",
+                "phonegap install windows",
+                "phonegap build android",
+                "phonegap serve"
+              ],
+              "correctAnswer": "phonegap build android",
+              "explanation": "La respuesta correcta es: phonegap build android"
+            },
+            {
+              "text": "¿Cómo se define técnicamente la Interfaz de Usuario en desarrollo web móvil?",
+              "options": [
+                "Como área de memoria gráfica.",
+                "A través de HTML y CSS.",
+                "Como bases de datos del servidor.",
+                "Mediante Canvas exclusivamente."
+              ],
+              "correctAnswer": "A través de HTML y CSS.",
+              "explanation": "La respuesta correcta es: A través de HTML y CSS."
+            },
+            {
+              "text": "¿Qué es el contexto gráfico en una aplicación web o móvil?",
+              "options": [
+                "La tarjeta gráfica física.",
+                "La resolución máxima.",
+                "El entorno donde se dibujan los gráficos.",
+                "El esquema de colores."
+              ],
+              "correctAnswer": "El entorno donde se dibujan los gráficos.",
+              "explanation": "La respuesta correcta es: El entorno donde se dibujan los gráficos."
+            },
+            {
+              "text": "¿Qué se modifica conceptualmente al cambiar un icono dinámicamente con JavaScript?",
+              "options": [
+                "El sistema operativo.",
+                "Lo que se dibuja en el contexto gráfico.",
+                "El hardware de pantalla.",
+                "La velocidad de conexión."
+              ],
+              "correctAnswer": "Lo que se dibuja en el contexto gráfico.",
+              "explanation": "La respuesta correcta es: Lo que se dibuja en el contexto gráfico."
+            },
+            {
+              "text": "¿Qué tipo de evento detecta la pulsación de Enter en el teclado virtual?",
+              "options": [
+                "Eventos de giroscopio.",
+                "Eventos del teclado.",
+                "Eventos de ciclo de vida.",
+                "Eventos de ratón."
+              ],
+              "correctAnswer": "Eventos del teclado.",
+              "explanation": "La respuesta correcta es: Eventos del teclado."
+            },
+            {
+              "text": "¿Cómo se denomina la técnica de transición visual suave en la interfaz?",
+              "options": [
+                "Técnica de enrutamiento.",
+                "Técnica de persistencia.",
+                "Técnica de animación.",
+                "Técnica de compilación."
+              ],
+              "correctAnswer": "Técnica de animación.",
+              "explanation": "La respuesta correcta es: Técnica de animación."
+            },
+            {
+              "text": "¿Qué plugin de PhoneGap permite reproducir archivos de audio?",
+              "options": [
+                "Plugin SoundBlaster.",
+                "Plugin AudioCapture.",
+                "Plugin File.",
+                "Plugin Media."
+              ],
+              "correctAnswer": "Plugin Media.",
+              "explanation": "La respuesta correcta es: Plugin Media."
+            },
+            {
+              "text": "¿Cómo se denomina el proceso de localización y comunicación con otros servicios?",
+              "options": [
+                "Enrutamiento estático.",
+                "Descubrimiento de servicios.",
+                "Compilación cruzada.",
+                "Minería de datos."
+              ],
+              "correctAnswer": "Descubrimiento de servicios.",
+              "explanation": "La respuesta correcta es: Descubrimiento de servicios."
+            },
+            {
+              "text": "¿Qué solución es adecuada para almacenar y manipular grandes volúmenes de datos estructurados?",
+              "options": [
+                "Memoria RAM.",
+                "Una base de datos.",
+                "Cookies.",
+                "Un archivo de texto plano."
+              ],
+              "correctAnswer": "Una base de datos.",
+              "explanation": "La respuesta correcta es: Una base de datos."
+            },
+            {
+              "text": "¿Qué objeto JavaScript permite guardar datos de forma persistente clave-valor?",
+              "options": [
+                "window.sessionStorage",
+                "document.cookie",
+                "indexedDB",
+                "localStorage"
+              ],
+              "correctAnswer": "localStorage",
+              "explanation": "La respuesta correcta es: localStorage"
+            },
+            {
+              "text": "¿Qué lenguaje se utiliza en SQLite para crear tablas e insertar datos?",
+              "options": [
+                "JSON.",
+                "JavaScript puro.",
+                "XML.",
+                "SQL."
+              ],
+              "correctAnswer": "SQL.",
+              "explanation": "La respuesta correcta es: SQL."
+            },
+            {
+              "text": "¿Qué concepto define mantener los datos tras cerrar la aplicación?",
+              "options": [
+                "Volatilidad.",
+                "Concurrencia.",
+                "Latencia.",
+                "Persistencia."
+              ],
+              "correctAnswer": "Persistencia.",
+              "explanation": "La respuesta correcta es: Persistencia."
+            },
+            {
+              "text": "¿Qué implica que JavaScript sea de un solo hilo?",
+              "options": [
+                "Que usa todos los núcleos.",
+                "Que no hace cálculos complejos.",
+                "Que solo ejecuta una tarea a la vez.",
+                "Que se reinicia periódicamente."
+              ],
+              "correctAnswer": "Que solo ejecuta una tarea a la vez.",
+              "explanation": "La respuesta correcta es: Que solo ejecuta una tarea a la vez."
+            },
+            {
+              "text": "¿Qué técnica evita bloquear la interfaz mientras se esperan datos de una API?",
+              "options": [
+                "Paralelismo de hardware.",
+                "Detención de renderizado.",
+                "Bucles infinitos.",
+                "Técnicas asincrónicas como promesas y callbacks."
+              ],
+              "correctAnswer": "Técnicas asincrónicas como promesas y callbacks.",
+              "explanation": "La respuesta correcta es: Técnicas asincrónicas como promesas y callbacks."
+            },
+            {
+              "text": "¿A qué se refiere la gestión de la comunicación inalámbrica?",
+              "options": [
+                "A la contratación de tarifas.",
+                "Al uso de cables USB.",
+                "A la interacción con redes Wi-Fi, Bluetooth o 4G/5G.",
+                "Al diseño de iconos."
+              ],
+              "correctAnswer": "A la interacción con redes Wi-Fi, Bluetooth o 4G/5G.",
+              "explanation": "La respuesta correcta es: A la interacción con redes Wi-Fi, Bluetooth o 4G/5G."
+            },
+            {
+              "text": "¿Qué función busca dispositivos Bluetooth no emparejados?",
+              "options": [
+                "bluetoothSerial.discoverUnpaired",
+                "bluetoothSerial.connect",
+                "bluetoothSerial.read",
+                "bluetoothSerial.write"
+              ],
+              "correctAnswer": "bluetoothSerial.discoverUnpaired",
+              "explanation": "La respuesta correcta es: bluetoothSerial.discoverUnpaired"
+            },
+            {
+              "text": "¿Qué concepto describe el envío y recepción de información con un dispositivo externo?",
+              "options": [
+                "Envío y recepción de mensajes.",
+                "Establecimiento de la conexión.",
+                "Descubrimiento de servicios.",
+                "Preverificación de paquetes."
+              ],
+              "correctAnswer": "Envío y recepción de mensajes.",
+              "explanation": "La respuesta correcta es: Envío y recepción de mensajes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

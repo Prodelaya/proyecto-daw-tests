@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "SGE",
+      "name": "Sistema de gestión empresarial",
+      "topics": [
+        {
+          "number": 1,
+          "title": "UT1",
+          "questions": [
+            {
+              "text": "¿Cuál es el motor principal que impulsa a las empresas actuales a implementar sistemas ERP y CRM para mejorar su eficiencia?",
+              "options": [
+                "El deseo de eliminar por completo la interacción humana en el servicio al cliente",
+                "La obligatoriedad legal de digitalizar todos los procesos de gestión interna",
+                "La necesidad de reducir el número de empleados en departamentos administrativos",
+                "El entorno empresarial altamente competitivo y dinámico que exige mayor productividad"
+              ],
+              "correctAnswer": "El entorno empresarial altamente competitivo y dinámico que exige mayor productividad",
+              "explanation": "La respuesta correcta es: El entorno empresarial altamente competitivo y dinámico que exige mayor productividad"
+            },
+            {
+              "text": "En el contexto de la gestión empresarial, ¿qué representan las siglas ERP?",
+              "options": [
+                "Enterprise Resource Planning",
+                "External Relationship Protocol",
+                "Essential Recovery Program",
+                "Efficient Revenue Process"
+              ],
+              "correctAnswer": "Enterprise Resource Planning",
+              "explanation": "La respuesta correcta es: Enterprise Resource Planning"
+            },
+            {
+              "text": "¿Cómo ayuda un ERP cuando una empresa duplica esfuerzos al registrar datos en distintos departamentos?",
+              "options": [
+                "Proporcionando herramientas de chat exclusivas para empleados",
+                "Limitando el acceso a la información a un solo directivo por área",
+                "Generando copias de seguridad automáticas de cada registro manual",
+                "Centralizando las operaciones en una única plataforma para eliminar duplicación"
+              ],
+              "correctAnswer": "Centralizando las operaciones en una única plataforma para eliminar duplicación",
+              "explanation": "La respuesta correcta es: Centralizando las operaciones en una única plataforma para eliminar duplicación"
+            },
+            {
+              "text": "¿Qué beneficio del ERP es clave para tomar decisiones estratégicas basadas en inventario y finanzas?",
+              "options": [
+                "Ahorro en licencias de sistemas operativos",
+                "Visión global de la organización con datos precisos",
+                "Modelado de interfaces personalizadas",
+                "Instalación en dispositivos móviles antiguos"
+              ],
+              "correctAnswer": "Visión global de la organización con datos precisos",
+              "explanation": "La respuesta correcta es: Visión global de la organización con datos precisos"
+            },
+            {
+              "text": "¿Cuál es la función principal de un CRM?",
+              "options": [
+                "Administrar servidores físicos",
+                "Controlar nóminas y RRHH",
+                "Gestionar y optimizar relaciones con clientes",
+                "Automatizar la cadena de suministro"
+              ],
+              "correctAnswer": "Gestionar y optimizar relaciones con clientes",
+              "explanation": "La respuesta correcta es: Gestionar y optimizar relaciones con clientes"
+            },
+            {
+              "text": "¿Qué sistema permite personalizar servicios según preferencias de usuarios?",
+              "options": [
+                "ERP",
+                "PostgreSQL",
+                "Linux",
+                "CRM"
+              ],
+              "correctAnswer": "CRM",
+              "explanation": "La respuesta correcta es: CRM"
+            },
+            {
+              "text": "Diferencia clave entre CRM y ERP:",
+              "options": [
+                "No existe diferencia",
+                "ERP siempre en nube y CRM siempre local",
+                "CRM enfocado en relaciones externas y ERP en eficiencia interna",
+                "CRM para grandes empresas y ERP para PYMES"
+              ],
+              "correctAnswer": "CRM enfocado en relaciones externas y ERP en eficiencia interna",
+              "explanation": "La respuesta correcta es: CRM enfocado en relaciones externas y ERP en eficiencia interna"
+            },
+            {
+              "text": "Ventaja de integración ERP-CRM para representante de ventas:",
+              "options": [
+                "Reducir tiempo de conexión a Internet",
+                "Eliminar datos tras venta",
+                "Modificar código fuente durante llamada",
+                "Acceso en tiempo real al historial de pedidos"
+              ],
+              "correctAnswer": "Acceso en tiempo real al historial de pedidos",
+              "explanation": "La respuesta correcta es: Acceso en tiempo real al historial de pedidos"
+            },
+            {
+              "text": "Factor que determina elección de ERP o CRM:",
+              "options": [
+                "Idiomas del soporte técnico",
+                "Color de interfaz",
+                "Tamaño empresa, sector y recursos",
+                "Ubicación sede desarrolladora"
+              ],
+              "correctAnswer": "Tamaño empresa, sector y recursos",
+              "explanation": "La respuesta correcta es: Tamaño empresa, sector y recursos"
+            },
+            {
+              "text": "Solución ERP popular para grandes corporaciones:",
+              "options": [
+                "Pipedrive",
+                "Odoo",
+                "Zoho",
+                "SAP ERP"
+              ],
+              "correctAnswer": "SAP ERP",
+              "explanation": "La respuesta correcta es: SAP ERP"
+            },
+            {
+              "text": "Característica distintiva de Microsoft Dynamics 365 Customer Engagement:",
+              "options": [
+                "Único sistema gratuito >5000 empleados",
+                "Enfoque exclusivo inventarios hardware",
+                "Integración nativa con productos Microsoft",
+                "Imposible fuera de Windows"
+              ],
+              "correctAnswer": "Integración nativa con productos Microsoft",
+              "explanation": "La respuesta correcta es: Integración nativa con productos Microsoft"
+            },
+            {
+              "text": "CRM adecuado para PYMES con recursos limitados:",
+              "options": [
+                "SAP HANA",
+                "Oracle CX",
+                "Zoho",
+                "Mainframe IBM"
+              ],
+              "correctAnswer": "Zoho",
+              "explanation": "La respuesta correcta es: Zoho"
+            },
+            {
+              "text": "Modelo de software de Odoo:",
+              "options": [
+                "Software cerrado propietario",
+                "Gestor de bases de datos sin interfaz",
+                "Suite empresarial de código abierto",
+                "Sistema operativo exclusivo ERP"
+              ],
+              "correctAnswer": "Suite empresarial de código abierto",
+              "explanation": "La respuesta correcta es: Suite empresarial de código abierto"
+            },
+            {
+              "text": "Instalar solo módulos Ventas y Facturación en Odoo corresponde a:",
+              "options": [
+                "Modularidad",
+                "Costo mantenimiento",
+                "Interfaz intuitiva",
+                "Código abierto"
+              ],
+              "correctAnswer": "Modularidad",
+              "explanation": "La respuesta correcta es: Modularidad"
+            },
+            {
+              "text": "Ventaja de que Odoo sea código abierto:",
+              "options": [
+                "Personalización según requerimientos",
+                "Uso sin Internet obligatorio",
+                "Siempre gratuito sin límite usuarios",
+                "Soporte obligatorio voluntarios"
+              ],
+              "correctAnswer": "Personalización según requerimientos",
+              "explanation": "La respuesta correcta es: Personalización según requerimientos"
+            },
+            {
+              "text": "Capacidad de un ERP de crecer con la empresa:",
+              "options": [
+                "Integración procesos",
+                "Gestión de datos",
+                "Automatización",
+                "Escalabilidad"
+              ],
+              "correctAnswer": "Escalabilidad",
+              "explanation": "La respuesta correcta es: Escalabilidad"
+            },
+            {
+              "text": "Funcionalidad CRM para rastrear todos los contactos:",
+              "options": [
+                "Automatización ventas",
+                "Gestión de contactos",
+                "Análisis informes",
+                "Servicio al cliente"
+              ],
+              "correctAnswer": "Gestión de contactos",
+              "explanation": "La respuesta correcta es: Gestión de contactos"
+            },
+            {
+              "text": "Automatización de ventas en CRM implica:",
+              "options": [
+                "Reparación servidores",
+                "Seguimiento de leads y oportunidades",
+                "Cálculo nóminas",
+                "Diseño web corporativo"
+              ],
+              "correctAnswer": "Seguimiento de leads y oportunidades",
+              "explanation": "La respuesta correcta es: Seguimiento de leads y oportunidades"
+            },
+            {
+              "text": "Base de datos requerida por Odoo:",
+              "options": [
+                "Microsoft SQL Server",
+                "PostgreSQL",
+                "Oracle Database",
+                "SAP HANA"
+              ],
+              "correctAnswer": "PostgreSQL",
+              "explanation": "La respuesta correcta es: PostgreSQL"
+            },
+            {
+              "text": "Componente que proporciona entorno de ejecución:",
+              "options": [
+                "Gestor base datos",
+                "Cableado estructurado",
+                "Sistema operativo",
+                "Cortafuegos hardware"
+              ],
+              "correctAnswer": "Sistema operativo",
+              "explanation": "La respuesta correcta es: Sistema operativo"
+            },
+            {
+              "text": "Sistemas operativos compatibles con SAP ERP:",
+              "options": [
+                "Solo sin interfaz gráfica",
+                "Solo Debian",
+                "Windows, Unix, Linux y mainframe",
+                "Solo Windows Server"
+              ],
+              "correctAnswer": "Windows, Unix, Linux y mainframe",
+              "explanation": "La respuesta correcta es: Windows, Unix, Linux y mainframe"
+            },
+            {
+              "text": "Requisito básico para acceder a Oracle ERP Cloud:",
+              "options": [
+                "Windows 11 obligatorio",
+                "Navegador web con Internet",
+                "Base datos local PostgreSQL",
+                "Procesador 32 núcleos"
+              ],
+              "correctAnswer": "Navegador web con Internet",
+              "explanation": "La respuesta correcta es: Navegador web con Internet"
+            },
+            {
+              "text": "Sistema operativo para el que fue diseñado inicialmente Odoo:",
+              "options": [
+                "Unix",
+                "macOS",
+                "Windows",
+                "Linux"
+              ],
+              "correctAnswer": "Linux",
+              "explanation": "La respuesta correcta es: Linux"
+            },
+            {
+              "text": "Importancia de base de datos eficiente:",
+              "options": [
+                "Reducir consumo eléctrico",
+                "Almacenar y recuperar grandes volúmenes de datos",
+                "Bloquear redes sociales",
+                "Ejecutar sin sistema operativo"
+              ],
+              "correctAnswer": "Almacenar y recuperar grandes volúmenes de datos",
+              "explanation": "La respuesta correcta es: Almacenar y recuperar grandes volúmenes de datos"
+            },
+            {
+              "text": "Base de datos preferente en SAP ERP:",
+              "options": [
+                "IBM DB2",
+                "Microsoft SQL Server",
+                "MySQL",
+                "SAP HANA"
+              ],
+              "correctAnswer": "SAP HANA",
+              "explanation": "La respuesta correcta es: SAP HANA"
+            },
+            {
+              "text": "Antes de instalar ERP/CRM se debe evaluar:",
+              "options": [
+                "Opinión sobre logotipo",
+                "Especificaciones técnicas y requisitos hardware/software",
+                "Número programadores en C",
+                "Historial ventas desarrolladora"
+              ],
+              "correctAnswer": "Especificaciones técnicas y requisitos hardware/software",
+              "explanation": "La respuesta correcta es: Especificaciones técnicas y requisitos hardware/software"
+            },
+            {
+              "text": "Preparación en PostgreSQL para instalar Odoo:",
+              "options": [
+                "Desinstalar Java",
+                "Formatear disco propietario",
+                "Cambiar IP servidor correo",
+                "Crear base datos y asignar permisos"
+              ],
+              "correctAnswer": "Crear base datos y asignar permisos",
+              "explanation": "La respuesta correcta es: Crear base datos y asignar permisos"
+            },
+            {
+              "text": "Servidores web recomendados para Odoo:",
+              "options": [
+                "Internet Explorer o Safari",
+                "Apache o Nginx",
+                "MySQL o Oracle",
+                "Windows Home o macOS"
+              ],
+              "correctAnswer": "Apache o Nginx",
+              "explanation": "La respuesta correcta es: Apache o Nginx"
+            },
+            {
+              "text": "Objetivo del registro de incidencias:",
+              "options": [
+                "Publicar fallos en web",
+                "Aumentar coste licencias",
+                "Sancionar empleados",
+                "Documentar y hacer seguimiento de problemas"
+              ],
+              "correctAnswer": "Documentar y hacer seguimiento de problemas",
+              "explanation": "La respuesta correcta es: Documentar y hacer seguimiento de problemas"
+            },
+            {
+              "text": "Módulo de Odoo para gestionar tickets de soporte:",
+              "options": [
+                "Helpdesk",
+                "Facturación",
+                "Gestión inventarios",
+                "Recursos Humanos"
+              ],
+              "correctAnswer": "Helpdesk",
+              "explanation": "La respuesta correcta es: Helpdesk"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "AD",
+      "name": "Acceso a datos",
+      "topics": [
+        {
+          "number": 2,
+          "title": "UT2",
+          "questions": [
+            {
+              "text": "En una librería de A Coruña, Marta necesita listar libros con su autor correcto. ¿Qué diseño asegura esa relación?",
+              "options": [
+                "Clave foránea en Libros que referencie la clave primaria de Autores",
+                "Repetir el nombre del autor en cada fila de Libros",
+                "Unir todo en una sola tabla",
+                "Guardar “AutorPrincipal” como texto libre"
+              ],
+              "correctAnswer": "Clave foránea en Libros que referencie la clave primaria de Autores",
+              "explanation": "La respuesta correcta es: Clave foránea en Libros que referencie la clave primaria de Autores"
+            },
+            {
+              "text": "En una tabla de clientes, ¿qué garantiza que cada fila sea única?",
+              "options": [
+                "Aceptar valores nulos en el identificador",
+                "Permitir duplicados si son pocos",
+                "Usar un índice no único",
+                "Definir una clave primaria que identifique de forma única cada fila"
+              ],
+              "correctAnswer": "Definir una clave primaria que identifique de forma única cada fila",
+              "explanation": "La respuesta correcta es: Definir una clave primaria que identifique de forma única cada fila"
+            },
+            {
+              "text": "En una editorial de Zaragoza quieren consultar títulos y apellidos del autor. ¿Qué operación permite combinar ambas tablas?",
+              "options": [
+                "Agrupar por género",
+                "Ordenar Libros por título",
+                "Hacer un JOIN entre Libros y Autores por el identificador del autor",
+                "Filtrar solo la tabla Autores"
+              ],
+              "correctAnswer": "Hacer un JOIN entre Libros y Autores por el identificador del autor",
+              "explanation": "La respuesta correcta es: Hacer un JOIN entre Libros y Autores por el identificador del autor"
+            },
+            {
+              "text": "En un centro de Valencia, al borrar un autor quedan libros sin referencia válida. ¿Qué principio no se está protegiendo?",
+              "options": [
+                "Cifrado en tránsito",
+                "Integridad referencial",
+                "Denormalización",
+                "Concurrencia optimista"
+              ],
+              "correctAnswer": "Integridad referencial",
+              "explanation": "La respuesta correcta es: Integridad referencial"
+            },
+            {
+              "text": "¿Qué objetivo persigue la normalización en el diseño de tablas?",
+              "options": [
+                "Convertir todo a un único archivo",
+                "Impedir cualquier relación",
+                "Reducir redundancia y mejorar consistencia",
+                "Eliminar claves primarias"
+              ],
+              "correctAnswer": "Reducir redundancia y mejorar consistencia",
+              "explanation": "La respuesta correcta es: Reducir redundancia y mejorar consistencia"
+            },
+            {
+              "text": "Una universidad de Vigo registra libros con varios autores. Para evitar duplicidades, ¿qué tabla adicional conviene?",
+              "options": [
+                "Tabla intermedia Libros_Autores para una relación muchos a muchos",
+                "Campo “AutorSecundario” en Libros",
+                "Un campo “Autores” separado por comas",
+                "Duplicar autores en Libros"
+              ],
+              "correctAnswer": "Tabla intermedia Libros_Autores para una relación muchos a muchos",
+              "explanation": "La respuesta correcta es: Tabla intermedia Libros_Autores para una relación muchos a muchos"
+            },
+            {
+              "text": "En terminología relacional, ¿qué es una “tupla”?",
+              "options": [
+                "Un índice único",
+                "Un alias de columna",
+                "Un conjunto de tablas",
+                "Una fila de una tabla"
+              ],
+              "correctAnswer": "Una fila de una tabla",
+              "explanation": "La respuesta correcta es: Una fila de una tabla"
+            },
+            {
+              "text": "Paula, en una pyme web en Madrid, necesita un entorno local con servidor web y base de datos que se gestione desde un panel. ¿Qué herramienta encaja?",
+              "options": [
+                "Un paquete como XAMPP con Apache y MySQL",
+                "Un gestor de correo corporativo",
+                "Un cliente FTP independiente",
+                "Un editor de imágenes"
+              ],
+              "correctAnswer": "Un paquete como XAMPP con Apache y MySQL",
+              "explanation": "La respuesta correcta es: Un paquete como XAMPP con Apache y MySQL"
+            },
+            {
+              "text": "¿Qué significa la tríada “AMP” usada en desarrollo web clásico?",
+              "options": [
+                "Apache, MySQL, PHP",
+                "Angular, MySQL, Python",
+                "Apache, MongoDB, Perl",
+                "Android, MariaDB, PHP"
+              ],
+              "correctAnswer": "Apache, MySQL, PHP",
+              "explanation": "La respuesta correcta es: Apache, MySQL, PHP"
+            },
+            {
+              "text": "En un aula con portátiles Windows, el profesor pide instalar un paquete que trae servidor web, base de datos y PHP listos para activar. ¿Qué opción encaja?",
+              "options": [
+                "Compilar cada servicio por separado",
+                "Instalar XAMPP y arrancar servicios desde su panel",
+                "Instalar un navegador con extensiones",
+                "Usar únicamente archivos HTML estáticos"
+              ],
+              "correctAnswer": "Instalar XAMPP y arrancar servicios desde su panel",
+              "explanation": "La respuesta correcta es: Instalar XAMPP y arrancar servicios desde su panel"
+            },
+            {
+              "text": "Andrea crea una carpeta de proyecto en el directorio público del servidor local. Con el servicio web activo, ¿cómo accede a su página inicial?",
+              "options": [
+                "Pedir un dominio público y esperar propagación",
+                "Conectarse por escritorio remoto a otro equipo",
+                "Abrir el archivo con “Abrir con…” desde el explorador",
+                "Entrar en el navegador y escribir la ruta local del proyecto"
+              ],
+              "correctAnswer": "Entrar en el navegador y escribir la ruta local del proyecto",
+              "explanation": "La respuesta correcta es: Entrar en el navegador y escribir la ruta local del proyecto"
+            },
+            {
+              "text": "Luis quiere crear una base de datos desde el navegador en su entorno local. ¿Qué herramienta suele incluir XAMPP para ello?",
+              "options": [
+                "Un lector de PDFs",
+                "Una interfaz web de administración como phpMyAdmin",
+                "Un servidor de correo",
+                "Un gestor de tareas"
+              ],
+              "correctAnswer": "Una interfaz web de administración como phpMyAdmin",
+              "explanation": "La respuesta correcta es: Una interfaz web de administración como phpMyAdmin"
+            },
+            {
+              "text": "En acceso a datos, ¿qué entendemos por “conector”?",
+              "options": [
+                "Un software que permite a la aplicación comunicarse con la base de datos",
+                "Un editor de CSS",
+                "Un sistema operativo",
+                "Un servidor web que sirve imágenes"
+              ],
+              "correctAnswer": "Un software que permite a la aplicación comunicarse con la base de datos",
+              "explanation": "La respuesta correcta es: Un software que permite a la aplicación comunicarse con la base de datos"
+            },
+            {
+              "text": "Tras instalar un entorno local, Sandra edita la configuración de acceso a la base de datos con los valores por defecto. ¿Qué combinación es habitual en instalaciones de prueba?",
+              "options": [
+                "Usuario “root” y contraseña vacía en el equipo local (solo para desarrollo)",
+                "Un usuario anónimo con permisos totales en producción",
+                "Usuario “admin” con una contraseña pública",
+                "Usuario “mysql” con una clave fija"
+              ],
+              "correctAnswer": "Usuario “root” y contraseña vacía en el equipo local (solo para desarrollo)",
+              "explanation": "La respuesta correcta es: Usuario “root” y contraseña vacía en el equipo local (solo para desarrollo)"
+            },
+            {
+              "text": "En la interfaz web de administración de la base de datos, Julián va a pegar consultas para crear tablas. ¿Qué sección suele usar?",
+              "options": [
+                "Estado del servidor",
+                "Exportar",
+                "La sección donde se escriben y ejecutan sentencias SQL",
+                "Privilegios"
+              ],
+              "correctAnswer": "La sección donde se escriben y ejecutan sentencias SQL",
+              "explanation": "La respuesta correcta es: La sección donde se escriben y ejecutan sentencias SQL"
+            },
+            {
+              "text": "Carla usa macOS y Mario Windows. Ambos quieren servidores locales equivalentes. ¿Qué combinación es coherente?",
+              "options": [
+                "MAMP (Carla) y WAMP (Mario)",
+                "XAMP (Carla) y MAMPP (Mario)",
+                "WAMP (Carla) y LAMP (Mario)",
+                "WIMP (Carla) y MAMP (Mario)"
+              ],
+              "correctAnswer": "MAMP (Carla) y WAMP (Mario)",
+              "explanation": "La respuesta correcta es: MAMP (Carla) y WAMP (Mario)"
+            },
+            {
+              "text": "En un taller de Málaga, al intentar conectar con la base de datos aparece un error y la pantalla queda en blanco. El responsable quiere entender qué ha pasado para corregirlo. ¿Qué práctica es adecuada?",
+              "options": [
+                "Desactivar el servicio de base de datos",
+                "Reintentar varias veces sin cambios",
+                "Ignorar el error y continuar el flujo",
+                "Mostrar un mensaje claro del fallo de conexión y detener el proceso"
+              ],
+              "correctAnswer": "Mostrar un mensaje claro del fallo de conexión y detener el proceso",
+              "explanation": "La respuesta correcta es: Mostrar un mensaje claro del fallo de conexión y detener el proceso"
+            },
+            {
+              "text": "Para abrir una conexión con un gestor relacional desde una aplicación, ¿qué parámetros básicos se suelen indicar?",
+              "options": [
+                "Únicamente la dirección IP",
+                "Solo el usuario",
+                "Ruta al directorio público y puerto del servidor web",
+                "Dirección del servidor, usuario, contraseña y base de datos"
+              ],
+              "correctAnswer": "Dirección del servidor, usuario, contraseña y base de datos",
+              "explanation": "La respuesta correcta es: Dirección del servidor, usuario, contraseña y base de datos"
+            },
+            {
+              "text": "En un CRM interno, debes añadir un nuevo contacto y comprobar que la operación salió bien. ¿Qué comportamiento esperas en la aplicación?",
+              "options": [
+                "Intentar la inserción y no informar al usuario",
+                "Guardar solo si hay conexión a Internet móvil",
+                "Informar siempre “correcto” aunque falle",
+                "Ejecutar la inserción y mostrar un mensaje de confirmación si se completó con éxito"
+              ],
+              "correctAnswer": "Ejecutar la inserción y mostrar un mensaje de confirmación si se completó con éxito",
+              "explanation": "La respuesta correcta es: Ejecutar la inserción y mostrar un mensaje de confirmación si se completó con éxito"
+            },
+            {
+              "text": "En una clínica de Madrid, un formulario lanza varias operaciones sobre la base de datos. El jefe exige que, si una falla, nada quede a medias. ¿Qué idea debes respetar?",
+              "options": [
+                "Replicar la base de datos",
+                "Activar caché del navegador",
+                "Indexar todas las columnas",
+                "Completar por entero o deshacer por completo la transacción"
+              ],
+              "correctAnswer": "Completar por entero o deshacer por completo la transacción",
+              "explanation": "La respuesta correcta es: Completar por entero o deshacer por completo la transacción"
+            },
+            {
+              "text": "Para que el servidor local ejecute archivos de tu proyecto por defecto, ¿en qué carpeta deben guardarse?",
+              "options": [
+                "La carpeta de configuración del servidor",
+                "La carpeta de datos internos del motor de base de datos",
+                "Una carpeta temporal del sistema",
+                "El directorio público del servidor web (por ejemplo, htdocs)"
+              ],
+              "correctAnswer": "El directorio público del servidor web (por ejemplo, htdocs)",
+              "explanation": "La respuesta correcta es: El directorio público del servidor web (por ejemplo, htdocs)"
+            },
+            {
+              "text": "Creas una base y una tabla desde la interfaz web. Tras definir columnas y tipos, ¿qué paso asegura que se guardan los cambios?",
+              "options": [
+                "Confirmar la creación/guardado de la estructura en la propia pantalla",
+                "Recargar la página del navegador",
+                "Volver al índice sin confirmar",
+                "Cambiar el idioma de la interfaz y salir"
+              ],
+              "correctAnswer": "Confirmar la creación/guardado de la estructura en la propia pantalla",
+              "explanation": "La respuesta correcta es: Confirmar la creación/guardado de la estructura en la propia pantalla"
+            },
+            {
+              "text": "En una empresa de logística, te piden añadir una nueva columna a una tabla ya existente. ¿Qué tipo de acción describes?",
+              "options": [
+                "Actualizar datos existentes en varias filas",
+                "Modificar la estructura de la tabla para incluir un nuevo campo",
+                "Eliminar todos los registros pero mantener la tabla",
+                "Insertar un registro nuevo"
+              ],
+              "correctAnswer": "Modificar la estructura de la tabla para incluir un nuevo campo",
+              "explanation": "La respuesta correcta es: Modificar la estructura de la tabla para incluir un nuevo campo"
+            },
+            {
+              "text": "¿Cuál de estas acciones pertenece al lenguaje de definición de datos (DDL) y no al de manipulación (DML)?",
+              "options": [
+                "Crear una tabla",
+                "Borrar registros",
+                "Insertar filas nuevas",
+                "Actualizar registros"
+              ],
+              "correctAnswer": "Crear una tabla",
+              "explanation": "La respuesta correcta es: Crear una tabla"
+            },
+            {
+              "text": "Te solicitan crear una tabla de “contactos” con un identificador que se asigne automáticamente y dos textos obligatorios. ¿Qué requisitos mínimos deben quedar definidos?",
+              "options": [
+                "Un identificador único que se numere automáticamente y dos columnas de texto marcadas como obligatorias",
+                "Un identificador opcional y dos textos sin restricciones",
+                "Tres textos libres sin restricciones",
+                "Un identificador de tipo texto y dos números opcionales"
+              ],
+              "correctAnswer": "Un identificador único que se numere automáticamente y dos columnas de texto marcadas como obligatorias",
+              "explanation": "La respuesta correcta es: Un identificador único que se numere automáticamente y dos columnas de texto marcadas como obligatorias"
+            },
+            {
+              "text": "En una asesoría de Granada, se detecta un número de teléfono mal cargado en un contacto concreto. ¿Qué acción corresponde?",
+              "options": [
+                "Borrar todos los contactos con ese teléfono",
+                "Insertar un nuevo contacto con el teléfono correcto",
+                "Cambiar la estructura de la tabla",
+                "Modificar el dato de ese contacto concreto manteniendo el resto sin cambios"
+              ],
+              "correctAnswer": "Modificar el dato de ese contacto concreto manteniendo el resto sin cambios",
+              "explanation": "La respuesta correcta es: Modificar el dato de ese contacto concreto manteniendo el resto sin cambios"
+            },
+            {
+              "text": "Tras consultar la lista de clientes, la página debe mostrar los resultados uno a uno. ¿Qué patrón de lectura es coherente?",
+              "options": [
+                "Recorrer el conjunto de resultados fila a fila y, en cada paso, acceder a las columnas por su nombre",
+                "Mostrar solo la primera fila y terminar",
+                "Saltar filas alternas para acelerar la carga",
+                "Leer todas las filas a la vez sin poder acceder a columnas"
+              ],
+              "correctAnswer": "Recorrer el conjunto de resultados fila a fila y, en cada paso, acceder a las columnas por su nombre",
+              "explanation": "La respuesta correcta es: Recorrer el conjunto de resultados fila a fila y, en cada paso, acceder a las columnas por su nombre"
+            },
+            {
+              "text": "Quieres eliminar por completo una tabla que ya no se usa en desarrollo. ¿Qué tipo de operación describes?",
+              "options": [
+                "Eliminar la estructura de la tabla y todo su contenido",
+                "Ocultar la tabla sin tocar la base de datos",
+                "Vaciar el contenido pero mantener la estructura",
+                "Borrar únicamente algunas filas"
+              ],
+              "correctAnswer": "Eliminar la estructura de la tabla y todo su contenido",
+              "explanation": "La respuesta correcta es: Eliminar la estructura de la tabla y todo su contenido"
+            },
+            {
+              "text": "Un comercio de Sevilla necesita mostrar en pantalla solo el identificador, el nombre y el correo de cada contacto. ¿Qué se debe pedir a la base de datos?",
+              "options": [
+                "Una consulta que recupere únicamente esas tres columnas de la tabla de contactos",
+                "Una consulta que traiga todas las columnas disponibles",
+                "Un borrado de las columnas que no interesan",
+                "Una modificación de la estructura de la tabla"
+              ],
+              "correctAnswer": "Una consulta que recupere únicamente esas tres columnas de la tabla de contactos",
+              "explanation": "La respuesta correcta es: Una consulta que recupere únicamente esas tres columnas de la tabla de contactos"
+            },
+            {
+              "text": "Una startup en Bilbao valora hacer su app como aplicación web que se conecta a una base de datos. ¿Qué ventaja destaca?",
+              "options": [
+                "Imposible integrar con otros servicios",
+                "Permite acceder desde cualquier lugar con conexión a Internet",
+                "No escala con más usuarios",
+                "Requiere instalar software en cada cliente"
+              ],
+              "correctAnswer": "Permite acceder desde cualquier lugar con conexión a Internet",
+              "explanation": "La respuesta correcta es: Permite acceder desde cualquier lugar con conexión a Internet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

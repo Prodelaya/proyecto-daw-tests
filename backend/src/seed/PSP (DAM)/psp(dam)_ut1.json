@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PSP",
+      "name": "Programación de servicios y procesos",
+      "topics": [
+        {
+          "number": 1,
+          "title": "UT1",
+          "questions": [
+            {
+              "text": "Estás auditando un servidor y observas varios archivos con extensión .exe almacenados en el disco duro que no se están utilizando actualmente. En el contexto de los fundamentos de sistemas operativos, ¿cómo se clasifican estos archivos en este estado preciso?",
+              "options": [
+                "Son servicios detenidos.",
+                "Son procesos en estado latente.",
+                "Son ejecutables.",
+                "Son hilos de ejecución secundaria."
+              ],
+              "correctAnswer": "Son ejecutables.",
+              "explanation": "La respuesta correcta es: Son ejecutables."
+            },
+            {
+              "text": "Un técnico junior te pregunta qué diferencia técnica existe entre un programa y un proceso. ¿Cuál es la definición teórica correcta que debes darle basada en la gestión de memoria?",
+              "options": [
+                "El programa contiene variables activas, mientras que el proceso solo contiene código máquina.",
+                "El programa es dinámico y el proceso es estático.",
+                "Un proceso es una instancia de un programa en ejecución con su propio espacio de memoria.",
+                "No hay diferencia, son sinónimos exactos en todos los sistemas operativos."
+              ],
+              "correctAnswer": "Un proceso es una instancia de un programa en ejecución con su propio espacio de memoria.",
+              "explanation": "La respuesta correcta es: Un proceso es una instancia de un programa en ejecución con su propio espacio de memoria."
+            },
+            {
+              "text": "Estás configurando una base de datos que debe aceptar conexiones de red continuamente en segundo plano, sin intervención directa del usuario. ¿Qué tipo de software estás configurando?",
+              "options": [
+                "Un script de primer plano.",
+                "Un servicio.",
+                "Un ejecutable de consola.",
+                "Un hilo de interfaz gráfica."
+              ],
+              "correctAnswer": "Un servicio.",
+              "explanation": "La respuesta correcta es: Un servicio."
+            },
+            {
+              "text": "Al trabajar en el entorno de desarrollo Eclipse, pulsas el botón \"Run\" para iniciar tu aplicación Java. ¿Qué acción realiza el sistema operativo en ese instante con respecto al IDE y tu aplicación?",
+              "options": [
+                "Convierte el código Java a C++ antes de crear el proceso.",
+                "Detiene el proceso de Eclipse temporalmente para dar prioridad a la nueva aplicación.",
+                "Ejecuta la aplicación dentro del mismo espacio de memoria que Eclipse para ahorrar recursos.",
+                "Crea un nuevo proceso independiente para la aplicación, separado del proceso del IDE."
+              ],
+              "correctAnswer": "Crea un nuevo proceso independiente para la aplicación, separado del proceso del IDE.",
+              "explanation": "La respuesta correcta es: Crea un nuevo proceso independiente para la aplicación, separado del proceso del IDE."
+            },
+            {
+              "text": "¿Cuál de los siguientes elementos NO forma parte del estado actual que compone un proceso en ejecución?",
+              "options": [
+                "La pila de ejecución (stack).",
+                "El código del programa.",
+                "El código fuente original sin compilar.",
+                "Los registros de la CPU."
+              ],
+              "correctAnswer": "El código fuente original sin compilar.",
+              "explanation": "La respuesta correcta es: El código fuente original sin compilar."
+            },
+            {
+              "text": "Estás depurando una aplicación que se ha bloqueado. Necesitas inspeccionar el historial de llamadas a funciones activas y sus variables locales. ¿Qué elemento del proceso debes analizar?",
+              "options": [
+                "La pila de ejecución.",
+                "El disco duro.",
+                "La cola de impresión.",
+                "El código máquina estático."
+              ],
+              "correctAnswer": "La pila de ejecución.",
+              "explanation": "La respuesta correcta es: La pila de ejecución."
+            },
+            {
+              "text": "En la arquitectura de un proceso, ¿qué función cumplen los registros de la CPU?",
+              "options": [
+                "Almacenar permanentemente los archivos de log del sistema.",
+                "Gestionar la conexión a internet del proceso.",
+                "Guardar una copia de seguridad del código fuente.",
+                "Almacenar pequeñas cantidades de memoria de alta velocidad con el estado actual de ejecución."
+              ],
+              "correctAnswer": "Almacenar pequeñas cantidades de memoria de alta velocidad con el estado actual de ejecución.",
+              "explanation": "La respuesta correcta es: Almacenar pequeñas cantidades de memoria de alta velocidad con el estado actual de ejecución."
+            },
+            {
+              "text": "Un proceso de tu aplicación necesita leer un archivo grande del disco. Mientras espera que el disco entregue los datos, ¿a qué estado cambia el proceso para no ocupar la CPU inútilmente?",
+              "options": [
+                "Ejecutándose.",
+                "Nuevo.",
+                "Terminado.",
+                "Esperando."
+              ],
+              "correctAnswer": "Esperando.",
+              "explanation": "La respuesta correcta es: Esperando."
+            },
+            {
+              "text": "El planificador de procesos del sistema operativo decide mover tu aplicación del estado \"Listo\" al estado \"Ejecutándose\". ¿Qué significa esto físicamente para el hardware?",
+              "options": [
+                "Que la aplicación está pausada esperando un clic del usuario.",
+                "Que las instrucciones del proceso están siendo procesadas activamente por la CPU.",
+                "Que la aplicación ha finalizado y está guardando datos.",
+                "Que la aplicación se ha cargado en la memoria RAM."
+              ],
+              "correctAnswer": "Que las instrucciones del proceso están siendo procesadas activamente por la CPU.",
+              "explanation": "La respuesta correcta es: Que las instrucciones del proceso están siendo procesadas activamente por la CPU."
+            },
+            {
+              "text": "¿Qué condición define que un proceso se encuentre en el estado \"Listo\"?",
+              "options": [
+                "El proceso ha completado su ejecución y está liberando recursos.",
+                "El proceso está bloqueado esperando una respuesta de la red.",
+                "El proceso se está creando y aún no tiene memoria asignada.",
+                "El proceso está preparado para ser asignado a la CPU, pero está a la espera del planificador."
+              ],
+              "correctAnswer": "El proceso está preparado para ser asignado a la CPU, pero está a la espera del planificador.",
+              "explanation": "La respuesta correcta es: El proceso está preparado para ser asignado a la CPU, pero está a la espera del planificador."
+            },
+            {
+              "text": "Observas que Eclipse realiza el resaltado de sintaxis, la compilación en segundo plano y las sugerencias de autocompletado simultáneamente. ¿Qué concepto de programación demuestra este comportamiento del IDE?",
+              "options": [
+                "Programación secuencial estricta.",
+                "Programación multiproceso (uso de múltiples hilos/procesos).",
+                "Virtualización de hardware.",
+                "Compilación monolítica."
+              ],
+              "correctAnswer": "Programación multiproceso (uso de múltiples hilos/procesos).",
+              "explanation": "La respuesta correcta es: Programación multiproceso (uso de múltiples hilos/procesos)."
+            },
+            {
+              "text": "Si dos procesos están en estado \"Listo\", ¿qué factor utiliza comúnmente el sistema operativo para decidir cuál ejecutar primero?",
+              "options": [
+                "El color del icono de la aplicación.",
+                "El tamaño del archivo ejecutable en el disco.",
+                "La prioridad del proceso y el tiempo de CPU utilizado recientemente.",
+                "El orden alfabético del nombre del proceso."
+              ],
+              "correctAnswer": "La prioridad del proceso y el tiempo de CPU utilizado recientemente.",
+              "explanation": "La respuesta correcta es: La prioridad del proceso y el tiempo de CPU utilizado recientemente."
+            },
+            {
+              "text": "Debes desarrollar una aplicación que requiere una comunicación muy rápida y sencilla entre sus unidades de ejecución, compartiendo grandes cantidades de datos en memoria. ¿Qué enfoque es más adecuado?",
+              "options": [
+                "Uso de múltiples procesos independientes.",
+                "Uso de servicios distribuidos en red.",
+                "Ejecución secuencial en un solo bloque.",
+                "Uso de múltiples hilos (threads)."
+              ],
+              "correctAnswer": "Uso de múltiples hilos (threads).",
+              "explanation": "La respuesta correcta es: Uso de múltiples hilos (threads)."
+            },
+            {
+              "text": "Estás diseñando un sistema de seguridad donde si una parte de la aplicación falla y se cierra, no debe afectar en absoluto a la memoria de las otras partes. ¿Qué arquitectura eliges?",
+              "options": [
+                "Arquitectura de hilos compartidos.",
+                "Arquitectura multiproceso (procesos aislados).",
+                "Arquitectura basada exclusivamente en hilos.",
+                "Arquitectura monolítica simple."
+              ],
+              "correctAnswer": "Arquitectura multiproceso (procesos aislados).",
+              "explanation": "La respuesta correcta es: Arquitectura multiproceso (procesos aislados)."
+            },
+            {
+              "text": "¿Cuál es la diferencia fundamental en la gestión de memoria entre un hilo y un proceso?",
+              "options": [
+                "No hay diferencia, ambos gestionan la memoria igual.",
+                "Los procesos comparten memoria; los hilos están aislados.",
+                "Los hilos dentro de un proceso comparten el mismo espacio de memoria; los procesos tienen espacios aislados.",
+                "Los hilos no utilizan memoria RAM, solo registros de CPU."
+              ],
+              "correctAnswer": "Los hilos dentro de un proceso comparten el mismo espacio de memoria; los procesos tienen espacios aislados.",
+              "explanation": "La respuesta correcta es: Los hilos dentro de un proceso comparten el mismo espacio de memoria; los procesos tienen espacios aislados."
+            },
+            {
+              "text": "Necesitas ejecutar un comando del sistema operativo desde tu código Java que lance una nueva instancia de la JVM independiente. ¿Qué clase utilizarías para lograr esto?",
+              "options": [
+                "Runnable.",
+                "ThreadGroup.",
+                "ProcessBuilder.",
+                "System.createProcess()."
+              ],
+              "correctAnswer": "ProcessBuilder.",
+              "explanation": "La respuesta correcta es: ProcessBuilder."
+            },
+            {
+              "text": "En una entrevista técnica, te piden definir \"programación concurrente\". ¿Cuál es la característica clave?",
+              "options": [
+                "Requiere obligatoriamente varios ordenadores conectados en red.",
+                "Todas las tareas deben ejecutarse exactamente en el mismo nanosegundo.",
+                "Las tareas progresan de manera independiente, aunque no necesariamente en el mismo instante exacto.",
+                "Solo se puede aplicar en procesadores de un solo núcleo."
+              ],
+              "correctAnswer": "Las tareas progresan de manera independiente, aunque no necesariamente en el mismo instante exacto.",
+              "explanation": "La respuesta correcta es: Las tareas progresan de manera independiente, aunque no necesariamente en el mismo instante exacto."
+            },
+            {
+              "text": "Un servidor web recibe 50 peticiones de usuarios al mismo tiempo y las atiende intercalando su ejecución para que todas avancen. ¿Este es un ejemplo de qué tipo de programación?",
+              "options": [
+                "Programación estática.",
+                "Programación secuencial.",
+                "Programación distribuida.",
+                "Programación concurrente."
+              ],
+              "correctAnswer": "Programación concurrente.",
+              "explanation": "La respuesta correcta es: Programación concurrente."
+            },
+            {
+              "text": "Tienes un procesador de 8 núcleos y divides una imagen enorme en 8 partes para aplicar un filtro a todas las partes simultáneamente, una en cada núcleo. ¿Cómo se denomina técnicamente a esta técnica?",
+              "options": [
+                "Programación orientada a eventos.",
+                "Programación paralela.",
+                "Serialización de datos.",
+                "Multitarea cooperativa."
+              ],
+              "correctAnswer": "Programación paralela.",
+              "explanation": "La respuesta correcta es: Programación paralela."
+            },
+            {
+              "text": "¿Qué distingue a la programación distribuida de la paralela?",
+              "options": [
+                "La distribuida ejecuta tareas en múltiples sistemas ubicados físicamente en lugares separados.",
+                "La distribuida es solo para bases de datos.",
+                "La distribuida es más rápida que la paralela siempre.",
+                "La distribuida usa un solo núcleo y la paralela varios."
+              ],
+              "correctAnswer": "La distribuida ejecuta tareas en múltiples sistemas ubicados físicamente en lugares separados.",
+              "explanation": "La respuesta correcta es: La distribuida ejecuta tareas en múltiples sistemas ubicados físicamente en lugares separados."
+            },
+            {
+              "text": "En Java, ¿cuál es el método estándar que debes invocar sobre un objeto Thread para que comience su ejecución en un hilo separado?",
+              "options": [
+                "start().",
+                "execute().",
+                "init().",
+                "run()."
+              ],
+              "correctAnswer": "start().",
+              "explanation": "La respuesta correcta es: start()."
+            },
+            {
+              "text": "Dos hilos intentan modificar la misma variable global al mismo tiempo, provocando que el valor final sea incorrecto e impredecible. ¿Cómo se llama este problema?",
+              "options": [
+                "Interbloqueo (Deadlock).",
+                "Condición de carrera (Race Condition).",
+                "Desbordamiento de pila (Stack Overflow).",
+                "Inanición (Starvation)."
+              ],
+              "correctAnswer": "Condición de carrera (Race Condition).",
+              "explanation": "La respuesta correcta es: Condición de carrera (Race Condition)."
+            },
+            {
+              "text": "Para evitar que dos cajeros automáticos retiren dinero de la misma cuenta simultáneamente y dejen el saldo en negativo, ¿qué mecanismo de Java utilizarías en el método de retiro?",
+              "options": [
+                "La palabra clave synchronized.",
+                "La clase ProcessBuilder.",
+                "La variable transient.",
+                "El método Thread.sleep()."
+              ],
+              "correctAnswer": "La palabra clave synchronized.",
+              "explanation": "La respuesta correcta es: La palabra clave synchronized."
+            },
+            {
+              "text": "El Hilo A tiene el recurso X y espera el recurso Y. El Hilo B tiene el recurso Y y espera el recurso X. Ambos se quedan esperando infinitamente. ¿Qué problema ha ocurrido?",
+              "options": [
+                "Livelock.",
+                "Excepción de puntero nulo.",
+                "Condición de carrera.",
+                "Interbloqueo (Deadlock)."
+              ],
+              "correctAnswer": "Interbloqueo (Deadlock).",
+              "explanation": "La respuesta correcta es: Interbloqueo (Deadlock)."
+            },
+            {
+              "text": "¿Qué método se utiliza en Java para solicitar a un hilo que detenga su ejecución de manera controlada?",
+              "options": [
+                "Thread.kill().",
+                "Thread.stop() (aunque esté obsoleto, es la única opción).",
+                "Thread.interrupt().",
+                "System.exit()."
+              ],
+              "correctAnswer": "Thread.interrupt().",
+              "explanation": "La respuesta correcta es: Thread.interrupt()."
+            },
+            {
+              "text": "En el ejemplo del simulador de banco, creas una clase Cajero. Para que cada cajero pueda funcionar independientemente atendiendo clientes, ¿de qué clase debe heredar?",
+              "options": [
+                "extends String.",
+                "extends System.",
+                "implements Serializable.",
+                "extends Thread."
+              ],
+              "correctAnswer": "extends Thread.",
+              "explanation": "La respuesta correcta es: extends Thread."
+            },
+            {
+              "text": "En la simulación del cajero, se usa Thread.sleep(1000). ¿Cuál es el propósito funcional de esta línea en el contexto de la simulación?",
+              "options": [
+                "Simular el tiempo que tarda el proceso de retiro pausando el hilo.",
+                "Crear un nuevo cliente en el sistema.",
+                "Detener la aplicación completamente para siempre.",
+                "Sincronizar los datos con la base de datos del banco."
+              ],
+              "correctAnswer": "Simular el tiempo que tarda el proceso de retiro pausando el hilo.",
+              "explanation": "La respuesta correcta es: Simular el tiempo que tarda el proceso de retiro pausando el hilo."
+            },
+            {
+              "text": "Si en tu código principal llamas a cajero1.run() en lugar de cajero1.start(), ¿qué sucederá?",
+              "options": [
+                "El código se ejecutará secuencialmente en el hilo principal, no en un nuevo hilo.",
+                "Se creará el hilo pero se pausará inmediatamente.",
+                "No pasará nada, el método run no hace nada por sí solo.",
+                "Se lanzará una excepción de tiempo de ejecución."
+              ],
+              "correctAnswer": "El código se ejecutará secuencialmente en el hilo principal, no en un nuevo hilo.",
+              "explanation": "La respuesta correcta es: El código se ejecutará secuencialmente en el hilo principal, no en un nuevo hilo."
+            },
+            {
+              "text": "En el desarrollo de la aplicación bancaria multiproceso, ¿por qué es crítico que la instancia del objeto \"Cuenta\" sea compartida entre los hilos de los cajeros?",
+              "options": [
+                "Para ahorrar memoria RAM.",
+                "Para que los cambios de saldo realizados por un cajero sean visibles para los otros.",
+                "Porque Java no permite crear más de un objeto Cuenta.",
+                "Para que el código compile sin errores de sintaxis."
+              ],
+              "correctAnswer": "Para que los cambios de saldo realizados por un cajero sean visibles para los otros.",
+              "explanation": "La respuesta correcta es: Para que los cambios de saldo realizados por un cajero sean visibles para los otros."
+            },
+            {
+              "text": "Para realizar cálculos matemáticos complejos en paralelo dividiendo la tarea en subtareas más pequeñas recursivamente, ¿qué framework de Java es el más indicado según la unidad?",
+              "options": [
+                "Fork/Join.",
+                "ThreadGroup.",
+                "SwingWorker.",
+                "Java IO."
+              ],
+              "correctAnswer": "Fork/Join.",
+              "explanation": "La respuesta correcta es: Fork/Join."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

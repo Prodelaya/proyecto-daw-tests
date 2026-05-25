@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PMDM",
+      "name": "Programación multimedia y dispositivos móviles",
+      "topics": [
+        {
+          "number": 4,
+          "title": "UT4",
+          "questions": [
+            {
+              "text": "Estás diseñando la arquitectura base de un nuevo videojuego. Independientemente de si es 2D o 3D, ¿cuál es el mecanismo central que debe gestionar la entrada del jugador, actualizar el estado y renderizar la pantalla continuamente?",
+              "options": [
+                "El sistema de guardado en la nube.",
+                "El motor de inteligencia artificial.",
+                "La interfaz de usuario estática.",
+                "El bucle principal del juego."
+              ],
+              "correctAnswer": "El bucle principal del juego.",
+              "explanation": "La respuesta correcta es: El bucle principal del juego."
+            },
+            {
+              "text": "Al desarrollar un juego en 2D, ¿qué tipo de recursos gráficos utilizas principalmente para representar el mundo, a diferencia de los modelos tridimensionales?",
+              "options": [
+                "Imágenes bidimensionales como dibujos o sprites.",
+                "Vectores de iluminación global.",
+                "Vóxeles volumétricos.",
+                "Mallas poligonales texturizadas."
+              ],
+              "correctAnswer": "Imágenes bidimensionales como dibujos o sprites.",
+              "explanation": "La respuesta correcta es: Imágenes bidimensionales como dibujos o sprites."
+            },
+            {
+              "text": "Estás utilizando HTML5 para crear un juego web. ¿Qué tecnología específica de esta especificación proporciona un espacio de dibujo bidimensional para renderizar gráficos mediante JavaScript?",
+              "options": [
+                "Apache Cordova.",
+                "CSS Grid.",
+                "Canvas.",
+                "WebGL puro."
+              ],
+              "correctAnswer": "Canvas.",
+              "explanation": "La respuesta correcta es: Canvas."
+            },
+            {
+              "text": "Si decides usar Apache Cordova junto con Canvas para tu proyecto, ¿cuál es la función principal de Cordova en esta combinación?",
+              "options": [
+                "Proporcionar herramientas de modelado 3D.",
+                "Actuar como el motor de física avanzado.",
+                "Permitir crear aplicaciones móviles nativas usando tecnologías web estándar.",
+                "Optimizar los gráficos vectoriales automáticamente."
+              ],
+              "correctAnswer": "Permitir crear aplicaciones móviles nativas usando tecnologías web estándar.",
+              "explanation": "La respuesta correcta es: Permitir crear aplicaciones móviles nativas usando tecnologías web estándar."
+            },
+            {
+              "text": "Un motor de juegos simplifica el desarrollo ofreciendo herramientas predefinidas. ¿Qué componente específico se encarga de simular la gravedad, las colisiones y la resistencia?",
+              "options": [
+                "Red.",
+                "Inteligencia Artificial (IA).",
+                "Renderizado Gráfico.",
+                "Física."
+              ],
+              "correctAnswer": "Física.",
+              "explanation": "La respuesta correcta es: Física."
+            },
+            {
+              "text": "Necesitas programar el comportamiento de los personajes no jugadores (NPCs) para que reaccionen a las acciones del jugador. ¿Qué componente del motor de juegos gestiona esto?",
+              "options": [
+                "Herramientas de desarrollo.",
+                "Renderizado Gráfico.",
+                "Inteligencia Artificial (IA).",
+                "Entrada del jugador."
+              ],
+              "correctAnswer": "Inteligencia Artificial (IA).",
+              "explanation": "La respuesta correcta es: Inteligencia Artificial (IA)."
+            },
+            {
+              "text": "En el contexto de Canvas, antes de empezar a dibujar cualquier forma, necesitas obtener el acceso a las funciones de dibujo. ¿Qué comando utilizas para esto?",
+              "options": [
+                "canvas.init()",
+                "canvas.getContext(\"2d\")",
+                "canvas.startDrawing()",
+                "canvas.createLayer()"
+              ],
+              "correctAnswer": "canvas.getContext(\"2d\")",
+              "explanation": "La respuesta correcta es: canvas.getContext(\"2d\")"
+            },
+            {
+              "text": "Quieres dibujar un rectángulo sólido (relleno) en el lienzo. ¿Qué función de la API de Canvas debes utilizar?",
+              "options": [
+                "drawRect()",
+                "createRect()",
+                "strokeRect()",
+                "fillRect()"
+              ],
+              "correctAnswer": "fillRect()",
+              "explanation": "La respuesta correcta es: fillRect()"
+            },
+            {
+              "text": "Estás dibujando una forma compleja línea a línea. Después de definir el trayecto, ¿qué comando cierra automáticamente la ruta conectando el punto final con el inicial?",
+              "options": [
+                "stopDrawing()",
+                "endPath()",
+                "closePath()",
+                "finishLine()"
+              ],
+              "correctAnswer": "closePath()",
+              "explanation": "La respuesta correcta es: closePath()"
+            },
+            {
+              "text": "Necesitas dibujar una imagen en el lienzo, pero también quieres redimensionarla al mismo tiempo. ¿Qué variante del comando drawImage te permite especificar el ancho y alto de destino?",
+              "options": [
+                "resizeImage(image, w, h)",
+                "drawImage(image, dx, dy)",
+                "drawImage(image, dx, dy, dWidth, dHeight)",
+                "scaleImage(image, x, y)"
+              ],
+              "correctAnswer": "drawImage(image, dx, dy, dWidth, dHeight)",
+              "explanation": "La respuesta correcta es: drawImage(image, dx, dy, dWidth, dHeight)"
+            },
+            {
+              "text": "Para guardar el estado actual del contexto de dibujo (colores, estilos, transformaciones) y poder recuperarlo después, ¿qué comando utilizas?",
+              "options": [
+                "keep()",
+                "save()",
+                "hold()",
+                "store()"
+              ],
+              "correctAnswer": "save()",
+              "explanation": "La respuesta correcta es: save()"
+            },
+            {
+              "text": "Estás evaluando motores de juegos y buscas uno conocido por su versatilidad, uso de C# y gran popularidad tanto para 2D como 3D. ¿Cuál es la opción que encaja con esta descripción?",
+              "options": [
+                "GameMaker Studio 2.",
+                "Unreal Engine.",
+                "Godot.",
+                "Unity."
+              ],
+              "correctAnswer": "Unity.",
+              "explanation": "La respuesta correcta es: Unity."
+            },
+            {
+              "text": "Tu equipo necesita desarrollar un juego 3D con gráficos de altísima calidad y renderizado basado en física. Prefieren usar C++ o un sistema de scripting visual llamado Blueprints. ¿Qué motor eligen?",
+              "options": [
+                "Construct.",
+                "Unity.",
+                "Cordova.",
+                "Unreal Engine."
+              ],
+              "correctAnswer": "Unreal Engine.",
+              "explanation": "La respuesta correcta es: Unreal Engine."
+            },
+            {
+              "text": "Te interesa un motor de código abierto que utiliza un sistema de \"nodos\" y \"escenas\" para organizar el juego, y cuyo lenguaje (GDScript) es similar a Python. ¿De qué motor se trata?",
+              "options": [
+                "Phaser.",
+                "Godot.",
+                "CryEngine.",
+                "GameMaker."
+              ],
+              "correctAnswer": "Godot.",
+              "explanation": "La respuesta correcta es: Godot."
+            },
+            {
+              "text": "Si tu objetivo es crear un juego 2D de forma rápida y sencilla, utilizando una interfaz de arrastrar y soltar o el lenguaje GML, ¿qué motor está especialmente diseñado para esto?",
+              "options": [
+                "GameMaker Studio 2.",
+                "Unity.",
+                "Unreal Engine.",
+                "Frostbite."
+              ],
+              "correctAnswer": "GameMaker Studio 2.",
+              "explanation": "La respuesta correcta es: GameMaker Studio 2."
+            },
+            {
+              "text": "Al comparar motores dedicados (como Unity) con la combinación Cordova + Canvas, ¿cuál es una limitación clave de esta última opción según el temario?",
+              "options": [
+                "Carecen de las herramientas avanzadas y del rendimiento de los motores dedicados.",
+                "No permiten dibujar gráficos 2D.",
+                "No permite usar JavaScript.",
+                "Solo funcionan en Windows."
+              ],
+              "correctAnswer": "Carecen de las herramientas avanzadas y del rendimiento de los motores dedicados.",
+              "explanation": "La respuesta correcta es: Carecen de las herramientas avanzadas y del rendimiento de los motores dedicados."
+            },
+            {
+              "text": "Dentro de los bloques funcionales de un juego, ¿qué elemento define las reglas y sistemas, como el movimiento del jugador o la resolución de acertijos?",
+              "options": [
+                "Bucle de Juego.",
+                "Datos del juego.",
+                "Mecánicas de juego.",
+                "Estados del juego."
+              ],
+              "correctAnswer": "Mecánicas de juego.",
+              "explanation": "La respuesta correcta es: Mecánicas de juego."
+            },
+            {
+              "text": "Un videojuego pasa por fases como \"Menú principal\", \"Jugando\" o \"Pausa\". ¿Cómo se denomina técnicamente a este bloque funcional?",
+              "options": [
+                "Renderizado.",
+                "Scripting.",
+                "Niveles de dificultad.",
+                "Estados del juego."
+              ],
+              "correctAnswer": "Estados del juego.",
+              "explanation": "La respuesta correcta es: Estados del juego."
+            },
+            {
+              "text": "¿Qué bloque funcional agrupa todos los valores y variables necesarios para que el juego funcione, como la salud del jugador o la puntuación?",
+              "options": [
+                "Datos del juego.",
+                "Interfaz.",
+                "Gráficos.",
+                "Sonido."
+              ],
+              "correctAnswer": "Datos del juego.",
+              "explanation": "La respuesta correcta es: Datos del juego."
+            },
+            {
+              "text": "En el ejemplo de la aplicación de dibujo con Canvas, se añaden \"manejadores de eventos\" (addEventListener). ¿Cuál es su función principal en este contexto?",
+              "options": [
+                "Guardar el dibujo en la nube.",
+                "Dibujar las líneas automáticamente.",
+                "Detectar cuando el usuario mueve el ratón o toca la pantalla para dibujar.",
+                "Compilar la aplicación a Android."
+              ],
+              "correctAnswer": "Detectar cuando el usuario mueve el ratón o toca la pantalla para dibujar.",
+              "explanation": "La respuesta correcta es: Detectar cuando el usuario mueve el ratón o toca la pantalla para dibujar."
+            },
+            {
+              "text": "El proceso de renderizado consta de múltiples etapas. ¿Qué implica la etapa de \"procesamiento de la cámara\"?",
+              "options": [
+                "Conectar la webcam del usuario.",
+                "Tomar capturas de pantalla.",
+                "Determinar qué parte del mundo del juego se debe mostrar al jugador.",
+                "Ajustar el brillo del monitor."
+              ],
+              "correctAnswer": "Determinar qué parte del mundo del juego se debe mostrar al jugador.",
+              "explanation": "La respuesta correcta es: Determinar qué parte del mundo del juego se debe mostrar al jugador."
+            },
+            {
+              "text": "En un motor 3D, los modelos se construyen con polígonos. ¿Qué se aplica sobre estos polígonos para otorgarles un aspecto realista (color, detalle)?",
+              "options": [
+                "Píxeles muertos.",
+                "Sprites.",
+                "Texturas.",
+                "Vectores."
+              ],
+              "correctAnswer": "Texturas.",
+              "explanation": "La respuesta correcta es: Texturas."
+            },
+            {
+              "text": "En Canvas, la simulación de una cámara no es automática. ¿Cómo se logra el efecto de movimiento de cámara según el texto?",
+              "options": [
+                "No es posible simular una cámara en Canvas.",
+                "Desplazando todos los objetos en el lienzo en dirección opuesta al movimiento deseado.",
+                "Usando el comando camera.move().",
+                "Moviendo físicamente el monitor."
+              ],
+              "correctAnswer": "Desplazando todos los objetos en el lienzo en dirección opuesta al movimiento deseado.",
+              "explanation": "La respuesta correcta es: Desplazando todos los objetos en el lienzo en dirección opuesta al movimiento deseado."
+            },
+            {
+              "text": "Para crear una animación fluida en el juego de la \"bola rebotando\", se utiliza una función que solicita al navegador que actualice el cuadro de animación. ¿Cuál es esta función?",
+              "options": [
+                "updateLoop()",
+                "requestAnimationFrame()",
+                "setInterval()",
+                "setTimeout()"
+              ],
+              "correctAnswer": "requestAnimationFrame()",
+              "explanation": "La respuesta correcta es: requestAnimationFrame()"
+            },
+            {
+              "text": "En el código del juego de la bola, ¿qué operación es necesaria realizar al inicio de cada función render() antes de dibujar la nueva posición de la bola?",
+              "options": [
+                "Limpiar el lienzo (usando clearRect).",
+                "Desconectar el teclado.",
+                "Cambiar el color de fondo.",
+                "Guardar la partida."
+              ],
+              "correctAnswer": "Limpiar el lienzo (usando clearRect).",
+              "explanation": "La respuesta correcta es: Limpiar el lienzo (usando clearRect)."
+            },
+            {
+              "text": "La representación de una escena gráfica tiene dos vertientes. ¿A qué se refiere la \"representación lógica\"?",
+              "options": [
+                "Al diseño artístico.",
+                "A cómo se visualizan los píxeles.",
+                "A la música de fondo.",
+                "A la estructuración y organización de los datos de una escena a nivel de código."
+              ],
+              "correctAnswer": "A la estructuración y organización de los datos de una escena a nivel de código.",
+              "explanation": "La respuesta correcta es: A la estructuración y organización de los datos de una escena a nivel de código."
+            },
+            {
+              "text": "En contraposición, ¿qué define la \"representación espacial\"?",
+              "options": [
+                "Cómo se visualizan los datos en la pantalla (posicionamiento y dibujo).",
+                "El código sin compilar.",
+                "La lógica de IA.",
+                "La estructura de base de datos."
+              ],
+              "correctAnswer": "Cómo se visualizan los datos en la pantalla (posicionamiento y dibujo).",
+              "explanation": "La respuesta correcta es: Cómo se visualizan los datos en la pantalla (posicionamiento y dibujo)."
+            },
+            {
+              "text": "En el juego de Ping Pong del ejemplo, se usa un objeto ball con propiedades x, y, dx, dy. ¿Qué tipo de representación es esta estructura de datos?",
+              "options": [
+                "Representación renderizada.",
+                "Representación física.",
+                "Representación lógica.",
+                "Representación espacial."
+              ],
+              "correctAnswer": "Representación lógica.",
+              "explanation": "La respuesta correcta es: Representación lógica."
+            },
+            {
+              "text": "Cuando el código del juego de Ping Pong ejecuta context.fillRect usando las coordenadas del objeto barra, ¿qué tipo de representación se está manifestando?",
+              "options": [
+                "Representación de red.",
+                "Representación de audio.",
+                "Representación espacial.",
+                "Representación lógica."
+              ],
+              "correctAnswer": "Representación espacial.",
+              "explanation": "La respuesta correcta es: Representación espacial."
+            },
+            {
+              "text": "¿Cómo se maneja la detección de colisiones (por ejemplo, si la bola toca el borde)?",
+              "options": [
+                "No se detectan colisiones.",
+                "Mediante un motor de física externo.",
+                "Mediante condiciones lógicas if que comprueban las coordenadas de la bola.",
+                "Es automático por defecto en Canvas."
+              ],
+              "correctAnswer": "Mediante condiciones lógicas if que comprueban las coordenadas de la bola.",
+              "explanation": "La respuesta correcta es: Mediante condiciones lógicas if que comprueban las coordenadas de la bola."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

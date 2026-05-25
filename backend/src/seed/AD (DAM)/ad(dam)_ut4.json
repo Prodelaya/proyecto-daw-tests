@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "AD",
+      "name": "Acceso a datos",
+      "topics": [
+        {
+          "number": 4,
+          "title": "UT4",
+          "questions": [
+            {
+              "text": "En una empresa de Bilbao que gestiona catálogos con imágenes y mapas, necesitan mantener SQL y trabajar con tipos complejos. ¿Qué enfoque encaja mejor?",
+              "options": [
+                "Un ORDBMS que extienda el modelo relacional con tipos y funciones",
+                "Un OODBMS que elimine SQL",
+                "Un motor puramente documental",
+                "Un fichero CSV versionado"
+              ],
+              "correctAnswer": "Un ORDBMS que extienda el modelo relacional con tipos y funciones",
+              "explanation": "La respuesta correcta es: Un ORDBMS que extienda el modelo relacional con tipos y funciones"
+            },
+            {
+              "text": "El CTO pregunta qué aporta un sistema orientado a objetos frente al relacional tradicional en una app científica. ¿Qué destacarías?",
+              "options": [
+                "Prohibición de relaciones complejas",
+                "Eliminación de la herencia",
+                "Menos consumo eléctrico",
+                "Persistencia directa de objetos y reducción del “impedance mismatch”"
+              ],
+              "correctAnswer": "Persistencia directa de objetos y reducción del “impedance mismatch”",
+              "explanation": "La respuesta correcta es: Persistencia directa de objetos y reducción del “impedance mismatch”"
+            },
+            {
+              "text": "En un proyecto multimedia de Valencia, piden almacenar vídeo, audio y geometrías usando SQL más operadores específicos. ¿Qué característica es clave en un ORDBMS?",
+              "options": [
+                "Prohibir índices",
+                "Extensibilidad con tipos, funciones y operadores definidos por el usuario",
+                "Desactivar claves foráneas",
+                "Solo tipos primitivos"
+              ],
+              "correctAnswer": "Extensibilidad con tipos, funciones y operadores definidos por el usuario",
+              "explanation": "La respuesta correcta es: Extensibilidad con tipos, funciones y operadores definidos por el usuario"
+            },
+            {
+              "text": "¿Qué describe mejor a un ORDBMS?",
+              "options": [
+                "Es un repositorio de documentos sin esquema",
+                "Solo permite texto plano",
+                "Extiende el modelo relacional con conceptos OO (tipos complejos, herencia, funciones)",
+                "Sustituye tablas por grafos"
+              ],
+              "correctAnswer": "Extiende el modelo relacional con conceptos OO (tipos complejos, herencia, funciones)",
+              "explanation": "La respuesta correcta es: Extiende el modelo relacional con conceptos OO (tipos complejos, herencia, funciones)"
+            },
+            {
+              "text": "Un equipo en Zaragoza evalúa tecnologías. ¿Qué identificación de ejemplos es correcta?",
+              "options": [
+                "Hibernate y JPA como OODBMS",
+                "PostgreSQL y Oracle como ORDBMS; ObjectDB y db4o como OODBMS",
+                "SQLite y Redis como ORDBMS",
+                "PostgreSQL y Oracle como OODBMS"
+              ],
+              "correctAnswer": "PostgreSQL y Oracle como ORDBMS; ObjectDB y db4o como OODBMS",
+              "explanation": "La respuesta correcta es: PostgreSQL y Oracle como ORDBMS; ObjectDB y db4o como OODBMS"
+            },
+            {
+              "text": "En un ecommerce de Madrid quieren representar composición y agregación de forma natural. ¿Qué familia lo facilita de forma nativa?",
+              "options": [
+                "CSV con varias pestañas",
+                "OODBMS (modelo de objetos y clases)",
+                "Relacional puro",
+                "Hoja de cálculo con macros"
+              ],
+              "correctAnswer": "OODBMS (modelo de objetos y clases)",
+              "explanation": "La respuesta correcta es: OODBMS (modelo de objetos y clases)"
+            },
+            {
+              "text": "En un prototipo con objetos ricos y muchas operaciones por objeto, ¿dónde esperas mejor rendimiento?",
+              "options": [
+                "En hojas de cálculo compartidas",
+                "En un FTP con JSON",
+                "En ficheros de texto indexados",
+                "En OODBMS, al trabajar con objetos y relaciones complejas"
+              ],
+              "correctAnswer": "En OODBMS, al trabajar con objetos y relaciones complejas",
+              "explanation": "La respuesta correcta es: En OODBMS, al trabajar con objetos y relaciones complejas"
+            },
+            {
+              "text": "Un banco de pruebas en Sevilla exige integridad referencial además de tipos complejos. ¿Qué opción encaja?",
+              "options": [
+                "Almacenamiento en log",
+                "ORDBMS con restricciones e integridad referencial",
+                "Cachear en memoria y ya está",
+                "OODBMS sin reglas"
+              ],
+              "correctAnswer": "ORDBMS con restricciones e integridad referencial",
+              "explanation": "La respuesta correcta es: ORDBMS con restricciones e integridad referencial"
+            },
+            {
+              "text": "En un taller de aprendizaje, piden un resumen: ¿qué comparten ORDBMS y OODBMS?",
+              "options": [
+                "Que no soportan consultas",
+                "Que buscan manejar datos complejos y relaciones con más flexibilidad que el relacional clásico",
+                "Que ambos eliminan las relaciones",
+                "Que evitan la persistencia"
+              ],
+              "correctAnswer": "Que buscan manejar datos complejos y relaciones con más flexibilidad que el relacional clásico",
+              "explanation": "La respuesta correcta es: Que buscan manejar datos complejos y relaciones con más flexibilidad que el relacional clásico"
+            },
+            {
+              "text": "En una pyme de Vigo se guardan contactos sencillos (nombre, email) y también contactos con varias direcciones. ¿Qué diferencia práctica hay entre objeto simple y estructurado?",
+              "options": [
+                "El estructurado no admite texto",
+                "El simple usa atributos básicos; el estructurado incluye relaciones o colecciones",
+                "El simple tiene métodos y el estructurado no",
+                "El simple no es persistente"
+              ],
+              "correctAnswer": "El simple usa atributos básicos; el estructurado incluye relaciones o colecciones",
+              "explanation": "La respuesta correcta es: El simple usa atributos básicos; el estructurado incluye relaciones o colecciones"
+            },
+            {
+              "text": "El equipo quiere una base en el navegador sin depender de SQL, para un prototipo rápido. ¿Qué tecnología encaja?",
+              "options": [
+                "IndexedDB (NoSQL del navegador, API moderna)",
+                "WebSQL como estándar actual",
+                "Cookies firmadas",
+                "Descargas de XML"
+              ],
+              "correctAnswer": "IndexedDB (NoSQL del navegador, API moderna)",
+              "explanation": "La respuesta correcta es: IndexedDB (NoSQL del navegador, API moderna)"
+            },
+            {
+              "text": "¿Qué diferencia práctica separa IndexedDB de LocalStorage/SessionStorage en el navegador?",
+              "options": [
+                "IndexedDB admite objetos estructurados, índices y transacciones",
+                "LocalStorage ofrece transacciones ACID",
+                "SessionStorage tiene consultas declarativas",
+                "Todas guardan solo cadenas"
+              ],
+              "correctAnswer": "IndexedDB admite objetos estructurados, índices y transacciones",
+              "explanation": "La respuesta correcta es: IndexedDB admite objetos estructurados, índices y transacciones"
+            },
+            {
+              "text": "En Barcelona, piden asegurar que cada email de contacto sea único en el almacén local. ¿Qué configuración lo garantiza?",
+              "options": [
+                "Índice por nombre único",
+                "No crear índices",
+                "Índice por email marcado como único",
+                "Clave compuesta nombre+teléfono"
+              ],
+              "correctAnswer": "Índice por email marcado como único",
+              "explanation": "La respuesta correcta es: Índice por email marcado como único"
+            },
+            {
+              "text": "El responsable de UX quiere claves automáticas para los contactos. ¿Qué efecto produce definir una clave autogenerada en el almacén?",
+              "options": [
+                "Reutiliza claves antiguas",
+                "Obliga a introducir la clave manual",
+                "Desactiva los índices",
+                "Genera un identificador único por cada alta"
+              ],
+              "correctAnswer": "Genera un identificador único por cada alta",
+              "explanation": "La respuesta correcta es: Genera un identificador único por cada alta"
+            },
+            {
+              "text": "QA reporta que las escrituras dejan la lista “a medias” cuando hay muchas altas seguidas. ¿Qué debes recordar sobre IndexedDB?",
+              "options": [
+                "Requiere workers dedicados",
+                "Es asíncrona y encadena operaciones por eventos/callbacks",
+                "Ordena por prioridad de CPU",
+                "Funciona en modo síncrono"
+              ],
+              "correctAnswer": "Es asíncrona y encadena operaciones por eventos/callbacks",
+              "explanation": "La respuesta correcta es: Es asíncrona y encadena operaciones por eventos/callbacks"
+            },
+            {
+              "text": "En una clínica de Sevilla, deben guardar varias direcciones por paciente dentro del mismo registro. ¿Cómo modelarlo en IndexedDB?",
+              "options": [
+                "Concatenar las calles en un texto",
+                "Usar un objeto con un array de direcciones dentro del registro",
+                "Una base por cada dirección",
+                "Duplicar el contacto"
+              ],
+              "correctAnswer": "Usar un objeto con un array de direcciones dentro del registro",
+              "explanation": "La respuesta correcta es: Usar un objeto con un array de direcciones dentro del registro"
+            },
+            {
+              "text": "En pruebas sin Internet, dudáis si el navegador soporta IndexedDB. ¿Qué comprobación operativa harías en local?",
+              "options": [
+                "Intentar abrir una base de prueba y verificar que se inicia correctamente",
+                "Cambiar a LocalStorage por defecto",
+                "Consultar políticas del sistema",
+                "Instalar un plugin externo"
+              ],
+              "correctAnswer": "Intentar abrir una base de prueba y verificar que se inicia correctamente",
+              "explanation": "La respuesta correcta es: Intentar abrir una base de prueba y verificar que se inicia correctamente"
+            },
+            {
+              "text": "Al leer contactos para una lista, ¿qué flujo es coherente?",
+              "options": [
+                "Solicitud síncrona bloqueante",
+                "Dos transacciones anidadas",
+                "Transacción de solo lectura y recuperación de registros (todo o por cursor)",
+                "Lecturas sin transacción"
+              ],
+              "correctAnswer": "Transacción de solo lectura y recuperación de registros (todo o por cursor)",
+              "explanation": "La respuesta correcta es: Transacción de solo lectura y recuperación de registros (todo o por cursor)"
+            },
+            {
+              "text": "En una asesoría de Granada, quieren que una operación que escribe varios registros sea “todo o nada”. ¿Qué elemento debes usar en IndexedDB?",
+              "options": [
+                "Promesas sueltas sin transacción",
+                "Transacción de lectura/escritura sobre el almacén",
+                "Reintentos indefinidos",
+                "Lotes sin control"
+              ],
+              "correctAnswer": "Transacción de lectura/escritura sobre el almacén",
+              "explanation": "La respuesta correcta es: Transacción de lectura/escritura sobre el almacén"
+            },
+            {
+              "text": "Un PM en Madrid pide un recordatorio: ¿para qué sirve OQL en una base orientada a objetos?",
+              "options": [
+                "Para configurar la red",
+                "Para crear tablas físicas",
+                "Para consultar objetos y sus relaciones con sintaxis tipo SQL",
+                "Para insertar y borrar objetos"
+              ],
+              "correctAnswer": "Para consultar objetos y sus relaciones con sintaxis tipo SQL",
+              "explanation": "La respuesta correcta es: Para consultar objetos y sus relaciones con sintaxis tipo SQL"
+            },
+            {
+              "text": "Te piden listar solo nombre y email de Empleado. ¿Qué permite OQL?",
+              "options": [
+                "Contar sin agrupar",
+                "Devolver siempre el objeto completo",
+                "Ordenar únicamente por clave",
+                "Proyectar atributos concretos en la consulta"
+              ],
+              "correctAnswer": "Proyectar atributos concretos en la consulta",
+              "explanation": "La respuesta correcta es: Proyectar atributos concretos en la consulta"
+            },
+            {
+              "text": "¿Qué limitación práctica tiene OQL frente a SQL en muchos entornos?",
+              "options": [
+                "No permite ordenar",
+                "Se centra en SELECT; las modificaciones se realizan vía API del lenguaje",
+                "No soporta alias",
+                "No admite filtros"
+              ],
+              "correctAnswer": "Se centra en SELECT; las modificaciones se realizan vía API del lenguaje",
+              "explanation": "La respuesta correcta es: Se centra en SELECT; las modificaciones se realizan vía API del lenguaje"
+            },
+            {
+              "text": "El área de ventas quiere los empleados del departamento “Ventas”. ¿Qué planteamiento de consulta es correcto en OQL?",
+              "options": [
+                "Consultar por posición en memoria",
+                "Filtrar sin FROM",
+                "Seleccionar desde la clase Empleado y aplicar un filtro por atributo departamento",
+                "Buscar en un CSV"
+              ],
+              "correctAnswer": "Seleccionar desde la clase Empleado y aplicar un filtro por atributo departamento",
+              "explanation": "La respuesta correcta es: Seleccionar desde la clase Empleado y aplicar un filtro por atributo departamento"
+            },
+            {
+              "text": "En un informe de Dirección piden los cinco primeros empleados por apellido descendente. ¿Cómo combinas selección, orden y límite en OQL?",
+              "options": [
+                "Orden aleatorio y cortar a mano",
+                "Solo limitar sin ordenar",
+                "Solo ordenar sin límite",
+                "Ordenar descendente por apellido y limitar el número de resultados"
+              ],
+              "correctAnswer": "Ordenar descendente por apellido y limitar el número de resultados",
+              "explanation": "La respuesta correcta es: Ordenar descendente por apellido y limitar el número de resultados"
+            },
+            {
+              "text": "Necesitas contar empleados por ciudad en OQL. ¿Qué enfoque aplica?",
+              "options": [
+                "Agrupar por objeto completo",
+                "Ordenar alfabéticamente sin agrupar",
+                "Sumar emails",
+                "Agrupar por ciudad y aplicar una función de conteo"
+              ],
+              "correctAnswer": "Agrupar por ciudad y aplicar una función de conteo",
+              "explanation": "La respuesta correcta es: Agrupar por ciudad y aplicar una función de conteo"
+            },
+            {
+              "text": "El equipo duda entre OQL y SQL. ¿Cuándo destacarías OQL?",
+              "options": [
+                "Cuando no haya índices",
+                "Cuando solo quieres texto plano",
+                "Cuando no existan relaciones",
+                "Cuando navegas objetos y subclases, aprovechando polimorfismo y colecciones"
+              ],
+              "correctAnswer": "Cuando navegas objetos y subclases, aprovechando polimorfismo y colecciones",
+              "explanation": "La respuesta correcta es: Cuando navegas objetos y subclases, aprovechando polimorfismo y colecciones"
+            },
+            {
+              "text": "En un entorno con herencia de clases, ¿qué ventaja ofrece OQL?",
+              "options": [
+                "Forzar claves compuestas",
+                "Evitar joins y filtros",
+                "Consultas polimórficas sobre clases y subclases",
+                "Prohibir subclases"
+              ],
+              "correctAnswer": "Consultas polimórficas sobre clases y subclases",
+              "explanation": "La respuesta correcta es: Consultas polimórficas sobre clases y subclases"
+            },
+            {
+              "text": "Para revisar rutas entre objetos relacionados (por ejemplo, empleado→departamento→sede), ¿qué permite OQL?",
+              "options": [
+                "Saltar relaciones",
+                "Trabajar sin alias",
+                "Filtrar solo por enteros",
+                "Navegar por expresiones de ruta entre objetos"
+              ],
+              "correctAnswer": "Navegar por expresiones de ruta entre objetos",
+              "explanation": "La respuesta correcta es: Navegar por expresiones de ruta entre objetos"
+            },
+            {
+              "text": "En un taller de Vigo, quieren una app Java con base orientada a objetos para almacenar Personas y consultarlas sin JDBC. ¿Qué herramienta encaja?",
+              "options": [
+                "Fichero XML",
+                "db4o u otro OODBMS embebido para Java",
+                "ORM sobre SQL",
+                "Hoja de cálculo con macros"
+              ],
+              "correctAnswer": "db4o u otro OODBMS embebido para Java",
+              "explanation": "La respuesta correcta es: db4o u otro OODBMS embebido para Java"
+            },
+            {
+              "text": "Tu equipo Java modifica un objeto Empleado y necesita persistir el cambio en una base orientada a objetos. ¿Qué acción esperas en la API?",
+              "options": [
+                "Almacenar el objeto para que quede persistido el nuevo estado",
+                "Borrar y volver a crear",
+                "Cerrar la aplicación",
+                "Exportar a CSV"
+              ],
+              "correctAnswer": "Almacenar el objeto para que quede persistido el nuevo estado",
+              "explanation": "La respuesta correcta es: Almacenar el objeto para que quede persistido el nuevo estado"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PSP",
+      "name": "Programación de servicios y procesos",
+      "topics": [
+        {
+          "number": 5,
+          "title": "UT5",
+          "questions": [
+            {
+              "text": "Estás realizando una auditoría de código y detectas que un script de mantenimiento temporal se está ejecutando con permisos de \"root\" (administrador) sin ser estrictamente necesario. ¿Qué principio fundamental de la programación segura se está vulnerando en este escenario?",
+              "options": [
+                "Defensa en profundidad.",
+                "Fallos seguros (fail-safe defaults).",
+                "Seguridad por oscuridad.",
+                "Principio del mínimo privilegio."
+              ],
+              "correctAnswer": "Principio del mínimo privilegio.",
+              "explanation": "La respuesta correcta es: Principio del mínimo privilegio."
+            },
+            {
+              "text": "En el diseño de sistemas seguros, ¿en qué consiste el principio de \"fallos seguros\" (fail-safe defaults)?",
+              "options": [
+                "Se utilizan múltiples copias de seguridad para evitar pérdida de datos.",
+                "El sistema se reinicia automáticamente tras un error.",
+                "El acceso a los recursos se deniega por defecto a menos que se otorgue explícitamente.",
+                "El sistema permite el acceso a todos los usuarios si la base de datos falla."
+              ],
+              "correctAnswer": "El acceso a los recursos se deniega por defecto a menos que se otorgue explícitamente.",
+              "explanation": "La respuesta correcta es: El acceso a los recursos se deniega por defecto a menos que se otorgue explícitamente."
+            },
+            {
+              "text": "Estás desarrollando un formulario de login en PHP y quieres asegurarte de que los datos introducidos por el usuario no alteren la estructura de tu consulta a la base de datos. ¿Qué práctica debes aplicar sobre las variables de entrada?",
+              "options": [
+                "Serialización de objetos.",
+                "Encriptación asimétrica.",
+                "Compresión de datos.",
+                "Validación y saneamiento de entrada."
+              ],
+              "correctAnswer": "Validación y saneamiento de entrada.",
+              "explanation": "La respuesta correcta es: Validación y saneamiento de entrada."
+            },
+            {
+              "text": "Tu equipo de seguridad decide implementar no solo un firewall, sino también un sistema de detección de intrusos (IDS) y autenticación de dos factores para proteger un mismo activo crítico. ¿Qué estrategia de seguridad están aplicando?",
+              "options": [
+                "Defensa en profundidad.",
+                "Gestión de sesiones única.",
+                "Seguridad perimetral simple.",
+                "Mínimo privilegio."
+              ],
+              "correctAnswer": "Defensa en profundidad.",
+              "explanation": "La respuesta correcta es: Defensa en profundidad."
+            },
+            {
+              "text": "¿Cuál es la razón principal por la que la \"gestión de errores y excepciones\" se considera una práctica crítica en la programación segura según la unidad?",
+              "options": [
+                "Para reducir el espacio en disco de los logs.",
+                "Para hacer que el código sea más estético.",
+                "Para mejorar el rendimiento del procesador.",
+                "Para evitar comportamientos inesperados o revelación de información que un atacante pueda explotar."
+              ],
+              "correctAnswer": "Para evitar comportamientos inesperados o revelación de información que un atacante pueda explotar.",
+              "explanation": "La respuesta correcta es: Para evitar comportamientos inesperados o revelación de información que un atacante pueda explotar."
+            },
+            {
+              "text": "Necesitas implementar un sistema de cifrado para archivos internos donde la velocidad es crucial y la clave puede ser compartida de forma segura entre el emisor y el receptor. ¿Qué tipo de criptografía es la más adecuada?",
+              "options": [
+                "Esteganografía.",
+                "Criptografía asimétrica.",
+                "Criptografía simétrica.",
+                "Criptografía de clave pública."
+              ],
+              "correctAnswer": "Criptografía simétrica.",
+              "explanation": "La respuesta correcta es: Criptografía simétrica."
+            },
+            {
+              "text": "Un desarrollador junior te pregunta cuál es la diferencia fundamental de la criptografía asimétrica respecto a la simétrica. ¿Cuál es la respuesta correcta?",
+              "options": [
+                "Utiliza la misma clave para encriptar y desencriptar.",
+                "Es mucho más rápida que la simétrica.",
+                "No utiliza claves, sino hashes.",
+                "Utiliza dos claves diferentes: una pública para encriptar y una privada para desencriptar."
+              ],
+              "correctAnswer": "Utiliza dos claves diferentes: una pública para encriptar y una privada para desencriptar.",
+              "explanation": "La respuesta correcta es: Utiliza dos claves diferentes: una pública para encriptar y una privada para desencriptar."
+            },
+            {
+              "text": "Estás escribiendo un script PHP para registrar nuevos usuarios. ¿Qué función nativa debes utilizar para almacenar la contraseña de forma segura en la base de datos, siguiendo las buenas prácticas actuales?",
+              "options": [
+                "sha1($password)",
+                "md5($password)",
+                "base64_encode($password)",
+                "password_hash($password, PASSWORD_DEFAULT)"
+              ],
+              "correctAnswer": "password_hash($password, PASSWORD_DEFAULT)",
+              "explanation": "La respuesta correcta es: password_hash($password, PASSWORD_DEFAULT)"
+            },
+            {
+              "text": "En una infraestructura de clave pública (PKI), deseas que cualquier persona pueda enviarte un mensaje cifrado que solo tú puedas leer. ¿Qué clave debes distribuir libremente?",
+              "options": [
+                "Tu contraseña de root.",
+                "Tu clave pública.",
+                "Tu clave de sesión.",
+                "Tu clave privada."
+              ],
+              "correctAnswer": "Tu clave pública.",
+              "explanation": "La respuesta correcta es: Tu clave pública."
+            },
+            {
+              "text": "Necesitas garantizar que un documento digital proviene indudablemente de un remitente específico y que su contenido no ha sido modificado en el tránsito. ¿Qué mecanismo criptográfico emplearías?",
+              "options": [
+                "Firma digital.",
+                "Túnel VPN.",
+                "Cifrado AES-256.",
+                "Autenticación HTTP básica."
+              ],
+              "correctAnswer": "Firma digital.",
+              "explanation": "La respuesta correcta es: Firma digital."
+            },
+            {
+              "text": "Como arquitecto de software, decides que los permisos de tu aplicación se asignarán a grupos como \"Editores\" y \"Lectores\" en lugar de a usuarios individuales para facilitar la gestión. ¿Qué modelo de seguridad estás implementando?",
+              "options": [
+                "ABAC (Attribute-Based Access Control).",
+                "RBAC (Role-Based Access Control).",
+                "MAC (Mandatory Access Control).",
+                "DAC (Discretionary Access Control)."
+              ],
+              "correctAnswer": "RBAC (Role-Based Access Control).",
+              "explanation": "La respuesta correcta es: RBAC (Role-Based Access Control)."
+            },
+            {
+              "text": "Estás seleccionando un algoritmo para cifrar la base de datos de tu empresa. Buscas un estándar simétrico ampliamente utilizado y seguro. ¿Cuál eliges de la siguiente lista?",
+              "options": [
+                "MD5.",
+                "AES (Advanced Encryption Standard).",
+                "RSA.",
+                "DSA."
+              ],
+              "correctAnswer": "AES (Advanced Encryption Standard).",
+              "explanation": "La respuesta correcta es: AES (Advanced Encryption Standard)."
+            },
+            {
+              "text": "En tu código PHP, necesitas generar un código de autenticación de mensaje utilizando una función hash combinada con una clave secreta. ¿Qué función utilizarías?",
+              "options": [
+                "hash_hmac.",
+                "md5_file.",
+                "openssl_sign.",
+                "password_verify."
+              ],
+              "correctAnswer": "hash_hmac.",
+              "explanation": "La respuesta correcta es: hash_hmac."
+            },
+            {
+              "text": "Tienes una alta rotación de personal en tu empresa. ¿Qué ventaja operativa te ofrece el modelo RBAC cuando un empleado cambia de departamento y necesita nuevos permisos?",
+              "options": [
+                "El usuario debe compartir su contraseña con el administrador.",
+                "Tienes que editar los permisos de cada archivo uno por uno.",
+                "Solo necesitas cambiar el rol asignado al usuario, y heredará automáticamente los nuevos permisos.",
+                "Debes reprogramar la aplicación para el nuevo usuario."
+              ],
+              "correctAnswer": "Solo necesitas cambiar el rol asignado al usuario, y heredará automáticamente los nuevos permisos.",
+              "explanation": "La respuesta correcta es: Solo necesitas cambiar el rol asignado al usuario, y heredará automáticamente los nuevos permisos."
+            },
+            {
+              "text": "Vas a configurar un servidor web para que acepte conexiones seguras HTTPS. ¿Qué algoritmo asimétrico es fundamental para el intercambio inicial de claves y la autenticación en este proceso?",
+              "options": [
+                "RSA.",
+                "RC4.",
+                "Blowfish.",
+                "AES."
+              ],
+              "correctAnswer": "RSA.",
+              "explanation": "La respuesta correcta es: RSA."
+            },
+            {
+              "text": "Durante una auditoría de seguridad a un sistema legado, descubres que se utiliza el algoritmo DES para proteger datos confidenciales. ¿Qué acción debes recomendar?",
+              "options": [
+                "Usarlo solo para datos de baja importancia.",
+                "Mantenerlo, es un estándar robusto.",
+                "Duplicar la longitud de la clave DES.",
+                "Reemplazarlo inmediatamente, ya que se considera obsoleto e inseguro."
+              ],
+              "correctAnswer": "Reemplazarlo inmediatamente, ya que se considera obsoleto e inseguro.",
+              "explanation": "La respuesta correcta es: Reemplazarlo inmediatamente, ya que se considera obsoleto e inseguro."
+            },
+            {
+              "text": "Has descargado una imagen ISO de un sistema operativo y quieres verificar que no está corrupta ni ha sido manipulada. En la web oficial figura un \"checksum\". ¿Qué familia de algoritmos se utiliza para generar este valor de verificación?",
+              "options": [
+                "SHA (Secure Hash Algorithm).",
+                "Diffie-Hellman.",
+                "RSA.",
+                "TLS."
+              ],
+              "correctAnswer": "SHA (Secure Hash Algorithm).",
+              "explanation": "La respuesta correcta es: SHA (Secure Hash Algorithm)."
+            },
+            {
+              "text": "En el script de inserción de usuarios con PDO, utilizas el método $stmt->execute([$usuario, $password]). ¿Qué vulnerabilidad estás mitigando principalmente al usar esta técnica en lugar de concatenar cadenas?",
+              "options": [
+                "Desbordamiento de búfer.",
+                "Inyección SQL.",
+                "Cross-Site Scripting (XSS).",
+                "Secuestro de sesión."
+              ],
+              "correctAnswer": "Inyección SQL.",
+              "explanation": "La respuesta correcta es: Inyección SQL."
+            },
+            {
+              "text": "Estás diseñando la base de datos para un sistema RBAC. Además de las tablas usuarios y roles, necesitas una tercera tabla roles_usuario. ¿Cuál es la función técnica de esta tabla intermedia?",
+              "options": [
+                "Relacionar las claves foráneas de usuarios y roles para permitir una relación de muchos a muchos.",
+                "Almacenar las contraseñas de los roles.",
+                "Encriptar los nombres de los usuarios.",
+                "Guardar el historial de accesos."
+              ],
+              "correctAnswer": "Relacionar las claves foráneas de usuarios y roles para permitir una relación de muchos a muchos.",
+              "explanation": "La respuesta correcta es: Relacionar las claves foráneas de usuarios y roles para permitir una relación de muchos a muchos."
+            },
+            {
+              "text": "¿Qué característica define al algoritmo Blowfish mencionado en la unidad temática?",
+              "options": [
+                "Es un algoritmo de cifrado simétrico de bloque diseñado para ser rápido y seguro.",
+                "Es un algoritmo asimétrico muy lento.",
+                "Se utiliza exclusivamente para hashing de contraseñas.",
+                "Es el estándar actual para firmas digitales."
+              ],
+              "correctAnswer": "Es un algoritmo de cifrado simétrico de bloque diseñado para ser rápido y seguro.",
+              "explanation": "La respuesta correcta es: Es un algoritmo de cifrado simétrico de bloque diseñado para ser rápido y seguro."
+            },
+            {
+              "text": "Estás desarrollando una aplicación bancaria y necesitas asegurar que los datos viajen encriptados a través de internet para evitar que sean interceptados. ¿Qué protocolo de \"sockets seguros\" debes implementar?",
+              "options": [
+                "FTP.",
+                "Telnet.",
+                "HTTP.",
+                "SSL/TLS."
+              ],
+              "correctAnswer": "SSL/TLS.",
+              "explanation": "La respuesta correcta es: SSL/TLS."
+            },
+            {
+              "text": "Un cliente se conecta a tu servidor seguro. Además de cifrar los datos, ¿qué función crítica realiza el certificado digital presentado por tu servidor durante el proceso de conexión?",
+              "options": [
+                "Generar contraseñas para el cliente.",
+                "Autenticar la identidad del servidor para prevenir ataques \"Man-in-the-Middle\".",
+                "Comprimir los datos para mayor velocidad.",
+                "Almacenar la base de datos de usuarios."
+              ],
+              "correctAnswer": "Autenticar la identidad del servidor para prevenir ataques \"Man-in-the-Middle\".",
+              "explanation": "La respuesta correcta es: Autenticar la identidad del servidor para prevenir ataques \"Man-in-the-Middle\"."
+            },
+            {
+              "text": "Estás trabajando con XAMPP y necesitas generar un certificado SSL autofirmado para tu entorno de desarrollo local. ¿Qué comando de línea utilizarías para crear la clave privada y el certificado?",
+              "options": [
+                "certutil.",
+                "ssh-keygen.",
+                "makecert.",
+                "openssl req."
+              ],
+              "correctAnswer": "openssl req.",
+              "explanation": "La respuesta correcta es: openssl req."
+            },
+            {
+              "text": "Has instalado un certificado autofirmado en tu servidor de pruebas. Cuando intentas acceder desde el navegador, aparece una advertencia de seguridad. ¿Cuál es la causa técnica de este aviso?",
+              "options": [
+                "Has escrito mal la URL.",
+                "El cifrado es demasiado débil.",
+                "El servidor está apagado.",
+                "El certificado no ha sido emitido por una Autoridad de Certificación (CA) de confianza reconocida por el navegador."
+              ],
+              "correctAnswer": "El certificado no ha sido emitido por una Autoridad de Certificación (CA) de confianza reconocida por el navegador.",
+              "explanation": "La respuesta correcta es: El certificado no ha sido emitido por una Autoridad de Certificación (CA) de confianza reconocida por el navegador."
+            },
+            {
+              "text": "Necesitas configurar la ruta de tu nuevo certificado SSL en Apache dentro de XAMPP. ¿Cuál es el nombre del archivo de configuración específico donde se definen las directivas SSLCertificateFile?",
+              "options": [
+                "httpd-ssl.conf.",
+                "php.ini.",
+                "httpd.conf.",
+                "config.inc.php."
+              ],
+              "correctAnswer": "httpd-ssl.conf.",
+              "explanation": "La respuesta correcta es: httpd-ssl.conf."
+            },
+            {
+              "text": "Estás programando un cliente en PHP que debe conectarse a una API segura. ¿Qué función utilizas para iniciar una conexión de socket especificando el protocolo ssl://?",
+              "options": [
+                "socket_create.",
+                "file_get_contents.",
+                "stream_socket_client.",
+                "curl_exec."
+              ],
+              "correctAnswer": "stream_socket_client.",
+              "explanation": "La respuesta correcta es: stream_socket_client."
+            },
+            {
+              "text": "En el contexto de SSL/TLS, ¿qué rol desempeña una Autoridad de Certificación (CA)?",
+              "options": [
+                "Proveer la conexión a internet.",
+                "Generar las contraseñas de los usuarios.",
+                "Encriptar los datos del usuario.",
+                "Validar la identidad del solicitante y firmar digitalmente su certificado."
+              ],
+              "correctAnswer": "Validar la identidad del solicitante y firmar digitalmente su certificado.",
+              "explanation": "La respuesta correcta es: Validar la identidad del solicitante y firmar digitalmente su certificado."
+            },
+            {
+              "text": "En el código PHP para un cliente de socket seguro, utilizas la cadena de conexión ssl://$host:$port. ¿Qué puerto debes especificar normalmente en $port para una conexión web segura estándar?",
+              "options": [
+                "8080.",
+                "443.",
+                "21.",
+                "80."
+              ],
+              "correctAnswer": "443.",
+              "explanation": "La respuesta correcta es: 443."
+            },
+            {
+              "text": "Estás analizando el tráfico de red de tu aplicación. Si utilizas SSL/TLS correctamente, ¿cómo vería un atacante que intercepte los paquetes la información transmitida (como contraseñas)?",
+              "options": [
+                "Como asteriscos (******).",
+                "En texto plano, totalmente legible.",
+                "Como datos cifrados ininteligibles.",
+                "Codificada en Base64 pero legible."
+              ],
+              "correctAnswer": "Como datos cifrados ininteligibles.",
+              "explanation": "La respuesta correcta es: Como datos cifrados ininteligibles."
+            },
+            {
+              "text": "Dentro de una comunicación SSL/TLS, se utilizan algoritmos de hash y funciones MAC (Message Authentication Code). ¿Cuál es el objetivo específico de estos componentes?",
+              "options": [
+                "Ocultar la dirección IP del servidor.",
+                "Negociar la versión del protocolo.",
+                "Garantizar la integridad de los datos, asegurando que no se alteren durante la transmisión.",
+                "Comprimir el tráfico de red."
+              ],
+              "correctAnswer": "Garantizar la integridad de los datos, asegurando que no se alteren durante la transmisión.",
+              "explanation": "La respuesta correcta es: Garantizar la integridad de los datos, asegurando que no se alteren durante la transmisión."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

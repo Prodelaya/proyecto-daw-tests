@@ -1,0 +1,335 @@
+{
+  "subjects": [
+    {
+      "code": "SGE",
+      "name": "Sistema de gestión empresarial",
+      "topics": [
+        {
+          "number": 5,
+          "title": "UT5",
+          "questions": [
+            {
+              "text": "En el entorno empresarial actual, ¿qué factor motiva principalmente a las organizaciones a buscar soluciones de software flexibles y adaptables?",
+              "options": [
+                "La necesidad de reducir la cantidad de datos almacenados en el servidor local",
+                "La rápida evolución tecnológica y las expectativas cambiantes de los clientes",
+                "El deseo de eliminar por completo la interfaz de usuario para usar solo comandos",
+                "La obligatoriedad de utilizar sistemas operativos de código cerrado por ley"
+              ],
+              "correctAnswer": "La rápida evolución tecnológica y las expectativas cambiantes de los clientes",
+              "explanation": "La respuesta correcta es: La rápida evolución tecnológica y las expectativas cambiantes de los clientes"
+            },
+            {
+              "text": "Una empresa modifica la forma en que su ERP interactúa con un sistema logístico externo. ¿A qué concepto se refiere esta acción?",
+              "options": [
+                "Respaldo de base de datos",
+                "Migración de servidor",
+                "Personalización superficial",
+                "Adaptación del sistema"
+              ],
+              "correctAnswer": "Adaptación del sistema",
+              "explanation": "La respuesta correcta es: Adaptación del sistema"
+            },
+            {
+              "text": "¿Cuál es la característica principal que define a la \"personalización\" frente a la \"adaptación\" según el temario?",
+              "options": [
+                "Es un proceso que elimina las funciones existentes del ERP",
+                "Solo puede realizarse en sistemas que no sean de código abierto",
+                "Requiere siempre la reescritura total del código fuente del software",
+                "Se refiere al ajuste de características sin alterar el código del software"
+              ],
+              "correctAnswer": "Se refiere al ajuste de características sin alterar el código del software",
+              "explanation": "La respuesta correcta es: Se refiere al ajuste de características sin alterar el código del software"
+            },
+            {
+              "text": "Un administrador configura un flujo de trabajo específico en el CRM para que se ajuste a los pasos de venta de su equipo. ¿Qué tipo de ajuste está realizando?",
+              "options": [
+                "Limpieza de registros",
+                "Personalización del sistema",
+                "Adaptación de hardware",
+                "Auditoría de red"
+              ],
+              "correctAnswer": "Personalización del sistema",
+              "explanation": "La respuesta correcta es: Personalización del sistema"
+            },
+            {
+              "text": "¿En qué se basa la flexibilidad de Odoo para permitir que las empresas utilicen solo lo que necesitan?",
+              "options": [
+                "En la obligatoriedad de instalar todos los paquetes",
+                "En su base de datos de tipo plano",
+                "En su arquitectura modular",
+                "En el uso de un único lenguaje de programación visual"
+              ],
+              "correctAnswer": "En su arquitectura modular",
+              "explanation": "La respuesta correcta es: En su arquitectura modular"
+            },
+            {
+              "text": "Si una empresa ya utiliza un software de contabilidad específico, ¿cómo puede Odoo mejorar su eficiencia operativa?",
+              "options": [
+                "Sustituyendo automáticamente el hardware del servidor",
+                "Mediante su capacidad para integrarse con otras soluciones de software",
+                "Desactivando las funciones de red de la empresa",
+                "Obligando a la empresa a borrar los datos del software antiguo"
+              ],
+              "correctAnswer": "Mediante su capacidad para integrarse con otras soluciones de software",
+              "explanation": "La respuesta correcta es: Mediante su capacidad para integrarse con otras soluciones de software"
+            },
+            {
+              "text": "¿Qué ventaja ofrece el código abierto de Odoo a una empresa cuyas necesidades cambian con el tiempo?",
+              "options": [
+                "Garantiza que el software nunca necesite actualizaciones",
+                "Permite modificar el software según cambien sus necesidades",
+                "Hace que el sistema funcione sin necesidad de una base de datos",
+                "Impide que otros desarrolladores vean la lógica del negocio"
+              ],
+              "correctAnswer": "Permite modificar el software según cambien sus necesidades",
+              "explanation": "La respuesta correcta es: Permite modificar el software según cambien sus necesidades"
+            },
+            {
+              "text": "En una base de datos de un ERP, ¿qué representan técnicamente los \"campos\"?",
+              "options": [
+                "Los distintos tipos de información almacenada en una tabla",
+                "La estructura física de los discos duros del servidor",
+                "El tiempo que tarda una consulta en mostrar resultados",
+                "El número de usuarios que pueden iniciar sesión simultáneamente"
+              ],
+              "correctAnswer": "Los distintos tipos de información almacenada en una tabla",
+              "explanation": "La respuesta correcta es: Los distintos tipos de información almacenada en una tabla"
+            },
+            {
+              "text": "¿Por qué una empresa podría necesitar añadir o modificar campos en sus tablas de base de datos?",
+              "options": [
+                "Para cambiar el sistema operativo del servidor central",
+                "Para evitar que los usuarios introduzcan datos en los formularios",
+                "Para acomodar nuevos tipos de información requerida por el negocio",
+                "Para reducir la velocidad de procesamiento de los datos"
+              ],
+              "correctAnswer": "Para acomodar nuevos tipos de información requerida por el negocio",
+              "explanation": "La respuesta correcta es: Para acomodar nuevos tipos de información requerida por el negocio"
+            },
+            {
+              "text": "Una organización ajusta las relaciones entre sus tablas de datos para reflejar un nuevo proceso de fabricación. ¿A qué nivel de adaptación pertenece este cambio?",
+              "options": [
+                "Adaptación de hardware",
+                "Adaptación de vistas",
+                "Adaptación de tablas",
+                "Adaptación de interfaz"
+              ],
+              "correctAnswer": "Adaptación de tablas",
+              "explanation": "La respuesta correcta es: Adaptación de tablas"
+            },
+            {
+              "text": "¿Qué función cumplen las \"vistas\" dentro de la base de datos de un sistema ERP-CRM?",
+              "options": [
+                "Son los lenguajes de programación usados para crear modelos",
+                "Son consultas almacenadas que presentan los datos de manera específica",
+                "Son los cables que conectan el monitor con el servidor",
+                "Son copias de seguridad físicas de los registros de ventas"
+              ],
+              "correctAnswer": "Son consultas almacenadas que presentan los datos de manera específica",
+              "explanation": "La respuesta correcta es: Son consultas almacenadas que presentan los datos de manera específica"
+            },
+            {
+              "text": "Un analista de negocio crea una petición específica para extraer datos de ventas del último mes. ¿Cómo se denomina técnicamente esta acción?",
+              "options": [
+                "Campo",
+                "Tabla",
+                "Consulta",
+                "Formulario"
+              ],
+              "correctAnswer": "Consulta",
+              "explanation": "La respuesta correcta es: Consulta"
+            },
+            {
+              "text": "¿Cuál es el beneficio de crear vistas personalizadas en una plataforma como Odoo?",
+              "options": [
+                "Reducir el tamaño de las imágenes almacenadas en el sistema",
+                "Impedir que los usuarios realicen consultas SQL",
+                "Eliminar el acceso de los directivos a la información",
+                "Presentar los datos de forma más efectiva para el análisis empresarial"
+              ],
+              "correctAnswer": "Presentar los datos de forma más efectiva para el análisis empresarial",
+              "explanation": "La respuesta correcta es: Presentar los datos de forma más efectiva para el análisis empresarial"
+            },
+            {
+              "text": "Los formularios y las pantallas de captura de información son ejemplos de:",
+              "options": [
+                "Interfaces de entrada de datos",
+                "Scripts de automatización de informes",
+                "Consultas de base de datos relacionales",
+                "Procedimientos almacenados de servidor"
+              ],
+              "correctAnswer": "Interfaces de entrada de datos",
+              "explanation": "La respuesta correcta es: Interfaces de entrada de datos"
+            },
+            {
+              "text": "Al adaptar una interfaz de entrada, ¿qué funcionalidad ayuda a optimizar la eficiencia en la captura de información?",
+              "options": [
+                "Desactivación de las teclas de función",
+                "Funciones de autocompletado",
+                "Cifrado de la pantalla de visualización",
+                "Eliminación de las etiquetas de los campos"
+              ],
+              "correctAnswer": "Funciones de autocompletado",
+              "explanation": "La respuesta correcta es: Funciones de autocompletado"
+            },
+            {
+              "text": "¿Qué implica la \"adaptación de los procesos\" dentro de un ERP?",
+              "options": [
+                "Instalar un nuevo navegador web en los equipos cliente",
+                "Comprar más memoria RAM para los ordenadores de la oficina",
+                "Cambiar el diseño del logotipo de la empresa en la cabecera",
+                "Modificar la manera en que los datos se procesan y administran"
+              ],
+              "correctAnswer": "Modificar la manera en que los datos se procesan y administran",
+              "explanation": "La respuesta correcta es: Modificar la manera en que los datos se procesan y administran"
+            },
+            {
+              "text": "Una empresa implementa reglas que impiden guardar un registro si el campo \"Teléfono\" está vacío. ¿A qué tipo de adaptación corresponde?",
+              "options": [
+                "Adaptación de informes",
+                "Adaptación de procedimientos de red",
+                "Personalización de estilos visuales",
+                "Implementación de validaciones en interfaces de entrada"
+              ],
+              "correctAnswer": "Implementación de validaciones en interfaces de entrada",
+              "explanation": "La respuesta correcta es: Implementación de validaciones en interfaces de entrada"
+            },
+            {
+              "text": "¿Cuál es la utilidad principal de los informes en un sistema ERP o CRM?",
+              "options": [
+                "Controlar la temperatura física de los servidores de la empresa",
+                "Reducir la necesidad de tener una base de datos instalada",
+                "Facilitar la entrada manual de datos por parte de los clientes",
+                "Proporcionar una visión detallada y a menudo gráfica de los datos"
+              ],
+              "correctAnswer": "Proporcionar una visión detallada y a menudo gráfica de los datos",
+              "explanation": "La respuesta correcta es: Proporcionar una visión detallada y a menudo gráfica de los datos"
+            },
+            {
+              "text": "¿Qué aspecto de un informe se puede ajustar mediante la personalización para cumplir con las políticas de seguridad?",
+              "options": [
+                "Los niveles de acceso de los usuarios al informe",
+                "La velocidad de giro de los discos del servidor",
+                "El lenguaje de programación del motor de base de datos",
+                "El protocolo de red utilizado para la conexión a Internet"
+              ],
+              "correctAnswer": "Los niveles de acceso de los usuarios al informe",
+              "explanation": "La respuesta correcta es: Los niveles de acceso de los usuarios al informe"
+            },
+            {
+              "text": "¿Qué son técnicamente los procedimientos almacenados en el servidor?",
+              "options": [
+                "Dispositivos de seguridad que bloquean el acceso al edificio",
+                "Scripts que se ejecutan en la base de datos para automatizar tareas",
+                "Discos duros externos donde se guardan los manuales de usuario",
+                "Carpetas físicas donde se archivan las facturas impresas"
+              ],
+              "correctAnswer": "Scripts que se ejecutan en la base de datos para automatizar tareas",
+              "explanation": "La respuesta correcta es: Scripts que se ejecutan en la base de datos para automatizar tareas"
+            },
+            {
+              "text": "Una librería desea actualizar automáticamente su inventario cada vez que se realiza una venta. ¿Qué herramienta es la más adecuada para esto?",
+              "options": [
+                "Un formulario de contacto para clientes",
+                "Un procedimiento almacenado en el servidor",
+                "Una consulta manual diaria por parte del gerente",
+                "Una vista de lista personalizada"
+              ],
+              "correctAnswer": "Un procedimiento almacenado en el servidor",
+              "explanation": "La respuesta correcta es: Un procedimiento almacenado en el servidor"
+            },
+            {
+              "text": "En el desarrollo de Odoo, ¿qué se entiende por \"módulos\"?",
+              "options": [
+                "Manuales de instrucciones divididos por capítulos",
+                "Cables de red de alta velocidad para conectar sedes",
+                "Monitores adicionales para ver más datos simultáneamente",
+                "Pequeñas aplicaciones que se añaden para ampliar funcionalidades"
+              ],
+              "correctAnswer": "Pequeñas aplicaciones que se añaden para ampliar funcionalidades",
+              "explanation": "La respuesta correcta es: Pequeñas aplicaciones que se añaden para ampliar funcionalidades"
+            },
+            {
+              "text": "Un desarrollador crea una carpeta llamada \"libreria\" dentro del directorio \"addons\". ¿Qué archivo debe crear obligatoriamente para definir la información básica del módulo?",
+              "options": [
+                "models.py",
+                "views.xml",
+                "index.html",
+                "manifest.py"
+              ],
+              "correctAnswer": "manifest.py",
+              "explanation": "La respuesta correcta es: manifest.py"
+            },
+            {
+              "text": "¿Cuál es la función del archivo \"init.py\" en una carpeta de módulo de Odoo?",
+              "options": [
+                "Decirle a Python que trate la carpeta como un paquete",
+                "Configurar la dirección IP del servidor de base de datos",
+                "Indicar el precio de venta del módulo al usuario",
+                "Almacenar las imágenes de los productos de la librería"
+              ],
+              "correctAnswer": "Decirle a Python que trate la carpeta como un paquete",
+              "explanation": "La respuesta correcta es: Decirle a Python que trate la carpeta como un paquete"
+            },
+            {
+              "text": "En la creación de un modelo para una librería, se utiliza la clase \"models.Model\". ¿Qué define la propiedad \"_name\"?",
+              "options": [
+                "El nombre que aparecerá en el menú de Windows",
+                "El título del libro más vendido de la tienda",
+                "El identificador técnico del modelo en el sistema",
+                "El nombre del desarrollador que creó el archivo"
+              ],
+              "correctAnswer": "El identificador técnico del modelo en el sistema",
+              "explanation": "La respuesta correcta es: El identificador técnico del modelo en el sistema"
+            },
+            {
+              "text": "Un desarrollador define un campo como \"fields.Selection\". ¿Cuál es el propósito de este tipo de campo?",
+              "options": [
+                "Realizar un cálculo matemático complejo entre dos tablas",
+                "Permitir al usuario escribir un texto libre de longitud ilimitada",
+                "Ofrecer una lista de opciones predefinidas para seleccionar una",
+                "Almacenar la fecha y hora exacta de la creación del registro"
+              ],
+              "correctAnswer": "Ofrecer una lista de opciones predefinidas para seleccionar una",
+              "explanation": "La respuesta correcta es: Ofrecer una lista de opciones predefinidas para seleccionar una"
+            },
+            {
+              "text": "¿Qué archivos de Odoo se encargan de definir cómo se presentan los datos (formularios, listas) a los usuarios?",
+              "options": [
+                "Archivos de modelos (.py)",
+                "Archivos de inicialización (.init)",
+                "Archivos de manifiesto (.manifest)",
+                "Archivos de vistas (.xml)"
+              ],
+              "correctAnswer": "Archivos de vistas (.xml)",
+              "explanation": "La respuesta correcta es: Archivos de vistas (.xml)"
+            },
+            {
+              "text": "Un programador ha terminado de escribir el código de un nuevo módulo en la carpeta \"addons\". ¿Qué paso debe realizar en el sistema operativo antes de poder instalarlo en la interfaz de Odoo?",
+              "options": [
+                "Desactivar la conexión a Internet del servidor",
+                "Formatear la partición de datos del disco duro",
+                "Reiniciar el servicio de Odoo",
+                "Borrar la carpeta de instalación de PostgreSQL"
+              ],
+              "correctAnswer": "Reiniciar el servicio de Odoo",
+              "explanation": "La respuesta correcta es: Reiniciar el servicio de Odoo"
+            },
+            {
+              "text": "¿En qué sección de la interfaz de Odoo debe entrar el usuario para activar el nuevo módulo de \"Librería\" una vez reconocido por el sistema?",
+              "options": [
+                "Ventas > Pedidos",
+                "Facturación > Informes",
+                "Configuración > Técnico",
+                "Aplicaciones"
+              ],
+              "correctAnswer": "Aplicaciones",
+              "explanation": "La respuesta correcta es: Aplicaciones"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

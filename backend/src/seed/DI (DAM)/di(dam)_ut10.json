@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 10,
+          "title": "UT10",
+          "questions": [
+            {
+              "text": "Un desarrollador acaba de terminar una función que calcula el IVA para un producto. Antes de integrarla con el resto del carrito de compras, decide probarla aisladamente con diferentes precios y tasas de IVA. ¿Qué nivel de prueba está aplicando?",
+              "options": [
+                "Pruebas de integración.",
+                "Pruebas de aceptación.",
+                "Pruebas de sistema.",
+                "Pruebas unitarias."
+              ],
+              "correctAnswer": "Pruebas unitarias.",
+              "explanation": "La respuesta correcta es: Pruebas unitarias."
+            },
+            {
+              "text": "¿Cuál es el propósito principal del proceso de prueba de software?",
+              "options": [
+                "Documentar las funcionalidades para el usuario final.",
+                "Automatizar la escritura del código fuente.",
+                "Evaluar y verificar el correcto funcionamiento, identificar defectos y asegurar que cumple con los requisitos.",
+                "Garantizar que el software esté completamente libre de errores."
+              ],
+              "correctAnswer": "Evaluar y verificar el correcto funcionamiento, identificar defectos y asegurar que cumple con los requisitos.",
+              "explanation": "La respuesta correcta es: Evaluar y verificar el correcto funcionamiento, identificar defectos y asegurar que cumple con los requisitos."
+            },
+            {
+              "text": "Durante la fase de desarrollo de una aplicación .NET, un programador utiliza NUnit para verificar que cada método individual de una clase Calculator produce los resultados matemáticos esperados. ¿Qué tipo de prueba está realizando?",
+              "options": [
+                "Prueba de aceptación.",
+                "Prueba unitaria.",
+                "Prueba de sistema.",
+                "Prueba de integración."
+              ],
+              "correctAnswer": "Prueba unitaria.",
+              "explanation": "La respuesta correcta es: Prueba unitaria."
+            },
+            {
+              "text": "Tras completar las pruebas unitarias de los módulos de autenticación y gestión de perfiles, el equipo decide probar cómo interactúan estos dos módulos al registrar un nuevo usuario y luego iniciar sesión. ¿Qué nivel de prueba se está llevando a cabo?",
+              "options": [
+                "Pruebas de caja blanca.",
+                "Pruebas unitarias.",
+                "Pruebas de sistema.",
+                "Pruebas de integración."
+              ],
+              "correctAnswer": "Pruebas de integración.",
+              "explanation": "La respuesta correcta es: Pruebas de integración."
+            },
+            {
+              "text": "¿En qué nivel de pruebas se evalúa el software en su totalidad para verificar que cumple con los requisitos funcionales y técnicos especificados, abarcando aspectos como rendimiento y seguridad?",
+              "options": [
+                "Pruebas unitarias.",
+                "Pruebas de regresión.",
+                "Pruebas de integración.",
+                "Pruebas de sistema."
+              ],
+              "correctAnswer": "Pruebas de sistema.",
+              "explanation": "La respuesta correcta es: Pruebas de sistema."
+            },
+            {
+              "text": "Un equipo está probando el flujo completo de una tienda online: buscar producto, añadir al carrito, proceder al pago y recibir confirmación. Este tipo de prueba, que evalúa la aplicación completa de principio a fin, corresponde a:",
+              "options": [
+                "Pruebas unitarias.",
+                "Pruebas de carga.",
+                "Pruebas de integración.",
+                "Pruebas de sistema."
+              ],
+              "correctAnswer": "Pruebas de sistema.",
+              "explanation": "La respuesta correcta es: Pruebas de sistema."
+            },
+            {
+              "text": "¿Cuál es el objetivo principal de las pruebas de integración?",
+              "options": [
+                "Identificar problemas derivados de la interacción entre módulos ensamblados.",
+                "Evaluar el software completo contra los requisitos especificados.",
+                "Probar cada módulo de software de forma aislada.",
+                "Verificar la lógica interna y estructura del código."
+              ],
+              "correctAnswer": "Identificar problemas derivados de la interacción entre módulos ensamblados.",
+              "explanation": "La respuesta correcta es: Identificar problemas derivados de la interacción entre módulos ensamblados."
+            },
+            {
+              "text": "Aunque las pruebas son esenciales, ¿qué limitación importante tienen respecto a la eliminación total de errores?",
+              "options": [
+                "Solo encuentran errores críticos.",
+                "No pueden garantizar la ausencia total de errores, pero sí minimizan su número e impacto.",
+                "No pueden realizarse hasta el final del desarrollo.",
+                "Son demasiado costosas para ser efectivas."
+              ],
+              "correctAnswer": "No pueden garantizar la ausencia total de errores, pero sí minimizan su número e impacto.",
+              "explanation": "La respuesta correcta es: No pueden garantizar la ausencia total de errores, pero sí minimizan su número e impacto."
+            },
+            {
+              "text": "Un equipo de desarrollo Java necesita una herramienta específica para escribir y ejecutar pruebas unitarias, que les permita definir casos de prueba y realizar afirmaciones sobre los resultados. ¿Qué herramienta es la estándar para este propósito en Java?",
+              "options": [
+                "NUnit.",
+                "JUnit.",
+                "PyTest.",
+                "Selenium."
+              ],
+              "correctAnswer": "JUnit.",
+              "explanation": "La respuesta correcta es: JUnit."
+            },
+            {
+              "text": "¿Qué técnica de pruebas se enfoca en evaluar la funcionalidad del software basándose en sus entradas y salidas, sin tener conocimiento de la estructura interna del código?",
+              "options": [
+                "Pruebas de integración.",
+                "Pruebas de Caja Blanca.",
+                "Pruebas unitarias.",
+                "Pruebas de Caja Negra."
+              ],
+              "correctAnswer": "Pruebas de Caja Negra.",
+              "explanation": "La respuesta correcta es: Pruebas de Caja Negra."
+            },
+            {
+              "text": "Un desarrollador está examinando el código fuente de una función para asegurarse de que todas las posibles rutas de ejecución (condiciones if, bucles while) están cubiertas por los casos de prueba. ¿Qué técnica está aplicando?",
+              "options": [
+                "Pruebas de Caja Blanca.",
+                "Pruebas de Aceptación.",
+                "Pruebas de Carga.",
+                "Pruebas de Caja Negra."
+              ],
+              "correctAnswer": "Pruebas de Caja Blanca.",
+              "explanation": "La respuesta correcta es: Pruebas de Caja Blanca."
+            },
+            {
+              "text": "Después de corregir un error en el módulo de cálculo de impuestos, el equipo vuelve a ejecutar un conjunto de pruebas previamente definidas para asegurarse de que la corrección no haya afectado negativamente otras partes del sistema. ¿Cómo se llama esta técnica?",
+              "options": [
+                "Pruebas Unitarias.",
+                "Pruebas de Carga.",
+                "Pruebas de Caja Negra.",
+                "Pruebas de Regresión."
+              ],
+              "correctAnswer": "Pruebas de Regresión.",
+              "explanation": "La respuesta correcta es: Pruebas de Regresión."
+            },
+            {
+              "text": "Una empresa está a punto de lanzar un nuevo sitio web de comercio electrónico y necesita saber cuántos usuarios concurrentes puede soportar antes de que el rendimiento se degrade. ¿Qué tipo de prueba simula estas condiciones?",
+              "options": [
+                "Pruebas de Aceptación.",
+                "Pruebas de Caja Blanca.",
+                "Pruebas de Carga/Rendimiento.",
+                "Pruebas de Regresión."
+              ],
+              "correctAnswer": "Pruebas de Carga/Rendimiento.",
+              "explanation": "La respuesta correcta es: Pruebas de Carga/Rendimiento."
+            },
+            {
+              "text": "¿Qué herramienta es comúnmente utilizada para automatizar las pruebas de interfaces de usuario en aplicaciones web, interactuando directamente con los navegadores?",
+              "options": [
+                "JUnit.",
+                "Selenium.",
+                "NUnit.",
+                "Postman."
+              ],
+              "correctAnswer": "Selenium.",
+              "explanation": "La respuesta correcta es: Selenium."
+            },
+            {
+              "text": "Un equipo de QA necesita verificar la funcionalidad de una API REST, enviando diferentes tipos de solicitudes (GET, POST, PUT) y validando las respuestas recibidas. ¿Qué herramienta es adecuada para realizar estas pruebas de API?",
+              "options": [
+                "Postman.",
+                "Selenium.",
+                "JUnit.",
+                "PyTest."
+              ],
+              "correctAnswer": "Postman.",
+              "explanation": "La respuesta correcta es: Postman."
+            },
+            {
+              "text": "Justo antes de entregar el software al cliente, se realizan pruebas finales donde los propios usuarios finales validan que el sistema cumple con sus necesidades y requisitos de negocio en un entorno simulado. ¿Cómo se denominan estas pruebas?",
+              "options": [
+                "Pruebas de Sistema.",
+                "Pruebas de Aceptación.",
+                "Pruebas de Regresión.",
+                "Pruebas de Integración."
+              ],
+              "correctAnswer": "Pruebas de Aceptación.",
+              "explanation": "La respuesta correcta es: Pruebas de Aceptación."
+            },
+            {
+              "text": "Un equipo de desarrollo decide implementar la automatización de pruebas para su ciclo de integración continua. ¿Cuál es una de las principales ventajas que esperan obtener?",
+              "options": [
+                "Aumentar la eficiencia completando las pruebas más rápidamente.",
+                "Hacer que las pruebas sean menos consistentes.",
+                "Eliminar la necesidad de pruebas manuales por completo.",
+                "Reducir la cobertura de las pruebas."
+              ],
+              "correctAnswer": "Aumentar la eficiencia completando las pruebas más rápidamente.",
+              "explanation": "La respuesta correcta es: Aumentar la eficiencia completando las pruebas más rápidamente."
+            },
+            {
+              "text": "¿Qué beneficio clave proporciona la automatización al ejecutar repetidamente el mismo conjunto de pruebas de regresión tras cada cambio en el código?",
+              "options": [
+                "Asegura la consistencia en la ejecución y reduce el riesgo de errores humanos.",
+                "Disminuye la cobertura general de las pruebas.",
+                "Reduce la necesidad de herramientas de control de versiones.",
+                "Permite explorar nuevas funcionalidades manualmente."
+              ],
+              "correctAnswer": "Asegura la consistencia en la ejecución y reduce el riesgo de errores humanos.",
+              "explanation": "La respuesta correcta es: Asegura la consistencia en la ejecución y reduce el riesgo de errores humanos."
+            },
+            {
+              "text": "Una suite de pruebas manuales tarda 8 horas en ejecutarse. Al automatizarla, el tiempo se reduce a 30 minutos, permitiendo ejecutarla varias veces al día. ¿Qué ventaja de la automatización se ilustra aquí?",
+              "options": [
+                "Eficiencia.",
+                "Ampliación de la cobertura.",
+                "Reutilización.",
+                "Consistencia."
+              ],
+              "correctAnswer": "Eficiencia.",
+              "explanation": "La respuesta correcta es: Eficiencia."
+            },
+            {
+              "text": "Un script de prueba automatizado creado para validar el proceso de inicio de sesión se utiliza cada vez que se modifica cualquier parte del código relacionado con la autenticación. ¿Qué ventaja representa esto?",
+              "options": [
+                "Consistencia.",
+                "Ampliación de la cobertura.",
+                "Reutilización.",
+                "Eficiencia."
+              ],
+              "correctAnswer": "Reutilización.",
+              "explanation": "La respuesta correcta es: Reutilización."
+            },
+            {
+              "text": "¿Qué tipo de pruebas NO suelen ser adecuadas para la automatización y son más efectivas si se realizan manualmente?",
+              "options": [
+                "Pruebas de regresión.",
+                "Pruebas que requieren exploración, evaluación de usabilidad o decisiones humanas complejas.",
+                "Pruebas de carga.",
+                "Pruebas unitarias."
+              ],
+              "correctAnswer": "Pruebas que requieren exploración, evaluación de usabilidad o decisiones humanas complejas.",
+              "explanation": "La respuesta correcta es: Pruebas que requieren exploración, evaluación de usabilidad o decisiones humanas complejas."
+            },
+            {
+              "text": "Un desarrollador está configurando un servidor para que, cada vez que se suba código nuevo al repositorio Git, se compilen automáticamente la aplicación y se ejecuten todas las pruebas unitarias y de integración. ¿Qué herramienta de integración continua es popular para orquestar este proceso?",
+              "options": [
+                "Selenium.",
+                "Appium.",
+                "Cucumber.",
+                "Jenkins."
+              ],
+              "correctAnswer": "Jenkins.",
+              "explanation": "La respuesta correcta es: Jenkins."
+            },
+            {
+              "text": "Un equipo necesita automatizar pruebas para una aplicación móvil nativa en dispositivos iOS y Android. ¿Qué herramienta de código abierto está diseñada específicamente para este propósito?",
+              "options": [
+                "Appium.",
+                "Jenkins.",
+                "Selenium.",
+                "Postman."
+              ],
+              "correctAnswer": "Appium.",
+              "explanation": "La respuesta correcta es: Appium."
+            },
+            {
+              "text": "Una metodología de pruebas se basa en definir el comportamiento esperado de la aplicación usando un lenguaje natural (como Gherkin: Given-When-Then), que luego se puede ejecutar como prueba automatizada. ¿Qué herramienta facilita este enfoque (pruebas de comportamiento)?",
+              "options": [
+                "Jenkins.",
+                "JUnit.",
+                "NUnit.",
+                "Cucumber."
+              ],
+              "correctAnswer": "Cucumber.",
+              "explanation": "La respuesta correcta es: Cucumber."
+            },
+            {
+              "text": "Un usuario reporta un error: \"La aplicación se cierra al intentar imprimir\". El equipo de soporte necesita más información para que los desarrolladores puedan solucionarlo. ¿Qué detalle es crucial registrar junto con la descripción del error?",
+              "options": [
+                "Los pasos exactos para reproducir el error y el entorno donde ocurrió.",
+                "La fecha de instalación de la aplicación.",
+                "El nombre del desarrollador que escribió esa función.",
+                "La opinión del usuario sobre la interfaz."
+              ],
+              "correctAnswer": "Los pasos exactos para reproducir el error y el entorno donde ocurrió.",
+              "explanation": "La respuesta correcta es: Los pasos exactos para reproducir el error y el entorno donde ocurrió."
+            },
+            {
+              "text": "En un sistema de seguimiento de errores, se han registrado 50 bugs. El jefe de producto debe decidir cuáles arreglar primero para la próxima versión. ¿Qué proceso debe seguirse para determinar el orden de resolución?",
+              "options": [
+                "Registro de errores.",
+                "Asignación de errores.",
+                "Resolución de errores.",
+                "Priorización de errores (basada en gravedad, impacto, etc.)."
+              ],
+              "correctAnswer": "Priorización de errores (basada en gravedad, impacto, etc.).",
+              "explanation": "La respuesta correcta es: Priorización de errores (basada en gravedad, impacto, etc.)."
+            },
+            {
+              "text": "Un usuario sugiere añadir una nueva función de exportación a PDF en la aplicación. ¿Cómo se gestiona esta solicitud dentro del ciclo de vida del software?",
+              "options": [
+                "Se ignora si no es un error.",
+                "Se considera un error y se registra en Bugzilla.",
+                "Se registra como una sugerencia de mejora, se prioriza y se asigna para su implementación si se aprueba.",
+                "Se implementa inmediatamente por el primer desarrollador disponible."
+              ],
+              "correctAnswer": "Se registra como una sugerencia de mejora, se prioriza y se asigna para su implementación si se aprueba.",
+              "explanation": "La respuesta correcta es: Se registra como una sugerencia de mejora, se prioriza y se asigna para su implementación si se aprueba."
+            },
+            {
+              "text": "¿Cuál de las siguientes herramientas es mencionada como una plataforma de código abierto específicamente para el seguimiento de errores?",
+              "options": [
+                "Jira.",
+                "Bugzilla.",
+                "GitLab.",
+                "Trello."
+              ],
+              "correctAnswer": "Bugzilla.",
+              "explanation": "La respuesta correcta es: Bugzilla."
+            },
+            {
+              "text": "Un equipo utiliza una plataforma que combina el control de versiones (Git) con funcionalidades para el seguimiento de problemas (issues) y la gestión de proyectos. ¿Qué dos herramientas populares ofrecen esta integración?",
+              "options": [
+                "Jira y Bugzilla.",
+                "Jenkins y Appium.",
+                "GitHub y GitLab.",
+                "NUnit y PyTest."
+              ],
+              "correctAnswer": "GitHub y GitLab.",
+              "explanation": "La respuesta correcta es: GitHub y GitLab."
+            },
+            {
+              "text": "En el ejemplo ilustrativo para una aplicación de Windows Forms, ¿qué herramientas se sugieren para realizar pruebas unitarias?",
+              "options": [
+                "NUnit o MSTest.",
+                "Jenkins o GitLab CI/CD.",
+                "Jira o Trello.",
+                "Selenium o Appium."
+              ],
+              "correctAnswer": "NUnit o MSTest.",
+              "explanation": "La respuesta correcta es: NUnit o MSTest."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

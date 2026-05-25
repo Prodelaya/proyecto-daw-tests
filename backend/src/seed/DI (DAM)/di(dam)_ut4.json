@@ -1,0 +1,335 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 4,
+          "title": "UT4",
+          "questions": [
+            {
+              "text": "En un equipo de desarrollo donde colaboran diseñadores gráficos y programadores backend, se busca una tecnología que permita trabajar de manera independiente en la apariencia y la lógica. ¿Qué característica de XAML facilita este flujo de trabajo?",
+              "options": [
+                "La separación de la lógica de la aplicación de su presentación visual",
+                "La compilación en tiempo real",
+                "El uso exclusivo de código C",
+                "La dependencia estricta del diseñador visual"
+              ],
+              "correctAnswer": "La separación de la lógica de la aplicación de su presentación visual",
+              "explanation": "La respuesta correcta es: La separación de la lógica de la aplicación de su presentación visual"
+            },
+            {
+              "text": "Un desarrollador necesita definir la interfaz de usuario describiendo \"qué\" elementos deben aparecer (botones, textos) sin detallar el flujo de control paso a paso de \"cómo\" dibujarlos. ¿Qué tipo de lenguaje es XAML en este contexto?",
+              "options": [
+                "Funcional",
+                "Imperativo",
+                "Declarativo",
+                "Orientado a objetos puro"
+              ],
+              "correctAnswer": "Declarativo",
+              "explanation": "La respuesta correcta es: Declarativo"
+            },
+            {
+              "text": "Al iniciar un nuevo proyecto que debe funcionar tanto en PCs con Windows 10 como en tabletas Surface y dispositivos IoT, ¿qué plantilla de proyecto basada en XAML se debe seleccionar en Visual Studio?",
+              "options": [
+                "Aplicación de Universal Windows Platform (UWP)",
+                "Windows Presentation Foundation (WPF)",
+                "ASP.NET Core Web App",
+                "Aplicación de consola .NET"
+              ],
+              "correctAnswer": "Aplicación de Universal Windows Platform (UWP)",
+              "explanation": "La respuesta correcta es: Aplicación de Universal Windows Platform (UWP)"
+            },
+            {
+              "text": "Dentro de la estructura de archivos de un proyecto XAML, un desarrollador necesita implementar la lógica que responde a un evento de clic de un botón específico. ¿Qué archivo debe editar?",
+              "options": [
+                "El archivo MainPage.xaml.cs (code-behind)",
+                "El archivo App.config",
+                "El archivo project.json",
+                "El archivo MainPage.xaml"
+              ],
+              "correctAnswer": "El archivo MainPage.xaml.cs (code-behind)",
+              "explanation": "La respuesta correcta es: El archivo MainPage.xaml.cs (code-behind)"
+            },
+            {
+              "text": "Se está revisando el código de un compañero y se observa la siguiente línea: <Button Content=\"Aceptar\" />. ¿Qué representa \"Content\" en la sintaxis de XAML?",
+              "options": [
+                "Una etiqueta de cierre",
+                "Un atributo que asigna valor a una propiedad",
+                "Un comentario del sistema",
+                "Un espacio de nombres"
+              ],
+              "correctAnswer": "Un atributo que asigna valor a una propiedad",
+              "explanation": "La respuesta correcta es: Un atributo que asigna valor a una propiedad"
+            },
+            {
+              "text": "Para utilizar tipos y controles estándar de WPF en un archivo XAML sin prefijos, ¿qué declaración es necesaria en la etiqueta raíz Window?",
+              "options": [
+                "El espacio de nombres \"x\" (xmlns:x)",
+                "Una etiqueta <Style>",
+                "Un recurso estático",
+                "El espacio de nombres predeterminado (xmlns)"
+              ],
+              "correctAnswer": "El espacio de nombres predeterminado (xmlns)",
+              "explanation": "La respuesta correcta es: El espacio de nombres predeterminado (xmlns)"
+            },
+            {
+              "text": "Un desarrollador necesita asignar un nombre único a un control TextBox para poder referenciarlo desde el código C#. ¿Qué atributo del espacio de nombres \"x\" debe utilizar?",
+              "options": [
+                "x:Type",
+                "x:Name",
+                "x:Class",
+                "x:Key"
+              ],
+              "correctAnswer": "x:Name",
+              "explanation": "La respuesta correcta es: x:Name"
+            },
+            {
+              "text": "En una pantalla de login, se requiere vincular el texto de un cuadro de entrada con una variable en el código. ¿Qué sintaxis de marcado de extensión se debe usar para el enlace de datos?",
+              "options": [
+                "(Binding Variable)",
+                "[Binding Variable]",
+                "{Binding Variable}",
+                "<Binding Variable>"
+              ],
+              "correctAnswer": "{Binding Variable}",
+              "explanation": "La respuesta correcta es: {Binding Variable}"
+            },
+            {
+              "text": "Para organizar los campos de un formulario de registro de manera que aparezcan uno debajo del otro verticalmente, ¿qué contenedor o panel es el más adecuado y sencillo?",
+              "options": [
+                "Grid",
+                "Canvas",
+                "Border",
+                "StackPanel"
+              ],
+              "correctAnswer": "StackPanel",
+              "explanation": "La respuesta correcta es: StackPanel"
+            },
+            {
+              "text": "Se necesita diseñar una interfaz compleja similar a una hoja de cálculo o un dashboard, donde los elementos se alineen en filas y columnas precisas. ¿Qué control de diseño se debe emplear?",
+              "options": [
+                "StackPanel",
+                "Grid",
+                "Image",
+                "WrapPanel"
+              ],
+              "correctAnswer": "Grid",
+              "explanation": "La respuesta correcta es: Grid"
+            },
+            {
+              "text": "Un diseñador quiere colocar un logotipo de la empresa superpuesto en una posición exacta sobre un fondo decorativo. ¿Qué panel permite este posicionamiento absoluto?",
+              "options": [
+                "Canvas",
+                "StackPanel",
+                "Grid",
+                "DockPanel"
+              ],
+              "correctAnswer": "Canvas",
+              "explanation": "La respuesta correcta es: Canvas"
+            },
+            {
+              "text": "En un formulario de encuestas, se requiere que el usuario elija su rango de edad entre varias opciones excluyentes. ¿Qué control se debe implementar?",
+              "options": [
+                "CheckBox",
+                "TextBox",
+                "RadioButton",
+                "Button"
+              ],
+              "correctAnswer": "RadioButton",
+              "explanation": "La respuesta correcta es: RadioButton"
+            },
+            {
+              "text": "El equipo de desarrollo quiere mostrar una imagen promocional en la pantalla de inicio. ¿Qué control se debe usar?",
+              "options": [
+                "TextBlock",
+                "Image",
+                "Canvas",
+                "Border"
+              ],
+              "correctAnswer": "Image",
+              "explanation": "La respuesta correcta es: Image"
+            },
+            {
+              "text": "Para agrupar visualmente una sección de \"Términos y Condiciones\" con un marco alrededor del texto, ¿qué control se debe usar?",
+              "options": [
+                "CheckBox",
+                "Grid",
+                "Border",
+                "StackPanel"
+              ],
+              "correctAnswer": "Border",
+              "explanation": "La respuesta correcta es: Border"
+            },
+            {
+              "text": "Un usuario debe marcar si desea recibir correos promocionales. ¿Qué control se usa?",
+              "options": [
+                "CheckBox",
+                "Label",
+                "RadioButton",
+                "TextBox"
+              ],
+              "correctAnswer": "CheckBox",
+              "explanation": "La respuesta correcta es: CheckBox"
+            },
+            {
+              "text": "Se desea que el ancho de una columna en un Grid ocupe todo el espacio restante disponible. ¿Qué valor debe tener Width?",
+              "options": [
+                "Fill",
+                "Auto",
+                "Asterisco (*)",
+                "100"
+              ],
+              "correctAnswer": "Asterisco (*)",
+              "explanation": "La respuesta correcta es: Asterisco (*)"
+            },
+            {
+              "text": "¿Qué técnica permite que los cambios en la lógica de negocio se reflejen automáticamente en la interfaz de usuario sin código manual?",
+              "options": [
+                "Manejo de eventos Click",
+                "Data Binding (Enlace de datos)",
+                "Estilos en cascada",
+                "Compilación condicional"
+              ],
+              "correctAnswer": "Data Binding (Enlace de datos)",
+              "explanation": "La respuesta correcta es: Data Binding (Enlace de datos)"
+            },
+            {
+              "text": "En MVVM, ¿qué componente expone datos y comandos para la Vista?",
+              "options": [
+                "La Vista (View)",
+                "El Modelo de Vista (ViewModel)",
+                "El controlador de eventos",
+                "El Modelo (Model)"
+              ],
+              "correctAnswer": "El Modelo de Vista (ViewModel)",
+              "explanation": "La respuesta correcta es: El Modelo de Vista (ViewModel)"
+            },
+            {
+              "text": "¿Qué interfaz debe implementar el ViewModel para notificar cambios de propiedades?",
+              "options": [
+                "ICollection",
+                "IComponent",
+                "INotifyPropertyChanged",
+                "IDisposable"
+              ],
+              "correctAnswer": "INotifyPropertyChanged",
+              "explanation": "La respuesta correcta es: INotifyPropertyChanged"
+            },
+            {
+              "text": "En MVVM, ¿qué propiedad se debe asignar a un ViewModel para establecer el contexto de los enlaces?",
+              "options": [
+                "DataContext",
+                "Tag",
+                "Source",
+                "Resources"
+              ],
+              "correctAnswer": "DataContext",
+              "explanation": "La respuesta correcta es: DataContext"
+            },
+            {
+              "text": "La empresa quiere estandarizar el estilo de todos los botones sin repetir código. ¿Qué elemento se usa?",
+              "options": [
+                "Grid",
+                "Layer",
+                "Style",
+                "Template"
+              ],
+              "correctAnswer": "Style",
+              "explanation": "La respuesta correcta es: Style"
+            },
+            {
+              "text": "Si se necesita cambiar completamente la estructura visual de un botón sin perder funcionalidad, ¿qué se modifica?",
+              "options": [
+                "La ControlTemplate",
+                "El evento Click",
+                "Background",
+                "El DataContext"
+              ],
+              "correctAnswer": "La ControlTemplate",
+              "explanation": "La respuesta correcta es: La ControlTemplate"
+            },
+            {
+              "text": "Para definir un color corporativo \"AzulEmpresa\" reutilizable, ¿dónde se declara?",
+              "options": [
+                "Dentro de cada botón",
+                "En el espacio de nombres",
+                "Window.Resources",
+                "En el archivo .cs"
+              ],
+              "correctAnswer": "Window.Resources",
+              "explanation": "La respuesta correcta es: Window.Resources"
+            },
+            {
+              "text": "Al aplicar un recurso definido como `x:Key=\"PrimaryColor\"` a la propiedad de un botón, ¿qué extensión de marcado se utiliza para referenciarlo?",
+              "options": [
+                "{Binding PrimaryColor}",
+                "{StaticResource PrimaryColor}",
+                "{x:Reference PrimaryColor}",
+                "{RelativeSource PrimaryColor}"
+              ],
+              "correctAnswer": "{StaticResource PrimaryColor}",
+              "explanation": "La respuesta correcta es: {StaticResource PrimaryColor}"
+            },
+            {
+              "text": "Para definir cómo se visualiza cada ítem en un ListBox, ¿qué plantilla se usa?",
+              "options": [
+                "ItemsPanelTemplate",
+                "DataTemplate",
+                "StyleTemplate",
+                "ControlTemplate"
+              ],
+              "correctAnswer": "DataTemplate",
+              "explanation": "La respuesta correcta es: DataTemplate"
+            },
+            {
+              "text": "Dentro de un estilo, ¿qué etiqueta se utiliza para definir el valor de una propiedad específica (ej. Background = Red)?",
+              "options": [
+                "<Setter>",
+                "<Property>",
+                "<Value>",
+                "<Trigger>"
+              ],
+              "correctAnswer": "<Setter>",
+              "explanation": "La respuesta correcta es: <Setter>"
+            },
+            {
+              "text": "En Xamarin.Forms con XAML, ¿cuál es la principal ventaja?",
+              "options": [
+                "Una única base de código para iOS, Android y UWP",
+                "Eliminación del uso de C",
+                "Acceso exclusivo a APIs de Windows",
+                "Mayor rendimiento gráfico"
+              ],
+              "correctAnswer": "Una única base de código para iOS, Android y UWP",
+              "explanation": "La respuesta correcta es: Una única base de código para iOS, Android y UWP"
+            },
+            {
+              "text": "Un desarrollador quiere agregar notas explicativas en el código XAML para que otros compañeros entiendan una sección compleja. ¿Cuál es la sintaxis correcta?",
+              "options": [
+                "// Comentario",
+                "/* Comentario */",
+                "' Comentario",
+                "<!-- Comentario -->"
+              ],
+              "correctAnswer": "<!-- Comentario -->",
+              "explanation": "La respuesta correcta es: <!-- Comentario -->"
+            },
+            {
+              "text": "¿Qué permite el espacio de nombres xmlns:x?",
+              "options": [
+                "Conectar con SQL",
+                "Definir estilos CSS",
+                "Acceder a definiciones del lenguaje XAML (x:Name, x:Key)",
+                "Importar controles de terceros"
+              ],
+              "correctAnswer": "Acceder a definiciones del lenguaje XAML (x:Name, x:Key)",
+              "explanation": "La respuesta correcta es: Acceder a definiciones del lenguaje XAML (x:Name, x:Key)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

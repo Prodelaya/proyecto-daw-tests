@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "SGE",
+      "name": "Sistema de gestión empresarial",
+      "topics": [
+        {
+          "number": 4,
+          "title": "UT4",
+          "questions": [
+            {
+              "text": "Un desarrollador de Odoo recibe la tarea de insertar un nuevo contacto en el sistema de manera programática. ¿Qué instrucción debe utilizar para esta operación?",
+              "options": [
+                "search(args)",
+                "browse(ids)",
+                "create(vals)",
+                "write(vals)"
+              ],
+              "correctAnswer": "create(vals)",
+              "explanation": "La respuesta correcta es: create(vals)"
+            },
+            {
+              "text": "Al personalizar un sistema ERP-CRM como Odoo, es fundamental conocer los cimientos técnicos sobre los que se construye. ¿Cuál es el lenguaje de programación principal y el framework que utiliza Odoo?",
+              "options": [
+                "JavaScript con framework React",
+                "Python con un framework propio",
+                "PHP con framework Symfony",
+                "Java con Spring Framework"
+              ],
+              "correctAnswer": "Python con un framework propio",
+              "explanation": "La respuesta correcta es: Python con un framework propio"
+            },
+            {
+              "text": "Para la creación de registros en Odoo se utiliza la función create. ¿Qué tipo de objeto de Python debe pasarse como argumento a esta función para definir los valores de los campos?",
+              "options": [
+                "Una lista de tuplas con el formato (campo, valor)",
+                "Un diccionario que contenga pares clave-valor",
+                "Una cadena de texto con formato JSON plano",
+                "Un objeto de tipo clase heredado de \"record\""
+              ],
+              "correctAnswer": "Un diccionario que contenga pares clave-valor",
+              "explanation": "La respuesta correcta es: Un diccionario que contenga pares clave-valor"
+            },
+            {
+              "text": "Un analista necesita filtrar una lista de facturas para encontrar aquellas que superan los 1000 euros y están en estado \"pendiente\". ¿Qué método de Odoo es el más adecuado para esta búsqueda?",
+              "options": [
+                "search(args)",
+                "exists()",
+                "fields_get(keys)",
+                "name_get()"
+              ],
+              "correctAnswer": "search(args)",
+              "explanation": "La respuesta correcta es: search(args)"
+            },
+            {
+              "text": "En el desarrollo de componentes, la gestión de la persistencia de los datos es clave. ¿Cuál es la descripción correcta para la instrucción unlink() en el framework de Odoo?",
+              "options": [
+                "Quita los permisos de acceso a un usuario específico",
+                "Elimina los registros seleccionados de la tabla",
+                "Desconecta el servidor de la base de datos temporalmente",
+                "Rompe el vínculo entre dos registros relacionados"
+              ],
+              "correctAnswer": "Elimina los registros seleccionados de la tabla",
+              "explanation": "La respuesta correcta es: Elimina los registros seleccionados de la tabla"
+            },
+            {
+              "text": "Suponga que desea crear un nuevo pedido de venta que sea idéntico a uno ya existente para ahorrar tiempo en la entrada de datos. ¿Qué método permite realizar esta duplicación?",
+              "options": [
+                "copy(default)",
+                "browse(ids)",
+                "ensure_one()",
+                "search_count(args)"
+              ],
+              "correctAnswer": "copy(default)",
+              "explanation": "La respuesta correcta es: copy(default)"
+            },
+            {
+              "text": "En Odoo, a menudo es necesario recuperar la información técnica de los campos de un modelo, como su tipo o etiquetas. ¿Qué instrucción se encarga de recuperar la definición de los campos?",
+              "options": [
+                "fields_get(keys, attributes)",
+                "read(fields, load)",
+                "fields_view_get(view_id)",
+                "default_get(fields_list)"
+              ],
+              "correctAnswer": "fields_get(keys, attributes)",
+              "explanation": "La respuesta correcta es: fields_get(keys, attributes)"
+            },
+            {
+              "text": "Un desarrollador desea implementar una lógica que se ejecute automáticamente en el navegador en cuanto el usuario cambie el valor de un campo de selección. ¿Qué método debe definir para esto?",
+              "options": [
+                "filtered(func)",
+                "mapped(func)",
+                "onchange(fields)",
+                "sorted(key)"
+              ],
+              "correctAnswer": "onchange(fields)",
+              "explanation": "La respuesta correcta es: onchange(fields)"
+            },
+            {
+              "text": "Un proceso programado necesita realizar una actualización masiva de inventario sin verse afectado por las reglas de seguridad de acceso del usuario que inició la tarea. ¿Qué método se utiliza para esto?",
+              "options": [
+                "with_context(*args)",
+                "with_env(env)",
+                "message_post(body)",
+                "sudo(user)"
+              ],
+              "correctAnswer": "sudo(user)",
+              "explanation": "La respuesta correcta es: sudo(user)"
+            },
+            {
+              "text": "Al trabajar con conjuntos de registros (recordsets), es vital asegurar que una operación se aplique a un único elemento para evitar errores de lógica. ¿Qué método lanza una excepción si el conjunto no contiene exactamente un registro?",
+              "options": [
+                "search_count(args)",
+                "ensure_one()",
+                "name_search(name)",
+                "exists()"
+              ],
+              "correctAnswer": "ensure_one()",
+              "explanation": "La respuesta correcta es: ensure_one()"
+            },
+            {
+              "text": "Un programador está diseñando una lógica compleja para calcular comisiones de ventas. Para ello, define estructuras donde almacena datos temporales antes de guardarlos. ¿A qué elementos de programación se refiere esta práctica?",
+              "options": [
+                "Etiquetas HTML y estilos CSS",
+                "Consultas SQL directas al motor de base de datos",
+                "Variables y estructuras de control de flujo",
+                "Scripts de bash para la gestión del servidor"
+              ],
+              "correctAnswer": "Variables y estructuras de control de flujo",
+              "explanation": "La respuesta correcta es: Variables y estructuras de control de flujo"
+            },
+            {
+              "text": "Para que un componente de software manipule datos de forma efectiva, debe ser capaz de realizar operaciones básicas sobre los registros. ¿Cómo se conoce habitualmente al conjunto de operaciones: crear, leer, actualizar y eliminar?",
+              "options": [
+                "Protocolos de transferencia",
+                "Operaciones RESTful",
+                "Operaciones CRUD",
+                "Ciclo de vida del software"
+              ],
+              "correctAnswer": "Operaciones CRUD",
+              "explanation": "La respuesta correcta es: Operaciones CRUD"
+            },
+            {
+              "text": "En el desarrollo con Odoo, la manipulación de datos se simplifica gracias a una capa de abstracción. ¿Cómo representa el framework los registros de la base de datos en el entorno de Python?",
+              "options": [
+                "Como punteros a direcciones de memoria física",
+                "Como documentos XML estáticos sin lógica",
+                "Como objetos Python asociados a métodos",
+                "Como archivos binarios de acceso aleatorio"
+              ],
+              "correctAnswer": "Como objetos Python asociados a métodos",
+              "explanation": "La respuesta correcta es: Como objetos Python asociados a métodos"
+            },
+            {
+              "text": "Un desarrollador está procesando una lista de facturas y necesita aplicar un descuento solo a aquellas cuya fecha es anterior a enero. ¿Qué herramientas del lenguaje Python permiten esta operación?",
+              "options": [
+                "Funciones de agregación de JavaScript",
+                "Reglas de validación de hojas de estilo",
+                "Bucles y condicionales",
+                "Comandos de la terminal de Linux"
+              ],
+              "correctAnswer": "Bucles y condicionales",
+              "explanation": "La respuesta correcta es: Bucles y condicionales"
+            },
+            {
+              "text": "El framework de Odoo facilita enormemente la vida del desarrollador al evitar la escritura manual de consultas SQL para tareas comunes. ¿Qué herramienta o tecnología proporciona esta funcionalidad?",
+              "options": [
+                "Framework de pruebas unitarias",
+                "Framework QWeb para informes",
+                "API de servicios web REST",
+                "ORM (Object-Relational Mapping)"
+              ],
+              "correctAnswer": "ORM (Object-Relational Mapping)",
+              "explanation": "La respuesta correcta es: ORM (Object-Relational Mapping)"
+            },
+            {
+              "text": "Antes de programar una nueva funcionalidad que permita a los empleados solicitar material de oficina, el desarrollador se reúne con el responsable de compras. ¿A qué fase de la adición de funcionalidades corresponde este paso?",
+              "options": [
+                "Desarrollo",
+                "Implementación",
+                "Identificación de necesidades",
+                "Verificación de componentes"
+              ],
+              "correctAnswer": "Identificación de necesidades",
+              "explanation": "La respuesta correcta es: Identificación de necesidades"
+            },
+            {
+              "text": "Al añadir nuevas características, el equipo técnico decide crear módulos separados en lugar de modificar el núcleo del sistema. ¿Qué característica del diseño de Odoo permite esta forma de trabajar?",
+              "options": [
+                "Estructura modular",
+                "Arquitectura de cliente único",
+                "Diseño basado únicamente en red",
+                "Estructura monolítica cerrada"
+              ],
+              "correctAnswer": "Estructura modular",
+              "explanation": "La respuesta correcta es: Estructura modular"
+            },
+            {
+              "text": "Para añadir una nueva funcionalidad en Odoo, los desarrolladores deben trabajar habitualmente con dos tipos de archivos específicos. ¿Cuáles son estos lenguajes utilizados para la lógica y la interfaz?",
+              "options": [
+                "Python para el backend y XML para la interfaz",
+                "Ruby para el negocio y CSS para la estructura",
+                "Java para el servidor y HTML para las vistas",
+                "C"
+              ],
+              "correctAnswer": "Python para el backend y XML para la interfaz",
+              "explanation": "La respuesta correcta es: Python para el backend y XML para la interfaz"
+            },
+            {
+              "text": "Un equipo de desarrollo ha terminado una mejora en el módulo de facturación y planea el despliegue para el fin de semana por la noche. ¿Cuál es el objetivo principal de planificar cuidadosamente esta fase?",
+              "options": [
+                "Minimizar las interrupciones en las operaciones diarias",
+                "Aumentar el coste del proyecto para la empresa",
+                "Asegurar que el código fuente sea visible para los clientes",
+                "Evitar que los usuarios finales den su opinión"
+              ],
+              "correctAnswer": "Minimizar las interrupciones en las operaciones diarias",
+              "explanation": "La respuesta correcta es: Minimizar las interrupciones en las operaciones diarias"
+            },
+            {
+              "text": "Una vez programada una nueva característica, el desarrollador ejecuta pruebas para confirmar que no se han roto otras partes del sistema. ¿Qué tipos de pruebas se mencionan como fundamentales?",
+              "options": [
+                "Pruebas de velocidad de escritura en disco",
+                "Pruebas de compatibilidad con impresoras antiguas",
+                "Pruebas de color y diseño visual",
+                "Pruebas unitarias, de integración y de aceptación"
+              ],
+              "correctAnswer": "Pruebas unitarias, de integración y de aceptación",
+              "explanation": "La respuesta correcta es: Pruebas unitarias, de integración y de aceptación"
+            },
+            {
+              "text": "Al integrar un nuevo componente que conecta el ERP con una plataforma de transporte externa, el diseñador analiza cómo afectará esto a la estabilidad del sistema actual. ¿En qué fase se encuentra?",
+              "options": [
+                "Fase de marketing del componente",
+                "Fase de contratación de personal nuevo",
+                "Fase de borrado de datos obsoletos",
+                "Fase de diseño y planificación"
+              ],
+              "correctAnswer": "Fase de diseño y planificación",
+              "explanation": "La respuesta correcta es: Fase de diseño y planificación"
+            },
+            {
+              "text": "Una organización desea automatizar un proceso manual de exportación de ventas. ¿Qué característica de Odoo hace que la integración de estos nuevos componentes sea flexible?",
+              "options": [
+                "La imposibilidad de añadir módulos tras la instalación",
+                "La capacidad de crear e instalar módulos adicionales",
+                "El uso de una base de datos no relacional",
+                "La prohibición de usar APIs externas"
+              ],
+              "correctAnswer": "La capacidad de crear e instalar módulos adicionales",
+              "explanation": "La respuesta correcta es: La capacidad de crear e instalar módulos adicionales"
+            },
+            {
+              "text": "Un desarrollador está construyendo un nuevo módulo de gestión de activos. ¿Qué combinación de lenguajes debe usar para definir la lógica de negocio y la estructura de los datos/vistas?",
+              "options": [
+                "PHP y SQL",
+                "Swift y JSON",
+                "Python y XML",
+                "Perl y YAML"
+              ],
+              "correctAnswer": "Python y XML",
+              "explanation": "La respuesta correcta es: Python y XML"
+            },
+            {
+              "text": "Durante la integración de un componente, es necesario que este reaccione automáticamente cuando ocurren ciertos sucesos en otros módulos. ¿Qué elementos se deben implementar?",
+              "options": [
+                "Estilos de texto personalizados",
+                "Documentación técnica en PDF",
+                "Controladores de eventos",
+                "Manuales de usuario impresos"
+              ],
+              "correctAnswer": "Controladores de eventos",
+              "explanation": "La respuesta correcta es: Controladores de eventos"
+            },
+            {
+              "text": "Para garantizar que un nuevo componente se integre sin problemas, es vital conocer a fondo la estructura del ERP. ¿Qué aspectos de la arquitectura deben comprenderse según el temario?",
+              "options": [
+                "El sueldo de los desarrolladores originales",
+                "El color corporativo y el logo de la empresa",
+                "El número de oficinas físicas del proveedor",
+                "La arquitectura y funcionalidad del ERP-CRM"
+              ],
+              "correctAnswer": "La arquitectura y funcionalidad del ERP-CRM",
+              "explanation": "La respuesta correcta es: La arquitectura y funcionalidad del ERP-CRM"
+            },
+            {
+              "text": "Un técnico acaba de añadir un campo llamado \"Código de cliente\" al modelo de contactos. ¿Qué paso debe realizar a continuación para que el cambio sea visible en la interfaz?",
+              "options": [
+                "Desinstalar el módulo de ventas por completo",
+                "Cambiar la contraseña del administrador",
+                "Formatear el servidor de base de datos",
+                "Modificar la vista correspondiente mediante XML"
+              ],
+              "correctAnswer": "Modificar la vista correspondiente mediante XML",
+              "explanation": "La respuesta correcta es: Modificar la vista correspondiente mediante XML"
+            },
+            {
+              "text": "El equipo de desarrollo ha desplegado un componente y ahora revisa periódicamente los registros para detectar fallos imprevistos. ¿Cómo se denomina esta acción?",
+              "options": [
+                "Identificación de necesidades iniciales",
+                "Diseño previo de la base de datos",
+                "Monitoreo de manera continua",
+                "Desarrollo inicial del módulo"
+              ],
+              "correctAnswer": "Monitoreo de manera continua",
+              "explanation": "La respuesta correcta es: Monitoreo de manera continua"
+            },
+            {
+              "text": "Para añadir el campo \"Nota interna adicional\" al modelo existente sale.order sin borrar el código original, ¿qué técnica de programación se utiliza en el archivo Python?",
+              "options": [
+                "Herencia del modelo usando _inherit",
+                "Sobrescritura total del archivo base",
+                "Importación de librerías externas de JavaScript",
+                "Creación de una tabla independiente desconectada"
+              ],
+              "correctAnswer": "Herencia del modelo usando _inherit",
+              "explanation": "La respuesta correcta es: Herencia del modelo usando _inherit"
+            },
+            {
+              "text": "Después de realizar cambios en los archivos XML de las vistas, el administrador accede a la sección de aplicaciones en la interfaz de Odoo. ¿Qué botón debe pulsar para aplicar los cambios en el sistema?",
+              "options": [
+                "Cancelar",
+                "Actualizar",
+                "Exportar",
+                "Desinstalar"
+              ],
+              "correctAnswer": "Actualizar",
+              "explanation": "La respuesta correcta es: Actualizar"
+            },
+            {
+              "text": "Se recomienda evitar la modificación directa de los módulos estándar de Odoo. ¿Qué alternativa sugiere el temario como buena práctica profesional?",
+              "options": [
+                "Editar los archivos base del sistema operativo",
+                "Crear un módulo personalizado",
+                "Realizar los cambios solo en la base de datos",
+                "Usar una versión antigua del framework"
+              ],
+              "correctAnswer": "Crear un módulo personalizado",
+              "explanation": "La respuesta correcta es: Crear un módulo personalizado"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

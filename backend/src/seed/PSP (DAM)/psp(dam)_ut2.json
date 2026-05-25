@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PSP",
+      "name": "Programación de servicios y procesos",
+      "topics": [
+        {
+          "number": 2,
+          "title": "UT2",
+          "questions": [
+            {
+              "text": "Estás depurando una aplicación en Eclipse y observas en la vista de depuración que un hilo acaba de ser creado pero aún no ha invocado el método start(). ¿En qué estado se encuentra este hilo según el ciclo de vida estándar?",
+              "options": [
+                "Ejecutable (Runnable).",
+                "Esperando (Waiting).",
+                "Nuevo (New).",
+                "Bloqueado (Blocked)."
+              ],
+              "correctAnswer": "Nuevo (New).",
+              "explanation": "La respuesta correcta es: Nuevo (New)."
+            },
+            {
+              "text": "Un desarrollador junior te pregunta qué significa exactamente que un hilo esté en estado \"Ejecutable\" (Runnable). ¿Cuál es la definición técnica correcta?",
+              "options": [
+                "El hilo está ejecutándose actualmente en el procesador sin posibilidad de pausa.",
+                "El hilo ha terminado su ejecución y está esperando ser recolectado por el Garbage Collector.",
+                "El hilo puede estar corriendo activamente o listo para ejecutarse en cuanto el planificador le asigne un procesador.",
+                "El hilo está esperando que termine una operación de entrada/salida."
+              ],
+              "correctAnswer": "El hilo puede estar corriendo activamente o listo para ejecutarse en cuanto el planificador le asigne un procesador.",
+              "explanation": "La respuesta correcta es: El hilo puede estar corriendo activamente o listo para ejecutarse en cuanto el planificador le asigne un procesador."
+            },
+            {
+              "text": "En tu código Java, ejecutas la instrucción Thread.sleep(1000) dentro de un hilo para pausarlo brevemente. ¿A qué estado específico transita el hilo durante ese segundo?",
+              "options": [
+                "Tiempo de espera (Timed Waiting).",
+                "Terminado.",
+                "Bloqueado indefinidamente.",
+                "Nuevo."
+              ],
+              "correctAnswer": "Tiempo de espera (Timed Waiting).",
+              "explanation": "La respuesta correcta es: Tiempo de espera (Timed Waiting)."
+            },
+            {
+              "text": "Estás analizando un bloqueo en tu aplicación y notas que un hilo no avanza porque está esperando que se complete una lectura de datos desde el disco duro. ¿Cómo clasifica el sistema operativo el estado de este hilo mientras espera la respuesta del hardware?",
+              "options": [
+                "Nuevo.",
+                "Bloqueado (Blocked) / Esperando.",
+                "Zombie.",
+                "Ejecutable."
+              ],
+              "correctAnswer": "Bloqueado (Blocked) / Esperando.",
+              "explanation": "La respuesta correcta es: Bloqueado (Blocked) / Esperando."
+            },
+            {
+              "text": "Necesitas investigar por qué tu aplicación multihilo se comporta de forma errática. Utilizas la perspectiva \"Debug\" de Eclipse. ¿Qué información clave te permite visualizar esta herramienta sobre los hilos en tiempo real?",
+              "options": [
+                "La temperatura del núcleo del procesador.",
+                "El consumo eléctrico de cada hilo.",
+                "El código fuente de la JVM.",
+                "La pila de llamadas y los valores actuales de las variables de cada hilo."
+              ],
+              "correctAnswer": "La pila de llamadas y los valores actuales de las variables de cada hilo.",
+              "explanation": "La respuesta correcta es: La pila de llamadas y los valores actuales de las variables de cada hilo."
+            },
+            {
+              "text": "Estás diseñando un servidor que debe procesar múltiples solicitudes de clientes accediendo a una misma base de datos central. ¿Cómo se denomina técnicamente a esa base de datos en el contexto de la programación multihilo?",
+              "options": [
+                "Variable local de pila.",
+                "Semáforo binario.",
+                "Hilo demonio.",
+                "Recurso compartido."
+              ],
+              "correctAnswer": "Recurso compartido.",
+              "explanation": "La respuesta correcta es: Recurso compartido."
+            },
+            {
+              "text": "Dos hilos de tu programa intentan escribir en el mismo archivo de log al mismo tiempo, provocando que las líneas de texto se mezclen y sean ilegibles. ¿Qué nombre recibe este problema específico?",
+              "options": [
+                "Interbloqueo.",
+                "Desbordamiento de buffer.",
+                "Inanición.",
+                "Condición de carrera."
+              ],
+              "correctAnswer": "Condición de carrera.",
+              "explanation": "La respuesta correcta es: Condición de carrera."
+            },
+            {
+              "text": "Para evitar que dos hilos modifiquen una variable crítica simultáneamente, decides implementar un mecanismo que garantice que solo uno pueda acceder a ella a la vez. ¿Qué concepto estás aplicando?",
+              "options": [
+                "Exclusión mutua.",
+                "Paralelismo de datos.",
+                "Herencia múltiple.",
+                "Planificación preventiva."
+              ],
+              "correctAnswer": "Exclusión mutua.",
+              "explanation": "La respuesta correcta es: Exclusión mutua."
+            },
+            {
+              "text": "En una entrevista de trabajo te preguntan sobre las ventajas de los \"hilos de usuario\" frente a los \"hilos de sistema\". ¿Cuál es una ventaja teórica de los hilos de usuario?",
+              "options": [
+                "Si uno se bloquea, el resto sigue funcionando sin problemas.",
+                "Aprovechan mejor los múltiples núcleos del procesador automáticamente.",
+                "Son gestionados directamente por el kernel del sistema operativo.",
+                "Son más rápidos de crear y su cambio de contexto es más eficiente."
+              ],
+              "correctAnswer": "Son más rápidos de crear y su cambio de contexto es más eficiente.",
+              "explanation": "La respuesta correcta es: Son más rápidos de crear y su cambio de contexto es más eficiente."
+            },
+            {
+              "text": "Estás desarrollando una aplicación en Java y te planteas si usar hilos de usuario o de sistema. Basándote en la arquitectura de la Máquina Virtual Java (JVM), ¿qué tipo de hilos utilizará tu programa finalmente?",
+              "options": [
+                "Una mezcla configurable por el programador.",
+                "Solo hilos de usuario puros.",
+                "Hilos verdes (Green threads) exclusivamente.",
+                "Solo hilos de sistema (gestionados por la JVM interactuando con el SO)."
+              ],
+              "correctAnswer": "Solo hilos de sistema (gestionados por la JVM interactuando con el SO).",
+              "explanation": "La respuesta correcta es: Solo hilos de sistema (gestionados por la JVM interactuando con el SO)."
+            },
+            {
+              "text": "Estás depurando un error complejo que solo ocurre cuando una variable contador llega al valor 100. ¿Qué herramienta de Eclipse utilizarías para detener la ejecución automáticamente en ese momento exacto?",
+              "options": [
+                "Un breakpoint condicional.",
+                "La vista de variables estáticas.",
+                "El botón de \"Terminar todo\".",
+                "Un breakpoint estándar en la primera línea del main."
+              ],
+              "correctAnswer": "Un breakpoint condicional.",
+              "explanation": "La respuesta correcta es: Un breakpoint condicional."
+            },
+            {
+              "text": "¿Cuál es la interfaz fundamental en Java que debes implementar para definir el código de una tarea que será ejecutada por un hilo, conteniendo un único método run()?",
+              "options": [
+                "java.util.Executor.",
+                "java.io.Serializable.",
+                "java.lang.Thread.",
+                "java.lang.Runnable."
+              ],
+              "correctAnswer": "java.lang.Runnable.",
+              "explanation": "La respuesta correcta es: java.lang.Runnable."
+            },
+            {
+              "text": "Necesitas gestionar un grupo de hilos de trabajo de manera eficiente, reutilizándolos en lugar de crear nuevos constantemente. ¿Qué clase del paquete java.util.concurrent es la más adecuada para esto?",
+              "options": [
+                "ThreadGroup.",
+                "ExecutorService.",
+                "Object.",
+                "TimerTask."
+              ],
+              "correctAnswer": "ExecutorService.",
+              "explanation": "La respuesta correcta es: ExecutorService."
+            },
+            {
+              "text": "En tu código necesitas que un hilo espere una señal de otro hilo para continuar. ¿Qué métodos de la clase java.lang.Object utilizarías para esta comunicación inter-thread?",
+              "options": [
+                "wait() y notify().",
+                "run() y execute().",
+                "start() y stop().",
+                "sleep() y wake()."
+              ],
+              "correctAnswer": "wait() y notify().",
+              "explanation": "La respuesta correcta es: wait() y notify()."
+            },
+            {
+              "text": "Estás revisando el código de un compañero y ves la línea miHilo.run();. ¿Qué efecto tiene esta llamada en la ejecución del programa?",
+              "options": [
+                "Pone el hilo en estado de espera hasta que el planificador lo active.",
+                "Da un error de compilación porque el método es protegido.",
+                "Ejecuta el método run en el hilo actual, sin iniciar un nuevo hilo.",
+                "Inicia un nuevo hilo y ejecuta el código en paralelo."
+              ],
+              "correctAnswer": "Ejecuta el método run en el hilo actual, sin iniciar un nuevo hilo.",
+              "explanation": "La respuesta correcta es: Ejecuta el método run en el hilo actual, sin iniciar un nuevo hilo."
+            },
+            {
+              "text": "Necesitas detener un hilo que está realizando una tarea larga, pero sabes que el método stop() es inseguro y está obsoleto. ¿Cuál es la forma recomendada de hacerlo en Java moderno?",
+              "options": [
+                "Usar System.exit(0).",
+                "Establecer la variable del hilo a null.",
+                "Matar el proceso de la JVM.",
+                "Utilizar un mecanismo de interrupción cooperativa (interrupt)."
+              ],
+              "correctAnswer": "Utilizar un mecanismo de interrupción cooperativa (interrupt).",
+              "explanation": "La respuesta correcta es: Utilizar un mecanismo de interrupción cooperativa (interrupt)."
+            },
+            {
+              "text": "Tienes un método que actualiza el saldo de una cuenta bancaria. Para evitar errores de concurrencia, añades la palabra clave synchronized a la declaración del método. ¿Qué efecto tiene esto?",
+              "options": [
+                "Permite que múltiples hilos entren al método simultáneamente.",
+                "Hace que el método se ejecute más rápido.",
+                "Convierte el hilo en un hilo demonio automáticamente.",
+                "El hilo adquiere un bloqueo exclusivo sobre el objeto, impidiendo que otros accedan a métodos sincronizados del mismo objeto."
+              ],
+              "correctAnswer": "El hilo adquiere un bloqueo exclusivo sobre el objeto, impidiendo que otros accedan a métodos sincronizados del mismo objeto.",
+              "explanation": "La respuesta correcta es: El hilo adquiere un bloqueo exclusivo sobre el objeto, impidiendo que otros accedan a métodos sincronizados del mismo objeto."
+            },
+            {
+              "text": "En el contexto de la sincronización en Java, ¿qué ocurre si un hilo intenta entrar en un bloque synchronized que ya está ocupado por otro hilo?",
+              "options": [
+                "El hilo que estaba dentro es expulsado inmediatamente.",
+                "El hilo intruso lanza una excepción.",
+                "Se crea una copia del objeto para que ambos trabajen en paralelo.",
+                "El hilo intruso se bloquea y espera hasta que el bloqueo se libere."
+              ],
+              "correctAnswer": "El hilo intruso se bloquea y espera hasta que el bloqueo se libere.",
+              "explanation": "La respuesta correcta es: El hilo intruso se bloquea y espera hasta que el bloqueo se libere."
+            },
+            {
+              "text": "Analizas un sistema donde el Hilo A espera un recurso que tiene el Hilo B, y el Hilo B espera un recurso que tiene el Hilo A. Ninguno avanza. ¿Cómo se llama esta situación catastrófica?",
+              "options": [
+                "Deadlock (Interbloqueo).",
+                "Excepción de puntero nulo.",
+                "Condición de carrera.",
+                "Livelock."
+              ],
+              "correctAnswer": "Deadlock (Interbloqueo).",
+              "explanation": "La respuesta correcta es: Deadlock (Interbloqueo)."
+            },
+            {
+              "text": "En un sistema de prioridades de hilos, observas que un hilo de baja prioridad nunca llega a ejecutarse porque siempre hay hilos de alta prioridad ocupando la CPU. ¿Cómo se denomina este problema?",
+              "options": [
+                "Desbordamiento.",
+                "Saturación.",
+                "Latencia.",
+                "Inanición."
+              ],
+              "correctAnswer": "Inanición.",
+              "explanation": "La respuesta correcta es: Inanición."
+            },
+            {
+              "text": "¿Qué rango de valores enteros se utiliza en Java para definir la prioridad de un hilo?",
+              "options": [
+                "De -5 a +5.",
+                "De 0 a 100.",
+                "De 1 (mínima) a 10 (máxima).",
+                "De 1 a 5."
+              ],
+              "correctAnswer": "De 1 (mínima) a 10 (máxima).",
+              "explanation": "La respuesta correcta es: De 1 (mínima) a 10 (máxima)."
+            },
+            {
+              "text": "Estás programando un servicio de limpieza de memoria (Garbage Collector) personalizado que debe ejecutarse en segundo plano. Quieres que, si el programa principal termina, este servicio se cierre automáticamente sin impedir la salida de la JVM. ¿Qué tipo de hilo debes configurar?",
+              "options": [
+                "Un grupo de hilos estático.",
+                "Un hilo demonio.",
+                "Un hilo sincronizado.",
+                "Un hilo de usuario de alta prioridad."
+              ],
+              "correctAnswer": "Un hilo demonio.",
+              "explanation": "La respuesta correcta es: Un hilo demonio."
+            },
+            {
+              "text": "¿Qué método de la clase Thread utilizarías para marcar un hilo como \"demonio\" antes de iniciarlo?",
+              "options": [
+                "setBackground(true).",
+                "setDaemon(true).",
+                "setPriority(0).",
+                "makeService()."
+              ],
+              "correctAnswer": "setDaemon(true).",
+              "explanation": "La respuesta correcta es: setDaemon(true)."
+            },
+            {
+              "text": "Necesitas detener simultáneamente todos los hilos relacionados con un módulo de procesamiento de imágenes de tu aplicación. ¿Qué estructura organizativa de Java te facilitaría esta tarea?",
+              "options": [
+                "Un ThreadGroup.",
+                "Un ArrayList de Strings.",
+                "Una interfaz Runnable.",
+                "Un bloque synchronized."
+              ],
+              "correctAnswer": "Un ThreadGroup.",
+              "explanation": "La respuesta correcta es: Un ThreadGroup."
+            },
+            {
+              "text": "Tu jefe te pide programar una tarea que realice una copia de seguridad de los datos cada 5 minutos de forma automática. ¿Qué clases de utilidad de Java son ideales para implementar esto?",
+              "options": [
+                "java.util.Scanner y File.",
+                "Object.wait con timeout.",
+                "java.util.Timer y TimerTask.",
+                "Thread.sleep en un bucle while infinito."
+              ],
+              "correctAnswer": "java.util.Timer y TimerTask.",
+              "explanation": "La respuesta correcta es: java.util.Timer y TimerTask."
+            },
+            {
+              "text": "En el código executor.execute(tarea), si el pool de hilos está lleno y todos los hilos están ocupados, ¿qué suele ocurrir con la nueva tarea enviada?",
+              "options": [
+                "Se pone en una cola de espera hasta que un hilo quede libre.",
+                "Se crea un nuevo hilo temporal excediendo el límite del pool.",
+                "Se descarta silenciosamente.",
+                "Se lanza una excepción fatal y se cierra el programa."
+              ],
+              "correctAnswer": "Se pone en una cola de espera hasta que un hilo quede libre.",
+              "explanation": "La respuesta correcta es: Se pone en una cola de espera hasta que un hilo quede libre."
+            },
+            {
+              "text": "¿Qué método debes llamar sobre un ExecutorService para indicar que no se aceptarán más tareas y que debe comenzar el proceso de cierre ordenado?",
+              "options": [
+                "delete().",
+                "shutdown().",
+                "stopNow().",
+                "kill()."
+              ],
+              "correctAnswer": "shutdown().",
+              "explanation": "La respuesta correcta es: shutdown()."
+            },
+            {
+              "text": "Si tienes un hilo t y llamas a t.join(), ¿qué hace el hilo desde el que realizas la llamada (por ejemplo, el main)?",
+              "options": [
+                "Espera a que el hilo t termine su ejecución antes de continuar.",
+                "Aumenta la prioridad del hilo t.",
+                "Termina inmediatamente al hilo t.",
+                "Se une al hilo t y ambos ejecutan el mismo código a la vez."
+              ],
+              "correctAnswer": "Espera a que el hilo t termine su ejecución antes de continuar.",
+              "explanation": "La respuesta correcta es: Espera a que el hilo t termine su ejecución antes de continuar."
+            },
+            {
+              "text": "¿Qué garantiza la especificación de Java sobre el comportamiento exacto de las prioridades de los hilos en diferentes sistemas operativos?",
+              "options": [
+                "Garantiza un orden FIFO estricto.",
+                "Garantiza que los hilos de prioridad 1 nunca se ejecutarán.",
+                "No garantiza un comportamiento específico; depende de la implementación de la JVM y el SO.",
+                "Garantiza que el hilo de mayor prioridad siempre tendrá el 100% de la CPU."
+              ],
+              "correctAnswer": "No garantiza un comportamiento específico; depende de la implementación de la JVM y el SO.",
+              "explanation": "La respuesta correcta es: No garantiza un comportamiento específico; depende de la implementación de la JVM y el SO."
+            },
+            {
+              "text": "Estás revisando un código heredado y encuentras el uso de resume() y suspend() para controlar hilos. ¿Qué debes hacer al respecto?",
+              "options": [
+                "Mantenerlos, son la forma estándar de pausar hilos.",
+                "Cambiarlos por start() y run().",
+                "Reemplazarlos, ya que están obsoletos y pueden causar bloqueos.",
+                "Usarlos solo para hilos demonio."
+              ],
+              "correctAnswer": "Reemplazarlos, ya que están obsoletos y pueden causar bloqueos.",
+              "explanation": "La respuesta correcta es: Reemplazarlos, ya que están obsoletos y pueden causar bloqueos."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

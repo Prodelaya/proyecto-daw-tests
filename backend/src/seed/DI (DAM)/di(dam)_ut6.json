@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 6,
+          "title": "UT6",
+          "questions": [
+            {
+              "text": "Durante una reunión de definición de producto, el cliente pregunta qué implica exactamente que una aplicación tenga buena \"usabilidad\" según los estándares ISO. ¿Cuál es la respuesta técnica más precisa?",
+              "options": [
+                "Que la aplicación sea compatible con todos los navegadores del mercado sin errores.",
+                "Que la aplicación tenga un diseño gráfico moderno y utilice las últimas tecnologías.",
+                "Que usuarios específicos puedan lograr objetivos específicos con efectividad, eficiencia y satisfacción.",
+                "Que el código fuente esté optimizado para ejecutarse rápidamente en cualquier servidor."
+              ],
+              "correctAnswer": "Que usuarios específicos puedan lograr objetivos específicos con efectividad, eficiencia y satisfacción.",
+              "explanation": "La respuesta correcta es: Que usuarios específicos puedan lograr objetivos específicos con efectividad, eficiencia y satisfacción."
+            },
+            {
+              "text": "Un desarrollador está diseñando un formulario y quiere aplicar el principio de \"Claridad\". ¿Qué acción debe priorizar?",
+              "options": [
+                "Añadir múltiples decoraciones visuales para hacerlo atractivo.",
+                "Ocultar la mayoría de las opciones en menús desplegables para limpiar la pantalla.",
+                "Utilizar terminología técnica precisa para demostrar profesionalidad.",
+                "Hacer que las funciones sean intuitivas para que el usuario no necesite buscar instrucciones."
+              ],
+              "correctAnswer": "Hacer que las funciones sean intuitivas para que el usuario no necesite buscar instrucciones.",
+              "explanation": "La respuesta correcta es: Hacer que las funciones sean intuitivas para que el usuario no necesite buscar instrucciones."
+            },
+            {
+              "text": "Al pulsar el botón \"Guardar\" en una aplicación de gestión, el sistema no muestra ningún mensaje ni cambio visual, aunque los datos se guardan. ¿Qué principio básico de usabilidad se está violando?",
+              "options": [
+                "Estética minimalista.",
+                "Prevención de errores.",
+                "Retroalimentación.",
+                "Minimización de carga cognitiva."
+              ],
+              "correctAnswer": "Retroalimentación.",
+              "explanation": "La respuesta correcta es: Retroalimentación."
+            },
+            {
+              "text": "En una suite de aplicaciones corporativas, el botón de \"Salir\" se encuentra a la derecha en el módulo de Ventas, pero a la izquierda en el módulo de RRHH. ¿Qué principio de usabilidad se ha descuidado?",
+              "options": [
+                "Robustez.",
+                "Claridad.",
+                "Consistencia.",
+                "Flexibilidad."
+              ],
+              "correctAnswer": "Consistencia.",
+              "explanation": "La respuesta correcta es: Consistencia."
+            },
+            {
+              "text": "Para reducir el esfuerzo mental que un operario debe realizar al usar una nueva interfaz de control, el equipo de diseño decide simplificar las tareas y limitar la información visible por pantalla. ¿Qué principio están aplicando?",
+              "options": [
+                "Minimización de la carga cognitiva.",
+                "Accesibilidad universal.",
+                "Diseño responsivo.",
+                "Operabilidad asistida."
+              ],
+              "correctAnswer": "Minimización de la carga cognitiva.",
+              "explanation": "La respuesta correcta es: Minimización de la carga cognitiva."
+            },
+            {
+              "text": "Antes de escribir una sola línea de código para una nueva app de logística, el equipo decide realizar entrevistas y observaciones a los conductores que usarán el software. ¿Qué fase del Diseño Centrado en el Usuario (DCU) están ejecutando?",
+              "options": [
+                "Investigación de usuarios.",
+                "Evaluación heurística.",
+                "Implementación técnica.",
+                "Prototipado de alta fidelidad."
+              ],
+              "correctAnswer": "Investigación de usuarios.",
+              "explanation": "La respuesta correcta es: Investigación de usuarios."
+            },
+            {
+              "text": "El equipo de marketing ha entregado un documento con perfiles ficticios llamados \"Ana la Administrativa\" y \"Pedro el Gerente\", basados en datos reales, para guiar el diseño. ¿Cómo se denomina a esta técnica en el DCU?",
+              "options": [
+                "Stakeholders.",
+                "Beta testers.",
+                "Personas.",
+                "Focus group."
+              ],
+              "correctAnswer": "Personas.",
+              "explanation": "La respuesta correcta es: Personas."
+            },
+            {
+              "text": "En la metodología de Diseño Centrado en el Usuario, ¿qué debe ocurrir inmediatamente después de crear prototipos de una solución?",
+              "options": [
+                "La contratación del equipo de ventas.",
+                "El lanzamiento inmediato al mercado.",
+                "La redacción del manual de usuario final.",
+                "Las pruebas de usabilidad con usuarios para obtener feedback."
+              ],
+              "correctAnswer": "Las pruebas de usabilidad con usuarios para obtener feedback.",
+              "explanation": "La respuesta correcta es: Las pruebas de usabilidad con usuarios para obtener feedback."
+            },
+            {
+              "text": "La dirección financiera cuestiona la inversión en pruebas de usabilidad tempranas. ¿Cuál es el principal argumento económico a favor de realizarlas según el enfoque DCU?",
+              "options": [
+                "Reducen los costos a largo plazo al identificar problemas antes del desarrollo costoso.",
+                "Garantizan que el producto se venda solo sin necesidad de marketing.",
+                "Eliminan la necesidad de contratar desarrolladores senior.",
+                "Permiten subir el precio de la licencia de software inmediatamente."
+              ],
+              "correctAnswer": "Reducen los costos a largo plazo al identificar problemas antes del desarrollo costoso.",
+              "explanation": "La respuesta correcta es: Reducen los costos a largo plazo al identificar problemas antes del desarrollo costoso."
+            },
+            {
+              "text": "Un diseñador UX insiste en que el proceso de diseño no termina con el lanzamiento del software. ¿Qué actividad post-lanzamiento es característica del DCU?",
+              "options": [
+                "Congelar el código para evitar nuevos bugs.",
+                "Continuar evaluando y recopilando comentarios para futuras iteraciones.",
+                "Centrarse exclusivamente en la refactorización del backend.",
+                "Archivar el proyecto y disolver el equipo de diseño."
+              ],
+              "correctAnswer": "Continuar evaluando y recopilando comentarios para futuras iteraciones.",
+              "explanation": "La respuesta correcta es: Continuar evaluando y recopilando comentarios para futuras iteraciones."
+            },
+            {
+              "text": "Un usuario se queja de que nunca sabe si la aplicación está cargando datos o se ha bloqueado. ¿Qué heurística de Nielsen debe aplicarse para solucionar esto?",
+              "options": [
+                "Estética y diseño minimalista.",
+                "Visibilidad del estado del sistema.",
+                "Flexibilidad y eficiencia de uso.",
+                "Control y libertad del usuario."
+              ],
+              "correctAnswer": "Visibilidad del estado del sistema.",
+              "explanation": "La respuesta correcta es: Visibilidad del estado del sistema."
+            },
+            {
+              "text": "En una aplicación bancaria, en lugar de usar términos como \"Asiento contable de débito\", se utiliza \"Retirada de dinero\". ¿Qué heurística de Nielsen justifica este cambio de lenguaje?",
+              "options": [
+                "Consistencia y estándares.",
+                "Prevención de errores.",
+                "Ayuda y documentación.",
+                "Correspondencia entre el sistema y el mundo real."
+              ],
+              "correctAnswer": "Correspondencia entre el sistema y el mundo real.",
+              "explanation": "La respuesta correcta es: Correspondencia entre el sistema y el mundo real."
+            },
+            {
+              "text": "Un usuario borra accidentalmente un informe importante y entra en pánico porque no hay forma de recuperarlo. ¿Qué elemento debería haberse incluido para cumplir con la heurística de \"Control y libertad del usuario\"?",
+              "options": [
+                "Un manual de ayuda extenso en PDF.",
+                "Una función de \"Deshacer\" o \"Salida de emergencia\".",
+                "Un mensaje de error en rojo intenso.",
+                "Un icono de papelera más grande."
+              ],
+              "correctAnswer": "Una función de \"Deshacer\" o \"Salida de emergencia\".",
+              "explanation": "La respuesta correcta es: Una función de \"Deshacer\" o \"Salida de emergencia\"."
+            },
+            {
+              "text": "Si en una parte de la aplicación el icono de \"lupa\" sirve para buscar, y en otra pantalla el mismo icono sirve para hacer zoom, ¿qué heurística de Nielsen se está rompiendo?",
+              "options": [
+                "Flexibilidad de uso.",
+                "Visibilidad del estado.",
+                "Reconocimiento en lugar de recuerdo.",
+                "Consistencia y estándares."
+              ],
+              "correctAnswer": "Consistencia y estándares.",
+              "explanation": "La respuesta correcta es: Consistencia y estándares."
+            },
+            {
+              "text": "Para evitar que los usuarios tengan que memorizar códigos de producto de una pantalla a otra, el sistema muestra el nombre del producto y su código en todas las vistas del proceso de compra. ¿Qué heurística se aplica?",
+              "options": [
+                "Operabilidad por teclado.",
+                "Prevención de errores.",
+                "Estética minimalista.",
+                "Reconocimiento en lugar de recuerdo."
+              ],
+              "correctAnswer": "Reconocimiento en lugar de recuerdo.",
+              "explanation": "La respuesta correcta es: Reconocimiento en lugar de recuerdo."
+            },
+            {
+              "text": "Una aplicación permite a los usuarios novatos usar menús, pero ofrece atajos de teclado (Ctrl+S, Ctrl+P) para que los usuarios expertos trabajen más rápido. ¿Qué heurística promueve esta característica?",
+              "options": [
+                "Correspondencia con el mundo real.",
+                "Flexibilidad y eficiencia de uso.",
+                "Visibilidad del estado del sistema.",
+                "Prevención de errores."
+              ],
+              "correctAnswer": "Flexibilidad y eficiencia de uso.",
+              "explanation": "La respuesta correcta es: Flexibilidad y eficiencia de uso."
+            },
+            {
+              "text": "Cuando un usuario introduce mal la contraseña, el sistema muestra: \"Error 404: Bad Request\". ¿Cómo debería mejorarse este mensaje según las heurísticas de Nielsen?",
+              "options": [
+                "Eliminando el mensaje de error para no estresar al usuario.",
+                "Usando lenguaje claro, indicando el problema preciso y sugiriendo una solución.",
+                "Usando letras mayúsculas y signos de exclamación para captar la atención.",
+                "Añadiendo un código numérico más largo para los desarrolladores."
+              ],
+              "correctAnswer": "Usando lenguaje claro, indicando el problema preciso y sugiriendo una solución.",
+              "explanation": "La respuesta correcta es: Usando lenguaje claro, indicando el problema preciso y sugiriendo una solución."
+            },
+            {
+              "text": "Al diseñar una web corporativa, se añaden textos alternativos (alt text) a todas las imágenes informativas. ¿Qué principio de accesibilidad se está cumpliendo principalmente?",
+              "options": [
+                "Perceptibilidad.",
+                "Estética.",
+                "Robustez.",
+                "Operabilidad."
+              ],
+              "correctAnswer": "Perceptibilidad.",
+              "explanation": "La respuesta correcta es: Perceptibilidad."
+            },
+            {
+              "text": "Un usuario con daltonismo tiene problemas para distinguir las alertas de error porque solo se diferencian por ser de color rojo. ¿Cuál es la solución de accesibilidad correcta?",
+              "options": [
+                "Obligar al usuario a cambiar la configuración de su monitor.",
+                "Eliminar las alertas visuales y usar solo sonido.",
+                "Usar un rojo más brillante.",
+                "No usar el color como único medio de información (añadir iconos o texto)."
+              ],
+              "correctAnswer": "No usar el color como único medio de información (añadir iconos o texto).",
+              "explanation": "La respuesta correcta es: No usar el color como único medio de información (añadir iconos o texto)."
+            },
+            {
+              "text": "Para cumplir con el principio de \"Operabilidad\" y ayudar a usuarios con discapacidades motoras, ¿qué requisito técnico debe cumplir la interfaz?",
+              "options": [
+                "Los botones deben ser muy pequeños para optimizar espacio.",
+                "La interfaz debe controlarse exclusivamente por voz.",
+                "Todas las funciones deben ser accesibles a través del teclado.",
+                "La aplicación debe funcionar sin conexión a internet."
+              ],
+              "correctAnswer": "Todas las funciones deben ser accesibles a través del teclado.",
+              "explanation": "La respuesta correcta es: Todas las funciones deben ser accesibles a través del teclado."
+            },
+            {
+              "text": "Una plataforma de e-learning quiere ser accesible para usuarios con discapacidad auditiva. ¿Qué elemento es indispensable en sus videos formativos?",
+              "options": [
+                "Música de fondo relajante.",
+                "Una resolución de video 4K.",
+                "Colores de alto contraste en el reproductor.",
+                "Subtítulos o transcripciones del contenido."
+              ],
+              "correctAnswer": "Subtítulos o transcripciones del contenido.",
+              "explanation": "La respuesta correcta es: Subtítulos o transcripciones del contenido."
+            },
+            {
+              "text": "¿Qué principio de accesibilidad asegura que el contenido pueda ser interpretado fiablemente por tecnologías de asistencia actuales y futuras (como lectores de pantalla)?",
+              "options": [
+                "Comprensibilidad.",
+                "Perceptibilidad.",
+                "Robustez.",
+                "Flexibilidad."
+              ],
+              "correctAnswer": "Robustez.",
+              "explanation": "La respuesta correcta es: Robustez."
+            },
+            {
+              "text": "Un desarrollador está configurando el atributo `lang=\"es\"` en el código HTML de la aplicación. ¿A qué ayuda esta práctica de accesibilidad?",
+              "options": [
+                "A que los lectores de pantalla pronuncien correctamente el contenido.",
+                "A mejorar la velocidad de carga de las imágenes.",
+                "A prevenir errores de javascript.",
+                "A aumentar el contraste de los colores automáticamente."
+              ],
+              "correctAnswer": "A que los lectores de pantalla pronuncien correctamente el contenido.",
+              "explanation": "La respuesta correcta es: A que los lectores de pantalla pronuncien correctamente el contenido."
+            },
+            {
+              "text": "Varios usuarios mayores se quejan de que no pueden leer bien los artículos del blog corporativo. ¿Qué funcionalidad de accesibilidad debería implementarse?",
+              "options": [
+                "Permitir ajustar el tamaño del texto.",
+                "Simplificar el vocabulario a nivel infantil.",
+                "Eliminar todas las imágenes del blog.",
+                "Cambiar la fuente a Comic Sans obligatoriamente."
+              ],
+              "correctAnswer": "Permitir ajustar el tamaño del texto.",
+              "explanation": "La respuesta correcta es: Permitir ajustar el tamaño del texto."
+            },
+            {
+              "text": "Según las pautas de accesibilidad, ¿qué se debe evitar en el diseño para proteger a usuarios con epilepsia fotosensible?",
+              "options": [
+                "Imágenes estáticas de alta resolución.",
+                "Videos con sonido automático.",
+                "El uso de colores primarios.",
+                "Contenido que parpadee o destelle rápidamente."
+              ],
+              "correctAnswer": "Contenido que parpadee o destelle rápidamente.",
+              "explanation": "La respuesta correcta es: Contenido que parpadee o destelle rápidamente."
+            },
+            {
+              "text": "En la fase inicial de un proyecto, el equipo se reúne frente a una pizarra para dibujar rápidamente ideas de pantallas con rotuladores. ¿Qué están creando?",
+              "options": [
+                "Prototipos de alta fidelidad.",
+                "Esquemas de base de datos.",
+                "Manuales de identidad corporativa.",
+                "Bocetos (Sketches)."
+              ],
+              "correctAnswer": "Bocetos (Sketches).",
+              "explanation": "La respuesta correcta es: Bocetos (Sketches)."
+            },
+            {
+              "text": "¿Cuál es la característica definitoria de un prototipo de alta fidelidad frente a un boceto?",
+              "options": [
+                "Solo sirve para uso interno del equipo de desarrollo.",
+                "Se dibuja siempre en papel.",
+                "Es interactivo, visualmente detallado y simula el producto final.",
+                "No permite ninguna interacción."
+              ],
+              "correctAnswer": "Es interactivo, visualmente detallado y simula el producto final.",
+              "explanation": "La respuesta correcta es: Es interactivo, visualmente detallado y simula el producto final."
+            },
+            {
+              "text": "El cliente quiere ver cómo navegará el usuario entre las pantallas de la App antes de aprobar el desarrollo final. ¿Qué herramienta es más adecuada para esta demostración?",
+              "options": [
+                "Un prototipo interactivo.",
+                "Un diagrama de flujo de datos del backend.",
+                "Un documento de Word con descripciones.",
+                "Una colección de bocetos estáticos en papel."
+              ],
+              "correctAnswer": "Un prototipo interactivo.",
+              "explanation": "La respuesta correcta es: Un prototipo interactivo."
+            },
+            {
+              "text": "Un equipo de diseño distribuido en diferentes países necesita trabajar simultáneamente y en tiempo real sobre el mismo archivo de interfaz. ¿Qué herramienta basada en la nube es la más indicada?",
+              "options": [
+                "GIMP.",
+                "Figma.",
+                "Paint.",
+                "Bloc de notas."
+              ],
+              "correctAnswer": "Figma.",
+              "explanation": "La respuesta correcta es: Figma."
+            },
+            {
+              "text": "¿Cuál es una ventaja clave de usar prototipos para comunicarse con los stakeholders (interesados) del negocio?",
+              "options": [
+                "Garantizan que no habrá errores en el código final.",
+                "Ayudan a comunicar y demostrar la funcionalidad visualmente antes de programar.",
+                "Sustituyen la necesidad de tener un servidor de base de datos.",
+                "Permiten facturar el proyecto completo antes de empezar."
+              ],
+              "correctAnswer": "Ayudan a comunicar y demostrar la funcionalidad visualmente antes de programar.",
+              "explanation": "La respuesta correcta es: Ayudan a comunicar y demostrar la funcionalidad visualmente antes de programar."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

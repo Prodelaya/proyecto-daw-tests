@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 8,
+          "title": "UT8",
+          "questions": [
+            {
+              "text": "Un gerente de ventas necesita analizar el rendimiento mensual y solicita una herramienta que le permita visualizar la información extraída de la base de datos de manera estructurada y clara para tomar decisiones. ¿Qué solución técnica debe implementar el equipo de desarrollo?",
+              "options": [
+                "Un script de backup",
+                "Un disparador de base de datos",
+                "Un servicio de mensajería",
+                "Un sistema de informes"
+              ],
+              "correctAnswer": "Un sistema de informes",
+              "explanation": "La respuesta correcta es: Un sistema de informes"
+            },
+            {
+              "text": "Para listar el inventario completo de un almacén sin realizar ningún cálculo complejo ni agrupación, mostrando simplemente filas y columnas de datos, ¿qué tipo de informe es el más adecuado?",
+              "options": [
+                "Informe matricial",
+                "Informe de formulario",
+                "Informe tabular",
+                "Informe gráfico"
+              ],
+              "correctAnswer": "Informe tabular",
+              "explanation": "La respuesta correcta es: Informe tabular"
+            },
+            {
+              "text": "El departamento financiero necesita ver los totales de facturación agrupados por trimestre, mostrando sumas y promedios. ¿Qué categoría de informe cumple con este requisito de procesamiento de datos?",
+              "options": [
+                "Informe tabular plano",
+                "Informe de resumen o agregado",
+                "Informe de texto libre",
+                "Informe de script"
+              ],
+              "correctAnswer": "Informe de resumen o agregado",
+              "explanation": "La respuesta correcta es: Informe de resumen o agregado"
+            },
+            {
+              "text": "Un usuario se queja de que el informe de ventas muestra demasiada información irrelevante y solicita poder elegir un rango de fechas específico antes de generar el documento. ¿Qué tipo de informe debe diseñar el desarrollador?",
+              "options": [
+                "Informe parametrizado",
+                "Informe estático",
+                "Informe de matriz",
+                "Informe de solo lectura"
+              ],
+              "correctAnswer": "Informe parametrizado",
+              "explanation": "La respuesta correcta es: Informe parametrizado"
+            },
+            {
+              "text": "Se requiere analizar datos cruzando dos variables (por ejemplo, productos vendidos por región) en una estructura de cuadrícula similar a una tabla dinámica de Excel. ¿Qué estilo de informe se debe seleccionar?",
+              "options": [
+                "Informe secuencial",
+                "Informe de formulario",
+                "Informe de matriz o pivot",
+                "Informe de lista simple"
+              ],
+              "correctAnswer": "Informe de matriz o pivot",
+              "explanation": "La respuesta correcta es: Informe de matriz o pivot"
+            },
+            {
+              "text": "Antes de abrir Visual Studio para programar un nuevo informe de auditoría, ¿cuál es el primer paso crítico que debe realizar el analista según la metodología de diseño?",
+              "options": [
+                "Diseñar la interfaz gráfica",
+                "Escribir la consulta SQL",
+                "Detectar las necesidades del usuario final",
+                "Instalar el paquete NuGet"
+              ],
+              "correctAnswer": "Detectar las necesidades del usuario final",
+              "explanation": "La respuesta correcta es: Detectar las necesidades del usuario final"
+            },
+            {
+              "text": "Durante la fase de diseño del esquema del informe, ¿qué actividad principal se lleva a cabo?",
+              "options": [
+                "La determinación de la organización y disposición de los datos",
+                "La impresión de los documentos",
+                "La exportación a PDF",
+                "La instalación del servidor de base de datos"
+              ],
+              "correctAnswer": "La determinación de la organización y disposición de los datos",
+              "explanation": "La respuesta correcta es: La determinación de la organización y disposición de los datos"
+            },
+            {
+              "text": "Para que una herramienta de generación de informes pueda extraer información real de la empresa, es imprescindible configurar un elemento técnico con las credenciales y la dirección del servidor. ¿De qué elemento se trata?",
+              "options": [
+                "El algoritmo de encriptación",
+                "El firewall",
+                "La conexión con la base de datos",
+                "El estilo CSS"
+              ],
+              "correctAnswer": "La conexión con la base de datos",
+              "explanation": "La respuesta correcta es: La conexión con la base de datos"
+            },
+            {
+              "text": "Una vez conectado a la base de datos, el desarrollador necesita especificar exactamente qué registros se mostrarán en el informe (por ejemplo, \"solo clientes activos\"). ¿Qué debe crear para lograr esto?",
+              "options": [
+                "Una nueva tabla vacía",
+                "Una consulta de datos (Query)",
+                "Un bucle infinito",
+                "Un archivo de texto"
+              ],
+              "correctAnswer": "Una consulta de datos (Query)",
+              "explanation": "La respuesta correcta es: Una consulta de datos (Query)"
+            },
+            {
+              "text": "Antes de desplegar el informe en producción para el uso de los directivos, ¿qué fase es indispensable para asegurar la exactitud de los cálculos y la correcta visualización?",
+              "options": [
+                "La fase de marketing",
+                "La fase de facturación",
+                "La fase de pruebas del informe",
+                "La fase de diseño de hardware"
+              ],
+              "correctAnswer": "La fase de pruebas del informe",
+              "explanation": "La respuesta correcta es: La fase de pruebas del informe"
+            },
+            {
+              "text": "Un equipo de desarrollo .NET necesita integrar capacidades de visualización de informes SSRS directamente dentro de una aplicación de escritorio Windows Forms. ¿Qué componente de Microsoft deben utilizar?",
+              "options": [
+                "Microsoft Powerpoint",
+                "Microsoft Access Runtime",
+                "Microsoft Excel",
+                "Microsoft Report Viewer"
+              ],
+              "correctAnswer": "Microsoft Report Viewer",
+              "explanation": "La respuesta correcta es: Microsoft Report Viewer"
+            },
+            {
+              "text": "Si un desarrollador no encuentra el control \"ReportViewer\" en su entorno de Visual Studio recién instalado, ¿qué gestor de paquetes debe utilizar para descargar e instalar la librería Microsoft.ReportingServices.ReportViewerControl.Winforms?",
+              "options": [
+                "Maven",
+                "Pip",
+                "NPM",
+                "NuGet"
+              ],
+              "correctAnswer": "NuGet",
+              "explanation": "La respuesta correcta es: NuGet"
+            },
+            {
+              "text": "En un proyecto de C#, ¿cuál es la extensión de archivo estándar que define la estructura visual y lógica de un informe local diseñado en Visual Studio?",
+              "options": [
+                ".xml",
+                ".rdlc",
+                ".exe",
+                ".cs"
+              ],
+              "correctAnswer": ".rdlc",
+              "explanation": "La respuesta correcta es: .rdlc"
+            },
+            {
+              "text": "Para definir la estructura de los datos (tablas y campos) que el informe consumirá en tiempo de diseño dentro de Visual Studio, ¿qué elemento de tipo .xsd se debe agregar al proyecto?",
+              "options": [
+                "Una hoja de estilos",
+                "Un Conjunto de datos (DataSet)",
+                "Una clase de C",
+                "Un archivo HTML"
+              ],
+              "correctAnswer": "Un Conjunto de datos (DataSet)",
+              "explanation": "La respuesta correcta es: Un Conjunto de datos (DataSet)"
+            },
+            {
+              "text": "Al programar la carga del informe, se necesita limpiar los orígenes de datos anteriores y asignar los nuevos datos obtenidos de la consulta. ¿Qué propiedad del objeto LocalReport se utiliza para gestionar esto?",
+              "options": [
+                "Rendering",
+                "Parameters",
+                "DataSources",
+                "PrinterSettings"
+              ],
+              "correctAnswer": "DataSources",
+              "explanation": "La respuesta correcta es: DataSources"
+            },
+            {
+              "text": "Si el informe ya se muestra en pantalla pero los datos de la base de datos han cambiado recientemente, ¿qué método del control ReportViewer fuerza la actualización visual de la información?",
+              "options": [
+                "Close()",
+                "RefreshReport()",
+                "Save()",
+                "Print()"
+              ],
+              "correctAnswer": "RefreshReport()",
+              "explanation": "La respuesta correcta es: RefreshReport()"
+            },
+            {
+              "text": "Una empresa decide generar informes desde su aplicación C# en lugar de hacerlo manualmente en Excel para evitar errores humanos y acelerar procesos. ¿A qué ventaja estratégica se refiere esto?",
+              "options": [
+                "Redundancia",
+                "Hardware",
+                "Estética",
+                "Automatización"
+              ],
+              "correctAnswer": "Automatización",
+              "explanation": "La respuesta correcta es: Automatización"
+            },
+            {
+              "text": "Al generar informes mediante código, se puede restringir quién ve qué información basándose en roles de usuario antes de cargar los datos. ¿Qué beneficio aporta esto?",
+              "options": [
+                "Menor consumo de energía",
+                "Mayor velocidad de internet",
+                "Seguridad de datos",
+                "Mejor resolución de pantalla"
+              ],
+              "correctAnswer": "Seguridad de datos",
+              "explanation": "La respuesta correcta es: Seguridad de datos"
+            },
+            {
+              "text": "Para exportar programáticamente un informe a formato PDF sin intervención del usuario, ¿qué método fundamental del objeto LocalReport se debe invocar en el código?",
+              "options": [
+                "PrintToPrinter",
+                "SaveAsImage",
+                "ExportToExcel",
+                "Render"
+              ],
+              "correctAnswer": "Render",
+              "explanation": "La respuesta correcta es: Render"
+            },
+            {
+              "text": "Al utilizar el método Render para exportar un archivo, ¿qué parámetro se debe especificar para indicar que el formato de salida deseado es un documento portátil de Adobe?",
+              "options": [
+                "\"HTML\"",
+                "\"DOCX\"",
+                "\"PDF\"",
+                "\"IMAGE\""
+              ],
+              "correctAnswer": "\"PDF\"",
+              "explanation": "La respuesta correcta es: \"PDF\""
+            },
+            {
+              "text": "En el código de exportación, se utiliza un objeto FileStream para guardar el resultado en el disco. ¿Qué modo de apertura se debe usar para crear un archivo nuevo o sobrescribir uno existente?",
+              "options": [
+                "FileMode.Read",
+                "FileMode.Create",
+                "FileMode.Open",
+                "FileMode.Append"
+              ],
+              "correctAnswer": "FileMode.Create",
+              "explanation": "La respuesta correcta es: FileMode.Create"
+            },
+            {
+              "text": "Si al intentar añadir un nuevo informe al proyecto no aparece la plantilla \"Informe\" o \"Report\", ¿qué extensión de Visual Studio es probable que falte y deba instalarse?",
+              "options": [
+                "RDLC Report Designer",
+                "GitHub Extension",
+                "Azure SDK",
+                "Python Tools"
+              ],
+              "correctAnswer": "RDLC Report Designer",
+              "explanation": "La respuesta correcta es: RDLC Report Designer"
+            },
+            {
+              "text": "Para visualizar datos en un informe que provienen de una consulta SQL compleja, se utiliza un objeto intermediario en C# para llenar el DataTable. ¿Cómo se llama este objeto adaptador?",
+              "options": [
+                "SqlCommand",
+                "SqlDataReader",
+                "SqlConnection",
+                "SqlDataAdapter"
+              ],
+              "correctAnswer": "SqlDataAdapter",
+              "explanation": "La respuesta correcta es: SqlDataAdapter"
+            },
+            {
+              "text": "Un informe de \"formulario\" se diferencia de uno tabular principalmente en su disposición. ¿Para qué caso de uso es ideal el diseño de formulario?",
+              "options": [
+                "Para listar miles de registros compactos",
+                "Para mostrar solo gráficos estadísticos",
+                "Para exportar a CSV solamente",
+                "Para imprimir registros individuales o fichas detalladas"
+              ],
+              "correctAnswer": "Para imprimir registros individuales o fichas detalladas",
+              "explanation": "La respuesta correcta es: Para imprimir registros individuales o fichas detalladas"
+            },
+            {
+              "text": "Al diseñar el informe visualmente (.rdlc), ¿qué herramienta del entorno se utiliza para arrastrar campos de texto, tablas e imágenes al lienzo?",
+              "options": [
+                "El Cuadro de herramientas (Toolbox)",
+                "El editor de registro",
+                "La consola de comandos",
+                "El Explorador de soluciones"
+              ],
+              "correctAnswer": "El Cuadro de herramientas (Toolbox)",
+              "explanation": "La respuesta correcta es: El Cuadro de herramientas (Toolbox)"
+            },
+            {
+              "text": "¿Qué espacio de nombres (namespace) es necesario importar en el código C# (using ...) para poder utilizar las clases de generación y exportación de informes como Warning o ReportViewer?",
+              "options": [
+                "Microsoft.Reporting.WinForms",
+                "System.Net",
+                "System.Linq",
+                "System.Drawing"
+              ],
+              "correctAnswer": "Microsoft.Reporting.WinForms",
+              "explanation": "La respuesta correcta es: Microsoft.Reporting.WinForms"
+            },
+            {
+              "text": "Cuando se exporta un informe a un flujo de bytes (byte[]), ¿qué información devuelve el método Render sobre el tipo de contenido generado (por ejemplo, \"application/pdf\")?",
+              "options": [
+                "mimeType",
+                "fileName",
+                "encoding",
+                "fileSize"
+              ],
+              "correctAnswer": "mimeType",
+              "explanation": "La respuesta correcta es: mimeType"
+            },
+            {
+              "text": "En un entorno de producción, ¿por qué es recomendable usar un bloque try-catch alrededor del código de generación y exportación de informes?",
+              "options": [
+                "Para comprimir el archivo",
+                "Para manejar excepciones y mostrar mensajes de error si falla la conexión o el archivo",
+                "Para encriptar el informe",
+                "Para hacer el código más rápido"
+              ],
+              "correctAnswer": "Para manejar excepciones y mostrar mensajes de error si falla la conexión o el archivo",
+              "explanation": "La respuesta correcta es: Para manejar excepciones y mostrar mensajes de error si falla la conexión o el archivo"
+            },
+            {
+              "text": "¿Qué objeto se utiliza en el código para vincular el DataTable que contiene los datos reales con el nombre del \"DataSet\" definido en el diseño del informe .rdlc?",
+              "options": [
+                "StreamReader",
+                "SqlCommand",
+                "ReportDataSource",
+                "SqlConnection"
+              ],
+              "correctAnswer": "ReportDataSource",
+              "explanation": "La respuesta correcta es: ReportDataSource"
+            },
+            {
+              "text": "Si se desea que el usuario pueda guardar el informe exportado con un nombre y ubicación personalizados en lugar de una ruta fija, ¿qué componente de diálogo de Windows Forms se debería integrar antes de llamar a la función de exportación?",
+              "options": [
+                "PrintDialog",
+                "ColorDialog",
+                "FontDialog",
+                "SaveFileDialog"
+              ],
+              "correctAnswer": "SaveFileDialog",
+              "explanation": "La respuesta correcta es: SaveFileDialog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

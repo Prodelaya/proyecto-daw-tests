@@ -1,0 +1,335 @@
+{
+  "subjects": [
+    {
+      "code": "AD",
+      "name": "Acceso a datos",
+      "topics": [
+        {
+          "number": 3,
+          "title": "UT3",
+          "questions": [
+            {
+              "text": "En una startup de Madrid que desarrolla una API en Python, el equipo quiere evitar escribir SQL a mano y trabajar con modelos de objetos. ¿Qué herramienta escogerías para el ORM del proyecto teniendo en cuenta la madurez y la comunidad?",
+              "options": [
+                "Doctrine",
+                "Eloquent",
+                "SQLAlchemy",
+                "ActiveRecord"
+              ],
+              "correctAnswer": "SQLAlchemy",
+              "explanation": "La respuesta correcta es: SQLAlchemy"
+            },
+            {
+              "text": "¿Qué ventaja aporta un ORM al desarrollo respecto a escribir consultas SQL manuales en todo el código?",
+              "options": [
+                "Hace todas las consultas más rápidas sin excepción",
+                "Abstracción para trabajar con clases y objetos en vez de SQL",
+                "Evita por completo los errores lógicos de negocio",
+                "Sustituye la necesidad de una base de datos"
+              ],
+              "correctAnswer": "Abstracción para trabajar con clases y objetos en vez de SQL",
+              "explanation": "La respuesta correcta es: Abstracción para trabajar con clases y objetos en vez de SQL"
+            },
+            {
+              "text": "Tu equipo trabaja con Node.js y necesita que el mismo código soporte PostgreSQL y MySQL sin cambios significativos. ¿Qué opción se ajusta mejor a ese requisito?",
+              "options": [
+                "Sequelize",
+                "RedBean",
+                "Hibernate",
+                "Doctrine"
+              ],
+              "correctAnswer": "Sequelize",
+              "explanation": "La respuesta correcta es: Sequelize"
+            },
+            {
+              "text": "Una consultora de Bilbao mantiene aplicaciones en .NET y quiere integrar consultas con LINQ sobre modelos de datos. El CTO te pide una recomendación concreta. ¿Qué elegirías?",
+              "options": [
+                "Hibernate",
+                "Entity Framework",
+                "Eloquent",
+                "SQLAlchemy"
+              ],
+              "correctAnswer": "Entity Framework",
+              "explanation": "La respuesta correcta es: Entity Framework"
+            },
+            {
+              "text": "En un proyecto PHP orientado a microservicios, buscan un ORM integrado en un framework muy popular que facilite CRUD y relaciones. ¿Cuál encaja con esa descripción?",
+              "options": [
+                "RedBean dentro de Slim",
+                "Doctrine fuera de Symfony",
+                "ActiveRecord fuera de Rails",
+                "Eloquent dentro de Laravel"
+              ],
+              "correctAnswer": "Eloquent dentro de Laravel",
+              "explanation": "La respuesta correcta es: Eloquent dentro de Laravel"
+            },
+            {
+              "text": "Un desarrollador junior en Sevilla pide “un ORM PHP sin configuración” para prototipar rápido y crear tablas al vuelo. ¿Qué le propones para ese escenario?",
+              "options": [
+                "Hibernate",
+                "Eloquent",
+                "RedBean",
+                "Doctrine"
+              ],
+              "correctAnswer": "RedBean",
+              "explanation": "La respuesta correcta es: RedBean"
+            },
+            {
+              "text": "Tras instalar Composer en Windows, quieres comprobar que el sistema lo reconoce correctamente desde la terminal. ¿Qué comando deberías ejecutar?",
+              "options": [
+                "composer install",
+                "composer about",
+                "composer --version",
+                "composer init"
+              ],
+              "correctAnswer": "composer --version",
+              "explanation": "La respuesta correcta es: composer --version"
+            },
+            {
+              "text": "Debes generar un nuevo proyecto Laravel llamado “tienda-online” dentro de C:\\xampp\\htdocs. ¿Qué instrucción completa es la adecuada desde ese directorio?",
+              "options": [
+                "composer create-project --prefer-dist laravel/laravel tienda-online",
+                "laravel new tienda-online",
+                "php artisan new tienda-online",
+                "composer require laravel/laravel tienda-online"
+              ],
+              "correctAnswer": "composer create-project --prefer-dist laravel/laravel tienda-online",
+              "explanation": "La respuesta correcta es: composer create-project --prefer-dist laravel/laravel tienda-online"
+            },
+            {
+              "text": "Has lanzado php artisan serve sin configurar VirtualHost. ¿Qué host y puerto usa Laravel por defecto para servir la app?",
+              "options": [
+                "0.0.0.0:3000",
+                "localhost:80",
+                "127.0.0.1:8000",
+                "localhost:3000"
+              ],
+              "correctAnswer": "127.0.0.1:8000",
+              "explanation": "La respuesta correcta es: 127.0.0.1:8000"
+            },
+            {
+              "text": "En XAMPP quieres definir un VirtualHost para un dominio local. ¿Qué archivo debes editar para añadir el bloque de configuración correspondiente?",
+              "options": [
+                "C:\\xampp\\php\\php.ini",
+                "C:\\Windows\\System32\\drivers\\etc\\services",
+                "C:\\xampp\\apache\\conf\\httpd.conf",
+                "C:\\xampp\\apache\\conf\\extra\\httpd-vhosts.conf"
+              ],
+              "correctAnswer": "C:\\xampp\\apache\\conf\\extra\\httpd-vhosts.conf",
+              "explanation": "La respuesta correcta es: C:\\xampp\\apache\\conf\\extra\\httpd-vhosts.conf"
+            },
+            {
+              "text": "En Zaragoza, un equipo prepara un dominio local “miapp.test” y necesita resolverlo a la máquina local. ¿Qué línea debe añadir al archivo hosts con permisos de administrador?",
+              "options": [
+                "255.255.255.0 miapp.test",
+                "127.0.0.1 miapp.test",
+                "192.168.1.1 miapp.test",
+                "0.0.0.0 miapp.test"
+              ],
+              "correctAnswer": "127.0.0.1 miapp.test",
+              "explanation": "La respuesta correcta es: 127.0.0.1 miapp.test"
+            },
+            {
+              "text": "Vas a registrar una ruta GET en Laravel para atender peticiones del sitio. ¿En qué archivo se declaran por defecto las rutas web de la aplicación?",
+              "options": [
+                "app/Http/Kernel.php",
+                "config/app.php",
+                "routes/web.php",
+                "app/Providers/RouteServiceProvider.php"
+              ],
+              "correctAnswer": "routes/web.php",
+              "explanation": "La respuesta correcta es: routes/web.php"
+            },
+            {
+              "text": "Tras generar el controlador, una técnica de QA en Vigo reporta 404 al acceder a la nueva pantalla. El servicio corre y la vista existe. ¿Qué paso suele faltar en estos casos?",
+              "options": [
+                "Definir o ajustar la ruta correspondiente en routes/web.php",
+                "Borrar el caché de configuración",
+                "Regenerar la clave de la app",
+                "Crear un middleware personalizado"
+              ],
+              "correctAnswer": "Definir o ajustar la ruta correspondiente en routes/web.php",
+              "explanation": "La respuesta correcta es: Definir o ajustar la ruta correspondiente en routes/web.php"
+            },
+            {
+              "text": "En el diseño de un fichero de mapeo (o su equivalente), ¿qué aspecto resulta esencial para que el ORM gestione relaciones e integridad?",
+              "options": [
+                "Evitar cualquier relación muchos a muchos",
+                "Nombrar todas las columnas en mayúsculas",
+                "Usar exclusivamente formato JSON",
+                "Definir claves primarias y foráneas de cada entidad/tabla"
+              ],
+              "correctAnswer": "Definir claves primarias y foráneas de cada entidad/tabla",
+              "explanation": "La respuesta correcta es: Definir claves primarias y foráneas de cada entidad/tabla"
+            },
+            {
+              "text": "En una pyme de Barcelona debes reflejar que un Pedido puede tener muchas Líneas y cada Línea pertenece a un Pedido. ¿Qué tipo de relación debes representar en el mapeo?",
+              "options": [
+                "Uno a uno en ambos sentidos",
+                "Herencia por subclases",
+                "Uno a muchos y muchos a uno",
+                "Muchos a muchos con tabla intermedia"
+              ],
+              "correctAnswer": "Uno a muchos y muchos a uno",
+              "explanation": "La respuesta correcta es: Uno a muchos y muchos a uno"
+            },
+            {
+              "text": "Al preparar la configuración, decides anotar qué clase se mapea a qué tabla y qué propiedad a qué columna. ¿Qué parte del mapeo estás cubriendo con esa información?",
+              "options": [
+                "Reglas de validación",
+                "Serialización de vistas",
+                "Clases y tablas, propiedades y columnas",
+                "Políticas de caché"
+              ],
+              "correctAnswer": "Clases y tablas, propiedades y columnas",
+              "explanation": "La respuesta correcta es: Clases y tablas, propiedades y columnas"
+            },
+            {
+              "text": "Quieres crear el modelo User junto con su migración en Laravel de una sola vez. ¿Qué orden usarás?",
+              "options": [
+                "php artisan make:model User",
+                "php artisan make:model User -m",
+                "php artisan make:migration User",
+                "php artisan migrate:make User"
+              ],
+              "correctAnswer": "php artisan make:model User -m",
+              "explanation": "La respuesta correcta es: php artisan make:model User -m"
+            },
+            {
+              "text": "En una asesoría tecnológica de Valencia dudan entre archivos XML de mapeo y el enfoque de Laravel. ¿Cómo se define la relación clase-tabla en Laravel sin ficheros externos?",
+              "options": [
+                "Con JSON en config/mapping.json",
+                "Solo con anotaciones en Blade",
+                "Insertando reglas en .env",
+                "Mediante modelos Eloquent y sus atributos y métodos de relación"
+              ],
+              "correctAnswer": "Mediante modelos Eloquent y sus atributos y métodos de relación",
+              "explanation": "La respuesta correcta es: Mediante modelos Eloquent y sus atributos y métodos de relación"
+            },
+            {
+              "text": "Al revisar una migración generada, ves un nombre como “2021_09_28_000000_create_users_table.php”. ¿Qué identifica la parte inicial del nombre de archivo?",
+              "options": [
+                "La versión de PHP instalada",
+                "El hash del commit de Git",
+                "Una marca de tiempo con fecha y hora",
+                "El ID de sesión del servidor"
+              ],
+              "correctAnswer": "Una marca de tiempo con fecha y hora",
+              "explanation": "La respuesta correcta es: Una marca de tiempo con fecha y hora"
+            },
+            {
+              "text": "En una clínica privada de A Coruña, la app crea un objeto User y rellena sus propiedades, pero aún no se ha guardado en la base de datos y no tiene id. ¿En qué estado se encuentra ese objeto?",
+              "options": [
+                "Separado",
+                "Persistente",
+                "Transitorio",
+                "Bloqueado"
+              ],
+              "correctAnswer": "Transitorio",
+              "explanation": "La respuesta correcta es: Transitorio"
+            },
+            {
+              "text": "¿Qué caracteriza a un objeto persistente en un ORM durante una transacción?",
+              "options": [
+                "Los cambios se descartan siempre",
+                "No admite relaciones",
+                "Los cambios pueden sincronizarse con la base de datos al confirmar",
+                "No tiene identificador asignado"
+              ],
+              "correctAnswer": "Los cambios pueden sincronizarse con la base de datos al confirmar",
+              "explanation": "La respuesta correcta es: Los cambios pueden sincronizarse con la base de datos al confirmar"
+            },
+            {
+              "text": "Observa este flujo: $user = new User(); $user->name = 'Lucía'; $user->email = 'lucia@example.com'; $user->save(); Posteriormente haces $rec = User::find(1) y modificas $rec->name antes de guardar. ¿Qué describe mejor lo que ocurre con $rec?",
+              "options": [
+                "Es transitorio y no puede guardarse",
+                "Queda bloqueado hasta un rollback",
+                "Es separado y se sincroniza sin save()",
+                "Es persistente y, tras save(), los cambios se reflejan en la BD"
+              ],
+              "correctAnswer": "Es persistente y, tras save(), los cambios se reflejan en la BD",
+              "explanation": "La respuesta correcta es: Es persistente y, tras save(), los cambios se reflejan en la BD"
+            },
+            {
+              "text": "En una auditoría interna en Málaga, un desarrollador pone $detachedUser = null tras guardar un registro y más tarde modifica otro objeto igual sin llamar a save(). ¿Qué riesgo práctico surge?",
+              "options": [
+                "Al no estar gestionado por el ORM, los cambios posteriores no se sincronizan automáticamente",
+                "Se borra el registro inmediatamente",
+                "Se ejecutan dos transacciones en paralelo",
+                "Se pierde la clave primaria de la tabla"
+              ],
+              "correctAnswer": "Al no estar gestionado por el ORM, los cambios posteriores no se sincronizan automáticamente",
+              "explanation": "La respuesta correcta es: Al no estar gestionado por el ORM, los cambios posteriores no se sincronizan automáticamente"
+            },
+            {
+              "text": "En Laravel, ¿existe un método oficial para “desvincular” explícitamente un objeto del ORM al estilo de otros frameworks?",
+              "options": [
+                "No, se emula dejando de referenciar el objeto",
+                "Sí, release($model) en Model",
+                "Sí, unbind($model) en DB",
+                "Sí, detach($model) en Eloquent"
+              ],
+              "correctAnswer": "No, se emula dejando de referenciar el objeto",
+              "explanation": "La respuesta correcta es: No, se emula dejando de referenciar el objeto"
+            },
+            {
+              "text": "Una empresa logística de Zaragoza necesita que sus órdenes persistan tras reinicios del sistema y que pueda consultarlas por estado y fecha. ¿Qué beneficio de la persistencia les da esa garantía de conservación y consulta eficiente?",
+              "options": [
+                "Reducción de latencia por red",
+                "Aislamiento de hilos",
+                "Despliegue continuo automático",
+                "Conservación de datos y consultas eficientes"
+              ],
+              "correctAnswer": "Conservación de datos y consultas eficientes",
+              "explanation": "La respuesta correcta es: Conservación de datos y consultas eficientes"
+            },
+            {
+              "text": "¿Cuál es un posible inconveniente de introducir mecanismos de persistencia en una aplicación que empieza a crecer?",
+              "options": [
+                "Complejidad adicional en configuración y aprendizaje",
+                "Menor organización del código",
+                "Pérdida de integridad referencial",
+                "Imposibilidad de cambiar de SGBD"
+              ],
+              "correctAnswer": "Complejidad adicional en configuración y aprendizaje",
+              "explanation": "La respuesta correcta es: Complejidad adicional en configuración y aprendizaje"
+            },
+            {
+              "text": "Diseñas la tabla tasks del gestor de tareas. ¿Qué combinación respeta los requisitos planteados para campos y tipos?",
+              "options": [
+                "title int, description json, due_date date, status boolean",
+                "title string, description text nullable, due_date datetime, status enum('completed','pending')",
+                "title text, description text, due_date time, status integer",
+                "title varchar, description varchar not null, due_date date, status char(1)"
+              ],
+              "correctAnswer": "title string, description text nullable, due_date datetime, status enum('completed','pending')",
+              "explanation": "La respuesta correcta es: title string, description text nullable, due_date datetime, status enum('completed','pending')"
+            },
+            {
+              "text": "La dirección quiere poder cambiar de MySQL a PostgreSQL sin reescribir todas las consultas de la capa de negocio. ¿Qué ventaja del uso de ORM favorece ese cambio con menos fricción?",
+              "options": [
+                "Sharding automático",
+                "Portabilidad entre SGBDR con generación de SQL específico",
+                "Triggers automáticos",
+                "Replicación síncrona integrada"
+              ],
+              "correctAnswer": "Portabilidad entre SGBDR con generación de SQL específico",
+              "explanation": "La respuesta correcta es: Portabilidad entre SGBDR con generación de SQL específico"
+            },
+            {
+              "text": "En ciertos casos, el equipo decide no usar el ORM y escribir SQL manual. ¿Qué motivación encaja con esa decisión en un entorno con consultas complejas y alto volumen de datos?",
+              "options": [
+                "Reducir el tamaño del binario",
+                "Centralizar logs de aplicación",
+                "Mejor rendimiento y control fino de la consulta",
+                "Evitar la necesidad de índices"
+              ],
+              "correctAnswer": "Mejor rendimiento y control fino de la consulta",
+              "explanation": "La respuesta correcta es: Mejor rendimiento y control fino de la consulta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 3,
+          "title": "UT3",
+          "questions": [
+            {
+              "text": "Una empresa de consultoría necesita desarrollar una herramienta interna de gestión de forma rápida y sencilla para equipos con Windows 10/11. El requisito principal es la velocidad de desarrollo sobre la complejidad visual. ¿Qué tecnología de Visual Studio es la más adecuada?",
+              "options": [
+                "Blazor WebAssembly",
+                "ASP.NET Core",
+                "Windows Forms",
+                "Xamarin Mobile"
+              ],
+              "correctAnswer": "Windows Forms",
+              "explanation": "La respuesta correcta es: Windows Forms"
+            },
+            {
+              "text": "El departamento de diseño exige que la nueva aplicación comercial tenga gráficos vectoriales, animaciones fluidas y una separación estricta entre la lógica de negocio y el diseño visual mediante XAML. ¿Qué marco de trabajo debe elegir el equipo de desarrollo?",
+              "options": [
+                "Console Application",
+                "Win32 API pura",
+                "Windows Presentation Foundation (WPF)",
+                "Windows Forms"
+              ],
+              "correctAnswer": "Windows Presentation Foundation (WPF)",
+              "explanation": "La respuesta correcta es: Windows Presentation Foundation (WPF)"
+            },
+            {
+              "text": "Se requiere desarrollar una aplicación móvil para la fuerza de ventas que funcione nativamente tanto en las tabletas iPad como en los teléfonos Android corporativos, compartiendo la mayor cantidad de código C# posible. ¿Qué plataforma es la indicada?",
+              "options": [
+                "System.Windows.Mobile",
+                "Xamarin",
+                "ASP.NET MVC",
+                "Windows Forms Mobile"
+              ],
+              "correctAnswer": "Xamarin",
+              "explanation": "La respuesta correcta es: Xamarin"
+            },
+            {
+              "text": "Al iniciar un nuevo proyecto en Windows Forms, ¿cuál es el elemento principal que actúa como la \"ventana\" o superficie donde el desarrollador arrastrará los controles visuales?",
+              "options": [
+                "El Espacio de nombres",
+                "La Solución",
+                "El Método Main",
+                "El Formulario (Form)"
+              ],
+              "correctAnswer": "El Formulario (Form)",
+              "explanation": "La respuesta correcta es: El Formulario (Form)"
+            },
+            {
+              "text": "Un desarrollador junior no encuentra los botones y cuadros de texto para agregarlos a su interfaz. ¿Qué panel de Visual Studio debe abrir para ver la colección de controles disponibles?",
+              "options": [
+                "El Explorador de soluciones",
+                "El Cuadro de herramientas",
+                "La Ventana de salida",
+                "El Administrador de servidores"
+              ],
+              "correctAnswer": "El Cuadro de herramientas",
+              "explanation": "La respuesta correcta es: El Cuadro de herramientas"
+            },
+            {
+              "text": "Para organizar el código de manera lógica, todas las clases y tipos de controles de la interfaz gráfica en Windows Forms se agrupan bajo una jerarquía específica. ¿Cuál es el espacio de nombres principal que se debe importar?",
+              "options": [
+                "System.Data.Sql",
+                "System.Windows.Forms",
+                "System.IO.Ports",
+                "System.Drawing.Text"
+              ],
+              "correctAnswer": "System.Windows.Forms",
+              "explanation": "La respuesta correcta es: System.Windows.Forms"
+            },
+            {
+              "text": "En un formulario de registro de empleados, se necesita un campo donde el usuario pueda escribir su nombre completo. ¿Qué control básico se debe utilizar?",
+              "options": [
+                "TextBox",
+                "ListBox",
+                "Label",
+                "ProgressBar"
+              ],
+              "correctAnswer": "TextBox",
+              "explanation": "La respuesta correcta es: TextBox"
+            },
+            {
+              "text": "Para configurar las preferencias de usuario, se requiere que el empleado seleccione su turno de trabajo (Mañana, Tarde o Noche) eligiendo obligatoriamente una sola opción de un grupo visible. ¿Qué control es el más apropiado?",
+              "options": [
+                "ProgressBar",
+                "RadioButton",
+                "CheckBox",
+                "ToolTip"
+              ],
+              "correctAnswer": "RadioButton",
+              "explanation": "La respuesta correcta es: RadioButton"
+            },
+            {
+              "text": "Se necesita mostrar al usuario el avance de la carga de una base de datos grande para que sepa que el sistema está trabajando. ¿Qué control visual cumple esta función?",
+              "options": [
+                "TreeView",
+                "TrackBar",
+                "MenuStrip",
+                "ProgressBar"
+              ],
+              "correctAnswer": "ProgressBar",
+              "explanation": "La respuesta correcta es: ProgressBar"
+            },
+            {
+              "text": "El equipo de desarrollo está construyendo un explorador de archivos interno. ¿Qué control avanzado permite mostrar la jerarquía de carpetas en forma de nodos anidados (árbol)?",
+              "options": [
+                "ListView",
+                "DataGridView",
+                "TabControl",
+                "TreeView"
+              ],
+              "correctAnswer": "TreeView",
+              "explanation": "La respuesta correcta es: TreeView"
+            },
+            {
+              "text": "Para optimizar el espacio en una ventana de configuración con muchas opciones, se decide organizar la información en diferentes pestañas (General, Red, Usuarios). ¿Qué control contenedor se debe emplear?",
+              "options": [
+                "Panel",
+                "GroupBox",
+                "SplitContainer",
+                "TabControl"
+              ],
+              "correctAnswer": "TabControl",
+              "explanation": "La respuesta correcta es: TabControl"
+            },
+            {
+              "text": "Se requiere mostrar un listado de productos traídos de la base de datos en una estructura de filas y columnas editable. ¿Qué control avanzado es el estándar para esta tarea?",
+              "options": [
+                "RichTextBox",
+                "DataGridView",
+                "StatusStrip",
+                "ListBox"
+              ],
+              "correctAnswer": "DataGridView",
+              "explanation": "La respuesta correcta es: DataGridView"
+            },
+            {
+              "text": "Cuando un usuario interactúa con la aplicación haciendo clic en un botón \"Guardar\", el sistema genera una acción. ¿Cuál es el término técnico para esta acción o suceso?",
+              "options": [
+                "Compilación",
+                "Directiva",
+                "Evento",
+                "Propiedad"
+              ],
+              "correctAnswer": "Evento",
+              "explanation": "La respuesta correcta es: Evento"
+            },
+            {
+              "text": "Para que el programa responda cuando el usuario pulsa un botón, el desarrollador debe escribir una función específica en el código. ¿Cómo se denomina a esta función?",
+              "options": [
+                "Constructor de clase",
+                "Interfaz abstracta",
+                "Variable global",
+                "Manejador de eventos (Event Handler)"
+              ],
+              "correctAnswer": "Manejador de eventos (Event Handler)",
+              "explanation": "La respuesta correcta es: Manejador de eventos (Event Handler)"
+            },
+            {
+              "text": "Si un desarrollador quiere crear rápidamente la estructura del método que responderá al \"clic\" de un botón, ¿qué acción debe realizar en el diseñador visual?",
+              "options": [
+                "Arrastrar el botón a la papelera",
+                "Hacer doble clic sobre el botón",
+                "Borrar el botón y crearlo de nuevo",
+                "Compilar la solución"
+              ],
+              "correctAnswer": "Hacer doble clic sobre el botón",
+              "explanation": "La respuesta correcta es: Hacer doble clic sobre el botón"
+            },
+            {
+              "text": "En la firma de un método controlador de eventos estándar `(object sender, EventArgs e)`, ¿qué representa el argumento `sender`?",
+              "options": [
+                "El formulario padre",
+                "La hora en que ocurrió el evento",
+                "Los datos del evento del ratón",
+                "La referencia al objeto que generó el evento"
+              ],
+              "correctAnswer": "La referencia al objeto que generó el evento",
+              "explanation": "La respuesta correcta es: La referencia al objeto que generó el evento"
+            },
+            {
+              "text": "Un desarrollador necesita asignar manualmente un evento en el código sin usar el diseñador. ¿Qué operador de C# se utiliza para suscribir un método a un evento?",
+              "options": [
+                "+=",
+                "=>",
+                "==",
+                "="
+              ],
+              "correctAnswer": "+=",
+              "explanation": "La respuesta correcta es: +="
+            },
+            {
+              "text": "En una lista de clientes (ListBox), se necesita cargar los detalles del cliente en otro panel justo cuando el usuario cambia la selección en la lista. ¿Qué evento se debe manejar?",
+              "options": [
+                "Click",
+                "SelectedIndexChanged",
+                "MouseHover",
+                "FormLoad"
+              ],
+              "correctAnswer": "SelectedIndexChanged",
+              "explanation": "La respuesta correcta es: SelectedIndexChanged"
+            },
+            {
+              "text": "Para adaptar la interfaz a la identidad corporativa, se pide cambiar el color de fondo de todos los botones a un azul específico. ¿Qué propiedad del control Button se debe modificar?",
+              "options": [
+                "Text",
+                "Visible",
+                "BackColor",
+                "Enabled"
+              ],
+              "correctAnswer": "BackColor",
+              "explanation": "La respuesta correcta es: BackColor"
+            },
+            {
+              "text": "Si se desea que la aplicación adopte automáticamente la apariencia visual del tema actual del sistema operativo Windows del usuario, ¿qué método se debe llamar al inicio de la aplicación?",
+              "options": [
+                "`Application.EnableVisualStyles()`",
+                "`Console.WriteLine()`",
+                "`Application.Exit()`",
+                "`Form.Close()`"
+              ],
+              "correctAnswer": "`Application.EnableVisualStyles()`",
+              "explanation": "La respuesta correcta es: `Application.EnableVisualStyles()`"
+            },
+            {
+              "text": "Una empresa quiere estandarizar sus botones con una fuente y color específicos en todas sus aplicaciones sin repetir código. ¿Cuál es la práctica recomendada en POO para lograr esto?",
+              "options": [
+                "Usar solo etiquetas (Labels) en lugar de botones",
+                "Crear una clase `CustomButton` que herede de `Button`",
+                "Copiar y pegar el código del botón en cada formulario",
+                "Modificar el archivo `Program.cs` directamente"
+              ],
+              "correctAnswer": "Crear una clase `CustomButton` que herede de `Button`",
+              "explanation": "La respuesta correcta es: Crear una clase `CustomButton` que herede de `Button`"
+            },
+            {
+              "text": "Un desarrollador ha creado un control personalizado pero no puede acceder a sus propiedades desde otro formulario. ¿Qué modificador debe verificar en las propiedades o código?",
+              "options": [
+                "Private",
+                "Public",
+                "Protected",
+                "Internal"
+              ],
+              "correctAnswer": "Public",
+              "explanation": "La respuesta correcta es: Public"
+            },
+            {
+              "text": "Para lograr interfaces visuales de alto impacto y aspecto profesional sin diseñar cada componente desde cero, ¿qué recurso suelen utilizar los equipos de desarrollo?",
+              "options": [
+                "Bibliotecas de terceros (como Telerik o DevExpress)",
+                "Capturas de pantalla estáticas",
+                "Controles de consola MS-DOS",
+                "Archivos de texto plano"
+              ],
+              "correctAnswer": "Bibliotecas de terceros (como Telerik o DevExpress)",
+              "explanation": "La respuesta correcta es: Bibliotecas de terceros (como Telerik o DevExpress)"
+            },
+            {
+              "text": "Al modificar la propiedad `Font` de un control personalizado en el constructor, ¿qué efecto se busca?",
+              "options": [
+                "Deshabilitar la interacción del usuario",
+                "Cambiar el comportamiento del evento clic",
+                "Predefinir la tipografía y tamaño por defecto del control",
+                "Ocultar el control de la vista"
+              ],
+              "correctAnswer": "Predefinir la tipografía y tamaño por defecto del control",
+              "explanation": "La respuesta correcta es: Predefinir la tipografía y tamaño por defecto del control"
+            },
+            {
+              "text": "Se detecta que al maximizar la ventana de la aplicación, un botón que debería estar en la esquina inferior derecha se queda flotando en medio de la pantalla. ¿Qué propiedad se debe ajustar para corregirlo?",
+              "options": [
+                "Dock",
+                "Padding",
+                "Anchor (Bottom, Right)",
+                "Margin"
+              ],
+              "correctAnswer": "Anchor (Bottom, Right)",
+              "explanation": "La respuesta correcta es: Anchor (Bottom, Right)"
+            },
+            {
+              "text": "Se necesita que un panel de menú lateral ocupe siempre todo el alto del borde izquierdo de la ventana, independientemente de cómo se redimensione el formulario. ¿Qué propiedad debe configurarse?",
+              "options": [
+                "Dock (Left)",
+                "SizeMode",
+                "Location",
+                "Anchor (Top, Left)"
+              ],
+              "correctAnswer": "Dock (Left)",
+              "explanation": "La respuesta correcta es: Dock (Left)"
+            },
+            {
+              "text": "En un formulario de entrada de datos, se quiere que el cuadro de texto del \"Asunto\" se estire horizontalmente cuando el usuario agranda la ventana a lo ancho. ¿Cómo se debe configurar su propiedad `Anchor`?",
+              "options": [
+                "Top, Left, Right",
+                "Right únicamente",
+                "None",
+                "Top, Bottom"
+              ],
+              "correctAnswer": "Top, Left, Right",
+              "explanation": "La respuesta correcta es: Top, Left, Right"
+            },
+            {
+              "text": "Para organizar dinámicamente una serie de tarjetas de producto de modo que se reorganicen automáticamente según el espacio disponible (fluyendo como texto), ¿qué contenedor se debe usar?",
+              "options": [
+                "FlowLayoutPanel",
+                "GroupBox",
+                "Panel estándar",
+                "SplitContainer"
+              ],
+              "correctAnswer": "FlowLayoutPanel",
+              "explanation": "La respuesta correcta es: FlowLayoutPanel"
+            },
+            {
+              "text": "La aplicación se ve borrosa o con textos cortados en monitores modernos de alta resolución (4K). ¿Qué configuración del formulario ayuda a mitigar este problema mediante escalado?",
+              "options": [
+                "WindowState = Maximized",
+                "Opacity = 100%",
+                "DoubleBuffered = True",
+                "AutoScaleMode (Dpi o Font)"
+              ],
+              "correctAnswer": "AutoScaleMode (Dpi o Font)",
+              "explanation": "La respuesta correcta es: AutoScaleMode (Dpi o Font)"
+            },
+            {
+              "text": "Aunque Windows Forms permite cierto grado de adaptación con Anchor y Dock, ¿qué limitación principal tiene respecto al diseño responsivo moderno?",
+              "options": [
+                "No fue concebido originalmente para diseño totalmente responsivo multipantalla",
+                "Requiere reiniciar el PC para aplicar cambios",
+                "No soporta eventos de ratón",
+                "No permite cambiar colores"
+              ],
+              "correctAnswer": "No fue concebido originalmente para diseño totalmente responsivo multipantalla",
+              "explanation": "La respuesta correcta es: No fue concebido originalmente para diseño totalmente responsivo multipantalla"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

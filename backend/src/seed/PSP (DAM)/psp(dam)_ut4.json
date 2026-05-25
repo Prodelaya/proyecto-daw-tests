@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "PSP",
+      "name": "Programación de servicios y procesos",
+      "topics": [
+        {
+          "number": 4,
+          "title": "UT4",
+          "questions": [
+            {
+              "text": "Como administrador de una red corporativa, necesitas implementar un sistema de transmisión de video en tiempo real para conferencias internas. La prioridad es la velocidad de transmisión, aunque se pierdan algunos paquetes de datos por el camino. ¿Qué protocolo de la capa de transporte seleccionarías?",
+              "options": [
+                "UDP (User Datagram Protocol)",
+                "HTTP (Hypertext Transfer Protocol)",
+                "TCP (Transmission Control Protocol)",
+                "FTP (File Transfer Protocol)"
+              ],
+              "correctAnswer": "UDP (User Datagram Protocol)",
+              "explanation": "La respuesta correcta es: UDP (User Datagram Protocol)"
+            },
+            {
+              "text": "Estás estudiando el modelo OSI para diagnosticar un problema de red. ¿Cuál es la función principal de la Capa 4 (Transporte) según este modelo teórico?",
+              "options": [
+                "Representar los datos y gestionar la encriptación.",
+                "Garantizar la fiabilidad y las conexiones punto a punto.",
+                "Definir la ruta física y el direccionamiento MAC.",
+                "Proporcionar servicios de red directamente a las aplicaciones del usuario."
+              ],
+              "correctAnswer": "Garantizar la fiabilidad y las conexiones punto a punto.",
+              "explanation": "La respuesta correcta es: Garantizar la fiabilidad y las conexiones punto a punto."
+            },
+            {
+              "text": "Estás desarrollando una API REST en PHP y necesitas devolver el listado de productos a la aplicación cliente. ¿Qué función utilizarías para convertir el array de datos $productos al formato estándar de intercambio de datos ligero esperado por el cliente?",
+              "options": [
+                "xml_encode($productos)",
+                "json_encode($productos)",
+                "serialize($productos)",
+                "echo $productos"
+              ],
+              "correctAnswer": "json_encode($productos)",
+              "explanation": "La respuesta correcta es: json_encode($productos)"
+            },
+            {
+              "text": "Tu equipo de desarrollo necesita gestionar y controlar sistemas remotos de forma segura, ejecutando comandos en servidores Linux mediante una conexión cifrada. ¿Qué protocolo de aplicación debes implementar obligatoriamente?",
+              "options": [
+                "Telnet",
+                "SSH (Shell Secure)",
+                "FTP",
+                "SMTP"
+              ],
+              "correctAnswer": "SSH (Shell Secure)",
+              "explanation": "La respuesta correcta es: SSH (Shell Secure)"
+            },
+            {
+              "text": "En una entrevista técnica te preguntan sobre las diferencias entre SOAP y REST. ¿Cuál es una característica distintiva fundamental del protocolo SOAP?",
+              "options": [
+                "Utiliza XML para codificar mensajes y requiere una estructura de \"sobre\" (Envelope).",
+                "No permite la comunicación a través de firewalls.",
+                "Utiliza exclusivamente JSON para el intercambio de mensajes.",
+                "Es una arquitectura que no utiliza protocolos estándar."
+              ],
+              "correctAnswer": "Utiliza XML para codificar mensajes y requiere una estructura de \"sobre\" (Envelope).",
+              "explanation": "La respuesta correcta es: Utiliza XML para codificar mensajes y requiere una estructura de \"sobre\" (Envelope)."
+            },
+            {
+              "text": "Estás diseñando una solución de IoT (Internet of Things) para recolectar datos de miles de sensores con recursos limitados. Necesitas un protocolo de mensajería muy ligero basado en el modelo publicación/suscripción. ¿Cuál es la elección estándar?",
+              "options": [
+                "SOAP",
+                "HTTP",
+                "Telnet",
+                "MQTT"
+              ],
+              "correctAnswer": "MQTT",
+              "explanation": "La respuesta correcta es: MQTT"
+            },
+            {
+              "text": "Necesitas consumir un servicio web antiguo de un proveedor externo y te entregan un archivo con extensión .wsdl. ¿Qué información te proporciona principalmente este documento WSDL?",
+              "options": [
+                "La base de datos interna del servicio.",
+                "El código fuente del servidor en Java.",
+                "Las credenciales de usuario y contraseña para el acceso root.",
+                "La descripción de cómo comunicarse con el servicio (métodos, tipos de datos y ubicación)."
+              ],
+              "correctAnswer": "La descripción de cómo comunicarse con el servicio (métodos, tipos de datos y ubicación).",
+              "explanation": "La respuesta correcta es: La descripción de cómo comunicarse con el servicio (métodos, tipos de datos y ubicación)."
+            },
+            {
+              "text": "Analiza el siguiente fragmento de código PHP de una API: $stmt = $conn->prepare(\"INSERT INTO messages (username, message) VALUES (?, ?)\");. ¿Qué técnica de seguridad se está aplicando aquí al interactuar con la base de datos?",
+              "options": [
+                "Autenticación de usuario mediante tokens.",
+                "Validación de tipos de datos con JSON.",
+                "Uso de sentencias preparadas (Prepared Statements) para evitar inyección SQL.",
+                "Encriptación SSL de la conexión."
+              ],
+              "correctAnswer": "Uso de sentencias preparadas (Prepared Statements) para evitar inyección SQL.",
+              "explanation": "La respuesta correcta es: Uso de sentencias preparadas (Prepared Statements) para evitar inyección SQL."
+            },
+            {
+              "text": "Un cliente se queja de que no puede recordar la dirección IP numérica del servidor de tu aplicación (192.168.1.50). ¿Qué servicio de red debes configurar o revisar para traducir un nombre legible como \"https://www.google.com/search?q=miempresa.com\" a esa dirección IP?",
+              "options": [
+                "NAT",
+                "VPN",
+                "DNS",
+                "DHCP"
+              ],
+              "correctAnswer": "DNS",
+              "explanation": "La respuesta correcta es: DNS"
+            },
+            {
+              "text": "Estás revisando los logs de un servidor Apache y ves muchas peticiones con el método GET. Según el estándar REST, ¿cuál es la finalidad de estas peticiones?",
+              "options": [
+                "Actualizar completamente un recurso.",
+                "Solicitar y recuperar datos o recursos del servidor.",
+                "Enviar datos para crear un nuevo recurso.",
+                "Eliminar un recurso existente."
+              ],
+              "correctAnswer": "Solicitar y recuperar datos o recursos del servidor.",
+              "explanation": "La respuesta correcta es: Solicitar y recuperar datos o recursos del servidor."
+            },
+            {
+              "text": "Vas a crear un formulario HTML para que los usuarios envíen información confidencial (contraseñas). ¿Qué método de envío debes configurar en la etiqueta para que los datos no sean visibles en la URL?",
+              "options": [
+                "GET",
+                "PUT",
+                "HEAD",
+                "POST"
+              ],
+              "correctAnswer": "POST",
+              "explanation": "La respuesta correcta es: POST"
+            },
+            {
+              "text": "Al trabajar con JSON en una respuesta de API, observas la estructura {\"clave\": [\"valor1\", \"valor2\"]}. ¿Qué tipo de dato representa la parte [\"valor1\", \"valor2\"]?",
+              "options": [
+                "Un número entero",
+                "Un arreglo (array)",
+                "Un objeto anidado",
+                "Una cadena de texto simple"
+              ],
+              "correctAnswer": "Un arreglo (array)",
+              "explanation": "La respuesta correcta es: Un arreglo (array)"
+            },
+            {
+              "text": "En tu script PHP process.php, necesitas capturar el apellido enviado desde un formulario HTML cuyo input tiene el atributo name=\"lname\" usando el método POST. ¿Cuál es la sintaxis correcta?",
+              "options": [
+                "$apellido = $_POST['lname'];",
+                "$apellido = $lname;",
+                "$apellido = request('lname');",
+                "$apellido = $_GET['lname']"
+              ],
+              "correctAnswer": "$apellido = $_POST['lname'];",
+              "explanation": "La respuesta correcta es: $apellido = $_POST['lname'];"
+            },
+            {
+              "text": "Como administrador de sistemas, necesitas verificar rápidamente si el servicio web de tu empresa está activo y respondiendo a nivel de red básica. ¿Qué herramienta o técnica es la más inmediata para comprobar la conectividad?",
+              "options": [
+                "Reinstalar el servidor Apache.",
+                "Cambiar la contraseña de la base de datos.",
+                "Uso de \"pings\" o solicitudes de eco.",
+                "Revisar el código fuente de la página index.php."
+              ],
+              "correctAnswer": "Uso de \"pings\" o solicitudes de eco.",
+              "explanation": "La respuesta correcta es: Uso de \"pings\" o solicitudes de eco."
+            },
+            {
+              "text": "Estás definiendo la arquitectura de un nuevo servicio web y decides usar REST. ¿Qué afirmación describe mejor una ventaja de REST sobre SOAP?",
+              "options": [
+                "REST mantiene el estado de la sesión del cliente en el servidor obligatoriamente.",
+                "REST solo funciona con XML, lo que lo hace más estricto.",
+                "REST requiere un archivo WSDL obligatorio para funcionar.",
+                "REST es más ligero, menos complejo y utiliza los métodos HTTP estándar."
+              ],
+              "correctAnswer": "REST es más ligero, menos complejo y utiliza los métodos HTTP estándar.",
+              "explanation": "La respuesta correcta es: REST es más ligero, menos complejo y utiliza los métodos HTTP estándar."
+            },
+            {
+              "text": "Tu aplicación necesita enviar correos electrónicos automáticos a los clientes cuando realizan una compra. ¿Qué librería o protocolo estándar debes integrar para la salida (envío) de estos correos?",
+              "options": [
+                "IMAP",
+                "FTP",
+                "SMTP",
+                "POP3"
+              ],
+              "correctAnswer": "SMTP",
+              "explanation": "La respuesta correcta es: SMTP"
+            },
+            {
+              "text": "Estás eligiendo herramientas para tu proyecto en PHP. ¿Cuál es la principal diferencia conceptual entre usar una \"Librería\" y un \"Componente\"?",
+              "options": [
+                "Una librería es una colección de clases reutilizables, mientras que un componente es una pieza preconstruida (plug-and-play) con funcionalidad específica.",
+                "Los componentes requieren escribir todo el código desde cero.",
+                "No hay diferencia, son sinónimos exactos.",
+                "Las librerías son piezas plug-and-play preconstruidas, mientras que los componentes son funciones reutilizables."
+              ],
+              "correctAnswer": "Una librería es una colección de clases reutilizables, mientras que un componente es una pieza preconstruida (plug-and-play) con funcionalidad específica.",
+              "explanation": "La respuesta correcta es: Una librería es una colección de clases reutilizables, mientras que un componente es una pieza preconstruida (plug-and-play) con funcionalidad específica."
+            },
+            {
+              "text": "En el código de tu API en PHP, necesitas detectar qué tipo de petición HTTP (GET, POST, PUT, etc.) está realizando el cliente para ejecutar una lógica distinta. ¿Qué variable superglobal utilizarías?",
+              "options": [
+                "$_HTTP['REQUEST_TYPE']",
+                "$_SERVER['REQUEST_METHOD']",
+                "$_POST['METHOD']",
+                "$_SESSION['METHOD']"
+              ],
+              "correctAnswer": "$_SERVER['REQUEST_METHOD']",
+              "explanation": "La respuesta correcta es: $_SERVER['REQUEST_METHOD']"
+            },
+            {
+              "text": "Un desarrollador junior te pregunta por qué es necesario usar HTTPS en lugar de HTTP para la tienda online que estáis programando. ¿Cuál es la justificación técnica correcta?",
+              "options": [
+                "HTTPS es más rápido porque no verifica datos.",
+                "HTTPS utiliza certificados SSL/TLS para cifrar la comunicación entre cliente y servidor.",
+                "HTTPS comprime las imágenes automáticamente.",
+                "HTTP ya no es soportado por los navegadores modernos."
+              ],
+              "correctAnswer": "HTTPS utiliza certificados SSL/TLS para cifrar la comunicación entre cliente y servidor.",
+              "explanation": "La respuesta correcta es: HTTPS utiliza certificados SSL/TLS para cifrar la comunicación entre cliente y servidor."
+            },
+            {
+              "text": "¿Cuál es el propósito del estándar UDDI (Universal Description, Discovery and Integration) en el contexto de los servicios web?",
+              "options": [
+                "Encriptar los mensajes SOAP.",
+                "Definir el formato JSON.",
+                "Publicar y descubrir información sobre servicios web para que las aplicaciones los encuentren.",
+                "Gestionar la base de datos del servidor."
+              ],
+              "correctAnswer": "Publicar y descubrir información sobre servicios web para que las aplicaciones los encuentren.",
+              "explanation": "La respuesta correcta es: Publicar y descubrir información sobre servicios web para que las aplicaciones los encuentren."
+            },
+            {
+              "text": "Necesitas transferir un archivo de backup de 5GB desde tu servidor local a un servidor remoto de manera eficiente. ¿Qué protocolo está diseñado específicamente para esta tarea?",
+              "options": [
+                "FTP (Protocolo de Transferencia de Archivos)",
+                "SMTP",
+                "Telnet",
+                "DNS"
+              ],
+              "correctAnswer": "FTP (Protocolo de Transferencia de Archivos)",
+              "explanation": "La respuesta correcta es: FTP (Protocolo de Transferencia de Archivos)"
+            },
+            {
+              "text": "Al consumir una API, recibes un código de estado HTTP 200. ¿Qué indica este código generalmente?",
+              "options": [
+                "Que hubo un error interno en el servidor (Internal Server Error).",
+                "Que la solicitud se procesó correctamente (OK).",
+                "Que no tienes permiso para acceder (Forbidden).",
+                "Que el recurso no fue encontrado (Not Found)."
+              ],
+              "correctAnswer": "Que la solicitud se procesó correctamente (OK).",
+              "explanation": "La respuesta correcta es: Que la solicitud se procesó correctamente (OK)."
+            },
+            {
+              "text": "Estás programando una aplicación cliente en JavaScript con jQuery. Quieres obtener datos de una API sin recargar la página. ¿Qué función utilizarías para una petición GET que espera JSON?",
+              "options": [
+                "$.xml()",
+                "$.getJSON()",
+                "document.write()",
+                "$.upload()"
+              ],
+              "correctAnswer": "$.getJSON()",
+              "explanation": "La respuesta correcta es: $.getJSON()"
+            },
+            {
+              "text": "En un entorno XAMPP con Apache, ¿cómo gestiona el servidor web técnicamente la llegada de múltiples solicitudes de clientes al mismo tiempo?",
+              "options": [
+                "Pone a todos los clientes en una cola y los atiende uno por uno secuencialmente.",
+                "Utiliza un modelo de procesamiento multihilo, asignando un hilo a cada solicitud.",
+                "Rechaza cualquier conexión si ya hay una activa.",
+                "Delega la tarea al navegador del cliente."
+              ],
+              "correctAnswer": "Utiliza un modelo de procesamiento multihilo, asignando un hilo a cada solicitud.",
+              "explanation": "La respuesta correcta es: Utiliza un modelo de procesamiento multihilo, asignando un hilo a cada solicitud."
+            },
+            {
+              "text": "Necesitas realizar solicitudes HTTP complejas desde un script PHP hacia una API externa (por ejemplo, una pasarela de pago). ¿Qué componente/librería de PHP es ideal para esto?",
+              "options": [
+                "mysqli",
+                "GD Library",
+                "CURL",
+                "SimpleXML"
+              ],
+              "correctAnswer": "CURL",
+              "explanation": "La respuesta correcta es: CURL"
+            },
+            {
+              "text": "Estás analizando una trama de red y ves el siguiente contenido: .... ¿A qué tipo de servicio web corresponde esta comunicación?",
+              "options": [
+                "REST",
+                "WebSockets puro",
+                "GraphQL",
+                "SOAP"
+              ],
+              "correctAnswer": "SOAP",
+              "explanation": "La respuesta correcta es: SOAP"
+            },
+            {
+              "text": "En tu código PHP para una API tipo chat, incluyes la línea header(\"Access-Control-Allow-Origin: *\");. ¿Qué problema estás solucionando con esto?",
+              "options": [
+                "Restricciones de CORS, permitiendo el acceso a la API desde cualquier origen.",
+                "Errores de sintaxis en el JSON.",
+                "Problemas de conexión a la base de datos MySQL.",
+                "La falta de memoria en el servidor."
+              ],
+              "correctAnswer": "Restricciones de CORS, permitiendo el acceso a la API desde cualquier origen.",
+              "explanation": "La respuesta correcta es: Restricciones de CORS, permitiendo el acceso a la API desde cualquier origen."
+            },
+            {
+              "text": "¿Qué ventaja ofrece el uso de la librería PDO (PHP Data Objects) frente a usar funciones nativas específicas de una base de datos?",
+              "options": [
+                "Proporciona una capa de abstracción que permite acceder a diferentes tipos de bases de datos con el mismo código.",
+                "PDO solo funciona con bases de datos Oracle.",
+                "PDO es mucho más rápido que cualquier otra opción.",
+                "PDO elimina la necesidad de usar SQL."
+              ],
+              "correctAnswer": "Proporciona una capa de abstracción que permite acceder a diferentes tipos de bases de datos con el mismo código.",
+              "explanation": "La respuesta correcta es: Proporciona una capa de abstracción que permite acceder a diferentes tipos de bases de datos con el mismo código."
+            },
+            {
+              "text": "Estás depurando un servicio web antiguo y te encuentras usando Telnet para probar la conexión. ¿Cuál es la principal desventaja de seguridad de Telnet que ha provocado su desuso frente a SSH?",
+              "options": [
+                "Telnet solo funciona en Windows 95.",
+                "Telnet no permite transferir archivos.",
+                "Telnet transmite la comunicación (incluyendo contraseñas) en texto plano sin cifrar.",
+                "Telnet es muy lento conectando."
+              ],
+              "correctAnswer": "Telnet transmite la comunicación (incluyendo contraseñas) en texto plano sin cifrar.",
+              "explanation": "La respuesta correcta es: Telnet transmite la comunicación (incluyendo contraseñas) en texto plano sin cifrar."
+            },
+            {
+              "text": "En una arquitectura cliente-servidor para una librería online, ¿cuál de las siguientes tareas es responsabilidad exclusiva de la aplicación servidor?",
+              "options": [
+                "Validar que el usuario ha escrito un email con formato correcto en el navegador.",
+                "Mostrar alertas de JavaScript cuando se hace clic en un botón.",
+                "Escuchar solicitudes, procesar la lógica de negocio y acceder a la base de datos para devolver respuestas.",
+                "Renderizar el HTML y CSS para el usuario."
+              ],
+              "correctAnswer": "Escuchar solicitudes, procesar la lógica de negocio y acceder a la base de datos para devolver respuestas.",
+              "explanation": "La respuesta correcta es: Escuchar solicitudes, procesar la lógica de negocio y acceder a la base de datos para devolver respuestas."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

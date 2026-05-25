@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 5,
+          "title": "UT5",
+          "questions": [
+            {
+              "text": "En el contexto del desarrollo de interfaces de usuario, ¿cuál es la definición técnica más precisa de un componente visual o \"widget\"?",
+              "options": [
+                "Es una variable global que almacena el estado de la memoria.",
+                "Es un archivo de configuración XML para el compilador.",
+                "Es un objeto gráfico que facilita la interacción del usuario con la aplicación.",
+                "Es un fragmento de código backend que gestiona la base de datos."
+              ],
+              "correctAnswer": "Es un objeto gráfico que facilita la interacción del usuario con la aplicación.",
+              "explanation": "La respuesta correcta es: Es un objeto gráfico que facilita la interacción del usuario con la aplicación."
+            },
+            {
+              "text": "Un equipo de desarrollo decide utilizar la biblioteca de componentes visuales de Visual Studio en lugar de dibujar cada píxel en pantalla manualmente. ¿Cuál es el principal beneficio estratégico de esta decisión?",
+              "options": [
+                "Eliminar por completo la necesidad de diseñadores gráficos.",
+                "Evitar el uso de lenguajes de programación orientados a objetos.",
+                "Permitir a los programadores centrarse en la lógica de negocio en lugar de la renderización.",
+                "Aumentar el tamaño del archivo ejecutable final."
+              ],
+              "correctAnswer": "Permitir a los programadores centrarse en la lógica de negocio en lugar de la renderización.",
+              "explanation": "La respuesta correcta es: Permitir a los programadores centrarse en la lógica de negocio en lugar de la renderización."
+            },
+            {
+              "text": "Cuando un desarrollador arrastra un botón desde la caja de herramientas al formulario, ¿qué principio de ingeniería de software se está aplicando al aprovechar un elemento ya codificado y probado?",
+              "options": [
+                "Polimorfismo dinámico.",
+                "Reutilización de código.",
+                "Obsolescencia programada.",
+                "Refactorización continua."
+              ],
+              "correctAnswer": "Reutilización de código.",
+              "explanation": "La respuesta correcta es: Reutilización de código."
+            },
+            {
+              "text": "Para identificar unívocamente a un componente dentro del código C# y poder manipularlo lógicamente, ¿qué propiedad se debe configurar con un identificador descriptivo (ej: \"btnCalcular\")?",
+              "options": [
+                "Font",
+                "Text",
+                "Tag",
+                "Name"
+              ],
+              "correctAnswer": "Name",
+              "explanation": "La respuesta correcta es: Name"
+            },
+            {
+              "text": "En una aplicación de gestión, se requiere que el botón \"Guardar\" no pueda ser presionado hasta que todos los campos obligatorios estén llenos. ¿Qué propiedad del botón debe establecerse en \"false\" para lograr este estado no interactivo?",
+              "options": [
+                "Enabled",
+                "BackColor",
+                "TabIndex",
+                "Visible"
+              ],
+              "correctAnswer": "Enabled",
+              "explanation": "La respuesta correcta es: Enabled"
+            },
+            {
+              "text": "Si se necesita ocultar temporalmente un panel de opciones avanzadas para no abrumar al usuario novato, ¿qué propiedad del componente debe modificarse?",
+              "options": [
+                "Opacity",
+                "Dock",
+                "Anchor",
+                "Visible"
+              ],
+              "correctAnswer": "Visible",
+              "explanation": "La respuesta correcta es: Visible"
+            },
+            {
+              "text": "Al diseñar la interfaz, ¿cuál es la diferencia funcional entre la propiedad \"Text\" y la propiedad \"Name\" en un control de etiqueta (Label)?",
+              "options": [
+                "No hay diferencia, ambas hacen lo mismo.",
+                "Text es el contenido visual mostrado al usuario; Name es el identificador interno en el código.",
+                "Name es lo que ve el usuario, Text es para la base de datos.",
+                "Text define el color de la fuente y Name el tamaño."
+              ],
+              "correctAnswer": "Text es el contenido visual mostrado al usuario; Name es el identificador interno en el código.",
+              "explanation": "La respuesta correcta es: Text es el contenido visual mostrado al usuario; Name es el identificador interno en el código."
+            },
+            {
+              "text": "¿Qué término se utiliza para describir una acción o suceso (como un clic del ratón o una pulsación de tecla) al que un componente visual puede responder?",
+              "options": [
+                "Evento",
+                "Excepción",
+                "Método",
+                "Atributo"
+              ],
+              "correctAnswer": "Evento",
+              "explanation": "La respuesta correcta es: Evento"
+            },
+            {
+              "text": "Un desarrollador necesita ejecutar una validación numérica justo cuando el usuario termina de escribir en un campo y cambia el foco a otro control. ¿Qué evento es el más apropiado para gestionar esto?",
+              "options": [
+                "Click",
+                "MouseHover",
+                "FormLoad",
+                "Leave o Validated"
+              ],
+              "correctAnswer": "Leave o Validated",
+              "explanation": "La respuesta correcta es: Leave o Validated"
+            },
+            {
+              "text": "Para evitar que un usuario ingrese letras en un campo destinado a números telefónicos en tiempo real (mientras escribe), ¿qué evento se debe controlar para filtrar las teclas pulsadas?",
+              "options": [
+                "TextChanged",
+                "Click",
+                "KeyPress",
+                "Resize"
+              ],
+              "correctAnswer": "KeyPress",
+              "explanation": "La respuesta correcta es: KeyPress"
+            },
+            {
+              "text": "En la firma de un controlador de eventos estándar `private void button1_Click(object sender, EventArgs e)`, ¿qué representa el parámetro `sender`?",
+              "options": [
+                "El formulario padre que contiene el control.",
+                "La hora del sistema en milisegundos.",
+                "El objeto (control) que disparó el evento.",
+                "Los datos del evento del ratón."
+              ],
+              "correctAnswer": "El objeto (control) que disparó el evento.",
+              "explanation": "La respuesta correcta es: El objeto (control) que disparó el evento."
+            },
+            {
+              "text": "Si se desea asignar dinámicamente un controlador de eventos a un botón mediante código (no desde el diseñador), ¿qué operador se utiliza en C#?",
+              "options": [
+                "==",
+                "=>",
+                "=",
+                "+="
+              ],
+              "correctAnswer": "+=",
+              "explanation": "La respuesta correcta es: +="
+            },
+            {
+              "text": "¿Cuál es la motivación principal para crear un componente visual personalizado en un proyecto empresarial grande?",
+              "options": [
+                "Aumentar la complejidad del código para justificar más horas de trabajo.",
+                "Satisfacer necesidades específicas no cubiertas por los controles estándar y estandarizar el diseño.",
+                "Hacer que la aplicación se vea exactamente igual que Windows 95.",
+                "Evitar el uso del Framework .NET por completo."
+              ],
+              "correctAnswer": "Satisfacer necesidades específicas no cubiertas por los controles estándar y estandarizar el diseño.",
+              "explanation": "La respuesta correcta es: Satisfacer necesidades específicas no cubiertas por los controles estándar y estandarizar el diseño."
+            },
+            {
+              "text": "En Visual Studio, ¿qué tipo de elemento se debe agregar al proyecto para comenzar a diseñar un componente visual compuesto desde cero?",
+              "options": [
+                "Control de usuario de Windows Forms (UserControl)",
+                "Interfaz (.interface)",
+                "Archivo de recursos (.resx)",
+                "Clase vacía (.cs)"
+              ],
+              "correctAnswer": "Control de usuario de Windows Forms (UserControl)",
+              "explanation": "La respuesta correcta es: Control de usuario de Windows Forms (UserControl)"
+            },
+            {
+              "text": "Al desarrollar un control de calificación con estrellas (RatingControl), se define una propiedad pública `Rating`. ¿Para qué sirve exponer esta propiedad?",
+              "options": [
+                "Para que el usuario final cambie el color de fondo.",
+                "Para borrar los eventos del ratón.",
+                "Para ocultar la lógica interna del control.",
+                "Para permitir obtener o establecer el valor de la calificación desde el formulario principal."
+              ],
+              "correctAnswer": "Para permitir obtener o establecer el valor de la calificación desde el formulario principal.",
+              "explanation": "La respuesta correcta es: Para permitir obtener o establecer el valor de la calificación desde el formulario principal."
+            },
+            {
+              "text": "Dentro de un control personalizado, se utiliza la instrucción `RatingChanged?.Invoke(this, EventArgs.Empty);`. ¿Qué función cumple esta línea?",
+              "options": [
+                "Dibuja una estrella en la pantalla.",
+                "Cierra el formulario actual.",
+                "Reinicia la aplicación.",
+                "Notifica a los suscriptores (como el formulario padre) que el valor de la calificación ha cambiado."
+              ],
+              "correctAnswer": "Notifica a los suscriptores (como el formulario padre) que el valor de la calificación ha cambiado.",
+              "explanation": "La respuesta correcta es: Notifica a los suscriptores (como el formulario padre) que el valor de la calificación ha cambiado."
+            },
+            {
+              "text": "Un desarrollador ha terminado de escribir el código de su nuevo `NumericUpDownTextBox`. Sin embargo, el control no aparece aún en la \"Caja de herramientas\". ¿Qué paso es imprescindible realizar?",
+              "options": [
+                "Compilar la solución (Build Solution).",
+                "Reiniciar el ordenador.",
+                "Guardar el archivo .cs.",
+                "Ejecutar el programa en modo depuración."
+              ],
+              "correctAnswer": "Compilar la solución (Build Solution).",
+              "explanation": "La respuesta correcta es: Compilar la solución (Build Solution)."
+            },
+            {
+              "text": "¿Qué mecanismo de la Programación Orientada a Objetos permite crear un nuevo control basado en uno existente (como un TextBox) pero con funcionalidades añadidas?",
+              "options": [
+                "Herencia",
+                "Abstracción",
+                "Polimorfismo",
+                "Encapsulamiento"
+              ],
+              "correctAnswer": "Herencia",
+              "explanation": "La respuesta correcta es: Herencia"
+            },
+            {
+              "text": "Si se desea crear un `NumericTextBox` que herede directamente todas las características de un cuadro de texto estándar para luego modificar solo su comportamiento de entrada, ¿de qué clase debe heredar?",
+              "options": [
+                "Control",
+                "Object",
+                "UserControl",
+                "TextBox"
+              ],
+              "correctAnswer": "TextBox",
+              "explanation": "La respuesta correcta es: TextBox"
+            },
+            {
+              "text": "En el contexto de componentes visuales, ¿qué implica la técnica de \"Composición\"?",
+              "options": [
+                "Escribir el código del control en varios lenguajes a la vez.",
+                "Crear un control complejo combinando varios controles existentes (ej: Label + TextBox).",
+                "Eliminar la herencia de la clase base.",
+                "Dibujar gráficos vectoriales usando GDI+."
+              ],
+              "correctAnswer": "Crear un control complejo combinando varios controles existentes (ej: Label + TextBox).",
+              "explanation": "La respuesta correcta es: Crear un control complejo combinando varios controles existentes (ej: Label + TextBox)."
+            },
+            {
+              "text": "Al crear un control compuesto `LabeledTextBox` que contiene un `Label` y un `TextBox`, ¿de qué clase base se hereda habitualmente para actuar como contenedor?",
+              "options": [
+                "UserControl",
+                "Component",
+                "Form",
+                "Button"
+              ],
+              "correctAnswer": "UserControl",
+              "explanation": "La respuesta correcta es: UserControl"
+            },
+            {
+              "text": "Cuando se sobrescribe el método `OnKeyPress` en un control heredado para filtrar caracteres, ¿por qué es recomendable llamar a `base.OnKeyPress(e)`?",
+              "options": [
+                "Para borrar el contenido del texto.",
+                "Para garantizar que se ejecute también la lógica original o predeterminada del control base.",
+                "Para detener la ejecución del programa.",
+                "Para convertir el carácter a mayúsculas."
+              ],
+              "correctAnswer": "Para garantizar que se ejecute también la lógica original o predeterminada del control base.",
+              "explanation": "La respuesta correcta es: Para garantizar que se ejecute también la lógica original o predeterminada del control base."
+            },
+            {
+              "text": "Se necesita un componente que consista en un cuadro de texto con dos botones adjuntos (\"+\" y \"-\") para ajustar valores. ¿Cuál es la estrategia de diseño más eficiente?",
+              "options": [
+                "Composición (UserControl con un TextBox y dos Buttons).",
+                "Dibujar los botones manualmente sobre el TextBox.",
+                "Herencia pura de un Button.",
+                "Usar tres controles separados en cada formulario sin agruparlos."
+              ],
+              "correctAnswer": "Composición (UserControl con un TextBox y dos Buttons).",
+              "explanation": "La respuesta correcta es: Composición (UserControl con un TextBox y dos Buttons)."
+            },
+            {
+              "text": "En un control personalizado, si queremos que una propiedad sea accesible desde la ventana de \"Propiedades\" de Visual Studio en tiempo de diseño, ¿con qué visibilidad debe declararse?",
+              "options": [
+                "private",
+                "internal",
+                "public",
+                "protected"
+              ],
+              "correctAnswer": "public",
+              "explanation": "La respuesta correcta es: public"
+            },
+            {
+              "text": "¿Qué propiedad del argumento `KeyPressEventArgs` se utiliza para indicar que el sistema debe ignorar la tecla pulsada (por ejemplo, una letra en un campo numérico)?",
+              "options": [
+                "e.Handled = tru",
+                "e.Cancel = true",
+                "e.KeyChar = null",
+                "e.SuppressKeyPress = true"
+              ],
+              "correctAnswer": "e.Handled = tru",
+              "explanation": "La respuesta correcta es: e.Handled = tru"
+            },
+            {
+              "text": "¿Cuál es la ventaja principal de usar Composición frente a Herencia cuando se necesita una funcionalidad visual muy específica formada por múltiples elementos?",
+              "options": [
+                "La herencia está obsoleta en .NET.",
+                "La composición facilita el diseño visual (arrastrar y soltar) de la agrupación de controles.",
+                "La composición consume menos memoria RAM.",
+                "La herencia no permite añadir código nuevo."
+              ],
+              "correctAnswer": "La composición facilita el diseño visual (arrastrar y soltar) de la agrupación de controles.",
+              "explanation": "La respuesta correcta es: La composición facilita el diseño visual (arrastrar y soltar) de la agrupación de controles."
+            },
+            {
+              "text": "Si heredas de la clase base `Control` (la más genérica) en lugar de un control específico como `Button`, ¿qué responsabilidad asume el desarrollador?",
+              "options": [
+                "Debe definir y dibujar manualmente gran parte de la apariencia y comportamiento del control.",
+                "Ninguna, es automático.",
+                "Solo la definición del color de fondo.",
+                "Solo la gestión de eventos."
+              ],
+              "correctAnswer": "Debe definir y dibujar manualmente gran parte de la apariencia y comportamiento del control.",
+              "explanation": "La respuesta correcta es: Debe definir y dibujar manualmente gran parte de la apariencia y comportamiento del control."
+            },
+            {
+              "text": "En el patrón de diseño de componentes, ¿cómo se protege el estado interno de un control (ej: variable `_rating`) mientras se permite su lectura externa?",
+              "options": [
+                "Usando variables globales públicas.",
+                "Eliminando la variable.",
+                "Usando una propiedad pública con un \"get\" público y un \"set\" privado o controlado.",
+                "Haciendo todo el control estático."
+              ],
+              "correctAnswer": "Usando una propiedad pública con un \"get\" público y un \"set\" privado o controlado.",
+              "explanation": "La respuesta correcta es: Usando una propiedad pública con un \"get\" público y un \"set\" privado o controlado."
+            },
+            {
+              "text": "Un control personalizado `NumericTextBox` utiliza `char.IsDigit(e.KeyChar)` en su lógica. ¿Qué función cumple este método?",
+              "options": [
+                "Comprueba si la tecla es \"Enter\" o \"Esc\".",
+                "Verifica si el carácter correspondiente a la tecla es un dígito decimal.",
+                "Verifica si la tecla presionada es una letra.",
+                "Convierte el número a texto."
+              ],
+              "correctAnswer": "Verifica si el carácter correspondiente a la tecla es un dígito decimal.",
+              "explanation": "La respuesta correcta es: Verifica si el carácter correspondiente a la tecla es un dígito decimal."
+            },
+            {
+              "text": "Para asegurar la coherencia visual en toda la aplicación, una empresa decide que todos los campos de entrada deben tener una etiqueta asociada a la izquierda automáticamente. ¿Cuál es la solución técnica óptima?",
+              "options": [
+                "Usar un DataGridView para todo.",
+                "Crear un componente personalizado (Composición) que incluya el Label y el TextBox juntos.",
+                "Copiar y pegar el código en cada formulario.",
+                "Instruir a los desarrolladores para que siempre pongan un Label al lado de un TextBox."
+              ],
+              "correctAnswer": "Crear un componente personalizado (Composición) que incluya el Label y el TextBox juntos.",
+              "explanation": "La respuesta correcta es: Crear un componente personalizado (Composición) que incluya el Label y el TextBox juntos."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

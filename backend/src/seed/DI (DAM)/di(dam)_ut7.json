@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "DI",
+      "name": "Desarrollo de Interfaces",
+      "topics": [
+        {
+          "number": 7,
+          "title": "UT7",
+          "questions": [
+            {
+              "text": "Un analista de datos necesita diseñar una estructura para almacenar la información de los pedidos de la empresa. Si decide utilizar un modelo relacional, ¿cuál es el componente fundamental donde se organizarán los registros en filas y columnas?",
+              "options": [
+                "El Procedimiento",
+                "La Consulta",
+                "El Trigger",
+                "La Tabla"
+              ],
+              "correctAnswer": "La Tabla",
+              "explanation": "La respuesta correcta es: La Tabla"
+            },
+            {
+              "text": "En la tabla de \"Empleados\", el departamento de IT necesita asegurar que cada empleado tenga un identificador único que no se repita nunca. ¿Qué tipo de restricción deben configurar en el campo \"ID_Empleado\"?",
+              "options": [
+                "Índice secundario",
+                "Clave Foránea (Foreign Key)",
+                "Variable global",
+                "Clave Primaria (Primary Key)"
+              ],
+              "correctAnswer": "Clave Primaria (Primary Key)",
+              "explanation": "La respuesta correcta es: Clave Primaria (Primary Key)"
+            },
+            {
+              "text": "Se necesita vincular la tabla \"Pedidos\" con la tabla \"Clientes\" para saber quién realizó cada compra. ¿Qué elemento se debe incluir en la tabla \"Pedidos\" para establecer esta relación referencial?",
+              "options": [
+                "Una Clave Foránea (Foreign Key)",
+                "Un disparador (Trigger)",
+                "Una copia del nombre del cliente",
+                "Un campo de texto libre"
+              ],
+              "correctAnswer": "Una Clave Foránea (Foreign Key)",
+              "explanation": "La respuesta correcta es: Una Clave Foránea (Foreign Key)"
+            },
+            {
+              "text": "Un desarrollador junior necesita modificar la estructura de una tabla existente para añadir una nueva columna de \"Fecha_Nacimiento\". ¿Qué tipo de instrucción SQL debe utilizar?",
+              "options": [
+                "DDL (Data Definition Language)",
+                "DCL (Data Control Language)",
+                "DQL (Data Query Language)",
+                "DML (Data Manipulation Language)"
+              ],
+              "correctAnswer": "DDL (Data Definition Language)",
+              "explanation": "La respuesta correcta es: DDL (Data Definition Language)"
+            },
+            {
+              "text": "El equipo de marketing solicita un listado de todos los clientes que se han registrado en el último mes. ¿Qué comando SQL es el estándar para recuperar esta información de la base de datos?",
+              "options": [
+                "GRANT",
+                "SELECT",
+                "INSERT",
+                "UPDATE"
+              ],
+              "correctAnswer": "SELECT",
+              "explanation": "La respuesta correcta es: SELECT"
+            },
+            {
+              "text": "Para conectar una aplicación de Windows Forms desarrollada en C# con una base de datos Microsoft SQL Server, ¿qué espacio de nombres (namespace) es imprescindible importar al inicio del archivo de código?",
+              "options": [
+                "System.Windows.Forms",
+                "System.IO.Compression",
+                "System.Data.SqlClient",
+                "System.Net.Http"
+              ],
+              "correctAnswer": "System.Data.SqlClient",
+              "explanation": "La respuesta correcta es: System.Data.SqlClient"
+            },
+            {
+              "text": "Al configurar el acceso a la base de datos en el servidor de producción, se necesita especificar el servidor, la base de datos y las credenciales de seguridad. ¿En qué elemento se configuran estos parámetros conjuntamente?",
+              "options": [
+                "En la consulta SQL",
+                "En el constructor del formulario",
+                "En la cadena de conexión (Connection String)",
+                "En el método Main"
+              ],
+              "correctAnswer": "En la cadena de conexión (Connection String)",
+              "explanation": "La respuesta correcta es: En la cadena de conexión (Connection String)"
+            },
+            {
+              "text": "Antes de ejecutar cualquier comando para leer o escribir datos en SQL Server desde la aplicación C#, ¿qué método de la clase SqlConnection debe invocarse obligatoriamente?",
+              "options": [
+                "Execute()",
+                "Dispose()",
+                "Create()",
+                "Open()"
+              ],
+              "correctAnswer": "Open()",
+              "explanation": "La respuesta correcta es: Open()"
+            },
+            {
+              "text": "Se necesita actualizar el inventario restando el stock vendido. ¿Qué comando SQL del grupo DML se debe enviar a la base de datos para modificar los valores existentes de los artículos?",
+              "options": [
+                "SELECT",
+                "UPDATE",
+                "INSERT",
+                "ALTER"
+              ],
+              "correctAnswer": "UPDATE",
+              "explanation": "La respuesta correcta es: UPDATE"
+            },
+            {
+              "text": "Para ejecutar una operación de inserción (INSERT) desde C# que no devuelve filas (como lo haría un SELECT), ¿qué método del objeto SqlCommand es el más eficiente?",
+              "options": [
+                "ExecuteReader()",
+                "ExecuteNonQuery()",
+                "ExecuteXmlReader()",
+                "ExecuteScalar()"
+              ],
+              "correctAnswer": "ExecuteNonQuery()",
+              "explanation": "La respuesta correcta es: ExecuteNonQuery()"
+            },
+            {
+              "text": "Un desarrollador está creando un formulario de búsqueda. Para evitar errores de sintaxis y vulnerabilidades de seguridad al pasar el texto del usuario a la consulta SQL, ¿qué práctica debe implementar?",
+              "options": [
+                "Usar siempre el usuario 'sa'",
+                "Concatenar las cadenas de texto manualmente",
+                "Uso de consultas parametrizadas (@parametro)",
+                "Desactivar el firewall del servidor"
+              ],
+              "correctAnswer": "Uso de consultas parametrizadas (@parametro)",
+              "explanation": "La respuesta correcta es: Uso de consultas parametrizadas (@parametro)"
+            },
+            {
+              "text": "Se requiere mostrar un listado de productos en una rejilla (DataGridView) dentro de la aplicación. ¿Qué objeto de ADO.NET actúa como puente para llenar un DataTable con los datos obtenidos de la base de datos?",
+              "options": [
+                "SqlCommand",
+                "SqlConnection",
+                "SqlDataAdapter",
+                "SqlDataReader"
+              ],
+              "correctAnswer": "SqlDataAdapter",
+              "explanation": "La respuesta correcta es: SqlDataAdapter"
+            },
+            {
+              "text": "Después de insertar un nuevo cliente mediante un formulario, el usuario nota que el listado principal no muestra el nuevo registro inmediatamente. ¿Qué acción lógica falta implementar en el código tras la inserción?",
+              "options": [
+                "Reiniciar el servidor SQL",
+                "Borrar la tabla de la base de datos",
+                "Volver a llamar al método de carga de datos (ej: LoadData())",
+                "Cerrar la aplicación"
+              ],
+              "correctAnswer": "Volver a llamar al método de carga de datos (ej: LoadData())",
+              "explanation": "La respuesta correcta es: Volver a llamar al método de carga de datos (ej: LoadData())"
+            },
+            {
+              "text": "En un entorno corporativo, se busca reducir la cantidad de código SQL escrito manualmente y tratar los datos de la base de datos directamente como objetos de C#. ¿Qué tecnología se recomienda implementar?",
+              "options": [
+                "ORM (Object-Relational Mapping)",
+                "Win32 API",
+                "Sockets TCP/IP",
+                "Archivos de texto plano"
+              ],
+              "correctAnswer": "ORM (Object-Relational Mapping)",
+              "explanation": "La respuesta correcta es: ORM (Object-Relational Mapping)"
+            },
+            {
+              "text": "Al utilizar Entity Framework, ¿qué representa una clase de C# (por ejemplo, class Cliente) dentro del modelo de datos?",
+              "options": [
+                "Una base de datos completa",
+                "Una consulta almacenada",
+                "Una conexión al servidor",
+                "Una tabla de la base de datos"
+              ],
+              "correctAnswer": "Una tabla de la base de datos",
+              "explanation": "La respuesta correcta es: Una tabla de la base de datos"
+            },
+            {
+              "text": "Dentro de la arquitectura de Entity Framework, ¿qué clase actúa como el coordinador principal que gestiona la conexión y el caché de las entidades?",
+              "options": [
+                "DbSet",
+                "SqlDataAdapter",
+                "DbContext (Contexto de la base de datos)",
+                "MainWindow"
+              ],
+              "correctAnswer": "DbContext (Contexto de la base de datos)",
+              "explanation": "La respuesta correcta es: DbContext (Contexto de la base de datos)"
+            },
+            {
+              "text": "Un desarrollador ha añadido un nuevo objeto Cliente al contexto de Entity Framework usando context.Clientes.Add(nuevoCliente), pero el registro no aparece en la base de datos. ¿Qué método olvidó llamar?",
+              "options": [
+                "context.Open()",
+                "context.Delete()",
+                "context.SaveChanges()",
+                "context.Connect()"
+              ],
+              "correctAnswer": "context.SaveChanges()",
+              "explanation": "La respuesta correcta es: context.SaveChanges()"
+            },
+            {
+              "text": "La empresa necesita migrar su base de datos de SQL Server a PostgreSQL en el futuro. ¿Qué ventaja ofrece el uso de un ORM como Entity Framework en este escenario?",
+              "options": [
+                "Aumenta la velocidad de ejecución de consultas complejas",
+                "Independencia de la base de datos (facilita el cambio)",
+                "Reduce el espacio en disco del servidor",
+                "Elimina la necesidad de autenticación"
+              ],
+              "correctAnswer": "Independencia de la base de datos (facilita el cambio)",
+              "explanation": "La respuesta correcta es: Independencia de la base de datos (facilita el cambio)"
+            },
+            {
+              "text": "Para modificar la estructura de la base de datos de manera controlada y versionada (por ejemplo, añadir una columna) sin perder datos al usar Entity Framework, ¿qué característica se debe utilizar?",
+              "options": [
+                "Migraciones",
+                "Triggers",
+                "Copias de seguridad",
+                "Vistas materializadas"
+              ],
+              "correctAnswer": "Migraciones",
+              "explanation": "La respuesta correcta es: Migraciones"
+            },
+            {
+              "text": "En términos de seguridad informática, ¿cómo se define el proceso de verificar las credenciales (usuario y contraseña) de una persona que intenta acceder al sistema?",
+              "options": [
+                "Encriptación",
+                "Autorización",
+                "Autenticación",
+                "Auditoría"
+              ],
+              "correctAnswer": "Autenticación",
+              "explanation": "La respuesta correcta es: Autenticación"
+            },
+            {
+              "text": "Una vez que un empleado ha entrado al sistema, se le deniega el acceso al módulo de \"Nóminas\" porque es del departamento de \"Logística\". ¿Qué mecanismo de seguridad está actuando?",
+              "options": [
+                "Hashing",
+                "Inyección SQL",
+                "Autenticación",
+                "Autorización (Control de acceso)"
+              ],
+              "correctAnswer": "Autorización (Control de acceso)",
+              "explanation": "La respuesta correcta es: Autorización (Control de acceso)"
+            },
+            {
+              "text": "Un atacante intenta manipular la base de datos ingresando código malicioso en el campo de usuario del login (' OR 1=1 --). ¿Cómo se denomina a este tipo de ataque?",
+              "options": [
+                "DDoS",
+                "Phishing",
+                "Brute Force",
+                "Inyección SQL"
+              ],
+              "correctAnswer": "Inyección SQL",
+              "explanation": "La respuesta correcta es: Inyección SQL"
+            },
+            {
+              "text": "Para proteger la información confidencial (como números de tarjeta de crédito) si un atacante logra interceptar la comunicación de red, ¿qué medida de seguridad es indispensable?",
+              "options": [
+                "Normalización de base de datos",
+                "Compresión de datos",
+                "Encriptación de datos en tránsito",
+                "Indexación de tablas"
+              ],
+              "correctAnswer": "Encriptación de datos en tránsito",
+              "explanation": "La respuesta correcta es: Encriptación de datos en tránsito"
+            },
+            {
+              "text": "Al almacenar contraseñas de usuarios en la base de datos, ¿cuál es la práctica de seguridad estándar recomendada?",
+              "options": [
+                "Guardarlas en texto plano para recuperarlas si se olvidan",
+                "Guardarlas usando algoritmos de hash seguros con sal (salt)",
+                "Guardarlas en un archivo Excel adjunto",
+                "Encriptarlas con una clave simple que todos conozcan"
+              ],
+              "correctAnswer": "Guardarlas usando algoritmos de hash seguros con sal (salt)",
+              "explanation": "La respuesta correcta es: Guardarlas usando algoritmos de hash seguros con sal (salt)"
+            },
+            {
+              "text": "¿Qué instrucción SQL se utiliza para eliminar permanentemente un registro específico, como un pedido cancelado, de una tabla?",
+              "options": [
+                "DROP",
+                "REMOVE",
+                "TRUNCATE",
+                "DELETE"
+              ],
+              "correctAnswer": "DELETE",
+              "explanation": "La respuesta correcta es: DELETE"
+            },
+            {
+              "text": "Si un desarrollador necesita recuperar datos de una tabla pero ordenados alfabéticamente por el apellido del cliente, ¿qué cláusula debe añadir a su consulta SELECT?",
+              "options": [
+                "SORT BY",
+                "ORDER BY",
+                "GROUP BY",
+                "ARRANGE BY"
+              ],
+              "correctAnswer": "ORDER BY",
+              "explanation": "La respuesta correcta es: ORDER BY"
+            },
+            {
+              "text": "En un sistema de ventas, se quiere saber cuántos pedidos ha realizado cada cliente. ¿Qué cláusula SQL permite agrupar los resultados por el ID del cliente para usar funciones como COUNT?",
+              "options": [
+                "DISTINCT",
+                "GROUP BY",
+                "ORDER BY",
+                "JOIN"
+              ],
+              "correctAnswer": "GROUP BY",
+              "explanation": "La respuesta correcta es: GROUP BY"
+            },
+            {
+              "text": "Al utilizar Entity Framework Core, ¿qué instrucción se utiliza para transformar los resultados de una consulta de base de datos en una lista genérica de C# lista para ser usada en la interfaz?",
+              "options": [
+                "ToList()",
+                "ToString()",
+                "ToArray()",
+                "Serialize()"
+              ],
+              "correctAnswer": "ToList()",
+              "explanation": "La respuesta correcta es: ToList()"
+            },
+            {
+              "text": "¿Qué ventaja de seguridad inmediata ofrece el uso de un ORM como Entity Framework respecto a la construcción manual de cadenas SQL?",
+              "options": [
+                "Encripta toda la base de datos automáticamente",
+                "Bloquea el acceso a usuarios externos",
+                "Reduce el riesgo de inyecciones SQL al usar consultas parametrizadas internamente",
+                "Genera contraseñas seguras automáticamente"
+              ],
+              "correctAnswer": "Reduce el riesgo de inyecciones SQL al usar consultas parametrizadas internamente",
+              "explanation": "La respuesta correcta es: Reduce el riesgo de inyecciones SQL al usar consultas parametrizadas internamente"
+            },
+            {
+              "text": "Si ocurre un error durante la conexión a la base de datos (por ejemplo, el servidor está apagado), ¿qué estructura de control de C# se debe usar para capturar la excepción y mostrar un mensaje amigable al usuario?",
+              "options": [
+                "try / catch",
+                "for / foreach",
+                "switch / case",
+                "if / else"
+              ],
+              "correctAnswer": "try / catch",
+              "explanation": "La respuesta correcta es: try / catch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

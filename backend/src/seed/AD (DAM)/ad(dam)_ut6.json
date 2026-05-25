@@ -1,0 +1,346 @@
+{
+  "subjects": [
+    {
+      "code": "AD",
+      "name": "Acceso a datos",
+      "topics": [
+        {
+          "number": 6,
+          "title": "UT6",
+          "questions": [
+            {
+              "text": "En una startup de Madrid buscan montar su “versión 1” ensamblando piezas reutilizables con contratos claros entre equipos. ¿Qué enfoque favorece eso?",
+              "options": [
+                "Copiar código entre proyectos para ir más rápido",
+                "Clases internas sin documentación",
+                "Un único módulo con todo mezclado",
+                "Componentes autocontenidos con interfaz bien definida y bajo acoplamiento"
+              ],
+              "correctAnswer": "Componentes autocontenidos con interfaz bien definida y bajo acoplamiento",
+              "explanation": "La respuesta correcta es: Componentes autocontenidos con interfaz bien definida y bajo acoplamiento"
+            },
+            {
+              "text": "En una fábrica de Zaragoza piden que cada pieza del sistema tenga responsabilidades claras y ocultar su implementación. ¿Qué principio describes?",
+              "options": [
+                "Llamadas cruzadas sin contrato",
+                "Encapsulación a través de una interfaz pública",
+                "Globales compartidas para ahorrar tiempo",
+                "Herencia múltiple por defecto"
+              ],
+              "correctAnswer": "Encapsulación a través de una interfaz pública",
+              "explanation": "La respuesta correcta es: Encapsulación a través de una interfaz pública"
+            },
+            {
+              "text": "Un integrador de Bilbao quiere poder sustituir un componente por otro compatible sin tocar el resto de la app. ¿Qué propiedad del diseño permite esto?",
+              "options": [
+                "Bajo acoplamiento y contrato estable",
+                "Fuertes dependencias entre módulos",
+                "Dependencias circulares con control manual",
+                "Métodos privados en todos los componentes"
+              ],
+              "correctAnswer": "Bajo acoplamiento y contrato estable",
+              "explanation": "La respuesta correcta es: Bajo acoplamiento y contrato estable"
+            },
+            {
+              "text": "En mantenimiento industrial de Vigo, cada equipo desarrolla su pieza en paralelo. ¿Qué necesidad de comunicación debes cubrir entre componentes?",
+              "options": [
+                "Interfaz de comunicación con métodos, propiedades y eventos",
+                "Comentarios en el README",
+                "Solo acceso a campos internos",
+                "Variables estáticas para compartir estado"
+              ],
+              "correctAnswer": "Interfaz de comunicación con métodos, propiedades y eventos",
+              "explanation": "La respuesta correcta es: Interfaz de comunicación con métodos, propiedades y eventos"
+            },
+            {
+              "text": "En una consultora de Valencia quieren medir si el diseño “por componentes” mejora el producto. ¿Qué resultado práctico esperas?",
+              "options": [
+                "Entregas más lentas por exceso de capas",
+                "Mejor reutilización y escalabilidad del sistema",
+                "Código más difícil de probar",
+                "Más dependencias y menor mantenibilidad"
+              ],
+              "correctAnswer": "Mejor reutilización y escalabilidad del sistema",
+              "explanation": "La respuesta correcta es: Mejor reutilización y escalabilidad del sistema"
+            },
+            {
+              "text": "Un ERP en Sevilla necesita que un botón muestre textos distintos sin reprogramarlo. ¿Qué expondrías en el componente?",
+              "options": [
+                "Un archivo por idioma sin relación",
+                "Método interno sin documentación",
+                "Duplicar el componente para cada país",
+                "Propiedad configurable (por ejemplo, “Texto”)"
+              ],
+              "correctAnswer": "Propiedad configurable (por ejemplo, “Texto”)",
+              "explanation": "La respuesta correcta es: Propiedad configurable (por ejemplo, “Texto”)"
+            },
+            {
+              "text": "En un cuadro de mandos, el consumidor quiere leer un valor concreto sin índices. ¿Qué tipo de propiedad encaja?",
+              "options": [
+                "Propiedad simple (un único valor por nombre)",
+                "Propiedad de solo escritura",
+                "Propiedad estática",
+                "Propiedad indexada"
+              ],
+              "correctAnswer": "Propiedad simple (un único valor por nombre)",
+              "explanation": "La respuesta correcta es: Propiedad simple (un único valor por nombre)"
+            },
+            {
+              "text": "En un repositorio de alumnos piden acceder por posición sin exponer la lista. ¿Qué ofrecerías?",
+              "options": [
+                "Propiedad indexada que recibe un índice y devuelve el elemento",
+                "Devvolver copias completas en cada llamada",
+                "Un método que concatene todo en un texto",
+                "Campo público con la colección"
+              ],
+              "correctAnswer": "Propiedad indexada que recibe un índice y devuelve el elemento",
+              "explanation": "La respuesta correcta es: Propiedad indexada que recibe un índice y devuelve el elemento"
+            },
+            {
+              "text": "En una biblioteca de sensores quieren una vista rápida del tercero, cuarto, etc., sin romper el encapsulado. ¿Qué uso correcto harías?",
+              "options": [
+                "Acceso mediante índice a través de la interfaz del componente",
+                "Cargar todos los sensores en memoria global",
+                "Iterar todo siempre",
+                "Exponer la lista interna para rendimiento"
+              ],
+              "correctAnswer": "Acceso mediante índice a través de la interfaz del componente",
+              "explanation": "La respuesta correcta es: Acceso mediante índice a través de la interfaz del componente"
+            },
+            {
+              "text": "El CTO de una pyme pregunta por qué usar propiedades en lugar de campos públicos. ¿Qué argumento práctico das?",
+              "options": [
+                "Gastan menos CPU siempre",
+                "Evitan el uso de eventos",
+                "Permiten validación/control de acceso y mantienen encapsulado",
+                "Obligan a usar herencia"
+              ],
+              "correctAnswer": "Permiten validación/control de acceso y mantienen encapsulado",
+              "explanation": "La respuesta correcta es: Permiten validación/control de acceso y mantienen encapsulado"
+            },
+            {
+              "text": "En atención al cliente de Bilbao quieren llevar el total de tickets creados sin instanciar la clase. ¿Qué definirías?",
+              "options": [
+                "Propiedad de instancia",
+                "Evento global",
+                "Campo privado con getter público",
+                "Propiedad estática compartida por todas las instancias"
+              ],
+              "correctAnswer": "Propiedad estática compartida por todas las instancias",
+              "explanation": "La respuesta correcta es: Propiedad estática compartida por todas las instancias"
+            },
+            {
+              "text": "Un equipo de Madrid necesita impedir que se escriba desde fuera en una propiedad “Total”. ¿Qué harías?",
+              "options": [
+                "Ambos accesores públicos",
+                "Getter público con setter restringido (por ejemplo, privado)",
+                "Ambos accesores internos",
+                "Setter público y getter privado"
+              ],
+              "correctAnswer": "Getter público con setter restringido (por ejemplo, privado)",
+              "explanation": "La respuesta correcta es: Getter público con setter restringido (por ejemplo, privado)"
+            },
+            {
+              "text": "En una clínica de Sevilla se valida que “CorreoElectronico” tenga formato correcto antes de guardar. ¿Qué técnica usarías en el modelo?",
+              "options": [
+                "Reglas duplicadas en cada controlador",
+                "Un Excel con ejemplos",
+                "Atributos de validación aplicados a la propiedad",
+                "Comentarios en el código"
+              ],
+              "correctAnswer": "Atributos de validación aplicados a la propiedad",
+              "explanation": "La respuesta correcta es: Atributos de validación aplicados a la propiedad"
+            },
+            {
+              "text": "Una plataforma educativa necesita decidir qué campos se exportan a JSON sin tocar lógica. ¿Qué ayuda?",
+              "options": [
+                "Atributos de serialización para guiar al motor",
+                "Duplicar modelos para exportar",
+                "Editar a mano cada respuesta",
+                "Variables globales con el listado de campos"
+              ],
+              "correctAnswer": "Atributos de serialización para guiar al motor",
+              "explanation": "La respuesta correcta es: Atributos de serialización para guiar al motor"
+            },
+            {
+              "text": "Un equipo genera documentación automática. ¿Cómo te ayudan los atributos?",
+              "options": [
+                "Proveen metadatos que leen las herramientas para describir clases y reglas",
+                "Sustituyen el control de versiones",
+                "Eliminan la necesidad de pruebas",
+                "Obligan a compilar en debug"
+              ],
+              "correctAnswer": "Proveen metadatos que leen las herramientas para describir clases y reglas",
+              "explanation": "La respuesta correcta es: Proveen metadatos que leen las herramientas para describir clases y reglas"
+            },
+            {
+              "text": "En A Coruña, varios módulos deben reaccionar a “PedidoCreado” sin conocerse entre sí. ¿Qué mecanismo usarías?",
+              "options": [
+                "Eventos y suscripción de manejadores",
+                "Tareas en un bucle de sondeo",
+                "Llamadas directas entre módulos",
+                "Variables globales con flags"
+              ],
+              "correctAnswer": "Eventos y suscripción de manejadores",
+              "explanation": "La respuesta correcta es: Eventos y suscripción de manejadores"
+            },
+            {
+              "text": "En Valladolid te piden poder “desenganchar” un manejador cuando ya no interese. ¿Cómo llamas a esa acción?",
+              "options": [
+                "Cancelación de la suscripción",
+                "Promoción del evento",
+                "Reconexión del evento",
+                "Encolado del evento"
+              ],
+              "correctAnswer": "Cancelación de la suscripción",
+              "explanation": "La respuesta correcta es: Cancelación de la suscripción"
+            },
+            {
+              "text": "Tres módulos se suscriben a un evento en orden A, B y C. ¿Qué esperas al dispararlo?",
+              "options": [
+                "Falla por múltiples suscriptores",
+                "El orden es aleatorio",
+                "Solo se ejecuta el primero",
+                "Se ejecutan los manejadores en el orden de suscripción"
+              ],
+              "correctAnswer": "Se ejecutan los manejadores en el orden de suscripción",
+              "explanation": "La respuesta correcta es: Se ejecutan los manejadores en el orden de suscripción"
+            },
+            {
+              "text": "En un panel de inventario no hay suscriptores a un evento opcional y aun así se lanza. ¿Qué conviene para evitar errores?",
+              "options": [
+                "Crear un log sin disparar el evento",
+                "Comprobar y lanzar de forma segura para evitar excepciones si no hay suscriptores",
+                "Forzar un suscriptor vacío",
+                "Ignorar el problema"
+              ],
+              "correctAnswer": "Comprobar y lanzar de forma segura para evitar excepciones si no hay suscriptores",
+              "explanation": "La respuesta correcta es: Comprobar y lanzar de forma segura para evitar excepciones si no hay suscriptores"
+            },
+            {
+              "text": "En una auditoría técnica piden diferenciar dos términos. ¿Qué distingue introspección de reflexión?",
+              "options": [
+                "La reflexión solo existe en C++",
+                "Son idénticos",
+                "La introspección inspecciona metadatos; la reflexión además invoca o modifica",
+                "La introspección modifica objetos"
+              ],
+              "correctAnswer": "La introspección inspecciona metadatos; la reflexión además invoca o modifica",
+              "explanation": "La respuesta correcta es: La introspección inspecciona metadatos; la reflexión además invoca o modifica"
+            },
+            {
+              "text": "Un equipo de Barcelona carga plugins leyendo tipos y ejecutando métodos por nombre en tiempo de ejecución. ¿Qué necesitan?",
+              "options": [
+                "Reflexión para cargar tipos e invocar métodos dinámicamente",
+                "Editor de recursos",
+                "Un parser XML",
+                "Macros del compilador"
+              ],
+              "correctAnswer": "Reflexión para cargar tipos e invocar métodos dinámicamente",
+              "explanation": "La respuesta correcta es: Reflexión para cargar tipos e invocar métodos dinámicamente"
+            },
+            {
+              "text": "Debes leer y escribir propiedades de un objeto en tiempo de ejecución según su nombre en un fichero de configuración. ¿Qué técnica describes?",
+              "options": [
+                "Inyección por constructor",
+                "Polimorfismo estático",
+                "Reflexión para obtener la propiedad y establecer su valor",
+                "Serialización binaria obligatoria"
+              ],
+              "correctAnswer": "Reflexión para obtener la propiedad y establecer su valor",
+              "explanation": "La respuesta correcta es: Reflexión para obtener la propiedad y establecer su valor"
+            },
+            {
+              "text": "En pruebas, un script necesita listar miembros disponibles de un objeto en tiempo de ejecución. ¿Qué aplicas?",
+              "options": [
+                "Decoradores de UI",
+                "Herencia múltiple",
+                "Sobrecarga",
+                "Introspección para inspeccionar tipo, métodos y propiedades"
+              ],
+              "correctAnswer": "Introspección para inspeccionar tipo, métodos y propiedades",
+              "explanation": "La respuesta correcta es: Introspección para inspeccionar tipo, métodos y propiedades"
+            },
+            {
+              "text": "En una herramienta de diseño, el equipo quiere guardar la configuración de un componente y restaurarla al abrir la app. ¿Qué concepto cubres?",
+              "options": [
+                "Multihilo",
+                "Persistencia del componente (guardar y recuperar su estado)",
+                "Serialización de errores",
+                "Caché en RAM siempre"
+              ],
+              "correctAnswer": "Persistencia del componente (guardar y recuperar su estado)",
+              "explanation": "La respuesta correcta es: Persistencia del componente (guardar y recuperar su estado)"
+            },
+            {
+              "text": "En una aseguradora de Málaga piden que, si falla la escritura del estado a mitad del proceso, no quede corrupto. ¿Qué práctica recomiendas?",
+              "options": [
+                "Escribir por partes sin control",
+                "Operaciones atómicas/seguras de escritura y validación al cargar",
+                "Multiplicar los logs",
+                "Reintentos infinitos sin verificación"
+              ],
+              "correctAnswer": "Operaciones atómicas/seguras de escritura y validación al cargar",
+              "explanation": "La respuesta correcta es: Operaciones atómicas/seguras de escritura y validación al cargar"
+            },
+            {
+              "text": "Al versionar el formato de configuración, ¿qué harías para compatibilidad con estados anteriores?",
+              "options": [
+                "Mantener contrato estable o migrar al cargar con conversores",
+                "Comprimir siempre el archivo",
+                "Cambiar nombres en cada versión",
+                "Mover la carpeta de trabajo"
+              ],
+              "correctAnswer": "Mantener contrato estable o migrar al cargar con conversores",
+              "explanation": "La respuesta correcta es: Mantener contrato estable o migrar al cargar con conversores"
+            },
+            {
+              "text": "Te piden medios para persistir el estado más allá de la ejecución. ¿Qué opciones reales contemplas?",
+              "options": [
+                "Solo bases de datos relacionales",
+                "Serializar a archivos, usar almacenes locales o servicios remotos",
+                "Exclusivamente el registro de Windows",
+                "Copiar el objeto al portapapeles"
+              ],
+              "correctAnswer": "Serializar a archivos, usar almacenes locales o servicios remotos",
+              "explanation": "La respuesta correcta es: Serializar a archivos, usar almacenes locales o servicios remotos"
+            },
+            {
+              "text": "En desarrollo preguntan por herramientas útiles para componentes no visuales. ¿Qué combinación tiene sentido?",
+              "options": [
+                "Editor de imágenes y hojas de cálculo",
+                "IDE, control de versiones, pruebas automatizadas e integración continua",
+                "Un gestor de contraseñas",
+                "Solo un navegador web"
+              ],
+              "correctAnswer": "IDE, control de versiones, pruebas automatizadas e integración continua",
+              "explanation": "La respuesta correcta es: IDE, control de versiones, pruebas automatizadas e integración continua"
+            },
+            {
+              "text": "Un equipo de Granada quiere automatizar compilación, pruebas y despliegues de librerías internas. ¿Qué práctica propones?",
+              "options": [
+                "Configurar CI/CD para compilar, probar y publicar artefactos",
+                "Probar manualmente los viernes",
+                "Subir zips por email",
+                "Desactivar los tests en producción"
+              ],
+              "correctAnswer": "Configurar CI/CD para compilar, probar y publicar artefactos",
+              "explanation": "La respuesta correcta es: Configurar CI/CD para compilar, probar y publicar artefactos"
+            },
+            {
+              "text": "Al preparar la distribución de una librería, piden qué incluye un buen paquete. ¿Qué responderías?",
+              "options": [
+                "Un PDF con capturas",
+                "Código/binarios según proceda, metadatos (ID, versión, descripción) y dependencias",
+                "Un README sin versión",
+                "Solo binarios sin metadatos"
+              ],
+              "correctAnswer": "Código/binarios según proceda, metadatos (ID, versión, descripción) y dependencias",
+              "explanation": "La respuesta correcta es: Código/binarios según proceda, metadatos (ID, versión, descripción) y dependencias"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
