@@ -1,14 +1,10 @@
-# 🎓 Tests DAW - Plataforma de Evaluación Interactiva
+# Tests DAW — Plataforma de evaluación interactiva
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+Plataforma web full stack para practicar tests de Desarrollo de Aplicaciones Web (DAW), con modos de práctica y examen, estadísticas, revisión de fallos y ranking. El repositorio demuestra una aplicación completa con React, TypeScript, Express, Prisma y PostgreSQL.
 
-> Sistema completo de evaluación con doble modo (Práctica/Examen), estadísticas detalladas y gamificación mediante ranking.
+**Demo:** [https://tests-daw.prodelaya.dev](https://tests-daw.prodelaya.dev)
 
-**🌐 Demo en vivo:** [https://tests-daw.prodelaya.dev](https://tests-daw.prodelaya.dev)
+**Uso documentado:** más de 50 usuarios acumulados (dato confirmado por la persona propietaria); no es una métrica de usuarios concurrentes.
 
 ---
 
@@ -44,7 +40,7 @@ Este proyecto demuestra competencias **backend agnósticas al lenguaje**, aplica
 - Gestión de estado y caché
 - Testing y validación de datos
 
-**Objetivo profesional:** Backend Developer especializado en Python (Django/FastAPI). Este proyecto showcasea habilidades transferibles a cualquier tecnología backend.
+**Contexto técnico:** las decisiones de arquitectura son transferibles entre stacks, sin presentar una implementación en Python que el repositorio no contiene.
 
 ---
 
@@ -512,8 +508,6 @@ Documentación detallada de implementación en:
 **GitHub:** [@Prodelaya](https://github.com/Prodelaya)  
 
 
-**Objetivo profesional:** Backend Developer especializado en **Python** (Django/FastAPI)
-
 Este proyecto demuestra:
 - 🎯 Arquitectura backend escalable (MVC, REST, ORM)
 - 🔐 Seguridad (JWT, hashing, validación)
@@ -521,7 +515,7 @@ Este proyecto demuestra:
 - 📊 Diseño de base de datos relacional
 - 🚀 DevOps (PM2, Cloudflare Tunnel, CI/CD)
 
-**Habilidades transferibles a cualquier stack backend (Python, Java, Go, Rust).**
+Las decisiones documentadas son transferibles entre stacks, sin ocultar que esta implementación usa Node.js y TypeScript en el backend.
 
 ---
 
@@ -539,11 +533,3 @@ Este proyecto es de código abierto bajo licencia MIT.
 - **Tailwind CSS** - Diseño responsive eficiente
 
 ---
-
-<div align="center">
-
-**⭐ Si este proyecto te resulta útil, considera darle una estrella en GitHub**
-
-[![GitHub Stars](https://img.shields.io/github/stars/Prodelaya/proyecto-daw-tests?style=social)](https://github.com/Prodelaya/proyecto-daw-tests)
-
-</div>
